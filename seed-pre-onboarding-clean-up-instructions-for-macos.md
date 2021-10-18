@@ -6,8 +6,10 @@ This section explains the pre-onboarding instructions for users onboarding into 
 ## Audience
 Public officers and vendors who likes to onboard into SEED using macOS.
 
-*To clean up your Mac for onboarding into SEED:*
-1. Choose **Apple** menu ![apple-icon](images/apple-icon.png ':size=75%') > **System Preferences**, or click the System Preferences icon  ![](images/system-preference-icon.png ':size=75%')in the **Dock**.
+If you are using a different You must unenroll your device from your existing Mobile Device Management (MDM) software
+
+*To unenroll your device:*
+1. Choose **Apple** menu ![apple-icon](images/apple-icon.png ':size=75%') > **System Preferences**, or click the **System Preferences** icon  ![](images/system-preference-icon.png ':size=75%')in the **Dock**.
 
 
 
