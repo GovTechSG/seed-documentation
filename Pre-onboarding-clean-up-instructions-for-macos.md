@@ -1,4 +1,19 @@
-# SEED Pre-onboarding clean-up instructions (MacOS)
+# Pre-onboarding clean-up instructions for macOS
+
+## About this document
+This section explains the pre-onboarding instructions for users onboarding into SEED using their macOS.
+
+## Audience
+Public officers and vendors who likes to onboard into SEED using macOS.
+
+*To clean up your Mac for onboarding into SEED:*
+1. Choose **Apple** menu ![apple-icon](images/apple-icon.png ':size=75%') > **System Preferences**, or click the System Preferences icon  ![](images/system-preference-icon.png ':size=75%')in the **Dock**.
+
+
+
+
+
+
 
 ## (1) Unenroll your device from existing Mobile Device Management (MDM) software
 
@@ -23,7 +38,7 @@ To check if the Tanium Client is installed on your device, open the &quot;Termin
 
 If an error is returned saying &quot;No such file or directory&quot;, or if no output is returned, the Tanium Client is not installed on your device and you can skip the rest of this section.
 
-To remove the Tanium Client, open the &quot;Terminal&quot;app and copy the following commands in (you can copy the whole block together), then click &quot;Enter&quot;. Enter your MacOS account password when prompted.
+To remove the Tanium Client, open the &quot;Terminal&quot;app and copy the following commands in (you can copy the whole block together), then click &quot;Enter&quot;. Enter your macOS account password when prompted.
 
 ```
 sudo launchctl unload /Library/LaunchDaemons/com.tanium.taniumclient.plist
@@ -50,7 +65,7 @@ sudo rm /var/db/receipts/com.tanium.tanium.client.plist
 
 To check if the WARP client is already installed, open the &quot;Finder&quot; app and look for an application named &quot;Cloudflare WARP.app&quot;. If this application does not exist, WARP is not installed on your device and you can skip the rest of this section.
 
-To remove the existing WARP client, open the &quot;Terminal&quot;app and copy the following command in, entering your MacOS account password when prompted:
+To remove the existing WARP client, open the &quot;Terminal&quot;app and copy the following command in, entering your macOS account password when prompted:
 
 sudo /bin/sh /Applications/Cloudflare\ WARP.app/Contents/Resources/uninstall.sh**
 
