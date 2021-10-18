@@ -1,15 +1,14 @@
-* Prerequisites for onboarding
-  * [Prerequisites to onboard public officers into SEED](prerequisites-for-onboarding-po-to-seed)
-  * [Prerequisites to vendors into SEED](prerequisites-for-onboarding-vendors-to-seed)
-* SEED onboarding
-  * For macOS
-    * [Pre-onboarding clean-up instructions for macOS](seed-pre-onboarding-clean-up-instructions-for-macos)
-    * [Onboarding instructions for macOS](seed-onboarding-instructions-for-macos)
-    * [Offboarding instructions for macOS](seed-offboarding-instructions-for-macos)
- * For Windows  
-   * [Pre-onboarding clean-up instructions for Windows](seed-pre-onboarding-clean-up-instructions-for-windows)
-   * [Onboarding instructions Windows](seed-onboarding-instructions-windows)
-   * [Offboarding instructions Windows](seed-offboarding-instructions-for-windows)
-* Cloudflare WARP client
-  * [cloudflare WARP Client enrolment for macOS](cloudflare-warp-client-enrollment-macos)
-  * [cloudflare WARP Client enrolment for Windows](cloudflare-warp-client-enrollment-windows)
+* Prerequisites for onboarding to SEED
+ * [Public Officers](prerequisites-for-onboarding-po-to-seed)
+ * [Vendors](prerequisites-for-onboarding-vendors-to-seed)
+<!--* SEED onboarding-->
+* macOS
+ * [Clean-up](seed-pre-onboarding-clean-up-instructions-for-macos)
+ * [Onboard](seed-onboarding-instructions-for-macos)
+ * [Offboard](seed-offboarding-instructions-for-macos)
+ * [Cloudflare WARP Client enrolment](cloudflare-warp-client-enrollment-macos)
+* Windows  
+ * [Clean-up](seed-pre-onboarding-clean-up-instructions-for-windows)
+ * [Onboard](seed-onboarding-instructions-windows)
+ * [Offboard](seed-offboarding-instructions-for-windows)
+ * [Cloudflare WARP Client enrolment](cloudflare-warp-client-enrollment-windows)

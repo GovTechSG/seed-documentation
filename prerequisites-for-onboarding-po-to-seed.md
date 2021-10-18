@@ -1,23 +1,21 @@
-# Prerequisites for onboarding public officers into Security suite for Engineering Endpoint Devices (SEED)
+# Prerequisites for onboarding Public Officers to Security suite for Engineering Endpoint Devices (SEED)
 
-This document provides instructions for onboarding into SEED as a public officer. For avoidance of doubt, this means that you have an **email address belonging to the gov.sg domain** (e.g. your_name@tech.gov.sg or your_name@mof.gov.sg). This document will henceforth refer to this email address as your **WoG ID.**
+Objective: This document provides the prerequisites for onboarding Public Officers to SEED.
 
-Do note that SEED is meant for **Non-GSIB devices** only, so please do not attempt to onboard your GSIB. We currently only support devices running **Windows 10 Pro/Enterprise** , or **MacOS Catalina 10.15 and above**.
+?> Tip: If you are a Public Officer, you will have an email address belonging to the gov.sg domain. For example, *your_name*@tech.gov.sg or *your_name*@mof.gov.sg. Henceforth, this document will refer to this as your WOG ID.
 
-## Prerequisites
+Audience: Public Officers
 
-1. Setting up 2FA for your WoG account
+?> Note: SEED is supported by **Non-GSIB** devices that run on Windows 10 Pro/Enterprise, or macOS Catalina 10.15 and above.
 
-If you have not done so before, please follow the instructions at [**this link**](https://account.activedirectory.windowsazure.com/Proofup.aspx)to activate 2FA for your WoG account. This is required before you can sign in to SEED-related services using your WoG ID.
+Following are the prerequisites for onboarding Public Officers to SEED:
 
-2. Creation and activation of TechPass account
+1. A WOG account with [two-factor authentication (2FA)](https://account.activedirectory.windowsazure.com/Proofup.aspx) is required before you can sign in to SEED-related services.
 
-You will need to create a TechPass account that is linked to your WoG ID. You can do so by following the instructions at [**this link.**](https://docs.developer.tech.gov.sg/docs/techpass-documentation/#/onboard?id=public-officer) Take note that **this TechPass account uses the same username and password as your WoG ID** by default, which means you will only need to remember one set of credentials.
+2. An active TechPass account that is linked to your WOG ID. If you do not have one, visit [Create TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-documentation/#/onboard?id=public-officer) to create a TechPass account.
 
-3. Configure your device for a clean onboarding attempt
+?> Note: This TechPass account uses the same username and password as that of your WOG ID and hence acts as a single sign-on.
 
-Onboarding to SEED will involve the installation and configuration of several pieces of software. In order to prevent any conflicts while attempting to onboard, you will need to configure your device for a clean onboarding attempt. Please follow all the relevant instructions provided **(2) SEED Pre-onboarding Clean-up Instructions (Windows).docx** and **(2) SEED Pre-onboarding Clean-up Instructions (MacOS).docx** respectively.
+3. [Configure your macOS for a clean onboarding](Pre-onboarding-clean-up-instructions-for-macos) or [Configure your Windows for a clean onboarding](Pre-onboarding-clean-up-instructions-for-windows)
 
-4. Onboard your device to SEED
-
-Windows users should follow the onboarding instructions found at **(3) SEED Onboarding Instructions (Windows).docx**, while MacOS users should follow the instructions found at **(3) SEED Onboarding Instructions (MacOS).docx**. Please follow the instructions carefully to avoid complications during the onboarding process.
+ Now you may proceed to [Onboard using macOS](seed-onboarding-instructions-for-macos) or [Onboard using Windows](seed-onboarding-instructions-windows)

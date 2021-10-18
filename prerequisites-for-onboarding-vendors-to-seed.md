@@ -1,19 +1,21 @@
-# Prerequisites for onboarding vendors into Security suite for Engineering Endpoint Devices(SEED)
+# Prerequisites for onboarding vendors to Security suite for Engineering Endpoint Devices(SEED)
 
-This document provides instructions for onboarding into SEED as a VENDOR. For avoidance of doubt, this means that you **DO NOT have an**** email address belonging to the gov.sg domain** (e.g. your_name@tech.gov.sg or [your_name@mof.gov.sg](mailto:your_name@mof.gov.sg)), and you are not under the employment of any Government agency or ministry.
+Objective: This document provides the prerequisites for onboarding vendors to SEED.
 
-Do note that SEED is meant for **internet-enabled devices** only, and we currently only support devices running **Windows 10 Pro/Enterprise** , or **MacOS Catalina 10.15 and above**.
+Audience: Vendors
 
-**Prerequisites**
+?> Note: SEED is supported by **internet-enabled devices** devices that run on Windows 10 Pro/Enterprise, or macOS Catalina 10.15 and above.
 
-1. Creation and set-up of TechPass account
+Following are the prerequisites for onboarding vendors to SEED:
 
-You will need a TechPass account in order to onboard to SEED and to access any Government engineering resources. This account represents your Government ID for digital services, and should be created for you by the agency or ministry who engaged you. Please inform them if you have not received the account credentials. The username for a TechPass account should look something like this: [**your_name@techpass.gov.sg**](mailto:your_name@techpass.gov.sg).
+1. An active TechPass account. <!--If you do not have one, visit [Create TechPass account]() to create a TechPass account.-->
 
-2. Configure your device for a clean onboarding attempt
+Note:
 
-Onboarding to SEED will involve the installation and configuration of several pieces of software. In order to prevent any conflicts while attempting to onboard, you will need to configure your device for a clean onboarding attempt. Please follow all the relevant instructions provided **(2) SEED Pre-onboarding Clean-up Instructions (Windows).docx** and **(2) SEED Pre-onboarding Clean-up Instructions (MacOS).docx** respectively.
+- This account is your Government ID for accessing its digital services and will be created for you by the agency or ministry that engaged you.
 
-3. Onboard your device to SEED
+- Username for your TechPass account will look like *your_name*@techpass.gov.sg.
 
-Windows users should follow the onboarding instructions found at **(3) SEED Onboarding Instructions (Windows).docx**, while MacOS users should follow the instructions found at **(3) SEED Onboarding Instructions (MacOS).docx****.**Please follow the instructions carefully to avoid complications during the onboarding process.
+2. [Configure your macOS for a clean onboarding](seed-pre-onboarding-clean-up-instructions-for-macos) or [Configure your Windows for a clean onboarding](seed-pre-onboarding-clean-up-instructions-for-windows)
+
+ Now you may proceed to [Onboard using macOS](seed-onboarding-instructions-for-macos) or [Onboard using Windows](seed-onboarding-instructions-windows)
