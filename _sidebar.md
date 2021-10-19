@@ -1,4 +1,4 @@
-* Prerequisites for onboarding to SEED
+* Prerequisites
   * [Public Officers](prerequisites-for-onboarding-po-to-seed)
   * [Vendors](prerequisites-for-onboarding-vendors-to-seed)
 <!--* SEED onboarding-->
