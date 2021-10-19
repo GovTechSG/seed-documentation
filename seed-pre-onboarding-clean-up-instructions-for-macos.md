@@ -9,7 +9,7 @@ Public officers and vendors who likes to onboard into SEED using macOS.
 If you are using a different You must unenroll your device from your existing Mobile Device Management (MDM) software
 
 *To unenroll your device:*
-1. Choose **Apple** menu ![apple-icon](images/apple-icon.png ':size=75%') > **System Preferences**, or click the **System Preferences** icon  ![](images/system-preference-icon.png ':size=75%')in the **Dock**.
+1. Choose **Apple** menu ![apple-icon](images/apple-icon.png ':size=25%') > **System Preferences**, or click the **System Preferences** icon  ![](images/system-preference-icon.png ':size=25%')in the **Dock**.
 
 
 
