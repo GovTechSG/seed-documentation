@@ -1,10 +1,10 @@
-# Prerequisites for onboarding vendors to Security suite for Engineering Endpoint Devices(SEED)
+# Prerequisites for onboarding vendors
 
-Objective: This document provides the prerequisites for onboarding vendors to SEED.
+**Objective**: This document provides the prerequisites for onboarding vendors to SEED.
 
-Audience: Vendors
+**Audience**: Vendors
 
-?> Note: SEED is supported by **internet-enabled devices** devices that run on Windows 10 Pro/Enterprise, or macOS Catalina 10.15 and above.
+?> Note: SEED is supported by internet-enabled devices devices that run on Windows 10 Pro/Enterprise, or macOS Catalina 10.15 and above.
 
 Following are the prerequisites for onboarding vendors to SEED:
 
@@ -12,9 +12,9 @@ Following are the prerequisites for onboarding vendors to SEED:
 
 Note:
 
-- This account is your Government ID for accessing its digital services and will be created for you by the agency or ministry that engaged you.
+- TechPass account allows you to access Govtech's digital services and is created for you by the engaging agency or ministry.
 
-- Username for your TechPass account will look like *your_name*@techpass.gov.sg.
+- Example of TechPass username format is *your_name@techpass.gov.sg*.
 
 2. [Configure your macOS for a clean onboarding](seed-pre-onboarding-clean-up-instructions-for-macos) or [Configure your Windows for a clean onboarding](seed-pre-onboarding-clean-up-instructions-for-windows)
 
