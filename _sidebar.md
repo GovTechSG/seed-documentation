@@ -1,5 +1,5 @@
 * Prerequisites
-  * [Public Officers](prerequisites-for-onboarding-po-to-seed)
+  * [Public Officers](prerequisites-for-onboarding-public-officer-to-seed)
   * [Vendors](prerequisites-for-onboarding-vendors-to-seed)
 <!--* SEED onboarding-->
 * macOS
