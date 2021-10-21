@@ -1,4 +1,78 @@
-# SEED Pre-onboarding Clean-up Instructions (Windows)
+# Get Microsoft Windows ready for onboarding
+
+**Objective** : This section explains how to get your Microsoft Windows machine ready for SEED onboarding.
+
+**Audience** :
+- Public officers and vendors who intend to onboard using macOS.
+- Defender ATP administrator who provides the scripts to vendors for offboarding from Microsoft Defender ATP.
+
+Follow the below steps to get your device ready:
+1. [Remove existing MDM software](#remove-existing-mdm-software)
+2. [Remove Tanium Client](#remove-tanium-client)
+3. [Remove pre-existing Cloudflare WARP client](#remove-pre-existing-cloudflare-warp-client)
+4. [Remove Microsoft Defender ATP](#remove-microsoft-defender-atp)
+
+## [Remove existing MDM software](#remove-existing-mdm-software)
+Before proceeding to onboard, verify if your device is currently managed by any other MDM software and unenrol your device from it.
+
+*To remove existing MDM software* :
+1. Click **Start** icon on the taskbar.
+2. Go to **Settings** > **Accounts**.
+3. From the left menu, choose **Access work or school**.
+<!-- image verify-mdm-->
+If your device is managed by an MDM, your username in your organisation's domain will be displayed under **Work or school account**.
+<!--image access-work-orschool-account-->
+4. Click **Work or school account** and then click **Disconnect**.
+
+## [Remove Tanium Client](#remove-tanium-client)
+If Tanium Client is installed on your device, remove it before proceeding further.The below steps guide you how to verify its availability on your device and remove it.
+
+*To remove Tanium Client* :
+1. Click **Start** icon on the taskbar.
+2. Go to **Settings** > **Apps** and search for **Tanium Client**.
+3. If available, choose **Tanium Client** and then click **Uninstall**.
+
+## [Remove pre-existing Cloudflare WARP client](#remove-pre-existing-cloudflare-warp-client)
+If Cloudflare WARP client is installed on your device, remove it before proceeding further. The below steps guide you to verify its availability on your device and remove it.
+
+*To remove Cloudflare WARP client* :
+1. Click **Start** icon on the taskbar.
+2. Go to **Settings** > **Apps** and search for **Cloudflare WARP**.
+3. If available, choose **Cloudflare WARP** and then click **Uninstall**.
+
+## Offboard from Windows Defender for Endpoint
+1. In the search box on the taskbar, type **regedit**, then select **Registry Editor** from the results.  
+2. In the **Registry Editor**, go to **Computer** > **HKEY_LOCAL_MACHINE** > **SOFTWARE** > **Policies** > **Microsoft**
+3.Choose **Windows Advanced Threat Protection** and search for **OnboardingInfo**.
+4. If available, get the offboarding script from your Defender Security Center administrator.
+5. Save the offboarding script in the **Downloads** folder.
+6. Type **cmd** in the search box on the taskbar.
+7. Select **Command Prompt** and right-click to choose **Run as administrator**.
+8. If prompted, enter your Windows password.
+9. Run the below in the Command prompt.
+
+ ```
+ cd “%USERPROFILE%\Downloads\”
+.\name_of_offboarding_script.cmd
+  ```
+<!--
+  ### [Get offboarding scripts for Microsoft Defender ATP](#get-offboarding-scripts-for-microsoft-defender-atp)
+
+  - If you are a Public Officer, [contact GCC2.0 team](gcc2.0_support@tech.gov.sg) to get the offboarding scripts.
+
+  - If you are a vendor, contact your Defender ATP administrator to get the offboarding scripts. The Defender ATP administrator will do the following:
+
+
+-->
+
+
+
+
+
+
+
+
+
 
 ## (1) Unenroll your device from existing Mobile Device Management (MDM) software
 
@@ -35,4 +109,4 @@
 
 **cd &quot;%USERPROFILE%\Downloads\&quot;**
 
-**.\name\_of\_offboarding\_script.cmd**
+**.\name\_of\_offboarding\_script.cmd** -->

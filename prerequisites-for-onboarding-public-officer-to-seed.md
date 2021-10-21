@@ -16,6 +16,6 @@ Following are the prerequisites for onboarding Public Officers to SEED:
 
 ?> Note: You can use your WOG account credentials for your TechPass account, and it acts as a single sign-on.
 
-3. [Configure your macOS for a clean onboarding](seed-pre-onboarding-clean-up-instructions-for-macos) or [Configure your Windows for a clean onboarding](seed-pre-onboarding-clean-up-instructions-for-windows)
+3. [Get macOS ready for onboarding](seed-pre-onboarding-clean-up-instructions-for-macos) or [Configure your Windows for a clean onboarding](seed-pre-onboarding-clean-up-instructions-for-windows)
 
  Now you may proceed to [Onboard using macOS](seed-onboarding-instructions-for-macos) or [Onboard using Windows](seed-onboarding-instructions-windows)
