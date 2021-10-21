@@ -7,6 +7,7 @@
 - Public officers and vendors who intend to onboard using macOS.
 - Defender ATP administrator who provides the scripts to vendors for offboarding from Microsoft Defender ATP.
 
+
 Follow the below steps to get your device ready:
 1. [Remove existing MDM software](#remove-existing-mdm-software)
 2. [Unenrol from Intune](#unenrol-from-intune)
@@ -123,7 +124,7 @@ If Microsoft Defender ATP is available in your device, offboard from it first an
  b. Click **Settings** > **Device Management** > **Offboard**.
 
  c. Select macOS as operating system and Local Script as **Deployment Method**.
- 
+
 
 
 
