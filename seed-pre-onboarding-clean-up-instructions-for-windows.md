@@ -10,7 +10,7 @@ Follow the below steps to get your device ready:
 1. [Remove existing MDM software](#remove-existing-mdm-software)
 2. [Remove Tanium Client](#remove-tanium-client)
 3. [Remove pre-existing Cloudflare WARP client](#remove-pre-existing-cloudflare-warp-client)
-4. [Remove Microsoft Defender ATP](#remove-microsoft-defender-atp)
+4. [Offboard from Windows Defender for Endpoint](#offboard-from-windows-defender-for-endpoint)
 
 ## [Remove existing MDM software](#remove-existing-mdm-software)
 Before proceeding to onboard, verify if your device is currently managed by any other MDM software and unenrol your device from it.
@@ -40,7 +40,7 @@ If Cloudflare WARP client is installed on your device, remove it before proceedi
 2. Go to **Settings** > **Apps** and search for **Cloudflare WARP**.
 3. If available, choose **Cloudflare WARP** and then click **Uninstall**.
 
-## Offboard from Windows Defender for Endpoint
+## [Offboard from Windows Defender for Endpoint](#offboard-from-windows-defender-for-endpoint)
 1. In the search box on the taskbar, type **regedit**, then select **Registry Editor** from the results.  
 2. In the **Registry Editor**, go to **Computer** > **HKEY_LOCAL_MACHINE** > **SOFTWARE** > **Policies** > **Microsoft**
 3.Choose **Windows Advanced Threat Protection** and search for **OnboardingInfo**.
