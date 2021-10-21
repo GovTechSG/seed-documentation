@@ -14,7 +14,7 @@ Note:
 
 - TechPass account allows you to access Govtech's digital services and is created for you by the engaging agency or ministry.
 
-- Example of TechPass username format is *your_name@techpass.gov.sg*.
+- Example of your TechPass username format is *your_name@techpass.gov.sg*.
 
 2. [Configure your macOS for a clean onboarding](seed-pre-onboarding-clean-up-instructions-for-macos) or [Configure your Windows for a clean onboarding](seed-pre-onboarding-clean-up-instructions-for-windows)
 
