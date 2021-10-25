@@ -1,3 +1,4 @@
+<!--
 # Enrol your macOS on Cloudflare using WARP client
 
 **Prerequisites:**
@@ -58,3 +59,5 @@ The following screen is displayed.
 
 
 - [Download and install Cloudflare WARP Client](https://install.appcenter.ms/orgs/cloudflare/apps/1.1.1.1-macos-1/distribution_groups/release) for macOS.
+
+-->
