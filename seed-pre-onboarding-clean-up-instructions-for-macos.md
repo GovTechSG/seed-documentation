@@ -1,4 +1,4 @@
-# Get macOS ready for onboarding
+# Get your macOS ready for onboarding
 
 
 **Objective** : This section explains how to get your Mac ready for SEED onboarding.
@@ -18,7 +18,7 @@ Follow the below steps to get your device ready:
 <!--If you are using a different You must unenroll your device from your existing Mobile Device Management (MDM) software-->
 
 ## [Remove existing MDM software](#remove-existing-mdm-software)
-Before proceeding to onboard, verify if your device is currently managed by any other MDM software and unenrol your device from it.
+Before proceeding to onboard, verify if your device is currently managed by an MDM software and unenrol your device from it.
 
 *To verify if you already have an MDM software* :
 1. Choose **Apple** menu > **System Preferences**, or click the **System Preferences** icon in the **Dock**.
@@ -113,17 +113,20 @@ If Microsoft Defender ATP is available in your device, offboard from it first an
 8. Choose **Applications** and search for **Microsoft Defender for Endpoint**.
 9. Drag the app to the Trash, or select the app and choose **File** > **Move to Trash**.
 
-[Get offboarding scripts for Microsoft Defender ATP](#get-offboarding-scripts-for-microsoft-defender-atp)
+### [Get offboarding scripts for Microsoft Defender ATP](#get-offboarding-scripts-for-microsoft-defender-atp)
 
 - If you are a Public Officer, [contact GCC2.0 team](gcc2.0_support@tech.gov.sg) to get the offboarding scripts.
 
-- If you are a vendor, contact your Defender ATP administrator to get the offboarding scripts. The Defender ATP administrator will do the following:
+- If you are a vendor, contact your Defender ATP administrator to get the offboarding scripts.
 
- a. Go to [Defender Security Center portal](https://securitycenter.windows.com/)
+If you are a Defender ATP administrator, follow the below steps to get the offboarding scripts:
 
- b. Click **Settings** > **Device Management** > **Offboard**.
 
- c. Select macOS as operating system and Local Script as **Deployment Method**.
+ 1. Go to [Defender Security Center portal](https://securitycenter.windows.com/)
+
+ 2. Click **Settings** > **Device Management** > **Offboard**.
+
+ 3. Select *macOS* as operating system and *Local Script* as **Deployment Method**.
 
 
 

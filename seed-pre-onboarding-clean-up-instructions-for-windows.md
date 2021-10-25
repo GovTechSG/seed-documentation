@@ -44,7 +44,7 @@ If Cloudflare WARP client is installed on your device, remove it before proceedi
 1. In the search box on the taskbar, type **regedit**, then select **Registry Editor** from the results.  
 2. In the **Registry Editor**, go to **Computer** > **HKEY_LOCAL_MACHINE** > **SOFTWARE** > **Policies** > **Microsoft**
 3.Choose **Windows Advanced Threat Protection** and search for **OnboardingInfo**.
-4. If available, get the offboarding script from your Defender Security Center administrator.
+4. If available, [get the offboarding script](#get-offboarding-scripts-for-microsoft-defender-atp) for your device.
 5. Save the offboarding script in the **Downloads** folder.
 6. Type **cmd** in the search box on the taskbar.
 7. Select **Command Prompt** and right-click to choose **Run as administrator**.
@@ -55,6 +55,21 @@ If Cloudflare WARP client is installed on your device, remove it before proceedi
  cd “%USERPROFILE%\Downloads\”
 .\name_of_offboarding_script.cmd
   ```
+
+  ### [Get offboarding scripts for Microsoft Defender ATP](#get-offboarding-scripts-for-microsoft-defender-atp)
+
+  - If you are a Public Officer, [contact GCC2.0 team](gcc2.0_support@tech.gov.sg) to get the offboarding scripts.
+
+  - If you are a vendor, contact your Defender ATP administrator to get the offboarding scripts.
+
+  If you are a Defender ATP administrator, follow the below steps to get the offboarding scripts:
+
+   1. Go to [Defender Security Center portal](https://securitycenter.windows.com/).
+
+   2. Click **Settings** > **Devices** > **Offboard**.
+
+   3. Select *Windows* as operating system and *Local Script* as **Deployment Method**.
+
 <!--
   ### [Get offboarding scripts for Microsoft Defender ATP](#get-offboarding-scripts-for-microsoft-defender-atp)
 
@@ -71,7 +86,7 @@ If Cloudflare WARP client is installed on your device, remove it before proceedi
 
 
 
-
+<!--
 
 
 ## (1) Unenroll your device from existing Mobile Device Management (MDM) software
