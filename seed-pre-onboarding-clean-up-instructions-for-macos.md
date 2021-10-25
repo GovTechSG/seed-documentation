@@ -1,7 +1,6 @@
 # Get your macOS ready for onboarding
 
-
-**Objective** : This section explains how to get your Mac ready for SEED onboarding.
+**Objective**: This section explains how to get your Mac ready for SEED onboarding.
 
 **Audience** :
 - Public officers and vendors who intend to onboard using macOS.
@@ -17,31 +16,31 @@ Follow the below steps to get your device ready:
 
 <!--If you are using a different You must unenroll your device from your existing Mobile Device Management (MDM) software-->
 
-## [Remove existing MDM software](#remove-existing-mdm-software)
+## Remove existing MDM software
 Before proceeding to onboard, verify if your device is currently managed by an MDM software and unenrol your device from it.
 
 *To verify if you already have an MDM software* :
-1. Choose **Apple** menu > **System Preferences**, or click the **System Preferences** icon in the **Dock**.
+1. Go to **Apple** menu > **System Preferences**, or click the **System Preferences** icon in the **Dock**.
 2. Go to **Profiles** and from the left menu, choose **Management Profile**.
 <kbd>![verify-other-mdm](images/onboarding-for-macos/verify-other-mdm.png)</kbd>
-At the bottom left, if you see "This Mac is supervised and managed by *your-organisation-name* it indicates you already have an MDM software and proceed to unenrol your Mac from it.
+3. At the bottom left, if you see "This Mac is supervised and managed by *your-organisation-name* it indicates you already have an MDM software, click minus sign (-) at the bottom to unenrol your Mac from it.
 
-## [Unenrol from Intune](#unenrol-from-intune)
+## Unenrol from Intune
 
-If your device is managed by Intune, follow the below steps to unenrol your device from it. For MDM softwares other than Intune, contact your organisation's IT administrator to unenrol your device.
+If your device is managed by Intune, complete the following steps to unenrol your device from it. For MDM softwares other than Intune, contact your organisation's IT administrator to unenrol your device from it.
 
 *To unenrol your device from Intune* :
-1. On your Mac, click the **Spotlight** icon or press the Command+space bar to open the **Spotlight Search**.
+1. On your Mac, click the **Spotlight** icon or press the ``Command+Spacebar`` to open the **Spotlight Search**.
 2. Enter **Company Portal**.
 3. Sign in to **Company Portal**.
 <kbd>![sign-in-to-company-portal](images/onboarding-for-macos/sign-in-to-company-portal.png)</kbd>
 4. Go to **Devices** and click the three dots beside the device you want to unenrol.
 5. Choose **Remove**.
 <kbd>![devices](images/onboarding-for-macos/devices-2.png)</kbd>
-6. When asked to confirm the removal, select **Remove**.
+6. When prompted to confirm the removal, select **Remove**.
 7. Click your profile icon and **Sign out** of Company Portal.
 
-## [Remove Tanium Client](#remove-tanium-client)
+## Remove Tanium Client
 If Tanium Client is installed on your device, remove it before proceeding further.The below steps guide you to verify its availability on your device and remove it.
 
 *To remove Tanium Client* :
@@ -52,11 +51,11 @@ If Tanium Client is installed on your device, remove it before proceeding furthe
 sudo ls /Library/Tanium/TaniumClient
  ```
 
-If you see the below on your Terminal, it indicates that Tanium Client is installed on your device. If not, proceed to [Remove pre-existing Cloudflare WARP client](#remove-pre-existing-cloudflare-warp-client).
+2. If you see the below on your **Terminal**, it indicates that Tanium Client is installed on your device and go to step 3. If not, proceed to [Remove pre-existing Cloudflare WARP client](#remove-pre-existing-cloudflare-warp-client).
 
 <kbd>![tanium-client](images/clean-up-instructions-macos.png)</kbd>
 
-2. Run the following commands in **Terminal**.
+3. Run the following commands in **Terminal**.
 
   ```
   sudo launchctl unload /Library/LaunchDaemons/com.tanium.taniumclient.plist
@@ -79,9 +78,9 @@ If you see the below on your Terminal, it indicates that Tanium Client is instal
 
  ```
 
-3. Enter your macOS password when prompted. Once the commands are successfully executed, the Tanium Client is removed from your device.
+4. Enter your macOS password when prompted. Once the commands are successfully executed, Tanium Client is removed from your device.
 
-## [Remove pre-existing Cloudflare WARP client](#remove-pre-existing-cloudflare-warp-client)
+## Remove pre-existing Cloudflare WARP client
 If Cloudflare WARP client is installed on your device, remove it before proceeding further. The below steps guide you to verify its availability on your device and remove it.
 
 *To remove Cloudflare WARP client from macOS* :
@@ -94,16 +93,16 @@ If Cloudflare WARP client is installed on your device, remove it before proceedi
   sudo /bin/sh /Applications/Cloudflare\ WARP.app/Contents/Resources/uninstall.sh
   ```
 
-5. Enter your macOS password when prompted. Once the command is successfully executed, the Cloudflare WARP client is removed from your device.
+5. When prompted, enter your macOS password. Once the command is successfully executed, the Cloudflare WARP client is removed from your device.
 
-## [Remove Microsoft Defender ATP](#remove-microsoft-defender-atp)
+## Remove Microsoft Defender ATP
 If Microsoft Defender ATP is available in your device, offboard from it first and then remove it. The below steps tell you how to verify its availability on your device, offboard from it and remove it.
 
 *To offboard from Microsoft Defender ATP* :
 1. Click the **Finder** icon in the **Dock**.
 2. Choose **Applications**.
 3. Search for **Microsoft Defender ATP**.
-4. If available, [get the offboarding scripts](#get-offboarding-scripts-for-microsoft-defender-atp) for your device.
+4. If available, [get the offboarding scripts](#get-offboarding-scripts-for-microsoft-defender-atp) for your device or you may proceed to [onboard to SEED](seed-onboarding-instructions-for-macos).
 5. Save the offboarding script in the **Downloads** folder.
 6. Go to the **Terminal** and run the following command:
   ```
@@ -113,9 +112,9 @@ If Microsoft Defender ATP is available in your device, offboard from it first an
 8. Choose **Applications** and search for **Microsoft Defender for Endpoint**.
 9. Drag the app to the Trash, or select the app and choose **File** > **Move to Trash**.
 
-### [Get offboarding scripts for Microsoft Defender ATP](#get-offboarding-scripts-for-microsoft-defender-atp)
+### Get offboarding scripts for Microsoft Defender ATP
 
-- If you are a Public Officer, [contact GCC2.0 team](gcc2.0_support@tech.gov.sg) to get the offboarding scripts.
+- If you are a public officer, [contact GCC2.0 team](gcc2.0_support@tech.gov.sg) to get the offboarding scripts.
 
 - If you are a vendor, contact your Defender ATP administrator to get the offboarding scripts.
 

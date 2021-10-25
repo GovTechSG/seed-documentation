@@ -2,7 +2,7 @@
 
 This sections explains public officers and vendors the prerequisites for onboarding and how to onboard into SEED using macOS.
 
-**Prerequisites** : Complete the [pre-onboarding instructions](seed-pre-onboarding-clean-up-instructions-for-macos).
+**Prerequisites** : Complete the [pre-onboarding instructions](#seed-pre-onboarding-clean-up-instructions-for-macos).
 
 During this onboarding journey you will do the following:
 1. [Get your macOS device managed by Intune Company Portal app](#get-your-macos-device-managed-by-intune-company-portal-app).
@@ -51,7 +51,7 @@ Enrol your macOS device with the Intune Company Portal app to get a secured acce
 <kbd>![profile-1](images/onboarding-for-macos/profile-1.png)</kbd>
 
 Tip:
- - If **Profiles** page is not displayed, click the   Apple icon > **System Preferences** >**System Preferences** > **Profiles**.
+ - If **Profiles** page is not displayed, go to the **Apple** menu > **System Preferences** >**System Preferences** > **Profiles**.
 
  - If **Management Profile** is not displayed, then from the left side menu of **Profiles** , select **Management Profile**.
 
@@ -86,14 +86,14 @@ To verify if SIP is enabled, open **Terminal** and run the following command:
 
  If the response on your **Terminal** is ``System Integrity Protection status: enabled``, it indicates that SIP is already enabled on your device.
 
- ?> Note: If it is currently disabled, run the command ``csrutil enable`` on the **Terminal** and restart your device.
+ ?>  If it is currently disabled, run the command ``csrutil enable`` on the **Terminal** and restart your device.
 
 ## Ensure your device hard disk is encrypted
 To protect the privacy of your files and user data secured, ensure your device hard disk is encrypted.
 
 *To ensure your device hard disk is encrypted* :
 
-1. Click the Apple icon > **System Preferences** > **Security & Privacy**.
+1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
 2. Click the **FileVault** tab.
 3. If you see **Turn on FileVault**, go to step 4 or close **Security & Privacy**.
 4. Click the lock icon and use your Touch ID or enter your password to unlock.
@@ -102,7 +102,7 @@ To protect the privacy of your files and user data secured, ensure your device h
 
 <kbd>![create-recovery-key](images/onboarding-for-macos/create-recovery-key-1.png)</kbd>
 
- ?> Important: Save this key on a different device.
+ ?>  Save this key on a different device.
 
 <!--Note:
 
@@ -112,7 +112,7 @@ To protect the privacy of your files and user data secured, ensure your device h
 ## Enable Full Disk Access(FDA)
 Enable Full Disk Access is for TaniumClient, Microsoft Defender ATP and Microsoft Defender ATP Security Extension.
 *To enable FDA* :
-1. Click the Apple icon > **System Preferences** > **Security & Privacy**.
+1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
 2. Click the **Privacy** tab.
 3. From the side menu, choose **Full Disk Access**.
 4. Click the lock icon at the bottom and use your Touch ID or enter your  password to unlock.
@@ -123,7 +123,7 @@ Enable Full Disk Access is for TaniumClient, Microsoft Defender ATP and Microsof
  - Microsoft Defender ATP
  - Microsoft Defender ATP Security Extension
 
- ?> If **TaniumClient** is missing, refer to [Common issues and resolution](#common-issues-and-resolution) before proceeding further.
+ ?>  If **TaniumClient** is missing, refer to [Common issues and resolution](#common-issues-and-resolution) before proceeding further.
 
 6. Select the checkboxes beside these applications.
 
@@ -142,7 +142,7 @@ Enable Full Disk Access is for TaniumClient, Microsoft Defender ATP and Microsof
 
 ![cloudflare-warp-icon](images/onboarding-for-macos/cloudflare-icon.png)
 
-?> Tip: You can also click ``Command+Space`` and search for  **Cloudflare WARP** application to open it.-->
+?>  You can also click ``Command+Spacebar`` and search for  **Cloudflare WARP** application to open it.-->
 
 
 You will see the information page, followed by your privacy policy.
@@ -155,7 +155,7 @@ You will see the information page, followed by your privacy policy.
 
 ![gcc-cloudflare-access-signin](images/cloudflare-warp-macos/gcc-cloudflare-access-signin.png)
 
-?> Note: If you encounter an error stating that user account does not exist in the respective tenant, open a new tab and go to [https://myaccount.microsoft.com](https://myaccount.microsoft.com/), sign out from your account and then retry.
+?>  If you encounter an error stating that user account does not exist in the respective tenant, open a new tab and go to [https://myaccount.microsoft.com](https://myaccount.microsoft.com/), sign out from your account and then retry.
 
 4. Choose the appropriate login credentials to sign in with two-factor authentication:
  - If you are a public officer, use your WOG ID.
@@ -174,7 +174,7 @@ The following screen is displayed.
 
 ![warp-teams](images/cloudflare-warp-macos/warp-teams.png)
 
-?> Note: If you need to connect to a different VPN, disconnect and quit from the WARP client.
+?>  If you need to connect to a different VPN, disconnect and quit from the WARP client.
 
 
 ## Post onboarding notes
@@ -188,7 +188,7 @@ The following screen is displayed.
 1. Restart your device.
 2. If prompted to enter your password, enter your password.
 
-?> Note: While restarting, you will be notified that your device is renamed and will be prompted to reset your password.
+?>  While restarting, you will be notified that your device is renamed and will be prompted to reset your password.
 3. Reset your password.
 
 <!--that **your device has been renamed and will restart in 5 minutes**. This is expected, and the rename is required for SEED to function properly. **Please do not change your device name thereafter**.-->
@@ -199,14 +199,14 @@ Common Issues and Resolution
 
 ![profile-installation-failed](images/onboarding-for-macos/profile-installation-failed.png)
 
-  1. Click Apple icon > **System Preferences** > **Profiles**.
+  1. Go to the **Apple** menu > **System Preferences** > **Profiles**.
   2. Check if **Management Profile** is already an existing profile.
   3. If yes, select it and remove it by clicking the minus icon at the bottom left corner.
 
 2. While enabling FDA, I can't find TaniumClient, what should I do?
 
   1. Open the **Terminal** application and enter the command: ``sudo chmod 755 /Library/Tanium/TaniumClient``.
-  2. Click the Apple icon > **System Preferences** > **Security & Privacy**.
+  2. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
   3. Click the **Privacy** tab.
   4. From the side menu, choose **Full Disk Access**.
   5. Click the lock icon at the bottom and use your Touch ID or enter your password to unlock.

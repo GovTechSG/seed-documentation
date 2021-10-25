@@ -6,7 +6,7 @@
   * [Getting Started](seed-pre-onboarding-clean-up-instructions-for-macos)
   * [Onboard](seed-onboarding-instructions-for-macos)
   * [Offboard](seed-offboarding-instructions-for-macos)
-  * [Cloudflare WARP Client enrolment](cloudflare-warp-client-enrollment-macos)
+  <!--* [Cloudflare WARP Client enrolment](cloudflare-warp-client-enrollment-macos)-->
 * Windows  
   * [Getting Started](seed-pre-onboarding-clean-up-instructions-for-windows)
   * [Onboard](seed-onboarding-instructions-windows)

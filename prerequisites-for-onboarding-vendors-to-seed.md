@@ -1,6 +1,6 @@
 # Prerequisites for onboarding vendors
 
-**Objective**: This document provides the prerequisites for onboarding vendors to SEED.
+**Objective** : This document provides the prerequisites for onboarding vendors to SEED.
 
 **Audience**: Vendors
 
@@ -14,7 +14,7 @@ Note:
 
 - TechPass account allows you to access Govtech's digital services and is created for you by the engaging agency or ministry.
 
-- Example of your TechPass username format is *your_name@techpass.gov.sg*.
+- Example of your TechPass username format is *your_name<span>@</span>techpass.gov.sg*.
 
 2. [Get macOS ready for onboarding](seed-pre-onboarding-clean-up-instructions-for-macos) or [Get Microsoft Windows ready for onboardin](seed-pre-onboarding-clean-up-instructions-for-windows)
 
