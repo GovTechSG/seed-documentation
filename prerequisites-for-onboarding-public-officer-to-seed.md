@@ -1,21 +1,27 @@
-# Prerequisites for onboarding Public Officers
+# Prerequisites for onboarding public officers
 
-**Objective**: This document provides the prerequisites for onboarding public officers to SEED.
+<!--**Objective**:-->
+This document provides the prerequisites for onboarding public officers to SEED.
 
-?> Note: If you are a public officer, ensure that you have an email address belonging to the gov.sg domain. For example, *your_name<span>@</span>tech.gov.sg* or *your_name<span>@</span>mof.gov.sg*. Henceforth, this document will refer to this as your WOG ID.
+<!--?> Note:  You must have email address belonging to the gov.sg domain. For example, *your_name<span>@</span>tech.gov.sg* or *your_name<span>@</span>mof.gov.sg*. Henceforth, this document will refer to this as your WOG ID.-->
 
-**Audience**: Public Officers
+<!--**Audience**: Public Officers-->
 
-?> Note: SEED is supported by Non-GSIB devices that run on Windows 10 Pro/Enterprise, or macOS Catalina 10.15 and above.
+**Supported devices**:
+
+- Non-GSIB devices that run on Windows 10 Pro/Enterprise.
+- macOS Catalina 10.15 and later versions.
 
 Following are the prerequisites for onboarding Public Officers to SEED:
 
-1.  A WOG account with [two-factor authentication (2FA)](https://account.activedirectory.windowsazure.com/Proofup.aspx).
+1.  A [WOG account](term-definitions) with [two-factor authentication (2FA)](https://account.activedirectory.windowsazure.com/Proofup.aspx).
 
-2. An active [TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-documentation/#/onboard?id=public-officer) that is linked to your WOG ID. If you do not have one, [Create a TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-documentation/#/onboard?id=public-officer) now.
+2. An active [TechPass account](term-definitions)that is linked to your WOG ID. If you do not have one, [Create TechPass Account](https://docs.developer.tech.gov.sg/docs/techpass-documentation/#/onboard?id=public-officer) now.
 
-?> Note: You can use your WOG account credentials for your TechPass account, and it acts as a single sign-on.
+?> Note: Use your WOG account credentials to log in to your TechPass account.
 
-3. [Get macOS ready for onboarding](seed-pre-onboarding-clean-up-instructions-for-macos) or [Get Microsoft Windows ready for onboarding](seed-pre-onboarding-clean-up-instructions-for-windows)
+3. Ensure your team representative provides your TechPass ID (in this case it is your WOG ID) to gcc2.0_support@tech.gov.sg at least three working days before the day of onboarding.
 
- Now you may proceed to [Onboard using macOS](seed-onboarding-instructions-for-macos) or [Onboard using Windows](seed-onboarding-instructions-windows)
+4. [Get your macOS ready for onboarding](seed-pre-onboarding-clean-up-instructions-for-macos) or [Get your Microsoft Windows ready for onboarding](seed-pre-onboarding-clean-up-instructions-for-windows)
+
+ Once the GCC2.0 team grants the required access to your TechPass account, you may proceed to [Onboard using macOS](seed-onboarding-instructions-for-macos) or [Onboard using Windows](seed-onboarding-instructions-windows).
