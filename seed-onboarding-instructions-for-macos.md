@@ -97,7 +97,7 @@ To protect the privacy of your files and user data secured, ensure your device h
 2. Click the **FileVault** tab.
 3. If you see **Turn on FileVault**, go to step 4 or proceed to [Enable Full Disk Access(FDA)](#enable-full-disk-access).
 4. Click the lock icon and use your Touch ID or enter your password to unlock.
-5. Click **Turn on FileVault**, .
+5. Click **Turn on FileVault**.
 6. You will be prompted to specify how you would like to unlock your device if you forget your device password. Select **Create a recovery key and do not use my iCloud account**.
 
 <kbd>![create-recovery-key](images/onboarding-for-macos/create-recovery-key-1.png)</kbd>
@@ -116,12 +116,11 @@ Enable Full Disk Access is for TaniumClient, Microsoft Defender ATP and Microsof
 2. Click the **Privacy** tab.
 3. From the side menu, choose **Full Disk Access**.
 4. Click the lock icon at the bottom and use your Touch ID or enter your  password to unlock.
-5. Ensure the following applications are listed.
-
- - Tanium Client
- - Microsoft Intune Agent
- - Microsoft Defender ATP
- - Microsoft Defender ATP Security Extension
+5. Ensure the following applications are listed:
+     - Tanium Client
+     - Microsoft Intune Agent
+     - Microsoft Defender ATP
+     - Microsoft Defender ATP Security Extension
 
  ?>  If **TaniumClient** is missing, refer to [Common issues and resolution](#common-issues-and-resolution) before proceeding further.
 
@@ -197,7 +196,7 @@ The following screen is displayed.
 
 1. What should I do if Profile installation failed when installing the management profile?
 
-![profile-installation-failed](images/onboarding-for-macos/profile-installation-failed.png)
+<kbd>![profile-installation-failed](images/onboarding-for-macos/profile-installation-failed.png)</kbd>
 
   1. Go to the **Apple** menu > **System Preferences** > **Profiles**.
   2. Check if **Management Profile** is already an existing profile.
