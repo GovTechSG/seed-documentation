@@ -1,13 +1,14 @@
 # Get your macOS ready for onboarding
 
-**Objective**: This section explains how to get your Mac ready for SEED onboarding.
+<!--**Objective**: -->
 
-**Audience** :
-- Public officers and vendors who intend to onboard using macOS.
-- Defender ATP administrator who provides the scripts to vendors for offboarding from Microsoft Defender ATP.
+This section explains how public officers and vendors can get their Mac ready for SEED onboarding. It also explains how the **Defender ATP** administrator provides the script for offboarding vendors from Microsoft Defender ATP.
+
+<!--- Public officers and vendors who intend to onboard using macOS.
+- Defender ATP administrator who provides the scripts to vendors for offboarding from Microsoft Defender ATP.-->
 
 
-Follow the below steps to get your device ready:
+Complete the following steps to get your device ready:
 1. [Remove existing MDM software](#remove-existing-mdm-software)
 2. [Unenrol from Intune](#unenrol-from-intune)
 3. [Remove Tanium Client](#remove-tanium-client)
@@ -20,10 +21,10 @@ Follow the below steps to get your device ready:
 Before proceeding to onboard, verify if your device is currently managed by an MDM software and unenrol your device from it.
 
 *To verify if you already have an MDM software* :
-1. Go to **Apple** menu > **System Preferences**, or click the **System Preferences** icon in the **Dock**.
+1. Go to the **Apple** menu > **System Preferences** or click the **System Preferences** icon in the **Dock**.
 2. Go to **Profiles** and from the left menu, choose **Management Profile**.
 <kbd>![verify-other-mdm](images/onboarding-for-macos/verify-other-mdm.png)</kbd>
-3. At the bottom left, if you see "This Mac is supervised and managed by *your-organisation-name* it indicates you already have an MDM software, click minus sign (-) at the bottom to unenrol your Mac from it.
+3. At the bottom left, if you see "This Mac is supervised and managed by *your-organisation-name* it indicates you already have an MDM software.
 
 ## Unenrol from Intune
 

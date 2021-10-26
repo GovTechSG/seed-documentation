@@ -26,4 +26,4 @@ Following are the prerequisites for onboarding vendors to SEED:
 
 3. [Get macOS ready for onboarding](seed-pre-onboarding-clean-up-instructions-for-macos) or [Get Microsoft Windows ready for onboardin](seed-pre-onboarding-clean-up-instructions-for-windows)
 
- Once the GCC2.0 team grants the required access to your TechPass account, you may proceed to [Onboard using macOS](seed-onboarding-instructions-for-macos) or [Onboard using Windows](seed-onboarding-instructions-windows).
+ Once the GCC2.0 team grants the required access to your TechPass account, and if you have completed step 3, proceed to [Onboard using macOS](seed-onboarding-instructions-for-macos) or [Onboard using Windows](seed-onboarding-instructions-windows).
