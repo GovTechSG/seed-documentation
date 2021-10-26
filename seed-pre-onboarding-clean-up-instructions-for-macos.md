@@ -26,12 +26,14 @@ Before proceeding to onboard, verify if your device is currently managed by an M
 <kbd>![verify-other-mdm](images/onboarding-for-macos/verify-other-mdm.png)</kbd>
 3. At the bottom left, if you see "This Mac is supervised and managed by *your-organisation-name* it indicates you already have an MDM software.
 
+?> To unenrol your device from MDM softwares other than Intune, contact your organisation's IT administrator.
+
 ## Unenrol from Intune
 
-If your device is managed by Intune, complete the following steps to unenrol your device from it. For MDM softwares other than Intune, contact your organisation's IT administrator to unenrol your device from it.
+If your device is managed by Intune, complete the following steps to unenrol your device from it.
 
 *To unenrol your device from Intune* :
-1. On your Mac, click the **Spotlight** icon or press the ``Command+Spacebar`` to open the **Spotlight Search**.
+1. Click the **Spotlight** icon or press the ``Command+Spacebar`` to open the **Spotlight Search**.
 2. Enter **Company Portal**.
 3. Sign in to **Company Portal**.
 <kbd>![sign-in-to-company-portal](images/onboarding-for-macos/sign-in-to-company-portal.png)</kbd>
@@ -39,14 +41,14 @@ If your device is managed by Intune, complete the following steps to unenrol you
 5. Choose **Remove**.
 <kbd>![devices](images/onboarding-for-macos/devices-2.png)</kbd>
 6. When prompted to confirm the removal, select **Remove**.
-7. Click your profile icon and **Sign out** of Company Portal.
+7. Click your profile icon and **Sign out** of **Company Portal**.
 
 ## Remove Tanium Client
 If Tanium Client is installed on your device, remove it before proceeding further.The below steps guide you to verify its availability on your device and remove it.
 
 *To remove Tanium Client* :
 
-1. In you macOS, open **Terminal** and run the following command:
+1. Open **Terminal** and run the following command:
 
  ```
 sudo ls /Library/Tanium/TaniumClient
@@ -102,7 +104,7 @@ If Microsoft Defender ATP is available in your device, offboard from it first an
 *To offboard from Microsoft Defender ATP* :
 1. Click the **Finder** icon in the **Dock**.
 2. Choose **Applications**.
-3. Search for **Microsoft Defender ATP**.
+3. Search for **Microsoft Defender ATP.app**.
 4. If available, [get the offboarding scripts](#get-offboarding-scripts-for-microsoft-defender-atp) for your device or you may proceed to [onboard to SEED](seed-onboarding-instructions-for-macos).
 5. Save the offboarding script in the **Downloads** folder.
 6. Go to the **Terminal** and run the following command:
@@ -110,7 +112,7 @@ If Microsoft Defender ATP is available in your device, offboard from it first an
   sudo python ~/Downloads/name_of_offboarding_script.py
   ```
 7. Click the **Finder** icon in the **Dock**.
-8. Choose **Applications** and search for **Microsoft Defender for Endpoint**.
+8. Choose **Applications** and search for **Microsoft Defender for Endpoint.app**.
 9. Drag the app to the Trash, or select the app and choose **File** > **Move to Trash**.
 
 ### Get offboarding scripts for Microsoft Defender ATP
@@ -119,14 +121,17 @@ If Microsoft Defender ATP is available in your device, offboard from it first an
 
 - If you are a vendor, contact your Defender ATP administrator to get the offboarding scripts.
 
-If you are a Defender ATP administrator, follow the below steps to get the offboarding scripts:
+If you are a Defender ATP administrator, do the following to get the offboarding scripts:
 
 
- 1. Go to [Defender Security Center portal](https://securitycenter.windows.com/)
+ 1. Go to [Defender Security Center portal](https://securitycenter.windows.com/).
 
  2. Click **Settings** > **Device Management** > **Offboard**.
 
  3. Select *macOS* as operating system and *Local Script* as **Deployment Method**.
+
+ 4. Download the script from the compressed file, a .zip file, and share it with the vendor(s).
+
 
 
 

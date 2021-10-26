@@ -142,7 +142,7 @@ Enable Full Disk Access is for TaniumClient, Microsoft Defender ATP and Microsof
 
 ![cloudflare-warp-icon](images/onboarding-for-macos/cloudflare-icon.png)
 
-?>  You can also click ``Command+Spacebar`` and search for  **Cloudflare WARP** application to open it.-->
+?>  You can also press ``Command+Spacebar`` and search for  **Cloudflare WARP** application to open it.-->
 
 
 You will see the information page, followed by your privacy policy.
