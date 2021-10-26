@@ -24,4 +24,4 @@ Following are the prerequisites for onboarding Public Officers to SEED:
 
 4. [Get your macOS ready for onboarding](seed-pre-onboarding-clean-up-instructions-for-macos) or [Get your Microsoft Windows ready for onboarding](seed-pre-onboarding-clean-up-instructions-for-windows)
 
- Once the GCC2.0 team grants the required access to your TechPass account, proceed to [Onboard using macOS](seed-onboarding-instructions-for-macos) or [Onboard using Windows](seed-onboarding-instructions-windows).
+ Once the GCC2.0 team grants the required access to your TechPass account, and if you have completed step 4, proceed to [Onboard using macOS](seed-onboarding-instructions-for-macos) or [Onboard using Windows](seed-onboarding-instructions-windows).

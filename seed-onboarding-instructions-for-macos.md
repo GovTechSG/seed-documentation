@@ -2,13 +2,13 @@
 
 This sections explains public officers and vendors the prerequisites for onboarding and how to onboard into SEED using macOS.
 
-**Prerequisites** : Complete the [pre-onboarding instructions](#seed-pre-onboarding-clean-up-instructions-for-macos).
+**Prerequisites** : [Get your macOS ready for onboarding](#seed-pre-onboarding-clean-up-instructions-for-macos).
 
 During this onboarding journey you will do the following:
 1. [Get your macOS device managed by Intune Company Portal app](#get-your-macos-device-managed-by-intune-company-portal-app).
 2. [Ensure SIP is enabled on your device](#ensure-sip-is-enabled-on-your-device).
 3. [Ensure your device hard disk is encrypted](#ensure-your-device-hard-disk-is-encrypted).
-4. [Enable Full Disk Access(FDA)](#enable-full-disk-access-fda).
+4. [Enable Full Disk Access(FDA)](#enable-full-disk-access).
 5. [Enrol your macOS on Cloudflare using WARP client](#enrol-your-macos-on-cloudflare-using-warp-client)
 
 
@@ -20,19 +20,19 @@ Enrol your macOS device with the Intune Company Portal app to get a secured acce
 
 *To manage your device by Intune Company Portal app* :
 
-1. Download and install the [**Company Portal**](https://go.microsoft.com/fwlink/?linkid=853070).
+1. Download and install [**Company Portal**](https://go.microsoft.com/fwlink/?linkid=853070).
 
 2. Open the **Company Portal** application and click **Sign in**.
 
 <kbd>![sign-in](images/onboarding-for-macos/sign-in.png)</kbd>
 
 3. Choose the appropriate login credentials to sign in with two-factor authentication:
- - If you are a public officer, use your WOG ID.
- - If you are a vendor, use your TechPass ID.
+ - If you are a public officer, use your [WOG ID](terms-definitions).
+ - If you are a vendor, use your [TechPass ID](terms-definitions).
 
 <kbd>![log-in-to-gcc](images/onboarding-for-macos/log-in-to-gcc.png)</kbd>
 
-?> Note: If you're using the text message method, after you enter your password, you'll need to type in a verification code sent to your phone. Other authentication methods have different ways to perform the 2FA, based on what you [set up](https://account.activedirectory.windowsazure.com/Proofup.aspx).
+?> Note: If you're using the text message method, after you enter your password, you'll need to enter the verification code sent to your phone. Other authentication methods have different ways to perform the 2FA, based on what you [set up](https://account.activedirectory.windowsazure.com/Proofup.aspx).
 
 4. Once you have signed in, click **Begin**.
 
@@ -51,9 +51,9 @@ Enrol your macOS device with the Intune Company Portal app to get a secured acce
 <kbd>![profile-1](images/onboarding-for-macos/profile-1.png)</kbd>
 
 Tip:
- - If **Profiles** page is not displayed, go to the **Apple** menu > **System Preferences** >**System Preferences** > **Profiles**.
+ - If **Profiles** page is not displayed, go to the **Apple** menu > **System Preferences** > **Profiles**.
 
- - If **Management Profile** is not displayed, then from the left side menu of **Profiles** , select **Management Profile**.
+ - If **Management Profile** is not displayed, then from the left side menu, select **Management Profile**.
 
  - If Profile installation fails, refer to [Common issues and resolution](#common-issues-and-resolution).
 
@@ -61,7 +61,7 @@ Tip:
 
 ![profile](images/onboarding-for-macos/profile-2.png)
 
-9. Configuration profiles that Intune needs to deploy will be installed. You will see a list of profiles as shown below.
+The configuration profiles that Intune needs to deploy will be installed. You will see a list of profiles as shown below.
 
 ![list-of-profiles](images/onboarding-for-macos/list-of-profiles.png)
 
@@ -73,10 +73,10 @@ Tip:
 
 ![all-set](images/onboarding-for-macos/all-set-2.png)
 
-?> Note: Onboarding is not yet complete. Now you proceed to verify if System Integrity Protection(SIP) is enabled on your device. SIP protects your system from the execution of unauthorised code.
+<!--?> Onboarding is not yet complete. Now you proceed to verify if System Integrity Protection(SIP) is enabled on your device. SIP protects your system from the execution of unauthorised code.-->
 
 ## Ensure SIP is enabled on your device
-Make sure SIP is enabled to prevent executions of unauthorised codes
+Make sure SIP is enabled to prevent executions of unauthorised codes.
 
 To verify if SIP is enabled, open **Terminal** and run the following command:
 
@@ -86,7 +86,7 @@ To verify if SIP is enabled, open **Terminal** and run the following command:
 
  If the response on your **Terminal** is ``System Integrity Protection status: enabled``, it indicates that SIP is already enabled on your device.
 
- ?>  If it is currently disabled, run the command ``csrutil enable`` on the **Terminal** and restart your device.
+ ?>  If it is currently disabled, run the command ``csrutil enable`` on the **Terminal** and restart your device before proceeding with the following steps.
 
 ## Ensure your device hard disk is encrypted
 To protect the privacy of your files and user data secured, ensure your device hard disk is encrypted.
@@ -95,7 +95,7 @@ To protect the privacy of your files and user data secured, ensure your device h
 
 1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
 2. Click the **FileVault** tab.
-3. If you see **Turn on FileVault**, go to step 4 or close **Security & Privacy**.
+3. If you see **Turn on FileVault**, go to step 4 or proceed to [Enable Full Disk Access(FDA)](#enable-full-disk-access).
 4. Click the lock icon and use your Touch ID or enter your password to unlock.
 5. Click **Turn on FileVault**, .
 6. You will be prompted to specify how you would like to unlock your device if you forget your device password. Select **Create a recovery key and do not use my iCloud account**.
@@ -109,7 +109,7 @@ To protect the privacy of your files and user data secured, ensure your device h
 - Some applications that SEED depends on require Full Disk Access (FDA) in order to function.
 - As of Catalina, users may be required to give explicit consent for FDA.
 -->
-## Enable Full Disk Access(FDA)
+## Enable Full Disk Access
 Enable Full Disk Access is for TaniumClient, Microsoft Defender ATP and Microsoft Defender ATP Security Extension.
 *To enable FDA* :
 1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
@@ -193,7 +193,7 @@ The following screen is displayed.
 
 <!--that **your device has been renamed and will restart in 5 minutes**. This is expected, and the rename is required for SEED to function properly. **Please do not change your device name thereafter**.-->
 
-Common Issues and Resolution
+## Common issues and resolution
 
 1. What should I do if Profile installation failed when installing the management profile?
 
