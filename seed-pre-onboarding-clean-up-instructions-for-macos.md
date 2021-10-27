@@ -121,8 +121,6 @@ If Microsoft Defender ATP is available in your device, offboard from it first an
 
 - If you are a vendor, contact your Defender ATP administrator to get the offboarding scripts.
 
- ?> These scripts are valid for a month from the date of download. The expiry date is indicated in the name of the file that has the offboarding scripts.
-
 If you are a Defender ATP administrator, do the following to get the offboarding scripts:
 
 
