@@ -12,7 +12,7 @@ Complete the following steps to get your device ready:
 1. [Remove existing MDM software](#remove-existing-mdm-software)
 2. [Unenrol from Intune](#unenrol-from-intune)
 3. [Remove Tanium Client](#remove-tanium-client)
-4. [Remove pre-existing Cloudflare WARP client](#remove-pre-existing-cloudflare-warp-client)
+4. [Remove Cloudflare WARP client](#remove-cloudflare-warp-client)
 5. [Remove Microsoft Defender ATP](#remove-microsoft-defender-atp)
 
 <!--If you are using a different You must unenroll your device from your existing Mobile Device Management (MDM) software-->
@@ -83,7 +83,7 @@ sudo ls /Library/Tanium/TaniumClient
 
 4. Enter your macOS password when prompted. Once the commands are successfully executed, Tanium Client is removed from your device.
 
-## Remove pre-existing Cloudflare WARP client
+## Remove Cloudflare WARP client
 If Cloudflare WARP client is installed on your device, remove it before proceeding further. The below steps guide you to verify its availability on your device and remove it.
 
 *To remove Cloudflare WARP client from macOS* :
@@ -96,7 +96,7 @@ If Cloudflare WARP client is installed on your device, remove it before proceedi
   sudo /bin/sh /Applications/Cloudflare\ WARP.app/Contents/Resources/uninstall.sh
   ```
 
-5. When prompted, enter your macOS password. Once the command is successfully executed, the Cloudflare WARP client is removed from your device.
+5. When prompted, enter your macOS password. .
 
 ## Remove Microsoft Defender ATP
 If Microsoft Defender ATP is available in your device, offboard from it first and then remove it. The below steps tell you how to verify its availability on your device, offboard from it and remove it.
@@ -121,6 +121,8 @@ If Microsoft Defender ATP is available in your device, offboard from it first an
 
 - If you are a vendor, contact your Defender ATP administrator to get the offboarding scripts.
 
+ ?> These scripts are valid for a month from the date of download. The expiry date is indicated in the name of the file that has the offboarding scripts.
+
 If you are a Defender ATP administrator, do the following to get the offboarding scripts:
 
 
@@ -131,6 +133,8 @@ If you are a Defender ATP administrator, do the following to get the offboarding
  3. Select *macOS* as operating system and *Local Script* as **Deployment Method**.
 
  4. Download the script from the compressed file, a .zip file, and share it with the vendor(s).
+
+  ?> The offboarding scripts expire after the  date indicated on the file name. For example, *MicrosoftDefenderATPOffboardingMacOs_valid_until_2021-11-04.py*
 
 
 

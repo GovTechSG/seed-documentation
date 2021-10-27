@@ -27,12 +27,12 @@ Enrol your macOS device with the Intune Company Portal app to get a secured acce
 <kbd>![sign-in](images/onboarding-for-macos/sign-in.png)</kbd>
 
 3. Choose the appropriate login credentials to sign in with two-factor authentication:
- - If you are a public officer, use your [WOG ID](terms-definitions).
- - If you are a vendor, use your [TechPass ID](terms-definitions).
+   - If you are a public officer, use your [WOG ID](terms-definitions).
+   - If you are a vendor, use your [TechPass ID](terms-definitions).
 
 <kbd>![log-in-to-gcc](images/onboarding-for-macos/log-in-to-gcc.png)</kbd>
 
-?> Note: If you're using the text message method, after you enter your password, you'll need to enter the verification code sent to your phone. Other authentication methods have different ways to perform the 2FA, based on what you [set up](https://account.activedirectory.windowsazure.com/Proofup.aspx).
+?> If you're using the text message method for authentication, after you enter your password, you'll need to enter the verification code sent to your phone. Based on what you [set up](https://account.activedirectory.windowsazure.com/Proofup.aspx), other authentication methods have different ways to perform the 2FA.
 
 4. Once you have signed in, click **Begin**.
 
@@ -141,7 +141,7 @@ Enable Full Disk Access is for TaniumClient, Microsoft Defender ATP and Microsof
 
 ![cloudflare-warp-icon](images/onboarding-for-macos/cloudflare-icon.png)
 
-?>  You can also press ``Command+Spacebar`` and search for  **Cloudflare WARP** application to open it.-->
+?>  You can also press ``Command+Spacebar`` and search for  **Cloudflare WARP** application to open it.
 
 
 You will see the information page, followed by your privacy policy.
@@ -157,8 +157,8 @@ You will see the information page, followed by your privacy policy.
 ?>  If you encounter an error stating that user account does not exist in the respective tenant, open a new tab and go to [https://myaccount.microsoft.com](https://myaccount.microsoft.com/), sign out from your account and then retry.
 
 4. Choose the appropriate login credentials to sign in with two-factor authentication:
- - If you are a public officer, use your WOG ID.
- - If you are a vendor, use your TechPass ID.:
+ - If you are a public officer, use your [WOG ID](term-definitions).
+ - If you are a vendor, use your [TechPass ID](term-definitions).
 
 
  <!--When greeted with the Microsoft sign-in page, sign in using your WOG ID (i.e. [your\_name@tech.gov.sg](mailto:your_name@tech.gov.sg)) if you are a public officer, or your TechPass ID (i.e. [your\_name@techpass.gov.sg](mailto:your_name@techpass.gov.sg)) if you are a vendor.-->
@@ -179,30 +179,29 @@ The following screen is displayed.
 ## Post onboarding notes
 
 <!--- If you encounter any issues during onboarding, refer to [Common issues and resolution](#common-issues-and-resolution) before reaching out to the SEED team.-->
-- If onboarding was successful, you will receive an email informing you that your device has been successfully onboarded.
-  - Public officers will receive this email in their GSIB email inbox while vendors will receive this email at their work email address which they used to create their TechPass account.
-  - Due to nature of the verification process, this email can take up to an hour. Please contact the SEED team if you do not receive this email after an hour.
-
-- Shortly after this email, you will receive a desktop notification prompting you to  restart your device.
+- If onboarding was successful, you will receive an email informing you that your device is successfully onboarded.
+  - Public officers receive this email in their *GSIB email inbox* while vendors receive it at their *work email address* which was used to create their TechPass account.
+  - Due to the nature of the verification process, it may take up to an hour to receive this email. if you do not receive it after an hour, please  contact the SEED team.
+  - Shortly after this email, you will receive a desktop notification prompting to restart the device.
 1. Restart your device.
 2. If prompted to enter your password, enter your password.
 
 ?>  While restarting, you will be notified that your device is renamed and will be prompted to reset your password.
+
 3. Reset your password.
 
 <!--that **your device has been renamed and will restart in 5 minutes**. This is expected, and the rename is required for SEED to function properly. **Please do not change your device name thereafter**.-->
 
 ## Common issues and resolution
 
-1. What should I do if Profile installation failed when installing the management profile?
+1. What should I do if profile installation fails while installing the management profile?
 
 <kbd>![profile-installation-failed](images/onboarding-for-macos/profile-installation-failed.png)</kbd>
 
   1. Go to the **Apple** menu > **System Preferences** > **Profiles**.
-  2. Check if **Management Profile** is already an existing profile.
-  3. If yes, select it and remove it by clicking the minus icon at the bottom left corner.
+  2. If **Management Profile** is already an existing profile, select it and remove by clicking the minus icon at the bottom left corner.
 
-2. While enabling FDA, I can't find TaniumClient, what should I do?
+2. While enabling FDA, I can't find **TaniumClient**. What should I do?
 
   1. Open the **Terminal** application and enter the command: ``sudo chmod 755 /Library/Tanium/TaniumClient``.
   2. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
