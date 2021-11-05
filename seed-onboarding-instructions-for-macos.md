@@ -4,7 +4,7 @@ This sections explains public officers and vendors the prerequisites for onboard
 
 **Prerequisites** : [Remove existing softwares](seed-pre-onboarding-clean-up-instructions-for-macos)
 
-?> Based on your Mac settings, you may be prompted to restart or reset your password during this onboarding journey.
+?>  Based on your Mac settings, you may be prompted to restart or reset your password during this onboarding journey.
 
 During this onboarding journey you will do the following:
 
@@ -218,15 +218,16 @@ Enable Full Disk Access is for TaniumClient, Microsoft Defender ATP and Microsof
 
 <!--- If you encounter any issues during onboarding, refer to [Common issues and resolution](#common-issues-and-resolution) before reaching out to the SEED team.-->
 
-If onboarding is successful, within an hour, you will receive a successfully onboarded email to the email address used for your creating your TechPass account.
+If your onboarding is successful, within an hour, you will receive a successfully onboarded email to the email address that was used for creating your TechPass account.
 
-?> If you do not receive this email, please  contact the SEED team.
+?>  If you do not receive this email, please  contact the SEED team.
+
 
 
 Shortly after this email, when you receive a desktop notification prompting to restart the device, do the following:
 
 1. Restart your device.
-2. If prompted to enter your password, enter your password.
+2. If prompted to enter your password, enter it.
 
 ?>  While restarting, you will be notified that your device is renamed and will be prompted to reset your password.
 
