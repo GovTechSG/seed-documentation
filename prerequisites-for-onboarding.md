@@ -16,7 +16,7 @@ Following are the prerequisites for onboarding to SEED:
 
 <!--1.  A [WOG account](term-definitions) with [two-factor authentication (2FA)](https://account.activedirectory.windowsazure.com/Proofup.aspx).-->
 
-1. An active [TechPass account](term-definitions)<!--that is linked to your WOG ID-->.
+1. An active TechPass account<!--that is linked to your WOG ID-->.
 
 ?> If you do not have one, [Create TechPass Account](https://docs.developer.tech.gov.sg/docs/techpass-documentation/#/onboard) first by following the instructions for public officers and vendors respectively.
 
