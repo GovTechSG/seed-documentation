@@ -4,6 +4,8 @@ This sections explains public officers and vendors the prerequisites for onboard
 
 **Prerequisites** : [Remove existing softwares](seed-pre-onboarding-clean-up-instructions-for-macos)
 
+?> Based on your Mac settings, you may be prompted to restart or reset your password during this onboarding journey.
+
 During this onboarding journey you will do the following:
 
 
@@ -218,7 +220,8 @@ Enable Full Disk Access is for TaniumClient, Microsoft Defender ATP and Microsof
 
 If onboarding is successful, within an hour, you will receive a successfully onboarded email to the email address used for your creating your TechPass account.
 
-  ?> If you do not receive this email, please  contact the SEED team.
+?> If you do not receive this email, please  contact the SEED team.
+
 
 Shortly after this email, when you receive a desktop notification prompting to restart the device, do the following:
 
@@ -245,7 +248,7 @@ Shortly after this email, when you receive a desktop notification prompting to r
 
 
 <details>
-  <summary>2. While enabling FDA, I can't find **TaniumClient**. What should I do?</summary>
+  <summary>2. While enabling FDA, I can't find <b>TaniumClient</b>. What should I do?</summary>
 
   1. Open the **Terminal** application and enter the command: ``sudo chmod 755 /Library/Tanium/TaniumClient``.
   2. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
