@@ -16,9 +16,9 @@ Following are the prerequisites for onboarding to SEED:
 
 <!--1.  A [WOG account](term-definitions) with [two-factor authentication (2FA)](https://account.activedirectory.windowsazure.com/Proofup.aspx).-->
 
-1. An active TechPass account<!--that is linked to your WOG ID-->.
+1. An active TechPass account.<!--that is linked to your WOG ID-->.
 
-?> If you do not have one, [Create TechPass Account](https://docs.developer.tech.gov.sg/docs/techpass-documentation/#/onboard) first by following the instructions for public officers and vendors respectively.
+?> If you do not have one, [Create TechPass Account](https://docs.developer.tech.gov.sg/docs/techpass-documentation/#/onboard) first by following the respective instructions for public officers and vendors as required.
 
 <!--?> Note: If you are public officer, use your WOG account credentials to log in to your TechPass account.-->
 
@@ -27,3 +27,7 @@ Following are the prerequisites for onboarding to SEED:
 <!--3. [Get your macOS ready for onboarding](seed-pre-onboarding-clean-up-instructions-for-macos) or [Get your Microsoft Windows ready for onboarding](seed-pre-onboarding-clean-up-instructions-for-windows)-->
 
  <!--Once the GCC2.0 team grants the required access to your TechPass account, proceed to [Onboard using macOS](seed-onboarding-instructions-for-macos) or [Onboard using Windows](seed-onboarding-instructions-windows).-->
+
+**Related links**
+- [Onboard using macOS](seed-onboarding-instructions-for-macos)
+- [Onboard using Windows](seed-onboarding-instructions-windows)

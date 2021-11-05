@@ -10,7 +10,7 @@ During this onboarding journey you will do the following:
 
 
 <details>
-  <summary>1. Set up Intune</summary>
+  <summary>a. Set up Intune</summary><br>
 
   1. Download and install [**Company Portal**](https://go.microsoft.com/fwlink/?linkid=853070).
 
@@ -71,7 +71,7 @@ During this onboarding journey you will do the following:
 </details>
 
 <details>
-  <summary>2. Enable System Integrity Protection(SIP)</summary>
+  <summary>b. Enable System Integrity Protection(SIP)</summary><br>
 
   To verify if SIP is enabled, open **Terminal** and run the following command:
 
@@ -85,7 +85,7 @@ During this onboarding journey you will do the following:
 
 </details>
 <details>
-  <summary>3. Encrypt your hard disk</summary>
+  <summary>c. Encrypt your hard disk</summary><br>
 
   1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
   2. Click the **FileVault** tab.
@@ -100,7 +100,7 @@ During this onboarding journey you will do the following:
 
 </details>
 <details>
-  <summary>4. Enable Full Disk Access(FDA)</summary>
+  <summary>d. Enable Full Disk Access(FDA)</summary><br>
 
   1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
   2. Click the **Privacy** tab.
@@ -121,7 +121,7 @@ During this onboarding journey you will do the following:
 
 </details>
 <details>
-  <summary>5. Enrol on Cloudflare using WARP client</summary>
+  <summary>e. Enrol on Cloudflare using WARP client</summary><br>
 
   **Prerequisites:**
   1. Ensure that you have Cloudflare WARP client installed in your device. If not install it from [Clouhttps://install.appcenter.ms/orgs/cloudflare/apps/1.1.1.1-macos-1/distribution_groups/release](Clouhttps://install.appcenter.ms/orgs/cloudflare/apps/1.1.1.1-macos-1/distribution_groups/release)
@@ -220,7 +220,7 @@ Enable Full Disk Access is for TaniumClient, Microsoft Defender ATP and Microsof
 
 If your onboarding is successful, within an hour, you will receive a successfully onboarded email to the email address that was used for creating your TechPass account.
 
-?>  If you do not receive this email, please  contact the SEED team.
+?>  If you do not receive this email, please  [contact SEED team](cc2.0_support@tech.gov.sg).
 
 
 
@@ -238,7 +238,7 @@ Shortly after this email, when you receive a desktop notification prompting to r
 ## Common issues while onboarding using macOS
 
 <details>
-  <summary>1. What should I do if profile installation fails while installing the management profile?</summary>
+  <summary>1. What should I do if profile installation fails while installing the management profile?</summary><br>
 
   <kbd>![profile-installation-failed](images/onboarding-for-macos/profile-installation-failed.png)</kbd>
 
@@ -249,7 +249,7 @@ Shortly after this email, when you receive a desktop notification prompting to r
 
 
 <details>
-  <summary>2. While enabling FDA, I can't find <b>TaniumClient</b>. What should I do?</summary>
+  <summary>2. While enabling FDA, I can't find <b>TaniumClient</b>. What should I do?</summary><br>
 
   1. Open the **Terminal** application and enter the command: ``sudo chmod 755 /Library/Tanium/TaniumClient``.
   2. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
