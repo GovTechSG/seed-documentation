@@ -2,7 +2,7 @@
 
 This sections explains public officers and vendors the prerequisites for onboarding and how to onboard into SEED using macOS.
 
-**Prerequisites** : [Remove existing softwares](#seed-pre-onboarding-clean-up-instructions-for-macos).
+**Prerequisites** : [Remove existing softwares](seed-pre-onboarding-clean-up-instructions-for-macos)
 
 During this onboarding journey you will do the following:
 
