@@ -220,7 +220,7 @@ If onboarding is successful, within an hour, you will receive a successfully onb
 
   ?> If you do not receive this email, please  contact the SEED team.
 
-Shortly after this email, when you receive a desktop notification prompting to restart the device:
+Shortly after this email, when you receive a desktop notification prompting to restart the device, do the following:
 
 1. Restart your device.
 2. If prompted to enter your password, enter your password.
