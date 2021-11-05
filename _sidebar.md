@@ -1,9 +1,9 @@
-* Prerequisites
-  * [Public Officers](prerequisites-for-onboarding-public-officer-to-seed)
-  * [Vendors](prerequisites-for-onboarding-vendors-to-seed)
+* [Prerequisites](prerequisites-for-onboarding)
+  <!--* [Public Officers](prerequisites-for-onboarding-public-officer-to-seed)
+  * [Vendors](prerequisites-for-onboarding-vendors-to-seed)-->
 <!--* SEED onboarding-->
 * macOS
-  * [Getting Started](seed-pre-onboarding-clean-up-instructions-for-macos)
+  <!--* [Getting Started](seed-pre-onboarding-clean-up-instructions-for-macos)-->
   * [Onboard](seed-onboarding-instructions-for-macos)
   * [Offboard](seed-offboarding-instructions-for-macos)
   <!--* [Cloudflare WARP Client enrolment](cloudflare-warp-client-enrollment-macos)-->

@@ -2,10 +2,75 @@
 
 This sections explains public officers and vendors the prerequisites for onboarding and how to onboard into SEED using macOS.
 
-**Prerequisites** : [Get your macOS ready for onboarding](#seed-pre-onboarding-clean-up-instructions-for-macos).
+**Prerequisites** : [Remove existing softwares](#seed-pre-onboarding-clean-up-instructions-for-macos).
 
 During this onboarding journey you will do the following:
-1. [Get your macOS device managed by Intune Company Portal app](#get-your-macos-device-managed-by-intune-company-portal-app).
+1. [Set up Intune](#get-your-macos-device-managed-by-intune-company-portal-app).
+
+<hr />
+<details>
+  <summary>1. Set up Intune</summary>
+
+  1. Download and install [**Company Portal**](https://go.microsoft.com/fwlink/?linkid=853070).
+
+  2. Open the **Company Portal** application and click **Sign in**.
+
+  <kbd>![sign-in](images/onboarding-for-macos/sign-in.png)</kbd>
+
+  3. Choose the appropriate login credentials to sign in with two-factor authentication:
+     - If you are a public officer, use your [WOG ID](terms-definitions).
+     - If you are a vendor, use your [TechPass ID](terms-definitions).
+
+  <kbd>![log-in-to-gcc](images/onboarding-for-macos/log-in-to-gcc.png)</kbd>
+
+  ?> If you're using the text message method for authentication, after you enter your password, you'll need to enter the verification code sent to your phone. Based on what you [set up](https://account.activedirectory.windowsazure.com/Proofup.aspx), other authentication methods have different ways to perform the 2FA.
+
+  4. Once you have signed in, click **Begin**.
+
+  <kbd>![](images/onboarding-for-macos/begin.png)</kbd>
+
+  5. Review privacy information. Then click **Continue**.
+
+  ![review-privacy-info](images/onboarding-for-macos/review-privacy-info-blurred.png)
+
+  6. On the **Install management profile** page, click **Download profile**.
+
+  <kbd>![install-management-profile](images/onboarding-for-macos/install-management-profile.png)</kbd>
+
+  7. Follow the on-screen instructions to allow Microsoft Intune to manage your device. The **Profiles** page is displayed.
+
+  <kbd>![profile-1](images/onboarding-for-macos/profile-1.png)</kbd>
+
+  Tip:
+   - If **Profiles** page is not displayed, go to the **Apple** menu > **System Preferences** > **Profiles**.
+
+   - If **Management Profile** is not displayed, then from the left side menu, select **Management Profile**.
+
+   - If Profile installation fails, refer to [Common issues and resolution](#common-issues-and-resolution).
+
+  8. Click **Install**.
+
+  ![profile](images/onboarding-for-macos/profile-2.png)
+
+  The configuration profiles that Intune needs to deploy will be installed. You will see a list of profiles as shown below.
+
+  ![list-of-profiles](images/onboarding-for-macos/list-of-profiles.png)
+
+  9. Open the **Company Portal** application again.
+
+  <!--![all-set](images/onboarding-for-macos/all-set-1.png)-->
+
+  10. You will see the success message. Click **Done**.
+
+  ![all-set](images/onboarding-for-macos/all-set-2.png)
+
+  <!--?> Onboarding is not yet complete. Now you proceed to verify if System Integrity Protection(SIP) is enabled on your device. SIP protects your system from the execution of unauthorised code.-->
+
+
+</details>
+<hr />
+
+
 2. [Ensure SIP is enabled on your device](#ensure-sip-is-enabled-on-your-device).
 3. [Ensure your device hard disk is encrypted](#ensure-your-device-hard-disk-is-encrypted).
 4. [Enable Full Disk Access(FDA)](#enable-full-disk-access).
@@ -20,60 +85,6 @@ Enrol your macOS device with the Intune Company Portal app to get a secured acce
 
 *To manage your device by Intune Company Portal app* :
 
-1. Download and install [**Company Portal**](https://go.microsoft.com/fwlink/?linkid=853070).
-
-2. Open the **Company Portal** application and click **Sign in**.
-
-<kbd>![sign-in](images/onboarding-for-macos/sign-in.png)</kbd>
-
-3. Choose the appropriate login credentials to sign in with two-factor authentication:
-   - If you are a public officer, use your [WOG ID](terms-definitions).
-   - If you are a vendor, use your [TechPass ID](terms-definitions).
-
-<kbd>![log-in-to-gcc](images/onboarding-for-macos/log-in-to-gcc.png)</kbd>
-
-?> If you're using the text message method for authentication, after you enter your password, you'll need to enter the verification code sent to your phone. Based on what you [set up](https://account.activedirectory.windowsazure.com/Proofup.aspx), other authentication methods have different ways to perform the 2FA.
-
-4. Once you have signed in, click **Begin**.
-
-<kbd>![](images/onboarding-for-macos/begin.png)</kbd>
-
-5. Review privacy information. Then click **Continue**.
-
-![review-privacy-info](images/onboarding-for-macos/review-privacy-info-blurred.png)
-
-6. On the **Install management profile** page, click **Download profile**.
-
-<kbd>![install-management-profile](images/onboarding-for-macos/install-management-profile.png)</kbd>
-
-7. Follow the on-screen instructions to allow Microsoft Intune to manage your device. The **Profiles** page is displayed.
-
-<kbd>![profile-1](images/onboarding-for-macos/profile-1.png)</kbd>
-
-Tip:
- - If **Profiles** page is not displayed, go to the **Apple** menu > **System Preferences** > **Profiles**.
-
- - If **Management Profile** is not displayed, then from the left side menu, select **Management Profile**.
-
- - If Profile installation fails, refer to [Common issues and resolution](#common-issues-and-resolution).
-
-8. Click **Install**.
-
-![profile](images/onboarding-for-macos/profile-2.png)
-
-The configuration profiles that Intune needs to deploy will be installed. You will see a list of profiles as shown below.
-
-![list-of-profiles](images/onboarding-for-macos/list-of-profiles.png)
-
-10. Open the **Company Portal** application again.
-
-<!--![all-set](images/onboarding-for-macos/all-set-1.png)-->
-
-11. You will see the success message. Click **Done**.
-
-![all-set](images/onboarding-for-macos/all-set-2.png)
-
-<!--?> Onboarding is not yet complete. Now you proceed to verify if System Integrity Protection(SIP) is enabled on your device. SIP protects your system from the execution of unauthorised code.-->
 
 ## Ensure SIP is enabled on your device
 Make sure SIP is enabled to prevent executions of unauthorised codes.
