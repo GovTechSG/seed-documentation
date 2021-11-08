@@ -90,7 +90,7 @@ During this onboarding journey you will do the following:
 
   1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
   2. Click the **FileVault** tab.
-  3. If you see **Turn on FileVault**, go to step 4 or proceed to <p><a href="#S04">Enable Full Disk Access(FDA)</a>.</p>
+  3. If you see **Turn on FileVault**, go to step 4 or proceed to **Enable Full Disk Access(FDA)**.
   4. Click the lock icon and use your Touch ID or enter your password to unlock.
   5. Click **Turn on FileVault**.
   6. You will be prompted to specify how you would like to unlock your device if you forget your device password. Select **Create a recovery key and do not use my iCloud account**.
@@ -99,7 +99,7 @@ During this onboarding journey you will do the following:
 
    ?>  Save this key on a different device.
 
-   
+
 
 </details>
 <details>
@@ -115,7 +115,7 @@ During this onboarding journey you will do the following:
        - Microsoft Defender ATP
        - Microsoft Defender ATP Security Extension
 
-   ?>  If **TaniumClient** is missing, refer to [Common issues while onboarding using macOS](#common-issues-while-onboarding-using-macos) before proceeding further.
+   ?>  If **TaniumClient** is missing, refer to [Common issues while onboarding using macOS](#common-issues-while-onboarding-using-macos) before proceeding further. If any other applications are missing, please wait for approximately four hours for them to appear. If they are still not available, please contact gcc2.0_support@tech.gov.sg
 
   6. Select the checkboxes beside these applications.
 
@@ -133,7 +133,7 @@ During this onboarding journey you will do the following:
 
   3. Open the Cloudflare WARP client from the menu bar on the top right corner of your Mac device.
 
-  ![cloudflare-warp-icon](images/onboarding-for-macos/cloudflare-icon.png)
+  <kbd>![cloudflare-warp-icon](images/onboarding-for-macos/cloudflare-icon.png)</kbd>
 
   ?>  You can also press ``Command+Spacebar`` and search for  **Cloudflare WARP** application to open it.
 
@@ -142,11 +142,11 @@ During this onboarding journey you will do the following:
 
   4. Click **Next** and then **Accept**.
 
-  ![accept-privacy-policy](images/cloudflare-warp-macos/accept-privacy-policy.png)
+  <kbd>![accept-privacy-policy](images/cloudflare-warp-macos/accept-privacy-policy.png)</kbd>
 
   5. When prompted to sign in, select **Azure AD – TechPass Prod**.
 
-  ![gcc-cloudflare-access-signin](images/cloudflare-warp-macos/gcc-cloudflare-access-signin.png)
+  <kbd>![gcc-cloudflare-access-signin](images/cloudflare-warp-macos/gcc-cloudflare-access-signin.png)</kbd>
 
   ?>  If you encounter an error stating that user account does not exist in the respective tenant, open a new tab and go to [https://myaccount.microsoft.com](https://myaccount.microsoft.com/), sign out from your account and then retry.
 
@@ -157,15 +157,15 @@ During this onboarding journey you will do the following:
 
    <!--When greeted with the Microsoft sign-in page, sign in using your WOG ID (i.e. [your\_name@tech.gov.sg](mailto:your_name@tech.gov.sg)) if you are a public officer, or your TechPass ID (i.e. [your\_name@techpass.gov.sg](mailto:your_name@techpass.gov.sg)) if you are a vendor.-->
 
-  ![techpass-sign-in](images/cloudflare-warp-macos/techpass-sign-in.png)
+  <kbd>![techpass-sign-in](images/cloudflare-warp-macos/techpass-sign-in.png)</kbd>
 
   7. Once you have successfully signed in, click the Cloudflare WARP icon.
 
-  ![cloudflare-warp-icon](images/onboarding-for-macos/cloudflare-icon.png)
+  <kbd>![cloudflare-warp-icon](images/onboarding-for-macos/cloudflare-icon.png)</kbd>
 
   The following screen is displayed.
 
-  ![warp-teams](images/cloudflare-warp-macos/warp-teams.png)
+  <kbd>![warp-teams](images/cloudflare-warp-macos/warp-teams.png)</kbd>
 
   ?>  If you need to connect to a different VPN, disconnect and quit from the WARP client.
 
