@@ -90,7 +90,7 @@ During this onboarding journey you will do the following:
 
   1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
   2. Click the **FileVault** tab.
-  3. If you see **Turn on FileVault**, go to step 4 or proceed to <a href="#S04">Enable Full Disk Access(FDA)</a>.
+  3. If you see **Turn on FileVault**, go to step 4 or proceed to <p><a href="#S04">Enable Full Disk Access(FDA)</a>.</p>
   4. Click the lock icon and use your Touch ID or enter your password to unlock.
   5. Click **Turn on FileVault**.
   6. You will be prompted to specify how you would like to unlock your device if you forget your device password. Select **Create a recovery key and do not use my iCloud account**.
