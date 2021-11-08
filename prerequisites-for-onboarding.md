@@ -12,16 +12,16 @@ Following are the prerequisites for onboarding to SEED:
 
 <!--1.  A [WOG account](term-definitions) with [two-factor authentication (2FA)](https://account.activedirectory.windowsazure.com/Proofup.aspx).-->
 
-1. Non-GSIB devices that run on Windows 10 Pro/Enterprise versions or on macOS Catalina 10.15 and later versions
+1. Non-GSIB devices that run on Windows 10 Pro/Enterprise versions or on macOS Catalina 10.15 and later versions.
 2. An active TechPass account.<!--that is linked to your WOG ID-->
 
-?> If you do not have one, [Create a TechPass Account](https://docs.developer.tech.gov.sg/docs/techpass-documentation/#/onboard) first.
+?> If you do not have one, [create TechPass Account](https://docs.developer.tech.gov.sg/docs/techpass-documentation/#/onboard) first.
 
 <!--?> Note: If you are public officer, use your WOG account credentials to log in to your TechPass account.-->
 
 3. Provide your TechPass ID <!--(in this case it is your WOG ID)--> to gcc2.0_support@tech.gov.sg at least three working days before the day of onboarding to get the required access for your TechPass account.
 
-4. [Remove existing softwares for macOS](seed-pre-onboarding-clean-up-instructions-for-macos) or [Remove existing softwares for Windows](seed-pre-onboarding-clean-up-instructions-for-windows).
+4. Depending on your device, [remove existing softwares on your macOS](seed-pre-onboarding-clean-up-instructions-for-macos) or [remove existing softwares on your Windows](seed-pre-onboarding-clean-up-instructions-for-windows).
 
 <!--3. [Get your macOS ready for onboarding](seed-pre-onboarding-clean-up-instructions-for-macos) or [Get your Microsoft Windows ready for onboarding](seed-pre-onboarding-clean-up-instructions-for-windows)-->
 
