@@ -1,10 +1,9 @@
 # Onboarding to SEED using macOS
 
-This sections explains public officers and vendors the prerequisites for onboarding and how to onboard into SEED using macOS.
+This sections explains public officers and vendors  how to onboard to SEED using macOS.
 
-**Prerequisites** : [Remove existing softwares](seed-pre-onboarding-clean-up-instructions-for-macos)
 
-?>  Based on your Mac settings, you may be prompted to restart or reset your password during this onboarding journey.
+?>  Based on your Mac settings, you may be prompted to restart or reset your password while onboarding.
 
 During this onboarding journey you will do the following:
 
@@ -33,7 +32,7 @@ During this onboarding journey you will do the following:
 
   5. Review privacy information. Then click **Continue**.
 
-<kbd>![review-privacy-info](images/onboarding-for-macos/review-privacy-info-blurred.png)</kbd>
+  <kbd>![review-privacy-info](images/onboarding-for-macos/review-privacy-info-blurred.png)</kbd>
 
   6. On the **Install management profile** page, click **Download profile**.
 
@@ -72,17 +71,14 @@ During this onboarding journey you will do the following:
 </details>
 
 <details>
-  <summary>b. Enable System Integrity Protection(SIP)</summary><br>
+  <summary>b. Enable System Integrity Protection (SIP)</summary><br>
 
-  To verify if SIP is enabled, open **Terminal** and run the following command:
+  - To verify if SIP is enabled, open **Terminal** and run the command `csrutil status`.
 
-    ```
-    csrutil status
-    ```
 
-   If the response on your **Terminal** is ``System Integrity Protection status: enabled``, it indicates that SIP is already enabled on your device.
+   If the response on your **Terminal** is `System Integrity Protection status: enabled`, it indicates that SIP is already enabled on your Mac.
 
-   ?> If it is currently disabled, run the command ``csrutil enable`` on the **Terminal** and restart your device before proceeding with the following steps.
+   ?>  If it is currently disabled, run the command `csrutil enable` on the **Terminal** and restart your device before proceeding further.
 
 </details>
 <details>
@@ -99,11 +95,9 @@ During this onboarding journey you will do the following:
 
    ?>  Save this key on a different device.
 
-
-
 </details>
 <details>
-  <summary id="S04">d. Enable Full Disk Access(FDA)</summary><br>
+  <summary>d. Enable Full Disk Access(FDA)</summary><br>
 
   1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
   2. Click the **Privacy** tab.
@@ -127,7 +121,7 @@ During this onboarding journey you will do the following:
   <summary>e. Enrol on Cloudflare using WARP client</summary><br>
 
 
-  1. Ensure that you have Cloudflare WARP client installed in your device. If not, install it from [https://install.appcenter.ms/orgs/cloudflare/apps/1.1.1.1-macos-1/distribution_groups/release](https://install.appcenter.ms/orgs/cloudflare/apps/1.1.1.1-macos-1/distribution_groups/release)
+  1. Ensure that you have Cloudflare WARP client installed in your device. If not, install it from [https://install.appcenter.ms/orgs/cloudflare/apps/1.1.1.1-macos-1/distribution_groups/release](https://install.appcenter.ms/orgs/cloudflare/apps/1.1.1.1-macos-1/distribution_groups/release).
 
   2. Disconnect from any other VPN that might be running as that could clash with Cloudflare.
 
@@ -138,7 +132,7 @@ During this onboarding journey you will do the following:
   ?>  You can also press ``Command+Spacebar`` and search for  **Cloudflare WARP** application to open it.
 
 
-    You will see the information page, followed by your privacy policy.
+ You will see the information page, followed by your privacy policy.
 
   4. Click **Next** and then **Accept**.
 
@@ -150,9 +144,7 @@ During this onboarding journey you will do the following:
 
   ?>  If you encounter an error stating that user account does not exist in the respective tenant, open a new tab and go to [https://myaccount.microsoft.com](https://myaccount.microsoft.com/), sign out from your account and then retry.
 
-  6. Choose the appropriate login credentials to sign in with two-factor authentication:
-   - If you are a public officer, use your [WOG ID](term-definitions).
-   - If you are a vendor, use your [TechPass ID](term-definitions).
+  6. Sign in using your TechPass credentials.
 
 
    <!--When greeted with the Microsoft sign-in page, sign in using your WOG ID (i.e. [your\_name@tech.gov.sg](mailto:your_name@tech.gov.sg)) if you are a public officer, or your TechPass ID (i.e. [your\_name@techpass.gov.sg](mailto:your_name@techpass.gov.sg)) if you are a vendor.-->
@@ -219,11 +211,9 @@ Enable Full Disk Access is for TaniumClient, Microsoft Defender ATP and Microsof
 
 <!--- If you encounter any issues during onboarding, refer to [Common issues and resolution](#common-issues-and-resolution) before reaching out to the SEED team.-->
 
-If your onboarding is successful, within an hour, you will receive a successfully onboarded email to the email address that was used for creating your TechPass account.
+ If your onboarding is successful, within an hour, you will receive a successfully onboarded email to the email address that was used for creating your TechPass account.
 
-?>  If you do not receive this email, please  [contact SEED team](cc2.0_support@tech.gov.sg).
-
-
+?>  If you do not receive this email, please  [contact SEED team](gcc2.0_support@tech.gov.sg).
 
 Shortly after this email, when you receive a desktop notification prompting to restart the device, do the following:
 
@@ -252,7 +242,7 @@ Shortly after this email, when you receive a desktop notification prompting to r
 <details>
   <summary>2. While enabling FDA, I can't find <b>TaniumClient</b>. What should I do?</summary><br>
 
-  1. Open the **Terminal** application and enter the command: ``sudo chmod 755 /Library/Tanium/TaniumClient``.
+  1. Open the **Terminal** application and run the command: ``sudo chmod 755 /Library/Tanium/TaniumClient``.
   2. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
   3. Click the **Privacy** tab.
   4. From the side menu, choose **Full Disk Access**.
