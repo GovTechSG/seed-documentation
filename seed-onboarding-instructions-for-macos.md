@@ -18,9 +18,10 @@ During this onboarding journey you will do the following:
 
   <kbd>![sign-in](images/onboarding-for-macos/sign-in.png)</kbd>
 
-  3. Log in using your TechPass account credentials. <!--the appropriate login credentials to sign in with two-factor authentication:
+  3. Log in using your TechPass account credentials.
+  <!-- the appropriate login credentials to sign in with two-factor authentication:
      - If you are a public officer, use your [WOG ID](terms-definitions).
-     - If you are a vendor, use your [TechPass ID](terms-definitions).-->
+     - If you are a vendor, use your [TechPass ID](terms-definitions). -->
 
   <kbd>![log-in-to-gcc](images/onboarding-for-macos/log-in-to-gcc.png)</kbd>
 
@@ -89,7 +90,7 @@ During this onboarding journey you will do the following:
 
   1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
   2. Click the **FileVault** tab.
-  3. If you see **Turn on FileVault**, go to step 4 or proceed to <a href="#C23">Enable Full Disk Access(FDA)</a>.
+  3. If you see **Turn on FileVault**, go to step 4 or proceed to <a href="#S04">Enable Full Disk Access(FDA)</a>.
   4. Click the lock icon and use your Touch ID or enter your password to unlock.
   5. Click **Turn on FileVault**.
   6. You will be prompted to specify how you would like to unlock your device if you forget your device password. Select **Create a recovery key and do not use my iCloud account**.
