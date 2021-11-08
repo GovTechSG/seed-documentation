@@ -6,7 +6,7 @@ This section guides the existing SEED users to offboard from it. The offboarding
 <details>
   <summary>a. Remove your device from Intune</summary><br>
 
-  1. Open the **Company Portal** application and click **Sign in** to the account .
+  1. Open the **Company Portal** application and click **Sign in**.
 
   <kbd>![sign-in](images/onboarding-for-macos/sign-in.png)</kbd>
 
@@ -73,17 +73,15 @@ This section guides the existing SEED users to offboard from it. The offboarding
   <details>
   <summary>d. Remove Microsoft Defender ATP</summary><br>
 
-  **Prerequisite**
-
-  To remove Microsoft Defender ATP from your device, you need to offboard from it using the offboarding script.
+  To remove Microsoft Defender ATP from your device, first you need to offboard from it using the offboarding script.
 
   Check if the script that you received earlier has not yet expired.
 
-  ?> The expiry date is indicated on the file name. For example, *MicrosoftDefenderATPOffboardingMacOs_valid_until_2021-11-04.py*
+ ?>  The expiry date is indicated on the file name. For example, *MicrosoftDefenderATPOffboardingMacOs_valid_until_2021-11-04.py*
 
   If the script has already expired, choose one of the below options as appropriate:
 
-  - If you are a public officer, [contact GCC2.0 team](gcc2.0_support@tech.gov.sg) to get the offboarding script.
+  - If you are a public officer, [contact SEED team](gcc2.0_support@tech.gov.sg) to get the offboarding script.
 
   - If you are a vendor, contact your Defender ATP administrator to [get the offboarding script](get-offboarding-scripts-for-microsoft-defender-atp).
 
