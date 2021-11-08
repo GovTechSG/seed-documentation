@@ -1,4 +1,4 @@
-# Remove existing softwares
+# Remove existing softwares for macOS
 
 <!--**Objective**: -->
 
@@ -130,7 +130,7 @@ This section explains how public officers and vendors can remove those softwares
   8. Choose **Applications** and search for **Microsoft Defender for Endpoint.app**.
   9. Drag the app to the Trash, or select the app and choose **File** > **Move to Trash**.
 
-  
+
 </details>
 
 

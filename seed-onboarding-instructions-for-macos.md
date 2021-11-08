@@ -18,9 +18,9 @@ During this onboarding journey you will do the following:
 
   <kbd>![sign-in](images/onboarding-for-macos/sign-in.png)</kbd>
 
-  3. Choose the appropriate login credentials to sign in with two-factor authentication:
+  3. Log in using your TechPass account credentials. <!--the appropriate login credentials to sign in with two-factor authentication:
      - If you are a public officer, use your [WOG ID](terms-definitions).
-     - If you are a vendor, use your [TechPass ID](terms-definitions).
+     - If you are a vendor, use your [TechPass ID](terms-definitions).-->
 
   <kbd>![log-in-to-gcc](images/onboarding-for-macos/log-in-to-gcc.png)</kbd>
 
@@ -32,7 +32,7 @@ During this onboarding journey you will do the following:
 
   5. Review privacy information. Then click **Continue**.
 
-  ![review-privacy-info](images/onboarding-for-macos/review-privacy-info-blurred.png)
+<kbd>![review-privacy-info](images/onboarding-for-macos/review-privacy-info-blurred.png)</kbd>
 
   6. On the **Install management profile** page, click **Download profile**.
 
@@ -47,15 +47,15 @@ During this onboarding journey you will do the following:
 
    - If **Management Profile** is not displayed, then from the left side menu, select **Management Profile**.
 
-   - If Profile installation fails, refer to [Common issues and resolution](#common-issues-and-resolution).
+   - If Profile installation fails, refer to [Common issues while onboarding using macOS](#common-issues-while-onboarding-using-macos).
 
   8. Click **Install**.
 
-  ![profile](images/onboarding-for-macos/profile-2.png)
+  <kbd>![profile](images/onboarding-for-macos/profile-2.png)</kbd>
 
   The configuration profiles that Intune needs to deploy will be installed. You will see a list of profiles as shown below.
 
-  ![list-of-profiles](images/onboarding-for-macos/list-of-profiles.png)
+  <kbd>![list-of-profiles](images/onboarding-for-macos/list-of-profiles.png)</kbd>
 
   9. Open the **Company Portal** application again.
 
@@ -63,7 +63,7 @@ During this onboarding journey you will do the following:
 
   10. You will see the success message. Click **Done**.
 
-  ![all-set](images/onboarding-for-macos/all-set-2.png)
+  <kbd>![all-set](images/onboarding-for-macos/all-set-2.png)</kbd>
 
   <!--?> Onboarding is not yet complete. Now you proceed to verify if System Integrity Protection(SIP) is enabled on your device. SIP protects your system from the execution of unauthorised code.-->
 
@@ -81,7 +81,7 @@ During this onboarding journey you will do the following:
 
    If the response on your **Terminal** is ``System Integrity Protection status: enabled``, it indicates that SIP is already enabled on your device.
 
-   ?>  If it is currently disabled, run the command ``csrutil enable`` on the **Terminal** and restart your device before proceeding with the following steps.
+   ?> If it is currently disabled, run the command ``csrutil enable`` on the **Terminal** and restart your device before proceeding with the following steps.
 
 </details>
 <details>
@@ -89,7 +89,7 @@ During this onboarding journey you will do the following:
 
   1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
   2. Click the **FileVault** tab.
-  3. If you see **Turn on FileVault**, go to step 4 or proceed to [Enable Full Disk Access(FDA)](#enable-full-disk-access).
+  3. If you see **Turn on FileVault**, go to step 4 or proceed to <a href="#C23">Enable Full Disk Access(FDA)</a>.
   4. Click the lock icon and use your Touch ID or enter your password to unlock.
   5. Click **Turn on FileVault**.
   6. You will be prompted to specify how you would like to unlock your device if you forget your device password. Select **Create a recovery key and do not use my iCloud account**.
@@ -100,7 +100,7 @@ During this onboarding journey you will do the following:
 
 </details>
 <details>
-  <summary>d. Enable Full Disk Access(FDA)</summary><br>
+  <summary id="S04">d. Enable Full Disk Access(FDA)</summary><br>
 
   1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
   2. Click the **Privacy** tab.
@@ -112,7 +112,7 @@ During this onboarding journey you will do the following:
        - Microsoft Defender ATP
        - Microsoft Defender ATP Security Extension
 
-   ?>  If **TaniumClient** is missing, refer to [Common issues and resolution](#common-issues-and-resolution) before proceeding further.
+   ?>  If **TaniumClient** is missing, refer to [Common issues while onboarding using macOS](#common-issues-while-onboarding-using-macos) before proceeding further.
 
   6. Select the checkboxes beside these applications.
 
@@ -123,33 +123,31 @@ During this onboarding journey you will do the following:
 <details>
   <summary>e. Enrol on Cloudflare using WARP client</summary><br>
 
-  **Prerequisites:**
-  1. Ensure that you have Cloudflare WARP client installed in your device. If not install it from [Clouhttps://install.appcenter.ms/orgs/cloudflare/apps/1.1.1.1-macos-1/distribution_groups/release](Clouhttps://install.appcenter.ms/orgs/cloudflare/apps/1.1.1.1-macos-1/distribution_groups/release)
+
+  1. Ensure that you have Cloudflare WARP client installed in your device. If not, install it from [https://install.appcenter.ms/orgs/cloudflare/apps/1.1.1.1-macos-1/distribution_groups/release](https://install.appcenter.ms/orgs/cloudflare/apps/1.1.1.1-macos-1/distribution_groups/release)
 
   2. Disconnect from any other VPN that might be running as that could clash with Cloudflare.
 
-  *To enrol macOS on Cloudflare using WARP client* :
-
-  1. Open the Cloudflare WARP client from the menu bar on the top right corner of your Mac device.
+  3. Open the Cloudflare WARP client from the menu bar on the top right corner of your Mac device.
 
   ![cloudflare-warp-icon](images/onboarding-for-macos/cloudflare-icon.png)
 
   ?>  You can also press ``Command+Spacebar`` and search for  **Cloudflare WARP** application to open it.
 
 
-  You will see the information page, followed by your privacy policy.
+    You will see the information page, followed by your privacy policy.
 
-  2. Click **Next** and then **Accept**.
+  4. Click **Next** and then **Accept**.
 
   ![accept-privacy-policy](images/cloudflare-warp-macos/accept-privacy-policy.png)
 
-  3. When prompted to sign in, select **Azure AD – TechPass Prod**.
+  5. When prompted to sign in, select **Azure AD – TechPass Prod**.
 
   ![gcc-cloudflare-access-signin](images/cloudflare-warp-macos/gcc-cloudflare-access-signin.png)
 
   ?>  If you encounter an error stating that user account does not exist in the respective tenant, open a new tab and go to [https://myaccount.microsoft.com](https://myaccount.microsoft.com/), sign out from your account and then retry.
 
-  4. Choose the appropriate login credentials to sign in with two-factor authentication:
+  6. Choose the appropriate login credentials to sign in with two-factor authentication:
    - If you are a public officer, use your [WOG ID](term-definitions).
    - If you are a vendor, use your [TechPass ID](term-definitions).
 
@@ -158,7 +156,7 @@ During this onboarding journey you will do the following:
 
   ![techpass-sign-in](images/cloudflare-warp-macos/techpass-sign-in.png)
 
-  5. Once you have successfully signed in, click the Cloudflare WARP icon.
+  7. Once you have successfully signed in, click the Cloudflare WARP icon.
 
   ![cloudflare-warp-icon](images/onboarding-for-macos/cloudflare-icon.png)
 
