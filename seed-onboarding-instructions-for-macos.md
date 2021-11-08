@@ -78,7 +78,7 @@ During this onboarding journey you will do the following:
 
    If the response on your **Terminal** is `System Integrity Protection status: enabled`, it indicates that SIP is already enabled on your Mac.
 
-   ?>  If it is currently disabled, run the command `csrutil enable` on the **Terminal** and restart your device before proceeding further.
+  Note:  If it is currently disabled, run the command `csrutil enable` on the **Terminal** and restart your device before proceeding further.
 
 </details>
 <details>
@@ -211,16 +211,16 @@ Enable Full Disk Access is for TaniumClient, Microsoft Defender ATP and Microsof
 
 <!--- If you encounter any issues during onboarding, refer to [Common issues and resolution](#common-issues-and-resolution) before reaching out to the SEED team.-->
 
- If your onboarding is successful, within an hour, you will receive a successfully onboarded email to the email address that was used for creating your TechPass account.
+   If your onboarding is successful, within an hour, you will receive a successfully onboarded email to the email address that was used for creating your TechPass account.
 
-?>  If you do not receive this email, please  [contact SEED team](gcc2.0_support@tech.gov.sg).
+ ?>  If you do not receive this email, please  [contact SEED team](gcc2.0_support@tech.gov.sg).
 
-Shortly after this email, when you receive a desktop notification prompting to restart the device, do the following:
+  Shortly after this email, when you receive a desktop notification prompting to restart the device, do the following:
 
 1. Restart your device.
 2. If prompted to enter your password, enter it.
 
-?>  While restarting, you will be notified that your device is renamed and will be prompted to reset your password.
+ ?>  While restarting, you will be notified that your device is renamed and will be prompted to reset your password.
 
 3. Reset your password.
 
