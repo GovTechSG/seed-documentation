@@ -1,11 +1,8 @@
-# Get Microsoft Windows ready for onboarding
+# Remove existing softwares for Windows
 
-**Objective** : This section explains how to get your Microsoft Windows machine ready for SEED onboarding.
+There are few softwares which if already installed are to be removed before proceeding with the SEED onboarding process.
 
-**Audience** :
-- Public officers and vendors who intend to onboard using macOS.
-- Defender ATP administrator who provides the scripts to vendors for offboarding from Microsoft Defender ATP.
-
+This section explains how public officers and vendors can remove those softwares.
 Follow the below steps to get your device ready:
 1. [Remove existing MDM software](#remove-existing-mdm-software)
 2. [Remove Tanium Client](#remove-tanium-client)
