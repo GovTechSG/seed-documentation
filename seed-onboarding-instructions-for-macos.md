@@ -213,7 +213,7 @@ Enable Full Disk Access is for TaniumClient, Microsoft Defender ATP and Microsof
 
    If your onboarding is successful, within an hour, you will receive a successfully onboarded email to the email address that was used for creating your TechPass account.
 
- ?>  If you do not receive this email, please contact SEED team at gcc2.0_support@tech.gov.sg.
+ ?>  If you do not receive this email, please <a href="gcc2.0_support@tech.gov.sg">contact SEED team.</a>
 
   Shortly after this email, when you receive a desktop notification prompting to restart the device, do the following:
 
