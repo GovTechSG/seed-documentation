@@ -16,7 +16,7 @@ This set of offboarding instructions is meant for **existing SEED users** to off
 
 **(4) Offboard from and uninstall Microsoft Defender ATP**
 
-1. **For public officers,**** please approach the GCC2.0 team to request for the specific Defender ATP offboarding script for your OS. For vendors, please approach your Defender ATP admins to obtain your offboarding scripts.**
+1. **For public officers,** please approach SEED team at gcc2.0_support@tech.gov.sg to request for the specific Defender ATP offboarding script for your OS. For vendors, please approach your Defender ATP admins to obtain your offboarding scripts.**
 2. Place the offboarding script in your &quot;Downloads&quot; folder.
 3. Go to &quot;Start&quot; and type &quot;cmd&quot;.
 4. In the matches that appear, right-click on &quot;Command Prompt&quot;and select &quot;Run as administrator&quot;. Enter your Windows password if prompted.
