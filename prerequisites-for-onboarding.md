@@ -15,7 +15,7 @@ Following are the prerequisites for onboarding to SEED:
 1. Non-GSIB devices that run on Windows 10 Pro/Enterprise versions or on macOS Catalina 10.15 and later versions.
 2. An active TechPass account.<!--that is linked to your WOG ID-->
 
-?> If you do not have one, [create TechPass Account](https://docs.developer.tech.gov.sg/docs/techpass-documentation/#/onboard) first.
+?> If you are a public officer using a non-SE GSIB machine and does not have a TechPass account, [sign up and onboard in to TechPass](https://docs.developer.tech.gov.sg/docs/techpass-documentation/#/onboard-public-officers-using-non-se-machines) first. If you are a vendor who does not have a TechPass account, [Create TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-documentation/#/onboard) first.
 
 <!--?> Note: If you are public officer, use your WOG account credentials to log in to your TechPass account.-->
 
