@@ -47,7 +47,7 @@ During this onboarding journey you will do the following:
 
    - If **Management Profile** is not displayed, then from the left side menu, select **Management Profile**.
 
-   - If Profile installation fails, refer to [Common issues while onboarding using macOS](#common-issues-while-onboarding-using-macos).
+   - If Profile installation fails, refer to [Common issues while onboarding using macOS](common-issues-while-onboarding-using-macos).
 
   8. Click **Install**.
 
@@ -109,7 +109,7 @@ During this onboarding journey you will do the following:
        - Microsoft Defender ATP
        - Microsoft Defender ATP Security Extension
 
-   ?>  If **TaniumClient** is missing, refer to [Common issues while onboarding using macOS](#common-issues-while-onboarding-using-macos) before proceeding further. If any other applications are missing, please wait for approximately four hours for them to appear. If they are still not available, please contact gcc2.0_support@tech.gov.sg
+   ?>  If **TaniumClient** is missing, refer to [Common issues while onboarding using macOS](common-issues-while-onboarding-using-macos) before proceeding further. If any other applications are missing, please wait for approximately four hours for them to appear. If they are still not available, please contact gcc2.0_support@tech.gov.sg
 
   6. Select the checkboxes beside these applications.
 
@@ -213,7 +213,7 @@ Enable Full Disk Access is for TaniumClient, Microsoft Defender ATP and Microsof
 
    If your onboarding is successful, within an hour, you will receive a successfully onboarded email to the email address that was used for creating your TechPass account.
 
- ?>  If you do not receive this email, please <a href="gcc2.0_support@tech.gov.sg">contact SEED team.</a>
+ Note: If you do not receive this email, please contact SEED team at gcc2.0_support@tech.gov.sg.
 
   Shortly after this email, when you receive a desktop notification prompting to restart the device, do the following:
 
@@ -226,7 +226,7 @@ Enable Full Disk Access is for TaniumClient, Microsoft Defender ATP and Microsof
 
 <!--that **your device has been renamed and will restart in 5 minutes**. This is expected, and the rename is required for SEED to function properly. **Please do not change your device name thereafter**.-->
 
-## Common issues while onboarding using macOS
+<!--## Common issues while onboarding using macOS
 
 <details>
   <summary>1. What should I do if profile installation fails while installing the management profile?</summary><br>
@@ -251,3 +251,4 @@ Enable Full Disk Access is for TaniumClient, Microsoft Defender ATP and Microsof
   7. Select the checkbox beside **TaniumClient**.
 
 </details>
+-->
