@@ -70,7 +70,7 @@ This section guides the existing SEED users to offboard from it. The offboarding
 
   </details>
 
-  <details>
+  <details id="removeMicrosoftDefenderATPoffBoarding">
   <summary>d. Remove Microsoft Defender ATP</summary><br>
 
   To remove Microsoft Defender ATP from your device, first you need to offboard from it using the offboarding script.

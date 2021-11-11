@@ -19,5 +19,11 @@ If you are a Defender ATP administrator, do the following:
 ?> The offboarding scripts expire after the  date indicated on the file name. For example, *MicrosoftDefenderATPOffboardingMacOs_valid_until_2021-11-04.py*
 
 **Related articles**
+
+<!--
+- [Onboarding to SEED using macOS](seed-onboarding-instructions-for-macos)
+- [Onboarding to SEED using Windows](seed-onboarding-instructions-windows)
 - [Offboarding from SEED for macOS](seed-offboarding-instructions-for-macos)
-- [Offboarding from SEED for Windows](seed-offboarding-instructions-for-windows)
+- [Offboarding from SEED for Windows](seed-offboarding-instructions-for-windows)-->
+
+- Remove Microsoft Defender ATP in your macOS <a href="#removeMicrosoftDefenderATP">before onboarding</a> and while offboarding.
