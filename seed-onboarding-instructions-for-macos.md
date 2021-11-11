@@ -1,6 +1,6 @@
 # Onboarding to SEED using macOS
 
-This sections explains public officers and vendors  how to onboard to SEED using macOS.
+This sections explains public officers and vendors how to onboard to SEED using their macOS device.
 
 
 ?>  Based on your Mac settings, you may be prompted to restart or reset your password while onboarding.
@@ -13,18 +13,20 @@ During this onboarding journey you will do the following:
 
   1. Download and install [**Company Portal**](https://go.microsoft.com/fwlink/?linkid=853070).
 
-  2. Open the **Company Portal** application and click **Sign in**.
+  2. Open the **Company Portal** application and click **Sign in** to log in using your TechPass credentials.
 
   <kbd>![sign-in](images/onboarding-for-macos/sign-in.png)</kbd>
 
-  3. Log in using your TechPass account credentials.
+  3. Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. However, if you are a public officer, you must first approve your WOG login before approving your Techpass login.
   <!-- the appropriate login credentials to sign in with two-factor authentication:
      - If you are a public officer, use your [WOG ID](terms-definitions).
      - If you are a vendor, use your [TechPass ID](terms-definitions). -->
 
   <kbd>![log-in-to-gcc](images/onboarding-for-macos/log-in-to-gcc.png)</kbd>
 
-  ?> If you're using the text message method for authentication, after you enter your password, you'll need to enter the verification code sent to your phone. Based on what you [set up](https://account.activedirectory.windowsazure.com/Proofup.aspx), other authentication methods have different ways to perform the 2FA.
+  ?> The above page will be displayed only for public officers.
+
+  <!--If you're using the text message method for authentication, after you enter your password, you'll need to enter the verification code sent to your phone. Based on what you [set up](https://account.activedirectory.windowsazure.com/Proofup.aspx), other authentication methods have different ways to perform the 2FA.-->
 
   4. Once you have signed in, click **Begin**.
 

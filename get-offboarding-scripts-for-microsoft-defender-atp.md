@@ -4,7 +4,7 @@ This article guides how a public officer and vendor can get the Defender ATP off
 
 - If you are a public officer, [contact GCC2.0 team](gcc2.0_support@tech.gov.sg) to get the offboarding scripts.
 
-- If you are a vendor, contact your Defender ATP administrator to get the offboarding scripts.
+- If you are a vendor, contact your Defender ATP administrator to get the offboarding scripts for your operating system.
 
 If you are a Defender ATP administrator, do the following:
 
@@ -12,7 +12,7 @@ If you are a Defender ATP administrator, do the following:
 
  2. Click **Settings** > **Device Management** > **Offboard**.
 
- 3. Select *macOS* as operating system and *Local Script* as **Deployment Method**.
+ 3. Select the operating system specified by the vendor and specify *Local Script* as **Deployment Method**.
 
  4. Download the script from the compressed file, a .zip file, and share it with the vendor(s).
 
@@ -23,6 +23,8 @@ If you are a Defender ATP administrator, do the following:
 
 - [Remove existing softwares before onboarding SEED using macOS](seed-pre-onboarding-clean-up-instructions-for-macos)
 - [Offboarding from SEED for macOS](seed-offboarding-instructions-for-macos)
+- [Remove existing softwares before onboarding SEED using Windows](seed-pre-onboarding-clean-up-instructions-for-windows)
+- [Offboarding from SEED for Windows](seed-offboarding-instructions-for-windows)
 <!--
 - [Onboarding to SEED using Windows](seed-onboarding-instructions-windows)
 - [Offboarding from SEED for Windows](seed-offboarding-instructions-for-windows)-->
