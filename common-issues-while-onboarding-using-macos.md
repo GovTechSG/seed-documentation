@@ -25,7 +25,8 @@
 </details>
 
 <details>
-<summary>3. While enabling FDA, I can't find <b>Microsoft Intune Agent</b> and <b>Microsoft Defender ATP</b>. What should I do?</summary></br>.
+<summary>3. While enabling FDA, I can't find <b>Microsoft Intune Agent</b> and <b>Microsoft Defender ATP</b>. What should I do?</summary></br>
+
 1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
 2. Click the **Privacy** tab.
 3. From the side menu, choose **Full Disk Access**.
