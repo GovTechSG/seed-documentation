@@ -20,10 +20,11 @@ If you are a Defender ATP administrator, do the following:
 
 **Related articles**
 
-<!--
-- [Onboarding to SEED using macOS](seed-onboarding-instructions-for-macos)
-- [Onboarding to SEED using Windows](seed-onboarding-instructions-windows)
+
+- [Remove existing softwares before onboarding SEED using macOS](seed-pre-onboarding-clean-up-instructions-for-macos)
 - [Offboarding from SEED for macOS](seed-offboarding-instructions-for-macos)
+<!--
+- [Onboarding to SEED using Windows](seed-onboarding-instructions-windows)
 - [Offboarding from SEED for Windows](seed-offboarding-instructions-for-windows)-->
 
-- Remove Microsoft Defender ATP in your macOS <a href="#removeMicrosoftDefenderATP">before onboarding</a> and while offboarding.
+<!--- Remove Microsoft Defender ATP in your macOS <a href="#removeMicrosoftDefenderATPbeforeOnboarding">before onboarding</a> and while <a href="#removeMicrosoftDefenderATPoffBoarding">offboarding</a>.-->
