@@ -111,7 +111,7 @@ During this onboarding journey you will do the following:
        - Microsoft Defender ATP
        - Microsoft Defender ATP Security Extension
 
-   ?>  If **TaniumClient** is missing, refer to [Common issues while onboarding using macOS](common-issues-while-onboarding-using-macos) before proceeding further. If any other applications are missing, please wait for approximately four hours for them to appear. If they are still not available, please contact gcc2.0_support@tech.gov.sg
+   ?>  If any of the listed application is missing, please refer to [Common Common issues while onboarding using macOS](common-issues-while-onboarding-using-macos).
 
   6. Select the checkboxes beside these applications.
 
