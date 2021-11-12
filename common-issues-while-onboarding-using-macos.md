@@ -5,8 +5,8 @@
 
   <kbd>![profile-installation-failed](images/onboarding-for-macos/profile-installation-failed.png)</kbd>
 
-    1. Go to the **Apple** menu > **System Preferences** > **Profiles**.
-    2. If **Management Profile** is already an existing profile, select it and remove by clicking the minus icon at the bottom left corner.
+    1. Go to the <b>Apple</b> menu > <b>System Preferences</b> > <b>Profiles</b>.
+    2. If <b>Management Profile</b> is already an existing profile, select it and remove by clicking the minus icon at the bottom left corner.
 
 </details>
 
