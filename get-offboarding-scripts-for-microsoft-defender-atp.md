@@ -15,8 +15,8 @@ If you are a Defender ATP administrator, do the following:
  3. Select the operating system specified by the vendor and specify *Local Script* as **Deployment Method**.
 
  4. Download the script from the compressed file, a .zip file, and share it with the vendor(s).
-
-?> The offboarding scripts expire after the  date indicated on the file name. For example, *MicrosoftDefenderATPOffboardingMacOs_valid_until_2021-11-04.py*
+<!--
+?> The offboarding scripts expire after the  date indicated on the file name. For example, for Mac users it will be something like  *MicrosoftDefenderATPOffboardingMacOs_valid_until_2021-11-04.py* and for Windows users, the file name will be something like *WindowsDefenderATPOffboardingScript_valid_until_2021-11-10.cmd*. -->
 
 **Related articles**
 
