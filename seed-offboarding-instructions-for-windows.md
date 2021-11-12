@@ -35,7 +35,9 @@ To remove Microsoft Defender ATP from your device, first you need to offboard fr
 
 Check if the script that you received earlier has not yet expired.
 
-?>  The expiry date is indicated on the file name. For example, *MicrosoftDefenderATPOffboardingMacOs_valid_until_2021-11-04.py*
+?>  The expiry date is indicated on the file name.
+
+For example, *WindowsDefenderATPOffboardingScript_valid_until_2021-11-10.cmd*
 
 If the script has already expired, choose one of the below options as appropriate:
 
@@ -44,8 +46,8 @@ If the script has already expired, choose one of the below options as appropriat
 - If you are a vendor, contact your Defender ATP administrator to [get the offboarding script](get-offboarding-scripts-for-microsoft-defender-atp).
 
 Once you have the valid offboarding script, do the following to remove Microsoft Defender ATP:
-1. Save the offboarding script in the **Downloads** folder.
-2. Go to the **Start** and type **cmd**.
+1. Save the offboarding script in your **Downloads** folder.
+2. Go to **Start** and type **cmd**.
 3. Right-click on **Command Prompt** and select **Run as administrator**.
 4. If prompted, enter your Windows password.
 5. Run the following commands:
