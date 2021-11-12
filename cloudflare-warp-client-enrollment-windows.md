@@ -1,4 +1,4 @@
-# Cloudflare WARP Client Enrolment (Windows)
+<!--# Cloudflare WARP Client Enrolment (Windows)
 
 **Prerequisites**
 

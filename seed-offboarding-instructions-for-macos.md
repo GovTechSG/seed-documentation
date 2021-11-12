@@ -1,4 +1,4 @@
-# Offboarding from SEED for macOS
+# Offboarding from SEED for macOS users
 
 This section guides the existing SEED users to offboard from it. The offboarding journey has the following steps:
 
