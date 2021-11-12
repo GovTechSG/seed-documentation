@@ -1,27 +1,58 @@
-**SEED Offboarding Instructions (Windows)**
+# SEED Offboarding Instructions for Windows users
 
-This set of offboarding instructions is meant for **existing SEED users** to offboard their devices. If you are a new SEED user looking to ensure a clean device state prior to onboarding, please refer to the **SEED pre-enrollment clean-up instructions** instead.
+This section guides the existing SEED users to offboard from it. The offboarding journey has the following steps:
 
-**(1) Unenroll your**  **device from Intune**
 
-1. Under &quot;Settings \&gt; Accounts \&gt; Access work or school&quot;, select &quot;Disconnect&quot;under your account.
 
-**(2) Remove the Tanium Client**
 
-1. Under &quot;Settings \&gt; Apps&quot;, search for &quot;Tanium Client&quot; and then select &quot;Uninstall&quot;
+<details>
+<summary>a. Remove your  device from Intune</summary>
 
-**(3) Remove the Cloudflare WARP client**
+1. Click **Start** icon on the taskbar.
+2. Go to  **Settings** > **Accounts** > **Access work or school**.
+3. Click your account and select **Disconnect**.
+</details>
 
-1. Under &quot;Settings \&gt; Apps&quot;, search for &quot;Cloudflare WARP&quot; and then select &quot;Uninstall&quot;.
+<details>
+<summary>b. Remove the Tanium Client</summary>
 
-**(4) Offboard from and uninstall Microsoft Defender ATP**
+1. Click **Start** icon on the taskbar.
+2. Go to **Settings** > **Apps**.
+3. Search for **Tanium Client** and then select **Uninstall**
 
-1. **For public officers,** please approach SEED team at gcc2.0_support@tech.gov.sg to request for the specific Defender ATP offboarding script for your OS. For vendors, please approach your Defender ATP admins to obtain your offboarding scripts.**
-2. Place the offboarding script in your &quot;Downloads&quot; folder.
-3. Go to &quot;Start&quot; and type &quot;cmd&quot;.
-4. In the matches that appear, right-click on &quot;Command Prompt&quot;and select &quot;Run as administrator&quot;. Enter your Windows password if prompted.
-5. Copy the following 2 commands into the &quot;Command Prompt&quot; window and click &quot;Enter&quot;. You may have to wait for around 30 seconds for the second command to finish executing:
+</details>
 
-**cd &quot;%USERPROFILE%\Downloads\&quot;**
+<details>
+<summary>c. Remove the Cloudflare WARP client</summary><br>
 
-**.\name\_of\_offboarding\_script.cmd**
+1. Click **Start** icon on the taskbar.
+2. Go to **Settings** > **Apps**.
+3. Search for **Cloudflare WARP** and then select **Uninstall**.
+</details>
+<details>
+<summary>d. Offboard from and uninstall Microsoft Defender ATP</summary><br>
+To remove Microsoft Defender ATP from your device, first you need to offboard from it using the offboarding script.
+
+Check if the script that you received earlier has not yet expired.
+
+?>  The expiry date is indicated on the file name. For example, *MicrosoftDefenderATPOffboardingMacOs_valid_until_2021-11-04.py*
+
+If the script has already expired, choose one of the below options as appropriate:
+
+- If you are a public officer, contact [SEED team](mailto:gcc2.0_support@tech.gov.sg) to get the offboarding script.
+
+- If you are a vendor, contact your Defender ATP administrator to [get the offboarding script](get-offboarding-scripts-for-microsoft-defender-atp).
+
+Once you have the valid offboarding script, do the following to remove Microsoft Defender ATP:
+1. Save the offboarding script in the **Downloads** folder.
+2. Go to the **Start** and type **cmd**.
+3. Right-click on **Command Prompt** and select **Run as administrator**.
+4. If prompted, enter your Windows password.
+5. Run the following commands:
+  ```
+  cd "%USERPROFILE%\Downloads\"
+
+  .\name\_of\_offboarding\_script.cmd
+  ```
+
+</details>

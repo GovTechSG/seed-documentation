@@ -11,11 +11,13 @@ During this onboarding journey you will do the following:
 <details>
   <summary>a. Enrol device</summary><br>
 
-1. Go to **Settings** > **Accounts** > **Access work or school** and click **Connect** plus sign to add your work or school account.
+1. Click **Start** icon on the taskbar.
+
+2. Go to **Settings** > **Accounts** > **Access work or school** and click **Connect** plus sign to add your work or school account.
 
 <kbd>![access-work-or-school](images/onboarding-instructions-for-windows/access-work-or-school.png ':size=600')</kbd>
 
-2. Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. However, if you are a public officer, you must first approve your WOG login before approving your Techpass login.
+3. Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. However, if you are a public officer, you must first approve your WOG login before approving your Techpass login.
 <!-- the appropriate login credentials to sign in with two-factor authentication:
    - If you are a public officer, use your [WOG ID](terms-definitions).
    - If you are a vendor, use your [TechPass ID](terms-definitions). -->
@@ -24,12 +26,12 @@ During this onboarding journey you will do the following:
 
 ?> The above page will be displayed only for public officers.
 
-3. Now GCC2 Tanium Windows gets installed on your device and Microsoft Intune Management Extension sends you a desktop notification about it.
+4. Now GCC2 Tanium Windows gets installed on your device and Microsoft Intune Management Extension sends you a desktop notification about it.
 <!--3. Within a few minutes, you should receive some desktop notifications from **Microsoft Intune Management Extension** telling you that certain software has been installed onto your device.-->
 
 <kbd>![settings](images/onboarding-instructions-for-windows/settings.png ':size=600')</kbd>
 
-4. <!--After around 5 minutes, check the **Access work or school** page again.--> Your account will be added and listed as a connection. This account has the <b>Info</b> and <b>Disconnect</b> options as shown below. Click on the <b>Info</b> option and verify that you see something like the following.
+5. <!--After around 5 minutes, check the **Access work or school** page again.--> Your account will be added and listed as a connection. This account has the <b>Info</b> and <b>Disconnect</b> options as shown below. Click on the <b>Info</b> option and verify that you see something like the following.
 
 ?> Vendors will see **TechPass** instead of **SG Govt M365**.
 
