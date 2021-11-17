@@ -9,7 +9,7 @@ During this onboarding journey you will do the following:
 
 
 <details>
-  <summary>a. Enrol device</summary><br>
+  <summary>a. Set Up Intune</summary><br>
 
 1. Click **Start** icon on the taskbar.
 
@@ -17,7 +17,7 @@ During this onboarding journey you will do the following:
 
 <kbd>![access-work-or-school](images/onboarding-instructions-for-windows/access-work-or-school.png ':size=600')</kbd>
 
-3. Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. However, if you are a public officer, you must first approve your WOG login before approving your Techpass login.
+3. Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. However, if you are a public officer using your GMD device, you must first sign in to your WOG account before approving your Techpass login.
 <!-- the appropriate login credentials to sign in with two-factor authentication:
    - If you are a public officer, use your [WOG ID](terms-definitions).
    - If you are a vendor, use your [TechPass ID](terms-definitions). -->
@@ -26,7 +26,7 @@ During this onboarding journey you will do the following:
 
 ?> The above page will be displayed only for public officers.
 
-4. Now GCC2 Tanium Windows gets installed on your device and Microsoft Intune Management Extension sends you a desktop notification about it.
+GCC2 Tanium and Cloudflare WARP clients will be installed on your device. Microsoft Intune Management Extension sends you a desktop notification about once the installation is complete.
 <!--3. Within a few minutes, you should receive some desktop notifications from **Microsoft Intune Management Extension** telling you that certain software has been installed onto your device.-->
 
 <kbd>![settings](images/onboarding-instructions-for-windows/settings.png ':size=600')</kbd>
@@ -43,7 +43,7 @@ Now your device is enrolled.
 <details>
   <summary>b. Encrypt drive using BitLocker</summary><br>
 
-1. Click the **Start** icon on the taskbar and search for **Manage BitLocker** and choose to open it.
+1. Click the **Start** icon on the taskbar and search for **Manage BitLocker** and choose to open it. Check if BitLocker is turned on for your OSDisk. A padlock on the drive indicates that BitLocker is turned on ![](images/onboarding-instructions-for-windows/bitlocker-enabled.png). If yes, proceed to **Enrol on Cloudflare using WARP client**.
 2. If BitLocker is not turned on, select **Turn on BitLocker**.
 3. When asked to choose how to unlock your drive at start up, select **Enter a password**.
 
@@ -69,7 +69,7 @@ Now your device is enrolled.
 ?> Depending on your system settings, you may be prompted to restart your computer before the encryption can start. If you are prompted to do so, restart your device, then return to the **Manage BitLocker** window to verify if encryption has started. A padlock icon on the hard drives in your Windows 10 File Explorer indicates that the hard drive has been encrypted.
 
 </details>
-<details>
+<details id="d3">
   <summary>c. Enrol on Cloudflare using WARP client</summary><br>
 
 1. Click the **Show hidden icons** arrow next to the notification area and make sure that Cloudflare WARP icon is displayed on your device or go to the **Start** menu and search for **Cloudflare WARP**.
