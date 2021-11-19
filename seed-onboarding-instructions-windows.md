@@ -37,7 +37,7 @@ GCC2 Tanium and Cloudflare WARP clients will be installed on your device. Micros
 
 <kbd>![managed-by-sg-govt-m365](images/onboarding-instructions-for-windows/managed-by-sg-govt-m365.png ':size=600')</kbd>
 
-Now your device is enrolled.
+Now your device is enrolled on Microsoft Intune.
 </details>
 
 <details>
