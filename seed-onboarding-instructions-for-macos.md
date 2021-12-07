@@ -1,4 +1,4 @@
-# Onboarding to SEED using macOS
+# SEED onboarding guide for Mac users
 
 This sections explains public officers and vendors how to onboard to SEED using their macOS device.
 
@@ -66,8 +66,6 @@ During this onboarding journey you will do the following:
   10. You will see the success message. Click **Done**.
 
   <kbd>![all-set](images/onboarding-for-macos/all-set-2.png)</kbd>
-
-  <!--?> Onboarding is not yet complete. Now you proceed to verify if System Integrity Protection(SIP) is enabled on your device. SIP protects your system from the execution of unauthorised code.-->
 
 
 </details>
@@ -148,9 +146,6 @@ During this onboarding journey you will do the following:
 
   6. Sign in using your TechPass credentials.
 
-
-   <!--When greeted with the Microsoft sign-in page, sign in using your WOG ID (i.e. [your\_name@tech.gov.sg](mailto:your_name@tech.gov.sg)) if you are a public officer, or your TechPass ID (i.e. [your\_name@techpass.gov.sg](mailto:your_name@techpass.gov.sg)) if you are a vendor.-->
-
   <kbd>![techpass-sign-in](images/cloudflare-warp-macos/techpass-sign-in.png)</kbd>
 
   7. Once you have successfully signed in, click the Cloudflare WARP icon.
@@ -166,56 +161,9 @@ During this onboarding journey you will do the following:
 
 </details>
 
-
-
-
-
-
-
-<!--3. [Ensure your device hard disk is encrypted](#ensure-your-device-hard-disk-is-encrypted).
-4. [Enable Full Disk Access(FDA)](#enable-full-disk-access).
-5. [Enrol your macOS on Cloudflare using WARP client](#enrol-your-macos-on-cloudflare-using-warp-client)
-
-
-<!--?> If you encounter any issues while onboarding, refer to [Common issues and resolution](#common-issues-and-resolution) section in the appendix before reaching out to the SEED team for support.-->
-
-
-<!--## Get your macOS device managed by Intune Company Portal app
-Enrol your macOS device with the Intune Company Portal app to get a secured access to your email, files, and applications.
-
-*To manage your device by Intune Company Portal app* :
-
-
-## Ensure SIP is enabled on your device
-Make sure SIP is enabled to prevent executions of unauthorised codes.
-
-
-
-## Ensure your device hard disk is encrypted
-To protect the privacy of your files and user data secured, ensure your device hard disk is encrypted.
-
-*To ensure your device hard disk is encrypted* :-->
-
-
-
-<!--Note:
-
-- Some applications that SEED depends on require Full Disk Access (FDA) in order to function.
-- As of Catalina, users may be required to give explicit consent for FDA.
-
-## Enable Full Disk Access
-Enable Full Disk Access is for TaniumClient, Microsoft Defender ATP and Microsoft Defender ATP Security Extension.
-*To enable FDA* :
-
-## Enrol your macOS on Cloudflare using WARP client-->
-
-
-
-<!--- If you encounter any issues during onboarding, refer to [Common issues and resolution](#common-issues-and-resolution) before reaching out to the SEED team.-->
-
 If your onboarding is successful, within an hour, you will receive a successfully onboarded email to  your organisational email address.  
 
-?> If you do not receive this email, please contact [SEED team](mailto:gcc2.0_support@tech.gov.sg).
+?> If you do not receive this email, please contact the [SEED team](mailto:gcc2.0_support@tech.gov.sg).
 
 Shortly after this email, when you receive a desktop notification prompting to restart the device, do the following:
 
@@ -225,32 +173,3 @@ Shortly after this email, when you receive a desktop notification prompting to r
  ?>  While restarting, you will be notified that your device is renamed and will be prompted to reset your password.
 
 3. Reset your password.
-
-<!--that **your device has been renamed and will restart in 5 minutes**. This is expected, and the rename is required for SEED to function properly. **Please do not change your device name thereafter**.-->
-
-<!--## Common issues while onboarding using macOS
-
-<details>
-  <summary>1. What should I do if profile installation fails while installing the management profile?</summary><br>
-
-  <kbd>![profile-installation-failed](images/onboarding-for-macos/profile-installation-failed.png)</kbd>
-
-    1. Go to the **Apple** menu > **System Preferences** > **Profiles**.
-    2. If **Management Profile** is already an existing profile, select it and remove by clicking the minus icon at the bottom left corner.
-
-</details>
-
-
-<details>
-  <summary>2. While enabling FDA, I can't find <b>TaniumClient</b>. What should I do?</summary><br>
-
-  1. Open the **Terminal** application and run the command: ``sudo chmod 755 /Library/Tanium/TaniumClient``.
-  2. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
-  3. Click the **Privacy** tab.
-  4. From the side menu, choose **Full Disk Access**.
-  5. Click the lock icon at the bottom and use your Touch ID or enter your password to unlock.
-  6. Click the plus icon at the bottom and from **Applications**, select **TaniumClient**.
-  7. Select the checkbox beside **TaniumClient**.
-
-</details>
--->

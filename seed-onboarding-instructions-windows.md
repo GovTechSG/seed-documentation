@@ -1,4 +1,4 @@
-# SEED Onboarding Instructions (Windows)
+# SEED onboarding guide for Windows users
 
 This sections explains public officers and vendors how to onboard to SEED using their Windows device.
 
@@ -112,7 +112,7 @@ Now your device is enrolled on Microsoft Intune.
 
 If your onboarding is successful, within an hour, you will receive a successfully onboarded email to your organisational email address.
 
-?> If you do not receive this email, please contact [SEED team](mailto:gcc2.0_support@tech.gov.sg).
+?> If you do not receive this email, please contact the [SEED team](mailto:gcc2.0_support@tech.gov.sg).
 
 Shortly after this email, when you receive a desktop notification prompting to restart the device, do the following:
 

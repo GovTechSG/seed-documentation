@@ -1,13 +1,9 @@
 * [Prerequisites](prerequisites-for-onboarding)
-  <!--* [Public Officers](prerequisites-for-onboarding-public-officer-to-seed)
-  * [Vendors](prerequisites-for-onboarding-vendors-to-seed)-->
-<!--* SEED onboarding-->
-* macOS
+  * Mac users
   * [Onboard](seed-onboarding-instructions-for-macos)
     * [Common onboarding issues](common-issues-while-onboarding-using-macos)
   * [Offboard](seed-offboarding-instructions-for-macos)
-
-* Windows  
+* Windows users  
   * [Onboard](seed-onboarding-instructions-windows)
   * [Offboard](seed-offboarding-instructions-for-windows)
-* [Term definitions](term-definitions)
+* [Terms and definitions](term-definitions)
