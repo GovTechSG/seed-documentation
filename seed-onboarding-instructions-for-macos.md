@@ -1,6 +1,6 @@
 # SEED onboarding guide for Mac users
 
-This sections explains public officers and vendors how to onboard to SEED using their macOS device.
+This sections explains how public officers and vendors can onboard to SEED using their macOS device. Before onboarding, take a look at the [prerequisites for SEED onboarding](prerequisites-for-onboarding).
 
 
 ?>  Based on your Mac settings, you may be prompted to restart or reset your password while onboarding.
@@ -24,7 +24,7 @@ During this onboarding journey you will do the following:
 
   <kbd>![log-in-to-gcc](images/onboarding-for-macos/log-in-to-gcc.png)</kbd>
 
-  ?> The above page will be displayed only for public officers.
+  ?> The above page will be displayed only for public officers and refer to [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) for more information.
 
   <!--If you're using the text message method for authentication, after you enter your password, you'll need to enter the verification code sent to your phone. Based on what you [set up](https://account.activedirectory.windowsazure.com/Proofup.aspx), other authentication methods have different ways to perform the 2FA.-->
 
