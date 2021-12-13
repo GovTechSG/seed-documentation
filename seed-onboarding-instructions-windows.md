@@ -1,11 +1,11 @@
 # SEED onboarding guide for Windows users
 
-This sections explains public officers and vendors how to onboard to SEED using their Windows device.
+This sections explains how public officers and vendors can onboard to SEED using their Windows device. Before onboarding, take a look at the [prerequisites for SEED onboarding](prerequisites-for-onboarding).
 
 
 ?>  Based on your Windows settings, you may be prompted to restart or reset your password while onboarding.
 
-During this onboarding journey you will do the following:
+During this onboarding journey you will be doing the following:
 
 
 <details>
@@ -17,14 +17,14 @@ During this onboarding journey you will do the following:
 
 <kbd>![access-work-or-school](images/onboarding-instructions-for-windows/access-work-or-school.png ':size=600')</kbd>
 
-3. Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. However, if you are a public officer using your GMD device, you must first sign in to your WOG account before approving your Techpass login.
+3. Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. If you are a public officer using your GMD device, authorise your WOG account sign-in before approving your Techpass login.
 <!-- the appropriate login credentials to sign in with two-factor authentication:
    - If you are a public officer, use your [WOG ID](terms-definitions).
    - If you are a vendor, use your [TechPass ID](terms-definitions). -->
 
 <kbd>![log-in-to-gcc](images/onboarding-for-macos/log-in-to-gcc.png ':size=500')</kbd>
 
-?> The above page will be displayed only for public officers.
+?> The above page will be displayed only for public officers and refer to [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) for more information.
 
 GCC2 Tanium and Cloudflare WARP clients will be installed on your device. Microsoft Intune Management Extension sends you a desktop notification about once the installation is complete.
 <!--3. Within a few minutes, you should receive some desktop notifications from **Microsoft Intune Management Extension** telling you that certain software has been installed onto your device.-->

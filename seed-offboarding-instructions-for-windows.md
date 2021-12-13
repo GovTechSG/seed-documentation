@@ -2,9 +2,6 @@
 
 This section guides existing SEED users to offboard from it. The offboarding journey has the following steps:
 
-
-
-
 <details>
 <summary>a. Remove your  device from Intune</summary>
 
