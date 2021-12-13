@@ -9,7 +9,7 @@ During this onboarding journey you will be doing the following:
 
 
 <details>
-  <summary>a. Set Up Intune</summary><br>
+  <summary>a. Set Up Intune to get the required applications and device configuration</summary><br>
 
 1. Click **Start** icon on the taskbar.
 
@@ -41,7 +41,7 @@ Now your device is enrolled on Microsoft Intune.
 </details>
 
 <details>
-  <summary>b. Encrypt drive using BitLocker</summary><br>
+  <summary>b. Encrypt drive using BitLocker to protect data at rest</summary><br>
 
 1. Click the **Start** icon on the taskbar and search for **Manage BitLocker** and choose to open it. Check if BitLocker is turned on for your OSDisk. A padlock on the drive indicates that BitLocker is turned on ![](images/onboarding-instructions-for-windows/bitlocker-enabled.png). If yes, proceed to **Enrol on Cloudflare using WARP client**.
 2. If BitLocker is not turned on, select **Turn on BitLocker**.
@@ -70,7 +70,7 @@ Now your device is enrolled on Microsoft Intune.
 
 </details>
 <details id="d3">
-  <summary>c. Enrol on Cloudflare using WARP client</summary><br>
+  <summary>c. Enrol on Cloudflare using WARP client to connect to protected engineering resources</summary><br>
 
 1. Click the **Show hidden icons** arrow next to the notification area and make sure that Cloudflare WARP icon is displayed on your device or go to the **Start** menu and search for **Cloudflare WARP**.
 

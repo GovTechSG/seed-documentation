@@ -9,7 +9,7 @@ During this onboarding journey you will do the following:
 
 
 <details>
-  <summary>a. Set up Intune</summary><br>
+  <summary>a. Set up Intune to get the required applications and device configuration</summary><br>
 
   1. Download and install [**Company Portal**](https://go.microsoft.com/fwlink/?linkid=853070).
 
@@ -71,7 +71,7 @@ During this onboarding journey you will do the following:
 </details>
 
 <details>
-  <summary>b. Enable System Integrity Protection (SIP)</summary><br>
+  <summary>b. Enable System Integrity Protection (SIP) to prevent unauthorised code executions</summary><br>
 
   - To verify if SIP is enabled, open **Terminal** and run the command `csrutil status`.
 
@@ -82,7 +82,7 @@ During this onboarding journey you will do the following:
 
 </details>
 <details>
-  <summary>c. Encrypt your hard disk</summary><br>
+  <summary>c. Encrypt your hard disk to protect your data at rest</summary><br>
 
   1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
   2. Click the **FileVault** tab.
@@ -97,7 +97,7 @@ During this onboarding journey you will do the following:
 
 </details>
 <details>
-  <summary>d. Enable Full Disk Access(FDA)</summary><br>
+  <summary>d. Enable Full Disk Access(FDA) for the applications installed for SEED</summary><br>
 
   1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
   2. Click the **Privacy** tab.
@@ -118,7 +118,7 @@ During this onboarding journey you will do the following:
 
 </details>
 <details>
-  <summary>e. Enrol on Cloudflare using WARP client</summary><br>
+  <summary>e. Enrol on Cloudflare using WARP client to connect to protected engineering resources</summary><br>
 
 
   1. Ensure that you have Cloudflare WARP client installed in your device. If not, install the latest [Cloudflare WARP](https://install.appcenter.ms/orgs/cloudflare/apps/1.1.1.1-macos-1/distribution_groups/release) version.
