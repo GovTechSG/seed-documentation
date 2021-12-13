@@ -121,7 +121,7 @@ During this onboarding journey you will do the following:
   <summary>e. Enrol on Cloudflare using WARP client</summary><br>
 
 
-  1. Ensure that you have Cloudflare WARP client installed in your device. If not, install it from [https://install.appcenter.ms/orgs/cloudflare/apps/1.1.1.1-macos-1/distribution_groups/release](https://install.appcenter.ms/orgs/cloudflare/apps/1.1.1.1-macos-1/distribution_groups/release).
+  1. Ensure that you have Cloudflare WARP client installed in your device. If not, install the latest [Cloudflare WARP](https://install.appcenter.ms/orgs/cloudflare/apps/1.1.1.1-macos-1/distribution_groups/release) version.
 
   2. Disconnect from any other VPN that might be running as that could clash with Cloudflare.
 
@@ -140,13 +140,15 @@ During this onboarding journey you will do the following:
 
   5. When prompted to sign in, select **Azure AD – TechPass Prod**.
 
-  <kbd>![gcc-cloudflare-access-signin](images/cloudflare-warp-macos/gcc-cloudflare-access-signin.png)</kbd>
+  ![gcc-cloudflare-access-signin](images/cloudflare-warp-macos/gcc-cloudflare-access-signin.png ':size=50%')
 
   ?>  If you encounter an error stating that user account does not exist in the respective tenant, open a new tab and go to [https://myaccount.microsoft.com](https://myaccount.microsoft.com/), sign out from your account and then retry.
 
   6. Sign in using your TechPass credentials.
 
-  <kbd>![techpass-sign-in](images/cloudflare-warp-macos/techpass-sign-in.png)</kbd>
+  ![techpass-sign-in](images/cloudflare-warp-macos/techpass-sign-in.png ':size=50%')
+
+  ?> If you are a public officer, you need to authorise your WOG sign-in first. To authorise that, enter the six-digit one-time password code displayed under your SG Govt M365 account on your authenticator app and then proceed to authorise your TechPass account.
 
   7. Once you have successfully signed in, click the Cloudflare WARP icon.
 
