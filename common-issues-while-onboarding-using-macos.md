@@ -19,8 +19,9 @@
   3. Click the **Privacy** tab.
   4. From the side menu, choose **Full Disk Access**.
   5. Click the lock icon at the bottom and use your Touch ID or enter your password to unlock.
-  6. Click the plus icon at the bottom and from **Applications**, select **TaniumClient** and click **Open**. **TaniumClient** is now available for Full Disk Access.
-  7. Ensure the checkbox beside **TaniumClient** is selected
+  6. Click the plus icon at the bottom.
+  7. Go to **Macintosh HD** > **Library** > **TaniumClient** and select the application file **TaniumClient**.
+  8. Ensure the checkbox beside **TaniumClient** is selected
 
 </details>
 
