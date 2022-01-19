@@ -1,5 +1,4 @@
-# Term definitions
-This section lists the terms that are used in this documentation and their definitions.
+# Terminology
 
 **SEED**
 
@@ -18,8 +17,8 @@ If you are a vendor, request the engaging agency or ministry to provide you with
 **TechPass ID**
 This is used to log in to your TechPass account.
 
-- For public officers, this will be the WOG ID.
-- For vendors, it will be *your_name<span>@</span>techpass.gov.sg*.
+- For public officers, it is their WOG ID.
+- For vendors, it is *your_name<span>@</span>techpass.gov.sg*.
 
  **Whole of Government(WOG) ID or account**
 
