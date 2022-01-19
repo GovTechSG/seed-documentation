@@ -18,15 +18,10 @@ During this onboarding journey you will do the following:
   <kbd>![sign-in](images/onboarding-for-macos/sign-in.png)</kbd>
 
   3. Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. However, if you are a public officer, you must first approve your WOG login before approving your Techpass login.
-  <!-- the appropriate login credentials to sign in with two-factor authentication:
-     - If you are a public officer, use your [WOG ID](terms-definitions).
-     - If you are a vendor, use your [TechPass ID](terms-definitions). -->
 
   <kbd>![log-in-to-gcc](images/onboarding-for-macos/log-in-to-gcc.png)</kbd>
 
   ?> The above page is displayed only for public officers and refer to [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) for more information.
-
-  <!--If you're using the text message method for authentication, after you enter your password, you'll need to enter the verification code sent to your phone. Based on what you [set up](https://account.activedirectory.windowsazure.com/Proofup.aspx), other authentication methods have different ways to perform the 2FA.-->
 
   4. Once you have signed in, click **Begin**.
 
@@ -160,7 +155,6 @@ During this onboarding journey you will do the following:
 
   ?>  If you need to connect to a different VPN, disconnect and quit from the WARP client.
 
-
 </details>
 
 If your onboarding is successful, within an hour, you will receive a successfully onboarded email to  your organisational email address.  
@@ -172,6 +166,6 @@ Shortly after this email, when you receive a desktop notification prompting to r
 1. Restart your device.
 2. If prompted to enter your password, enter it.
 
- ?>  While restarting, you are notified that your device has been renamed and prompted to reset your password.
+ ?>  While restarting, you will be notified that your device has been renamed and prompted to reset your password.
 
 3. Reset your password.

@@ -9,7 +9,7 @@ This sections explains how public officers and vendors can onboard to SEED using
 
 
 <details>
-  <summary>a. Set Up Intune to get the required applications and device configuration</summary><br>
+  <summary>a. Set up Intune to get the required applications and device configuration</summary><br>
 
 1. Click **Start** icon on the taskbar.
 
@@ -101,7 +101,6 @@ Now your device is enrolled on Microsoft Intune.
 
 </details>
 
-
 If your onboarding is successful, within an hour, you will receive a successfully onboarded email to your organisational email address.
 
 ?> If you do not receive this email, please contact the [SEED team](mailto:gcc2.0_support@tech.gov.sg).
@@ -110,7 +109,3 @@ Shortly after this email, when you receive a desktop notification prompting to r
 
 1. Restart your device.
 2. If prompted to enter your password, enter it.
-
-?>  While restarting, you are notified that your device has been renamed and prompted to reset your password.
-
-3. Reset your password.
