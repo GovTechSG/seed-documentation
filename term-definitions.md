@@ -17,7 +17,7 @@ If you are a vendor, request the engaging agency or ministry to provide you with
 **TechPass ID**
 This is used to log in to your TechPass account.
 
-- For public officers, it is their WOG ID.
+- For public officers, it is your WOG ID.
 - For vendors, it is *your_name<span>@</span>techpass.gov.sg*.
 
  **Whole of Government(WOG) ID or account**

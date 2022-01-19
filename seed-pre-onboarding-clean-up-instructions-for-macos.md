@@ -1,24 +1,11 @@
 # Remove existing softwares for macOS
 
-<!--**Objective**: -->
-
 There are few softwares which if already installed are to be removed before proceeding with the SEED onboarding process.
 
 This section explains how public officers and vendors can remove those softwares.
 
-<!--It also explains how the **Defender ATP** administrator provides the script for offboarding vendors from Microsoft Defender ATP.-->
-
-<!--- Public officers and vendors who intend to onboard using macOS.
-- Defender ATP administrator who provides the scripts to vendors for offboarding from Microsoft Defender ATP.-->
-
-
-<!--Complete the following steps to remove existing softwares on your device:-->
-
 <details>
   <summary>a. Remove existing MDM software</summary><br>
-
-<!--
-  Before proceeding to onboard, verify if your device is currently managed by an MDM software and unenrol your device from it.
 
   *To verify if you already have an MDM software* :-->
   1. Go to the **Apple** menu > **System Preferences** or click the **System Preferences** icon in the **Dock**.
@@ -31,10 +18,6 @@ This section explains how public officers and vendors can remove those softwares
 </details>
 <details>
   <summary>b. Unenrol from Intune</summary><br>
-
-  <!-- If your device is managed by Intune, complete the following steps to unenrol your device from it.
-
-  *To unenrol your device from Intune* :-->
 
   1. Click the **Spotlight** icon or press the ``Command+Spacebar`` to open the **Spotlight Search**.
   2. Enter **Company Portal**.
@@ -50,10 +33,6 @@ This section explains how public officers and vendors can remove those softwares
 
 <details>
   <summary>c. Remove Tanium Client</summary><br>
-
-  <!--If Tanium Client is installed on your device, remove it before proceeding further.The below steps guide you to verify its availability on your device and remove it.
-
-  *To remove Tanium Client* :-->
 
   1. Open **Terminal** and run the following command:
 
@@ -92,10 +71,6 @@ This section explains how public officers and vendors can remove those softwares
 </details>
 <details>
   <summary>d. Remove Cloudflare WARP Client</summary><br>
-
-  <!-- If Cloudflare WARP client is installed on your device, remove it before proceeding further. The below steps guide you to verify its availability on your device and remove it.
-
-  *To remove Cloudflare WARP client from macOS* :-->
 
   1. Click the **Finder** icon in the **Dock**.
   2. Choose **Applications**.

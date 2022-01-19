@@ -21,7 +21,7 @@ During this onboarding journey you will do the following:
 
   <kbd>![log-in-to-gcc](images/onboarding-for-macos/log-in-to-gcc.png)</kbd>
 
-  ?> The above page is displayed only for public officers and refer to [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) for more information.
+  ?> The above page is displayed only for public officers. Refer to [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) for more information.
 
   4. Once you have signed in, click **Begin**.
 
@@ -50,7 +50,7 @@ During this onboarding journey you will do the following:
 
   <kbd>![profile](images/onboarding-for-macos/profile-2.png)</kbd>
 
-  The configuration profiles that Intune needs to deploy are installed. You will see a list of profiles as shown below.
+  The configuration profiles that Intune needs to deploy will be installed. You will see a list of profiles as shown below.
 
   <kbd>![list-of-profiles](images/onboarding-for-macos/list-of-profiles.png)</kbd>
 
