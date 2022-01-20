@@ -9,12 +9,9 @@ This section explains how public officers and vendors can remove those softwares
   1. Click **Start** icon on the taskbar.
   2. Go to **Settings** > **Accounts**.
   3. From the left menu, choose **Access work or school**.
-  <!-- image verify-mdm-->
-
-  <!--image access-work-orschool-account-->
   4. If your device is managed by an MDM, your username in your organisation's domain will be displayed under **Work or school account**. Click **Work or school account** and then select **Disconnect**.
 
-<!--  ?> To unenrol your device from MDM softwares other than Intune, contact your organisation's IT administrator.-->
+
 
 </details>
 

@@ -5,11 +5,11 @@ This sections explains how public officers and vendors can onboard to SEED using
 
 ?>  Based on your Windows settings, you may be prompted to restart or reset your password while onboarding.
 
-During this onboarding journey you will be doing the following:
+*To onboard your Windows device*:
 
 
 <details>
-  <summary>a. Set Up Intune to get the required applications and device configuration</summary><br>
+  <summary>a. Set up Intune to get the required applications and device configuration</summary><br>
 
 1. Click **Start** icon on the taskbar.
 
@@ -18,20 +18,16 @@ During this onboarding journey you will be doing the following:
 <kbd>![access-work-or-school](images/onboarding-instructions-for-windows/access-work-or-school.png ':size=600')</kbd>
 
 3. Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. If you are a public officer using your GMD device, authorise your WOG account sign-in before approving your Techpass login.
-<!-- the appropriate login credentials to sign in with two-factor authentication:
-   - If you are a public officer, use your [WOG ID](terms-definitions).
-   - If you are a vendor, use your [TechPass ID](terms-definitions). -->
 
 <kbd>![log-in-to-gcc](images/onboarding-for-macos/log-in-to-gcc.png ':size=500')</kbd>
 
-?> The above page will be displayed only for public officers and refer to [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) for more information.
+?> The above page is displayed only for public officers and you may refer to [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) for more information.
 
-GCC2 Tanium and Cloudflare WARP clients will be installed on your device. Microsoft Intune Management Extension sends you a desktop notification about once the installation is complete.
-<!--3. Within a few minutes, you should receive some desktop notifications from **Microsoft Intune Management Extension** telling you that certain software has been installed onto your device.-->
+GCC2 Tanium and Cloudflare WARP clients are now installed on your device. Microsoft Intune Management Extension sends you a desktop notification about once the installation is complete.
 
 <kbd>![settings](images/onboarding-instructions-for-windows/settings.png ':size=600')</kbd>
 
-5. <!--After around 5 minutes, check the **Access work or school** page again.--> Your account will be added and listed as a connection. This account has the <b>Info</b> and <b>Disconnect</b> options as shown below. Click on the <b>Info</b> option and verify that you see something like the following.
+5. Your account is added and listed as a connection. This account has the <b>Info</b> and <b>Disconnect</b> options as shown below. Click on the <b>Info</b> option and verify that you see something like the following.
 
 ?> Vendors will see **TechPass** instead of **SG Govt M365**.
 
@@ -76,8 +72,6 @@ Now your device is enrolled on Microsoft Intune.
 
 <kbd>![](images/cloudflare-warp-windows/check-cloudflare-warp-desktop-client.png ':size=400')</kbd>
 
-<!--<kbd>![cloudflare-systemtray-icon](images/cloudflare-warp-windows/cloudflare-systemtray-icon.png)</kbd>-->
-
 ?> If it is not available on your device, install it from [Cloudflare App Center](https://install.appcenter.ms/orgs/cloudflare/apps/1.1.1.1-windows-1/distribution_groups/release).
 
 2. Disconnect from any other VPN that might be running as that could clash with Cloudflare.
@@ -87,8 +81,6 @@ Now your device is enrolled on Microsoft Intune.
 4. Click **Next** and accept the policy.
 
 <kbd>![cloudflare-for-teams](images/cloudflare-warp-windows/cloudflare-for-teams.png ':size=400')</kbd>
-
-<!--You will be prompted to sign in with one of the three options.-->
 
 3. When prompted to sign in, choose **Azure AD – TechPass Prod**.
 
@@ -109,7 +101,6 @@ Now your device is enrolled on Microsoft Intune.
 
 </details>
 
-
 If your onboarding is successful, within an hour, you will receive a successfully onboarded email to your organisational email address.
 
 ?> If you do not receive this email, please contact the [SEED team](mailto:gcc2.0_support@tech.gov.sg).
@@ -118,7 +109,3 @@ Shortly after this email, when you receive a desktop notification prompting to r
 
 1. Restart your device.
 2. If prompted to enter your password, enter it.
-
-?>  While restarting, you will be notified that your device is renamed and will be prompted to reset your password.
-
-3. Reset your password.
