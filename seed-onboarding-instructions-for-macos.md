@@ -3,7 +3,8 @@
 This sections explains how public officers and vendors can onboard to SEED using their macOS device. Before onboarding, take a look at the [prerequisites for SEED onboarding](prerequisites-for-onboarding).
 
 
-?>  Based on your Mac settings, you may be prompted to restart or reset your password while onboarding.
+?>  Based on your Mac settings, you may be prompted to restart or reset your password while onboarding. 
+
 
 During this onboarding journey you will do the following:
 
@@ -164,8 +165,8 @@ If your onboarding is successful, within an hour, you will receive a successfull
 Shortly after this email, when you receive a desktop notification prompting to restart the device, do the following:
 
 1. Restart your device.
-2. If prompted to enter your password, enter it.
+2. When prompted for password, enter it.
 
- ?>  While restarting, you will be notified that your device has been renamed and prompted to reset your password.
+ ?>  While restarting, you will be notified that your device has been renamed and prompted to reset your password. This is to enforce a strong password policy.
 
 3. Reset your password.
