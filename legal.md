@@ -3,7 +3,7 @@ Below is the latest Terms of Use (TOU) and Privacy Policy for TechPass and SEED 
 
 Effective date: These terms and policies apply as of January 21, 2021.
 
-Last updated :
+Last updated : January 21, 2022
 
 <!--
 <embed src="Terms of Use v 3.6.2.pdf" width="800px" height="2100px" />-->
