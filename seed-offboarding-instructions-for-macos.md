@@ -36,7 +36,7 @@ This section guides existing SEED users to offboard from it. The offboarding jou
   ```
   sudo launchctl unload /Library/LaunchDaemons/com.tanium.taniumclient.plist
 
-  sudo launchctl remove com.tanium.taniumclient \&gt; /dev/null 2\&gt;&amp;1
+  sudo launchctl remove com.tanium.taniumclient > /dev/null 2 > &1
 
   sudo rm /Library/LaunchDaemons/com.tanium.taniumclient.plist
 
