@@ -8,5 +8,5 @@
   * [Onboard](seed-onboarding-instructions-windows)
   * [Offboard](seed-offboarding-instructions-for-windows)
 * [Terminology](term-definitions)
-* [Terms and Policies](Terms-and-policies)
+<!--* [Terms and Policies](terms-and-policies)-->
 * [Raise an incident support request](raise-an-incident-support-request)

@@ -7,7 +7,7 @@ This section explains how public officers and vendors can remove those softwares
 <details>
   <summary>a. Remove existing MDM software</summary><br>
 
-  *To verify if you already have an MDM software* :-->
+  *To verify if you already have an MDM software* :
   1. Go to the **Apple** menu > **System Preferences** or click the **System Preferences** icon in the **Dock**.
   2. Go to **Profiles** and from the left menu, choose **Management Profile**.
   <kbd>![verify-other-mdm](images/onboarding-for-macos/verify-other-mdm.png)</kbd>
