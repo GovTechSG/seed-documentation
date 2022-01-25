@@ -5,6 +5,7 @@ This sections explains how public officers and vendors can onboard to SEED using
 
 ?>  Based on your Mac settings, you may be prompted to restart or reset your password while onboarding.
 
+
 During this onboarding journey you will do the following:
 
 
@@ -55,8 +56,6 @@ During this onboarding journey you will do the following:
   <kbd>![list-of-profiles](images/onboarding-for-macos/list-of-profiles.png)</kbd>
 
   9. Open the **Company Portal** application again.
-
-  <!--![all-set](images/onboarding-for-macos/all-set-1.png)-->
 
   10. You will see the success message. Click **Done**.
 
@@ -161,11 +160,4 @@ If your onboarding is successful, within an hour, you will receive a successfull
 
 ?> If you do not receive this email, please contact the [SEED team](mailto:gcc2.0_support@tech.gov.sg).
 
-Shortly after this email, when you receive a desktop notification prompting to restart the device, do the following:
-
-1. Restart your device.
-2. If prompted to enter your password, enter it.
-
- ?>  While restarting, you will be notified that your device has been renamed and prompted to reset your password.
-
-3. Reset your password.
+Shortly after this email, you will receive a desktop notification informing you that your device has been renamed and will automatically restart in the next five minutes. When you log in again, you will be prompted to reset your password. This is to enforce a strong password policy.
