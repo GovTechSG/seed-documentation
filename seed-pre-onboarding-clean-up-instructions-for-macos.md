@@ -39,7 +39,9 @@ This section explains how public officers and vendors can remove those softwares
    ```
   sudo ls /Library/Tanium/TaniumClient
    ```
-  2. If you see the below on your **Terminal**, it indicates that Tanium Client is installed on your device and go to step 3. If not, proceed to [Remove pre-existing Cloudflare WARP client](#remove-pre-existing-cloudflare-warp-client).
+   ?> If prompted for password, enter your macOS password.
+   
+  2. If you see the below on your **Terminal**, it indicates that Tanium Client is installed on your device and go to step 3. If not, proceed to step d. **Remove Cloudflare WARP client**.
 
    <kbd>![tanium-client](images/clean-up-instructions-macos.png)</kbd>
 
