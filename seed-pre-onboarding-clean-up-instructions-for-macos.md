@@ -39,18 +39,18 @@ This section explains how public officers and vendors can remove those softwares
    ```
   sudo ls /Library/Tanium/TaniumClient
    ```
-   ?> If prompted for password, enter your macOS password.
-   
-  2. If you see the below on your **Terminal**, it indicates that Tanium Client is installed on your device and go to step 3. If not, proceed to step d. **Remove Cloudflare WARP client**.
+  2. If prompted for password, enter your macOS password.
+
+  3. If you see the below on your **Terminal**, it indicates that Tanium Client is installed on your device and go to step 3. If not, proceed to step d. **Remove Cloudflare WARP client**.
 
    <kbd>![tanium-client](images/clean-up-instructions-macos.png)</kbd>
 
-3. Run the following commands in **Terminal**.
+  4. Run the following commands in **Terminal**.
 
      ```
      sudo launchctl unload /Library/LaunchDaemons/com.tanium.taniumclient.plist
 
-     sudo launchctl remove com.tanium.taniumclient \&gt; /dev/null 2\&gt;&amp;1
+     sudo launchctl remove com.tanium.taniumclient > /dev/null 2 >&1
 
      sudo rm /Library/LaunchDaemons/com.tanium.taniumclient.plist
 
@@ -87,7 +87,7 @@ This section explains how public officers and vendors can remove those softwares
 </details>
 
 
-<details id="removeMicrosoftDefenderATPbeforeOnboarding">
+<details>
   <summary>e. Remove Microsoft Defender ATP</summary><br>
 
   1. Click the **Finder** icon in the **Dock**.
@@ -99,8 +99,10 @@ This section explains how public officers and vendors can remove those softwares
     ```
     sudo python ~/Downloads/name_of_offboarding_script.py
     ```
-  7. Click the **Finder** icon in the **Dock**.
-  8. Choose **Applications** and search for **Microsoft Defender for Endpoint.app**.
+  ?> Type the file name of the offboarding script provided to you.
+    
+  7. Go back to the **Finder** icon in the **Dock**.
+  8. Choose **Applications** and search for **Microsoft Defender ATP.app**.
   9. Drag the app to the Trash, or select the app and choose **File** > **Move to Trash**.
 
 
