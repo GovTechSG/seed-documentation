@@ -3,8 +3,10 @@
 This sections explains how public officers and vendors can onboard to SEED using their macOS device. Before onboarding, take a look at the [prerequisites for SEED onboarding](prerequisites-for-onboarding).
 
 
-?>  Based on your Mac settings, you may be prompted to restart or reset your password while onboarding.
-For a smooth onboarding journey, it is important to link your Apple ID to this Mac device. Generate a recovery key and keep it safe in a place other than the Mac device that you are going to onboard to SEED.
+!>  
+  - Based on your Mac settings, you may be prompted to restart or reset your password while onboarding.
+  - For a smooth onboarding journey, it is important to link your Apple ID to this Mac device.
+  - Generate a recovery key and keep it safe in a place other than the Mac device that you are going to onboard to SEED.
 
 During this onboarding journey you will do the following:
 
