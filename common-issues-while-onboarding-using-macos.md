@@ -5,7 +5,7 @@
 
 <kbd>![profile-installation-failed](images/onboarding-for-macos/profile-installation-failed.png)</kbd>
 
-1. Ensure that you have received an email confirming that the required licence has been assigned to you. If yes, proceed to step 2.
+1. Ensure you received an email from us confirming the licence required for SEED onboarding has been assigned to you. If yes, proceed to step 2.
 2. Go to the **Apple** menu > **System Preferences** > **Profiles**.
 3. If **Management Profile** is already an existing profile, select it and remove it by clicking the minus icon at the lower-left corner.
 

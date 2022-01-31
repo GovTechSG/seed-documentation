@@ -10,7 +10,7 @@ Following are the prerequisites for onboarding to SEED:
 
 ?> If you are a public officer using a non-SE GSIB machine and does not have a TechPass account, [sign up and onboard in to TechPass](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines) first. If you are a vendor who does not have a TechPass account, [Create TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-vendors-to-techpass) first.
 
-3. Ensure you have received an email stating that the required licence has been assigned to proceed with the for onboarding.
+3. Ensure you have received an email stating that the required licence has been assigned to proceed with the onboarding.
 
 4. Depending on your device, [remove existing softwares on your macOS](seed-pre-onboarding-clean-up-instructions-for-macos) or [remove existing softwares on your Windows](seed-pre-onboarding-clean-up-instructions-for-windows).
 
