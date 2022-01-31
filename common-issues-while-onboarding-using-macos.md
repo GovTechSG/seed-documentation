@@ -3,10 +3,11 @@
 <details>
   <summary>1. What should I do if profile installation fails while installing the management profile?</summary>
 
-  <kbd>![profile-installation-failed](images/onboarding-for-macos/profile-installation-failed.png)</kbd>
+<kbd>![profile-installation-failed](images/onboarding-for-macos/profile-installation-failed.png)</kbd>
 
-    1. Go to the <b>Apple</b> menu > <b>System Preferences</b> > <b>Profiles</b>.
-    2. If <b>Management Profile</b> is already an existing profile, select it and remove by clicking the minus icon at the bottom left corner.
+1. Ensure you received an email from us confirming the licence required for SEED onboarding has been assigned to you. If yes, proceed to step 2.
+2. Go to the **Apple** menu > **System Preferences** > **Profiles**.
+3. If **Management Profile** is already an existing profile, select it and remove it by clicking the minus icon at the lower-left corner.
 
 </details>
 
