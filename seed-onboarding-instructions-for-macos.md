@@ -1,4 +1,4 @@
-# SEED onboarding guide for Mac users
+# SEED onboarding guide for macOS users
 
 This sections explains how public officers and vendors can onboard to SEED using their macOS device. Before onboarding, take a look at the [prerequisites for SEED onboarding](prerequisites-for-onboarding).
 
