@@ -1,5 +1,15 @@
 # Prerequisites
 
+<div class="warn">
+  <p> Things to take note before you begin!</p>
+  <ul>
+    <li>After you complete the onboarding process, you will receive an email confirming your successful onboarding to SEED and your device will be automatically renamed and restarted.</li>
+    <li>After the automatic restart, macOS users will be prompted to reset their password to enforce a strong password policy.</li>
+    <li>If a device onboarded to SEED is compromised or lost, the respective agency may remotely wipe the device, including any personal information.</li>
+  </ul>
+</div>  
+
+
 This document provides the prerequisites for onboarding users to Security Suite for Engineering Endpoint Devices(SEED) and the supported operating systems.
 
 Following are the prerequisites for onboarding to SEED:
