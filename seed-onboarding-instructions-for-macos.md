@@ -3,7 +3,7 @@
 This sections explains how public officers and vendors can onboard to SEED using their macOS device. Before onboarding, take a look at the [prerequisites for SEED onboarding](prerequisites-for-onboarding).
 
 
-!> Based on your device settings, while onboarding, you may be prompted to **restart your device** a couple of times and **reset device password**. For a smooth onboarding journey, it is important to link your Apple ID to your device. Please have your recovery keys ready in the event of you facing issues with resetting your password or logging in to your device.
+!> Note: Based on your device settings, while onboarding, you may be prompted to **restart your device** a couple of times and **reset device password**. For a smooth onboarding journey, it is important to link your Apple ID to your device. Please have your recovery keys ready in the event of you facing issues with resetting your password or logging in to your device.
 
 
 During this onboarding journey you will do the following:
@@ -161,3 +161,5 @@ If your onboarding is successful, within an hour, you will receive a successfull
 ?> If you do not receive this email, please contact the [SEED team](mailto:gcc2.0_support@tech.gov.sg).
 
 Shortly after this email, you will receive a desktop notification informing you that your device has been renamed and will automatically restart in the next five minutes. When you log in again, you will be prompted to reset your password. This is to enforce a strong password policy.
+
+!> Note: As Safari is not supported by SEED, use Google Chrome or Microsoft Edge for accessing services or websites that need SEED.
