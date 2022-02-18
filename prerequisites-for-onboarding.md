@@ -10,7 +10,7 @@
 </div>  
 
 
-This document provides the prerequisites for onboarding users to Security Suite for Engineering Endpoint Devices(SEED) and the supported operating systems.
+This document provides the prerequisites for onboarding a non-GSIB device to Security Suite for Engineering Endpoint Devices(SEED) and the supported operating systems.
 
 Following are the prerequisites for onboarding to SEED:
 
