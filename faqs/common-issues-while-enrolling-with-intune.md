@@ -1,4 +1,4 @@
-## Frequently asked questions while enrolling device with Intune
+# Frequently asked questions while enrolling device with Intune
 
 <br>
 <details>
