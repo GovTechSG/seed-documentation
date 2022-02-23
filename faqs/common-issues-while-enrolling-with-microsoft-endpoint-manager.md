@@ -1,31 +1,31 @@
-# Frequently asked questions
+# Frequently asked questions while enrolling device with Microsoft Endpoint Manager
 
 <br>
 <details>
-  <summary>1. While onboarding my macOS to Intune, I don’t see any profiles. What should I do?</summary>
+  <summary>1. While onboarding my macOS to Microsoft Endpoint Manager, I don’t see any profiles. What should I do?</summary>
   <ol>
     <li>Make sure that you have signed in to the <strong>Company Portal</strong> app and see if profiles are listed. If you still do not see any profiles listed, go to step 2.</li>
     <li>Create another local user account and sign in to the <strong>Company Portal</strong> app.</li>
-    <li>Repeat the process to setup Intune on your device.</li>
+    <li>Repeat the process to setup Microsoft Endpoint Manager on your device.</li>
   </ol>  
   </details>
   <hr />
   <details>
-  <summary>2. While onboarding to Intune, I get an error message, <em>"Could not download the identity profile from the Encrypted Profile Service. The credentials within the Device Enrolment profile may have expired."</em></summary>
+  <summary>2. While onboarding to Microsoft Endpoint Manager, I get an error message, <em>"Could not download the identity profile from the Encrypted Profile Service. The credentials within the Device Enrolment profile may have expired."</em></summary>
 
-  One of the possible reasons could be that your device was earlier onboarded by another user in Intune and was not offboarded properly.  
+  One of the possible reasons could be that your device was earlier onboarded by another user in Microsoft Endpoint Manager and was not offboarded properly.  
 
-  To confirm if that is the case, contact the [SEED team](mailto:gcc2.0_support@tech.gov.sg)  with your device serial number. The SEED team can verify if your device was previously enrolled in Intune under a different user. If this is confirmed, offboard it properly before proceeding to onboard again.
+  To confirm if that is the case, contact the [SEED team](mailto:gcc2.0_support@tech.gov.sg)  with your device serial number. The SEED team can verify if your device was previously enrolled in Microsoft Endpoint Manager under a different user. If this is confirmed, offboard it properly before proceeding to onboard again.
 
   </details>
   <hr />
 
   <details>
     <summary>
-    3. What is the minimum version of macOS needed for onboarding it into Microsoft Intune?
+    3. What is the minimum version of macOS needed for onboarding it into Microsoft Endpoint Manager?
     </summary>
 
-  Catalina 10.12.x is the minimum version needed for a successful onboarding. If your macOS is an earlier version, ensure to [upgrade it to a later macOS version](https://support.apple.com/downloads/macos).
+  Catalina 10.15.x is the minimum version needed for a successful onboarding. If your macOS is an earlier version, ensure to [upgrade it to a later macOS version](https://support.apple.com/downloads/macos).
 
   </details>
   <hr />
@@ -39,9 +39,9 @@
   <hr />
   <details>
   <summary>
-  5. Why does my device slowdown after onboarding to Intune?</summary>
+  5. Why does my device slowdown after onboarding to Microsoft Endpoint Manager?</summary>
 
-This could be due to two antiviruses running simultaneously. Disable one of them to see if it improves the performance of your device.
+  SEED is designed to use **Microsoft Defender for Endpoint** to ensure device is free from malware, prevent and respond to advanced threats. If there is any other antivirus or anti-malware running simultaneously, it could compromise the operating system's performance. To resolve this, disable or uninstall antivirus other than **Microsoft Defender for Endpoint**.
 
   </details>
   <hr />
@@ -51,7 +51,7 @@ This could be due to two antiviruses running simultaneously. Disable one of them
   6. While enrolling my device to SEED, I get an error message, "<em>Couldn’t add your device. Wait a few minutes, then try again or contact your company support.</em>" What should I do?
   </summary>
 
-  As suggested wait for few minutes, retry enrolling your device to Intune and click <strong>Approve</strong> in the management profile.
+  As suggested wait for few minutes, retry enrolling your device to Microsoft Endpoint Manager and click <strong>Approve</strong> in the management profile.
   </details>
   <hr />
 

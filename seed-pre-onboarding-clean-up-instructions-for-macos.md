@@ -13,11 +13,11 @@ This section explains how public officers and vendors can remove those softwares
   <kbd>![verify-other-mdm](images/onboarding-for-macos/verify-other-mdm.png)</kbd>
   3. At the bottom left, if you see "This Mac is supervised and managed by *your-organisation-name* it indicates you already have an MDM software.
 
-  ?> To unenrol your device from MDM softwares other than Intune, contact your organisation's IT administrator.
+  ?> To unenrol your device from MDM softwares other than Microsoft Endpoint Manager, contact your organisation's IT administrator.
 
 </details>
 <details>
-  <summary>b. Unenrol from Intune</summary><br>
+  <summary>b. Unenrol from Microsoft Endpoint Manager</summary><br>
 
   1. Click the **Spotlight** icon or press the ``Command+Spacebar`` to open the **Spotlight Search**.
   2. Enter **Company Portal**.
@@ -88,11 +88,11 @@ This section explains how public officers and vendors can remove those softwares
 
 
 <details>
-  <summary>e. Remove Microsoft Defender ATP</summary><br>
+  <summary>e. Remove Microsoft Defender for Endpoint</summary><br>
 
   1. Click the **Finder** icon in the **Dock**.
   2. Choose **Applications**.
-  3. Search for **Microsoft Defender ATP.app**.
+  3. Search for **Microsoft Defender for Endpoint.app**.
   4. If available, [get the offboarding scripts](get-offboarding-scripts-for-microsoft-defender-atp) for your device or you may proceed to [onboard to SEED](seed-onboarding-instructions-for-macos).
   5. Save the offboarding script in the **Downloads** folder.
   6. Go to the **Terminal** and run the following command:
@@ -102,7 +102,7 @@ This section explains how public officers and vendors can remove those softwares
   ?> Type the file name of the offboarding script provided to you.
     
   7. Go back to the **Finder** icon in the **Dock**.
-  8. Choose **Applications** and search for **Microsoft Defender ATP.app**.
+  8. Choose **Applications** and search for **Microsoft Defender for Endpoint.app**.
   9. Drag the app to the Trash, or select the app and choose **File** > **Move to Trash**.
 
 

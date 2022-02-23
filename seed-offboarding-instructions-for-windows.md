@@ -3,7 +3,7 @@
 This section guides existing SEED users to offboard from it. The offboarding journey has the following steps:
 
 <details>
-<summary>a. Remove your  device from Intune</summary>
+<summary>a. Remove your  device from Microsoft Endpoint Manager</summary>
 
 1. Click **Start** icon on the taskbar.
 2. Go to  **Settings** > **Accounts** > **Access work or school**.
@@ -27,8 +27,8 @@ This section guides existing SEED users to offboard from it. The offboarding jou
 3. Search for **Cloudflare WARP** and then select **Uninstall**.
 </details>
 <details>
-<summary>d. Offboard from and uninstall Microsoft Defender ATP</summary><br>
-To remove Microsoft Defender ATP from your device, first you need to offboard from it using the offboarding script.
+<summary>d. Offboard from and uninstall Microsoft Defender for Endpoint</summary><br>
+To remove Microsoft Defender for Endpoint from your device, first you need to offboard from it using the offboarding script.
 
 Check if the script that you received earlier has not yet expired.
 
@@ -42,7 +42,7 @@ If the script has already expired, choose one of the below options as appropriat
 
 - If you are a vendor, contact your Defender ATP administrator to [get the offboarding script](get-offboarding-scripts-for-microsoft-defender-atp).
 
-Once you have the valid offboarding script, do the following to remove Microsoft Defender ATP:
+Once you have the valid offboarding script, do the following to remove Microsoft Defender for Endpoint:
 1. Save the offboarding script in your **Downloads** folder.
 2. Go to **Start** and type **cmd**.
 3. Right-click on **Command Prompt** and select **Run as administrator**.

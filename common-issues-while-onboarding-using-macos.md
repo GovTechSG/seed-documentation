@@ -27,21 +27,21 @@
 </details>
 
 <details>
-<summary>3. While enabling FDA, I can't find <b>Microsoft Intune Agent</b> and <b>Microsoft Defender ATP</b>. What should I do?</summary>
+<summary>3. While enabling FDA, I can't find <b>Microsoft Endpoint Manager Agent</b> and <b>Microsoft Defender for Endpoint</b>. What should I do?</summary>
 
 1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
 2. Click the **Privacy** tab.
 3. From the side menu, choose **Full Disk Access**.
 4. Click the lock icon at the bottom and use your Touch ID or enter your password to unlock.
 5. Click the plus icon at the bottom and do the following as required:
-  1. To add **Microsoft Intune Agent**, go to **Macintosh HD** >  **Library** > **Intune** and choose **Microsoft Intune Agent** and click **Open**.
-  2. To add **Microsoft Defender ATP**, go to **Application** > select **Microsoft Defender ATP** and click **Open**.
+  1. To add **Microsoft Endpoint Manager Agent**, go to **Macintosh HD** >  **Library** > **Microsoft Endpoint Manager** and choose **Microsoft Endpoint Manager Agent** and click **Open**.
+  2. To add **Microsoft Defender for Endpoint**, go to **Application** > select **Microsoft Defender for Endpoint** and click **Open**.
 </details>
 
 <details>
 
-<summary>4. While enabling FDA, I can't find <b>Microsoft Defender ATP Security Extension</b>. Can I proceed with my onboarding?</summary>
+<summary>4. While enabling FDA, I can't find <b>Microsoft Defender for Endpoint Security Extension</b>. Can I proceed with my onboarding?</summary>
 
-Yes, you may proceed with your SEED onboarding and the Microsoft Defender ATP Security Extension should be available within four hours time. If it is still not available after four hours, please contact gcc2.0_support@tech.gov.sg as it is required to ensure the completeness of your onboarding.
+Yes, you may proceed with your SEED onboarding and the Microsoft Defender for Endpoint Security Extension should be available within four hours time. If it is still not available after four hours, please contact gcc2.0_support@tech.gov.sg as it is required to ensure the completeness of your onboarding.
 
 </details>
