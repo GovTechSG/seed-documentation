@@ -101,7 +101,7 @@ During this onboarding journey you will do the following:
        - Tanium Client
        - Microsoft Endpoint Manager Agent
        - Microsoft Defender
-       - Microsoft Defender for Endpoint Security Extension
+       - Microsoft Defenders Endpoint Security Extension
 
    ?>  If any of the listed application is missing, please refer to [Common issues while onboarding using macOS](common-issues-while-onboarding-using-macos).
 
