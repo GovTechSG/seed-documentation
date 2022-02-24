@@ -4,7 +4,7 @@ This section guides existing SEED users to offboard from it. The offboarding jou
 
 
 <details>
-  <summary>a. Remove your device from Intune</summary><br>
+  <summary>a. Remove your device from Microsoft Endpoint Manager</summary><br>
 
   1. Open the **Company Portal** application and click **Sign in**.
 
@@ -71,9 +71,9 @@ This section guides existing SEED users to offboard from it. The offboarding jou
   </details>
 
   <details id="removeMicrosoftDefenderATPoffBoarding">
-  <summary>d. Remove Microsoft Defender ATP</summary><br>
+  <summary>d. Remove Microsoft Defender for Endpoint</summary><br>
 
-  To remove Microsoft Defender ATP from your device, first you need to offboard from it using the offboarding script.
+  To remove Microsoft Defender for Endpoint from your device, first you need to offboard from it using the offboarding script.
 
   Check if the script that you received earlier has not yet expired.
 
@@ -85,7 +85,7 @@ This section guides existing SEED users to offboard from it. The offboarding jou
 
   - If you are a vendor, contact your Defender ATP administrator to [get the offboarding script](get-offboarding-scripts-for-microsoft-defender-atp).
 
-  Once you have the valid offboarding script, do the following to remove Microsoft Defender ATP:
+  Once you have the valid offboarding script, do the following to remove Microsoft Defender for Endpoint:
 
 1. Save the offboarding script in the **Downloads** folder.
 2. Go to the **Terminal** and run the following command:

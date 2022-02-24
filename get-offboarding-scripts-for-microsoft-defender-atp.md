@@ -1,4 +1,4 @@
-## Get offboarding scripts for Microsoft Defender ATP
+## Get offboarding scripts for Microsoft Defender for Endpoint
 
 This article guides how a public officer and vendor can get the Defender ATP offboarding scripts.
 

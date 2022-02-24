@@ -10,7 +10,7 @@ During this onboarding journey you will do the following:
 
 
 <details>
-  <summary>a. Set up Intune to get the required applications and device configuration</summary><br>
+  <summary>a. Set up Microsoft Endpoint Manager to get the required applications and device configuration</summary><br>
 
   1. Download and install [**Company Portal**](https://go.microsoft.com/fwlink/?linkid=853070).
 
@@ -36,7 +36,7 @@ During this onboarding journey you will do the following:
 
   <kbd>![install-management-profile](images/onboarding-for-macos/install-management-profile.png)</kbd>
 
-  7. Follow the on-screen instructions to allow Microsoft Intune to manage your device. The **Profiles** page is displayed.
+  7. Follow the on-screen instructions to allow Microsoft Endpoint Manager to manage your device. The **Profiles** page is displayed.
 
   <kbd>![profile-1](images/onboarding-for-macos/profile-1.png)</kbd>
 
@@ -51,7 +51,7 @@ During this onboarding journey you will do the following:
 
   <kbd>![profile](images/onboarding-for-macos/profile-2.png)</kbd>
 
-  The configuration profiles that Intune needs to deploy will be installed. You will see a list of profiles as shown below.
+  The configuration profiles that Microsoft Endpoint Manager needs to deploy will be installed. You will see a list of profiles as shown below.
 
   <kbd>![list-of-profiles](images/onboarding-for-macos/list-of-profiles.png)</kbd>
 
@@ -99,9 +99,9 @@ During this onboarding journey you will do the following:
   4. Click the lock icon at the bottom and use your Touch ID or enter your  password to unlock.
   5. Ensure the following applications are listed:
        - Tanium Client
-       - Microsoft Intune Agent
-       - Microsoft Defender ATP
-       - Microsoft Defender ATP Security Extension
+       - Microsoft Endpoint Manager Agent
+       - Microsoft Defender
+       - Microsoft Defenders Endpoint Security Extension
 
    ?>  If any of the listed application is missing, please refer to [Common issues while onboarding using macOS](common-issues-while-onboarding-using-macos).
 
