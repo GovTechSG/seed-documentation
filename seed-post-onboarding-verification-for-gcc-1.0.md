@@ -8,6 +8,8 @@ Objective of this document is to explain how to verify if your device onboarding
 
 <kbd>![cloudflare-switch](images/gcc-1-users/pause-connection.png ':size=75%')</kbd>
 
+?> Cloudflare will automatically reconnect after three hours.
+
 2. Launch and connect the GlobalProtect VPN client.
 <kbd>![globalprotect-vpn-client](images/gcc-1-users/connect-to-globalprotect-vpn.png ':size=50%')</kbd>
 
