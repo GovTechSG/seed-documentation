@@ -3,14 +3,14 @@
 <details>
   <summary>1. Though my VPN is connected, I am unable to browse the Internet once my WARP reconnects?</summary>
 
-If you disconnect WARP on your device, it gets automatically reconnected after three hours. At that time, if you are still connected to your VPN, you may not be able to access the internet as a conflict affects your DNS resolver configuration.
+If you disconnect WARP on your device, it gets automatically reconnected after three hours. At that time, if you are still connected to your VPN, you may not be able to access the internet as this conflicts with your DNS resolver configuration.
 
 To resolve this, disconnect the device from your WiFi and reconnect it to your WiFi to reset the DNS resolver settings or restart your device. <br><br>In addition, make sure the VPN configuration does not route all traffic and DNS queries to the VPN server. Our recommendation is not to turn on WARP and the VPN at the same time.
 </details>
      <hr />
+
 <details>
-<summary>
-2. I am unable to access a particular website, is it because of WARP?
+<summary>2. I am unable to access a particular website, is it because of WARP?</summary>
 
 WARP works with Cloudflare Gateway to block websites that are identified as malware sources or a security risk. If sites related to your developer resources are blocked and you still need to access the site, then turn off WARP. Ensure Microsoft Defender is active to protect your device against malware.
 
@@ -20,8 +20,31 @@ If the site is not blocked by Cloudflare Gateway and instead shows a DNS Error e
 </details>
      <hr />
 
-3. Why am I unable to use my CLI tools such as NPM, Docker and the
-   AWS CLI tool?
+<details>
+ <summary>3. While using CLI tools with Cloudflare WARP Client why do I get SSL errors?</summary>
+
+ Your CLI tool may be using a certificate store that is separate from your system's trusted root certificate store.
+
+ <ol>
+   <li>Refer to your CLI tool documentation and configure it to trust the Cloudflare Root certificate.</li>
+   <li>Download the Cloudflare CA Certificate to your root system store(s) from the <a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/install-cloudflare-cert#base-operating-system">Cloudflare documentation page</a>.</li>
+   <li>Refer to the <a href="https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/install-cloudflare-cert/#adding-to-applications">Cloudflare instructions for configuring commonly used developer CLI tools</a>.</li>
+
+   Alternatively, refer to [instructions for commonly used CLI tools across Singapore Government developers](configuration-of-common-developer-cli-tools-with-cloudflare-warp) .
+
+   </ol>
+   </details>
+      <hr />
+
+
+<!--
+
+Why am I unable to use my CLI tools such as NPM, Docker and the
+   AWS CLI tool with WARP?
+
+   Visit [Cloudflare CLI tools configurations](https://gitlab-in.ship.gov.sg/gcc2.0/seed/cloudflare-support/-/blob/master/cloudflare-cli-tools-configuration.md) for instructions on how to configure applications and CLI tools to work with WARP.
+
+
 4. When using Cloudflare WARP Client
 
    * We are finetuning the configuration of Cloudflare Gateway rules to
@@ -123,3 +146,6 @@ For Windows:
 
   If none of the steps above work to restore Internet Connectivity,
   please reboot your device.
+
+
+-->
