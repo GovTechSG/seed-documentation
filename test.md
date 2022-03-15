@@ -9,14 +9,15 @@ This sections explains how public officers and vendors can onboard to SEED using
 During this onboarding journey you will do the following:
 
 
+## Step 1. Set up Microsoft Endpoint Manager
 <details>
-  <summary>a. Set up Microsoft Endpoint Manager to get the required applications and device configuration</summary><br>
+  <summary>Set up Microsoft Endpoint Manager to get the required applications and device configuration</summary><br>
 
   1. Download and install [**Company Portal**](https://go.microsoft.com/fwlink/?linkid=853070).
 
   2. Open the **Company Portal** application and click **Sign in** to log in using your TechPass credentials.
 
-  <kbd>![sign-in](images/onboarding-for-macos/sign-in.png)</kbd>
+  ![sign-in](images/onboarding-for-macos/sign-in.png)
 
   3. Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. However, if you are a public officer, you must first approve your WOG login before approving your Techpass login.
 
@@ -64,8 +65,10 @@ During this onboarding journey you will do the following:
 
 </details>
 
+
+## Step 2. Enable System Integrity Protection (SIP)
 <details>
-  <summary>b. Enable System Integrity Protection (SIP) to prevent unauthorised code executions</summary><br>
+  <summary>Enable System Integrity Protection (SIP) to prevent unauthorised code executions</summary><br>
 
   - To verify if SIP is enabled, open **Terminal** and run the command `csrutil status`.
 
@@ -75,23 +78,17 @@ During this onboarding journey you will do the following:
   Note:  If it is currently disabled, run the command `csrutil enable` on the **Terminal** and restart your device before proceeding further.
 
 </details>
+
+## Step 3. Encrypt your hard disk
 <details>
-  <summary>c. Encrypt your hard disk to protect your data at rest</summary><br>
+  <summary>Encrypt your hard disk to protect your data at rest</summary><br>
 
   1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
   2. Click the **FileVault** tab.
   3. If you see **Turn on FileVault**, go to step 4 else proceed to **Enable Full Disk Access(FDA)**.
   4. Click the lock icon and use your Touch ID or enter your password to unlock.
 
-  <div class="warn">
-  If you are unable to access this preference with your current password, complete the following steps to reset your device password.
-
-
-  1. Go to the **Apple** menu > **Lock Screen** or use keyboard shortcut **Command+Control+Q** .
-  2. Enter your password and press **return**. You will be prompted to reset password.
-  3. Reset your password.
-
-  </div>
+?> Reset your device password if you are unable to access this preference with your current password.
 
   5. Click **Turn on FileVault**.
   6. When prompted to specify how you would like to unlock your device if you forget your device password,  select **Create a recovery key and do not use my iCloud account**.
@@ -101,24 +98,15 @@ During this onboarding journey you will do the following:
    ?>  Save this key on a different device.
 
 </details>
+
+## Step 4. Enable Full Disk Access(FDA)
 <details>
-  <summary>d. Enable Full Disk Access(FDA) for the applications installed for SEED</summary><br>
+  <summary>Enable Full Disk Access(FDA) for the applications installed for SEED</summary><br>
 
   1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
   2. Click the **Privacy** tab.
   3. From the side menu, choose **Full Disk Access**.
   4. Click the lock icon at the bottom and use your Touch ID or enter your  password to unlock.
-
-  <div class="warn">
-  If you are unable to access this preference with your current password, complete the following steps to reset your device password.
-
-
-  1. Go to the **Apple** menu > **Lock Screen** or use keyboard shortcut **Command+Control+Q** .
-  2. Enter your password and press **return**. You will be prompted to reset password.
-  3. Reset your password.
-
-  </div>
-
   5. Ensure the following applications are listed:
        - Tanium Client
        - Microsoft Endpoint Manager Agent
@@ -133,8 +121,10 @@ During this onboarding journey you will do the following:
 
 
 </details>
+
+## Step 5. Enrol on Cloudflare using WARP client
 <details>
-  <summary>e. Enrol on Cloudflare using WARP client to connect to protected engineering resources</summary><br>
+  <summary>Enrol on Cloudflare using WARP client to connect to protected engineering resources</summary><br>
 
 
   1. Ensure that you have Cloudflare WARP client installed in your device. If not, install the latest [Cloudflare WARP](https://install.appcenter.ms/orgs/cloudflare/apps/1.1.1.1-macos-1/distribution_groups/release) version.
@@ -178,7 +168,7 @@ During this onboarding journey you will do the following:
 
 </details>
 
-If your onboarding is successful, within an hour, you will receive a successfully onboarded email to  your organisational email address.  
+If your onboarding is successful, within an hour, you will receive a successfully onboarded email to  your organisational email address.
 
 <div class="warn">
   <ul>
@@ -186,6 +176,6 @@ If your onboarding is successful, within an hour, you will receive a successfull
       <li>Shortly after this email, you will receive a desktop notification informing you that your device has been renamed and will automatically restart in the next five minutes. When you log in again, you will be prompted to reset your password. This is to enforce a strong password policy.</li>
       <li>If you had reset your password while onboarding, you will not be prompted to reset password when your device automatically restarts.</li>
       </ul>
-  </div>    
+  </div>
 
 !> Note:  As Safari is not supported by SEED, use Google Chrome or Microsoft Edge for accessing services or websites that need SEED.
