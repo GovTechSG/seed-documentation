@@ -80,8 +80,11 @@ During this onboarding journey you will do the following:
 
   1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
   2. Click the **FileVault** tab.
-  3. If you see **Turn on FileVault**, go to step 4 or proceed to **Enable Full Disk Access(FDA)**.
+  3. If you see **Turn on FileVault**, go to step 4 else proceed to **Enable Full Disk Access(FDA)**.
   4. Click the lock icon and use your Touch ID or enter your password to unlock.
+
+?> Reset your device password if you are unable to access this preference with your current password.
+
   5. Click **Turn on FileVault**.
   6. When prompted to specify how you would like to unlock your device if you forget your device password,  select **Create a recovery key and do not use my iCloud account**.
 
@@ -158,8 +161,12 @@ During this onboarding journey you will do the following:
 
 If your onboarding is successful, within an hour, you will receive a successfully onboarded email to  your organisational email address.  
 
-?> If you do not receive this email, please contact the [SEED team](mailto:gcc2.0_support@tech.gov.sg).
+<div class="warn">
+  <ul>
+      <li>If you do not receive this email, [check if Microsoft Defender is configured correctly](verify-microsoft-defender-is-configured-correctly-for-your-os) and also check if Tanium and Cloudflare are installed. If Tanium or Cloudflare is not installed, please contact <a href="mailto:gcc2.0_support@tech.gov.sg">SEED team</a>.</li>
+      <li>Shortly after this email, you will receive a desktop notification informing you that your device has been renamed and will automatically restart in the next five minutes. When you log in again, you will be prompted to reset your password. This is to enforce a strong password policy.</li>
+      <li>If you had reset your password while onboarding, you will not be prompted to reset password when your device automatically restarts.</li>
+      </ul>
+  </div>    
 
-Shortly after this email, you will receive a desktop notification informing you that your device has been renamed and will automatically restart in the next five minutes. When you log in again, you will be prompted to reset your password. This is to enforce a strong password policy.
-
-!> Note: As Safari is not supported by SEED, use Google Chrome or Microsoft Edge for accessing services or websites that need SEED.
+!> Note:  As Safari is not supported by SEED, use Google Chrome or Microsoft Edge for accessing services or websites that need SEED.

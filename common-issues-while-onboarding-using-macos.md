@@ -7,7 +7,10 @@
 
 1. Ensure you received an email from us confirming the licence required for SEED onboarding has been assigned to you. If yes, proceed to step 2.
 2. Go to the **Apple** menu > **System Preferences** > **Profiles**.
-3. If **Management Profile** is already an existing profile, select it and remove it by clicking the minus icon at the lower-left corner.
+3. If **Management Profile** is already an existing profile, select it and remove it by clicking the minus icon at the lower-left corner. If you are unable to  remove Management Profile, uninstall **Company Portal**.
+4.	Reinstall [Company Portal](https://go.microsoft.com/fwlink/?linkid=853070).
+8.	Retry onboarding your device to SEED.
+
 
 </details>
 
@@ -44,4 +47,18 @@
 
 Yes, you may proceed with your SEED onboarding and the Microsoft Defenders Endpoint Security Extension should be available within four hours time. If it is still not available after four hours, please contact gcc2.0_support@tech.gov.sg as it is required to ensure the completeness of your onboarding.
 
+</details>
+
+<details>
+
+<summary>5. While enabling FileVault or FDA, I am unable to unlock Security &  Privacy preferences using my current password.</summary>
+
+When your device is enrolled with Microsoft Endpoint Management's Intune, a new password policy comes into effect and this requires you to reset password.  If you are enabling FileVault or FDA only while onboarding to SEED, reset your password before **step c. Encrypt your hard disk to protect your data at rest**. See <a href="https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/seed-onboarding-instructions-for-macos">SEED onboarding guide for macOS users</a>.
+
+*To reset password*:
+1. Go to the **Apple** menu > **Lock Screen** or use keyboard shortcut **Command-Control-Q** .
+2. Enter your password and press **return**. You will be prompted to reset password.
+3. Reset your password.
+
+Others will be prompted to reset password while the device automatically restarts after receiving the successfully onboarded email from the SEED team.
 </details>

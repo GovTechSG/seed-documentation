@@ -4,7 +4,7 @@
 <details>
   <summary>1. While onboarding my macOS to Microsoft Endpoint Manager, I don’t see any profiles. What should I do?</summary>
   <ol>
-    <li>Make sure that you have signed in to the <strong>Company Portal</strong> app and see if profiles are listed. If you still do not see any profiles listed, go to step 2.</li>
+    <li>Make sure that you have signed in to the <strong>Company Portal</strong> app and see if profiles are listed. If you do not see any profiles listed, go to step 2.</li>
     <li>Create another local user account and sign in to the <strong>Company Portal</strong> app.</li>
     <li>Repeat the process to setup Microsoft Endpoint Manager on your device.</li>
   </ol>  
@@ -25,7 +25,7 @@
     3. What is the minimum version of macOS needed for onboarding it into Microsoft Endpoint Manager?
     </summary>
 
-  Catalina 10.15.x is the minimum version needed for a successful onboarding. If your macOS is an earlier version, ensure to [upgrade it to a later macOS version](https://support.apple.com/downloads/macos).
+  Big Sur 11 is the minimum version needed for a successful onboarding. If your macOS is an earlier version, ensure to [upgrade it to a later macOS version](https://support.apple.com/downloads/macos).
 
   </details>
   <hr />
@@ -102,7 +102,7 @@
   <li>Open the <strong>Start</strong> menu and click <strong>Settings</strong>. </li>
   <li>Choose <strong>Time & Language</strong>.</li>
   <li>Turn on <strong>Set time automatically</strong>.</li>
-  <li>Click <strong>Sync now</strong> to synchronize with the time server.</li>
+  <li>Click <strong>Sync now</strong> to synchronise with the time server.</li>
 
   <li>If you’d like to use a custom network time server, click <strong>Date, time & regional formatting</strong> from <strong>Related Settings</strong> at the upper-right corner. The <strong>Region</strong> settings page is displayed.</li>
 
@@ -114,4 +114,37 @@
 
   <li>Enter the domain name of the server.</li>
   </ol>
-  </details>
+  </details>  
+  <hr />
+
+<details>
+<summary>
+11. After onboarding to SEED, I did not receive the successfully onboarded email. What should I do?</summary>
+
+- [Check if Microsoft Defender is configured correctly for your OS](verify-microsoft-defender-is-configured-correctly-for-your-os).
+- Check if Tanium and Cloudflare are installed. These applications will be automatically installed while enrolling your device to SEED. If they are not installed, contact SEED team(mailto:gcc2.0_support@tech.gov.sg).
+
+</details>
+<hr />
+<details>
+<summary>
+12. What should I do if my device did not get renamed automatically after onboarding to SEED?
+</summary>
+
+- [Check if Microsoft Defender is configured correctly for your OS](verify-microsoft-defender-is-configured-correctly-for-your-os).
+
+</details>
+<hr />
+<details>
+<summary>
+13. <b>Microsoft Defender</b> was not automatically installed after enrolling in <b>Company Portal</b>? </summary>
+This can happen if your device was previously enrolled with an MDM other than SEED and not completely unenrolled from it.  Make sure you have unenrolled your device from that MDM and uninstalled Defender from your device by running the respective offboarding script. For more information on how to run the offboarding script:
+<ul>
+<li>Windows users refer to <b>step d. Remove Microsoft Defender for Endpoint</b> in <a href="https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/seed-offboarding-instructions-for-windows">SEED offboarding guide for Windows users</a>. Now <b>Endpoint Manager</b> installs the <b>Microsoft Defender</b> client with the correct configurations within few hours.</li>
+<li>macOS user refer to <b>step d. Remove Microsoft Defender for Endpoint</b> in <a href="https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/seed-offboarding-instructions-for-macos">SEED offboarding guide for macOS users</a>. Now <b>Endpoint Manager</b> installs the <b>Microsoft Defender</b> client with the correct configurations within few hours. </li>
+</ul>
+
+
+</ol>
+
+?> For more information on this, see [Microsoft Documentation](https://docs.microsoft.com/en-us/mem/intune/configuration/device-profile-troubleshoot#how-long-does-it-take-for-devices-to-get-a-policy-profile-or-app-after-they-are-assigned). At any time, users can open the Company Portal app, **Settings** > **Sync** to immediately check for policy or profile updates.
