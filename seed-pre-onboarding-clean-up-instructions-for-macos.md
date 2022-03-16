@@ -90,7 +90,7 @@ This section explains how public officers and vendors can remove those softwares
 <details>
   <summary>e. Remove Microsoft Defender for Endpoint</summary><br>
 
-  1. Go to the **Terminal** and run `mdatp health`. If your device is currently using an antivirus solution other than Microsoft Defender ATP, this command returns nothing. It means your device is not enrolled on any MDM solution and proceed to [onboard to SEED](seed-onboarding-instructions-for-macos).
+  1. Go to the **Terminal** and run `mdatp health`. If your device is currently using an antivirus solution other than Microsoft Defender ATP, this command returns nothing. It means your device is no longer enrolled on any MDM solution and proceed to [onboard to SEED](seed-onboarding-instructions-for-macos).
   2. Take note of the **org_id** displayed. This is the organisation id of the MDM solution.
   3. Contact your organisation's MDM Administrator or Defender Administrator to get the respective offboarding script.
    Open Click the **Finder** icon in the **Dock**.
