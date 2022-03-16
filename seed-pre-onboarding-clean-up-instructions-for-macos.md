@@ -90,17 +90,20 @@ This section explains how public officers and vendors can remove those softwares
 <details>
   <summary>e. Remove Microsoft Defender for Endpoint</summary><br>
 
-  1. Click the **Finder** icon in the **Dock**.
+  1. Go to the **Terminal** and run `mdatp health`. If your device is currently using an antivirus solution other than Microsoft Defender ATP, this command returns nothing. It means your device is not enrolled on any MDM solution and proceed to [onboard to SEED](seed-onboarding-instructions-for-macos).
+  2. Take note of the **org_id** displayed. This is the organisation id of the MDM solution.
+  3. Contact your organisation's MDM Administrator or Defender Administrator to get the respective offboarding script.
+   Open Click the **Finder** icon in the **Dock**.
   2. Choose **Applications**.
   3. Search for **Microsoft Defender for Endpoint.app**.
-  4. If available, [get the offboarding scripts](get-offboarding-scripts-for-microsoft-defender-atp) for your device or you may proceed to [onboard to SEED](seed-onboarding-instructions-for-macos).
+  4. If available, [get the offboarding scripts](get-offboarding-scripts-for-microsoft-defender-atp) for your device or proceed to [onboard to SEED](seed-onboarding-instructions-for-macos).
   5. Save the offboarding script in the **Downloads** folder.
   6. Go to the **Terminal** and run the following command:
     ```
     sudo python ~/Downloads/name_of_offboarding_script.py
     ```
   ?> Type the file name of the offboarding script provided to you.
-    
+
   7. Go back to the **Finder** icon in the **Dock**.
   8. Choose **Applications** and search for **Microsoft Defender for Endpoint.app**.
   9. Drag the app to the Trash, or select the app and choose **File** > **Move to Trash**.

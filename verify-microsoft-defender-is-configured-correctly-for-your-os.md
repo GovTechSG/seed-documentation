@@ -13,7 +13,7 @@
 Value <em>49237d71-42ac-425a-a803-881b92cc18ce</em> indicates that you are a TechPass tenant and value <em>faa36a5e-2da6-4225-8e27-226177c801a0</em> indicates that you are a WOG tenant.
 </div>
 <li>If your <b>org_id</b> matches one of them, it indicates that <b>Microsoft Defender</b> has been configured correctly and you may ignore the rest of this section.</li>
-<li>If your <b>org_id</b> is different from the above two values, it means your device is still enrolled with a different MDM and hence complete the following steps to unenrol your device from that MDM:</li>
+<li>If your <b>org_id</b> is different from the above two values, it means your device is still using with a different MDM and hence complete the following steps to unenrol your device from that MDM:</li>
   <ol type = "a">
     <li>Contact your organisation's MDM administrator or Defender ATP administrator to get respective offboarding script.</li>
     <div class="warn">
