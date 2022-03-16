@@ -84,13 +84,13 @@ During this onboarding journey you will do the following:
   4. Click the lock icon and use your Touch ID or enter your password to unlock.
 
   <div class="warn">
-  If you are unable to access this preference with your current password, complete the following steps to reset your device password.
+  <p>If you are unable to access this preference with your current password, complete the following steps to reset your device password.</p>
+ <ol>
 
-
-  1. Go to the **Apple** menu > **Lock Screen** or use keyboard shortcut **Command+Control+Q** .
-  2. Enter your password and press **return**. You will be prompted to reset password.
-  3. Reset your password.
-
+  <li>Go to the <b>Apple</b> menu > <b>Lock Screen</b> or use keyboard shortcut <b>Command+Control+Q</b> .</li>
+  <li>Enter your password and press <b>return</b>. You will be prompted to reset password.</li>
+  <li>Reset your password.</li>
+  </ol>
   </div>
 
   5. Click **Turn on FileVault**.
@@ -110,13 +110,13 @@ During this onboarding journey you will do the following:
   4. Click the lock icon at the bottom and use your Touch ID or enter your  password to unlock.
 
   <div class="warn">
-  If you are unable to access this preference with your current password, complete the following steps to reset your device password.
+  <p>If you are unable to access this preference with your current password, complete the following steps to reset your device password.</p>
+ <ol>
 
-
-  1. Go to the **Apple** menu > **Lock Screen** or use keyboard shortcut **Command+Control+Q** .
-  2. Enter your password and press **return**. You will be prompted to reset password.
-  3. Reset your password.
-
+  <li>Go to the <b>Apple</b> menu > <b>Lock Screen</b> or use keyboard shortcut <b>Command+Control+Q</b> .</li>
+  <li>Enter your password and press <b>return</b>. You will be prompted to reset password.</li>
+  <li>Reset your password.</li>
+  </ol>
   </div>
 
   5. Ensure the following applications are listed:
