@@ -6,11 +6,13 @@ This article guides how a public officer and vendor can get the Defender ATP off
 
 - If you are a vendor, contact your Defender ATP administrator to get the offboarding scripts for your operating system.
 
+- However, if your device is currently enrolled with Hive organisation, contact [GDS team](mailto:gds_den@tech.gov.sg) to get the respective offboarding script.  Refer to
+
 If you are a Defender ATP administrator, do the following:
 
- 1. Go to [Defender Security Center portal](https://securitycenter.windows.com/).
+ 1. Go to [Defender Security Center portal](https://security.microsoft.com).
 
- 2. Click **Settings** > **Device Management** > **Offboard**.
+ 2. Click **Settings** > **Endpoints** > **Device Management** > **Offboarding**.
 
  3. Select the operating system specified by the vendor and specify *Local Script* as **Deployment Method**.
 

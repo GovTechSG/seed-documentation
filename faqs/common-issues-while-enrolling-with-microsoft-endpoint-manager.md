@@ -1,8 +1,8 @@
-# Frequently asked questions while enrolling device with Microsoft Endpoint Manager
+# Common issues while enrolling in to Microsoft Endpoint Manager
 
 <br>
 <details>
-  <summary>1. While onboarding my macOS to Microsoft Endpoint Manager, I don’t see any profiles. What should I do?</summary>
+  <summary>1. While onboarding my macOS in to Microsoft Endpoint Manager, I don’t see any profiles. What should I do?</summary>
   <ol>
     <li>Make sure that you have signed in to the <strong>Company Portal</strong> app and see if profiles are listed. If you do not see any profiles listed, go to step 2.</li>
     <li>Create another local user account and sign in to the <strong>Company Portal</strong> app.</li>
@@ -121,30 +121,37 @@
 <summary>
 11. After onboarding to SEED, I did not receive the successfully onboarded email. What should I do?</summary>
 
-- [Check if Microsoft Defender is configured correctly for your OS](verify-microsoft-defender-is-configured-correctly-for-your-os).
-- Check if Tanium and Cloudflare are installed. These applications will be automatically installed while enrolling your device to SEED. If they are not installed, contact SEED team(mailto:gcc2.0_support@tech.gov.sg).
+<p>This can happen if Defender ATP or any other antivirus already installed on the device was not completely removed before onboarding in to SEED.</p>
+
+- [Verify if Microsoft Defender is configured correctly for your OS](verify-microsoft-defender-is-configured-correctly-for-your-os).
+
+- Check if Tanium and Cloudflare are installed. These applications will be automatically installed while enrolling your device in to SEED. If they are not installed, contact SEED team(mailto:gcc2.0_support@tech.gov.sg).
 
 </details>
 <hr />
 <details>
 <summary>
-12. What should I do if my device did not get renamed automatically after onboarding to SEED?
+12. What should I do if my device does not get renamed automatically after onboarding to SEED?
 </summary>
 
-- [Check if Microsoft Defender is configured correctly for your OS](verify-microsoft-defender-is-configured-correctly-for-your-os).
+<p>This can happen if Defender ATP or any other antivirus already installed on the device was not completely removed before onboarding in to SEED.</p>
+
+To confirm this, [Verify if Microsoft Defender is configured correctly for your OS](verify-microsoft-defender-is-configured-correctly-for-your-os)..
 
 </details>
 <hr />
 <details>
 <summary>
-13. <b>Microsoft Defender</b> was not automatically installed after enrolling in <b>Company Portal</b>? </summary>
-This can happen if your device was previously enrolled with an MDM other than SEED and not completely unenrolled from it.  Make sure you have unenrolled your device from that MDM and uninstalled Defender from your device by running the respective offboarding script. For more information on how to run the offboarding script:
-<ul>
-<li>Windows users refer to <b>step d. Remove Microsoft Defender for Endpoint</b> in <a href="https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/seed-offboarding-instructions-for-windows">SEED offboarding guide for Windows users</a>. Now <b>Endpoint Manager</b> installs the <b>Microsoft Defender</b> client with the correct configurations within few hours.</li>
-<li>macOS user refer to <b>step d. Remove Microsoft Defender for Endpoint</b> in <a href="https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/seed-offboarding-instructions-for-macos">SEED offboarding guide for macOS users</a>. Now <b>Endpoint Manager</b> installs the <b>Microsoft Defender</b> client with the correct configurations within few hours. </li>
-</ul>
+13. Microsoft Defender was not automatically installed after enrolling in Company Portal? </summary>
+<p>This can happen if Defender ATP or any other antivirus already installed on the device was not completely removed before onboarding in to SEED.</p>
 
+To confirm this, [Verify if Microsoft Defender is configured correctly for your OS](verify-microsoft-defender-is-configured-correctly-for-your-os).
 
-</ol>
+</details>
+<hr />
 
-?> For more information on this, see [Microsoft Documentation](https://docs.microsoft.com/en-us/mem/intune/configuration/device-profile-troubleshoot#how-long-does-it-take-for-devices-to-get-a-policy-profile-or-app-after-they-are-assigned). At any time, users can open the Company Portal app, **Settings** > **Sync** to immediately check for policy or profile updates.
+<details>
+<summary>14. I am unable to connect to AWS VPN client on port 443? </summary>
+<p>This is a known issue with Microsoft Defender version 101.54.16. To resolve this, install Microsoft Defender version 101.56.35 or later.</p>
+</details>
+<hr />

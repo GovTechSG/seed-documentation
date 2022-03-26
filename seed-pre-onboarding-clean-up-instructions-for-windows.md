@@ -1,10 +1,16 @@
 # Remove existing softwares for Windows
 
-There are few softwares which if already installed are to be removed before proceeding with the SEED onboarding process.
+Remove the following software solutions from your device before proceeding to onboard in to SEED:
 
-This section explains how public officers and vendors can remove those softwares.
+- current MDM software
+- Tanium client or any other unified endpoint management and security platform
+- Cloudflare WARP or any other software used for privacy and secured connections
+- Defender ATP or any other antivirus solution.
+
+This section explains how public officers and vendors can remove those softwares for their Windows device.
+
 <details>
-  <summary>a. Remove existing MDM software</summary><br>
+  <summary>a. Remove existing MDM software</summary>
 
   1. Click **Start** icon on the taskbar.
   2. Go to **Settings** > **Accounts**.
@@ -12,11 +18,10 @@ This section explains how public officers and vendors can remove those softwares
   4. If your device is managed by an MDM, your username in your organisation's domain will be displayed under **Work or school account**. Click **Work or school account** and then select **Disconnect**.
 
 
-
 </details>
 
 <details>
-  <summary>b. Remove Tanium Client</summary><br>
+  <summary>b. Remove Tanium Client</summary>
 
   1. Click **Start** icon on the taskbar.
   2. Go to **Settings** > **Apps** and search for **Tanium Client**.
@@ -25,7 +30,7 @@ This section explains how public officers and vendors can remove those softwares
 </details>
 
 <details>
-  <summary>c. Remove pre-existing Cloudflare WARP client</summary><br>
+  <summary>c. Remove Cloudflare WARP Client</summary>
 
   1. Click **Start** icon on the taskbar.
   2. Go to **Settings** > **Apps** and search for **Cloudflare WARP**.
@@ -33,21 +38,37 @@ This section explains how public officers and vendors can remove those softwares
 
 </details>
 <details>
-  <summary>d. Offboard from Windows Defender for Endpoint</summary><br>
+  <summary>d. Remove current anitivirus solution on the device</summary><br>
 
-  1. In the search box on the taskbar, type **regedit**, then select **Registry Editor** from the results.  
-  2. In the **Registry Editor**, go to **Computer** > **HKEY_LOCAL_MACHINE** > **SOFTWARE** > **Policies** > **Microsoft**
-  3.Choose **Windows Advanced Threat Protection** and search for **OnboardingInfo**.
-  4. If available, [get the offboarding scripts](get-offboarding-scripts-for-microsoft-defender-atp) for your device or you may proceed to [onboard to SEED](seed-onboarding-instructions-windows).
-  5. Save the offboarding script in the **Downloads** folder.
-  6. Type **cmd** in the search box on the taskbar.
-  7. Select **Command Prompt** and right-click to choose **Run as administrator**.
-  8. If prompted, enter your Windows password.
-  9. Run the below in the Command prompt.
+  1. In the search box on the taskbar, type **regedit**.
+  2. Choose **Registry Editor** from the results and click **Run as administrator**.
+  3. In the **Registry Editor**, go to **Computer** > **HKEY_LOCAL_MACHINE** > **SOFTWARE** > **Microsoft** > **Windows Advanced Threat Protection** > **Status**. The OrgId of the Defender ATP or antivirus running on your device will be displayed here.
 
-   ```
-   cd “%USERPROFILE%\Downloads\”
-  .\name_of_offboarding_script.cmd
-  ```
+  ?> If you do not see the **Windows Advanced Threat Protection** folder, it indicates your device is not enrolled with any MDM solution. Proceed to onboard your device in to SEED.
 
-</details>  
+  4. Identify the organisation of the Defender ATP or the antivirus on your device.
+
+  ?> Refer to [Organisation IDs and organisation mapping](faqs/organisation-ids-and-mapping) for identifying your Defender ATP or antivirus organisation.
+
+  5. Based on the organisation, choose the required step from the following:
+    - If your organisation id corresponds to WOG, contact [GCC2.0 team](mailto:gcc2.0_support@tech.gov.sg), to get the offboarding script for Windows.
+    - If your organisation id corresponds to TechPass, contact your Defender ATP administrator to get the offboarding scripts for your operating system for Windows.
+    - If your organisation id corresponds to Hive, contact [GDS team](mailto:gds_den@tech.gov.sg) to get the Hive offboarding script for Windows and proceed to step 6.
+    - For all other organisation ids, contact your current MDM administrator to unerol your device from the respective antivirus.
+
+    ?>  Check if the script that you received has not yet expired. The expiry date is indicated on the file name. For example, *WindowsDefenderATPOffboardingScript_valid_until_2021-11-10.cmd*
+
+
+   6. Save the offboarding script in your **Downloads** folder.
+   7. Go to **Start** and type **cmd**.
+   8. Right-click on **Command Prompt** and select **Run as administrator**.
+   9. If prompted, enter your Windows password.
+   10. Run the following commands:
+     ```
+     cd "%USERPROFILE%\Downloads\"
+
+     .\name_of_offboarding_script.cmd
+     ```
+?> Name of the .cmd file mentioned in this command is only an example. When you run the command, specify the file name of the offboarding script provided to you.
+
+   </details>  

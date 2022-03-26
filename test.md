@@ -105,7 +105,7 @@ During this onboarding journey you will do the following:
 
   1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
   2. Click the **Privacy** tab.
-  3. From the side menu, choose **Full Disk Access**.
+  3. From the left pane, choose **Full Disk Access**.
   4. Click the lock icon at the bottom and use your Touch ID or enter your  password to unlock.
   5. Ensure the following applications are listed:
        - Tanium Client

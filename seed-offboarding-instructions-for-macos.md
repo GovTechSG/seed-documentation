@@ -2,7 +2,6 @@
 
 This section guides existing SEED users to offboard from it. The offboarding journey has the following steps:
 
-
 <details>
   <summary>a. Remove your device from Microsoft Endpoint Manager</summary><br>
 
@@ -16,7 +15,7 @@ This section guides existing SEED users to offboard from it. The offboarding jou
 
      <kbd>![log-in-to-gcc](images/onboarding-for-macos/log-in-to-gcc.png)</kbd>
 
-     ?> If you're using text message method for authentication, after you enter your password, you'll need to enter the verification code sent to your phone. Based on what you [set up](https://account.activedirectory.windowsazure.com/Proofup.aspx), other authentication methods have different ways to perform the 2FA.
+     ?> Your two-factor authentication(2FA) varies based on the authentication method you have [set up](https://account.activedirectory.windowsazure.com/Proofup.aspx). If you're using the text message method for authentication, after you enter your password, enter the verification code sent to your phone.
 
   3. Go to **Devices** and click the three dots beside the device you want to unenrol.
   4. Choose **Remove**.

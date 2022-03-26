@@ -3,10 +3,16 @@
 This sections explains how public officers and vendors can onboard to SEED using their macOS device. Before onboarding, take a look at the [prerequisites for SEED onboarding](prerequisites-for-onboarding).
 
 
-!> Note: Based on your device settings, while onboarding, you may be prompted to **restart your device** a couple of times and **reset device password**. For a smooth onboarding journey, it is important to link your Apple ID to your device. Please have your recovery keys ready in the event of you facing issues with resetting your password or logging in to your device.
+<div class="warn">
+<ul>
+<li>Based on your device settings, while onboarding, you may be prompted to <strong>restart your device</strong> a couple of times and <strong>reset device password</strong>.</li>
+<li>For a smooth onboarding journey, make sure to link your Apple ID to your device.</li>
+<li>Make sure to have your recovery keys ready in the event of you facing issues with resetting your password or logging in to your device.</li>
+</ul>
+</div>
 
 
-During this onboarding journey you will do the following:
+*To onboard your Mac device to SEED* :
 
 
 <details>
@@ -45,7 +51,7 @@ During this onboarding journey you will do the following:
 
    - If **Management Profile** is not displayed, then from the left side menu, select **Management Profile**.
 
-   - If Profile installation fails, refer to [Common issues while onboarding using macOS](common-issues-while-onboarding-using-macos).
+   - If profile installation fails, refer to [Common onboarding issues for macOS users](faqs/common-issues-while-onboarding-using-macos).
 
   8. Click **Install**.
 
@@ -106,7 +112,7 @@ During this onboarding journey you will do the following:
 
   1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
   2. Click the **Privacy** tab.
-  3. From the side menu, choose **Full Disk Access**.
+  3. From the left pane, choose **Full Disk Access**.
   4. Click the lock icon at the bottom and use your Touch ID or enter your  password to unlock.
 
   <div class="warn">
@@ -121,11 +127,11 @@ During this onboarding journey you will do the following:
 
   5. Ensure the following applications are listed:
        - Tanium Client
-       - Microsoft Endpoint Manager Agent
+       - Microsoft Intune Agent
        - Microsoft Defender
        - Microsoft Defenders Endpoint Security Extension
 
-   ?>  If any of the listed application is missing, please refer to [Common issues while onboarding using macOS](common-issues-while-onboarding-using-macos).
+   ?>  If any of the listed application is missing, please refer to [Common onboarding issues for macOS users](faqs/common-issues-while-onboarding-using-macos).
 
   6. Select the checkboxes beside these applications.
 

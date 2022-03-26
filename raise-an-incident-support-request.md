@@ -1,73 +1,79 @@
-# Raise an incident support request
-If you experience any uninformed service interruption or degraded service, please raise a [SEED incident support request](https://form.gov.sg/6099efa30d6a0a0012dff367).
+# Incident support request
+Raise an [incident support request](https://form.gov.sg/6099efa30d6a0a0012dff367) if you experience:
 
-If you encounter any issues with Cloudflare WARP, Tanium, Defender ATP or Intune, please refer to the following instructions on how to collect diagnostic information to be included in the support request.
+- uninformed service interruption or degraded service.
 
-### Cloudflare Access Troubleshooting Information
-Please include the diagnostics information from the Cloudflare Access Application Launcher for us to troubleshoot any issues with your connection.
+- issues with Cloudflare WARP, Tanium, Defender ATP or Intune. Please attach the diagnostics information for [Cloudflare Access](#cloudflare-access-troubleshooting-information) and [Cloudflare WARP](#cloudflare-warp-diagnostic-logs) to this request for troubleshooting.
 
-1. Please login to the [Cloudflare Access Application Launcher](https://gccgovsg.cloudflareaccess.com)
-2. Click on the menu on the top right and click Account.
-3. Navigate to the Diagnostics section at the bottom of the page.
-4. Click the "Click to copy" link.
-5. Paste the information into a text file and attach it to the support request.
+- connectivity issues while accessing GCC 2.0 CMP or SGTS services. Please [generate HAR file](#generate-har-file) to this request for troubleshooting.
 
-### Cloudflare WARP Diagnostic Logs
+### Cloudflare Access troubleshooting information
+*To get Cloudflare Access Application Launcher diagnostics information*:  
 
-Please run the Cloudflare WARP diagnostics to collect diagnostic
-information about your laptop and send it to us. We will use this
-information and seek support from Cloudflare to diagnose any issues with
-the WARP client.
+1. Log in to [Cloudflare Access Application Launcher](https://gccgovsg.cloudflareaccess.com).
+2. Click your profile name in the upper-right corner and choose **Account**.
+3. Go to **Diagnostics** section and click **Click to copy**.
+5. Paste the copied information to a text file and attach it to the support request.
+
+### Cloudflare WARP diagnostic logs
+
+*To get Cloudflare WARP diagnostics*:
+1. Depending on your OS, run the provided command to get the Cloudflare WARP diagnostics.
+
+<details>
+  <summary>&nbsp;&nbsp;Windows</summary>
+
+`C:\Program Files\Cloudflare\Cloudflare WARP\warp-diag.exe`
+
+  </details>
+
+ <details>
+ <summary>&nbsp;&nbsp;macOS</summary>
+
+ `/Applications/Cloudflare WARP.app/Contents/Resources/warp-diag`
+
+ </details>
+
+Logs and diagnostic information captured by Cloudflare WARP will be saved as a zip file on your Desktop.
+
+2. Attach the zip file to the support request.
 
 
-For Windows users:
+### Generate HAR file
 
-```cmd
-C:\Program Files\Cloudflare\Cloudflare WARP\warp-diag.exe
-```
+This section provides the instructions to generate HAR file for the [supported browsers](best-practices) when you experience problems connecting to the GCC 2.0 CMP or SGTS services.
 
-For MacOS users:
+- [Google Chrome](#generate-har-file-for-google-chrome)
 
-```bash
-/Applications/Cloudflare WARP.app/Contents/Resources/warp-diag
-```
+- [Mozilla Firefox](#generate-har-file-for-mozilla-firefox)
 
-This will create a zip file on your Desktop containing all the logs and
-diagnostic information captured by Cloudflare WARP.
+- [Microsoft Edge](#generate-har-file-for-microsoft-edge)
 
-Please attach the zip file to the support request.
+#### Generate HAR file for Google Chrome
 
+1. Open Google Chrome and right-click anywhere and select **Inspect** or press Command+Option+C (Mac) or Control+Shift+C (Windows). The Developer tools panel will be displayed.
+3. Go to **Network** and select **Preserve log**.
+5. Log in to GCC 2.0 CMP or any SGTS service through Cloudflare Access.
+5. Verify if a request was made to 127.0.0.1/zero_trust/auth with a 200 ok response. If not, please specify this in your support request.
+6. Right click on any item within the **Network** tab and click **Save All as HAR with content**.
+7. Save the HAR file.
 
-### Collecting HAR Files
+#### Generate HAR file for Mozilla Firefox
 
-Please follow this guide to collect the HAR file when experiencing problems connecting to the GCC 2.0 CMP or SGTS service.
+?> Make sure your Mozilla Firefox is configured to trust your system's trusted root certificate store.
 
->? Please use Google Chrome or Microsoft Edge. Mozilla Firefox will need to be configured to trust your system's trusted root certificate store. Safari is not supported.
+1. Open Firefox and go to application menu > **More tools** > **Web Developer Tools** or press Ctrl+Shift+I (Windows) or Command+Option+I (macOS) and click **Network**. The Developer Tools will be displayed.
+2. Click **Network Settings** in the upper-right of the Developer Tools panel and enable **Persist Logs**.
+3. Log in to GCC 2.0 CMP or any SGTS service through Cloudflare Access.
+4. Verify that a request was made to 127.0.0.1/zero_trust/auth with a 200 ok response. If not, please specify this in your support request.
+6. Right click the log of network requests and choose **Save All as HAR**.
+7. Save the HAR file.
 
-[Google Chrome](https://developer.chrome.com/docs/devtools/open/):
-1. Command+Option+C (Mac) or Control+Shift+C (Windows, Linux, Chrome OS).
-2. Click on Network
-3. Enable Preserve Log
+#### Generate HAR file for Microsoft Edge
+
+1. Open Microsoft Edge and go to application menu > **More tools** > **Developer tools** or or Control+Shift+I (Windows) or Command+Option+I (macOS). The Developer tools will be displayed.
+2. Go to **Network** and select **Preserve log**.
 4. Try to login to the GCC 2.0 CMP or SGTS service through Cloudflare Access
-5. Verify that a request was made to 127.0.0.1/zero_trust/auth with a 200 ok response. If not, please note this in your support request.
-6. Right click the log of network requests and click Save All as HAR with Content
-
-
-[Mozilla Firefox](https://developer.mozilla.org/en-US/docs/Tools):
-1. Ctrl + Shift + I or F12 on Windows and Linux, or Cmd + Opt + I on macOS.
-2. Click on Network
-3. Enable Persist Logs
-4. Try to login to the GCC 2.0 CMP or SGTS service through Cloudflare Access
-5. Verify that a request was made to 127.0.0.1/zero_trust/auth with a 200 ok response. If not, please note this in your support request.
-6. Right click the log of network requests and click Save All as HAR with Content
-
-
-[Microsoft Edge](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/open/?tabs=cmd-Windows)
-1. Press F12 or Control+Shift+I (Windows, Linux) or Command+Option+I (macOS).
-2. Click on Network
-3. Enable Preserve Log
-4. Try to login to the GCC 2.0 CMP or SGTS service through Cloudflare Access
-5. Verify that a request was made to 127.0.0.1/zero_trust/auth with a 200 ok response. If not, please note this in your support request.
-6. Right click the log of network requests and click Save All as HAR with Content
-
-Once the HAR file is saved, please attach the HAR file to the support request.
+5. Verify that a request was made to 127.0.0.1/zero_trust/auth with a 200 ok response. If not, please specify this in your support request.
+6. Right click the log of network requests and click **Save All as HAR with content**.
+7. Save the HAR file.
