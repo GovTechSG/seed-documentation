@@ -119,7 +119,7 @@ If you are unable to access the GCC 2.0 CMP or a SGTS service, confirm the follo
 *Confirm the following* :
 1. If you have received the successfully onboarded email from DEEP.
 2. If you are using only the [supported browsers](best-practices).
-3. If Cloudflare WARP is connected and in its settings, **Gateway with WARP** is selected.
+3. If you are using the latest version of Cloudflare WARP and is connected and also make sure that **Gateway with WARP** is selected in Cloudflare settings.
 4. If Tanium is listed in the **Start** menu for Windows and in **Finder** > **Applications** for macOS.
 5. If Device operating system is updated to the latest version.
 6. If Defender ATP is up-to-date and in the running state.
