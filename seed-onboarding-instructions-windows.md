@@ -107,5 +107,5 @@ If your onboarding is successful, within an hour, you will receive a successfull
 
 Shortly after this email, when you receive a desktop notification prompting to restart the device, do the following:
 
-1. Restart your device.
+1. Save your current work and restart your device.
 2. If prompted to enter your password, enter it.
