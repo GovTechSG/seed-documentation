@@ -10,10 +10,10 @@ Objective of this document is to explain how to verify if your device onboarding
 
 ?> Cloudflare will automatically reconnect after three hours.
 
-2. Launch and connect the GlobalProtect VPN client.
+2. Launch and connect the GlobalProtect VPN client using your VPN ID and password.
 <kbd>![globalprotect-vpn-client](images/gcc-1-users/connect-to-globalprotect-vpn.png ':size=50%')</kbd>
 
-3. Go to [myapplications.microsoft.com](https://myapplications.microsoft.com/) and log in with your VPN ID and password.
+3. Go to [myapplications.microsoft.com](https://myapplications.microsoft.com/) and log in with your Cloud ID and password.
 
 4. Verify if you are able to access GCC 1.0 resources successfully.
 ![verify-gcc-resources](images/gcc-1-users/gcc-1-resources.png)
