@@ -107,7 +107,7 @@ This section explains how public officers and vendors can remove those softwares
   1. Open **Terminal** and run `mdatp health`.
   2. Note down the displayed **org_id**.
 
-  ?> If this command does not return anything, it indicates your device does not have Defender or any antivirus solution. Proceed to onboard your device in to SEED.
+  ?> If this command does not return anything, it confirms that your device does not have Microsoft Defender. Proceed to onboard your device in to SEED.
 
   3. Identify the organisation of the Defender or the antivirus on your device.
 

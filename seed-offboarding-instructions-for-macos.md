@@ -87,7 +87,7 @@ This section guides existing SEED users to offboard from it. The offboarding jou
   1. Open **Terminal** and run `mdatp health`.
   2. Note down the displayed **org_id**.
 
-  ?> If this command does not return anything, it indicates your device is not enrolled with any MDM solution. Proceed to onboard your device to SEED.
+  ?> If this command does not return anything, it confirms that your device does not have Microsoft Defender. Proceed to onboard your device to SEED.
 
   3. Refer to [Organisation IDs and organisation mapping](faqs/organisation-ids-and-mapping) and based on the **org_id**, identify the organisation of the Defender or the antivirus on your device.
   4. Based on the organisation, choose the required step from the following:
