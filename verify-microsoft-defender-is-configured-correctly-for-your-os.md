@@ -28,7 +28,7 @@
   8. Choose **Applications** and search for **Microsoft Defender for Endpoint.app**.
   9. Drag the app to the Bin, or select the app and choose **File** > **Move to Bin**.
 
-Now, within few hours, **Endpoint Manager** pushes the **Microsoft Defender** client to your device with the correct configurations. For more information on the duration, see [Microsoft Documentation](https://docs.microsoft.com/en-us/mem/intune/configuration/device-profile-troubleshoot#how-long-does-it-take-for-devices-to-get-a-policy-profile-or-app-after-they-are-assigned).
+Now, within few hours, **Endpoint Manager** pushes the **Microsoft Defender** client to your device with the correct configurations. For more information on the duration, refer to [Microsoft Documentation](https://docs.microsoft.com/en-us/mem/intune/configuration/device-profile-troubleshoot#how-long-does-it-take-for-devices-to-get-a-policy-profile-or-app-after-they-are-assigned).
 
 At any time, users can Sign in to Company Portal app, click the three dots and choose **Check status** to check for policy or profile updates. Wait while Company Portal syncs your device. When complete, the screen will show the timestamp of the last successful sync.
 
@@ -54,7 +54,7 @@ At any time, users can Sign in to Company Portal app, click the three dots and c
 
  ?> For more information on how to run the offboarding script, refer to **step d. Remove Microsoft Defender for Endpoint** on [SEED offboarding guide for Windows users](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/seed-offboarding-instructions-for-windows).
 
- Now, within few hours, **Endpoint Manager** pushes the **Microsoft Defender** client to your device with the correct configurations. For more information on the duration, see [Microsoft Documentation](https://docs.microsoft.com/en-us/mem/intune/configuration/device-profile-troubleshoot#how-long-does-it-take-for-devices-to-get-a-policy-profile-or-app-after-they-are-assigned).
+ Now, within few hours, **Endpoint Manager** pushes the **Microsoft Defender** client to your device with the correct configurations. For more information on the duration, refer to [Microsoft Documentation](https://docs.microsoft.com/en-us/mem/intune/configuration/device-profile-troubleshoot#how-long-does-it-take-for-devices-to-get-a-policy-profile-or-app-after-they-are-assigned).
 
  At any time, users can manually sync by going to **Start** > **Settings** > **Accounts** > **Access work or school** > **Work or School Account** > **Info** > **Sync**. Alternatively, Open the Company Portal app on your device, go to **Settings** > **Sync**. Wait while Company Portal syncs your device. When complete, the screen will show the timestamp of the last successful sync.
 

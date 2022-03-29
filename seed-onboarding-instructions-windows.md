@@ -105,7 +105,7 @@ If your onboarding is successful, within an hour, you will receive a successfull
 
 ?> If you do not receive this email, please contact the [SEED team](mailto:gcc2.0_support@tech.gov.sg).
 
-Shortly after this email, when you receive a desktop notification prompting to restart the device, do the following:
+Shortly after this email, when you receive a desktop notification informing about the device name change and about the device being restarted, do the following:
 
 1. Save your current work and restart your device.
-2. If prompted to enter your password, enter it.
+2. If prompted to specify your password, enter it.
