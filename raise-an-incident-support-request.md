@@ -3,7 +3,7 @@ Raise an [incident support request](https://form.gov.sg/6099efa30d6a0a0012dff367
 
 - uninformed service interruption or degraded service.
 
-- issues with Cloudflare WARP, Tanium, Defender ATP or Intune. Please attach the diagnostics information for [Cloudflare Access](#cloudflare-access-troubleshooting-information) and [Cloudflare WARP](#cloudflare-warp-diagnostic-logs) to this request for troubleshooting.
+- issues with Cloudflare WARP, Tanium, Defender or Intune. Please attach the diagnostics information for [Cloudflare Access](#cloudflare-access-troubleshooting-information) and [Cloudflare WARP](#cloudflare-warp-diagnostic-logs) to this request for troubleshooting.
 
 - connectivity issues while accessing GCC 2.0 CMP or SGTS services. Please [generate HAR file](#generate-har-file) to this request for troubleshooting.
 

@@ -82,20 +82,20 @@ This section guides existing SEED users to offboard from it. The offboarding jou
 
   - If you are a public officer, contact [SEED team](mailto:gcc2.0_support@tech.gov.sg) to get the offboarding script.
 
-  - If you are a vendor, contact your Defender ATP administrator to [get the offboarding script](get-offboarding-scripts-for-microsoft-defender-atp).
+  - If you are a vendor, contact your Defender administrator to [get the offboarding script](get-offboarding-scripts-for-microsoft-defender-atp).
 
   1. Open **Terminal** and run `mdatp health`.
   2. Note down the displayed **org_id**.
 
   ?> If this command does not return anything, it indicates your device is not enrolled with any MDM solution. Proceed to onboard your device to SEED.
 
-  3. Refer to [Organisation IDs and organisation mapping](faqs/organisation-ids-and-mapping) and based on the **org_id**, identify the organisation of the Defender ATP or the antivirus on your device.
+  3. Refer to [Organisation IDs and organisation mapping](faqs/organisation-ids-and-mapping) and based on the **org_id**, identify the organisation of the Defender or the antivirus on your device.
   4. Based on the organisation, choose the required step from the following:
   - If your organisation id corresponds to organisations such as WOG or TechPass, it indicates that **Microsoft Defender** has been configured correctly and ignore the rest of this section.
   - If your organisation id corresponds to Hive, it indicates that your device is still enrolled with Hive. Contact [GDS team](mailto:gds_den@tech.gov.sg) to to get the Hive offboarding script and proceed to step 5.
-  - For all other organisation ids, contact your organisation's MDM administrator or Defender ATP administrator to get the respective offboarding script and proceed to step 5.
+  - For all other organisation ids, contact your organisation's MDM administrator or Defender administrator to get the respective offboarding script and proceed to step 5.
 
-?> Refer to [Get the offboarding scripts for Microsoft Defender ATP ](get-offboarding-scripts-for-microsoft-defender-atp).
+?> Refer to [Get the offboarding scripts for Microsoft Defender ](get-offboarding-scripts-for-microsoft-defender-atp).
 
   5. Save the offboarding script to the **Downloads** folder.
   6. Go to **Terminal** and run the following command:

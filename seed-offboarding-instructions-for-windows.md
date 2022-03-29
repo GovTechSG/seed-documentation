@@ -40,7 +40,7 @@ If the script has already expired, choose one of the below options as appropriat
 
 - If you are a public officer, contact [SEED team](mailto:gcc2.0_support@tech.gov.sg) to get the offboarding script.
 
-- If you are a vendor, contact your Defender ATP administrator to [get the offboarding script](get-offboarding-scripts-for-microsoft-defender-atp).
+- If you are a vendor, contact your Defender administrator to [get the offboarding script](get-offboarding-scripts-for-microsoft-defender-atp).
 
 Once you have the valid offboarding script, do the following to remove Microsoft Defender for Endpoint:
 1. Save the offboarding script in your **Downloads** folder.

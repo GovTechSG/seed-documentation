@@ -4,7 +4,7 @@ Remove the following software solutions from your device before proceeding to on
 - current MDM software
 - Tanium client or any other unified endpoint management and security platform
 - Cloudflare WARP or any other software used for privacy and secured connections
-- Defender ATP or any other antivirus solution.
+- Defender or any other antivirus solution.
 
 This section explains how public officers and vendors can remove those softwares from macOS device.
 
@@ -107,15 +107,15 @@ This section explains how public officers and vendors can remove those softwares
   1. Open **Terminal** and run `mdatp health`.
   2. Note down the displayed **org_id**.
 
-  ?> If this command does not return anything, it indicates your device does not have Defender ATP or any antivirus solution. Proceed to onboard your device in to SEED.
+  ?> If this command does not return anything, it indicates your device does not have Defender or any antivirus solution. Proceed to onboard your device in to SEED.
 
-  3. Identify the organisation of the Defender ATP or the antivirus on your device.
+  3. Identify the organisation of the Defender or the antivirus on your device.
 
-  ?> Refer to [Organisation IDs and organisation mapping](faqs/organisation-ids-and-mapping) for identifying your Defender ATP or antivirus organisation.
+  ?> Refer to [Organisation IDs and organisation mapping](faqs/organisation-ids-and-mapping) for identifying your Defender or antivirus organisation.
 
   4. Based on the organisation, choose the required step from the following:
     - If your organisation id corresponds to WOG, contact [GCC2.0 team](mailto:gcc2.0_support@tech.gov.sg), to get the offboarding script for macOS.
-    - If your organisation id corresponds to TechPass, contact your Defender ATP administrator to get the offboarding scripts for your operating system for macOS.
+    - If your organisation id corresponds to TechPass, contact your Defender administrator to get the offboarding scripts for your operating system for macOS.
     - If your organisation id corresponds to Hive, contact [GDS team](mailto:gds_den@tech.gov.sg) to get the Hive offboarding script for macOS and proceed to step 5.
     - For all other organisation ids, contact your current MDM administrator to unerol your device from the respective antivirus.
 

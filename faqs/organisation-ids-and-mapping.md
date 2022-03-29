@@ -1,14 +1,14 @@
 ### Organisation IDs and organisation mapping
 
-For any device to successfully onboarded to SEED it should be offboarded or unenrolled from the current antivirus or Defender ATP. Any anitvirus software or Defender ATP will be associated with an organisation and to unenroll the device from it, you need to contact the respective organisation and get the offboarding scripts for your device OS.
+For any device to successfully onboarded to SEED it should be offboarded or unenrolled from the current antivirus or Defender. Any anitvirus software or Defender will be associated with an organisation and to unenroll the device from it, you need to contact the respective organisation and get the offboarding scripts for your device OS.
 
 This section provides the list of possible organisation ids and their names.
 
-<!--To identify if Defender ATP or any other antivirus is running on a device, macOS users will run `mdatp health` on their **Terminal**.
+<!--To identify if Defender or any other antivirus is running on a device, macOS users will run `mdatp health` on their **Terminal**.
 
 Windows users will open **Registry Editor** to run as administrator and go to **Computer** > **HKEY_LOCAL_MACHINE** > **SOFTWARE** > **Microsoft** > **Windows Advanced Protection** > **Status**.
 
-This will help you identify the organisation id of the Defender ATP or the antivirus currently running on the device. Once you locate the organisation, get the offboarding scripts from the respective MDM Administrator or Defender Administrator.-->
+This will help you identify the organisation id of the Defender or the antivirus currently running on the device. Once you locate the organisation, get the offboarding scripts from the respective MDM Administrator or Defender Administrator.-->
 
 | org_id  | Organisation |
 | ------------- |:-------------:|

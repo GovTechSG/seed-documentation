@@ -121,7 +121,7 @@
 <summary>
 11. After onboarding to SEED, I did not receive the successfully onboarded email. What should I do?</summary>
 
-<p>This can happen if Defender ATP or any other antivirus already installed on the device was not completely removed before onboarding in to SEED.</p>
+<p>This can happen if Defender or any other antivirus already installed on the device was not completely removed before onboarding in to SEED.</p>
 
 - [Verify if Microsoft Defender is configured correctly for your OS](verify-microsoft-defender-is-configured-correctly-for-your-os).
 
@@ -134,7 +134,7 @@
 12. What should I do if my device does not get renamed automatically after onboarding to SEED?
 </summary>
 
-<p>This can happen if Defender ATP or any other antivirus already installed on the device was not completely removed before onboarding in to SEED.</p>
+<p>This can happen if Defender or any other antivirus already installed on the device was not completely removed before onboarding in to SEED.</p>
 
 To confirm this, [Verify if Microsoft Defender is configured correctly for your OS](verify-microsoft-defender-is-configured-correctly-for-your-os)..
 
@@ -143,7 +143,7 @@ To confirm this, [Verify if Microsoft Defender is configured correctly for your 
 <details>
 <summary>
 13. Microsoft Defender was not automatically installed after enrolling in Company Portal? </summary>
-<p>This can happen if Defender ATP or any other antivirus already installed on the device was not completely removed before onboarding in to SEED.</p>
+<p>This can happen if Defender or any other antivirus already installed on the device was not completely removed before onboarding in to SEED.</p>
 
 To confirm this, [Verify if Microsoft Defender is configured correctly for your OS](verify-microsoft-defender-is-configured-correctly-for-your-os).
 

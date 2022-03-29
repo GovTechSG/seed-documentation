@@ -122,7 +122,7 @@ If you are unable to access the GCC 2.0 CMP or a SGTS service, confirm the follo
 3. Ensure that Cloudflare WARP client is updated to the latest version and is connected. Go to Cloudflare WARP **Settings**, and ensure that **Gateway with WARP** is selected.
 4. If Tanium is listed in the **Start** menu for Windows and in **Finder** > **Applications** for macOS.
 5. If your device operating system is updated to the latest version.
-6. If Defender ATP is up-to-date and in the running state.
+6. If Defender is up-to-date and in the running state.
 7. If your TechPass account has the required permissions to access the GCC 2.0 CMP or a particular SGTS service.
 
 

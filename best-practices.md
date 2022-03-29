@@ -11,7 +11,7 @@ SEED uses DEEP monitoring agents to ensure your device is patched to the latest 
 Hence, update your macOS or Windows to the latest version.
 
 ### Keep device free from malware
-SEED uses DEEP monitoring agents to ensure your device is free from malware when using our services. Follow basic cybersecurity hygiene and avoid visiting low-reputation websites that can infect your device with malware. Ensure that Defender ATP is always running and is patched to the latest version.
+SEED uses DEEP monitoring agents to ensure your device is free from malware when using our services. Follow basic cybersecurity hygiene and avoid visiting low-reputation websites that can infect your device with malware. Ensure that Defender is always running and is patched to the latest version.
 
 ### Supported browsers
 - Google Chrome
