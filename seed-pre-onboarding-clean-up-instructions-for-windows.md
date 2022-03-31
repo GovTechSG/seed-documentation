@@ -1,6 +1,6 @@
 # Remove existing softwares for Windows
 
-Remove the following software solutions from your device before proceeding to onboard in to SEED:
+Remove the following software solutions from your device before proceeding to onboard to SEED:
 
 - current MDM software
 - Tanium client or any other unified endpoint management and security platform
@@ -15,7 +15,10 @@ This section explains how public officers and vendors can remove those softwares
   1. Click **Start** icon on the taskbar.
   2. Go to **Settings** > **Accounts**.
   3. From the left menu, choose **Access work or school**.
-  4. If your device is managed by an MDM, your username in your organisation's domain will be displayed under **Work or school account**. Click **Work or school account** and then select **Disconnect**.
+
+  ?> If your device is managed by an MDM, your username in your organisation's domain will be displayed under **Work or school account**.
+
+  4. Click **Work or school account** and then select **Disconnect**.
 
 
 </details>
@@ -38,13 +41,13 @@ This section explains how public officers and vendors can remove those softwares
 
 </details>
 <details>
-  <summary>d. Remove current anitivirus solution on the device</summary><br>
+  <summary>d. Remove current antivirus solution on the device</summary><br>
 
   1. In the search box on the taskbar, type **regedit**.
   2. Choose **Registry Editor** from the results and click **Run as administrator**.
   3. In the **Registry Editor**, go to **Computer** > **HKEY_LOCAL_MACHINE** > **SOFTWARE** > **Microsoft** > **Windows Advanced Threat Protection** > **Status**. The OrgId of the Defender or antivirus running on your device will be displayed here.
 
-  ?> If you do not see the **Windows Advanced Threat Protection** folder, it indicates your device is not enrolled with any MDM solution. Proceed to onboard your device in to SEED.
+  ?> If you do not see the **Windows Advanced Threat Protection** folder, it indicates your device is not enrolled with any MDM solution. Proceed to onboard your device to SEED.
 
   4. Identify the organisation of the Defender or the antivirus on your device.
 

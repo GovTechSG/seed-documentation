@@ -10,7 +10,7 @@
 3. If **Management Profile** is already an existing profile, select it and remove it by clicking the minus icon at the lower-left corner.
 4. If you are unable to remove Management Profile, uninstall **Company Portal**.
 5. Reinstall [Company Portal](https://go.microsoft.com/fwlink/?linkid=853070).
-6. Retry onboarding your device to SEED from step [**a. Set up Microsoft Endpoint Manager to get the required applications and device configuration**](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/seed-onboarding-instructions-for-macos).
+6. Retry onboarding your device to SEED from [**step a. Set up Microsoft Endpoint Manager to get the required applications and device configuration**](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/seed-onboarding-instructions-for-macos).
 
 
 </details>
@@ -45,22 +45,18 @@
 </details>
 <hr/>
 
-<details>
+<details><summary>4. While enabling FDA, I can't find <strong>Microsoft Defenders Endpoint Security Extension</strong>. Can I proceed with my onboarding?</summary>
 
-<summary>4. While enabling FDA, I can't find <b>Microsoft Defenders Endpoint Security Extension</b>. Can I proceed with my onboarding?</summary>
-
-<p>Yes, you may proceed with your SEED onboarding and the Microsoft Defenders Endpoint Security Extension should be available within four hours time. If it is still not available after four hours, please contact gcc2.0_support@tech.gov.sg as it is required to ensure the completeness of your onboarding.</p>
+Yes, you may proceed with your SEED onboarding and the Microsoft Defenders Endpoint Security Extension should be available within four hours time. If it is still not available after four hours, please contact gcc2.0_support@tech.gov.sg as it is required to ensure the completeness of your onboarding.
 
 </details>
 <hr/>
 
-<details>
+<details><summary>5. While enabling FileVault or FDA, I am unable to unlock <strong>Security & Privacy</strong> preferences using my current password.</summary>
 
-<summary>5. While enabling FileVault or FDA, I am unable to unlock <strong>Security & Privacy</strong> preferences using my current password.</summary>
+When your device is enrolled with Microsoft Endpoint Management's Intune, a new password policy comes into effect and this requires you to reset password.  If you enable FileVault or FDA only while onboarding to SEED, reset your password before **step c. Encrypt your hard disk to protect your data at rest** as mentioned on the [SEED onboarding guide for macOS users][seed-onboarding-guide-macos].
 
-<p>When your device is enrolled with Microsoft Endpoint Management's Intune, a new password policy comes into effect and this requires you to reset password.  If you enable FileVault or FDA only while onboarding to SEED, reset your password before <strong>step c. Encrypt your hard disk to protect your data at rest</strong> as mentioned on the <a href="https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/seed-onboarding-instructions-for-macos">SEED onboarding guide for macOS users</a>.</p>
-
-*To reset password while enabling FileVault or FDA*:
+*To reset password while enabling FileVault or FDA* :
 1. Go to the **Apple** menu > **Lock Screen** or use keyboard shortcut **Command+Control+Q** .
 2. Enter your password and press **return**. You will be prompted to reset password.
 3. Reset your password and make sure it meets the following requirements:
@@ -72,10 +68,10 @@
 </details>
 <hr />
 
-<details>
-<summary>After resetting my macOS password, I am unable to log in using the new password, why?</summary>
-<p>This occurs if your new password does not meet the following password requirements:</p>
-<ul>
+<details><summary>6. After resetting my macOS password, I am unable to log in using the new password, why?</summary>
+
+This may occur if your new password does not meet the following password requirements:
+
 <li>have at least 12 characters</li>
 <li>should not have two consecutive or three sequential characters</li>
 <li>have at least one number and one alphabetic character</li>
@@ -121,3 +117,5 @@
   9. Restart your device and in the login screen, choose your user account and type your new password.
 
   </details>
+
+  [seed-onboarding-guide-macos]: https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/seed-onboarding-instructions-for-macos

@@ -129,7 +129,8 @@ This sections explains how public officers and vendors can onboard to SEED using
        - Tanium Client
        - Microsoft Intune Agent
        - Microsoft Defender
-       - Microsoft Defenders Endpoint Security Extension
+       - Microsoft Defender ATP Security Extension <!--Microsoft Defenders Endpoint Security Extension-->
+
 
    ?>  If any of the listed application is missing, please refer to [Common onboarding issues for macOS users](faqs/common-issues-while-onboarding-using-macos).
 

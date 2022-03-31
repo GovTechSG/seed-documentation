@@ -1,14 +1,11 @@
 ### Organisation IDs and organisation mapping
 
-For any device to successfully onboarded to SEED it should be offboarded or unenrolled from the current antivirus or Defender. Any anitvirus software or Defender will be associated with an organisation and to unenroll the device from it, you need to contact the respective organisation and get the offboarding scripts for your device OS.
+While onboarding your device to SEED, one of the prerequisites is to remove Microsoft Defender or any other antivirus solution from it. If your device has Microsoft Defender, it will be associated with an organisation.
 
-This section provides the list of possible organisation ids and their names.
+To unenrol the device from Defender, contact the respective organisation and get the offboarding scripts. If you have a different antivirus solution other than Defender, contact your organisation administrator to remove that antivirus solution from your device.
 
-<!--To identify if Defender or any other antivirus is running on a device, macOS users will run `mdatp health` on their **Terminal**.
+The following table provides some of the possible organisation ids and their names associated with Defender.
 
-Windows users will open **Registry Editor** to run as administrator and go to **Computer** > **HKEY_LOCAL_MACHINE** > **SOFTWARE** > **Microsoft** > **Windows Advanced Protection** > **Status**.
-
-This will help you identify the organisation id of the Defender or the antivirus currently running on the device. Once you locate the organisation, get the offboarding scripts from the respective MDM Administrator or Defender Administrator.-->
 
 | org_id  | Organisation |
 | ------------- |:-------------:|
@@ -16,7 +13,17 @@ This will help you identify the organisation id of the Defender or the antivirus
 | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    |
 | 6389e966-e334-461d-86ce-0fed12484620      | Hive     |
 
-?> If the org_id is different from the above three, contact the respective MDM administrator to get the offboarding script.
+
+<div class="warn">
+<p><b>Notes:</b></p>
+<ul>
+<li>If the org_id is different from the above three, contact the respective MDM administrator to get the offboarding script.</li>
+<li>If your TechPass ID used for SEED onboarding is similar to <em>your_name<span>@</span>tech.gov.sg</em> or <em>your_name<span>@</span><agency>.gov.sg</em>, your device will be onboarded to SEED under WOG profile - SG Govt M365.</li>
+<li>If your TechPass ID used for SEED onboarding is similar to <em>your_name<span>@</span>techpass.gov.sg</em>, your device will be onboarded to SEED under TECHPASS profile.</li>
+</ul>
+</div>
+
+
 
 **Related topics**
 - [Pre onboarding instructions for macOS users](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/seed-pre-onboarding-clean-up-instructions-for-macos)

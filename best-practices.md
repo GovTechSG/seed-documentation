@@ -8,14 +8,17 @@ For a smooth onboarding journey, it is important to link your Apple ID to your d
 
 ### Update device OS to the latest version
 SEED uses DEEP monitoring agents to ensure your device is patched to the latest versions to prevent compromise from known operating system vulnerabilities when using our services.
-Hence, update your macOS or Windows to the latest version.
+
+For more information on the supported OS versions, refer to [SEED Prerequisites](prerequisites-for-onboarding).
 
 ### Keep device free from malware
 SEED uses DEEP monitoring agents to ensure your device is free from malware when using our services. Follow basic cybersecurity hygiene and avoid visiting low-reputation websites that can infect your device with malware. Ensure that Defender is always running and is patched to the latest version.
 
 ### Supported browsers
+You can access SEED-protected websites such as CMP or SHIP using the following browsers:
+
 - Google Chrome
 - Microsoft Edge
-- Mozilla Firefox. If you are using Mozilla Firefox, you need to configure it to trust your system's trusted root certificate store.
+- Mozilla Firefox. If you are using Mozilla Firefox, you need to configure it to trust the root certificate store of your system.
 
-!> Safari is not a supported browser.
+!> Important: While you can use Safari to access other websites, you can't access SEED-protected websites using Safari.

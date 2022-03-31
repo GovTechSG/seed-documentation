@@ -1,5 +1,5 @@
 # Remove existing softwares for macOS
-Remove the following software solutions from your device before proceeding to onboard in to SEED:
+Remove the following software solutions from your device before proceeding to onboard to SEED:
 
 - current MDM software
 - Tanium client or any other unified endpoint management and security platform
@@ -18,16 +18,22 @@ This section explains how public officers and vendors can remove those softwares
   <kbd>![verify-other-mdm](images/onboarding-for-macos/verify-other-mdm.png)</kbd>
   3. At the lower left, if you see "This Mac is supervised and managed by *your-organisation-name*", it indicates you already have an MDM software.
 
-  ?> From step 3, if you confirm your devcie is not managed by any MDM currently, proceed to step **c.Remove Tanium Client**.
+  ?> If you confirm your device is not managed by any MDM currently, proceed to step **c.Remove Tanium Client**.
 
   4. To view the details of the current MDM software, go to **Settings** in the right side of **profiles**.
-  ![verify-other-mdm](images/onboarding-for-macos/verify-other-mdm.png)
+  ![verify-other-mdm](images/onboarding-for-macos/management-profile-settings.png)
+
+  >**Notes:**
+  >* If you see Microsoft Intune in the settings, it indicates that **Microsoft Endpoint Manager** is your MDM. Proceed to the next **step b. Unenrol from Microsoft Endpoint Manager**    
+  >* To unenrol your device from MDM softwares other than Microsoft Endpoint Manager, contact your organisation's IT administrator.
+
+<!--
   <div class="warn">
   <ul>
   <li>If you see Microsoft Intune in the settings, it indicates that **Microsoft Endpoint Manager** is your MDM. Proceed to the next step <strong>b. Unenrol from Microsoft Endpoint Manager</strong>.</li>
   <li>To unenrol your device from MDM softwares other than Microsoft Endpoint Manager, contact your organisation's IT administrator.</li>
   </ul>
-  </div>
+  </div>-->
 
 </details>
 <details>
@@ -102,16 +108,16 @@ This section explains how public officers and vendors can remove those softwares
 
 
 <details>
-  <summary>e. Remove current anitivirus solution on the device</summary><br>
+  <summary>e. Remove current antivirus solution on the device</summary><br>
 
   1. Open **Terminal** and run `mdatp health`.
   2. Note down the displayed **org_id**.
 
-  ?> If this command does not return anything, it confirms that your device does not have Microsoft Defender. Proceed to onboard your device in to SEED.
+  ?> If this command does not return anything, it confirms that your device does not have Microsoft Defender. Proceed to onboard your device to SEED.
 
   3. Identify the organisation of the Defender or the antivirus on your device.
 
-  ?> Refer to [Organisation IDs and organisation mapping](faqs/organisation-ids-and-mapping) for identifying your Defender or antivirus organisation.
+  ?> Refer to [Organisation IDs and organisation mapping](faqs/organisation-ids-and-mapping.md) for identifying your Defender or antivirus organisation.
 
   4. Based on the organisation, choose the required step from the following:
     - If your organisation id corresponds to WOG, contact [GCC2.0 team](mailto:gcc2.0_support@tech.gov.sg), to get the offboarding script for macOS.

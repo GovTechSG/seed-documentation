@@ -15,27 +15,27 @@
 <br>
 
 <details>
-<summary>Note for public officers onboarding a device in to SEED for TechPass organisation.</summary>
+<summary>Note for public officers onboarding a device to SEED for TechPass organisation.</summary>
 
-If you are a public officer who wants to onboard a device in to SEED for TechPass organisation:
+If you are a public officer who wants to onboard a device to SEED for TechPass organisation:
 
 1. Get a vendor TechPass account.
 
 2. If this device was already onboarded in to SEED, offboard it from SEED using your public officer TechPass account.
 
-3. Onboard your device in to SEED using your vendor TechPass account.
+3. Onboard your device to SEED using your vendor TechPass account.
 
 </details>
 <br>
 
 <details>
-<summary>Note for vendors onboarding a device in to SEED for WOG organisation.</summary>
+<summary>Note for vendors onboarding a device to SEED for WOG organisation.</summary>
 
-If you are a vendor who wants to onboard a device in to SEED for WOG organisation:
+If you are a vendor who wants to onboard a device to SEED for WOG organisation:
 
 1. Get a public officer TechPass account.
 2. If this device was already onboarded in to SEED, offboard it from SEED using your vendor TechPass account.
-3. Onboard your device in to SEED using your public officer TechPass account.
+3. Onboard your device to SEED using your public officer TechPass account.
 
 </details>
 </div>
