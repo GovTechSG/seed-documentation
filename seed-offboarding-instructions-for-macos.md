@@ -80,7 +80,7 @@ This section guides existing SEED users to offboard from it. The offboarding jou
 
   If the script has already expired, choose one of the below options as appropriate:
 
-  - If you are a public officer, contact [SEED team](mailto:gcc2.0_support@tech.gov.sg) to get the offboarding script.
+  - If you are a public officer, raise a [Support Request](https://form.gov.sg/6099efa30d6a0a0012dff367) to get the offboarding script.
 
   - If you are a vendor, contact your Defender administrator to [get the offboarding script](get-offboarding-scripts-for-microsoft-defender-atp).
 

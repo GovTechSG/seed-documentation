@@ -103,7 +103,7 @@ Now your device is enrolled on Microsoft Endpoint Manager.
 
 If your onboarding is successful, within an hour, you will receive a successfully onboarded email to your organisational email address.
 
-?> If you do not receive this email, please contact the [SEED team](mailto:gcc2.0_support@tech.gov.sg).
+?> If you do not receive this email, raise a [Support Request][raise-support-request].
 
 Shortly after this email, when you receive a desktop notification informing about the device name change and about the device being restarted, do the following:
 
