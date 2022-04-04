@@ -1,11 +1,13 @@
 # Common issues while enrolling in to Microsoft Endpoint Manager
 
   <details>
-  <summary>1. While onboarding to Microsoft Endpoint Manager, I get an error message, <em>"Could not download the identity profile from the Encrypted Profile Service. The credentials within the Device Enrolment profile may have expired."</em></summary>
+  <summary>1. While onboarding to Microsoft Endpoint Manager, I get an error message, "Could not download the identity profile from the Encrypted Profile Service. The credentials within the Device Enrolment profile may have expired."</summary>
 
   One of the possible reasons could be that your device was earlier onboarded to Microsoft Endpoint Manager by a different user and was not offboarded properly during the pre-onboarding steps.  
 
-  To confirm if that is the case, contact the [SEED team](mailto:gcc2.0_support@tech.gov.sg) with your device serial number. The SEED team can verify if your device was previously enrolled to Microsoft Endpoint Manager under a different user. If this is confirmed, choose on the following to offboard it from Microsoft Endpoint Manager and then retry onboarding your device to SEED.
+  To confirm if that is the case, raise a [Support Request](https://form.gov.sg/6099efa30d6a0a0012dff367). Before proceeding to raise the support request, refer to [Incident support request][raise-support-request] with your device serial number.
+
+  The SEED team can verify if your device was previously enrolled to Microsoft Endpoint Manager under a different user. If this is confirmed, choose on the following to offboard it from Microsoft Endpoint Manager and then retry onboarding your device to SEED.
 
   - If you are a Windows user, refer to [SEED offboarding guide for Windows users][seed-offboarding-steps-for-windows].
 
@@ -107,9 +109,9 @@ Possible reasons could be:
 
 Before raising a support request, confirm the following:
 
-- [verify if Microsoft Defender is configured correctly on your device][verify-defender-configuration].
+- [Verify if Microsoft Defender is configured correctly on your device][verify-defender-configuration].
 
-- Check if Tanium and Cloudflare are installed. These applications will be automatically installed while enrolling your device to SEED. If they are not installed, contact [SEED team](mailto:gcc2.0_support@tech.gov.sg).
+- Check if Tanium and Cloudflare are installed. These applications will be automatically installed while enrolling your device to SEED. If they are not installed, raise a [Support Request](https://form.gov.sg/6099efa30d6a0a0012dff367). Before proceeding to raise the support request, refer to [Incident support request][raise-support-request].
 
 </details>
 <hr />
@@ -145,3 +147,4 @@ This is a known issue with Microsoft Defender version 101.54.16. To resolve this
 [seed-offboarding-steps-for-macos]: ../seed-offboarding-instructions-for-macos.md
 [verify-defender-configuration]: ../verify-microsoft-defender-is-configured-correctly-for-your-os.md
 [upgrade-macos]: https://support.apple.com/downloads/macos
+[raise-support-request]: ../raise-an-incident-support-request.md

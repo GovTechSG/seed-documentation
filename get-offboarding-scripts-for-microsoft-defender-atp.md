@@ -2,7 +2,7 @@
 
 This article guides how a public officer and vendor can get the Defender offboarding scripts.
 
-- If you are a public officer, [contact GCC2.0 team](gcc2.0_support@tech.gov.sg) to get the offboarding scripts.
+- If you are a public officer, raise a [Support Request](https://form.gov.sg/6099efa30d6a0a0012dff367) to get the offboarding scripts.
 
 - If you are a vendor, contact your Defender administrator to get the offboarding scripts for your operating system.
 

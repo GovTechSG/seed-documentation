@@ -3,9 +3,13 @@ Raise an [incident support request](https://form.gov.sg/6099efa30d6a0a0012dff367
 
 - uninformed service interruption or degraded service.
 
-- issues with Cloudflare WARP, Tanium, Defender or Intune. Please attach the diagnostics information for [Cloudflare Access](#cloudflare-access-troubleshooting-information) and [Cloudflare WARP](#cloudflare-warp-diagnostic-logs) to this request for troubleshooting.
+- issues with Cloudflare WARP, Tanium, Defender or Intune.
 
-- connectivity issues while accessing GCC 2.0 CMP or SGTS services. Please [generate HAR file](#generate-har-file) to this request for troubleshooting.
+?>  Note: Attach diagnostics information for [Cloudflare Access](#cloudflare-access-troubleshooting-information) and [Cloudflare WARP](#cloudflare-warp-diagnostic-logs) to this request for troubleshooting.
+
+- connectivity issues while accessing GCC 2.0 CMP or SGTS services.  
+
+?> Note: [Generate HAR file](#generate-har-file) and attach it to this request for troubleshooting.
 
 ### Cloudflare Access troubleshooting information
 *To get Cloudflare Access Application Launcher diagnostics information*:  
@@ -60,7 +64,7 @@ This section provides the instructions to generate HAR file for the [supported b
 
 #### Generate HAR file for Mozilla Firefox
 
-?> Make sure your Mozilla Firefox is configured to trust your system's trusted root certificate store.
+?> Note: Make sure your Mozilla Firefox is configured to trust your system's trusted root certificate store.
 
 1. Open Firefox and go to application menu > **More tools** > **Web Developer Tools** or press Ctrl+Shift+I (Windows) or Command+Option+I (macOS) and click **Network**. The Developer Tools will be displayed.
 2. Click **Network Settings** in the upper-right of the Developer Tools panel and enable **Persist Logs**.

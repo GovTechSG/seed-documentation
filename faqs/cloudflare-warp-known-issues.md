@@ -133,7 +133,7 @@ Your tool or application may be using a certificate store that is separate from 
 <details>
 <summary>5.  I am unable to access the GCC 2.0 Cloud Management Portal, or a Singapore Tech Stack service. Is there a problem with my Government Managed Device?</summary>
 
-If you are unable to access the GCC 2.0 CMP or a SGTS service, confirm the following before raising a [Support Request](https://form.gov.sg/6099efa30d6a0a0012dff367). Before procceding to raise the support request, refer to [Incident support request](raise-an-incident-support-request).
+If you are unable to access the GCC 2.0 CMP or a SGTS service, confirm the following before raising a [Support Request](https://form.gov.sg/6099efa30d6a0a0012dff367). Before proceeding to raise the support request, refer to [Incident support request](raise-an-incident-support-request).
 
 *Confirm the following* :
 1. If you have received the successfully onboarded email from DEEP.
@@ -149,8 +149,7 @@ and DNS queries to the VPN server. Our recommendation is not to turn on
 WARP and the VPN at the same time.
 
 If you are still having issues accessing the GCC 2.0 CMP or SGTS
-service, follow our
-[instructions to raise a SEED Support Request][raise-support-request].
+service, raise a [Support Request](https://form.gov.sg/6099efa30d6a0a0012dff367). Before proceeding to raise the support request, refer to [Incident support request][raise-support-request].
 
 </details>
 <hr />
