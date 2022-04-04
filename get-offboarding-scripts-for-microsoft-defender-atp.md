@@ -1,16 +1,18 @@
 ## Get offboarding scripts for Microsoft Defender for Endpoint
 
-This article guides how a public officer and vendor can get the Defender ATP offboarding scripts.
+This article guides how a public officer and vendor can get the Defender offboarding scripts.
 
-- If you are a public officer, [contact GCC2.0 team](gcc2.0_support@tech.gov.sg) to get the offboarding scripts.
+- If you are a public officer, raise a [Support Request](https://form.gov.sg/6099efa30d6a0a0012dff367) to get the offboarding scripts.
 
-- If you are a vendor, contact your Defender ATP administrator to get the offboarding scripts for your operating system.
+- If you are a vendor, contact your Defender administrator to get the offboarding scripts for your operating system.
 
-If you are a Defender ATP administrator, do the following:
+- However, if your device is currently enrolled with Hive organisation, contact [GDS team](mailto:gds_den@tech.gov.sg) to get the respective offboarding script.  Refer to
 
- 1. Go to [Defender Security Center portal](https://securitycenter.windows.com/).
+If you are a Defender administrator, do the following:
 
- 2. Click **Settings** > **Device Management** > **Offboard**.
+ 1. Go to [Defender Security Center portal](https://security.microsoft.com).
+
+ 2. Click **Settings** > **Endpoints** > **Device Management** > **Offboarding**.
 
  3. Select the operating system specified by the vendor and specify *Local Script* as **Deployment Method**.
 

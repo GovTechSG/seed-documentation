@@ -1,4 +1,4 @@
-# SEED post-onboarding verification for GCC 1.0
+# Post-onboarding verification for GCC 1.0
 This article is for GCC 1.0 users who have onboarded their non-GSIB device to SEED. When your device is onboarded to SEED it becomes a Government Managed Device (GMD).
 
 Objective of this document is to explain how to verify if your device onboarding to SEED was successful and if you are still able to access your GCC 1.0 resources.
@@ -6,16 +6,14 @@ Objective of this document is to explain how to verify if your device onboarding
 *To verify SEED onboarding for GCC 1.0 users*:
 1.	As only one VPN connection can be active at a time, go to the Cloudflare WARP icon on your GMD and toggle the **Connected** switch to **Paused**.
 
-<kbd>![cloudflare-switch](images/gcc-1-users/pause-connection.png ':size=75%')</kbd>
+![cloudflare-switch](images/gcc-1-users/pause-connection.png ':size=75%')
 
 ?> Cloudflare will automatically reconnect after three hours.
 
-2. Launch and connect the GlobalProtect VPN client.
+2. Launch and connect the GlobalProtect VPN client using your VPN ID and password.
 <kbd>![globalprotect-vpn-client](images/gcc-1-users/connect-to-globalprotect-vpn.png ':size=50%')</kbd>
 
-3. Go to [myapplications.microsoft.com](https://myapplications.microsoft.com/).
-
-?> If you are prompted to log in, enter the email ID linked to your Cloud ID and its password.
+3. Go to [myapplications.microsoft.com](https://myapplications.microsoft.com/) and log in with your Cloud ID and password.
 
 4. Verify if you are able to access GCC 1.0 resources successfully.
 ![verify-gcc-resources](images/gcc-1-users/gcc-1-resources.png)

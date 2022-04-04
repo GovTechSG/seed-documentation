@@ -3,10 +3,16 @@
 This sections explains how public officers and vendors can onboard to SEED using their macOS device. Before onboarding, take a look at the [prerequisites for SEED onboarding](prerequisites-for-onboarding).
 
 
-!> Note: Based on your device settings, while onboarding, you may be prompted to **restart your device** a couple of times and **reset device password**. For a smooth onboarding journey, it is important to link your Apple ID to your device. Please have your recovery keys ready in the event of you facing issues with resetting your password or logging in to your device.
+<div class="warn">
+<ul>
+<li>Based on your device settings, while onboarding, you may be prompted to <strong>restart your device</strong> a couple of times and <strong>reset device password</strong>.</li>
+<li>For a smooth onboarding journey, make sure to link your Apple ID to your device.</li>
+<li>Make sure to have your recovery keys ready in the event of you facing issues with resetting your password or logging in to your device.</li>
+</ul>
+</div>
 
 
-During this onboarding journey you will do the following:
+*To onboard your Mac device to SEED* :
 
 
 <details>
@@ -45,7 +51,7 @@ During this onboarding journey you will do the following:
 
    - If **Management Profile** is not displayed, then from the left side menu, select **Management Profile**.
 
-   - If Profile installation fails, refer to [Common issues while onboarding using macOS](common-issues-while-onboarding-using-macos).
+   - If profile installation fails, refer to [Common onboarding issues for macOS users](faqs/common-issues-while-onboarding-using-macos).
 
   8. Click **Install**.
 
@@ -80,8 +86,19 @@ During this onboarding journey you will do the following:
 
   1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
   2. Click the **FileVault** tab.
-  3. If you see **Turn on FileVault**, go to step 4 or proceed to **Enable Full Disk Access(FDA)**.
+  3. If you see **Turn on FileVault**, go to step 4 else proceed to **Enable Full Disk Access(FDA)**.
   4. Click the lock icon and use your Touch ID or enter your password to unlock.
+
+  <div class="warn">
+  <p>If you are unable to access this preference with your current password, complete the following steps to reset your device password.</p>
+ <ol>
+
+  <li>Go to the <b>Apple</b> menu > <b>Lock Screen</b> or use keyboard shortcut <b>Command+Control+Q</b> .</li>
+  <li>Enter your password and press <b>return</b>. You will be prompted to reset password.</li>
+  <li>Reset your password.</li>
+  </ol>
+  </div>
+
   5. Click **Turn on FileVault**.
   6. When prompted to specify how you would like to unlock your device if you forget your device password,  select **Create a recovery key and do not use my iCloud account**.
 
@@ -95,15 +112,27 @@ During this onboarding journey you will do the following:
 
   1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
   2. Click the **Privacy** tab.
-  3. From the side menu, choose **Full Disk Access**.
+  3. From the left pane, choose **Full Disk Access**.
   4. Click the lock icon at the bottom and use your Touch ID or enter your  password to unlock.
+
+  <div class="warn">
+  <p>If you are unable to access this preference with your current password, complete the following steps to reset your device password.</p>
+ <ol>
+
+  <li>Go to the <b>Apple</b> menu > <b>Lock Screen</b> or use keyboard shortcut <b>Command+Control+Q</b> .</li>
+  <li>Enter your password and press <b>return</b>. You will be prompted to reset password.</li>
+  <li>Reset your password.</li>
+  </ol>
+  </div>
+
   5. Ensure the following applications are listed:
        - Tanium Client
-       - Microsoft Endpoint Manager Agent
+       - Microsoft Intune Agent
        - Microsoft Defender
-       - Microsoft Defenders Endpoint Security Extension
+       - Microsoft Defender ATP Security Extension <!--Microsoft Defenders Endpoint Security Extension-->
 
-   ?>  If any of the listed application is missing, please refer to [Common issues while onboarding using macOS](common-issues-while-onboarding-using-macos).
+
+   ?>  If any of the listed application is missing, please refer to [Common onboarding issues for macOS users](faqs/common-issues-while-onboarding-using-macos).
 
   6. Select the checkboxes beside these applications.
 
@@ -158,8 +187,12 @@ During this onboarding journey you will do the following:
 
 If your onboarding is successful, within an hour, you will receive a successfully onboarded email to  your organisational email address.  
 
-?> If you do not receive this email, please contact the [SEED team](mailto:gcc2.0_support@tech.gov.sg).
+<div class="warn">
+  <ul>
+      <li>If you do not receive this email, [check if Microsoft Defender is configured correctly](verify-microsoft-defender-is-configured-correctly-for-your-os) and also check if Tanium and Cloudflare are installed. If Tanium or Cloudflare is not installed, please contact <a href="mailto:gcc2.0_support@tech.gov.sg">SEED team</a>.</li>
+      <li>Shortly after this email, you will receive a desktop notification informing you that your device has been renamed and will automatically restart in the next five minutes. When you log in again, you will be prompted to reset your password. This is to enforce a strong password policy.</li>
+      <li>If you had reset your password while onboarding, you will not be prompted to reset password when your device automatically restarts.</li>
+      </ul>
+  </div>    
 
-Shortly after this email, you will receive a desktop notification informing you that your device has been renamed and will automatically restart in the next five minutes. When you log in again, you will be prompted to reset your password. This is to enforce a strong password policy.
-
-!> Note: As Safari is not supported by SEED, use Google Chrome or Microsoft Edge for accessing services or websites that need SEED.
+!> Note:  As Safari is not supported by SEED, use Google Chrome or Microsoft Edge for accessing services or websites that need SEED.
