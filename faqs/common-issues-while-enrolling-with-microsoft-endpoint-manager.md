@@ -96,6 +96,7 @@ To check and synchronise your device time with the internet time server:
     1. Go to the **Internet Time** tab and select **Change settings**.
     1. Enter the domain name of the server.
 
+  </details>
   </details>  
   <hr />
 
@@ -111,7 +112,7 @@ Before raising a support request, confirm the following:
 
 - [Verify if Microsoft Defender is configured correctly on your device][verify-defender-configuration].
 
-- Check if Tanium and Cloudflare are installed. These applications will be automatically installed while enrolling your device to SEED. If they are not installed, raise a [incident support request][raise-support-request].
+- Check if Tanium and Cloudflare are installed. These applications will be automatically installed while enrolling your device to SEED. If they are not installed, raise a [Support Request][raise-support-request].
 
 </details>
 <hr />
