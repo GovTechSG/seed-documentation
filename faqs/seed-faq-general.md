@@ -1,3 +1,5 @@
+# General FAQ
+
 What is TechPass and why do I need it?
 
 TechPass is an Identity & Access Management (IAM) and Single Sign-On (SSO) solution. It provides a seamless login experience while accessing tools across Singapore Government Technology Stack (SGTS) and allows to easily manage access control for the users from a centralised location. It is a prerequisite for onboarding your device(non-GSIB) to SEED. For more information, refer to [TechPass Documentation][techpass-documentation].
