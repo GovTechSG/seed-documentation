@@ -33,11 +33,6 @@ Is remote wipe done only on devices that belong to public sector agencies?
 No, remote wipe will be done on any GMD device that is lost to prevent data breach. For more information, refer to the [Terms and Policies][terms-and-policies].
 
 
-What are the common remote actions that SEED performs on my GMD?
-
-To protect data breach, remote wipe and remote lock are the actions done by SEED if the security of your GMD is compromised or if your GMD is lost. For more information, refer to the [Terms and Policies][terms-and-policies].
-
-
 I have already enrolled my device with Microsoft Endpoint Manager under my organisation or with other MDM solution. Will this impact when I onboard my device to SEED?
 
 Yes, this impacts your SEED onboarding. Before onboarding to SEED, remove your existing Microsoft Endpoint Manager enrolment under your organisation's tenancy or other MDM solution on your device.
