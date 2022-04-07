@@ -103,9 +103,11 @@ Now your device is enrolled on Microsoft Endpoint Manager.
 
 If your onboarding is successful, within an hour, you will receive a successfully onboarded email to your organisational email address.
 
-?> If you do not receive this email, raise a [Support Request][raise-support-request].
+?> If you do not receive this email, [check if Microsoft Defender is configured correctly](verify-microsoft-defender-is-configured-correctly-for-your-os) and also check if Tanium and Cloudflare are installed. If Tanium or Cloudflare is not installed, [raise a support request](raise-an-incident-support-request).
 
 Shortly after this email, when you receive a desktop notification informing about the device name change and about the device being restarted, do the following:
 
 1. Save your current work and restart your device.
 2. If prompted to specify your password, enter it.
+
+?> Refer to [Best practices](best-practices) to know about the supported browsers.

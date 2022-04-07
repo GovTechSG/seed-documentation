@@ -54,7 +54,7 @@ This section explains how public officers and vendors can remove those softwares
   ?> Refer to [Organisation IDs and organisation mapping](faqs/organisation-ids-and-mapping) for identifying your Defender or antivirus organisation.
 
   5. Based on the organisation, choose the required step from the following:
-    - If your organisation id corresponds to WOG, contact [GCC2.0 team](mailto:gcc2.0_support@tech.gov.sg), to get the offboarding script for Windows.
+    - If your organisation id corresponds to WOG, contact [GCC2.0 team](https://form.gov.sg/#!/6099efa30d6a0a0012dff367), to get the offboarding script for Windows.
     - If your organisation id corresponds to TechPass, contact your Defender administrator to get the offboarding scripts for your operating system for Windows.
     - If your organisation id corresponds to Hive, contact [GDS team](mailto:gds_den@tech.gov.sg) to get the Hive offboarding script for Windows and proceed to step 6.
     - For all other organisation ids, contact your current MDM administrator to unerol your device from the respective antivirus.
