@@ -1,4 +1,4 @@
-## Cloudflare WARP faq
+# Cloudflare WARP FAQ
 
 <details>
 <summary>1. What should I do if I am unable to browse the internet using Cloudflare WARP?</summary>
