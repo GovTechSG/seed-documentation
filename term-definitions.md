@@ -1,4 +1,4 @@
-# Terminology
+# Glossary
 
 **SEED**
 

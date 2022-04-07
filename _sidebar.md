@@ -7,8 +7,9 @@
   * [Offboard](seed-offboarding-instructions-for-windows)
 * [SEED post-onboarding verification for GCC 1.0](seed-post-onboarding-verification-for-gcc-1.0)
 * [Best Practices](best-practices)
-* [Terminology](term-definitions)
+* [Glossary](term-definitions)
 * FAQ
+  * [General FAQ](faqs/seed-faq-general)
   * [Onboarding issues for macOS users](faqs/common-issues-while-onboarding-using-macos)
   * [Issues with Microsoft Endpoint Manager](faqs/common-issues-while-enrolling-with-microsoft-endpoint-manager)
   * [Cloudflare WARP](faqs/cloudflare-warp-known-issues)

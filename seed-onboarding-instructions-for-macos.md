@@ -132,7 +132,7 @@ This sections explains how public officers and vendors can onboard to SEED using
        - Microsoft Defender ATP Security Extension <!--Microsoft Defenders Endpoint Security Extension-->
 
 
-   ?>  If any of the listed application is missing, please refer to [Common onboarding issues for macOS users](faqs/common-issues-while-onboarding-using-macos).
+  ?>  If any of the listed application is missing, please refer to [Common onboarding issues for macOS users](faqs/common-issues-while-onboarding-using-macos).
 
   6. Select the checkboxes beside these applications.
 
@@ -187,12 +187,16 @@ This sections explains how public officers and vendors can onboard to SEED using
 
 If your onboarding is successful, within an hour, you will receive a successfully onboarded email to  your organisational email address.  
 
-<div class="warn">
+<!--<div class="warn">
   <ul>
-      <li>If you do not receive this email, [check if Microsoft Defender is configured correctly](verify-microsoft-defender-is-configured-correctly-for-your-os) and also check if Tanium and Cloudflare are installed. If Tanium or Cloudflare is not installed, please contact <a href="mailto:gcc2.0_support@tech.gov.sg">SEED team</a>.</li>
+      <li>If you do not receive this email, <a href="verify-microsoft-defender-is-configured-correctly-for-your-os.md">check if Microsoft Defender is configured correctly</a> and also check if Tanium and Cloudflare are installed. If Tanium or Cloudflare is not installed, please contact <a href="https://form.gov.sg/#!/6099efa30d6a0a0012dff367">SEED team</a>.</li>
       <li>Shortly after this email, you will receive a desktop notification informing you that your device has been renamed and will automatically restart in the next five minutes. When you log in again, you will be prompted to reset your password. This is to enforce a strong password policy.</li>
       <li>If you had reset your password while onboarding, you will not be prompted to reset password when your device automatically restarts.</li>
       </ul>
-  </div>    
+  </div> -->
 
-!> Note:  As Safari is not supported by SEED, use Google Chrome or Microsoft Edge for accessing services or websites that need SEED.
+  >**Notes:**
+>- If you do not receive this email, [check if Microsoft Defender is configured correctly](verify-microsoft-defender-is-configured-correctly-for-your-os) and also check if Tanium and Cloudflare are installed. If Tanium or Cloudflare is not installed, [raise a support request](raise-an-incident-support-request).
+>- Shortly after this email, you will receive a desktop notification informing you that your device has been renamed and will automatically restart in the next five minutes. When you log in again, you will be prompted to reset your password. This is to enforce a strong password policy.
+>- If you had reset your password while onboarding, you will not be prompted to reset password when your device automatically restarts.
+>- Refer to [Best practices](best-practices) to know about the supported browsers.   
