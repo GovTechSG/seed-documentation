@@ -16,7 +16,7 @@ This sections explains how public officers and vendors can onboard to SEED using
 
 
 <details>
-  <summary>a. Set up Microsoft Endpoint Manager to get the required applications and device configuration</summary><br>
+  <summary>a. Set up Microsoft Intune to get the required applications and device configuration</summary><br>
 
   1. Download and install [**Company Portal**](https://go.microsoft.com/fwlink/?linkid=853070).
 
@@ -42,7 +42,7 @@ This sections explains how public officers and vendors can onboard to SEED using
 
   <kbd>![install-management-profile](images/onboarding-for-macos/install-management-profile.png)</kbd>
 
-  7. Follow the on-screen instructions to allow Microsoft Endpoint Manager to manage your device. The **Profiles** page is displayed.
+  7. Follow the on-screen instructions to allow Microsoft Intune to manage your device. The **Profiles** page is displayed.
 
   <kbd>![profile-1](images/onboarding-for-macos/profile-1.png)</kbd>
 
@@ -57,7 +57,7 @@ This sections explains how public officers and vendors can onboard to SEED using
 
   <kbd>![profile](images/onboarding-for-macos/profile-2.png)</kbd>
 
-  The configuration profiles that Microsoft Endpoint Manager needs to deploy will be installed. You will see a list of profiles as shown below.
+  The configuration profiles that Microsoft Intune needs to deploy will be installed. You will see a list of profiles as shown below.
 
   <kbd>![list-of-profiles](images/onboarding-for-macos/list-of-profiles.png)</kbd>
 

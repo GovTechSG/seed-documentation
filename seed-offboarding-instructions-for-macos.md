@@ -3,7 +3,7 @@
 This section guides existing SEED users to offboard from it. The offboarding journey has the following steps:
 
 <details>
-  <summary>a. Remove your device from Microsoft Endpoint Manager</summary><br>
+  <summary>a. Remove your device from Microsoft Intune</summary><br>
 
   1. Open the **Company Portal** application and click **Sign in**.
 

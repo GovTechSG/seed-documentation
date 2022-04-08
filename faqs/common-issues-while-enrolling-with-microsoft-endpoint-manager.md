@@ -1,13 +1,13 @@
-# Common issues while enrolling in to Microsoft Endpoint Manager
+# Common issues while enrolling in to Microsoft Intune
 
   <details>
-  <summary>1. While onboarding to Microsoft Endpoint Manager, I get an error message, "Could not download the identity profile from the Encrypted Profile Service. The credentials within the Device Enrolment profile may have expired."</summary>
+  <summary>1. While onboarding to Microsoft Intune, I get an error message, "Could not download the identity profile from the Encrypted Profile Service. The credentials within the Device Enrolment profile may have expired."</summary>
 
-  One of the possible reasons could be that your device was earlier onboarded to Microsoft Endpoint Manager by a different user and was not offboarded properly during the pre-onboarding steps.  
+  One of the possible reasons could be that your device was earlier onboarded to Microsoft Intune by a different user and was not offboarded properly during the pre-onboarding steps.  
 
   To confirm if that is the case, raise a [Support Request][raise-support-request] with your device serial number.
 
-  The SEED team can verify if your device was previously enrolled to Microsoft Endpoint Manager under a different user. If this is confirmed, choose on the following to offboard it from Microsoft Endpoint Manager and then retry onboarding your device to SEED.
+  The SEED team can verify if your device was previously enrolled to Microsoft Intune under a different user. If this is confirmed, choose on the following to offboard it from Microsoft Intune and then retry onboarding your device to SEED.
 
   - If you are a Windows user, refer to [SEED offboarding guide for Windows users][seed-offboarding-steps-for-windows].
 
@@ -17,7 +17,7 @@
   <hr />
 
   <details>
-    <summary>2. What is the minimum version of macOS needed for onboarding it into Microsoft Endpoint Manager?</summary>
+    <summary>2. What is the minimum version of macOS needed for onboarding it into Microsoft Intune?</summary>
 
   Big Sur 11 is the minimum version needed for a successful onboarding. If your macOS is an earlier version, ensure to [upgrade it to a later macOS version](https://support.apple.com/downloads/macos).
 
@@ -32,7 +32,7 @@
   </details>
   <hr />
 
-  <details><summary>4. Why does my device slowdown after onboarding to Microsoft Endpoint Manager?</summary>
+  <details><summary>4. Why does my device slowdown after onboarding to Microsoft Intune?</summary>
 
   SEED is designed to use **Microsoft Defender for Endpoint** to ensure device is free from malware, prevent and respond to advanced threats. If there is any other antivirus or anti-malware running simultaneously, it could compromise the performance of the operating system. To resolve this, disable or uninstall antivirus other than **Microsoft Defender for Endpoint**.
 
@@ -42,7 +42,7 @@
   <details><summary>5. While enrolling my device to SEED, I get an error message, "<em>Couldn’t add your device. Wait a few minutes, then try again or contact your company support.</em>" What should I do?
   </summary>
 
-  As suggested wait for few minutes, retry enrolling your device to Microsoft Endpoint Manager and click **Approve** in the management profile.
+  As suggested wait for few minutes, retry enrolling your device to Microsoft Intune and click **Approve** in the management profile.
 
   </details>
   <hr />

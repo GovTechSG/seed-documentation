@@ -9,7 +9,7 @@ This sections explains how public officers and vendors can onboard to SEED using
 
 
 <details>
-  <summary>a. Set up Microsoft Endpoint Manager to get the required applications and device configuration</summary><br>
+  <summary>a. Set up Microsoft Intune to get the required applications and device configuration</summary><br>
 
 1. Click **Start** icon on the taskbar.
 
@@ -23,7 +23,7 @@ This sections explains how public officers and vendors can onboard to SEED using
 
 ?> The above page is displayed only for public officers and you may refer to [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) for more information.
 
-GCC2 Tanium and Cloudflare WARP clients are now installed on your device. Microsoft Endpoint Manager Management Extension sends you a desktop notification about once the installation is complete.
+GCC2 Tanium and Cloudflare WARP clients are now installed on your device. Microsoft Intune Management Extension sends you a desktop notification about once the installation is complete.
 
 <kbd>![settings](images/onboarding-instructions-for-windows/settings.png ':size=600')</kbd>
 
@@ -33,7 +33,7 @@ GCC2 Tanium and Cloudflare WARP clients are now installed on your device. Micros
 
 <kbd>![managed-by-sg-govt-m365](images/onboarding-instructions-for-windows/managed-by-sg-govt-m365.png ':size=600')</kbd>
 
-Now your device is enrolled on Microsoft Endpoint Manager.
+Now your device is enrolled on Microsoft Intune.
 </details>
 
 <details>

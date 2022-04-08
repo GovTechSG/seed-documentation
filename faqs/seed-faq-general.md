@@ -41,15 +41,15 @@ No, remote wipe will be done on any GMD device that is lost to prevent data brea
 
 </details>
 <hr />
-<details><summary>I have already enrolled my device with Microsoft Endpoint Manager under my organisation or with other MDM solution. Will this impact when I onboard my device to SEED?</summary>
+<details><summary>I have already enrolled my device with Microsoft Intune under my organisation or with other MDM solution. Will this impact when I onboard my device to SEED?</summary>
 
-Yes, this impacts your SEED onboarding. Before onboarding to SEED, remove your existing Microsoft Endpoint Manager enrolment under your organisation's tenancy or other MDM solution on your device.
+Yes, this impacts your SEED onboarding. Before onboarding to SEED, remove your existing Microsoft Intune enrolment under your organisation's tenancy or other MDM solution on your device.
 
 </details>
 <hr />
-<details><summary>What data is collected by Microsoft Endpoint Manager?</summary>
+<details><summary>What data is collected by Microsoft Intune?</summary>
 
-To know about the data collected by Microsoft Endpoint Manager, refer to [https://docs.microsoft.com/en-us/mem/intune/protect/privacy-data-collect](https://docs.microsoft.com/en-us/mem/intune/protect/privacy-data-collect)
+To know about the data collected by Microsoft Intune, refer to [https://docs.microsoft.com/en-us/mem/intune/protect/privacy-data-collect](https://docs.microsoft.com/en-us/mem/intune/protect/privacy-data-collect)
 
 </details>
 <hr />
