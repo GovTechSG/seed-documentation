@@ -25,10 +25,3 @@ This is used to log in to your TechPass account.
 WOG ID is the email address belonging to the gov.sg domain. For example, *your_name<span>@</span>tech.gov.sg* or *your_name<span>@</span>mof.gov.sg*.
 
 Public officers who onboard to SEED must have a WOG ID or account.
-
-`The is a code snippet`
-
-```
-Line q
-Line 10
-```

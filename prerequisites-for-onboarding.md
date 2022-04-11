@@ -1,7 +1,7 @@
 # Prerequisites
 <div class="warn">
 
-Things to take note before you proceed with the onboarding.
+Things to take note before you proceed with the onboarding:
 
   - After you complete the onboarding process, you will receive an email confirming your successful onboarding to SEED and your device will be automatically renamed and restarted.
 
