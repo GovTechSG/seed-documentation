@@ -10,7 +10,7 @@
 3. If **Management Profile** is already an existing profile, select it and remove it by clicking the minus icon at the lower-left corner.
 4. If you are unable to remove Management Profile, uninstall **Company Portal**.
 5. Reinstall [Company Portal](https://go.microsoft.com/fwlink/?linkid=853070).
-6. Retry onboarding your device to SEED from [**step a. Set up Microsoft Endpoint Manager to get the required applications and device configuration**](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/seed-onboarding-instructions-for-macos).
+6. Retry onboarding your device to SEED from [**step a. Set up Microsoft Intune to get the required applications and device configuration**](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/seed-onboarding-instructions-for-macos).
 
 
 </details>

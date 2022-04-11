@@ -3,7 +3,7 @@
 This section guides existing SEED users to offboard from it. The offboarding journey has the following steps:
 
 <details>
-<summary>a. Remove your  device from Microsoft Endpoint Manager</summary>
+<summary>a. Remove your  device from Microsoft Intune</summary>
 
 1. Click **Start** icon on the taskbar.
 2. Go to  **Settings** > **Accounts** > **Access work or school**.

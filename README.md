@@ -21,7 +21,7 @@ It includes the following components:
 
 **Development Environment Endpoint Posture**: The device management layer of MDM. It manages the following:
 
-- **Microsoft Endpoint Manager**: Provides device and application management, including remote application deployment and selective device wipe.
+- **Microsoft Intune**: Provides device and application management, including remote application deployment and selective device wipe.
 
 - **Microsoft Defender Advanced Threat Prevention (MDATP)**: Enterprise class vulnerability management, threat detection and response security solution.
 

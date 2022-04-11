@@ -11,7 +11,7 @@
 * FAQ
   * [General FAQ](faqs/seed-faq-general)
   * [Onboarding issues for macOS users](faqs/common-issues-while-onboarding-using-macos)
-  * [Issues with Microsoft Endpoint Manager](faqs/common-issues-while-enrolling-with-microsoft-endpoint-manager)
+  * [Issues with Microsoft Intune](faqs/common-issues-while-enrolling-with-microsoft-endpoint-manager)
   * [Cloudflare WARP](faqs/cloudflare-warp-known-issues)
 * [Terms and Policies](terms-and-policies)
 * [Raise incident support request](raise-an-incident-support-request)
