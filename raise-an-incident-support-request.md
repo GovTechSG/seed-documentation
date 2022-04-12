@@ -15,7 +15,7 @@ Raise an incident support request with your respective [SGTS service or product]
 >- To troubleshoot connectivity issues for GCC 2.0 CMP or SGTS services, [Generate HAR file](#generate-har-file) and attach it to the service request.
 
 
-## Support channels
+## Support Channels
 
 - [TechPass](https://form.gov.sg/#!/5f69797d0666cb0011cc59da)
 - [SHIP-HATS service desk](https://jira.ship.gov.sg/servicedesk/customer/portal/11)
@@ -37,18 +37,22 @@ Raise an incident support request with your respective [SGTS service or product]
 <details>
   <summary>&nbsp;&nbsp;Windows</summary>
 
-`C:\Program Files\Cloudflare\Cloudflare WARP\warp-diag.exe`
+  ```
+  C:\Program Files\Cloudflare\Cloudflare WARP\warp-diag.exe
+
+  ```
 
   </details>
 
  <details>
  <summary>&nbsp;&nbsp;macOS</summary>
 
-```
+ ```
 /Applications/Cloudflare\ WARP.app/Contents/Resources/warp-diag
+
 ```
 
- </details>
+</details>
 
 Logs and diagnostic information captured by Cloudflare WARP will be saved as a zip file on your Desktop.
 
