@@ -37,7 +37,10 @@ Raise an incident support request with your respective [SGTS service or product]
 <details>
   <summary>&nbsp;&nbsp;Windows</summary>
 
-`C:\Program Files\Cloudflare\Cloudflare WARP\warp-diag.exe`
+```
+C:\Program Files\Cloudflare\Cloudflare WARP\warp-diag.exe
+
+```
 
   </details>
 
@@ -46,6 +49,7 @@ Raise an incident support request with your respective [SGTS service or product]
 
 ```
 /Applications/Cloudflare\ WARP.app/Contents/Resources/warp-diag
+
 ```
 
  </details>
