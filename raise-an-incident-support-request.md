@@ -44,10 +44,9 @@ Raise an incident support request with your respective [SGTS service or product]
  <details>
  <summary>&nbsp;&nbsp;macOS</summary>
 
- ```
- /Applications/Cloudflare\ WARP.app/Contents/Resources/warp-diag
- 
- ```
+```
+/Applications/Cloudflare\ WARP.app/Contents/Resources/warp-diag
+```
 
  </details>
 
