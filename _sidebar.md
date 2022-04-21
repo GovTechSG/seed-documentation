@@ -1,11 +1,16 @@
 * [Prerequisites](prerequisites-for-onboarding)
+* [Onboard device to SEED](onboard-device-to-seed)
+* [Post onboarding instructions](post-onboarding-instructions)
+* [Post onboarding verification for GCC 1.0 users](seed-post-onboarding-verification-for-gcc-1.0)
+* [Offboard device from SEED](offboard-device-from-seed)
 * macOS users
   * [Onboard](seed-onboarding-instructions-for-macos)
+  * [Post onboarding instructions](post-onboarding-instructions-for-macos)
   * [Offboard](seed-offboarding-instructions-for-macos)
 * Windows users  
   * [Onboard](seed-onboarding-instructions-windows)
+  * [Post onboarding instructions](post-onboarding-instructions-for-windows)
   * [Offboard](seed-offboarding-instructions-for-windows)
-* [SEED post-onboarding verification for GCC 1.0](seed-post-onboarding-verification-for-gcc-1.0)
 * [Best Practices](best-practices)
 * [Glossary](term-definitions)
 * FAQ

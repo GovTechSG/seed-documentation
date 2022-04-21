@@ -11,6 +11,12 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@100;300;400;700;900&display=swap">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/fontawesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/solid.min.css">
+  <style>
+  :root {
+    --docsifytabs-border-color: #ededed;
+    --docsifytabs-tab-highlight-color: purple;
+  }
+</style>
 </head>
 <body>
   <div id="app"></div>
@@ -21,8 +27,29 @@
     homepage: "README.md",
     loadSidebar: true,
   }
+  window.$docsify = {
+    name: '',
+    repo: '',
+    homepage: "README.md",
+    loadSidebar: true,
+  // ...
+  tabs: {
+    persist    : true,      // default
+    sync       : true,      // default
+    theme      : 'classic', // default
+    tabComments: true,      // default
+    tabHeadings: true       // default
+  }
+};
+
  </script>
   <!-- Docsify v4 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+<!--  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>-->
+<!-- docsify (latest v4.x.x)-->
+<script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+
+<!-- docsify-tabs (latest v1.x.x) -->
+<script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+
 </body>
 </html>
