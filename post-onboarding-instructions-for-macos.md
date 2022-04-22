@@ -1,4 +1,4 @@
-# Post onboarding instructions for macOS users
+<!--# Post onboarding instructions for macOS users
 
 
 <details>
@@ -23,7 +23,7 @@
        - Tanium Client
        - Microsoft Intune Agent
        - Microsoft Defender
-       - Microsoft Defender ATP Security Extension <!--Microsoft Defenders Endpoint Security Extension-->
+       - Microsoft Defender ATP Security Extension <!--Microsoft Defenders Endpoint Security Extension-
 
 
   ?>  If any of the listed application is missing, please refer to [Common onboarding issues for macOS users](faqs/common-issues-while-onboarding-using-macos).
@@ -78,3 +78,4 @@
   ?>  If you need to connect to a different VPN, disconnect and quit from the WARP client.
 
 </details>
+-->

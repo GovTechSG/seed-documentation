@@ -1,4 +1,4 @@
-# SEED offboarding guide for Windows users
+<!--# SEED offboarding guide for Windows users
 
 This section guides existing SEED users to offboard from it. The offboarding journey has the following steps:
 
