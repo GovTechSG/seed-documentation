@@ -1,4 +1,4 @@
-# Common issues while enrolling in to Microsoft Intune
+# Common issues while enrolling in Microsoft Intune
 
   <details>
   <summary>1. While onboarding to Microsoft Intune, I get an error message, "Could not download the identity profile from the Encrypted Profile Service. The credentials within the Device Enrolment profile may have expired."</summary>
