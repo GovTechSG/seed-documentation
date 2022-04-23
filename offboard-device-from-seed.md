@@ -1,13 +1,13 @@
 # Offboard your device from SEED
 
-This page tells you how to onboard your device to SEED.
+This page tells you how to offboard your device from SEED.
 
 <!-- tabs:start -->
 
 #### **macOS**
 
 <details>
-  <summary>a. Remove your device from Microsoft Intune</summary><br>
+  <summary>a. Remove your device from Microsoft Intune</summary>
 
   1. Open the **Company Portal** application and click **Sign in**.
 
@@ -32,7 +32,7 @@ This page tells you how to onboard your device to SEED.
 </details>
 
 <details>
-  <summary>b. Remove Tanium Client</summary><br>
+  <summary>b. Remove Tanium Client</summary>
 
   1. Open the **Terminal** app and run the following commands:
 
@@ -60,7 +60,7 @@ This page tells you how to onboard your device to SEED.
 </details>
 
 <details>
-  <summary>c. Remove Cloudflare WARP client</summary><br>
+  <summary>c. Remove Cloudflare WARP client</summary>
 
   Complete the following steps to remove Cloudflare WARP Client:
 
@@ -73,44 +73,35 @@ This page tells you how to onboard your device to SEED.
 
   </details>
 
-  <details id="removeMicrosoftDefenderATPoffBoarding">
-  <summary>d. Remove Microsoft Defender for Endpoint</summary><br>
+  <details>
+  <summary>d. Remove Microsoft Defender for Endpoint</summary>
 
-  To remove Microsoft Defender for Endpoint from your device, first you need to offboard from it using the offboarding script.
+To remove Microsoft Defender for Endpoint from your device, offboard your device from it using the offboarding script.
 
-  Check if you already have the correct offboarding script and if you still have the script, check the expiry date to see if it is still valid.
+1. Open **Terminal** and run `mdatp health`.
+2. Note down the displayed **org_id**.
+3. Identify the organisation of the Defender or the antivirus on your device.
 
- ?>  The expiry date is indicated on the file name. For example, *MicrosoftDefenderATPOffboardingMacOs_valid_until_2021-11-04.py*
+?> Refer to [Organisation IDs and organisation mapping](faqs/organisation-ids-and-mapping.md) for identifying your Defender or antivirus organisation.
 
-  If the script has already expired, choose one of the below options as appropriate:
+4. Based on the organisation, choose the required step from the following:
+  - If your organisation id corresponds to WOG, contact [GCC2.0 team](https://form.gov.sg/#!/6099efa30d6a0a0012dff367), to get the offboarding script for macOS.
+  - If your organisation id corresponds to TechPass, contact your Defender administrator to get the offboarding scripts for your operating system for macOS.
+  <!--- If your organisation id corresponds to Hive, contact [GDS team](mailto:gds_den@tech.gov.sg) to get the Hive offboarding script for macOS and proceed to step 5.
+  - For all other organisation ids, contact your current MDM administrator to unerol your device from the respective antivirus.-->
 
-  - If you are a public officer, raise a [Support Request](https://form.gov.sg/6099efa30d6a0a0012dff367) to get the offboarding script.
+?>  Check if the script that you received has not yet expired. The expiry date is indicated on the file name. For example, *WindowsDefenderATPOffboardingScript_valid_until_2021-11-10.py*
 
-  - If you are a vendor, contact your Defender administrator to [get the offboarding script](get-offboarding-scripts-for-microsoft-defender-atp).
+5. Save the offboarding script to the **Downloads** folder.
+6. Go to **Terminal** and run the following command:
+  ```
+  sudo python ~/Downloads/name_of_offboarding_script.py
+  ```
+?> Name of the python file in this command is only an example. When you run the command, specify the file name of the offboarding script provided to you.
 
-  1. Open **Terminal** and run `mdatp health`.
-  2. Note down the displayed **org_id**.
-
-  ?> If this command does not return anything, it confirms that your device does not have Microsoft Defender. Proceed to onboard your device to SEED.
-
-  3. Refer to [Organisation IDs and organisation mapping](faqs/organisation-ids-and-mapping) and based on the **org_id**, identify the organisation of the Defender or the antivirus on your device.
-  4. Based on the organisation, choose the required step from the following:
-  - If your organisation id corresponds to organisations such as WOG or TechPass, it indicates that **Microsoft Defender** has been configured correctly and ignore the rest of this section.
-  - If your organisation id corresponds to Hive, it indicates that your device is still enrolled with Hive. Contact [GDS team](mailto:gds_den@tech.gov.sg) to to get the Hive offboarding script and proceed to step 5.
-  - For all other organisation ids, contact your organisation's MDM administrator or Defender administrator to get the respective offboarding script and proceed to step 5.
-
-?> Refer to [Get the offboarding scripts for Microsoft Defender ](get-offboarding-scripts-for-microsoft-defender-atp).
-
-  5. Save the offboarding script to the **Downloads** folder.
-  6. Go to **Terminal** and run the following command:
-    ```
-    sudo python ~/Downloads/name_of_offboarding_script.py
-    ```
-  ?> Name of the python file in this command is only an example. When you run the command, specify the file name of the offboarding script provided to you.
-
-  7. Go back to the **Finder** icon in the **Dock**.
-  8. Choose **Applications** and search for **Microsoft Defender for Endpoint.app**.
-  9. Drag the app to the Bin, or select the app and choose **File** > **Move to Bin**.
+7. Go back to the **Finder** icon in the **Dock**.
+8. Choose **Applications** and search for **Microsoft Defender for Endpoint.app**.
+9. Drag the app to the Bin, or select the app and choose **File** > **Move to Bin**.
 
 
 </details>
@@ -136,39 +127,45 @@ This page tells you how to onboard your device to SEED.
 </details>
 
 <details>
-<summary>c. Remove the Cloudflare WARP client</summary><br>
+<summary>c. Remove the Cloudflare WARP client</summary>
 
 1. Click **Start** icon on the taskbar.
 2. Go to **Settings** > **Apps**.
 3. Search for **Cloudflare WARP** and then select **Uninstall**.
 </details>
+
 <details>
-<summary>d. Offboard from and uninstall Microsoft Defender for Endpoint</summary><br>
-To remove Microsoft Defender for Endpoint from your device, first you need to offboard from it using the offboarding script.
+<summary>d. Remove Microsoft Defender for Endpoint</summary>
 
-Check if the script that you received earlier has not yet expired.
+To remove Microsoft Defender for Endpoint from your device, offboard the device from it using the offboarding script.
 
-?>  The expiry date is indicated on the file name.
+  1. In the search box on the taskbar, type **regedit**.
+  2. Choose **Registry Editor** from the results and click **Run as administrator**.
+  3. In the **Registry Editor**, go to **Computer** > **HKEY_LOCAL_MACHINE** > **SOFTWARE** > **Microsoft** > **Windows Advanced Threat Protection** > **Status**. The OrgId of the Defender or antivirus running on your device will be displayed here.
+  4. Identify the organisation of the Defender or the antivirus on your device.
 
-For example, *WindowsDefenderATPOffboardingScript_valid_until_2021-11-10.cmd*
+  ?> Refer to [Organisation IDs and organisation mapping](faqs/organisation-ids-and-mapping) for identifying your Defender or antivirus organisation.
 
-If the script has already expired, choose one of the below options as appropriate:
+  5. Based on the organisation, choose the required step from the following:
+    - If your organisation id corresponds to WOG, contact [GCC2.0 team](https://form.gov.sg/#!/6099efa30d6a0a0012dff367), to get the offboarding script for Windows.
+    - If your organisation id corresponds to TechPass, contact your Defender administrator to get the offboarding scripts for your operating system for Windows.
+  <!--  - If your organisation id corresponds to Hive, contact [GDS team](mailto:gds_den@tech.gov.sg) to get the Hive offboarding script for Windows and proceed to step 6.
+    - For all other organisation ids, contact your current MDM administrator to unerol your device from the respective antivirus.-->
 
-- If you are a public officer, raise a [Support Request](https://form.gov.sg/6099efa30d6a0a0012dff367) to get the offboarding script.
+    ?>  Check if the script that you received has not yet expired. The expiry date is indicated on the file name. For example, *WindowsDefenderATPOffboardingScript_valid_until_2021-11-10.cmd*
 
-- If you are a vendor, contact your Defender administrator to [get the offboarding script](get-offboarding-scripts-for-microsoft-defender-atp).
 
-Once you have the valid offboarding script, do the following to remove Microsoft Defender for Endpoint:
-1. Save the offboarding script in your **Downloads** folder.
-2. Go to **Start** and type **cmd**.
-3. Right-click on **Command Prompt** and select **Run as administrator**.
-4. If prompted, enter your Windows password.
-5. Run the following commands:
-  ```
-  cd "%USERPROFILE%\Downloads\"
+   6. Save the offboarding script in your **Downloads** folder.
+   7. Go to **Start** and type **cmd**.
+   8. Right-click on **Command Prompt** and select **Run as administrator**.
+   9. If prompted, enter your Windows password.
+   10. Run the following commands:
+     ```
+     cd "%USERPROFILE%\Downloads\"
 
-  .\name\_of\_offboarding\_script.cmd
-  ```
+     .\name_of_offboarding_script.cmd
+     ```
+  ?> Name of the .cmd file mentioned in this command is only an example. When you run the command, specify the file name of the offboarding script provided to you.  
 
 </details>
 

@@ -36,7 +36,7 @@ GCC2 Tanium and Cloudflare WARP clients are now installed on your device. Micros
 Now your device is enrolled on Microsoft Intune.
 </details>
 
-<details><summary>b. Register Microsoft Intune device ID for the Windows device</summary>
+<details><summary>b. submit Microsoft Intune device ID for the Windows device</summary>
 
 ?> This step is applicable only for public officers.
 
@@ -54,7 +54,7 @@ Write-Output $output;
 ```
 2. Take note of the Intune device ID.
 3. Using your GSIB device, go to your profile page on the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
-4. Click **Onboard device to SEED** and follow the on-screen instructions to register this Intune device ID.
+4. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune device ID.
 
 </details>
 

@@ -65,7 +65,7 @@ This sections explains how public officers and vendors can onboard their macOS d
 </details>
 
 <details>
-<summary>b. Register your Microsoft Intune device ID for macOS device</summary>
+<summary>b. submit your Microsoft Intune device ID for macOS device</summary>
 
 ?> This step is applicable only for public officers.  
 
@@ -82,7 +82,7 @@ fi
 ```
 2. Take note of the Intune device ID.
 3. Using your GSIB device, go to your profile page on the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
-4. Click **Onboard device to SEED** and follow the on-screen instructions to register this Intune device ID.
+4. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune device ID.
 
 </details>
 

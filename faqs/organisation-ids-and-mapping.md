@@ -26,5 +26,7 @@ The following table provides some of the possible organisation ids and their nam
 
 
 **Related topics**
-- [Pre onboarding instructions for macOS users](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/seed-pre-onboarding-clean-up-instructions-for-macos)
-- [Pre onboarding instructions for Windows users](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/seed-pre-onboarding-clean-up-instructions-for-windows)
+- [Prerequisites for onboarding device to SEED](prerequisites-for-onboarding)
+- [Post onboarding instructions](post-onboarding-instructions)
+- [Ensure Microsoft Defender is configured correctly for your OS](verify-microsoft-defender-is-configured-correctly-for-your-os)
+- [Common issues while enrolling in to Microsoft Intune](faqs/common-issues-while-enrolling-with-microsoft-endpoint-manager)

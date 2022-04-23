@@ -70,9 +70,11 @@ This page tells you how to onboard your device to SEED. Before onboarding, make 
 </details>
 
 <details>
-<summary>b. If you are a public officer, register the Microsoft Intune device ID for your macOS device</summary>
+<summary>b. If you are a public officer, submit the Microsoft Intune device ID for your macOS device</summary>
 
 This step is applicable only for public officers to get the required applications and device configurations on their device.
+
+?> If you are a public officer; your TechPass ID will be your official email address such as *your_name<span>@</span>agency.gov.sg* or *your_name<span>@</span>tech.gov.sg*. Ignore this step if your TechPass ID format is *your_name<span>@</span>techpass.gov.sg*.
 
 **To get the Intune device ID**:
 
@@ -89,7 +91,7 @@ fi
 ```
 2. Take note of the Intune device ID.
 3. Using your GSIB device, go to your profile page on the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
-4. Click **Onboard device to SEED** and follow the on-screen instructions to register this Intune device ID. Intune installs the required softwares and configurations to complete your device onboarding.
+4. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune device ID. Intune installs the required softwares and configurations to complete your device onboarding.
 
 </details>
 
@@ -137,27 +139,34 @@ GCC2 Tanium and Cloudflare WARP clients are now installed on your device. Micros
 Now your device is enrolled in Microsoft Intune. If you are a vendor or contractor, all the required applications and device configurations are available on your device.
 </details>
 
-<details><summary>b. If you are a public officer, register the Microsoft Intune device ID for your Windows device</summary>
+<details><summary>b. If you are a public officer, submit the Microsoft Intune device ID for your Windows device</summary>
 
 This step is applicable only for public officers to get the required applications and device configurations on their device.
 
+?> If you are a public officer; your TechPass ID will be your official email address such as *your_name<span>@</span>agency.gov.sg* or *your_name<span>@</span>tech.gov.sg*. Ignore this step if your TechPass ID format is *your_name<span>@</span>techpass.gov.sg*.
+
 **To get the Intune device ID**:
 
-1. Open **Command Prompt** and run the following commands:
+1. Open **PowerShell** and run the following commands:
 ```
-$certs = (Get-ChildItem -path Cert:\CurrentUser\My);
-$output = "null";
-foreach ($cert in $certs) {
-    if ($cert.Issuer -eq "CN=Microsoft Intune MDM Device CA") {
-        $output = $cert.Subject.Split("=")[1];
-        break;
+$rootKey = [Microsoft.Win32.RegistryKey]::OpenBaseKey(
+    [Microsoft.Win32.RegistryHive]::LocalMachine,
+    [Microsoft.Win32.RegistryView]::Registry64
+)
+$enrollmentsKey = $rootKey.OpenSubKey("Software\Microsoft\Enrollments")
+$intune_id = "Intune ID not found"
+foreach ($name in $enrollmentsKey.GetSubKeyNames()) {
+    $enrollmentIdKey = $enrollmentsKey.OpenSubKey($name)
+    if ($enrollmentIdKey.GetValue("ProviderID") -ieq "MS DM Server") {
+        $intune_id = $enrollmentIdKey.OpenSubKey("DMClient\MS DM Server").GetValue("EntDMID", "Intune ID not found")
+        break
     }
 }
-Write-Output $output;
+Write-Output $intune_id
 ```
 2. Take note of the Intune device ID.
 3. Using your GSIB device, go to your profile page on the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
-4. Click **Onboard device to SEED** and follow the on-screen instructions to register this Intune device ID.  Intune installs the required softwares and configurations to complete your device onboarding.
+4. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune device ID.  Intune installs the required softwares and configurations to complete your device onboarding.
 
 </details>
 

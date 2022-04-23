@@ -5,7 +5,7 @@ Take note of the following before you proceed with the SEED onboarding:
 
   - You can onboard only a non-GSIB or a non-DWP device to SEED.
 
-  - If you are a public officer, after you enrol in Intune, you need to register your Intune device ID to complete the SEED onboarding for your device.
+  - If you are a public officer, after you enrol in Intune, you need to submit your Intune device ID to complete the SEED onboarding for your device.
 
   - After you complete the onboarding process, you will receive an email confirming your successful onboarding to SEED and your device will be automatically renamed and restarted.
 
@@ -35,7 +35,7 @@ Things to ensure a successful onboarding:
 
 #### **Public officers**
 
-1. [Sign up for a TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines?id=step-1-sign-up-for-techpass) and request for SEED provisioning.
+1. [Sign up for a TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines?id=step-1-sign-up-for-techpass) and request SEED provisioning.
 2. [Accept invitation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines?id=step-2-accept-invitation).
 3. [Set up security verification for your WOG account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines?id=step-3-set-up-security-verification-for-your-wog-account).
 4. [Onboard to TechPass](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines?id=step-4-onboard-techpass).
@@ -51,7 +51,9 @@ Things to ensure a successful onboarding:
 <!-- tabs:end -->
 
 ### SEED provisioning
-Once SEED is provisioned to you, you will receive an email with instructions on how to onboard your device to SEED.
+If you had requested SEED provisioning while signing up for your TechPass account, SEED will be provisioned to you and you will receive an email with instructions on how to onboard your device to SEED.
+
+?> If you are a public officer, who already has a TechPass account and needs SEED provisioning, go to your profile page on the [TechPass portal](http://portal.techpass.gov.sg/), request SEED provisioning and follow the on-screen instructions. For more information, refer to [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-to-seed).
 
 ### Supported operating systems and devices for SEED
 - A non-GSIB or a non-DWP device that runs on Windows 10 Pro/Enterprise versions or on macOS Big Sur 11 and later versions.
