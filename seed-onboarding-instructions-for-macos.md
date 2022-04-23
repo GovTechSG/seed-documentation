@@ -1,19 +1,15 @@
 # SEED onboarding guide for macOS users
 
-This sections explains how public officers and vendors can onboard to SEED using their macOS device. Before onboarding, take a look at the [prerequisites for SEED onboarding](prerequisites-for-onboarding).
+This sections explains how public officers and vendors can onboard their macOS device to SEED. Before onboarding, make sure that you have completed the [prerequisites for SEED onboarding](prerequisites-for-onboarding).
 
 
 <div class="warn">
 <ul>
-<li>Based on your device settings, while onboarding, you may be prompted to <strong>restart your device</strong> a couple of times and <strong>reset device password</strong>.</li>
+<li>Based on your device settings, while onboarding, you may be prompted to restart your device a couple of times and reset device password.</li>
 <li>For a smooth onboarding journey, make sure to link your Apple ID to your device.</li>
-<li>Make sure to have your recovery keys ready in the event of you facing issues with resetting your password or logging in to your device.</li>
+<li>Keep your recovery keys ready in case you face issues in resetting your password or logging in to your device.</li>
 </ul>
 </div>
-
-
-*To onboard your Mac device to SEED* :
-
 
 <details>
   <summary>a. Set up Microsoft Intune to get the required applications and device configuration</summary><br>
@@ -46,12 +42,10 @@ This sections explains how public officers and vendors can onboard to SEED using
 
   <kbd>![profile-1](images/onboarding-for-macos/profile-1.png)</kbd>
 
-  Tip:
-   - If **Profiles** page is not displayed, go to the **Apple** menu > **System Preferences** > **Profiles**.
-
-   - If **Management Profile** is not displayed, then from the left side menu, select **Management Profile**.
-
-   - If profile installation fails, refer to [Common onboarding issues for macOS users](faqs/common-issues-while-onboarding-using-macos).
+  >**Tip**:
+   >- If **Profiles** page is not displayed, go to the **Apple** menu > **System Preferences** > **Profiles**.
+   >- If **Management Profile** is not displayed, then from the left side menu, select **Management Profile**.
+   >- If profile installation fails, refer to [Common onboarding issues for macOS users](faqs/common-issues-while-onboarding-using-macos).
 
   8. Click **Install**.
 
@@ -71,16 +65,28 @@ This sections explains how public officers and vendors can onboard to SEED using
 </details>
 
 <details>
-  <summary>b. Enable System Integrity Protection (SIP) to prevent unauthorised code executions</summary><br>
+<summary>b. submit your Microsoft Intune device ID for macOS device</summary>
 
-  - To verify if SIP is enabled, open **Terminal** and run the command `csrutil status`.
+?> This step is applicable only for public officers.  
 
+1. Open **Terminal** and run the following commands:
 
-   If the response on your **Terminal** is `System Integrity Protection status: enabled`, it indicates that SIP is already enabled on your Mac.
-
-  Note:  If it is currently disabled, run the command `csrutil enable` on the **Terminal** and restart your device before proceeding further.
+```
+cn=”$(security find-certificate –a /Library/Keychains/System.keychain | grep IntuneMDMAgent |grep alis | cut –d ‘”’ -f 4)”
+if [ -z “$cn” ]
+then
+    echo “Intune device ID not found”
+else
+    echo “${cn:15}”
+fi
+```
+2. Take note of the Intune device ID.
+3. Using your GSIB device, go to your profile page on the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
+4. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune device ID.
 
 </details>
+
+<!--
 <details>
   <summary>c. Encrypt your hard disk to protect your data at rest</summary><br>
 
@@ -106,6 +112,7 @@ This sections explains how public officers and vendors can onboard to SEED using
 
    ?>  Save this key on a different device.
 
+
 </details>
 <details>
   <summary>d. Enable Full Disk Access(FDA) for the applications installed for SEED</summary><br>
@@ -129,7 +136,7 @@ This sections explains how public officers and vendors can onboard to SEED using
        - Tanium Client
        - Microsoft Intune Agent
        - Microsoft Defender
-       - Microsoft Defender ATP Security Extension <!--Microsoft Defenders Endpoint Security Extension-->
+       - Microsoft Defender ATP Security Extension <!--Microsoft Defenders Endpoint Security Extension
 
 
   ?>  If any of the listed application is missing, please refer to [Common onboarding issues for macOS users](faqs/common-issues-while-onboarding-using-macos).
@@ -183,9 +190,9 @@ This sections explains how public officers and vendors can onboard to SEED using
 
   ?>  If you need to connect to a different VPN, disconnect and quit from the WARP client.
 
-</details>
+</details>-->
 
-If your onboarding is successful, within an hour, you will receive a successfully onboarded email to  your organisational email address.  
+If your onboarding is successful, within an hour, you will receive a successfully onboarded email to  your organisational email address.
 
 <!--<div class="warn">
   <ul>

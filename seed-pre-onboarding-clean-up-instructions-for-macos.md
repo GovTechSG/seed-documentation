@@ -1,4 +1,4 @@
-# Remove existing softwares for macOS
+<!--# Remove existing softwares for macOS
 Remove the following software solutions from your device before proceeding to onboard to SEED:
 
 - current MDM software
@@ -33,7 +33,7 @@ This section explains how public officers and vendors can remove those softwares
   <li>If you see Microsoft Intune in the settings, it indicates that **Microsoft Intune** is your MDM. Proceed to the next step <strong>b. Unenrol from Microsoft Intune</strong>.</li>
   <li>To unenrol your device from MDM softwares other than Microsoft Intune, contact your organisation's IT administrator.</li>
   </ul>
-  </div>-->
+  </div>
 
 </details>
 <details>

@@ -1,4 +1,4 @@
-# Post-onboarding verification for GCC 1.0
+# Post onboarding verification for GCC 1.0
 This article is for GCC 1.0 users who have onboarded their non-GSIB device to SEED. When your device is onboarded to SEED it becomes a Government Managed Device (GMD).
 
 Objective of this document is to explain how to verify if your device onboarding to SEED was successful and if you are still able to access your GCC 1.0 resources.
@@ -6,7 +6,7 @@ Objective of this document is to explain how to verify if your device onboarding
 *To verify SEED onboarding for GCC 1.0 users*:
 1.	As only one VPN connection can be active at a time, go to the Cloudflare WARP icon on your GMD and toggle the **Connected** switch to **Paused**.
 
-![cloudflare-switch](images/gcc-1-users/pause-connection.png ':size=75%')
+<kbd>![cloudflare-switch](images/gcc-1-users/pause-connection.png ':size=75%')</kbd>
 
 ?> Cloudflare will automatically reconnect after three hours.
 
@@ -46,3 +46,7 @@ Objective of this document is to explain how to verify if your device onboarding
 You will be directed to your DEEP dashboard.
 
 ![](images/gcc-1-users/deep-dashboard.png)
+
+### Related topics
+
+[Post onboarding instructions](post-onboarding-instructions).

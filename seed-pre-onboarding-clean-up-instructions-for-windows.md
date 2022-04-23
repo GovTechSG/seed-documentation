@@ -1,4 +1,4 @@
-# Remove existing softwares for Windows
+<!--# Remove existing softwares for Windows
 
 Remove the following software solutions from your device before proceeding to onboard to SEED:
 

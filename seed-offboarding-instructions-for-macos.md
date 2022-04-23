@@ -1,4 +1,4 @@
-# SEED offboarding guide for macOS users
+<!--# SEED offboarding instructions for macOS users
 
 This section guides existing SEED users to offboard from it. The offboarding journey has the following steps:
 
@@ -11,7 +11,7 @@ This section guides existing SEED users to offboard from it. The offboarding jou
 
   2. Log in using your TechPass account credentials.
      <!--- If you are a public officer, use your [WOG ID](terms-definitions).
-     - If you are a vendor, use your [TechPass ID](terms-definitions).-->
+     - If you are a vendor, use your [TechPass ID](terms-definitions).
 
      <kbd>![log-in-to-gcc](images/onboarding-for-macos/log-in-to-gcc.png)</kbd>
 
@@ -110,3 +110,4 @@ This section guides existing SEED users to offboard from it. The offboarding jou
 
 
 </details>
+-->
