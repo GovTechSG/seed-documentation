@@ -3,17 +3,9 @@
 * [Post onboarding instructions](post-onboarding-instructions)
 * [Post onboarding verification for GCC 1.0 users](seed-post-onboarding-verification-for-gcc-1.0)
 * [Offboard device from SEED](offboard-device-from-seed)
-* macOS users
-  * [Onboard](seed-onboarding-instructions-for-macos)
-  * [Post onboarding instructions](post-onboarding-instructions-for-macos)
-  * [Offboard](seed-offboarding-instructions-for-macos)
-* Windows users  
-  * [Onboard](seed-onboarding-instructions-windows)
-  * [Post onboarding instructions](post-onboarding-instructions-for-windows)
-  * [Offboard](seed-offboarding-instructions-for-windows)
 * [Best Practices](best-practices)
 * [Glossary](term-definitions)
-* FAQ
+* Support
   * [General FAQ](faqs/seed-faq-general)
   * [Onboarding issues for macOS users](faqs/common-issues-while-onboarding-using-macos)
   * [Issues with Microsoft Intune](faqs/common-issues-while-enrolling-with-microsoft-endpoint-manager)
