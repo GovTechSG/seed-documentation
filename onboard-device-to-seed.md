@@ -78,7 +78,7 @@ This step is applicable only for public officers to get the required application
 
 **To get the Intune device ID**:
 
-1. Open **Terminal** and run the following commands by copying and pasting this entire code block:
+1. Open **Terminal** and run the following commands:
 
 ```
 intune_id="$(security find-certificate -a /Library/Keychains/System.keychain | egrep -B 4 '\"issu\"<blob>=.+MICROSOFT INTUNE MDM DEVICE CA' | grep alis | cut -d '"' -f 4)"
@@ -147,7 +147,7 @@ This step is applicable only for public officers to get the required application
 
 **To get the Intune device ID**:
 
-1. Open **PowerShell** and run the following commands by copying and pasting this entire code block:
+1. Open **PowerShell** and run the following commands:
 ```
 $rootKey = [Microsoft.Win32.RegistryKey]::OpenBaseKey(
     [Microsoft.Win32.RegistryHive]::LocalMachine,
