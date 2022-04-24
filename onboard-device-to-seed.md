@@ -81,15 +81,15 @@ This step is applicable only for public officers to get the required application
 1. Open **Terminal** and run the following commands:
 
 ```
-cn=”$(security find-certificate –a /Library/Keychains/System.keychain | grep IntuneMDMAgent |grep alis | cut –d ‘”’ -f 4)”
-if [ -z “$cn” ]
+intune_id="$(security find-certificate -a /Library/Keychains/System.keychain | egrep -B 4 '\"issu\"<blob>=.+MICROSOFT INTUNE MDM DEVICE CA' | grep alis | cut -d '"' -f 4)"
+if [ -z "$intune_id" ]
 then
-    echo “Intune device ID not found”
+    echo "\nIntune ID not found\n"
 else
-    echo “${cn:15}”
+    echo "\n$intune_id\n"
 fi
 ```
-2. Take note of the Intune device ID.
+2. Take note of the Intune device ID that will be displayed on the Terminal window.
 3. Using your GSIB device, go to your profile page on the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
 4. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune device ID. Intune installs the required softwares and configurations to complete your device onboarding.
 
@@ -164,7 +164,7 @@ foreach ($name in $enrollmentsKey.GetSubKeyNames()) {
 }
 Write-Output $intune_id
 ```
-2. Take note of the Intune device ID.
+2. Take note of the Intune device ID that will be displayed on the Powershell window.
 3. Using your GSIB device, go to your profile page on the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
 4. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune device ID.  Intune installs the required softwares and configurations to complete your device onboarding.
 
