@@ -89,7 +89,7 @@ else
     echo "\n$intune_id\n"
 fi
 ```
-2. Take note of the Intune device ID that will be printed in the Terminal window.
+2. Take note of the Intune device ID that will be displayed on the Terminal window.
 3. Using your GSIB device, go to your profile page on the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
 4. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune device ID. Intune installs the required softwares and configurations to complete your device onboarding.
 
@@ -164,7 +164,7 @@ foreach ($name in $enrollmentsKey.GetSubKeyNames()) {
 }
 Write-Output $intune_id
 ```
-2. Take note of the Intune device ID that will be printed in the Powershell window.
+2. Take note of the Intune device ID that will be displayed on the Powershell window.
 3. Using your GSIB device, go to your profile page on the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
 4. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune device ID.  Intune installs the required softwares and configurations to complete your device onboarding.
 
