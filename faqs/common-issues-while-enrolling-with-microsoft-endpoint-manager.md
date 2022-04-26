@@ -9,9 +9,9 @@
 
   The SEED team can verify if your device was previously enrolled to Microsoft Intune under a different user. If this is confirmed, choose on the following to offboard it from Microsoft Intune and then retry onboarding your device to SEED.
 
-  - If you are a Windows user, refer to [SEED offboarding guide for Windows users][seed-offboarding-steps-for-windows].
+  - If you are a Windows user, refer to [SEED offboarding steps](../offboard-device-from-seed.md).
 
-  - If you are a macOS user, go to **System Preferences**  and locate the old Management Profile. Refer to [SEED offboarding guide for macOS users][seed-offboarding-steps-for-macos].
+  - If you are a macOS user, go to **System Preferences**  and locate the old Management Profile. Refer to [SEED offboarding steps](../offboard-device-from-seed.md).
 
   </details>
   <hr />
