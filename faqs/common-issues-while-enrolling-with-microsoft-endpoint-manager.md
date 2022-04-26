@@ -110,7 +110,7 @@ Possible reasons could be:
 
 Before raising a support request, confirm the following:
 
-- [Verify if Microsoft Defender is configured correctly on your device](verify-microsoft-defender-is-configured-correctly-for-your-os).
+- [Verify if Microsoft Defender is configured correctly on your device][verify-defender-configuration].
 
 - Check if Tanium and Cloudflare are installed. These applications will be automatically installed while enrolling your device to SEED. If they are not installed, raise a [Support Request][raise-support-request].
 
@@ -120,7 +120,7 @@ Before raising a support request, confirm the following:
 <details>
 <summary>11. What should I do if my device does not get renamed automatically after onboarding to SEED?</summary>
 
-This can happen if Defender or any other antivirus already installed on the device was not completely removed before onboarding to SEED. To confirm this, [Verify if Microsoft Defender is configured correctly on your device](verify-microsoft-defender-is-configured-correctly-for-your-os).
+This can happen if Defender or any other antivirus already installed on the device was not completely removed before onboarding to SEED. To confirm this, [Verify if Microsoft Defender is configured correctly on your device][verify-defender-configuration].
 
 </details>
 <hr />
@@ -130,7 +130,7 @@ This can happen if Defender or any other antivirus already installed on the devi
 
 This can happen if Defender or any other antivirus solution previously installed on the device was not completely removed before onboarding to SEED.
 
-To confirm this, [Verify if Microsoft Defender is configured correctly on your device](verify-microsoft-defender-is-configured-correctly-for-your-os).
+To confirm this, [Verify if Microsoft Defender is configured correctly on your device][verify-defender-configuration].
 
 </details>
 <hr />
@@ -144,8 +144,8 @@ This is a known issue with Microsoft Defender version 101.54.16. To resolve this
 <hr />
 
 
-[seed-offboarding-steps-for-windows]: ../seed-offboarding-instructions-for-windows.md
-[seed-offboarding-steps-for-macos]: ../seed-offboarding-instructions-for-macos.md
-[verify-defender-configuration]: ../verify-microsoft-defender-is-configured-correctly-for-your-os.md
+[seed-offboarding-steps-for-windows]: seed-offboarding-instructions-for-windows.md
+[seed-offboarding-steps-for-macos]: seed-offboarding-instructions-for-macos.md
+[verify-defender-configuration]: verify-microsoft-defender-is-configured-correctly-for-your-os.md
 [upgrade-macos]: https://support.apple.com/downloads/macos
 [raise-support-request]: raise-an-incident-support-request.md
