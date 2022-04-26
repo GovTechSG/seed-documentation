@@ -9,9 +9,9 @@
 
   The SEED team can verify if your device was previously enrolled to Microsoft Intune under a different user. If this is confirmed, choose on the following to offboard it from Microsoft Intune and then retry onboarding your device to SEED.
 
-  - If you are a Windows user, refer to [SEED offboarding steps](../offboard-device-from-seed.md).
+  - If you are a Windows user, refer to [SEED offboarding steps][seed-offboarding-steps].
 
-  - If you are a macOS user, go to **System Preferences**  and locate the old Management Profile. Refer to [SEED offboarding steps](../offboard-device-from-seed.md).
+  - If you are a macOS user, go to **System Preferences**  and locate the old Management Profile. Refer to [SEED offboarding steps][seed-offboarding-steps].
 
   </details>
   <hr />
@@ -144,8 +144,7 @@ This is a known issue with Microsoft Defender version 101.54.16. To resolve this
 <hr />
 
 
-[seed-offboarding-steps-for-windows]: seed-offboarding-instructions-for-windows.md
-[seed-offboarding-steps-for-macos]: seed-offboarding-instructions-for-macos.md
+[seed-offboarding-steps]: offboard-device-from-seed.md
 [verify-defender-configuration]: verify-microsoft-defender-is-configured-correctly-for-your-os.md
 [upgrade-macos]: https://support.apple.com/downloads/macos
 [raise-support-request]: raise-an-incident-support-request.md
