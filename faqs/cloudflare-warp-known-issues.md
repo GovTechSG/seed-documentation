@@ -144,7 +144,7 @@ service, raise a [Support Request][raise-support-request].
 
 
 
-[raise-support-request]: ../raise-an-incident-support-request.md
+[raise-support-request]: raise-an-incident-support-request.md
 [install-cloudflare-cert-operating-system]: https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/install-cloudflare-cert/#add-the-certificate-to-your-system
-[config-cli-tools-with-warp]: ../configuration-of-common-developer-cli-tools-with-cloudflare-warp.md
+[config-cli-tools-with-warp]: configuration-of-common-developer-cli-tools-with-cloudflare-warp.md
 [install-cloudflare-cert-applications]: https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/install-cloudflare-cert/#adding-to-applications

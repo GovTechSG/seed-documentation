@@ -49,7 +49,7 @@ Yes, this impacts your SEED onboarding. Before onboarding to SEED, remove your e
 <hr />
 <details><summary>What data is collected by Microsoft Intune?</summary>
 
-To know about the data collected by Microsoft Intune, refer to [https://docs.microsoft.com/en-us/mem/intune/protect/privacy-data-collect](https://docs.microsoft.com/en-us/mem/intune/protect/privacy-data-collect)
+To know about the data collected by Microsoft Intune, refer to [Data collection in Intune](https://docs.microsoft.com/en-us/mem/intune/protect/privacy-data-collect).
 
 </details>
 <hr />
