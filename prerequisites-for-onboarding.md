@@ -35,10 +35,10 @@ Things to ensure a successful onboarding:
 
 #### **Public officers**
 
-1. [Sign up for a TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines?id=step-1-sign-up-for-techpass) and request SEED provisioning.
-2. [Accept invitation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines?id=step-2-accept-invitation).
-3. [Set up security verification for your WOG account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines?id=step-3-set-up-security-verification-for-your-wog-account).
-4. [Onboard to TechPass](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines?id=step-4-onboard-techpass).
+1. [Set up security verification for your WOG account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines?id=step-1-set-up-security-verification-for-your-wog-account)
+1. [Sign up for a TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines?id=step-2-sign-up-for-techpass) and request SEED provisioning.
+1. [Accept invitation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines?id=step-3-accept-invitation).
+1. [Onboard to TechPass](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines?id=step-4-onboard-to-techpass).
 
 #### **Vendors/Contractors**
 
