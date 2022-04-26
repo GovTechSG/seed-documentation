@@ -10,7 +10,7 @@
 3. If **Management Profile** is already an existing profile, select it and remove it by clicking the minus icon at the lower-left corner.
 4. If you are unable to remove Management Profile, uninstall **Company Portal**.
 5. Reinstall [Company Portal](https://go.microsoft.com/fwlink/?linkid=853070).
-6. Retry onboarding your device to SEED from [**step a. Set up Microsoft Intune to get the required applications and device configuration**](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/seed-onboarding-instructions-for-macos).
+6. [Onboard your device to SEED](onboard-device-to-seed).
 
 
 </details>
@@ -47,23 +47,21 @@
 
 <details><summary>4. While enabling FDA, I can't find <strong>Microsoft Defenders Endpoint Security Extension</strong>. Can I proceed with my onboarding?</summary>
 
-Yes, you may proceed with your SEED onboarding and the Microsoft Defenders Endpoint Security Extension should be available within four hours time. If it is still not available after four hours, please raise a [Support Request][raise-support-request] as it is required to ensure the completeness of your onboarding.
+Yes, you may proceed with your SEED onboarding and the Microsoft Defenders Endpoint Security Extension should be available within four hours time. If it is still not available after four hours, please raise a [Support Request](raise-an-incident-support-request) as it is required to ensure the completeness of your onboarding.
 
 </details>
 <hr/>
 
-<details><summary>5. While enabling FileVault or FDA, I am unable to unlock <strong>Security & Privacy</strong> preferences using my current password.</summary>
-
-When your device is enrolled with Microsoft Endpoint Management's Intune, a new password policy comes into effect and this requires you to reset password.  If you enable FileVault or FDA only while onboarding to SEED, reset your password before **step c. Encrypt your hard disk to protect your data at rest** as mentioned on the [SEED onboarding guide for macOS users][seed-onboarding-guide-macos].
+<details><summary>5. How do I reset the password for my macOS device?</summary>
 
 *To reset password while enabling FileVault or FDA* :
 1. Go to the **Apple** menu > **Lock Screen** or use keyboard shortcut **Command+Control+Q** .
 2. Enter your password and press **return**. You will be prompted to reset password.
 3. Reset your password and make sure it meets the following requirements:
-  - Contain at least 12 characters
-  - Not have two consecutive or three sequential characters
-  - Contain at least one number and one alphabetic character
-  - Not be the same as the previous three passwords
+  - should contain at least 12 characters
+  - cannot have two consecutive or three sequential characters
+  - should contain at least one number and one alphabetic character
+  - should not be the same as the previous three passwords
 
 </details>
 <hr />
@@ -72,9 +70,9 @@ When your device is enrolled with Microsoft Endpoint Management's Intune, a new 
 
 This may occur if your new password does not meet the following password requirements:
 
-<li>have at least 12 characters</li>
+<li>should have at least 12 characters</li>
 <li>should not have two consecutive or three sequential characters</li>
-<li>have at least one number and one alphabetic character</li>
+<li>should have at least one number and one alphabetic character</li>
 <li>should not be the same as the previous three passwords.</li>
 </ul>
 
@@ -117,5 +115,3 @@ This may occur if your new password does not meet the following password require
   9. Restart your device and in the login screen, choose your user account and type your new password.
 
   </details>
-
-  [seed-onboarding-guide-macos]: https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/seed-onboarding-instructions-for-macos
