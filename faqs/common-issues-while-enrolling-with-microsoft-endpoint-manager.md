@@ -130,7 +130,7 @@ This can happen if Defender or any other antivirus already installed on the devi
 
 This can happen if Defender or any other antivirus solution previously installed on the device was not completely removed before onboarding to SEED.
 
-To confirm this, [verify if Microsoft Defender is configured correctly for your OS][verify-defender-configuration].
+To confirm this, [verify if Microsoft Defender is configured correctly on your device][verify-defender-configuration].
 
 </details>
 <hr />
