@@ -120,7 +120,7 @@ Before raising a support request, confirm the following:
 <details>
 <summary>11. What should I do if my device does not get renamed automatically after onboarding to SEED?</summary>
 
-This can happen if Defender or any other antivirus already installed on the device was not completely removed before onboarding to SEED. To confirm this, [Verify if Microsoft Defender is configured correctly on your device](verify-microsoft-defender-is-configured-correctly-for-your-os-test).
+This can happen if Defender or any other antivirus already installed on the device was not completely removed before onboarding to SEED. To confirm this, [Verify if Microsoft Defender is configured correctly on your device](verify-microsoft-defender-is-configured-correctly-for-your-os).
 
 </details>
 <hr />
@@ -130,7 +130,7 @@ This can happen if Defender or any other antivirus already installed on the devi
 
 This can happen if Defender or any other antivirus solution previously installed on the device was not completely removed before onboarding to SEED.
 
-To confirm this, [Verify if Microsoft Defender is configured correctly on your device](verify-microsoft-defender-is-configured-correctly-for-your-os-test).
+To confirm this, [Verify if Microsoft Defender is configured correctly on your device](verify-microsoft-defender-is-configured-correctly-for-your-os).
 
 </details>
 <hr />
