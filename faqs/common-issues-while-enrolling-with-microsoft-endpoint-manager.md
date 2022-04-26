@@ -110,7 +110,7 @@ Possible reasons could be:
 
 Before raising a support request, confirm the following:
 
-- [Verify if Microsoft Defender is configured correctly on your device](../verify-microsoft-defender-is-configured-correctly-for-your-os.md).
+- [Verify if Microsoft Defender is configured correctly on your device](verify-microsoft-defender-is-configured-correctly-for-your-os).
 
 - Check if Tanium and Cloudflare are installed. These applications will be automatically installed while enrolling your device to SEED. If they are not installed, raise a [Support Request][raise-support-request].
 
