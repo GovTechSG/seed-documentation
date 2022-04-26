@@ -18,18 +18,6 @@ In addition, make sure the VPN configuration does not route all traffic and DNS 
 </details>
      <hr />
 
-<!--<details>
-<summary>1. Though my VPN is connected, why am I unable to browse the internet once my WARP reconnects?</summary>
-
-If you disconnect WARP on your device, it gets automatically reconnected after three hours. At that time, if you are still connected to your VPN, you may not be able to access the internet as this conflicts with your DNS resolver configuration.
-
-To resolve this, disconnect the device from your WiFi and reconnect it to your WiFi to reset the DNS resolver settings or restart your device.
-
-In addition, make sure the VPN configuration does not route all traffic and DNS queries to the VPN server. Our recommendation is not to turn on WARP and the VPN at the same time.
-
-</details>
-     <hr />-->
-
 <details>
 <summary>3. I am unable to access a particular website. I get an <em>Access restricted</em> error or <em>DNS error</em> while accessing this website.</summary>
 
