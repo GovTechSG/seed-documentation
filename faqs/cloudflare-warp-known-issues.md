@@ -111,7 +111,7 @@ Your tool or application may be using a certificate store that is separate from 
   2. Refer to your CLI tool documentation and configure it to trust the Cloudflare root certificate.
   3. You can also refer to the following links for instructions to configure your tool or application:
      * [Our instructions for commonly used CLI tools across Singapore
-       Government developers][config-cli-tools-with-warp], or
+       Government developers](configuration-of-common-developer-cli-tools-with-cloudflare-warp), or
      * [Cloudflare instructions for configuring commonly used developer CLI
        tools][install-cloudflare-cert-applications].
 
