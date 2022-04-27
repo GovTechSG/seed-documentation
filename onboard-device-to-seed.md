@@ -25,7 +25,7 @@ This page tells you how to onboard your device to SEED. Before onboarding, make 
 
   <kbd>![sign-in](images/onboarding-for-macos/sign-in.png)</kbd>
 
-  3. Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. However, if you are a public officer, you must first approve your WOG login by entering the verification code displayed for your SG Govt M365 profile on the authenticator app before approving your Techpass login.
+  3. Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. However, if you are a public officer, approve your WOG login first by entering the verification code displayed for your SG Govt M365 profile on the authenticator app before approving your Techpass login.
 
   <kbd>![log-in-to-gcc](images/onboarding-for-macos/log-in-to-gcc.png)</kbd>
 
@@ -54,17 +54,18 @@ This page tells you how to onboard your device to SEED. Before onboarding, make 
   >**Tip**:
    >- If **Profiles** page is not displayed, go to the **Apple** menu > **System Preferences** > **Profiles**.
    >- If **Management Profile** is not displayed, then from the left side menu, select **Management Profile**.
-   >- If profile installation fails, refer to [Common onboarding issues for macOS users](faqs/common-issues-while-onboarding-using-macos).
 
   9. Click **Install**.
 
   <kbd>![profile](images/onboarding-for-macos/profile-2.png)</kbd>
 
-  If you are a vendor or a contractor, the configuration profiles that Microsoft Intune needs to deploy will be installed and you will see a list of profiles as shown below.
+  If you are a vendor or a contractor, the required configuration profiles will be installed and you will see the list of profiles as shown below.
 
   <kbd>![list-of-profiles](images/onboarding-for-macos/list-of-profiles.png)</kbd>
 
-  ?> If you are a public officer, the profile will be installed only after you register the Microsoft Intune device ID for your device on the TechPass portal. Refer to Step b for more information.
+  >**Notes**:
+  >-If you are a public officer, the profiles will be installed only after you register the Microsoft Intune device ID for your device on the TechPass portal. Refer to Step b for more information.
+  >-If you are a vendor or contractor and profile installation fails, refer to [Common onboarding issues for macOS users](faqs/common-issues-while-onboarding-using-macos).
 
   9. Open the **Company Portal** application again.
 
@@ -137,8 +138,6 @@ fi
 
 ?> The above page is displayed only for public officers and you may refer to [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) for more information.
 
-If you are a vendor or contractor, Tanium and Cloudflare WARP client are installed on your device. Microsoft Intune Management Extension sends you a desktop notification about once the installation is complete. If you are a public officer, they will be installed after you register your device ID on the TechPass portal. Refer to Step b for more information.
-
 <kbd>![settings](images/onboarding-instructions-for-windows/settings.png ':size=600')</kbd>
 
 5. Your account is added and listed as a connection. This account has the <b>Info</b> and <b>Disconnect</b> options as shown below. Click on the <b>Info</b> option and verify that you see something like the following.
@@ -147,8 +146,11 @@ If you are a vendor or contractor, Tanium and Cloudflare WARP client are install
 
 <kbd>![managed-by-sg-govt-m365](images/onboarding-instructions-for-windows/managed-by-sg-govt-m365.png ':size=600')</kbd>
 
-Now your device is enrolled in Microsoft Intune. If you are a vendor or contractor, all the required applications and device configurations are available on your device.
-</details>
+>**Notes**:
+>-Your device is now enrolled in Microsoft Intune.
+>-If you are a vendor or contractor, Tanium and Cloudflare WARP are installed on your device. Microsoft Intune Management Extension sends you a desktop notification about once the installation is complete.
+>-If you are a public officer, Tanium and Cloudflare WARP will be installed after you register your device ID on the TechPass portal. Refer to Step b for more information.
+
 
 <details><summary>b. If you are a public officer, register the Microsoft Intune device ID for your Windows device</summary>
 
