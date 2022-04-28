@@ -196,9 +196,10 @@ This section explains how public officers and vendors can remove those softwares
   5. Save the offboarding script to the **Downloads** folder.
   6. Go to **Terminal** and run the following command:
     ```
-    sudo python ~/Downloads/name_of_offboarding_script.py
+    sudo /bin/sh ~/Downloads/name_of_offboarding_script.sh
+
     ```
-  ?> Name of the python file in this command is only an example. When you run the command, specify the file name of the offboarding script provided to you.
+  ?> The file name *name_of_offboarding_script* in this command is only an example. When you run the command, specify the file name of the offboarding script provided to you.
 
   7. Go back to the **Finder** icon in the **Dock**.
   8. Choose **Applications** and search for **Microsoft Defender for Endpoint.app**.
