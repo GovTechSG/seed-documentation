@@ -22,10 +22,10 @@
 
   5. Once you get the offboarding script, run it on your device to unenrol Defender from your device completely.
 
-   ?> For more information on how to run the offboarding script to remove Defender, refer to **step d. Remove Microsoft Defender for Endpoint** on [Get the offboarding scripts for Microsoft Defender](get-offboarding-scripts-for-microsoft-defender-atp).
+   ?> For more information on how to run the offboarding script to remove Defender from the macOS device, refer to **step e in [Remove existing softwares on your device](prerequisites-for-onboarding?id=remove-existing-softwares-on-your-device)**.
 
 
-Now, within few hours, **Intune** pushes the **Microsoft Defender** client to your device with the correct configurations. For more information on the duration, refer to [Microsoft Documentation](https://docs.microsoft.com/en-us/mem/intune/configuration/device-profile-troubleshoot#how-long-does-it-take-for-devices-to-get-a-policy-profile-or-app-after-they-are-assigned).
+Within the next few hours, **Intune** pushes the **Microsoft Defender** client to your device with the correct configurations. For more information on the duration, refer to [Microsoft Documentation](https://docs.microsoft.com/en-us/mem/intune/configuration/device-profile-troubleshoot#how-long-does-it-take-for-devices-to-get-a-policy-profile-or-app-after-they-are-assigned).
 
 At any time, users can Sign in to Company Portal app, click the three dots and choose **Check status** to check for policy or profile updates. It may take a while to complete the synchronisation. When completed, the screen will show the timestamp of the last successful sync.
 
@@ -54,9 +54,9 @@ The org_id displayed depends on the TechPass account used for enrolling your dev
 
 6. Once you get the offboarding script for your current MDM organisation, run it on your device to unenrol your device from it completely.
 
- ?> For more information on how to run the offboarding script, refer to **step d. Remove Microsoft Defender for Endpoint** on [SEED offboarding guide for Windows users](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/seed-offboarding-instructions-for-windows).
+ ?> For more information on how to run the offboarding script to remove Defender from the Windows device, refer to **step d in [Remove existing softwares on your device](prerequisites-for-onboarding?id=remove-existing-softwares-on-your-device)**.
 
- Now, within few hours, **Intune** pushes the **Microsoft Defender** client to your device with the correct configurations. For more information on the duration, refer to [Microsoft Documentation](https://docs.microsoft.com/en-us/mem/intune/configuration/device-profile-troubleshoot#how-long-does-it-take-for-devices-to-get-a-policy-profile-or-app-after-they-are-assigned).
+ Within the next few hours, **Intune** pushes the **Microsoft Defender** client to your device with the correct configurations. For more information on the duration, refer to [Microsoft Documentation](https://docs.microsoft.com/en-us/mem/intune/configuration/device-profile-troubleshoot#how-long-does-it-take-for-devices-to-get-a-policy-profile-or-app-after-they-are-assigned).
 
  At any time, users can manually sync by going to **Start** > **Settings** > **Accounts** > **Access work or school** > **Work or School Account** > **Info** > **Sync**. Alternatively, Open the Company Portal app on your device, go to **Settings** > **Sync**. Wait while Company Portal syncs your device. When complete, the screen will show the timestamp of the last successful sync.
 
