@@ -25,7 +25,7 @@ This page tells you how to onboard your device to SEED. Before onboarding, make 
 
   <kbd>![sign-in](images/onboarding-for-macos/sign-in.png)</kbd>
 
-  3. Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. However, if you are a public officer, you must first approve your WOG login before approving your Techpass login.
+  3. Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. However, if you are a public officer, approve your WOG login first by entering the verification code displayed for your SG Govt M365 profile on the authenticator app before approving your Techpass login.
 
   <kbd>![log-in-to-gcc](images/onboarding-for-macos/log-in-to-gcc.png)</kbd>
 
@@ -39,26 +39,33 @@ This page tells you how to onboard your device to SEED. Before onboarding, make 
 
   <kbd>![review-privacy-info](images/onboarding-for-macos/review-privacy-info-blurred.png)</kbd>
 
-  6. On the **Install management profile** page, click **Download profile**.
+  6. When prompted to authenticate your WOG account, enter the verification code displayed for your SG Govt M365 profile on the authenticator app.
+
+  <kbd>![enter-verification-code-for-wog](images/onboarding-for-macos/second-prompt-for-ver-code.png)</kbd>
+
+  7. On the **Install management profile** page, click **Download profile**.
 
   <kbd>![install-management-profile](images/onboarding-for-macos/install-management-profile.png)</kbd>
 
-  7. Follow the on-screen instructions to allow Microsoft Intune to manage your device. The **Profiles** page is displayed.
+  8. Follow the on-screen instructions to allow Microsoft Intune to manage your device. The **Profiles** page is displayed.
 
   <kbd>![profile-1](images/onboarding-for-macos/profile-1.png)</kbd>
 
   >**Tip**:
    >- If **Profiles** page is not displayed, go to the **Apple** menu > **System Preferences** > **Profiles**.
    >- If **Management Profile** is not displayed, then from the left side menu, select **Management Profile**.
-   >- If profile installation fails, refer to [Common onboarding issues for macOS users](faqs/common-issues-while-onboarding-using-macos).
 
-  8. Click **Install**.
+  9. Click **Install**.
 
   <kbd>![profile](images/onboarding-for-macos/profile-2.png)</kbd>
 
-  The configuration profiles that Microsoft Intune needs to deploy will be installed. You will see a list of profiles as shown below.
+  If you are a vendor or a contractor, the required configuration profiles will be installed and you will see the list of profiles as shown below.
 
   <kbd>![list-of-profiles](images/onboarding-for-macos/list-of-profiles.png)</kbd>
+
+  >**Notes**:
+  >-If you are a public officer, the profiles will be installed only after you register the Microsoft Intune device ID for your device on the TechPass portal. Refer to Step b for more information.
+  >-If you are a vendor or contractor and profile installation fails, refer to [Common onboarding issues for macOS users](faqs/common-issues-while-onboarding-using-macos).
 
   9. Open the **Company Portal** application again.
 
@@ -70,7 +77,7 @@ This page tells you how to onboard your device to SEED. Before onboarding, make 
 </details>
 
 <details>
-<summary>b. If you are a public officer, submit the Microsoft Intune device ID for your macOS device</summary>
+<summary>b. If you are a public officer, register the Microsoft Intune device ID for your macOS device</summary>
 
 This step is applicable only for public officers to get the required applications and device configurations on their device.
 
@@ -93,12 +100,17 @@ fi
 3. Using your GSIB device, go to your profile page on the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
 4. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune device ID. Intune installs the required softwares and configurations to complete your device onboarding.
 
+  If your onboarding is successful, within an hour, you will receive a successfully onboarded email to  your organisational email address.
+
+5. To verify if the required profiles are installed correctly, go to **System Preferences** > **Profiles**. You should be able to see the profiles listed as shown here.
+
+<kbd>![list-of-profiles](images/onboarding-for-macos/list-of-profiles.png)</kbd>
+
 </details>
 
-If your onboarding is successful, within an hour, you will receive a successfully onboarded email to  your organisational email address.
 
 >**Notes:**
->- If you do not receive this email, [check if Microsoft Defender is configured correctly](verify-microsoft-defender-is-configured-correctly-for-your-os) and also check if Tanium and Cloudflare are installed. If Tanium or Cloudflare is not installed, [raise a support request](raise-an-incident-support-request).
+>- If you do not receive the successfully onboarded to SEED email, [check if Microsoft Defender is configured correctly](verify-microsoft-defender-is-configured-correctly-for-your-os) and also check if Tanium and Cloudflare are installed. If Tanium or Cloudflare is not installed, [raise a support request](raise-an-incident-support-request).
 >- Shortly after this email, you will receive a desktop notification informing you that your device has been renamed and will automatically restart in the next five minutes. When you log in again, you will be prompted to reset your password. This is to enforce a strong password policy.
 >- If you had reset your password while onboarding, you will not be prompted to reset password when your device automatically restarts.
 >- Refer to [Best practices](best-practices) to know about the supported browsers.   
@@ -120,13 +132,11 @@ If your onboarding is successful, within an hour, you will receive a successfull
 
 <kbd>![access-work-or-school](images/onboarding-instructions-for-windows/access-work-or-school.png ':size=600')</kbd>
 
-3. Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. If you are a public officer using your GMD device, authorise your WOG account sign-in before approving your Techpass login.
+3. Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. If you are a public officer onboarding your device to SEED, authorise your WOG account by entering the verification code displayed for your SG Govt M365 profile on the authenticator app before approving your Techpass login.
 
 <kbd>![log-in-to-gcc](images/onboarding-for-macos/log-in-to-gcc.png ':size=500')</kbd>
 
 ?> The above page is displayed only for public officers and you may refer to [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) for more information.
-
-GCC2 Tanium and Cloudflare WARP clients are now installed on your device. Microsoft Intune Management Extension sends you a desktop notification about once the installation is complete.
 
 <kbd>![settings](images/onboarding-instructions-for-windows/settings.png ':size=600')</kbd>
 
@@ -136,10 +146,13 @@ GCC2 Tanium and Cloudflare WARP clients are now installed on your device. Micros
 
 <kbd>![managed-by-sg-govt-m365](images/onboarding-instructions-for-windows/managed-by-sg-govt-m365.png ':size=600')</kbd>
 
-Now your device is enrolled in Microsoft Intune. If you are a vendor or contractor, all the required applications and device configurations are available on your device.
-</details>
+>**Notes**:
+>-Your device is now enrolled in Microsoft Intune.
+>-If you are a vendor or contractor, Tanium and Cloudflare WARP are installed on your device. Microsoft Intune Management Extension sends you a desktop notification about once the installation is complete.
+>-If you are a public officer, Tanium and Cloudflare WARP will be installed after you register your device ID on the TechPass portal. Refer to Step b for more information.
 
-<details><summary>b. If you are a public officer, submit the Microsoft Intune device ID for your Windows device</summary>
+
+<details><summary>b. If you are a public officer, register the Microsoft Intune device ID for your Windows device</summary>
 
 This step is applicable only for public officers to get the required applications and device configurations on their device.
 
@@ -168,18 +181,21 @@ Write-Output $intune_id
 3. Using your GSIB device, go to your profile page on the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
 4. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune device ID.  Intune installs the required softwares and configurations to complete your device onboarding.
 
+  If your onboarding is successful, within an hour, you will receive a successfully onboarded email to your organisational email address.
+
+5. Shortly after this email, when you receive a desktop notification informing about the device name change and about the device being restarted, do the following:
+
+    i. Save your current work and restart your device.
+
+    ii. If prompted to specify your password, enter it.
+
+5. To verify if the required profiles are installed correctly, go to **Settings** > **Apps** > **Apps & features** and ensure that Tanium and Cloudflare WARP are listed.
+
 </details>
 
-If your onboarding is successful, within an hour, you will receive a successfully onboarded email to your organisational email address.
-
-?> If you do not receive this email, [check if Microsoft Defender is configured correctly](verify-microsoft-defender-is-configured-correctly-for-your-os) and also check if Tanium and Cloudflare are installed. If Tanium or Cloudflare is not installed, [raise a support request](raise-an-incident-support-request).
-
-Shortly after this email, when you receive a desktop notification informing about the device name change and about the device being restarted, do the following:
-
-1. Save your current work and restart your device.
-2. If prompted to specify your password, enter it.
-
-?> Refer to [Best practices](best-practices) to know about the supported browsers.
+>**Notes**:
+>- If you do not receive the successfully onboarded to SEED email, [check if Microsoft Defender is configured correctly](verify-microsoft-defender-is-configured-correctly-for-your-os) and also check if Tanium and Cloudflare are installed. If Tanium or Cloudflare is not installed, [raise a support request](raise-an-incident-support-request).
+>- Refer to [Best practices](best-practices) to know about the supported browsers.
 
 
 
