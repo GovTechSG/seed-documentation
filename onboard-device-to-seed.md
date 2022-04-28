@@ -64,8 +64,8 @@ This page tells you how to onboard your device to SEED. Before onboarding, make 
   <kbd>![list-of-profiles](images/onboarding-for-macos/list-of-profiles.png)</kbd>
 
   >**Notes**:
-  >-If you are a public officer, the profiles will be installed only after you register the Microsoft Intune device ID for your device on the TechPass portal. Refer to Step b for more information.
-  >-If you are a vendor or contractor and profile installation fails, refer to [Common onboarding issues for macOS users](faqs/common-issues-while-onboarding-using-macos).
+  >- If you are a public officer, the profiles will be installed only after you register the Microsoft Intune device ID for your device on the TechPass portal. Refer to Step b for more information.
+  >- If you are a vendor or contractor and profile installation fails, refer to [Common onboarding issues for macOS users](faqs/common-issues-while-onboarding-using-macos).
 
   9. Open the **Company Portal** application again.
 
