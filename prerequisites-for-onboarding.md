@@ -21,7 +21,7 @@ To begin with, you'll need:
 
 1. An active [TechPass account](#get-a-techpass-account).
 1. [SEED provisioning](#seed-provisioning) for you to onboard your device.
-1. [Devices with supported operating systems and the required permissions](#supported-operating-systems-and-devices-for-seed).
+1. [Device with supported operating systems and the required permissions](#supported-operating-systems-and-devices-for-seed).
 
 Things to ensure a successful onboarding:
 
@@ -58,6 +58,8 @@ If you had requested SEED provisioning while signing up for your TechPass accoun
 ### Supported operating systems and devices for SEED
 - A non-GSIB or a non-DWP device that runs on Windows 10 Pro/Enterprise versions or on macOS Big Sur 11 and later versions.
 - You must have Administrator rights on the device.
+
+?> Currently, you can't onboard virtual machines to SEED.
 
 ### Remove existing softwares on your device
 Before onboarding to SEED, you need to remove the Following software solutions from your device:
