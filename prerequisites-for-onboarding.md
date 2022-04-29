@@ -191,7 +191,7 @@ This section explains how public officers and vendors can remove those softwares
     - If your organisation id corresponds to Hive, contact [GDS team](mailto:gds_den@tech.gov.sg) to get the Hive offboarding script for macOS and proceed to step 5.
     - For all other organisation ids, contact your current MDM administrator to unerol your device from the respective antivirus.
 
-  ?>  Check if the script that you received has not yet expired. The expiry date is indicated on the file name. For example, *WindowsDefenderATPOffboardingScript_valid_until_2021-11-10.py*
+  ?>  Check if the script that you received has not yet expired. The expiry date is indicated on the file name. For example, *WindowsDefenderATPOffboardingScript_valid_until_2021-11-10.sh*
 
   5. Save the offboarding script to the **Downloads** folder.
   6. Go to **Terminal** and run the following command:
