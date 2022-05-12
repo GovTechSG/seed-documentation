@@ -121,7 +121,7 @@ Your tool or application may be using a certificate store that is separate from 
 <details>
 <summary>5.  I am unable to access the GCC 2.0 Cloud Management Portal, or a Singapore Tech Stack service. Is there a problem with my Government Managed Device?</summary>
 
-If you are unable to access the GCC 2.0 CMP or a SGTS service, confirm the following. If your answer is "Yes" for all these queries, raise an [incident support request](support-channel) and [upload the diagnostic file to it]().
+If you are unable to access the GCC 2.0 CMP or a SGTS service, confirm the following. If your answer is "Yes" for all these queries, raise an [incident support request](raise-support-request) and [upload the diagnostic file to it]().
 
 *Confirm the following* :
 1. If you have received the successfully onboarded email from DEEP.
