@@ -121,7 +121,7 @@ Your tool or application may be using a certificate store that is separate from 
 <details>
 <summary>5.  I am unable to access the GCC 2.0 Cloud Management Portal, or a Singapore Tech Stack service. Is there a problem with my Government Managed Device?</summary>
 
-If you are unable to access the GCC 2.0 CMP or a SGTS service, confirm the following. If your answer is "Yes" for all these queries, raise an [incident support request](raise-an-incident-support-request).
+If you are unable to access the GCC 2.0 CMP or a SGTS service, confirm the following. If your answer is "Yes" for all these queries, raise an [incident support request](support-channel) and [upload the diagnostic file to it]().
 
 *Confirm the following* :
 1. If you have received the successfully onboarded email from DEEP.
@@ -144,7 +144,7 @@ service, raise a [Support Request][raise-support-request].
 
 
 
-[raise-support-request]: raise-an-incident-support-request.md
+[raise-support-request]: support-channels.md
 [install-cloudflare-cert-operating-system]: https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/install-cloudflare-cert/#add-the-certificate-to-your-system
 [config-cli-tools-with-warp]: configuration-of-common-developer-cli-tools-with-cloudflare-warp.md
 [install-cloudflare-cert-applications]: https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/install-cloudflare-cert/#adding-to-applications

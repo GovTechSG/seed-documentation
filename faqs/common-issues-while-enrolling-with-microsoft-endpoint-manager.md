@@ -147,4 +147,4 @@ This is a known issue with Microsoft Defender version 101.54.16. To resolve this
 [seed-offboarding-steps]: offboard-device-from-seed.md
 [verify-defender-configuration]: verify-microsoft-defender-is-configured-correctly-for-your-os.md
 [upgrade-macos]: https://support.apple.com/downloads/macos
-[raise-support-request]: raise-an-incident-support-request.md
+[raise-support-request]: support-channels.md
