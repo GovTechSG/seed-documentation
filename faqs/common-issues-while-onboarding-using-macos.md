@@ -47,7 +47,7 @@
 
 <details><summary>4. While enabling FDA, I can't find <strong>Microsoft Defenders Endpoint Security Extension</strong>. Can I proceed with my onboarding?</summary>
 
-Yes, you may proceed with your SEED onboarding and the Microsoft Defenders Endpoint Security Extension should be available within four hours time. If it is still not available after four hours, please raise a [Support Request](raise-an-incident-support-request) as it is required to ensure the completeness of your onboarding.
+Yes, you may proceed with your SEED onboarding and the Microsoft Defenders Endpoint Security Extension should be available within four hours. If it is still not available after four hours, please raise a [Support Request](support-channels) as it is required to ensure the completeness of your onboarding.
 
 </details>
 <hr/>
