@@ -9,7 +9,9 @@ Raise an incident support request with the respective [SGTS service or product s
 
 
 >**Notes:**
->- To troubleshoot Cloudflare WARP, Tanium, Defender or Intune issues, attach [diagnostics information for Cloudflare Access](#cloudflare-access-troubleshooting-information) and [diagnostics information for Cloudflare WARP](#cloudflare-warp-diagnostic-logs) to the service request.
+
+>- To troubleshoot Cloudflare WARP, Tanium, Defender or Intune issues, attach [diagnostics information for Cloudflare Access](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/raise-an-incident-support-request?id=generate-cloudflare-access-diagnostic-file) and [diagnostics information for Cloudflare WARP](#https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/raise-an-incident-support-request?id=generate-cloudflare-warp-diagnostic-logs) to the service request.
+
 >- To troubleshoot connectivity issues for GCC 2.0 CMP or SGTS services, [Generate HAR file](#generate-har-file) and attach it to the service request.
 
 ## Support channels
