@@ -12,4 +12,4 @@
   * [Cloudflare WARP](faqs/cloudflare-warp-known-issues)
   * [Terms and Policies](terms-and-policies)
   * [Support channels](support-channels)
-    * [How to upload diagnostic file to incident support request](raise-an-incident-support-request)
+    * [How to upload diagnostic file to incident support request](how-to-generate-and-upload-diagnostic-files-to-incident-support-request)
