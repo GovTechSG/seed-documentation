@@ -1,21 +1,19 @@
 # Prerequisites for SEED
-<div class="warn">
+> Take note of the following before you proceed with the SEED onboarding:
+>- You can onboard only a non-GSIB or a non-DWP device to SEED.
+>
+>- You can onboard only one device to SEED.
+>
+>- If you are a public officer, after you enrol in Intune, you need to submit your Intune device ID to complete the SEED onboarding for your device.
+>
+>- After you complete the onboarding process, you will receive an email confirming your successful onboarding to SEED and your device will be automatically renamed and restarted.
+>
+>- After the automatic restart, macOS users will be prompted to reset their password to enforce a strong password policy.
+>
+>- If the device onboarded to SEED is compromised or lost, the respective agency may remotely wipe the device, including any personal information.
 
-Take note of the following before you proceed with the SEED onboarding:
 
-  - You can onboard only a non-GSIB or a non-DWP device to SEED.
-
-  - If you are a public officer, after you enrol in Intune, you need to submit your Intune device ID to complete the SEED onboarding for your device.
-
-  - After you complete the onboarding process, you will receive an email confirming your successful onboarding to SEED and your device will be automatically renamed and restarted.
-
-  - After the automatic restart, macOS users will be prompted to reset their password to enforce a strong password policy.
-
-  - If the device onboarded to SEED is compromised or lost, the respective agency may remotely wipe the device, including any personal information.
-
-</div>
-
-Before you onboard your device to SEED, there are few things which you need to start the onboarding and few things to ensure a successful onboarding.
+There are few things which you need before you start the onboarding and few things to ensure a successful onboarding.
 
 To begin with, you'll need:
 
