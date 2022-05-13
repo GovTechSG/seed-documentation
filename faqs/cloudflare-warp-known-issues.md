@@ -40,30 +40,30 @@ The following can cause this issue:
 
 1. Go to **Apple** menu > **System Preferences** > **Network**.
 
-![network](../images/resolve-dns-error-macos/network.png)
+<kbd>![network](../images/resolve-dns-error-macos/network.png)</kbd>
 
 
 2. Select **Wi-Fi** from the left pane and click **Advanced**.
 
 ?> If the lock icon at the lower left appears locked, click it to unlock the preference pane.
 
-![wifi](../images/resolve-dns-error-macos/wifi.png)
+<kbd>![wifi](../images/resolve-dns-error-macos/wifi.png)</kbd>
 
 3. Go to the **DNS tab** and click the plus icon.
 
-<kbd>![DNS](../images/resolve-dns-error-macos/advanced-dns.png)
+<kbd>![DNS](../images/resolve-dns-error-macos/advanced-dns.png)</kbd>
 
 4. Enter 1.1.1.1 and click the plus icon again.
 
-![DNS1](../images/resolve-dns-error-macos/dns-1.png)
+<kbd>![DNS1](../images/resolve-dns-error-macos/dns-1.png)</kbd>
 
 5. Enter 1.0.0.1 and click **OK**.
 
-![DNS2](../images/resolve-dns-error-macos/dns-2.png)
+<kbd>![DNS2](../images/resolve-dns-error-macos/dns-2.png)</kbd>
 
 6. Click **Apply**
 
-![apply DNS changes](../images/resolve-dns-error-macos/apply-dns-changes.png)
+<kbd>![apply DNS changes](../images/resolve-dns-error-macos/apply-dns-changes.png)</kbd>
 
 7. Restart your browser and verify if you can access the SEED-trusted websites such as GCC 2.0 CMP and any secured public website.
 8. If you still cannot access SEED-trusted websites, raise a [Support Request][raise-support-request].
@@ -73,26 +73,26 @@ The following can cause this issue:
 
 1. Select **Start** > **Settings** > **Network & Internet**.
 
-![change-adapter-options](../images/resolve-dns-error-windows/change-adapter-options.png)
+<kbd>![change-adapter-options](../images/resolve-dns-error-windows/change-adapter-options.png)</kbd>
 
 2. In the **Status** page, under **Advanced network settings** , select **Change adapter options**. The **Network Connections** page is displayed.
 3. Right-click **Wi-Fi** and select **Properties**.
 
-![wifi-properties](../images/resolve-dns-error-windows/wifi-properties.png)
+<kbd>![wifi-properties](../images/resolve-dns-error-windows/wifi-properties.png)</kbd>
 
 4. Select **Internet Protocol Version 4(TCP/IPv4)** and click **Properties**.
 
-![ipv4](../images/resolve-dns-error-windows/ipv4.png)
+<kbd>![ipv4](../images/resolve-dns-error-windows/ipv4.png)</kbd>
 
 5. In the **General** tab, select **Use the following DNS server addresses**.
 
-![existing-dns-server-address](../images/resolve-dns-error-windows/existing-dns-server-address.png)
+<kbd>![existing-dns-server-address](../images/resolve-dns-error-windows/existing-dns-server-address.png)</kbd>
 
 ?> Note down your existing settings for future reference.
 
 6. Enter **1.1.1.1** as **Preferred DNS server** and **1.0.0.1** as **Alternate DNS server** addresses.
 
-![new-dns-server-address](../images/resolve-dns-error-windows/new-dns-server-address.png)
+<kbd>![new-dns-server-address](../images/resolve-dns-error-windows/new-dns-server-address.png)</kbd>
 
 7. Click **OK** and exit the window.
 8. Restart your browser and verify if you can access the SEED-trusted websites such as GCC 2.0 CMP and any secured public website.
@@ -110,8 +110,8 @@ Your tool or application may be using a certificate store that is separate from 
   1. Download the Cloudflare CA certificate to your root system store(s) from the [Cloudflare documentation page][install-cloudflare-cert-operating-system].
   2. Refer to your CLI tool documentation and configure it to trust the Cloudflare root certificate.
   3. You can also refer to the following links for instructions to configure your tool or application:
-     * [Our instructions for commonly used CLI tools across Singapore
-       Government developers](configuration-of-common-developer-cli-tools-with-cloudflare-warp), or
+     * [GovTech instructions for commonly used CLI tools across Singapore
+       Government developers][config-cli-tools-with-warp], or
      * [Cloudflare instructions for configuring commonly used developer CLI
        tools][install-cloudflare-cert-applications].
 
@@ -146,5 +146,5 @@ service, raise a [Support Request][raise-support-request].
 
 [raise-support-request]: support-channels.md
 [install-cloudflare-cert-operating-system]: https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/install-cloudflare-cert/#add-the-certificate-to-your-system
-[config-cli-tools-with-warp]: configuration-of-common-developer-cli-tools-with-cloudflare-warp.md
+[config-cli-tools-with-warp]: faqs/configuration-of-common-developer-cli-tools-with-cloudflare-warp
 [install-cloudflare-cert-applications]: https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/install-cloudflare-cert/#adding-to-applications
