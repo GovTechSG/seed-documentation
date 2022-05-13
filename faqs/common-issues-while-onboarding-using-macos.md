@@ -47,7 +47,7 @@
 
 <details><summary>4. While enabling FDA, I can't find <strong>Microsoft Defenders Endpoint Security Extension</strong>. Can I proceed with my onboarding?</summary>
 
-Yes, you may proceed with your SEED onboarding and the Microsoft Defenders Endpoint Security Extension should be available within four hours time. If it is still not available after four hours, please raise a [Support Request](raise-an-incident-support-request) as it is required to ensure the completeness of your onboarding.
+Yes, you may proceed with your SEED onboarding and the Microsoft Defenders Endpoint Security Extension should be available within four hours. If it is still not available after four hours, please raise a [Support Request](support-channels) as it is required to ensure the completeness of your onboarding.
 
 </details>
 <hr/>
@@ -114,11 +114,11 @@ This may occur if your new password does not meet the following password require
   1. Click **Next**.
   1. Restart your device and in the login screen, choose your user account and type your new password.
 
-  >- **Notes:**
-  >- 1. If you are still unable to reset your password, repeat steps 1-6.
-  >- 2. Select **My keyboard isn't working when typing my password to log in** and click **Next**.
-  >- 3. Disable FileVault on the volume **Macintosh HD**.
-  >- 4. Restart your device and in the login screen, choose your user account and type your new password.
+  >- **Notes**:
+  >1. If you are still unable to reset your password, repeat steps 1-6.
+  >2. Select **My keyboard isn't working when typing my password to log in** and click **Next**.
+  >3. Disable FileVault on the volume **Macintosh HD**.
+  >4. Restart your device and in the login screen, choose your user account and type your new password.
 
 #### **Intel chip**
 
@@ -133,11 +133,11 @@ This may occur if your new password does not meet the following password require
   1. Click **Next**.
   1. Restart your device and in the login screen, choose your user account and type your new password.
 
-  >- **Notes:**
-  >- 1. If you are still unable to reset your password, repeat steps 1-4.
-  >- 2. Select **My keyboard isn't working when typing my password to log in** and click **Next**.
-  >- 3. Disable FileVault on the volume **Macintosh HD**.
-  >- 4. Restart your device and in the login screen, choose your user account and type your new password.
+  >- **Notes**:
+  >1. If you are still unable to reset your password, repeat steps 1-4.
+  >2. Select **My keyboard isn't working when typing my password to log in** and click **Next**.
+  >3. Disable FileVault on the volume **Macintosh HD**.
+  >4. Restart your device and in the login screen, choose your user account and type your new password.
 
 <!-- tabs:end -->
 
