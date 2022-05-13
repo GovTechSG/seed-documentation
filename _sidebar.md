@@ -9,7 +9,10 @@
   * [General FAQ](faqs/seed-faq-general)
   * [Onboarding issues for macOS users](faqs/common-issues-while-onboarding-using-macos)
   * [Issues with Microsoft Intune](faqs/common-issues-while-enrolling-with-microsoft-endpoint-manager)
-  * [Cloudflare WARP](faqs/cloudflare-warp-known-issues)
+  * Cloudflare WARP
+    * [Configuration of common Developer CLI tools in Cloudflare WARP](faqs/configuration-of-common-developer-cli-tools-with-cloudflare-warp)  
+    * [Known issues with Cloudflare WARP](faqs/cloudflare-warp-known-issues)
+    * [Generate and upload Cloudflare diagnostic files](how-to-generate-and-upload-diagnostic-files-to-incident-support-request)
   * [Terms and Policies](terms-and-policies)
   * [Support channels](support-channels)
-    * [How to upload diagnostic file to incident support request](how-to-generate-and-upload-diagnostic-files-to-incident-support-request)
+    

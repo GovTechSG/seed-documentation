@@ -114,7 +114,7 @@ This may occur if your new password does not meet the following password require
   1. Click **Next**.
   1. Restart your device and in the login screen, choose your user account and type your new password.
 
-  >- **Notes:**
+  > **Notes**:
   >1. If you are still unable to reset your password, repeat steps 1-6.
   >2. Select **My keyboard isn't working when typing my password to log in** and click **Next**.
   >3. Disable FileVault on the volume **Macintosh HD**.
@@ -133,7 +133,7 @@ This may occur if your new password does not meet the following password require
   1. Click **Next**.
   1. Restart your device and in the login screen, choose your user account and type your new password.
 
-  > **Notes:**
+  > **Notes**:
   >1. If you are still unable to reset your password, repeat steps 1-4.
   >2. Select **My keyboard isn't working when typing my password to log in** and click **Next**.
   >3. Disable FileVault on the volume **Macintosh HD**.
