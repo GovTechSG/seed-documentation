@@ -2,7 +2,7 @@
 > Take note of the following before you proceed with the SEED onboarding:
 >- You can onboard only a non-GSIB or a non-DWP device to SEED.
 >
->- You can onboard only one device to SEED.
+>- You can onboard only one device per user.
 >
 >- If you are a public officer, after you enrol in Intune, you need to submit your Intune device ID to complete the SEED onboarding for your device.
 >
