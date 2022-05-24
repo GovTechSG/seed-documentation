@@ -16,11 +16,11 @@ For Linux & MacOS users:
 mkdir -p "${HOME}/.config/.cloudflare"
 curl -sSLj -o "${HOME}/.config/.cloudflare/Cloudflare_CA.pem" "https://developers.cloudflare.com/cloudflare-one/static/documentation/connections/Cloudflare_CA.pem"
 
-# If you are using MacOS or Zsh as your default terminal
+# If you are using MacOS, Zsh is likely to be your default terminal. If you are using Zsh, please run the following commands:
 echo 'export NODE_EXTRA_CA_CERTS="${HOME}/.config/.cloudflare/Cloudflare_CA.pem"' | tee -a "${HOME}/.zshrc"
 source "${HOME}/.zshrc"
 
-# If you are using Linux or Bash as your default terminal
+# If you are using Linux, Bash is likely to be your default terminal. If you are using Bash, please run the following commands:
 echo 'export NODE_EXTRA_CA_CERTS="${HOME}/.config/.cloudflare/Cloudflare_CA.pem"' | tee -a "${HOME}/.bashrc"
 source "${HOME}/.bashrc"
 ```
@@ -41,11 +41,11 @@ For Linux & MacOS users:
 mkdir -p "${HOME}/.config/.cloudflare"
 curl -sSLj -o "${HOME}/.config/.cloudflare/Cloudflare_CA.pem" "https://developers.cloudflare.com/cloudflare-one/static/documentation/connections/Cloudflare_CA.pem"
 
-# If you are using MacOS or Zsh as your default terminal
+# If you are using MacOS, Zsh is likely to be your default terminal. If you are using Zsh, please run the following commands:
 echo 'export AWS_CA_BUNDLE="${HOME}/.config/.cloudflare/Cloudflare_CA.pem"' | "tee -a ${HOME}/.zshrc"
 source "${HOME}/.zshrc"
 
-# If you are using Linux or Bash as your default terminal
+# If you are using Linux, Bash is likely to be your default terminal. If you are using Bash, please run the following commands:
 echo 'export AWS_CA_BUNDLE="${HOME}/.config/.cloudflare/Cloudflare_CA.pem"' | "tee -a ${HOME}/.bashrc"
 source "${HOME}/.bashrc"
 ```
