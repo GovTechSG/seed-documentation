@@ -8,8 +8,8 @@
   - [Offboard device from SEED](offboard-device-from-seed)
 - **FAQs**
   - [General FAQ](faqs/seed-faq-general)
-  - [Onboarding issues for macOS](faqs/common-issues-while-onboarding-using-macos)
-  - [Issues with Microsoft Intune](faqs/common-issues-while-enrolling-with-microsoft-endpoint-manager)
+  - [macOS Onboarding issues](faqs/common-issues-while-onboarding-using-macos)
+  - [Intune issues](faqs/common-issues-while-enrolling-with-microsoft-endpoint-manager)
 - **Troubleshoot Cloudflare WARP**
     - [Configuration of common Developer CLI tools in Cloudflare WARP](faqs/configuration-of-common-developer-cli-tools-with-cloudflare-warp)  
     - [Known issues with Cloudflare WARP](faqs/cloudflare-warp-known-issues)
