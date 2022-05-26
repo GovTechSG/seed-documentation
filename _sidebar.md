@@ -11,9 +11,9 @@
   - [macOS Onboarding issues](faqs/common-issues-while-onboarding-using-macos)
   - [Intune issues](faqs/common-issues-while-enrolling-with-microsoft-endpoint-manager)
 **Troubleshoot Cloudflare WARP**  
-    - [Configuration of common Developer CLI tools in Cloudflare WARP](faqs/configuration-of-common-developer-cli-tools-with-cloudflare-warp)  
-    - [Known issues with Cloudflare WARP](faqs/cloudflare-warp-known-issues)  
-    - [Generate and upload Cloudflare diagnostic files](how-to-generate-and-upload-diagnostic-files-to-incident-support-request)  
+  - [Configuration of common Developer CLI tools in Cloudflare WARP](faqs/configuration-of-common-developer-cli-tools-with-cloudflare-warp)  
+  - [Known issues with Cloudflare WARP](faqs/cloudflare-warp-known-issues)  
+  - [Generate and upload Cloudflare diagnostic files](how-to-generate-and-upload-diagnostic-files-to-incident-support-request)  
 **Resources**  
   - [Best Practices](best-practices)
   - [Glossary](term-definitions)
