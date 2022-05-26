@@ -3,5 +3,4 @@
     - [macOS](onboard-device/mac-os)
     - [Windows](onboard-device/windows)
 - **Additional Resources**
-  - [Back to main](README/)
   - [Back to main](/README)

@@ -6,15 +6,15 @@
 <!--* [Post onboarding verification for GCC 1.0 users](seed-post-onboarding-verification-for-gcc-1.0)-->
 **Offboard device**
   - [Offboard device from SEED](offboard-device-from-seed)
-**FAQs**
+**Troubleshooting**
   - [General FAQ](faqs/seed-faq-general)
   - [macOS Onboarding issues](faqs/common-issues-while-onboarding-using-macos)
   - [Intune issues](faqs/common-issues-while-enrolling-with-microsoft-endpoint-manager)
-**Troubleshoot Cloudflare WARP**
+**Troubleshoot Cloudflare WARP**  
     - [Configuration of common Developer CLI tools in Cloudflare WARP](faqs/configuration-of-common-developer-cli-tools-with-cloudflare-warp)  
-    - [Known issues with Cloudflare WARP](faqs/cloudflare-warp-known-issues)
-    - [Generate and upload Cloudflare diagnostic files](how-to-generate-and-upload-diagnostic-files-to-incident-support-request)
-**Resources**
+    - [Known issues with Cloudflare WARP](faqs/cloudflare-warp-known-issues)  
+    - [Generate and upload Cloudflare diagnostic files](how-to-generate-and-upload-diagnostic-files-to-incident-support-request)  
+**Resources**  
   - [Best Practices](best-practices)
   - [Glossary](term-definitions)
 **Terms and policies**
