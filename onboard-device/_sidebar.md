@@ -1,11 +1,6 @@
-- **SonarQube**
-  - [SonarQube](sonarqube/sonarqube-overview)
-    - [Access](sonarqube/sonarqube-access)
-    - [Community Edition](sonarqube/sonarqube-set-up-community-edition)
-    - [Developer Edition](sonarqube/sonarqube-set-up-developer-edition)
-    - [Self Help Guide](sonarqube/sonarqube-self-help-guide)  
-    - [FAQs](sonarqube/sonarqube-faqs)  
+- **Onboarding Guide**
+  - [Onboard](onboard-device/onboard-device-to-seed)
+    - [MACOS](onboard-device/mac-os)
+    - [Windows](onboard-device/windows)
 - **Additional Resources**
-  - [Back to Tools Guide](https://docs.developer.tech.gov.sg/docs/ship-hats-tools-guide/#/tools-overview)
-  - [Head Over to Getting Started](https://docs.developer.tech.gov.sg/docs/ship-hats-getting-started-guide/#/)
-  - [Head Over to Portal Guide](https://docs.developer.tech.gov.sg/docs/ship-hats-portal-guide/#/ship-hats-portal-overview)
+  - [Back to Main](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/)
