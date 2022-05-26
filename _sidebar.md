@@ -19,5 +19,5 @@
   - [Glossary](term-definitions)
 **Terms and policies**
   - [Terms and Policies](terms-and-policies)
-- **Support**
+**Support**
   - [Raise an incident support request](support-channels)
