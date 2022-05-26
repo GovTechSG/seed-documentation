@@ -1,6 +1,6 @@
 - **Onboarding Guide**
   - [Onboard](onboard-device/onboard-device-to-seed)
-    - [MACOS](onboard-device/mac-os)
+    - [macOS](onboard-device/mac-os)
     - [Windows](onboard-device/windows)
 - **Additional Resources**
   - [Back to Main](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/)
