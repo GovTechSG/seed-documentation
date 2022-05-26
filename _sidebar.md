@@ -1,6 +1,6 @@
 - **Getting started**
   - [Prerequisites](prerequisites-for-onboarding)
-  - [Onboard device to SEED](onboard-device-to-seed)
+  - [Onboard device to SEED](onboard-device/onboard-device-to-seed)
 - **After Onboarding**    
   - [Post onboarding instructions](post-onboarding-instructions)
 <!--* [Post onboarding verification for GCC 1.0 users](seed-post-onboarding-verification-for-gcc-1.0)-->
