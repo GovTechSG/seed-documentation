@@ -1,4 +1,4 @@
-# Offboard device to SEED
+# Offboard device from SEED
 
 This article explains how to offboard your device from SEED.
 
