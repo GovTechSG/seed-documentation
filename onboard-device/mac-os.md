@@ -8,8 +8,9 @@
 
 
 ## Step 1: Set up Microsoft Intune
-<details>
-  <summary>a. Set up Microsoft Intune to get the required applications and device configuration</summary><br>
+
+ **Set up Microsoft Intune to get the required applications and device configuration**
+
 
   1. Download and install [**Company Portal**](https://go.microsoft.com/fwlink/?linkid=853070).
 
@@ -53,7 +54,7 @@
 
   <kbd>![profile](../images/onboarding-for-macos/profile-2.png)</kbd>
 
-  If you are a vendor or a contractor, the required configuration profiles will be installed as shown below. If profile installation fails, refer to [Common onboarding issues for macOS users](faqs/common-issues-while-onboarding-using-macos).
+  If you are a vendor or a contractor, the required configuration profiles will be installed as shown below. If profile installation fails, refer to [Common onboarding issues for macOS users](faqs/common-issues-while-onboarding).
 
   <kbd>![list-of-profiles](../images/onboarding-for-macos/list-of-profiles.png)</kbd>
 
@@ -64,16 +65,8 @@
   <kbd>![all-set](../images/onboarding-for-macos/all-set-2.png)</kbd>
 
 
-</details>
-
-
-
-
 
 ## Step 2: Register Microsoft Intune device ID
-
-<details>
-<summary>b. Register the Microsoft Intune device ID for your macOS device</summary>
 
 This step is applicable only for public officers to get the required applications and device configurations on their device.
 
@@ -101,11 +94,6 @@ If your onboarding is successful, within an hour, you will receive a successfull
 5. To verify if the required profiles are installed correctly, go to **System Preferences** > **Profiles**. You should be able to see the profiles listed as shown here.
 
 <kbd>![list-of-profiles](../images/onboarding-for-macos/list-of-profiles.png)</kbd>
-
-</details>
-
-
-
 
 
 >**Notes:**

@@ -94,5 +94,5 @@ This is a known issue with Microsoft Defender version 101.54.16. To resolve this
 
 
 [techpass-documentation]: https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/
-[terms-and-policies]: https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/terms-and-policies
+[terms-and-policies]: https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/additional-resources/terms-and-policies
 [service-request]: https://form.gov.sg/#!/6099efa30d6a0a0012dff367

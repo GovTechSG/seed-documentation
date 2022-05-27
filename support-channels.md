@@ -14,11 +14,11 @@ experience:
 >**Notes:**
 >
 >- To troubleshoot Cloudflare WARP, Tanium, Defender or Intune issues,
->  attach [diagnostics information for Cloudflare Access] and
->  [diagnostics information for Cloudflare WARP] to the service request.
+>  attach [diagnostics information for Cloudflare Access](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request?id=generate-cloudflare-access-diagnostic-file) and
+>  [diagnostics information for Cloudflare WARP](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request?id=generate-cloudflare-warp-diagnostic-logs) to the service request.
 >
 >- To troubleshoot connectivity issues for GCC 2.0 CMP or SGTS services,
->  [Generate HAR file] and attach it to the service request.
+>  [Generate HAR file](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request?id=generate-har-file) and attach it to the service request.
 
 ## Support channels
 
@@ -29,7 +29,7 @@ experience:
 - If you are a GCC 2.0 user, raise an incident ticket with
   [ITSM](https://itsm.sgnet.gov.sg/sp3).
 
-
+<!--
 [diagnostics information for Cloudflare Access]: faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request.md#generate-cloudflare-access-diagnostic-file
 [Generate HAR file]: faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request.md#generate-har-file
-[diagnostics information for Cloudflare WARP]: faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request.md#generate-cloudflare-warp-diagnostic-logs
+[diagnostics information for Cloudflare WARP]: faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request.md#generate-cloudflare-warp-diagnostic-logs-->
