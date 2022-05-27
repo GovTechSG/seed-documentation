@@ -4,7 +4,7 @@
 **After Onboarding**    
   - [Post onboarding instructions](post-onboarding-instructions/post-onboarding-steps-and-verification)
 **Offboard device**
-  - [Offboard device from SEED](offboard-device/offboard-device-to-seed)
+  - [Offboard device from SEED](offboard-device/offboard-device-from-seed)
 **Troubleshooting**
   - [FAQs](faqs/seed-faqs)
 **Resources**  
