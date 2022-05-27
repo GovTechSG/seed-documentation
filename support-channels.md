@@ -30,6 +30,6 @@ experience:
   [ITSM](https://itsm.sgnet.gov.sg/sp3).
 
 
-[diagnostics information for Cloudflare Access]: how-to-generate-and-upload-diagnostic-files-to-incident-support-request.md#generate-cloudflare-access-diagnostic-file
-[Generate HAR file]: how-to-generate-and-upload-diagnostic-files-to-incident-support-request.md#generate-har-file
-[diagnostics information for Cloudflare WARP]: how-to-generate-and-upload-diagnostic-files-to-incident-support-request.md#generate-cloudflare-warp-diagnostic-logs
+[diagnostics information for Cloudflare Access]: faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request.md#generate-cloudflare-access-diagnostic-file
+[Generate HAR file]: faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request.md#generate-har-file
+[diagnostics information for Cloudflare WARP]: faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request.md#generate-cloudflare-warp-diagnostic-logs

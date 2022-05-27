@@ -1,13 +1,13 @@
 # Cloudflare WARP FAQ
 
 <details>
-<summary>1. What should I do if I am unable to browse the internet using Cloudflare WARP?</summary>
+<summary>What should I do if I am unable to browse the internet using Cloudflare WARP?</summary>
 
 Check if you are connected to any VPN. If you are still connected to your VPN, you may not be able to access the internet as it conflicts with your DNS resolver configuration. To resolve this, disconnect from your VPN and make sure only Cloudflare WARP is connected.
 
 </details>
      <hr />
-<details><summary>2. I had to use my VPN and as recommended by SEED, I had turned off Cloudflare WARP and connected to VPN. After three hours, when Cloudflare WARP automatically reconnects, I am unable to browse the internet. What could be the reason and how to resolve it?</summary>
+<details><summary>I had to use my VPN and as recommended by SEED, I had turned off Cloudflare WARP and connected to VPN. After three hours, when Cloudflare WARP automatically reconnects, I am unable to browse the internet. What could be the reason and how to resolve it?</summary>
 
 If you disconnect Cloudflare WARP on your device, it gets automatically reconnected after three hours. At that time, if you are still connected to your VPN, you may not be able to access the internet as it conflicts with your DNS resolver configuration.
 
@@ -19,7 +19,7 @@ In addition, make sure the VPN configuration does not route all traffic and DNS 
      <hr />
 
 <details>
-<summary>3. I am unable to access a particular website. I get an <em>Access restricted</em> error or <em>DNS error</em> while accessing this website.</summary>
+<summary>I am unable to access a particular website. I get an <em>Access restricted</em> error or <em>DNS error</em> while accessing this website.</summary>
 
 The following can cause this issue:
 
@@ -103,7 +103,7 @@ The following can cause this issue:
      <hr />
 
 <details>
-<summary>4. While using some tools and applications with Cloudflare WARP Client, why do I get SSL errors?</summary>
+<summary>While using some tools and applications with Cloudflare WARP Client, why do I get SSL errors?</summary>
 
 Your tool or application may be using a certificate store that is separate from the trusted root certificate store of your system.
 
@@ -119,9 +119,9 @@ Your tool or application may be using a certificate store that is separate from 
 <hr />
 
 <details>
-<summary>5.  I am unable to access the GCC 2.0 Cloud Management Portal, or a Singapore Tech Stack service. Is there a problem with my Government Managed Device?</summary>
+<summary>I am unable to access the GCC 2.0 Cloud Management Portal, or a Singapore Tech Stack service. Is there a problem with my Government Managed Device?</summary>
 
-If you are unable to access the GCC 2.0 CMP or a SGTS service, confirm the following. If your answer is "Yes" for all these queries, raise an [incident support request](raise-support-request) and [upload the diagnostic file to it]().
+If you are unable to access the GCC 2.0 CMP or a SGTS service, confirm the following. If your answer is "Yes" for all these queries, raise an [incident support request][raise-support-request] and [upload the diagnostic file to it](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/how-to-generate-and-upload-diagnostic-files-to-incident-support-request).
 
 *Confirm the following* :
 1. If you have received the successfully onboarded email from DEEP.
@@ -142,7 +142,39 @@ service, raise a [Support Request][raise-support-request].
 </details>
 <hr />
 
+<details>
+<summary>Tanium client returns a 400 Bad Request Error when contacted by the Cloudflare Access landing page via localhost. What should I do? </summary>
 
+This is due to the time synchronisation issue between Cloudflare and Tanium client. To fix this, resync the local time of your macOS or Windows machine.
+
+To check and synchronise your device time with the internet time server:
+
+  <details><summary>For macOS device</summary>
+
+   1. From the **Apple** menu, go to **System Preferences** > **Date & Time**.
+   2. Click the lock icon and use your Touch ID or enter your password to unlock.
+   3. Select the **Set date and time automatically** checkbox.
+   4. To use a custom network time server, enter the domain name of the server in the .
+   ![synchronise your Mac time](../images/sync-clock-on-mac.png)
+  </details>
+
+  <details><summary>For Windows 10 device</summary>
+
+    1. Open the **Start** menu and click **Settings**.
+    1. Choose **Time & Language**.
+    1. Turn on **Set time automatically**.
+    1. Click **Sync now** to synchronise with the time server.
+    1. If you’d like to use a custom network time server, click **Date, time & regional formatting** from **Related Settings** at the upper-right corner. The **Region** settings page is displayed.
+    1. Click **Additional date, time & regional settings** from **Related settings** at the upper-right corner. The **Clock and Region settings** page is displayed.
+    1. Click **Date and Time**.
+    1. Go to the **Internet Time** tab and select **Change settings**.
+    1. Enter the domain name of the server.
+
+  </details>
+  </details>  
+  <hr />
+
+  
 
 [raise-support-request]: support-channels.md
 [install-cloudflare-cert-operating-system]: https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/install-cloudflare-cert/#add-the-certificate-to-your-system
