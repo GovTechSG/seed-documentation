@@ -1,9 +1,11 @@
 # Glossary
 
 **DWP device**
+
 Digital WorkPlace device
 
 **GSIB**
+
 Government Standard Image Build
 
 **SEED**
@@ -21,6 +23,7 @@ If you are public officer and want to get a Techpass account, refer to [Create T
 If you are a vendor, request the engaging agency or ministry to provide you with a TechPass account. For more information, refer to [Vendor onboarding to TechPass](https://docs.developer.tech.gov.sg/docs/techpass-documentation/#/onboard?id=vendor).-->
 
 **TechPass ID**
+
 This is used to log in to your TechPass account.
 
 - For public officers, it is your WOG ID.
