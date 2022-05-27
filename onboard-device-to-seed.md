@@ -111,7 +111,7 @@ If your onboarding is successful, within an hour, you will receive a successfull
 >- If you do not receive the successfully onboarded to SEED email, [check if Microsoft Defender is configured correctly](verify-microsoft-defender-is-configured-correctly-for-your-os) and also check if Tanium and Cloudflare are installed. If Tanium or Cloudflare is not installed, [raise a support request](support-channels).
 >- Shortly after this email, you will receive a desktop notification informing you that your device has been renamed and will automatically restart in the next five minutes. When you log in again, you will be prompted to reset your password. This is to enforce a strong password policy.
 >- If you had reset your password while onboarding, you will not be prompted to reset password when your device automatically restarts.
->- Refer to [Best practices](best-practices) to know about the supported browsers.   
+>- Refer to [Best practices](additional-resources/best-practices) to know about the supported browsers.   
 
 
 ### **Windows**
@@ -195,7 +195,7 @@ Write-Output $intune_id
 
 >**Notes**:
 >- If you do not receive the successfully onboarded to SEED email, [check if Microsoft Defender is configured correctly](verify-microsoft-defender-is-configured-correctly-for-your-os) and also check if Tanium and Cloudflare are installed. If Tanium or Cloudflare is not installed, [raise a support request](support-channels).
->- Refer to [Best practices](best-practices) to know about the supported browsers.
+>- Refer to [Best practices](additional-resources/best-practices) to know about the supported browsers.
 
 
 

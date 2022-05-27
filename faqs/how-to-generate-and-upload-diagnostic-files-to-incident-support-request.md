@@ -45,7 +45,7 @@ Logs and diagnostic information captured by Cloudflare WARP will be saved as a z
 
 ## Generate HAR file
 
-This section provides the instructions to generate HAR file for the [supported browsers](best-practices) when you experience problems connecting to the GCC 2.0 CMP or SGTS services.
+This section provides the instructions to generate HAR file for the [supported browsers](additional-resources/best-practices) when you experience problems connecting to the GCC 2.0 CMP or SGTS services.
 
 - [Google Chrome](#generate-har-file-for-google-chrome)
 

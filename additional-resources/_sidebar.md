@@ -1,0 +1,6 @@
+- **Additional Resources**
+  - [Best Practices](additional-resources/best-practices)
+  - [Glossary](additional-resources/term-definitions)
+  - [Terms and Policies](additional-resources/terms-and-policies)
+- **Additional Resources**
+  - [Back to main](/prerequisites-for-onboarding)

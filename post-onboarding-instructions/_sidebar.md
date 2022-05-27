@@ -1,5 +1,5 @@
 - **Post Onboarding Guide**
-  - [SEED post onboarding instructions](post-onboarding-instructions/post-onboarding-steps-and-verification)
+  - [Post onboarding instructions](post-onboarding-instructions/post-onboarding-steps-and-verification)
     - [macOS](post-onboarding-instructions/mac-os)
     - [Windows](post-onboarding-instructions/windows)
     - [Post onboarding verification steps for GCC 1.0 users](post-onboarding-instructions/gcc-1.0-users)
