@@ -10,21 +10,21 @@
 
 2. Go to **Settings** > **Accounts** > **Access work or school** and click **Connect** plus sign to add your work or school account.
 
-<kbd>![access-work-or-school](images/onboarding-instructions-for-windows/access-work-or-school.png ':size=600')</kbd>
+<kbd>![access-work-or-school](../images/onboarding-instructions-for-windows/access-work-or-school.png ':size=600')</kbd>
 
 3. Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. If you are a public officer onboarding your device to SEED, authorise your WOG account by entering the verification code displayed for your SG Govt M365 profile on the authenticator app before approving your Techpass login.
 
-<kbd>![log-in-to-gcc](images/onboarding-for-macos/log-in-to-gcc.png ':size=500')</kbd>
+<kbd>![log-in-to-gcc](../images/onboarding-for-macos/log-in-to-gcc.png ':size=500')</kbd>
 
 ?> The above page is displayed only for public officers and you may refer to [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) for more information.
 
-<kbd>![settings](images/onboarding-instructions-for-windows/settings.png ':size=600')</kbd>
+<kbd>![settings](../images/onboarding-instructions-for-windows/settings.png ':size=600')</kbd>
 
 5. Your account is added and listed as a connection. This account has the **Info** and **Disconnect** options as shown below. Click on the **Info** option and verify that you see something like the following.
 
 ?> Vendors will see **TechPass** instead of **SG Govt M365**.
 
-<kbd>![managed-by-sg-govt-m365](images/onboarding-instructions-for-windows/managed-by-sg-govt-m365.png ':size=600')</kbd>
+<kbd>![managed-by-sg-govt-m365](../images/onboarding-instructions-for-windows/managed-by-sg-govt-m365.png ':size=600')</kbd>
 
 >**Notes**:
 >- Your device is now enrolled in Microsoft Intune.

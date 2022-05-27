@@ -15,33 +15,33 @@
 
   2. Open the **Company Portal** application and click **Sign in** to log in using your TechPass credentials.
 
-  <kbd>![sign-in](images/onboarding-for-macos/sign-in.png)</kbd>
+  <kbd>![sign-in](../images/onboarding-for-macos/sign-in.png)</kbd>
 
   3. Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. However, if you are a public officer, approve your WOG login first by entering the verification code displayed for your SG Govt M365 profile on the authenticator app before approving your Techpass login.
 
-  <kbd>![log-in-to-gcc](images/onboarding-for-macos/log-in-to-gcc.png)</kbd>
+  <kbd>![log-in-to-gcc](../images/onboarding-for-macos/log-in-to-gcc.png)</kbd>
 
   ?> The above page is displayed only for public officers. Refer to [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) for more information.
 
   4. Once you have signed in, click **Begin**.
 
-  <kbd>![](images/onboarding-for-macos/begin.png)</kbd>
+  <kbd>![](../images/onboarding-for-macos/begin.png)</kbd>
 
   5. Review privacy information. Then click **Continue**.
 
-  <kbd>![review-privacy-info](images/onboarding-for-macos/review-privacy-info-blurred.png)</kbd>
+  <kbd>![review-privacy-info](../images/onboarding-for-macos/review-privacy-info-blurred.png)</kbd>
 
   6. When prompted to authenticate your WOG account, enter the verification code displayed for your SG Govt M365 profile on the authenticator app.
 
-  <kbd>![enter-verification-code-for-wog](images/onboarding-for-macos/second-prompt-for-ver-code.png)</kbd>
+  <kbd>![enter-verification-code-for-wog](../images/onboarding-for-macos/second-prompt-for-ver-code.png)</kbd>
 
   7. On the **Install management profile** page, click **Download profile**.
 
-  <kbd>![install-management-profile](images/onboarding-for-macos/install-management-profile.png)</kbd>
+  <kbd>![install-management-profile](../images/onboarding-for-macos/install-management-profile.png)</kbd>
 
   8. Follow the on-screen instructions to allow Microsoft Intune to manage your device. The **Profiles** page is displayed.
 
-  <kbd>![profile-1](images/onboarding-for-macos/profile-1.png)</kbd>
+  <kbd>![profile-1](../images/onboarding-for-macos/profile-1.png)</kbd>
 
   >**Tip**:
    >- If **Profiles** page is not displayed, go to the **Apple** menu > **System Preferences** > **Profiles**.
@@ -51,17 +51,17 @@
 
   - If you are a public officer, the profiles will be installed only after you register the Microsoft Intune device ID on the TechPass portal. Intune device ID will be generated only when you complete the device enrolment in Intune. After you complete all the steps in **step a**, follow the instructions listed under **step b. Register the Microsoft Intune device ID for your macOS device**.
 
-  <kbd>![profile](images/onboarding-for-macos/profile-2.png)</kbd>
+  <kbd>![profile](../images/onboarding-for-macos/profile-2.png)</kbd>
 
   If you are a vendor or a contractor, the required configuration profiles will be installed as shown below. If profile installation fails, refer to [Common onboarding issues for macOS users](faqs/common-issues-while-onboarding-using-macos).
 
-  <kbd>![list-of-profiles](images/onboarding-for-macos/list-of-profiles.png)</kbd>
+  <kbd>![list-of-profiles](../images/onboarding-for-macos/list-of-profiles.png)</kbd>
 
   9. Open the **Company Portal** application again.
 
   10. You will see the success message. Click **Done**.
 
-  <kbd>![all-set](images/onboarding-for-macos/all-set-2.png)</kbd>
+  <kbd>![all-set](../images/onboarding-for-macos/all-set-2.png)</kbd>
 
 
 </details>
@@ -100,7 +100,7 @@ If your onboarding is successful, within an hour, you will receive a successfull
 
 5. To verify if the required profiles are installed correctly, go to **System Preferences** > **Profiles**. You should be able to see the profiles listed as shown here.
 
-<kbd>![list-of-profiles](images/onboarding-for-macos/list-of-profiles.png)</kbd>
+<kbd>![list-of-profiles](../images/onboarding-for-macos/list-of-profiles.png)</kbd>
 
 </details>
 

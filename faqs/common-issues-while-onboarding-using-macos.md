@@ -1,7 +1,7 @@
-# Common onboarding questions for macOS users
+# Onboarding FAQ
 
 <details>
-  <summary>1. What should I do if profile installation fails while installing the management profile?</summary>
+  <summary>What should I do if profile installation fails while installing the management profile?</summary>
 
 <!--<kbd>![profile-installation-failed](images/onboarding-for-macos/profile-installation-failed.png)</kbd>-->
 
@@ -16,9 +16,42 @@
 </details>
 <hr/>
 
+<details>
+  <summary>Microsoft Defender was not automatically installed after enrolling to Company Portal?</summary>
+
+  This can happen if Defender or any other antivirus solution previously installed on the device was not completely removed before onboarding to SEED.
+
+  To confirm this, [Verify if Microsoft Defender is configured correctly on your device][verify-defender-configuration].
+
+  </details>
+  <hr />
+
+  <details>
+  <summary>1. While onboarding to Microsoft Intune, I get an error message, "Could not download the identity profile from the Encrypted Profile Service. The credentials within the Device Enrolment profile may have expired."</summary>
+
+  One of the possible reasons could be that your device was earlier onboarded to Microsoft Intune by a different user and was not offboarded properly during the pre-onboarding steps.  
+
+  To confirm if that is the case, raise a [Support Request][raise-support-request] with your device serial number.
+
+  The SEED team can verify if your device was previously enrolled to Microsoft Intune under a different user. If this is confirmed, choose on the following to offboard it from Microsoft Intune and then retry onboarding your device to SEED.
+
+  - If you are a Windows user, refer to [SEED offboarding steps][seed-offboarding-steps].
+
+  - If you are a macOS user, go to **System Preferences**  and locate the old Management Profile. Refer to [SEED offboarding steps][seed-offboarding-steps].
+
+  </details>
+  <hr />
+
+  <details>
+  <summary>What should I do if my device does not get renamed automatically after onboarding to SEED?</summary>
+
+  This can happen if Defender or any other antivirus already installed on the device was not completely removed before onboarding to SEED. To confirm this, [Verify if Microsoft Defender is configured correctly on your device][verify-defender-configuration].
+
+  </details>
+  <hr />
 
 <details>
-  <summary>2. While enabling FDA, I can't find <b>TaniumClient</b>. What should I do?</summary>
+  <summary>While enabling FDA, I can't find <b>TaniumClient</b>. What should I do?</summary>
 
   1. Open the **Terminal** application and run the command: ``sudo chmod 755 /Library/Tanium/TaniumClient``.
   2. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
@@ -33,7 +66,7 @@
 <hr/>
 
 <details>
-<summary>3. While enabling FDA, I can't find <b>Microsoft Intune Agent</b> and <b>Microsoft Defender for Endpoint</b>. What should I do?</summary>
+<summary>While enabling FDA, I can't find <b>Microsoft Intune Agent</b> and <b>Microsoft Defender for Endpoint</b>. What should I do?</summary>
 
 1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
 2. Click the **Privacy** tab.
@@ -45,14 +78,26 @@
 </details>
 <hr/>
 
-<details><summary>4. While enabling FDA, I can't find <strong>Microsoft Defenders Endpoint Security Extension</strong>. Can I proceed with my onboarding?</summary>
+<details><summary>While enabling FDA, I can't find <strong>Microsoft Defenders Endpoint Security Extension</strong>. Can I proceed with my onboarding?</summary>
 
 Yes, you may proceed with your SEED onboarding and the Microsoft Defenders Endpoint Security Extension should be available within four hours. If it is still not available after four hours, please raise a [Support Request](support-channels) as it is required to ensure the completeness of your onboarding.
 
 </details>
 <hr/>
 
-<details><summary>5. How do I reset the password for my macOS device?</summary>
+<details>
+<summary>When enabling FileVault or Full Disk Access, I am unable to unlock Security & Privacy preferences using my current password.</summary>
+
+This is because a new password policy has been enforced and you are required to reset your password.
+
+1. Go to the **Apple** menu and choose **Lock Screen** or press **Command+Control+Q**.
+2. Enter your current password and press **Return**.
+3. You will be prompted to reset your password.
+</details>
+<hr/>
+
+
+<details><summary>How do I reset the password for my macOS device?</summary>
 
 *To reset password while enabling FileVault or FDA* :
 1. Go to the **Apple** menu > **Lock Screen** or use keyboard shortcut **Command+Control+Q** .
@@ -66,7 +111,48 @@ Yes, you may proceed with your SEED onboarding and the Microsoft Defenders Endpo
 </details>
 <hr />
 
-<details><summary>6. After resetting my macOS password, I am unable to log in using the new password, why?</summary>
+
+<details>
+<summary>After onboarding to SEED, I did not receive the successfully onboarded email. What should I do?</summary>
+
+Possible reasons could be:
+
+- Defender or any other antivirus solution previously installed on the device was not completely removed before onboarding to SEED.
+- Tanium and Cloudflare did not get installed while onboarding to SEED.
+
+Before raising a support request, confirm the following:
+
+- [Verify if Microsoft Defender is configured correctly on your device][verify-defender-configuration].
+
+- Check if Tanium and Cloudflare are installed. These applications will be automatically installed while enrolling your device to SEED. If they are not installed, raise a [Support Request][raise-support-request].
+
+</details>
+<hr />
+
+<details><summary>While enrolling my device to SEED, I get an error message, "<em>Couldn’t add your device. Wait a few minutes, then try again or contact your company support.</em>" What should I do?
+</summary>
+
+As suggested wait for few minutes, retry enrolling your device to Microsoft Intune and click **Approve** in the management profile.
+
+</details>
+<hr />
+
+<details>
+<summary>While approving the management profiles, I get a message "<em>Profiles cannot be approved while using remote or automated input method.</em>” What should I do?</summary>
+
+ Upgrade to the [latest macOS version][upgrade-macos] and ensure there is enough disk space available on your Mac device before retrying.
+
+</details>
+<hr />
+
+<details><summary>What should I do when I get an error message, “<em>You can’t use this version of the application Company Portal with this version of OS X.</em>" </summary>
+
+ Upgrade to the [latest macOS version][upgrade-macos].
+
+ </details>
+ <hr />
+
+<details><summary>After resetting my macOS password, I am unable to log in using the new password, why?</summary>
 
 This may occur if your new password does not meet the following password requirements:
 
@@ -146,3 +232,11 @@ This may occur if your new password does not meet the following password require
 <!-- tabs:end -->
 
   </details>
+
+
+
+
+[verify-defender-configuration]: verify-microsoft-defender-is-configured-correctly-for-your-os.md
+[raise-support-request]: support-channels.md
+[seed-offboarding-steps]: offboard-device-from-seed.md
+[upgrade-macos]: https://support.apple.com/downloads/macos

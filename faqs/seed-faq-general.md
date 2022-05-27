@@ -54,6 +54,45 @@ To know about the data collected by Microsoft Intune, refer to [Data collection 
 </details>
 <hr />
 
+<details>
+<summary>I am unable to connect to AWS VPN client on port 443? </summary>
+
+This is a known issue with Microsoft Defender version 101.54.16. To resolve this, install Microsoft Defender version 101.56.35 or later.
+
+</details>
+<hr />
+
+<details><summary>Why am I prompted to turn on my system integrity protection on my macOS device?</summary>
+
+  This is a policy requirement of the SEED team. System Integrity Protection is a security technology in OS X El Capitan and later that's designed to help prevent potentially malicious software from modifying protected files and folders on your macOS. System Integrity Protection restricts the root user account and limits the actions that the root user can perform on protected parts of the macOS.
+
+ </details><hr />
+
+ <details>
+   <summary>What is the minimum version of macOS needed for onboarding it into Microsoft Intune?</summary>
+
+ Big Sur 11 is the minimum version needed for a successful onboarding. If your macOS is an earlier version, ensure to [upgrade it to a later macOS version](https://support.apple.com/downloads/macos).
+
+ </details>
+ <hr />
+
+ <details>
+   <summary>Why am I prompted to turn on File Vault encryption?</summary>
+
+ File Vault encryption is needed to ensure device security and compliance.
+
+ </details>
+ <hr />
+
+ <details><summary>Why does my device slowdown after onboarding to Microsoft Intune?</summary>
+
+ SEED is designed to use **Microsoft Defender for Endpoint** to ensure device is free from malware, prevent and respond to advanced threats. If there is any other antivirus or anti-malware running simultaneously, it could compromise the performance of the operating system. To resolve this, disable or uninstall antivirus other than **Microsoft Defender for Endpoint**.
+
+ </details>
+ <hr />
+
+
+
 [techpass-documentation]: https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/
 [terms-and-policies]: https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/terms-and-policies
 [service-request]: https://form.gov.sg/#!/6099efa30d6a0a0012dff367
