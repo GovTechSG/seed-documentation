@@ -4,4 +4,4 @@
     - [Windows](post-onboarding-instructions/windows)
     - [Post onboarding verification steps for GCC 1.0 users](post-onboarding-instructions/gcc-1.0-users)
 - **Additional Resources**
-  - [Back to main](/_sidebar)
+  - [Back to main](/prerequisites-for-onboarding)

@@ -5,4 +5,4 @@
     - [Configuration of common Developer CLI tools in Cloudflare WARP](faqs/configuration-of-common-developer-cli-tools-with-cloudflare-warp)  
     - [Generate and upload Cloudflare diagnostic files](faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request)
 - **Additional Resources**
-  - [Back to main](/_sidebar)
+  - [Back to main](/prerequisites-for-onboarding)

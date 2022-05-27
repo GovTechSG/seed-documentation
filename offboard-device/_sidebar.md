@@ -3,4 +3,4 @@
     - [macOS](offboard-device/mac-os)
     - [Windows](offboard-device/windows)
 - **Additional Resources**
-  - [Back to main](/_sidebar)
+  - [Back to main](/prerequisites-for-onboarding)
