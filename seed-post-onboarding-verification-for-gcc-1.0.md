@@ -49,4 +49,4 @@ You will be directed to your DEEP dashboard.
 
 ### Related topics
 
-[Post onboarding instructions](post-onboarding-instructions).
+[Post onboarding instructions](post-onboarding-instructions/post-onboarding-steps-and-verification).

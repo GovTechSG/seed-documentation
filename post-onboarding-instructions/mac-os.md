@@ -24,7 +24,7 @@ After onboarding, enable FDA for the applications installed during SEED onboardi
        - Microsoft Defender ATP Security Extension <!--Microsoft Defenders Endpoint Security Extension-->
 
 
-> **Note:** If any of the listed application is missing, please refer to [Common onboarding issues for macOS users](faqs/common-issues-while-onboarding-using-macos).
+> **Note:** If any of the listed application is missing, please refer to [Common onboarding issues for macOS users](faqs/common-onboarding-issues).
 
   6. Select the checkboxes beside these applications.
 

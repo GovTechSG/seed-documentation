@@ -27,6 +27,6 @@ The following table provides some of the possible organisation ids and their nam
 
 **Related topics**
 - [Prerequisites for onboarding device to SEED](prerequisites-for-onboarding)
-- [Post onboarding instructions](post-onboarding-instructions)
+- [Post onboarding instructions](post-onboarding-instructions/post-onboarding-steps-and-verification)
 - [Ensure Microsoft Defender is configured correctly for your OS](verify-microsoft-defender-is-configured-correctly-for-your-os)
-- [Common issues while enrolling in to Microsoft Intune](faqs/common-issues-while-enrolling-with-microsoft-endpoint-manager)
+- [FAQs](faqs/seed-faqs)

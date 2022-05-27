@@ -10,7 +10,7 @@
 3. If **Management Profile** is already an existing profile, select it and remove it by clicking the minus icon at the lower-left corner.
 4. If you are unable to remove Management Profile, uninstall **Company Portal**.
 5. Reinstall [Company Portal](https://go.microsoft.com/fwlink/?linkid=853070).
-6. [Onboard your device to SEED](onboard-device-to-seed).
+6. [Onboard your device to SEED](onboard-device/onboard-device-to-seed).
 
 
 </details>
@@ -238,5 +238,5 @@ This may occur if your new password does not meet the following password require
 
 [verify-defender-configuration]: verify-microsoft-defender-is-configured-correctly-for-your-os.md
 [raise-support-request]: support-channels.md
-[seed-offboarding-steps]: offboard-device-from-seed.md
+[seed-offboarding-steps]: offboard-device/offboard-device-from-seed.md
 [upgrade-macos]: https://support.apple.com/downloads/macos

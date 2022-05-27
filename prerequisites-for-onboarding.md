@@ -341,4 +341,4 @@ If you are onboarding a macOS device, verify if System Integrity Protection (SIP
 
 
 ### Next steps
-- [Proceed to onboard your device to SEED](onboard-device-to-seed)
+- [Proceed to onboard your device to SEED](onboard-device/onboard-device-to-seed)
