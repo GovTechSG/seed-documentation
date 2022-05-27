@@ -121,9 +121,9 @@ Your tool or application may be using a certificate store that is separate from 
 <details>
 <summary>I am unable to access the GCC 2.0 Cloud Management Portal, or a Singapore Tech Stack service. Is there a problem with my Government Managed Device?</summary>
 
-If you are unable to access the GCC 2.0 CMP or a SGTS service, confirm the following. If your answer is "Yes" for all these queries, raise an [incident support request][raise-support-request] and [upload the diagnostic file to it](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/how-to-generate-and-upload-diagnostic-files-to-incident-support-request).
+If you are unable to access the GCC 2.0 CMP or a SGTS service, confirm the following. If your answer is "Yes" for all these queries, raise an [incident support request][raise-support-request] and [upload the diagnostic file to it](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request).
 
-*Confirm the following* :
+**Confirm the following**:
 1. If you have received the successfully onboarded email from DEEP.
 2. If you are using only the [supported browsers](best-practices).
 3. Ensure that Cloudflare WARP client is updated to the latest version and is connected. Go to Cloudflare WARP **Settings**, and ensure that **Gateway with WARP** is selected.
@@ -174,7 +174,7 @@ To check and synchronise your device time with the internet time server:
   </details>  
   <hr />
 
-  
+
 
 [raise-support-request]: support-channels.md
 [install-cloudflare-cert-operating-system]: https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/install-cloudflare-cert/#add-the-certificate-to-your-system
