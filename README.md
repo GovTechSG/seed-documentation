@@ -19,10 +19,10 @@ It includes the following components:
   - inspects and logs all DNS queries
   - allows requests based on granular policies
 
-**Development Environment Endpoint Posture**: The device management layer of MDM. It manages the following:
+**Developer's Environment Endpoint Posture**: The device management layer of MDM. It manages the following:
 
 - **Microsoft Intune**: Provides device and application management, including remote application deployment and selective device wipe.
 
-- **Microsoft Defender Advanced Threat Prevention (MDATP)**: Enterprise class vulnerability management, threat detection and response security solution.
+- **Microsoft Defender for Endpoint**: Enterprise class vulnerability management, threat detection and response security solution.
 
 - **Tanium**: Endpoint assets and posture management. Works with Cloudflare to ensure posture based conditional access.
