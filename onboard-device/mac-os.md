@@ -6,11 +6,6 @@
 >- Keep your recovery keys ready if you face issues in resetting your password or logging in to your device.
 
 
-<iframe title="YouTubeVideoPlayer" src="https://www.youtube.com/watch?v=ehKXKAX3TSo" height="315" width="560" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe src="https://www.youtube.com/watch?v=ehKXKAX3TSo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 ## Step 1: Set up Microsoft Intune
 
  **Set up Microsoft Intune to get the required applications and device configuration**
