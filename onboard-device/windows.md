@@ -2,9 +2,6 @@
 
 > **Note:** Based on your Windows settings, you may be prompted to restart or reset your password while onboarding.
 
-[Click here to watch SEED onboarding video](https://www.youtube.com/watch?v=Cvb7lppxFqs).
-
-<iframe src="https://www.youtube.com/embed/Cvb7lppxFqs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <ifigure> 
 <iframe title="YouTubeVideoPlayer" src="https://www.youtube.com/embed/Cvb7lppxFqs" height="315" width="560" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
