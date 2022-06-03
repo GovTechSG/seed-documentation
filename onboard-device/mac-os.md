@@ -5,6 +5,7 @@
 >- For a smooth onboarding journey, make sure to link your Apple ID to your device.
 >- Keep your recovery keys ready if you face issues in resetting your password or logging in to your device.
 
+[Click here to watch SEED onboarding video](https://www.youtube.com/watch?v=ehKXKAX3TSo).
 
 ## Step 1: Set up Microsoft Intune
 
