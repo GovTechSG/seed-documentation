@@ -2,6 +2,8 @@
 
 > **Note:** Based on your Windows settings, you may be prompted to restart or reset your password while onboarding.
 
+[Click here to watch SEED onboarding video](https://www.youtube.com/watch?v=Cvb7lppxFqs).
+
 ## Step 1: Enrol your device in Microsoft Intune
 <details>
   <summary>a. Enrol your device in Microsoft Intune</summary><br>
