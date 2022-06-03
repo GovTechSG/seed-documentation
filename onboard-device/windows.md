@@ -4,6 +4,12 @@
 
 [Click here to watch SEED onboarding video](https://www.youtube.com/watch?v=Cvb7lppxFqs).
 
+<iframe src="https://www.youtube.com/embed/Cvb7lppxFqs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<ifigure> 
+<iframe title="YouTubeVideoPlayer" src="https://www.youtube.com/embed/Cvb7lppxFqs" height="315" width="560" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</ifigure>
+
 ## Step 1: Enrol your device in Microsoft Intune
 <details>
   <summary>a. Enrol your device in Microsoft Intune</summary><br>
