@@ -11,3 +11,5 @@
   - [SEED additional resources](additional-resources/additional-resources)
 **Support**
   - [Raise an incident support request](support-channels)
+**Announcements**
+  - [Announcements](announcements)  

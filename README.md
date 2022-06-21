@@ -1,7 +1,5 @@
 # Overview
 
-!>  An issue has been identified with Cloudflare services on June 21 14:34 SGT. Users may not be able to access the Internet and Cloudflare protected SGTS services using Cloudflare WARP. While we are monitoring the Cloudflare status page, please turn off WARP to access the internet. You may also visit the [Cloudflare status page](https://www.cloudflarestatus.com/) for recent updates on this issue. If you encounter any issues, raise an [incident support request](support-channels) with the respective SGTS service or product team.
-
 Security Suite for Engineering Endpoint Devices (SEED) is a Mobile Device Management (MDM) platform for the Government Commercial Cloud (GCC) 2.0 environment.  
 
 It includes the following components:
