@@ -1,6 +1,6 @@
 # Announcements
 
-## June 21, 2022
+**June 21, 2022**
 
 An issue has been identified with Cloudflare services on June 21 14:34 SGT. A fix has been implemented on Jun 21, 15:20 SGT and we are monitoring the outcome.
 
