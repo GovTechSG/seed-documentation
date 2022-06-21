@@ -54,11 +54,12 @@ If you had requested SEED provisioning while signing up for your TechPass accoun
 ?> If you are a public officer, who already has a TechPass account and needs SEED provisioning, go to your profile page on the [TechPass portal](http://portal.techpass.gov.sg/), request SEED provisioning and follow the on-screen instructions. For more information, refer to [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-to-seed).
 
 ### Supported operating systems and devices for SEED
-A non-GSIB or a non-DWP device that runs on:
+- A non-GSIB or a non-DWP device that runs on:
   - Windows 10 Pro or Enterprise versions
   - macOS Big Sur 11 and later versions.
+-  You must have administrator rights on the device. 
 
-  >**Note:**
+  >**Notes:**
   >* Currently, you can't onboard virtual machine to SEED.
 
 ### Remove existing softwares on your device
