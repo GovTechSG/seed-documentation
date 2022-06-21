@@ -59,7 +59,7 @@ If you had requested SEED provisioning while signing up for your TechPass accoun
   - macOS Big Sur 11 and later versions
 -  You must have administrator rights on the device.
 
-  >**Notes:**
+  >**Note:**
   >* Currently, you can't onboard virtual machine to SEED.
 
 ### Remove existing softwares on your device
