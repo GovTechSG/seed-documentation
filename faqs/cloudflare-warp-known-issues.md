@@ -121,23 +121,20 @@ Your tool or application may be using a certificate store that is separate from 
 <details>
 <summary>I am unable to access the GCC 2.0 Cloud Management Portal, or a Singapore Tech Stack service. Is there a problem with my Government Managed Device?</summary>
 
-If you are unable to access the GCC 2.0 CMP or a SGTS service, confirm the following. If your answer is "Yes" for all these queries, raise an [incident support request][raise-support-request] and [upload the diagnostic file to it](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request).
+If you are unable to access the GCC 2.0 CMP or any SGTS service, do the following.
 
-**Confirm the following**:
-1. If you have received the successfully onboarded email from DEEP.
-2. If you are using only the [supported browsers](additional-resources/best-practices).
-3. Ensure that Cloudflare WARP client is updated to the latest version and is connected. Go to Cloudflare WARP **Settings**, and ensure that **Gateway with WARP** is selected.
-4. If Tanium is listed in the **Start** menu for Windows and in **Finder** > **Applications** for macOS.
-5. If your device operating system is updated to the latest version.
-6. If Defender is up-to-date and in the running state.
-7. If your TechPass account has the required permissions to access the GCC 2.0 CMP or a particular SGTS service.
+1. Confirm the following:
+    - If you have received the successfully onboarded email from DEEP.
+    - If you are using only the [supported browsers](additional-resources/best-practices).
+    - Ensure that Cloudflare WARP client is updated to the latest version and is connected. Go to Cloudflare WARP **Settings**, and ensure that **Gateway with WARP** is selected.
+    - If Tanium is listed in the **Start** menu for Windows and in **Finder** > **Applications** for macOS.
+    - If your device operating system is updated to the latest version.
+    - If Defender is up-to-date and in the running state.
+    - If your TechPass account has the required permissions to access the GCC 2.0 CMP or a particular SGTS service.
 
-In addition, make sure the VPN configuration does not route all traffic
-and DNS queries to the VPN server. Our recommendation is not to turn on
-WARP and the VPN at the same time.
+2. Make sure the VPN configuration does not route all traffic and DNS queries to the VPN server. Our recommendation is not to turn on WARP and the VPN at the same time.
 
-If you are still having issues accessing the GCC 2.0 CMP or SGTS
-service, raise a [Support Request][raise-support-request].
+If you still have issues, raise an [incident support request][raise-support-request] and [upload the diagnostic file to it](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request).
 
 </details>
 <hr />
@@ -145,23 +142,21 @@ service, raise a [Support Request][raise-support-request].
 <details>
 <summary>I intermittently experience access denied error when accessing SGTS services using Cloudflare WARP.</summary>
 
-This is a known issue with Cloudflare WARP. If you are unable to access the GCC 2.0 CMP or a SGTS service, confirm the following. If your answer is "Yes" for all these queries, raise an [incident support request][raise-support-request] and [upload the diagnostic file to it](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request).
+This is a known issue with Cloudflare WARP. If you are unable to access any SGTS service, do the following.
 
-**Confirm the following**:
-1. If you have received the successfully onboarded email from DEEP.
-2. If you are using only the [supported browsers](additional-resources/best-practices).
-3. Ensure that Cloudflare WARP client is updated to the latest version and is connected. Go to Cloudflare WARP **Settings**, and ensure that **Gateway with WARP** is selected.
-4. If Tanium is listed in the **Start** menu for Windows and in **Finder** > **Applications** for macOS.
-5. If your device operating system is updated to the latest version.
-6. If Defender is up-to-date and in the running state.
-7. If your TechPass account has the required permissions to access the GCC 2.0 CMP or a particular SGTS service.
+1. Confirm the following:
+    - If you have received the successfully onboarded email from DEEP.
+    - If you are using only the [supported browsers](additional-resources/best-practices).
+    - Ensure that Cloudflare WARP client is updated to the latest version and is connected. Go to Cloudflare WARP **Settings**, and ensure that **Gateway with WARP** is selected.
+    - If Tanium is listed in the **Start** menu for Windows and in **Finder** > **Applications** for macOS.
+    - If your device operating system is updated to the latest version.
+    - If Defender is up-to-date and in the running state.
+    - If your TechPass account has the required permissions to access the GCC 2.0 CMP or a particular SGTS service.
 
-In addition, make sure the VPN configuration does not route all traffic
-and DNS queries to the VPN server. Our recommendation is not to turn on
-WARP and the VPN at the same time.
+2. Make sure the VPN configuration does not route all traffic and DNS queries to the VPN server. Our recommendation is not to turn on WARP and the VPN at the same time.
 
-If you are still having issues accessing the GCC 2.0 CMP or SGTS
-service, raise a [Support Request][raise-support-request].
+If you still have issues, raise an [incident support request][raise-support-request] and [upload the diagnostic file to it](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request).
+
 </details>
 <hr />
 
