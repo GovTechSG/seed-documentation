@@ -121,7 +121,7 @@ Your tool or application may be using a certificate store that is separate from 
 <details>
 <summary>I am unable to access the GCC 2.0 Cloud Management Portal, or a Singapore Tech Stack service. Is there a problem with my Government Managed Device?</summary>
 
-If you are unable to access the GCC 2.0 CMP or any SGTS service, do the following.
+If you are unable to access the GCC 2.0 CMP or any SGTS service, do the following:
 
 1. Confirm the following:
     - If you have received the successfully onboarded email from DEEP.
@@ -134,15 +134,15 @@ If you are unable to access the GCC 2.0 CMP or any SGTS service, do the followin
 
 2. Make sure the VPN configuration does not route all traffic and DNS queries to the VPN server. Our recommendation is not to turn on WARP and the VPN at the same time.
 
-If you still have issues, raise an [incident support request][raise-support-request] and [upload the diagnostic file to it](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request).
+If you still have issues, [Generate diagnostic report](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request) and upload it to the [incident support request][raise-support-request].
 
 </details>
 <hr />
 
 <details>
-<summary>I intermittently experience access denied error when accessing SGTS services using Cloudflare WARP.</summary>
+<summary>I intermittently experience the error message: "<em>That account does not have access</em>" when accessing SGTS services using Cloudflare WARP.</summary>
 
-This is a known issue with Cloudflare WARP. If you are unable to access any SGTS service, do the following.
+This is a known issue with Cloudflare WARP. If you are unable to access any SGTS service, do the following:
 
 1. Confirm the following:
     - If you have received the successfully onboarded email from DEEP.
@@ -155,7 +155,7 @@ This is a known issue with Cloudflare WARP. If you are unable to access any SGTS
 
 2. Make sure the VPN configuration does not route all traffic and DNS queries to the VPN server. Our recommendation is not to turn on WARP and the VPN at the same time.
 
-If you still have issues, raise an [incident support request][raise-support-request] and [upload the diagnostic file to it](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request).
+If you still have issues, [Generate diagnostic report](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request) and upload it to the [incident support request][raise-support-request].
 
 </details>
 <hr />
