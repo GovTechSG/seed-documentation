@@ -192,6 +192,22 @@ To check and synchronise your device time with the internet time server:
   </details>  
   <hr />
 
+  <details>
+  <summary>Can I request to include IP addresses or domains in the Cloudflare WARP split tunnel list to exclude them from going through WARP and redirect them to go though other VPN?</summary>
+
+  Currently we do not support requests to modify Cloudflare WARP split tunnel or fallback domain entries that allow you to use other VPNs and Cloudflare WARP at the same time. If you want to use other VPNs, turn off Cloudflare WARP temporarily. Cloudflare WARP when manually turned off will be turned on automatically after three hours. However, from the security compliance aspect it is similar to connecting to external networks.
+
+  </details>
+  </hr>
+
+
+
+
+
+
+
+
+
 
 
 [raise-support-request]: support-channels.md
