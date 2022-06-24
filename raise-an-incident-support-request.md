@@ -1,7 +1,7 @@
 # Raise incident support request
 
 Raise an incident support request with the respective
-[SGTS service or product support team](#support-channels) if you
+[SGTS service or product support team](#raise-an-incident-support-request) if you
 experience:
 
 - uninformed service interruption or degraded service
@@ -27,9 +27,4 @@ experience:
 - If you are a GCC 1.0 user, raise an incident ticket from your Cloud
   Management Portal's service management.
 - If you are a GCC 2.0 user, raise an incident ticket with
-  [ITSM](https://itsm.sgnet.gov.sg/sp3).
-
-<!--
-[diagnostics information for Cloudflare Access]: faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request.md#generate-cloudflare-access-diagnostic-file
-[Generate HAR file]: faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request.md#generate-har-file
-[diagnostics information for Cloudflare WARP]: faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request.md#generate-cloudflare-warp-diagnostic-logs-->
+  [ITSM](https://itsm.sgnet.gov.sg/sp3) from your GSIB device.

@@ -1,6 +1,6 @@
 # How to generate and upload diagnostic files to incident support request 
 
-If you have connectivity issues while accessing GCC 2.0 CMP or SGTS services, raise an incident support request with the respective [SGTS service or product support team](#support-channels).
+If you have connectivity issues while accessing GCC 2.0 CMP or SGTS services, raise an incident support request with the respective [SGTS service or product support team](#raise-an-incident-support-request).
 
 - To troubleshoot Cloudflare WARP, Tanium, Defender or Intune issues, attach [diagnostic file for Cloudflare Access](#generate-cloudflare-access-diagnostic-file) and [diagnostic file for Cloudflare WARP](#generate-cloudflare-warp-diagnostic-logs) to the service request.
 

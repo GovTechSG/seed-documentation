@@ -80,7 +80,7 @@
 
 <details><summary>While enabling FDA, I can't find <strong>Microsoft Defenders Endpoint Security Extension</strong>. Can I proceed with my onboarding?</summary>
 
-Yes, you may proceed with your SEED onboarding and the Microsoft Defenders Endpoint Security Extension should be available within four hours. If it is still not available after four hours, please raise a [Support Request](support-channels) as it is required to ensure the completeness of your onboarding.
+Yes, you may proceed with your SEED onboarding and the Microsoft Defenders Endpoint Security Extension should be available within four hours. If it is still not available after four hours, please raise a [Support Request](raise-an-incident-support-request) as it is required to ensure the completeness of your onboarding.
 
 </details>
 <hr/>
@@ -237,6 +237,6 @@ This may occur if your new password does not meet the following password require
 
 
 [verify-defender-configuration]: verify-microsoft-defender-is-configured-correctly-for-your-os.md
-[raise-support-request]: support-channels.md
+[raise-support-request]: raise-an-incident-support-request.md
 [seed-offboarding-steps]: offboard-device/offboard-device-from-seed.md
 [upgrade-macos]: https://support.apple.com/downloads/macos
