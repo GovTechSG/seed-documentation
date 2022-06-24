@@ -118,7 +118,8 @@
 <kbd>![after-signed-in](images/cloudflare-warp-windows/after-signed-in.png ':size=400')</kbd>
 
 
-?> The WARP client connects your device to the Cloudflare network, which functions like a VPN. If you want to connect to a different VPN, first disconnect from WARP and exit it before doing so. If you do not exit the WARP client, it will attempt to automatically reconnect after hour and this may affect your existing VPN connection.
+?> The WARP client connects your device to the Cloudflare network, which functions like a VPN. If you want to connect to a different VPN, first turn off WARP connection before connecting to other VPN network. WARP will be automatically turned on after three hours and this will affect your other VPN connections.
+
 
 </details>
 

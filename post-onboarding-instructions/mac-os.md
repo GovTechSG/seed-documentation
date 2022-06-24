@@ -74,4 +74,4 @@ After onboarding to SEED, enrol your device with Cloudflare using WARP client to
 
   <kbd>![warp-teams](../images/cloudflare-warp-macos/warp-teams.png)</kbd>
 
-  ?>  If you need to connect to a different VPN, disconnect and quit from the WARP client.
+  ?> The WARP client connects your device to the Cloudflare network, which functions like a VPN. If you want to connect to a different VPN, first turn off WARP connection before connecting to other VPN network. WARP will be automatically turned on after three hours and this will affect your other VPN connections.
