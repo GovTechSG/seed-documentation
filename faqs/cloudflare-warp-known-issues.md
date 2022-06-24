@@ -210,7 +210,7 @@ To check and synchronise your device time with the internet time server:
 
 
 
-[raise-support-request]: support-channels.md
+[raise-support-request]: raise-an-incident-support-request.md
 [install-cloudflare-cert-operating-system]: https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/install-cloudflare-cert/#add-the-certificate-to-your-system
 [config-cli-tools-with-warp]: faqs/configuration-of-common-developer-cli-tools-with-cloudflare-warp
 [install-cloudflare-cert-applications]: https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/install-cloudflare-cert/#adding-to-applications

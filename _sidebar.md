@@ -10,6 +10,6 @@
 **Additional Resources**  
   - [SEED additional resources](additional-resources/additional-resources)
 **Support**
-  - [Raise support request](support-channels)
+  - [Raise support request](raise-an-incident-support-request)
   - [Announcements](announcements)
   - [Known issues](known-issues)
