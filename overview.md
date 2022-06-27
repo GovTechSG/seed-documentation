@@ -4,7 +4,7 @@ Security Suite for Engineering Endpoint Devices (SEED) is a Mobile Device Manage
 
 It includes the following components:
 
-- **TechPass**: An Identity Service that allows single sign-on for users to seamlessly access Singapore Tech Stack and GCC 2.0 services.
+- **TechPass**: An Identity Service that allows single sign-on for users to seamlessly access Singapore Government Tech Stack(SGTS) and Government on Commercial Cloud (GCC) 2.0 services.
 
 - **Cloudflare Teams**:  This ensures Zero trust network access and includes Cloudflare Access and Cloudflare Gateway.
 
@@ -19,7 +19,7 @@ It includes the following components:
   - inspects and logs all DNS queries
   - allows requests based on granular policies
 
-**Developers' Environment Endpoint Posture**: The device management layer of Mobile Device Management (MDM). It manages the following:
+**Developers' Environment Endpoint Posture**: The device management layer of MDM. It manages the following:
 
 - **Microsoft Intune**: Provides device and application management, including remote application deployment and selective device wipe.
 
