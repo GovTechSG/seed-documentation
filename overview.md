@@ -19,7 +19,7 @@ It includes the following components:
   - inspects and logs all DNS queries
   - allows requests based on granular policies
 
-**Developers' Environment Endpoint Posture**: The device management layer of Mobile Device Management (MDM). It manages the following:
+**Developers' Environment Endpoint Posture**: The device management layer of MDM. It manages the following:
 
 - **Microsoft Intune**: Provides device and application management, including remote application deployment and selective device wipe.
 
