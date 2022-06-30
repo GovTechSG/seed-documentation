@@ -1,6 +1,6 @@
 # Announcements
 
-**June 29, 2022**
+### June 29, 2022
 
 Newer version of Cloudflare WARP Client will be installed on your GMD on July 01, 2022 18:00 SGT:
 - version 2022.5.342 for macOS
@@ -23,7 +23,7 @@ Ensure your GMD is connected to an active internet connection during the install
 If you can't access SGTS services after the newer client version is installed, please reboot your GMD. If the issue persists, please [raise an incident support request](raise-an-incident-support-request) with the respective SGTS service or products team.
 
 
-**June 21, 2022**
+### June 21, 2022
 
 An issue has been identified with Cloudflare services on June 21 14:34 SGT. A fix has been implemented on Jun 21, 15:20 SGT and we are monitoring the outcome.
 
