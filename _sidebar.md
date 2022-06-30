@@ -1,5 +1,6 @@
 **Getting Started**
   - [Overview](overview)
+  - [What's New](what-s-new)
   - [Prerequisites](prerequisites-for-onboarding)
   - [Onboard device to SEED](onboard-device/onboard-device-to-seed)
 **After Onboarding**    
