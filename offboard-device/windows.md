@@ -1,4 +1,5 @@
-# Windows
+# Offboard Windows device from SEED
+
 
 ## Step 1: Remove your  device from Microsoft Intune
 

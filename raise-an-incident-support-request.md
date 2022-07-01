@@ -6,7 +6,7 @@ experience:
 
 - uninformed service interruption or degraded service
 
-- issues with Cloudflare WARP, Tanium, Defender or Intune
+- issues with SEED components such as Cloudflare WARP, Tanium, Defender or Intune
 
 - connectivity issues while accessing GCC 2.0 CMP or SGTS services.
 
