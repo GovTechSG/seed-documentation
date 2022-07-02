@@ -1,8 +1,6 @@
 # Raise incident support request
 
-Raise an incident support request with the respective
-[SGTS service or product support team](#raise-an-incident-support-request) if you
-experience:
+Raise an incident support request with the respective SGTS service or product support team if you experience:
 
 - uninformed service interruption or degraded service
 
