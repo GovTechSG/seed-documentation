@@ -1,4 +1,4 @@
-# Prerequisites for onboarding device to SEED
+# Prerequisites for onboarding to SEED
 > Take note of the following before you proceed with the SEED onboarding:
 >- You can onboard only a non-GSIB or a non-DWP device to SEED.
 >
