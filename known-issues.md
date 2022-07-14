@@ -1,4 +1,4 @@
-# Known issues
+## Known issues
 
 **Issue:** When accessing SGTS services using Cloudflare WARP, user intermittently experience an error message which states *That account does not have access* .
 
