@@ -13,5 +13,4 @@
   - [SEED additional resources](additional-resources/additional-resources)
 **Support**
   - [Create support request](raise-an-incident-support-request)
-  - [Announcements](announcements)
-  - [Known issues](known-issues)
+ 
