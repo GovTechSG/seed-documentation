@@ -7,7 +7,7 @@
 
 
 
-<ifigure> 
+<ifigure>
 <iframe title="YouTubeVideoPlayer" src="https://www.youtube.com/embed/P9R5RiMpaVU?showinfo=0" height="315" width="560" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </ifigure>
 
@@ -102,7 +102,7 @@ If your onboarding is successful, within an hour, you will receive a successfull
 
 
 >**Notes:**
->- If you do not receive the successfully onboarded to SEED email, [check if Microsoft Defender is configured correctly](verify-microsoft-defender-is-configured-correctly-for-your-os) and also check if Tanium and Cloudflare are installed. If Tanium or Cloudflare is not installed, [raise a support request](raise-an-incident-support-request).
+>- If you do not receive the successfully onboarded to SEED email, [check if Microsoft Defender is configured correctly](verify-microsoft-defender-is-configured-correctly-for-your-os) and also check if Tanium and Cloudflare are installed. If Tanium or Cloudflare is not installed, [create a support request](raise-an-incident-support-request).
 >- Shortly after this email, you will receive a desktop notification informing you that your device has been renamed and will automatically restart in the next five minutes. When you log in again, you will be prompted to reset your password. This is to enforce a strong password policy.
 >- If you had reset your password while onboarding, you will not be prompted to reset password when your device automatically restarts.
 >- Refer to [Best practices](additional-resources/best-practices) to know about the supported browsers.

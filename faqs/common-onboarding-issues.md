@@ -31,7 +31,7 @@
 
   One of the possible reasons could be that your device was earlier onboarded to Microsoft Intune by a different user and was not offboarded properly during the pre-onboarding steps.  
 
-  To confirm if that is the case, raise a [Support Request][raise-support-request] with your device serial number.
+  To confirm if that is the case, [create a support request][raise-support-request] with your device serial number.
 
   The SEED team can verify if your device was previously enrolled to Microsoft Intune under a different user. If this is confirmed, choose on the following to offboard it from Microsoft Intune and then retry onboarding your device to SEED.
 
@@ -124,7 +124,7 @@ Before raising a support request, confirm the following:
 
 - [Verify if Microsoft Defender is configured correctly on your device][verify-defender-configuration].
 
-- Check if Tanium and Cloudflare are installed. These applications will be automatically installed while enrolling your device to SEED. If they are not installed, raise a [Support Request][raise-support-request].
+- Check if Tanium and Cloudflare are installed. These applications will be automatically installed while enrolling your device to SEED. If they are not installed, [create a support request][raise-support-request].
 
 </details>
 <hr />

@@ -66,7 +66,7 @@ The following can cause this issue:
 <kbd>![apply DNS changes](../images/resolve-dns-error-macos/apply-dns-changes.png)</kbd>
 
 7. Restart your browser and verify if you can access the SEED-trusted websites such as GCC 2.0 CMP and any secured public website.
-8. If you still cannot access SEED-trusted websites, raise a [Support Request][raise-support-request].
+8. If you still cannot access SEED-trusted websites, [create a support request][raise-support-request].
 </details><br>
 
 <details><summary>Windows</summary>
@@ -96,7 +96,7 @@ The following can cause this issue:
 
 7. Click **OK** and exit the window.
 8. Restart your browser and verify if you can access the SEED-trusted websites such as GCC 2.0 CMP and any secured public website.
-9. If you still cannot access SEED-trusted websites, raise a [support-request][raise-support-request].
+9. If you still cannot access SEED-trusted websites, [create a support request][raise-support-request].
 
 </details>
 </details>
