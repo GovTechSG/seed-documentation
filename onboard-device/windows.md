@@ -3,7 +3,7 @@
 > **Note:** Based on your Windows settings, you may be prompted to restart or reset your password while onboarding.
 
 
-<ifigure> 
+<ifigure>
 <iframe title="YouTubeVideoPlayer" src="https://www.youtube.com/embed/Cvb7lppxFqs" height="315" width="560" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </ifigure>
 
@@ -82,5 +82,5 @@ Write-Output $intune_id
 </details>
 
 >**Notes**:
->- If you do not receive the successfully onboarded to SEED email, [check if Microsoft Defender is configured correctly](verify-microsoft-defender-is-configured-correctly-for-your-os) and also check if Tanium and Cloudflare are installed. If Tanium or Cloudflare is not installed, [raise a support request](raise-an-incident-support-request).
+>- If you do not receive the successfully onboarded to SEED email, [check if Microsoft Defender is configured correctly](verify-microsoft-defender-is-configured-correctly-for-your-os) and also check if Tanium and Cloudflare are installed. If Tanium or Cloudflare is not installed, [create a support request](raise-an-incident-support-request).
 >- Refer to [Best practices](additional-resources/best-practices) to know about the supported browsers.
