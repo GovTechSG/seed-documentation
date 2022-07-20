@@ -2,7 +2,7 @@
 
 This page provides you with information about:
 
-- [latest changes](#latest-changes]
+- [latest changes](#latest-changes)
 - [Announcements](announcements)
 - [Known issues](known-issues)
 - bug fixes
