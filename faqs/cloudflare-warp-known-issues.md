@@ -1,13 +1,13 @@
 # Cloudflare WARP FAQ
 
-<details>
-<summary>What should I do if I am unable to browse the internet using Cloudflare WARP?</summary>
+<details open>
+<summary style="font-size:20px;font-weight:bold">What should I do if I am unable to browse the internet using Cloudflare WARP?</summary>
 
 Check if you are connected to any VPN. If you are still connected to your VPN, you may not be able to access the internet as it conflicts with your DNS resolver configuration. To resolve this, disconnect from your VPN and make sure only Cloudflare WARP is connected.
 
 </details>
      <hr />
-<details><summary>I had to use my VPN and as recommended by SEED, I had turned off Cloudflare WARP and connected to VPN. After three hours, when Cloudflare WARP automatically reconnects, I am unable to browse the internet. What could be the reason and how to resolve it?</summary>
+<details open><summary style="font-size:20px;font-weight:bold">I had to use my VPN and as recommended by SEED, I had turned off Cloudflare WARP and connected to VPN. After three hours, when Cloudflare WARP automatically reconnects, I am unable to browse the internet. What could be the reason and how to resolve it?</summary>
 
 If you disconnect Cloudflare WARP on your device, it gets automatically reconnected after three hours. At that time, if you are still connected to your VPN, you may not be able to access the internet as it conflicts with your DNS resolver configuration.
 
@@ -18,8 +18,8 @@ In addition, make sure the VPN configuration does not route all traffic and DNS 
 </details>
      <hr />
 
-<details>
-<summary>I am unable to access a particular website. I get an <em>Access restricted</em> error or <em>DNS error</em> while accessing this website.</summary>
+<details open>
+<summary style="font-size:20px;font-weight:bold">I am unable to access a particular website. I get an <em>Access restricted</em> error or <em>DNS error</em> while accessing this website.</summary>
 
 The following can cause this issue:
 
@@ -27,16 +27,16 @@ The following can cause this issue:
 
 - DNS resolution for the website may fail because of WARP and Gateway.
 
-*To resolve gateway issues for trusted sites* :
+*To resolve gateway issues for trusted sites*
 
 1. Turn off WARP.
 2. Ensure Microsoft Defender is running to protect your device against malware.
 
 ?> Note WARP connection will automatically reconnect after three hours.
 
-*To resolve DNS error for your device* :
+*To resolve DNS error for your device*
 
-<details><summary>macOS</summary>
+<details><summary style="font-size:20px;font-weight:bold">macOS</summary>
 
 1. Go to **Apple** menu > **System Preferences** > **Network**.
 
@@ -69,7 +69,7 @@ The following can cause this issue:
 8. If you still cannot access SEED-trusted websites, [create a support request][raise-support-request].
 </details><br>
 
-<details><summary>Windows</summary>
+<details><summary style="font-size:20px;font-weight:bold">Windows</summary>
 
 1. Select **Start** > **Settings** > **Network & Internet**.
 
@@ -102,8 +102,8 @@ The following can cause this issue:
 </details>
      <hr />
 
-<details>
-<summary>While using some tools and applications with Cloudflare WARP Client, why do I get SSL errors?</summary>
+<details open>
+<summary style="font-size:20px;font-weight:bold">While using some tools and applications with Cloudflare WARP Client, why do I get SSL errors?</summary>
 
 Your tool or application may be using a certificate store that is separate from the trusted root certificate store of your system.
 
@@ -118,8 +118,8 @@ Your tool or application may be using a certificate store that is separate from 
 </details>
 <hr />
 
-<details>
-<summary>I am unable to access the GCC 2.0 Cloud Management Portal, or a Singapore Tech Stack service. Is there a problem with my Government Managed Device?</summary>
+<details open>
+<summary style="font-size:20px;font-weight:bold">I am unable to access the GCC 2.0 Cloud Management Portal, or a Singapore Tech Stack service. Is there a problem with my Government Managed Device?</summary>
 
 If you are unable to access the GCC 2.0 CMP or any SGTS service, do the following:
 
@@ -139,8 +139,8 @@ If you still have issues, [Generate diagnostic report](https://docs.developer.te
 </details>
 <hr />
 
-<details>
-<summary>I intermittently experience the error message: "<em>That account does not have access</em>" when accessing SGTS services using Cloudflare WARP.</summary>
+<details open>
+<summary style="font-size:20px;font-weight:bold">I intermittently experience the error message: "<em>That account does not have access</em>" when accessing SGTS services using Cloudflare WARP.</summary>
 
 This is a known issue with Cloudflare WARP. If you are unable to access any SGTS service, do the following:
 
@@ -160,14 +160,14 @@ If you still have issues, [Generate diagnostic report](https://docs.developer.te
 </details>
 <hr />
 
-<details>
-<summary>Tanium client returns a 400 Bad Request Error when contacted by the Cloudflare Access landing page via localhost. What should I do? </summary>
+<details open>
+<summary style="font-size:20px;font-weight:bold">Tanium client returns a 400 Bad Request Error when contacted by the Cloudflare Access landing page via localhost. What should I do? </summary>
 
 This is due to the time synchronisation issue between Cloudflare and Tanium client. To fix this, resync the local time of your macOS or Windows machine.
 
 To check and synchronise your device time with the internet time server:
 
-  <details><summary>For macOS device</summary>
+  <details><summary style="font-size:20px;font-weight:bold">For macOS device</summary>
 
    1. From the **Apple** menu, go to **System Preferences** > **Date & Time**.
    2. Click the lock icon and use your Touch ID or enter your password to unlock.
@@ -176,7 +176,7 @@ To check and synchronise your device time with the internet time server:
    ![synchronise your Mac time](../images/sync-clock-on-mac.png)
   </details>
 
-  <details><summary>For Windows 10 device</summary>
+  <details><summary style="font-size:20px;font-weight:bold">For Windows 10 device</summary>
 
     1. Open the **Start** menu and click **Settings**.
     1. Choose **Time & Language**.
@@ -192,8 +192,8 @@ To check and synchronise your device time with the internet time server:
   </details>  
   <hr />
 
-  <details>
-  <summary>Can I request to include IP addresses or domains in the Cloudflare WARP split tunnel list to exclude them from going through WARP and redirect them to go though other VPN?</summary>
+  <details open>
+  <summary style="font-size:20px;font-weight:bold">Can I request to include IP addresses or domains in the Cloudflare WARP split tunnel list to exclude them from going through WARP and redirect them to go though other VPN?</summary>
 
   Currently, we do not accept requests for split tunnel or fallback domain entries because from a security compliance perspective, it would allow endpoints to access other VPN networks and act as a network bridge. If you want to connect to other VPN networks, turn off Cloudflare WARP temporarily. Note that Cloudflare WARP when manually turned off, will be automatically turned on after three hours.
 

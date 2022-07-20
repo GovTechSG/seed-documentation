@@ -1,4 +1,4 @@
-- **Offboard device**
+- **Offboarding**
   - [Offboard](offboard-device/offboard-device-from-seed)
     - [macOS](offboard-device/mac-os)
     - [Windows](offboard-device/windows)
