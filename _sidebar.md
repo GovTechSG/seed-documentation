@@ -3,7 +3,7 @@
   - [What's New](what-s-new)
 **Getting started**  
   - [Prerequisites](prerequisites-for-onboarding)
-  - [Onboard device to SEED](onboard-device/onboard-device-to-seed)
+  - [Onboard device](onboard-device/onboard-device-to-seed)
 **After onboarding**    
   - [Post onboarding instructions](post-onboarding-instructions/post-onboarding-steps-and-verification)
 **Offboard device**
