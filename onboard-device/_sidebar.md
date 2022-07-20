@@ -1,4 +1,4 @@
-- **Onboarding Guide**
+- **Onboard device**
   - [Onboard](onboard-device/onboard-device-to-seed)
     - [macOS](onboard-device/mac-os)
     - [Windows](onboard-device/windows)

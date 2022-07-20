@@ -1,15 +1,15 @@
-**Getting Started**
+**Getting started**
   - [Overview](overview)
-  - [What's New](what-s-new)
+  - [What's new](what-s-new)
   - [Prerequisites](prerequisites-for-onboarding)
   - [Onboard device to SEED](onboard-device/onboard-device-to-seed)
-**After Onboarding**    
+**After onboarding**    
   - [Post onboarding instructions](post-onboarding-instructions/post-onboarding-steps-and-verification)
-**Offboard Device**
+**Offboard device**
   - [Offboard device from SEED](offboard-device/offboard-device-from-seed)
-**Troubleshooting**
+**Troubleshoot**
   - [FAQs](faqs/seed-faqs)
-**Additional Resources**  
+**Additional resources**  
   - [SEED additional resources](additional-resources/additional-resources)
 **Support**
   - [Create support request](raise-an-incident-support-request)

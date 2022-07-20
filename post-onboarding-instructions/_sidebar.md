@@ -1,7 +1,7 @@
-- **Post Onboarding Guide**
+- **Post onboarding**
   - [Post onboarding instructions](post-onboarding-instructions/post-onboarding-steps-and-verification)
     - [macOS](post-onboarding-instructions/mac-os)
     - [Windows](post-onboarding-instructions/windows)
     - [Post onboarding verification steps for GCC 1.0 users](post-onboarding-instructions/gcc-1.0-users)
-- **Additional Resources**
+- **Additional resources**
   - [Back to main](/prerequisites-for-onboarding)
