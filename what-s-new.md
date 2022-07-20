@@ -6,7 +6,7 @@ This page provides you with information about:
 - [Announcements](announcements)
 - [Known issues](known-issues)
 - bug fixes
-- deprecated functionality
+- deprecated functionalities
 
 ## Latest changes
 
