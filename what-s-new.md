@@ -2,13 +2,13 @@
 
 This page provides you with information about:
 
-- latest changes
-- upcoming changes
-- Known issues
-- Bug fixes
-- Deprecated functionality
+- [latest changes](#latest-changes]
+- [Announcements](announcements)
+- [Known issues](known-issues)
+- bug fixes
+- deprecated functionality
 
-
+## Latest changes
 
 | Date  | Article | Change |
 | ------------- |:-------------:|:-------------|
@@ -18,6 +18,8 @@ This page provides you with information about:
 | 24 June 2022     | [Known issues](known-issues)     | Added this topic which lists the known issues and available work around. |
 | 21 June 2022 | [Announcements](announcements)  | Added this topic to publish incident and planned activities. |
 
+[Announcements](announcements.md ':include')
+
 [Known issues](known-issues.md ':include')
 
-[Announcements](announcements.md ':include')
+
