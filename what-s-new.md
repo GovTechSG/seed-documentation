@@ -1,4 +1,4 @@
-# What's New
+# What's new
 
 This page provides you with information about:
 
