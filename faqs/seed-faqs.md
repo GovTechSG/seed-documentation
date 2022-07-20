@@ -1,6 +1,6 @@
 # SEED troubleshooting guide
 
-Browse through these FAQs to find answers to commonly raised questions. We encourage you to read through the relevant articles before raising a support request.
+Browse through these FAQs to find answers to commonly asked questions. We encourage you to read through the relevant articles before raising a support request.
 
 **List of FAQs**
 
