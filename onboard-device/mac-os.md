@@ -85,10 +85,34 @@ This step is applicable only for public officers to get the required application
 intune_id="$(security find-certificate -a /Library/Keychains/System.keychain | egrep -B 4 '\"issu\"<blob>=.+MICROSOFT INTUNE MDM DEVICE CA' | grep alis | cut -d '"' -f 4)"
 if [ -z "$intune_id" ]
 then
-    echo "\nIntune ID not found\n"
-else
-    echo "\n$intune_id\n"
+    echo "Intune ID not found"
+    return
 fi
+
+num_candidates="$(echo "$intune_id" | wc -l | xargs echo -n)"
+if [ "$num_candidates" -eq 1 ]
+then
+    echo "$intune_id"
+    return
+fi
+
+old_ifs="$IFS"
+IFS='\n'
+actual_id="Intune ID not found"
+curr_latest_end_date_unix=0
+while read id
+do
+    end_date="$(security find-certificate -c "$id" -p /Library/Keychains/System.keychain | openssl x509 -noout -enddate | cut -d '=' -f 2)"
+    end_date_unix="$(date -j -f "%b %e %H:%M:%S %Y %Z" "$end_date" "+%s")"
+    if [ "$end_date_unix" -ge "$curr_latest_end_date_unix" ]
+    then
+        actual_id="$id"
+        curr_latest_end_date_unix="$end_date_unix"
+    fi
+done <<< "$intune_id"
+
+IFS="$old_ifs"
+echo "$actual_id"
 ```
 2. Take note of the Intune device ID that will be displayed on the Terminal window.
 3. Using your GSIB device, go to your profile page on the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
