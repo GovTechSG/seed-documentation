@@ -73,6 +73,9 @@ This is a known issue with Microsoft Defender version 101.54.16. To resolve this
 
  Big Sur 11 is the minimum version needed for a successful onboarding. If your macOS is an earlier version, ensure to [upgrade it to a later macOS version](https://support.apple.com/downloads/macos).
 
+ > **Note**:
+ > When you upgrade the OS of your Mac device, the `OpenSSH/etc/ssh/sshd_config` file may be reset. Hence, before proceeding to upgrade the OS of your Mac device, back up the `sshd_config` file so that you can easily restore if it gets reset during the OS upgrade. 
+
  </details>
  <hr />
 
