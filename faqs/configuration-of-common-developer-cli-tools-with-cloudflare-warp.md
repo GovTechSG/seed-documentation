@@ -1,9 +1,18 @@
 # Configuration of common Developer CLI tools with Cloudflare WARP
 
+This article tells you how to configure the following common applications. To know how to configure any other applications or tools, refer to the [Cloudflare documentation](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/install-cloudflare-cert).
+
 - [Node.js and NPM](#nodejs-and-npm)
 - [Docker](#docker)
 - [AWS CLI](#aws-cli)
 - [Golang](#golang)
+
+> **Note**:
+>- If you are using the above-mentioned applications or tools, and unable to access SGTS servcies, create a support request. For more information, refer to [create support request](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/raise-an-incident-support-request). 
+>- If you are using other tools and applications, contact [Cloudflare Community Support Forums](https://support.cloudflare.com/hc/en-us).
+
+
+
 
 
 ## Node.js and NPM
@@ -11,12 +20,12 @@
 
 Node.js and NPM use a hardcoded certificate store and requires additional configuration to trust the Cloudflare Certificate.
 
-For Linux & MacOS users:
+For Linux & macOS users:
 ```bash
 mkdir -p "${HOME}/.config/.cloudflare"
 curl -sSLj -o "${HOME}/.config/.cloudflare/Cloudflare_CA.pem" "https://developers.cloudflare.com/cloudflare-one/static/documentation/connections/Cloudflare_CA.pem"
 
-# If you are using MacOS, Zsh is likely to be your default terminal. If you are using Zsh, please run the following commands:
+# If you are using macOS, Zsh is likely to be your default terminal. If you are using Zsh, please run the following commands:
 echo 'export NODE_EXTRA_CA_CERTS="${HOME}/.config/.cloudflare/Cloudflare_CA.pem"' | tee -a "${HOME}/.zshrc"
 source "${HOME}/.zshrc"
 
@@ -41,7 +50,7 @@ For Linux & MacOS users:
 mkdir -p "${HOME}/.config/.cloudflare"
 curl -sSLj -o "${HOME}/.config/.cloudflare/Cloudflare_CA.pem" "https://developers.cloudflare.com/cloudflare-one/static/documentation/connections/Cloudflare_CA.pem"
 
-# If you are using MacOS, Zsh is likely to be your default terminal. If you are using Zsh, please run the following commands:
+# If you are using macOS, Zsh is likely to be your default terminal. If you are using Zsh, please run the following commands:
 echo 'export AWS_CA_BUNDLE="${HOME}/.config/.cloudflare/Cloudflare_CA.pem"' | "tee -a ${HOME}/.zshrc"
 source "${HOME}/.zshrc"
 
