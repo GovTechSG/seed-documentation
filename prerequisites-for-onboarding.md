@@ -59,9 +59,14 @@ If you had requested SEED provisioning while signing up for your TechPass accoun
 - A non-GSIB or a non-DWP device that runs on:
   - Windows 10 Pro or Enterprise versions
   - macOS 11 (macOS Big Sur) and macOS 12 (macOS Monterey) versions
+
+   > **Note**:
+   > When you upgrade the OS of your Mac device, the OpenSSH settings found in `/etc/ssh/sshd_config` file may be reset. Hence, before proceeding to upgrade the OS of your Mac device, back up the `sshd_config` file so that you can easily restore if it gets reset during the OS upgrade. 
+
 -  You must have administrator rights on the device.
 
   >**Note:**
+  >
   >* Currently, you can't onboard virtual machine to SEED.
 
 ### Remove existing softwares on your device
