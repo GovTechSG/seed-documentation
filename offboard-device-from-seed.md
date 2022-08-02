@@ -2,6 +2,8 @@
 
 This page tells you how to offboard your device from SEED.
 
+
+
 <!-- tabs:start -->
 
 ### **macOS**
