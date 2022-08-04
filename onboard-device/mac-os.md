@@ -59,7 +59,7 @@
 
   <kbd>![profile](../images/onboarding-for-macos/profile-2.png)</kbd>
 
-  If you are a vendor or a contractor, the required configuration profiles will be installed as shown below. If profile installation fails, refer to [Common onboarding issues for macOS users](faqs/common-issues-while-onboarding).
+  If you are a vendor or a contractor, the required configuration profiles will be installed as shown below. If profile installation fails, refer to [Common onboarding issues for macOS users](faqs/common-onboarding-issues).
 
   <kbd>![list-of-profiles](../images/onboarding-for-macos/list-of-profiles.png)</kbd>
 
