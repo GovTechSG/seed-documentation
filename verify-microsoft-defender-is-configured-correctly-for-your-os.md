@@ -7,7 +7,7 @@
   1. Open **Terminal** and run `mdatp health`.
   2. Note down the displayed **org_id**.   
 
-  ?> If this command does not return anything, it indicates your device does not have Defender. Hence, [proceed to onboard your device to SEED](seed-onboarding-instructions-for-macos).
+  ?> If this command does not return anything, it indicates your device does not have Defender. Hence, [proceed to onboard your macOS device to SEED](onboard-device/mac-os).
 
   The org_id displayed depends on the TechPass account used for enrolling your device to SEED. For more information, refer to [organisation IDs and organisation mapping](faqs/organisation-ids-and-mapping).
 
@@ -39,7 +39,7 @@ At any time, users can Sign in to Company Portal app, click the three dots and c
 2. Choose **Registry Editor** from the results and click **Run as administrator**.
 3. In the **Registry Editor**, go to **Computer** > **HKEY_LOCAL_MACHINE** > **SOFTWARE** > **Microsoft** > **Windows Advanced Threat Protection** > **Status**. The OrgId of the Defender or antivirus running on your device will be displayed here.
 
-?> If you do not see the **Windows Advanced Threat Protection** folder, it indicates your device does not have Microsoft Defender. Hence, [proceed to onboard your device to SEED](seed-onboarding-instructions-windows).
+?> If you do not see the **Windows Advanced Threat Protection** folder, it indicates your device does not have Microsoft Defender. Hence, [proceed to onboard your Windows device to SEED](onboard-device/windows).
 
 The org_id displayed depends on the TechPass account used for enrolling your device to SEED. For more information, refer to [organisation IDs and organisation mapping](faqs/organisation-ids-and-mapping).
 
