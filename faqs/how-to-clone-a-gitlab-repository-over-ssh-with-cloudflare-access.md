@@ -38,6 +38,28 @@ Host gitlab-in-ssh.ship.gov.sg
 > **Note**:
 > If your macOS device has M1 chip, then the location of `cloudflared` could be `/opt/homebrew/bin/cloudflared`.
 
+1. Test the SSH flow by attempting to clone the project.
+
+```
+$ git clone git@gitlab-in-ssh.ship.gov.sg:gcc2.0/seed/cloudflare-support.git
+
+```
+
+> **Note**:
+> If you're copying the clone url from GitLab Web Interface, change the GitLab hostname from `gitlab-in.ship.gov.sg` to `gitlab-in-ssh.ship.gov.sg`.
+
+![clone-gitlab-repo](../images/clone-gitlab-repo-cloudflared.png)
+
+`cloudflared` will prompt you to log in with TechPass. Authenticate your login. If the authentication is successful, the following messages will be displayed.
+
+![cloudflare-login-success](../images/cloudflare-login-success-1.png)
+
+![cloudflare-login-success](../images/cloudflare-login-success-2.png)
+
+![cloudflare-login-success](../images/cloudflare-login-success-3.png)
+
+The token is saved in your `~/.cloudflared` directory, and the git clone command clones the code repository.
+
 
 ## **Windows**
 

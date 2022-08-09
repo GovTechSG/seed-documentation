@@ -35,6 +35,25 @@ Host bitbucket-ssh.ship.gov.sg
 > **Note**:
 > If your macOS device has M1 chip, then the location of `cloudflared` could be `/opt/homebrew/bin/cloudflared`.
 
+1. Test the SSH flow by attempting to clone the project.
+
+```
+$ git clone ssh://git@bitbucket-ssh.ship.gov.sg:7999/ship/ship-lambda-script.git
+
+```
+
+> **Note**:
+> If you're copying the clone url from GitLab Web Interface, change the GitLab hostname from `gitlab-in.ship.gov.sg` to `gitlab-in-ssh.ship.gov.sg`.
+
+`cloudflared` will prompt you to log in with TechPass. Authenticate your login. If the authentication is successful, the following messages will be displayed.
+
+![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-1.png)
+
+![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-2.png)
+
+![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-3.png)
+
+The token is saved in your `~/.cloudflared` directory, and the git clone command clones the code repository.
 
 ## **Windows**
 
