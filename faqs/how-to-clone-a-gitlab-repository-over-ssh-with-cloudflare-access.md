@@ -52,7 +52,7 @@ $ git clone git@gitlab-in-ssh.ship.gov.sg:gcc2.0/seed/cloudflare-support.git
 
 1. When `cloudflared` prompts you to log in, log in with TechPass.
 
-![cloudflare-login-success](../images/cloudflare-login-success-1.png ':size=600')
+<kbd>![cloudflare-login-success](../images/cloudflare-login-success-1.png ':size=600')</kbd>
 
 1. Authenticate your login.
 
@@ -99,11 +99,11 @@ $ git clone git@gitlab-in-ssh.ship.gov.sg:gcc2.0/seed/cloudflare-support.git
 > **Note**:
 > If you're copying the clone url from the GitLab Web Interface, change the GitLab hostname from `gitlab-in.ship.gov.sg` to `gitlab-in-ssh.ship.gov.sg`.
 
-![clone-gitlab-repo](../images/clone-gitlab-repo-cloudflared.png ':size=600')
+<kbd>![clone-gitlab-repo](../images/clone-gitlab-repo-cloudflared.png ':size=600')</kbd>
 
 1. When `cloudflared` prompts you to log in, log in with TechPass.
 
-![cloudflare-login-success](../images/cloudflare-login-success-1.png ':size=600')
+<kbd>![cloudflare-login-success](../images/cloudflare-login-success-1.png ':size=600')</kbd>
 
 1. Authenticate your login.
 
