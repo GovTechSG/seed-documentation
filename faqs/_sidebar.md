@@ -4,5 +4,8 @@
   - [Cloudflare WARP](faqs/cloudflare-warp-known-issues)
     - [Configuration of common Developer CLI tools in Cloudflare WARP](faqs/configuration-of-common-developer-cli-tools-with-cloudflare-warp)  
     - [Generate and upload Cloudflare diagnostic files](faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request)
+    - [Clone GitLab repository](faqs/how-to-clone-a-gitlab-repository-over-ssh-with-cloudflare-access)
+    - [Clone Bitbucket repository](faqs/how-to-clone-a-bitbucket-repository-over-ssh-with-cloudflare-access)
+
 - **Additional resources**
   - [Back to main](/prerequisites-for-onboarding)
