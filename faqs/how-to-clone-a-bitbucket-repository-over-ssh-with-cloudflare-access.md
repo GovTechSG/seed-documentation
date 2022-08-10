@@ -45,7 +45,7 @@ $ git clone ssh://git@bitbucket-ssh.ship.gov.sg:7999/ship/ship-lambda-script.git
 
 1. When `cloudflared` prompts you to log in, log in with TechPass.
 
-![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-1.png ':size=600')
+<kbd>![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-1.png ':size=600')</kbd>
 
 1. Authenticate your login.
 
@@ -92,7 +92,7 @@ $ git clone ssh://git@bitbucket-ssh.ship.gov.sg:7999/ship/ship-lambda-script.git
 
 1. When `cloudflared` prompts you to log in, log in with TechPass.
 
-![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-1.png  ':size=600')
+<kbd>![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-1.png  ':size=600')</kbd>
 
 1. Authenticate your login.
 
