@@ -89,11 +89,15 @@ $ git clone ssh://git@bitbucket-ssh.ship.gov.sg:7999/ship/ship-lambda-script.git
 > **Note**:
 > If you're copying the clone url from GitLab Web Interface, change the GitLab hostname from `gitlab-in.ship.gov.sg` to `gitlab-in-ssh.ship.gov.sg`.
 
-`cloudflared` will prompt you to log in with TechPass. Authenticate your login. If the authentication is successful, the following messages will be displayed.
+1. When `cloudflared` prompts you to log in, log in with TechPass.
 
 ![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-1.png)
 
+1. Authenticate your login.
+
 ![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-2.png)
+
+1. If the authentication is successful, the following messages will be displayed.
 
 ![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-3.png)
 

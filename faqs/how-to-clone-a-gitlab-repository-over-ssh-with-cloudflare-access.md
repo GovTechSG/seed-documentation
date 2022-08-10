@@ -50,11 +50,15 @@ $ git clone git@gitlab-in-ssh.ship.gov.sg:gcc2.0/seed/cloudflare-support.git
 
 ![clone-gitlab-repo](../images/clone-gitlab-repo-cloudflared.png)
 
-`cloudflared` will prompt you to log in with TechPass. Authenticate your login. If the authentication is successful, the following messages will be displayed.
+1. When `cloudflared` prompts you to log in, log in with TechPass.
 
 ![cloudflare-login-success](../images/cloudflare-login-success-1.png)
 
+1. Authenticate your login.
+
 ![cloudflare-login-success](../images/cloudflare-login-success-2.png)
+
+1. If the authentication is successful, the following messages will be displayed.
 
 ![cloudflare-login-success](../images/cloudflare-login-success-3.png)
 
