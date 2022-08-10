@@ -23,8 +23,8 @@ $ brew install cloudflare/cloudflare/cloudflared
 > **Note**:
 > you don't need to wrap your SSH commands in any unique way. You just need to make a ome-time change to your SSH configuration.
 
-1. To make a one-time change to your SSH configuration file, use `vim ~/.ssh/config`.
-1. Append the following lines:
+2. To make a one-time change to your SSH configuration file, use `vim ~/.ssh/config`.
+3. Append the following lines:
 
 ```
 Host bitbucket-ssh.ship.gov.sg
@@ -35,23 +35,21 @@ Host bitbucket-ssh.ship.gov.sg
 > **Note**:
 > If your macOS device has M1 chip, then the location of `cloudflared` could be `/opt/homebrew/bin/cloudflared`.
 
-1. Test the SSH flow by attempting to clone the project.
+4. Test the SSH flow by attempting to clone the project.
 
 ```
 $ git clone ssh://git@bitbucket-ssh.ship.gov.sg:7999/ship/ship-lambda-script.git
 
 ```
-
-
-1. When `cloudflared` prompts you to log in, log in with TechPass.
+5. When `cloudflared` prompts you to log in, log in with TechPass.
 
 <kbd>![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-1.png ':size=600')</kbd>
 
-1. Authenticate your login.
+6. Authenticate your login.
 
 ![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-2.png ':size=600')
 
-1. If the authentication is successful, the following messages will be displayed.
+7. If the authentication is successful, the following messages will be displayed.
 
 ![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-3.png ':size=600')
 
@@ -63,42 +61,38 @@ The token is saved in your `~/.cloudflared` directory, and the git clone command
   - [32-bit](https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-windows-386.exe)
   - [64-bit](https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-windows-amd64.exe)
 
-1. Save the .exe file in a desired location and rename it as `cloudflared.exe`.
+2. Save the .exe file in a desired location and rename it as `cloudflared.exe`.
 
 > **Note**:
 > you don't need to wrap your SSH commands in any unique way. You just need to make a one-time change to your SSH configuration.
 
-1. To make a one-time change to your SSH configuration file, open your ssh config file `$HOME/.ssh/config`.
+3. To make a one-time change to your SSH configuration file, open your ssh config file `$HOME/.ssh/config`.
 
 > **Note**:
 > If this file does not exist, create it.
 
-
-1. Append the following lines:
+4. Append the following lines:
 
 ```
 Host bitbucket-ssh.ship.gov.sg
   ProxyCommand c:\path\to\cloudflared.exe access ssh --hostname %h
   IdentityFile <PATH TO YOUR SSH PRIVATE KEY>
 ```
-1. Test the SSH flow by attempting to clone the project.
+5. Test the SSH flow by attempting to clone the project.
 
 ```
 $ git clone ssh://git@bitbucket-ssh.ship.gov.sg:7999/ship/ship-lambda-script.git
 
 ```
-
-
-
-1. When `cloudflared` prompts you to log in, log in with TechPass.
+6. When `cloudflared` prompts you to log in, log in with TechPass.
 
 <kbd>![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-1.png  ':size=600')</kbd>
 
-1. Authenticate your login.
+7. Authenticate your login.
 
 ![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-2.png ':size=600')
 
-1. If the authentication is successful, the following messages will be displayed.
+8. If the authentication is successful, the following messages will be displayed.
 
 ![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-3.png ':size=600')
 
