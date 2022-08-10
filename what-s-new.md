@@ -12,6 +12,7 @@ This page provides you with information about:
 
 | Date  | Article | Change |
 | ------------- |:-------------:|:-------------|
+| 10 August 2022 | Included articles on how to clone GitLab and Bitbucket repos with Cloudflare| - [How to clone GitLab repository with Cloudflare](faqs/how-to-clone-a-gitlab-repository-over-ssh-with-cloudflare-access)<br>- [How to clone Bitbucket repository with Cloudflare](faqs/how-to-clone-a-bitbucket-repository-over-ssh-with-cloudflare-access)
 | 20 July 2022 | [SEED status](seed-status) | Included the SEED status page which lists the planned maintenance, ongoing incidents and past incidents<br>[Announcements](announcements) and [Known issues](known-issues) moved to [What's new](what-s-new).|
 | 12 July 2022 | [Announcements](announcements)  | Added a new announcement for the Windows password policy to be pushed by Intune for Windows users. |
 | 07 July 2022 | [Prerequisites for onboarding device to SEED](prerequisites-for-onboarding) | A new prerequisite is added, and this is applicable only for users whose organisation uses a firewall or other policies restricting the Internet traffic. Provided the link to the Cloudflare resource, which tells about the changes. |
