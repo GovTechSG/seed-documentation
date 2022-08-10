@@ -42,22 +42,26 @@ $ git clone ssh://git@bitbucket-ssh.ship.gov.sg:7999/ship/ship-lambda-script.git
 
 ```
 
-> **Note**:
-> If you're copying the clone url from GitLab Web Interface, change the GitLab hostname from `gitlab-in.ship.gov.sg` to `gitlab-in-ssh.ship.gov.sg`.
+<!--> **Note**:
+> If you're copying the clone url from the GitLab Web Interface, change the GitLab hostname from `gitlab-in.ship.gov.sg` to `gitlab-in-ssh.ship.gov.sg`.-->
 
-`cloudflared` will prompt you to log in with TechPass. Authenticate your login. If the authentication is successful, the following messages will be displayed.
+1. When `cloudflared` prompts you to log in, log in with TechPass.
 
-![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-1.png)
+![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-1.png ':size=400')
 
-![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-2.png)
+1. Authenticate your login.
 
-![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-3.png)
+![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-2.png ':size=400')
+
+1. If the authentication is successful, the following messages will be displayed.
+
+![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-3.png ':size=400')
 
 The token is saved in your `~/.cloudflared` directory, and the git clone command clones the code repository.
 
 ## **Windows**
 
-1. Download `cloudflared` from the following URL:
+1. Depending on your Windows processor, download `cloudflared` from the following links:
   - [32-bit](https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-windows-386.exe)
   - [64-bit](https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-windows-amd64.exe)
 
@@ -86,20 +90,20 @@ $ git clone ssh://git@bitbucket-ssh.ship.gov.sg:7999/ship/ship-lambda-script.git
 
 ```
 
-> **Note**:
-> If you're copying the clone url from GitLab Web Interface, change the GitLab hostname from `gitlab-in.ship.gov.sg` to `gitlab-in-ssh.ship.gov.sg`.
+<!--> **Note**:
+> If you're copying the clone url from the GitLab Web Interface, change the GitLab hostname from `gitlab-in.ship.gov.sg` to `gitlab-in-ssh.ship.gov.sg`.-->
 
 1. When `cloudflared` prompts you to log in, log in with TechPass.
 
-![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-1.png)
+![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-1.png  ':size=400')
 
 1. Authenticate your login.
 
-![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-2.png)
+![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-2.png ':size=400')
 
 1. If the authentication is successful, the following messages will be displayed.
 
-![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-3.png)
+![cloudflare-login-success](../images/cloudflare-login-success-bitbucket-3.png ':size=400')
 
 The token is saved in your `~/.cloudflared` directory, and the git clone command clones the code repository.
 <!-- tabs:end -->
