@@ -52,15 +52,15 @@ $ git clone git@gitlab-in-ssh.ship.gov.sg:gcc2.0/seed/cloudflare-support.git
 
 1. When `cloudflared` prompts you to log in, log in with TechPass.
 
-![cloudflare-login-success](../images/cloudflare-login-success-1.png ':size=600')
+![cloudflare-login-success](../images/cloudflare-login-success-1.png ':size=400')
 
 1. Authenticate your login.
 
-![cloudflare-login-success](../images/cloudflare-login-success-2.png ':size=600')
+![cloudflare-login-success](../images/cloudflare-login-success-2.png ':size=400')
 
 1. If the authentication is successful, the following messages will be displayed.
 
-![cloudflare-login-success](../images/cloudflare-login-success-3.png ':size=600')
+![cloudflare-login-success](../images/cloudflare-login-success-3.png ':size=400')
 
 The token is saved in your `~/.cloudflared` directory, and the git clone command clones the code repository.
 
@@ -103,15 +103,15 @@ $ git clone git@gitlab-in-ssh.ship.gov.sg:gcc2.0/seed/cloudflare-support.git
 
 1. When `cloudflared` prompts you to log in, log in with TechPass.
 
-![cloudflare-login-success](../images/cloudflare-login-success-1.png ':size=600')
+![cloudflare-login-success](../images/cloudflare-login-success-1.png ':size=400')
 
 1. Authenticate your login.
 
-![cloudflare-login-success](../images/cloudflare-login-success-2.png ':size=600')
+![cloudflare-login-success](../images/cloudflare-login-success-2.png ':size=400')
 
 1. If the authentication is successful, the following messages will be displayed.
 
-![cloudflare-login-success](../images/cloudflare-login-success-3.png ':size=600')
+![cloudflare-login-success](../images/cloudflare-login-success-3.png ':size=400')
 
 The token is saved in your `~/.cloudflared` directory, and the git clone command clones the code repository.
 <!-- tabs:end -->
