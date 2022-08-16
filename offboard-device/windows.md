@@ -25,29 +25,39 @@ To remove Microsoft Defender for Endpoint from your device, offboard the device 
 
   1. In the search box on the taskbar, type **regedit**.
   2. Choose **Registry Editor** from the results and click **Run as administrator**.
-  3. In the **Registry Editor**, go to **Computer** > **HKEY_LOCAL_MACHINE** > **SOFTWARE** > **Microsoft** > **Windows Advanced Threat Protection** > **Status**. The OrgId of the Defender or antivirus running on your device will be displayed here.
-  4. Identify the organisation of the Defender or the antivirus on your device.
+  3. In the **Registry Editor**, go to **Computer** > **HKEY_LOCAL_MACHINE** > **SOFTWARE** > **Microsoft** > **Windows Advanced Threat Protection** > **Status**.
+  4. Note down the value displayed for **OrgId**.
+  5. Identify the organisation corresponding to this **OrgId** from the [Organisation IDs and organisation mapping](organisation-ids-and-mapping.md ':include').
 
-> **Note:**
-> Refer to [Organisation IDs and organisation mapping](faqs/organisation-ids-and-mapping) for identifying your Defender or antivirus organisation.
+  This is the organisation of the Defender or the antivirus on your device.
 
-  5. Based on the organisation, choose the required step from the following:
-    - If your organisation id corresponds to WOG, contact [GCC2.0 team](https://form.gov.sg/#!/6099efa30d6a0a0012dff367), to get the offboarding script for Windows.
-    - If your organisation id corresponds to TechPass, contact your Defender administrator to get the offboarding scripts for your operating system for Windows.
+  6. Based on the organisation, download the SEED offboarding script from the following:
 
-> **Note:**
-> Check if the script that you received has not yet expired. The expiry date is indicated on the file name. For example, *WindowsDefenderATPOffboardingScript_valid_until_2021-11-10.cmd*
+  | Organisation  | SEED offboarding script |
+  | ------------- |:-------------:|
+  | WOG      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/wog_windows)    |
+  | TechPass      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/tp_windows)     |
+  | Hive      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/hive_windows)     |
 
+  7. When prompted to log in, log in with your TechPass.
 
-   6. Save the offboarding script in your **Downloads** folder.
-   7. Go to **Start** and type **cmd**.
-   8. Right-click on **Command Prompt** and select **Run as administrator**.
-   9. If prompted, enter your Windows password.
-   10. Run the following commands:
+  > **Note**:
+  >- If you have any issues in accessing the link to download the offboarding script, try accessing the link in incognito mode or one of the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
+  >- If you still have issues in downloading the script, create a [support request](https://form.gov.sg/#!/5f69797d0666cb0011cc59da).
+
+  8. Save the offboarding script in your **Downloads** folder.
+
+   > **Note**:
+   > Check if the script that you received has not yet expired. The expiry date is indicated on the file name. For example, *wog_windows_valid_until_2022-09-07.cmd*.
+
+  9. Go to **Start** and type **cmd**.
+  10. Right-click on **Command Prompt** and select **Run as administrator**.
+  11. If prompted, enter your Windows password.
+  12. Run the following commands:
      ```
      cd "%USERPROFILE%\Downloads\"
 
      .\name_of_offboarding_script.cmd
      ```
 > **Note:**
-> Name of the .cmd file mentioned in this command is only an example. When you run the command, specify the file name of the offboarding script provided to you.  
+> Name of the .cmd file mentioned in this command is only an example. When you run the command, specify the file name of the offboarding script you downloaded.  
