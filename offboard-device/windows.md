@@ -26,14 +26,21 @@ To remove Microsoft Defender for Endpoint from your device, offboard the device 
   1. In the search box on the taskbar, type **regedit**.
   2. Choose **Registry Editor** from the results and click **Run as administrator**.
   3. In the **Registry Editor**, go to **Computer** > **HKEY_LOCAL_MACHINE** > **SOFTWARE** > **Microsoft** > **Windows Advanced Threat Protection** > **Status**.
-  4. Note down the value displayed for **OrgId**.
-  5. Identify the organisation corresponding to this **OrgId** from the [Organisation IDs and organisation mapping](organisation-ids-and-mapping.md ':include').
+  4. Take note of the value displayed for **OrgId**.
+  5. Identify the organisation corresponding to this **OrgId** from the following table. This is the organisation of the Defender or the antivirus on your device.
 
-  This is the organisation of the Defender or the antivirus on your device.
+    | OrgId  | Organisation |
+    | ------------- |:-------------:|
+    | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     |
+    | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    |
+    | 6389e966-e334-461d-86ce-0fed12484620      | Hive     |
 
-  6. Based on the organisation, download the SEED offboarding script from the following:
+    > **Note**:
+    > If your organisation id(OrgId) is different from the above three, contact the respective MDM administrator or Defender administrator to get the offboarding script.
 
-  | Organisation  | SEED offboarding script |
+  6. Based on the organisation, download the offboarding script from the following:
+
+  | Organisation  | Offboarding script |
   | ------------- |:-------------:|
   | WOG      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/wog_windows)    |
   | TechPass      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/tp_windows)     |

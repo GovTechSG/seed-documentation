@@ -60,12 +60,19 @@
 To remove Microsoft Defender for Endpoint from your device, offboard your device from it using the offboarding script.
 
 1. Open **Terminal** and run `mdatp health`.
-2. Note down the value displayed for **org_id**.
-3. Identify the organisation corresponding to this **org_id** from the [Organisation IDs and organisation mapping](organisation-ids-and-mapping.md ':include').
+2. Take note of the value displayed for **org_id**.
+3. Identify the organisation corresponding to this **org_id** from the following table. This is the organisation of the Defender or the antivirus on your device.
 
-This is the organisation of the Defender or the antivirus on your device.
+  | org_id  | Organisation |
+  | ------------- |:-------------:|
+  | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     |
+  | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    |
+  | 6389e966-e334-461d-86ce-0fed12484620      | Hive     |
 
-4. Based on the organisation, download the SEED offboarding script from the following:
+  > **Note**:
+  > If your organisation id(org_id) is different from the above three, contact the respective MDM administrator or Defender administrator to get the offboarding script.
+
+4. Based on the organisation, download the offboarding script from the following:
 
   | Organisation  | SEED offboarding script |
   | ------------- |:-------------:|

@@ -2,7 +2,9 @@
 
 While onboarding your device to SEED, one of the prerequisites is to remove Microsoft Defender or any other antivirus solution from it. If your device has Microsoft Defender, it will be associated with an organisation.
 
-To unenrol the device from Defender, contact the respective organisation and get the offboarding scripts. If you have a different antivirus solution other than Defender, contact your organisation administrator to remove that antivirus solution from your device.
+To unenrol the device from Defender:
+
+contact the respective organisation and get the offboarding scripts. If you have a different antivirus solution other than Defender, contact your organisation administrator to remove that antivirus solution from your device.
 
 The following table provides some of the possible organisation ids and their names associated with Defender.
 
