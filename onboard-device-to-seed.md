@@ -17,7 +17,7 @@ This page tells you how to onboard your device to SEED. Before onboarding, make 
 **To onboard your macOS device**:
 
 <details>
-  <summary>a. Set up Microsoft Intune to get the required applications and device configuration</summary><br>
+  <summary style="font-size:18px">a. Set up Microsoft Intune to get the required applications and device configuration</summary><br>
 
   1. Download and install [**Company Portal**](https://go.microsoft.com/fwlink/?linkid=853070).
 
@@ -75,7 +75,7 @@ This page tells you how to onboard your device to SEED. Before onboarding, make 
 </details>
 
 <details>
-<summary>b. Register the Microsoft Intune device ID for your macOS device</summary>
+<summary style="font-size:18px">b. Register the Microsoft Intune device ID for your macOS device</summary>
 
 This step is applicable only for public officers to get the required applications and device configurations on their device.
 
@@ -122,7 +122,7 @@ If your onboarding is successful, within an hour, you will receive a successfull
 
 
 <details>
-  <summary>a. Enrol your device in Microsoft Intune</summary><br>
+  <summary style="font-size:18px">a. Enrol your device in Microsoft Intune</summary><br>
 
 1. Click **Start** icon on the taskbar.
 
@@ -152,7 +152,7 @@ If your onboarding is successful, within an hour, you will receive a successfull
 </details>
 
 
-<details><summary>b. Register the Microsoft Intune device ID for your Windows device</summary>
+<details><summary style="font-size:18px">b. Register the Microsoft Intune device ID for your Windows device</summary>
 
 This step is applicable only for public officers to get the required applications and device configurations on their device.
 

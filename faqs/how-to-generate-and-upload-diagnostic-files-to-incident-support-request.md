@@ -19,7 +19,7 @@ If you have connectivity issues while accessing GCC 2.0 CMP or SGTS services, re
 1. Depending on your OS, run the provided command to get the Cloudflare WARP diagnostics.
 
 <details>
-  <summary>&nbsp;&nbsp;Windows</summary>
+  <summary style="font-size:18px">&nbsp;&nbsp;Windows</summary>
 
   ```
   C:\Program Files\Cloudflare\Cloudflare WARP\warp-diag.exe
@@ -29,7 +29,7 @@ If you have connectivity issues while accessing GCC 2.0 CMP or SGTS services, re
   </details>
 
  <details>
- <summary>&nbsp;&nbsp;macOS</summary>
+ <summary style="font-size:18px">&nbsp;&nbsp;macOS</summary>
 
  ```
 /Applications/Cloudflare\ WARP.app/Contents/Resources/warp-diag

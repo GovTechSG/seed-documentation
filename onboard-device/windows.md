@@ -9,7 +9,7 @@
 
 ## Step 1: Enrol your device in Microsoft Intune
 <details>
-  <summary>a. Enrol your device in Microsoft Intune</summary><br>
+  <summary style="font-size:18px">a. Enrol your device in Microsoft Intune</summary><br>
 
 1. Click **Start** icon on the taskbar.
 
@@ -40,7 +40,7 @@
 
 ## Step 2: Register the Microsoft Intune device ID
 
-<details><summary>b. Register the Microsoft Intune device ID for your Windows device</summary>
+<details><summary style="font-size:18px">b. Register the Microsoft Intune device ID for your Windows device</summary>
 
 This step is applicable only for public officers to get the required applications and device configurations on their device.
 
