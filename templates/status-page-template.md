@@ -18,7 +18,7 @@ Posted on 14 July 2022
 | Additional information | <Specify the additional resources which they can refer to if applicable. If nothing is applicable, specify None.> |
 
 <details>
-  <summary>14 June 2022</summary>
+  <summary style="font-size:18px">14 June 2022</summary>
 
   | Category |  <specify where this maintenance is planned for. For example, TechPass portal> |
   | ------------- |:-------------|
@@ -30,7 +30,7 @@ Posted on 14 July 2022
 
 </details>
 <details>
-  <summary>14 May 2022</summary>
+  <summary style="font-size:18px">14 May 2022</summary>
 
   | Category |  <specify where this maintenance is planned for. For example, TechPass portal> |
   | ------------- |:-------------|
