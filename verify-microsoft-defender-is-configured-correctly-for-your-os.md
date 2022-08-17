@@ -5,25 +5,41 @@
   <summary>macOS</summary>
 
   1. Open **Terminal** and run `mdatp health`.
-  2. Note down the displayed **org_id**.   
+  2. Take note of the value displayed for **org_id**.
 
-  ?> If this command does not return anything, it indicates your device does not have Defender. Hence, [proceed to onboard your macOS device to SEED](onboard-device/mac-os).
+> **Note**:
+> If this command does not return anything, it indicates your device does not have Defender. Hence, [proceed to onboard your macOS device to SEED](onboard-device/mac-os).
 
-  The org_id displayed depends on the TechPass account used for enrolling your device to SEED. For more information, refer to [organisation IDs and organisation mapping](faqs/organisation-ids-and-mapping).
+  3. Identify the organisation corresponding to this **org_id** from the following table. This is the organisation of the Defender or the antivirus on your device.
 
-  3. Based on the **org_id**, identify the organisation of the Defender or the antivirus on your device.
-  4. Choose the required step from the following:
+    | org_id  | Organisation |
+    | ------------- |:-------------:|
+    | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     |
+    | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    |
+    | 6389e966-e334-461d-86ce-0fed12484620      | Hive    |
+
+  > **Note**:
+  >- The org_id displayed depends on the TechPass account used for enrolling your device to SEED.
+  >- If your TechPass ID used for SEED onboarding is similar to <em>your_name<span>@</span>tech.gov.sg</em> or <em>your_name<span>@</span><agency>.gov.sg</em>, your device will be onboarded to SEED under WOG profile - SG Govt M365 profile.</li>
+  >- If your TechPass ID used for SEED onboarding is similar to <em>your_name<span>@</span>techpass.gov.sg</em>, your device will be onboarded to SEED under TECHPASS profile.
+
+  4. Based on the **org_id**, identify the organisation of the Defender or the antivirus on your device.
+  5. Choose the required step from the following:
 
   - If your organisation id corresponds to organisations such as WOG or TechPass, it indicates that **Microsoft Defender** has been configured correctly and you can ignore the rest of this section.
 
-  - If your organisation id corresponds to Hive, it indicates that your device is still enrolled with Hive. Contact [GDS team](mailto:gds_den@tech.gov.sg) to to get the Hive offboarding script and proceed to step 5.
+  - If your organisation id corresponds to Hive, it indicates that your device is still enrolled with Hive.  [Download the offboarding script for Hive](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/hive_mac) by logging in with your TechPass and proceed to step 6.
 
-  - For all other organisation ids, contact your organisation's MDM administrator or Defender administrator to get the respective offboarding script and proceed to step 5.
+  > **Note**:
+  >- If you have any issues in accessing the link to download the offboarding script, try accessing the link in incognito mode or one of the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
+  >- If you still have issues in downloading the script, create a [support request](https://form.gov.sg/#!/5f69797d0666cb0011cc59da).
 
-  5. Once you get the offboarding script, run it on your device to unenrol Defender from your device completely.
+  - For all other organisation ids, contact your organisation's MDM administrator or Defender administrator to get the respective offboarding script and proceed to step 6.
 
-   ?> For more information on how to run the offboarding script to remove Defender from the macOS device, refer to **step e in [Remove existing softwares on your device](prerequisites-for-onboarding?id=remove-existing-softwares-on-your-device)**.
+  6. Once you get the offboarding script, run it on your device to unenrol Defender from your device completely.
 
+   > **Note**:
+   > For more information on how to run the offboarding script to remove Defender from the macOS device, refer to **[Remove existing softwares on your device](prerequisites-for-onboarding?id=remove-existing-softwares-on-your-device)**.
 
 Within the next few hours, **Intune** pushes the **Microsoft Defender** client to your device with the correct configurations. For more information on the duration, refer to [Microsoft Documentation](https://docs.microsoft.com/en-us/mem/intune/configuration/device-profile-troubleshoot#how-long-does-it-take-for-devices-to-get-a-policy-profile-or-app-after-they-are-assigned).
 
@@ -37,27 +53,44 @@ At any time, users can Sign in to Company Portal app, click the three dots and c
 
 1. In the search box on the taskbar, type **regedit**.
 2. Choose **Registry Editor** from the results and click **Run as administrator**.
-3. In the **Registry Editor**, go to **Computer** > **HKEY_LOCAL_MACHINE** > **SOFTWARE** > **Microsoft** > **Windows Advanced Threat Protection** > **Status**. The OrgId of the Defender or antivirus running on your device will be displayed here.
+3. In the **Registry Editor**, go to **Computer** > **HKEY_LOCAL_MACHINE** > **SOFTWARE** > **Microsoft** > **Windows Advanced Threat Protection** > **Status**.
 
-?> If you do not see the **Windows Advanced Threat Protection** folder, it indicates your device does not have Microsoft Defender. Hence, [proceed to onboard your Windows device to SEED](onboard-device/windows).
+> **Note**:
+> If you do not see the **Windows Advanced Threat Protection** folder, it indicates your device does not have Microsoft Defender. Hence, [proceed to onboard your Windows device to SEED](onboard-device/windows).
 
-The org_id displayed depends on the TechPass account used for enrolling your device to SEED. For more information, refer to [organisation IDs and organisation mapping](faqs/organisation-ids-and-mapping).
+4. Take note of the value displayed for **OrgId**.
+5. Identify the organisation corresponding to this **OrgId** from the following table. This is the organisation of the Defender or the antivirus on your device.
 
-4. Based on the **OrgId**, identify the organisation of the Defender or the antivirus on your device.
-5. Choose the required step from the following:
+  | OrgId  | Organisation |
+  | ------------- |:-------------:|
+  | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     |
+  | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    |
+  | 6389e966-e334-461d-86ce-0fed12484620      | Hive     |
 
-- If your organisation id corresponds to organisations such as WOG or TechPass, it indicates that **Microsoft Defender** has been configured correctly and ignore the rest of this section.
+The OrgId displayed depends on the TechPass account you used for enrolling your device to SEED.
 
-- If your organisation id corresponds to Hive, it indicates that your device is still enrolled with Hive. Contact [GDS team](mailto:gds_den@tech.gov.sg) to to get the Hive offboarding script and proceed to step 6.
+> **Note**:
+>- The org_id displayed depends on the TechPass account used for enrolling your device to SEED.
+>- If your TechPass ID used for SEED onboarding is similar to <em>your_name<span>@</span>tech.gov.sg</em> or <em>your_name<span>@</span><agency>.gov.sg</em>, your device will be onboarded to SEED under WOG profile - SG Govt M365 profile.</li>
+>- If your TechPass ID used for SEED onboarding is similar to <em>your_name<span>@</span>techpass.gov.sg</em>, your device will be onboarded to SEED under TECHPASS profile.
 
-- For all other organisation ids, contact your organisation's MDM administrator or Defender administrator to get the respective offboarding script and proceed to step 6.
+6. Choose the required step from the following:
 
-6. Once you get the offboarding script for your current MDM organisation, run it on your device to unenrol your device from it completely.
+- If your organisation id corresponds to organisations such as WOG or TechPass, it indicates that **Microsoft Defender** has been configured correctly and you can ignore the rest of this section.
 
- ?> For more information on how to run the offboarding script to remove Defender from the Windows device, refer to **step d in [Remove existing softwares on your device](prerequisites-for-onboarding?id=remove-existing-softwares-on-your-device)**.
+- If your organisation id corresponds to Hive, it indicates that your device is still enrolled with Hive.  [Download the offboarding script for Hive](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/hive_windows) by logging in with your TechPass and proceed to step 7.
+
+> **Note**:
+>- If you have any issues in accessing the link to download the offboarding script, try accessing the link in incognito mode or one of the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
+>- If you still have issues in downloading the script, create a [support request](https://form.gov.sg/#!/5f69797d0666cb0011cc59da).
+
+- For all other organisation ids, contact your organisation's MDM administrator or Defender administrator to get the respective offboarding script and proceed to step 7.
+
+7. Once you get the offboarding script for your current MDM organisation, run it on your device to unenrol your device from it completely.
+
+> **Note**:
+> For more information on how to run the offboarding script to remove Defender from the Windows device, refer to **[Remove existing softwares on your device](prerequisites-for-onboarding?id=remove-existing-softwares-on-your-device)**.
 
  Within the next few hours, **Intune** pushes the **Microsoft Defender** client to your device with the correct configurations. For more information on the duration, refer to [Microsoft Documentation](https://docs.microsoft.com/en-us/mem/intune/configuration/device-profile-troubleshoot#how-long-does-it-take-for-devices-to-get-a-policy-profile-or-app-after-they-are-assigned).
 
  At any time, users can manually sync by going to **Start** > **Settings** > **Accounts** > **Access work or school** > **Work or School Account** > **Info** > **Sync**. Alternatively, Open the Company Portal app on your device, go to **Settings** > **Sync**. Wait while Company Portal syncs your device. When complete, the screen will show the timestamp of the last successful sync.
-
-<!--7. Repeat steps 1-5 to confirm if **Microsoft Defender** is configured correctly.-->
