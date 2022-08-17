@@ -17,7 +17,7 @@
 <hr/>
 
 <details>
-  <summary style="font-size:18px">Microsoft Defender was not automatically installed after enrolling to Company Portal?</summary>
+  <summary style="font-size:18px">Microsoft Defender does not get automatically installed after enrolling to Company Portal?</summary>
 
   This can happen if Defender or any other antivirus solution previously installed on the device was not completely removed before onboarding to SEED.
 
@@ -51,7 +51,7 @@
   <hr />
 
 <details>
-  <summary style="font-size:18px">While enabling FDA, I can't find <b>TaniumClient</b>. What should I do?</summary>
+  <summary style="font-size:18px">While enabling Full Disk Access(FDA), I can't find <b>TaniumClient</b>. What should I do?</summary>
 
   1. Open the **Terminal** application and run the command: ``sudo chmod 755 /Library/Tanium/TaniumClient``.
   2. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
@@ -66,7 +66,7 @@
 <hr/>
 
 <details>
-<summary style="font-size:18px">While enabling FDA, I can't find <b>Microsoft Intune Agent</b> and <b>Microsoft Defender for Endpoint</b>. What should I do?</summary>
+<summary style="font-size:18px">While enabling Full Disk Access(FDA), I can't find <b>Microsoft Intune Agent</b> and <b>Microsoft Defender for Endpoint</b>. What should I do?</summary>
 
 1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
 2. Click the **Privacy** tab.
@@ -78,7 +78,7 @@
 </details>
 <hr/>
 
-<details><summary style="font-size:18px">While enabling FDA, I can't find <strong>Microsoft Defenders Endpoint Security Extension</strong>. Can I proceed with my onboarding?</summary>
+<details><summary style="font-size:18px">While enabling Full Disk Access(FDA), I can't find <strong>Microsoft Defenders Endpoint Security Extension</strong>. Can I proceed with my onboarding?</summary>
 
 Yes, you may proceed with your SEED onboarding and the Microsoft Defenders Endpoint Security Extension should be available within four hours. If it is still not available after four hours, please create a [Support Request](raise-an-incident-support-request) as it is required to ensure the completeness of your onboarding.
 
@@ -180,7 +180,8 @@ This may occur if your new password does not meet the following password require
 
   </details>
 
-  <details><summary style="font-size:18px">Reset password using recovery mode</summary>
+  <details>
+  <summary style="font-size:18px">Reset password using recovery mode</summary>
 
   If you have do not have an Apple ID or a recovery key, depending on the chip on your Mac device, start your Mac in recovery mode to reset password.
 
@@ -232,9 +233,30 @@ This may occur if your new password does not meet the following password require
 <!-- tabs:end -->
 
   </details>
+<hr />
+  <details>
+  <summary style="font-size:18px">How to confirm if I have onboarded my device to SEED successfully?</summary>
 
+If you have successfully onboarded your internet device to SEED, you will get a confirmation email from DEEP. When you get this confirmation email, do the following on the device you onboarded to SEED:
 
+1. Go to the WARP client and connect to the Cloudflare Zero trust client.
 
+  <kbd>![cloudflare-connected](../images/cloud-flare-connected.png ':size=300')</kbd>
+
+2. Disconnect from other VPN connections, if any.
+3. Go to the [DEEP dashboard](https://deep.tech.gov.sg/) and log in with your TechPass. You should be able to access the DEEP dashboard.
+
+  <kbd>![deep-dashboard](../images/deep-dashboard/deep-dashboard.png)</kbd>
+
+4. If you are a SHIP-HATS user, try accessing the [SHIP-HATS portal](https://ship.gov.sg).
+
+  <kbd>![ship-hats-portal](../images/ship-hats-portal.png)</kbd>
+
+If you can access the DEEP dashboard or the SHIP-HATS portal from the GMD, it indicates you have successfully onboarded your device to SEED using your TechPass.
+
+If you have any issues in accessing them, create a [service request](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/raise-an-incident-support-request).
+
+</details>
 
 [verify-defender-configuration]: verify-microsoft-defender-is-configured-correctly-for-your-os.md
 [raise-support-request]: raise-an-incident-support-request.md
