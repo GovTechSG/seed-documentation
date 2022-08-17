@@ -1,7 +1,7 @@
 # Onboarding FAQ
 
 <details>
-  <summary>What should I do if profile installation fails while installing the management profile?</summary>
+  <summary style="font-size:18px">What should I do if profile installation fails while installing the management profile?</summary>
 
 <!--<kbd>![profile-installation-failed](images/onboarding-for-macos/profile-installation-failed.png)</kbd>-->
 
@@ -17,7 +17,7 @@
 <hr/>
 
 <details>
-  <summary>Microsoft Defender was not automatically installed after enrolling to Company Portal?</summary>
+  <summary style="font-size:18px">Microsoft Defender was not automatically installed after enrolling to Company Portal?</summary>
 
   This can happen if Defender or any other antivirus solution previously installed on the device was not completely removed before onboarding to SEED.
 
@@ -27,7 +27,7 @@
   <hr />
 
   <details>
-  <summary>1. While onboarding to Microsoft Intune, I get an error message, "Could not download the identity profile from the Encrypted Profile Service. The credentials within the Device Enrolment profile may have expired."</summary>
+  <summary style="font-size:18px">While onboarding to Microsoft Intune, I get an error message, "Could not download the identity profile from the Encrypted Profile Service. The credentials within the Device Enrolment profile may have expired."</summary>
 
   One of the possible reasons could be that your device was earlier onboarded to Microsoft Intune by a different user and was not offboarded properly during the pre-onboarding steps.  
 
@@ -43,7 +43,7 @@
   <hr />
 
   <details>
-  <summary>What should I do if my device does not get renamed automatically after onboarding to SEED?</summary>
+  <summary style="font-size:18px">What should I do if my device does not get renamed automatically after onboarding to SEED?</summary>
 
   This can happen if Defender or any other antivirus already installed on the device was not completely removed before onboarding to SEED. To confirm this, [Verify if Microsoft Defender is configured correctly on your device][verify-defender-configuration].
 
@@ -51,7 +51,7 @@
   <hr />
 
 <details>
-  <summary>While enabling FDA, I can't find <b>TaniumClient</b>. What should I do?</summary>
+  <summary style="font-size:18px">While enabling FDA, I can't find <b>TaniumClient</b>. What should I do?</summary>
 
   1. Open the **Terminal** application and run the command: ``sudo chmod 755 /Library/Tanium/TaniumClient``.
   2. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
@@ -66,7 +66,7 @@
 <hr/>
 
 <details>
-<summary>While enabling FDA, I can't find <b>Microsoft Intune Agent</b> and <b>Microsoft Defender for Endpoint</b>. What should I do?</summary>
+<summary style="font-size:18px">While enabling FDA, I can't find <b>Microsoft Intune Agent</b> and <b>Microsoft Defender for Endpoint</b>. What should I do?</summary>
 
 1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
 2. Click the **Privacy** tab.
@@ -78,7 +78,7 @@
 </details>
 <hr/>
 
-<details><summary>While enabling FDA, I can't find <strong>Microsoft Defenders Endpoint Security Extension</strong>. Can I proceed with my onboarding?</summary>
+<details><summary style="font-size:18px">While enabling FDA, I can't find <strong>Microsoft Defenders Endpoint Security Extension</strong>. Can I proceed with my onboarding?</summary>
 
 Yes, you may proceed with your SEED onboarding and the Microsoft Defenders Endpoint Security Extension should be available within four hours. If it is still not available after four hours, please create a [Support Request](raise-an-incident-support-request) as it is required to ensure the completeness of your onboarding.
 
@@ -86,7 +86,7 @@ Yes, you may proceed with your SEED onboarding and the Microsoft Defenders Endpo
 <hr/>
 
 <details>
-<summary>When enabling FileVault or Full Disk Access, I am unable to unlock Security & Privacy preferences using my current password.</summary>
+<summary style="font-size:18px">When enabling FileVault or Full Disk Access, I am unable to unlock Security & Privacy preferences using my current password.</summary>
 
 This is because a new password policy has been enforced and you are required to reset your password.
 
@@ -97,7 +97,7 @@ This is because a new password policy has been enforced and you are required to 
 <hr/>
 
 
-<details><summary>How do I reset the password for my macOS device?</summary>
+<details><summary style="font-size:18px">How do I reset the password for my macOS device?</summary>
 
 *To reset password while enabling FileVault or FDA* :
 1. Go to the **Apple** menu > **Lock Screen** or use keyboard shortcut **Command+Control+Q** .
@@ -113,7 +113,7 @@ This is because a new password policy has been enforced and you are required to 
 
 
 <details>
-<summary>After onboarding to SEED, I did not receive the successfully onboarded email. What should I do?</summary>
+<summary style="font-size:18px">After onboarding to SEED, I did not receive the successfully onboarded email. What should I do?</summary>
 
 Possible reasons could be:
 
@@ -129,7 +129,7 @@ Before raising a support request, confirm the following:
 </details>
 <hr />
 
-<details><summary>While enrolling my device to SEED, I get an error message, "<em>Couldn’t add your device. Wait a few minutes, then try again or contact your company support.</em>" What should I do?
+<details><summary style="font-size:18px">While enrolling my device to SEED, I get an error message, "<em>Couldn’t add your device. Wait a few minutes, then try again or contact your company support.</em>" What should I do?
 </summary>
 
 As suggested wait for few minutes, retry enrolling your device to Microsoft Intune and click **Approve** in the management profile.
@@ -138,21 +138,21 @@ As suggested wait for few minutes, retry enrolling your device to Microsoft Intu
 <hr />
 
 <details>
-<summary>While approving the management profiles, I get a message "<em>Profiles cannot be approved while using remote or automated input method.</em>” What should I do?</summary>
+<summary style="font-size:18px">While approving the management profiles, I get a message "<em>Profiles cannot be approved while using remote or automated input method.</em>” What should I do?</summary>
 
  Upgrade to the [latest macOS version][upgrade-macos] and ensure there is enough disk space available on your Mac device before retrying.
 
 </details>
 <hr />
 
-<details><summary>What should I do when I get an error message, “<em>You can’t use this version of the application Company Portal with this version of OS X.</em>" </summary>
+<details><summary style="font-size:18px">What should I do when I get an error message, “<em>You can’t use this version of the application Company Portal with this version of OS X.</em>" </summary>
 
  Upgrade to the [latest macOS version][upgrade-macos].
 
  </details>
  <hr />
 
-<details><summary>After resetting my macOS password, I am unable to log in using the new password, why?</summary>
+<details><summary style="font-size:18px">After resetting my macOS password, I am unable to log in using the new password, why?</summary>
 
 This may occur if your new password does not meet the following password requirements:
 
@@ -164,10 +164,10 @@ This may occur if your new password does not meet the following password require
 
 <p>There are three password reset options and you may choose one of them to reset password.</p>
 
-<details><summary>Reset password using your Apple ID</summary>
+<details><summary style="font-size:18px">Reset password using your Apple ID</summary>
  <p>Refer to <a href="https://support.apple.com/en-gb/guide/mac-help/mh35902/mac">Reset your Mac login password uisng Apple ID</a> for step-by-step instructions.</p></details>
 
-  <details><summary>Reset password using a recovery key</summary>
+  <details><summary style="font-size:18px">Reset password using a recovery key</summary>
 
   *To reset password using recovery key* :
   1. Click the question mark next to the password field in the login window.
@@ -180,7 +180,7 @@ This may occur if your new password does not meet the following password require
 
   </details>
 
-  <details><summary>Reset password using recovery mode</summary>
+  <details><summary style="font-size:18px">Reset password using recovery mode</summary>
 
   If you have do not have an Apple ID or a recovery key, depending on the chip on your Mac device, start your Mac in recovery mode to reset password.
 

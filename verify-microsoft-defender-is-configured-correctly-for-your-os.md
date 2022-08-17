@@ -2,13 +2,13 @@
 
 <br>
 <details>
-  <summary>macOS</summary>
+  <summary style="font-size:18px">macOS</summary>
 
   1. Open **Terminal** and run `mdatp health`.
   2. Take note of the value displayed for **org_id**.
 
-> **Note**:
-> If this command does not return anything, it indicates your device does not have Defender. Hence, [proceed to onboard your macOS device to SEED](onboard-device/mac-os).
+  > **Note**:
+  > If this command does not return anything, it indicates your device does not have Defender. Hence, [proceed to onboard your macOS device to SEED](onboard-device/mac-os).
 
   3. Identify the organisation corresponding to this **org_id** from the following table. This is the organisation of the Defender or the antivirus on your device.
 
@@ -49,14 +49,14 @@ At any time, users can Sign in to Company Portal app, click the three dots and c
 </details>
 
 <details>
-  <summary>Windows</summary>
+  <summary style="font-size:18px">Windows</summary>
 
 1. In the search box on the taskbar, type **regedit**.
 2. Choose **Registry Editor** from the results and click **Run as administrator**.
 3. In the **Registry Editor**, go to **Computer** > **HKEY_LOCAL_MACHINE** > **SOFTWARE** > **Microsoft** > **Windows Advanced Threat Protection** > **Status**.
 
-> **Note**:
-> If you do not see the **Windows Advanced Threat Protection** folder, it indicates your device does not have Microsoft Defender. Hence, [proceed to onboard your Windows device to SEED](onboard-device/windows).
+  > **Note**:
+  > If you do not see the **Windows Advanced Threat Protection** folder, it indicates your device does not have Microsoft Defender. Hence, [proceed to onboard your Windows device to SEED](onboard-device/windows).
 
 4. Take note of the value displayed for **OrgId**.
 5. Identify the organisation corresponding to this **OrgId** from the following table. This is the organisation of the Defender or the antivirus on your device.
@@ -69,10 +69,10 @@ At any time, users can Sign in to Company Portal app, click the three dots and c
 
 The OrgId displayed depends on the TechPass account you used for enrolling your device to SEED.
 
-> **Note**:
->- The org_id displayed depends on the TechPass account used for enrolling your device to SEED.
->- If your TechPass ID used for SEED onboarding is similar to <em>your_name<span>@</span>tech.gov.sg</em> or <em>your_name<span>@</span><agency>.gov.sg</em>, your device will be onboarded to SEED under WOG profile - SG Govt M365 profile.</li>
->- If your TechPass ID used for SEED onboarding is similar to <em>your_name<span>@</span>techpass.gov.sg</em>, your device will be onboarded to SEED under TECHPASS profile.
+  > **Note**:
+  >- The org_id displayed depends on the TechPass account used for enrolling your device to SEED.
+  >- If your TechPass ID used for SEED onboarding is similar to <em>your_name<span>@</span>tech.gov.sg</em> or <em>your_name<span>@</span><agency>.gov.sg</em>, your device will be onboarded to SEED under WOG profile - SG Govt M365 profile.</li>
+  >- If your TechPass ID used for SEED onboarding is similar to <em>your_name<span>@</span>techpass.gov.sg</em>, your device will be onboarded to SEED under TECHPASS profile.
 
 6. Choose the required step from the following:
 
