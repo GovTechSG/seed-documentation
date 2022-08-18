@@ -239,11 +239,11 @@ This may occur if your new password does not meet the following password require
 
 If you have successfully onboarded your internet device to SEED, you will get a confirmation email from DEEP. When you get this confirmation email, do the following on the device you onboarded to SEED:
 
-1. Go to the WARP client and connect to the Cloudflare Zero trust client.
+1. Disconnect from other VPN connections, if any.
+2. Go to the WARP client and connect to the Cloudflare Zero trust client.
 
   <kbd>![cloudflare-connected](../images/cloud-flare-connected.png ':size=300')</kbd>
 
-2. Disconnect from other VPN connections, if any.
 3. Go to the [DEEP dashboard](https://deep.tech.gov.sg/) and log in with your TechPass. You should be able to access the DEEP dashboard.
 
   <kbd>![deep-dashboard](../images/deep-dashboard/deep-dashboard.png)</kbd>
