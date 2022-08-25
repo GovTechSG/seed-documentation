@@ -5,7 +5,7 @@
 ### **macOS**
 
 <details>
-  <summary>a. Enable Full Disk Access(FDA) for the applications installed for SEED</summary><br>
+  <summary style="font-size:18px">a. Enable Full Disk Access(FDA) for the applications installed for SEED</summary><br>
 
   1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
   2. Click the **Privacy** tab.
@@ -38,7 +38,7 @@
 
 </details>
 <details>
-  <summary>b. Enrol on Cloudflare using WARP client to connect to protected engineering resources</summary><br>
+  <summary style="font-size:18px">b. Enrol on Cloudflare using WARP client to connect to protected engineering resources</summary><br>
 
 
   1. Ensure that you have Cloudflare WARP client installed in your device. If not, install the latest [Cloudflare WARP](https://install.appcenter.ms/orgs/cloudflare/apps/1.1.1.1-macos-1/distribution_groups/release) version.
@@ -87,7 +87,7 @@
 
 
 <details>
-  <summary>a. Enrol on Cloudflare using WARP client to connect to protected engineering resources</summary><br>
+  <summary style="font-size:18px">a. Enrol on Cloudflare using WARP client to connect to protected engineering resources</summary><br>
 
 1. Click the **Show hidden icons** arrow next to the notification area and make sure that Cloudflare WARP icon is displayed on your device or go to the **Start** menu and search for **Cloudflare WARP**.
 

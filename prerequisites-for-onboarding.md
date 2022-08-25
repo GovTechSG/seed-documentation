@@ -61,13 +61,13 @@ If you had requested SEED provisioning while signing up for your TechPass accoun
   - Windows 10 Pro or Enterprise versions
   - macOS 11 (macOS Big Sur) and macOS 12 (macOS Monterey) versions
 
-   > **Note**:
-   > When you upgrade the OS of your Mac device, the OpenSSH settings found in `/etc/ssh/sshd_config` file may be reset. Hence, before proceeding to upgrade the OS of your Mac device, back up the `sshd_config` file so that you can easily restore if it gets reset during the OS upgrade. 
+> **Note**:
+> When you upgrade the OS of your Mac device, the OpenSSH settings found in `/etc/ssh/sshd_config` file may be reset. Hence, before proceeding to upgrade the OS of your Mac device, back up the `sshd_config` file so that you can easily restore if it gets reset during the OS upgrade.
 
 -  You must have administrator rights on the device.
 
-  >**Note:**
-  > Currently, you can't onboard virtual machine to SEED.
+>**Note:**
+> Currently, you can't onboard virtual machine to SEED.
 
 ### Remove existing softwares on your device
 Before onboarding to SEED, you need to remove the Following software solutions from your device:
@@ -84,7 +84,7 @@ This section explains how public officers and vendors can remove those softwares
 #### **macOS**
 
 <details>
-  <summary>a. Verify if your device is already managed by any MDM software</summary><br>
+  <summary style="font-size:18px">a. Verify if your device is already managed by any MDM software</summary><br>
 
   *To verify if you already have an MDM software* :
   1. Go to the **Apple** menu > **System Preferences** or click the **System Preferences** icon in the **Dock**.
@@ -111,7 +111,7 @@ This section explains how public officers and vendors can remove those softwares
 
 </details>
 <details>
-  <summary>b. Unenrol from Microsoft Intune</summary><br>
+  <summary style="font-size:18px">b. Unenrol from Microsoft Intune</summary><br>
 
   1. Click the **Spotlight** icon or press the ``Command+Spacebar`` to open the **Spotlight Search**.
   2. Enter **Company Portal**.
@@ -126,7 +126,7 @@ This section explains how public officers and vendors can remove those softwares
 </details>
 
 <details>
-  <summary>c. Remove Tanium Client</summary><br>
+  <summary style="font-size:18px">c. Remove Tanium Client</summary><br>
 
   1. Open **Terminal** and run the following command:
 
@@ -166,7 +166,7 @@ This section explains how public officers and vendors can remove those softwares
 
 </details>
 <details>
-  <summary>d. Remove Cloudflare WARP Client</summary><br>
+  <summary style="font-size:18px">d. Remove Cloudflare WARP Client</summary><br>
 
   1. Click the **Finder** icon in the **Dock**.
   2. Choose **Applications**.
@@ -182,42 +182,63 @@ This section explains how public officers and vendors can remove those softwares
 
 
 <details>
-  <summary>e. Remove current antivirus solution on the device</summary><br>
+  <summary style="font-size:18px">e. Remove current antivirus solution on the device</summary><br>
+
+  <!--[Get the offboarding script to remove antivirus solution](snippets/remove-microsoft-defender-for-endpoint-or-current-antivirus-solution.md ':include')-->
 
   1. Open **Terminal** and run `mdatp health`.
-  2. Note down the displayed **org_id**.
+  2. Take note of the value displayed for **org_id**.
+  3. Identify the organisation corresponding to this **org_id** from the following table. This is the organisation of the Defender or the antivirus on your device.
 
-  ?> If this command does not return anything, it confirms that your device does not have Microsoft Defender. Proceed to onboard your device to SEED.
+  | org_id  | Organisation |
+  | ------------- |:-------------:|
+  | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     |
+  | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    |
+  | 6389e966-e334-461d-86ce-0fed12484620      | Hive     |
 
-  3. Identify the organisation of the Defender or the antivirus on your device.
+  > **Note**:
+  > If your organisation id(org_id) is different from the above three, contact the respective MDM administrator to get the offboarding script.
 
-  ?> Refer to [Organisation IDs and organisation mapping](faqs/organisation-ids-and-mapping.md) for identifying your Defender or antivirus organisation.
+  4. Based on the organisation, download the offboarding script from the following:
 
-  4. Based on the organisation, choose the required step from the following:
-    - If your organisation id corresponds to WOG, contact [GCC2.0 team](https://form.gov.sg/#!/6099efa30d6a0a0012dff367), to get the offboarding script for macOS.
-    - If your organisation id corresponds to TechPass, contact your Defender administrator to get the offboarding scripts for your operating system for macOS.
-    - If your organisation id corresponds to Hive, contact [GDS team](mailto:gds_den@tech.gov.sg) to get the Hive offboarding script for macOS and proceed to step 5.
-    - For all other organisation ids, contact your current MDM administrator to unerol your device from the respective antivirus.
+    | Organisation  | Offboarding script |
+    | ------------- |:-------------:|
+    | WOG      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/wog_mac)    |
+    | TechPass      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/tp_mac)     |
+    | Hive      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/hive_mac)     |
 
-  ?>  Check if the script that you received has not yet expired. The expiry date is indicated on the file name. For example, *WindowsDefenderATPOffboardingScript_valid_until_2021-11-10.sh*
+  5. When prompted to log in, log in with your TechPass.
 
-  5. Save the offboarding script to the **Downloads** folder.
-  6. Go to **Terminal** and run the following command:
-    ```
-    sudo /bin/sh ~/Downloads/name_of_offboarding_script.sh
+    > **Note**:
+    >- If you have any issues in accessing the link to download the offboarding script, try accessing the link in incognito mode or one of the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
+    >- If you still have issues in downloading the script, create a [support request](https://form.gov.sg/#!/5f69797d0666cb0011cc59da).
 
-    ```
-  ?> The file name *name_of_offboarding_script* in this command is only an example. When you run the command, specify the file name of the offboarding script provided to you.
+  6. Save the offboarding script to the **Downloads** folder.
 
-  7. Go back to the **Finder** icon in the **Dock**.
-  8. Choose **Applications** and search for **Microsoft Defender for Endpoint.app**.
-  9. Drag the app to the Bin, or select the app and choose **File** > **Move to Bin**.
+    > **Note**:
+    > Check if the script that you received has not yet expired. The expiry date is indicated on the file name. For example, wog_mac_valid_until_2021-11-10.sh
+
+  7. Go to **Terminal** and run the following command:
+      ```
+      sudo /bin/sh ~/Downloads/<name_of_offboarding_script.sh>
+      ```
+    >- **Note:**
+    > The file name *name_of_offboarding_script* in this command is only an example. When you run the command, specify the file name of the offboarding script you downloaded.
+
+  8. Go back to the **Finder** icon in the **Dock**.
+
+  9. Choose **Applications** and search for **Microsoft Defender for Endpoint.app**.
+
+  10. Drag the app to the Bin, or select the app and choose **File** > **Move to Bin**.
+
 </details>
+
+
 
 #### **Windows**
 
 <details>
-  <summary>a. Remove existing MDM software</summary>
+  <summary style="font-size:18px">a. Remove existing MDM software</summary>
 
   1. Click **Start** icon on the taskbar.
   2. Go to **Settings** > **Accounts**.
@@ -231,7 +252,7 @@ This section explains how public officers and vendors can remove those softwares
 </details>
 
 <details>
-  <summary>b. Remove Tanium Client</summary>
+  <summary style="font-size:18px">b. Remove Tanium Client</summary>
 
   1. Click **Start** icon on the taskbar.
   2. Go to **Settings** > **Apps** and search for **Tanium Client**.
@@ -240,7 +261,7 @@ This section explains how public officers and vendors can remove those softwares
 </details>
 
 <details>
-  <summary>c. Remove Cloudflare WARP Client</summary>
+  <summary style="font-size:18px">c. Remove Cloudflare WARP Client</summary>
 
   1. Click **Start** icon on the taskbar.
   2. Go to **Settings** > **Apps** and search for **Cloudflare WARP**.
@@ -248,40 +269,59 @@ This section explains how public officers and vendors can remove those softwares
 
 </details>
 <details>
-  <summary>d. Remove current antivirus solution on the device</summary><br>
+  <summary style="font-size:18px">d. Remove current antivirus solution on the device</summary><br>
 
   1. In the search box on the taskbar, type **regedit**.
   2. Choose **Registry Editor** from the results and click **Run as administrator**.
-  3. In the **Registry Editor**, go to **Computer** > **HKEY_LOCAL_MACHINE** > **SOFTWARE** > **Microsoft** > **Windows Advanced Threat Protection** > **Status**. The OrgId of the Defender or antivirus running on your device will be displayed here.
+  3. In the **Registry Editor**, go to **Computer** > **HKEY_LOCAL_MACHINE** > **SOFTWARE** > **Microsoft** > **Windows Advanced Threat Protection** > **Status**.
 
-  ?> If you do not see the **Windows Advanced Threat Protection** folder, it indicates your device is not enrolled with any MDM solution. Proceed to onboard your device to SEED.
+  > **Note**:
+  > If you do not see the **Windows Advanced Threat Protection** folder, it indicates your device is not enrolled with any MDM solution. Proceed to onboard your device to SEED.
 
-  4. Identify the organisation of the Defender or the antivirus on your device.
+  4. Take note of the value displayed for **OrgId**.
+  5. Identify the organisation corresponding to this **OrgId** from the following table. This is the organisation of the Defender or the antivirus on your device.
 
-  ?> Refer to [Organisation IDs and organisation mapping](faqs/organisation-ids-and-mapping) for identifying your Defender or antivirus organisation.
+  | OrgId  | Organisation |
+  | ------------- |:-------------:|
+  | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     |
+  | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    |
+  | 6389e966-e334-461d-86ce-0fed12484620      | Hive     |
 
-  5. Based on the organisation, choose the required step from the following:
-    - If your organisation id corresponds to WOG, contact [GCC2.0 team](https://form.gov.sg/#!/6099efa30d6a0a0012dff367), to get the offboarding script for Windows.
-    - If your organisation id corresponds to TechPass, contact your Defender administrator to get the offboarding scripts for your operating system for Windows.
-    - If your organisation id corresponds to Hive, contact [GDS team](mailto:gds_den@tech.gov.sg) to get the Hive offboarding script for Windows and proceed to step 6.
-    - For all other organisation ids, contact your current MDM administrator to unerol your device from the respective antivirus.
+  > **Note**:
+  > If your organisation id(OrgId) is different from the above three, contact the respective MDM administrator to get the offboarding script.
 
-    ?>  Check if the script that you received has not yet expired. The expiry date is indicated on the file name. For example, *WindowsDefenderATPOffboardingScript_valid_until_2021-11-10.cmd*
+  6. Based on the organisation, download the offboarding script from the following:
 
+  | Organisation  | Offboarding script |
+  | ------------- |:-------------:|
+  | WOG      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/wog_windows)    |
+  | TechPass      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/tp_windows)     |
+  | Hive      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/hive_windows)     |
 
-   6. Save the offboarding script in your **Downloads** folder.
-   7. Go to **Start** and type **cmd**.
-   8. Right-click on **Command Prompt** and select **Run as administrator**.
-   9. If prompted, enter your Windows password.
-   10. Run the following commands:
+  7. When prompted to log in, log in with your TechPass.
+
+  > **Note**:
+  >- If you have any issues in accessing the link to download the offboarding script, try accessing the link in incognito mode or one of the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
+  >- If you still have issues in downloading the script, create a [support request](https://form.gov.sg/#!/5f69797d0666cb0011cc59da).
+
+  8. Save the offboarding script in your **Downloads** folder.
+
+  > **Note**:
+  > Check if the script that you received has not yet expired. The expiry date is indicated on the file name. For example, *wog_windows_valid_until_2022-09-07.cmd*.
+
+  9. Go to **Start** and type **cmd**.
+  10. Right-click on **Command Prompt** and select **Run as administrator**.
+  11. If prompted, enter your Windows password.
+  12. Run the following commands:
      ```
      cd "%USERPROFILE%\Downloads\"
 
-     .\name_of_offboarding_script.cmd
+     .\<name_of_offboarding_script.cmd>
      ```
-?> Name of the .cmd file mentioned in this command is only an example. When you run the command, specify the file name of the offboarding script provided to you.
+> **Note:**
+> Name of the .cmd file mentioned in this command is only an example. When you run the command, specify the file name of the offboarding script you downloaded.  
 
-   </details>  
+</details>  
 
 
 <!-- tabs:end -->
