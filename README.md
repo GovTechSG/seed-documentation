@@ -1,6 +1,6 @@
 # Overview
 
-Security Suite for Engineering Endpoint Devices (SEED) is a Mobile Device Management (MDM) platform that ensures secured access to the Singapore Government Tech Stack (SGTS) services and the Government on Commercial Cloud (GCC) environment.  
+Security Suite for Engineering Endpoint Devices (SEED) is a Mobile Device Management (MDM) platform that ensures a secured access to the Singapore Government Tech Stack (SGTS) services and the Government on Commercial Cloud (GCC) environment.  
 
 It includes the following components:
 
