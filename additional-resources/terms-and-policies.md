@@ -6,7 +6,7 @@ Effective date: These terms and policies apply as of January 21, 2021.
 Last updated : July 29, 2022
 
 - [Download the Terms of Use](additional-resources/terms-of-use.pdf ':target=_blank')
-- [Download the Privacy Policy](additional-resources/privacy-policy-v-2.7.2.pdf ':target=_blank')
+- [Download the Privacy Statement](additional-resources/privacy-statement.pdf ':target=_blank')
 - [Download the Acceptable Use Policy](additional-resources/mdm-aup-v4.0.pdf ':target=_blank')
 
 <!--
