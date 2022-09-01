@@ -1,5 +1,5 @@
 - **Additional resources**
-  - [Best Practices](additional-resources/best-practices)
+  - [Best practices](additional-resources/best-practices)
   - [Glossary](additional-resources/term-definitions)
   - [Terms and Policies](additional-resources/terms-and-policies)
 - **Additional resources**
