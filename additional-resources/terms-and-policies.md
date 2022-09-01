@@ -8,5 +8,5 @@ Below are the links to the latest Terms of Use (TOU) and Privacy Policy for SEED
 | Document | Effective from |
 | ---| :---: |
 | [Download the Terms of Use](additional-resources/terms-of-use.pdf ':target=_blank')|  22 August, 2022|
-|[Download the Privacy Statement ](additional-resources/privacy-statement.pdf ':target=_blank') | 22 August, 2022 |
+|[Download the Privacy Statement](additional-resources/privacy-statement.pdf ':target=_blank') | 22 August, 2022 |
 |[Download the Acceptable Use Policy](additional-resources/mdm-aup-v4.0.pdf ':target=_blank') | 01 January, 2022 |
