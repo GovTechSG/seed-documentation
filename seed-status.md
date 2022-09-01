@@ -1,4 +1,4 @@
-# SEED system status
+# SEED service status
 
 This page provides the following Information:
 - [Scheduled maintenance](#scheduled-maintenance)
