@@ -12,6 +12,7 @@ This page provides you with information about:
 
 | Date  | Article | Change |
 | ------------- |:-------------:|:-------------|
+| 02 September 2022|[Announcements](announcements) | Included information about Cloudflare's announcement on the removal of Egress IP. |
 | 30 August 2022 | [SEED status](seed-status) | SEED status page was updated for a Cloudflare incident. |
 | 19 August 2022 | [Announcements](announcements) | Included information about the security updates released by Apple to address two zero-day vulnerabilities that affect its operating systems. |
 | 18 August 2022 | [FAQ on onboarding](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/faqs/common-onboarding-issues) | Added information on how to verify if you have successfully onboarded your device to SEED. |
