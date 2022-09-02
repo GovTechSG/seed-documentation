@@ -25,4 +25,4 @@ None
 
 ### Cloudflare status
 
-You may also visit the [Cloudflare status page](https://www.Cloudflarestatus.com/) for recent updates on any Cloudflare issues.
+You may also visit the [Cloudflare status page](https://www.Cloudflarestatus.com/) for recent updates on issues with Cloudflare Zero Trust, WARP, Cloudflare Tunnel and Cloudflare Access.
