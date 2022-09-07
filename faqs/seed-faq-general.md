@@ -85,7 +85,7 @@ The current `audit_control` configuration set by SEED could be the reason causin
 
 The latest configuration change for audit logs retention is 60 days and  5 GB.
 
-If your `/private/var/audit` folder size is more than 5 GB, run the following commands to sync with the new policy.
+If your `/private/var/audit` folder size is more than 5 GB, run the following commands to sync with the new audit log retention policy.
 
 ```
 audit -s
