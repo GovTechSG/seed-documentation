@@ -19,11 +19,11 @@ None
 
 | Date| 30 August 2022|
 | ------------- |:-------------|
-|**Issue summary** | An issue was identified with Cloudflare Access on 30 August 2022, 12:00 SGT. A fix was implemented on August 30, 2022 12:14 SGT and Cloudflare has resolved the issue at 12:39 SGT.<br><br>**Customer Impact:**<br>Users may not have been able to access the Internet and SGTS services during this time.|
+|**Issue summary** | An issue was identified with Cloudflare Access on 30 August 2022, 12:00 SGT. A fix was implemented on 30 August 2022, 12:14 SGT and Cloudflare has resolved the issue at 12:39 SGT.<br><br>**Customer Impact:**<br>Users may not have been able to access the Internet and SGTS services during this time.|
 
 | Date| 21 June 2022|
 | ------------- |:-------------|
-|**Issue summary** | An issue has been identified with Cloudflare services on June 21, 2022  14:34 SGT. A fix has been implemented on June 21, 15:20 SGT and we are monitoring the outcome.<br><br>**Customer Impact:**<br> Users may have observed 500 errors while accessing the Internet and Cloudflare protected SGTS services using Cloudflare WARP.<br>While we monitor the fix, if you are still unable to access the Internet, please turn off WARP to access the Internet and create an [incident support request](raise-an-incident-support-request) with the respective SGTS service or product team.<br>You may also visit the [Cloudflare status page](https://www.Cloudflarestatus.com/) for recent updates on this issue.|
+|**Issue summary** | An issue has been identified with Cloudflare services on 21 June 2022, 14:34 SGT. A fix has been implemented on 21 June 2022, 15:20 SGT and we are monitoring the outcome.<br><br>**Customer Impact:**<br> Users may have observed 500 errors while accessing the Internet and Cloudflare protected SGTS services using Cloudflare WARP.<br>While we monitor the fix, if you are still unable to access the Internet, please turn off WARP to access the Internet and create an [incident support request](raise-an-incident-support-request) with the respective SGTS service or product team.<br>You may also visit the [Cloudflare status page](https://www.Cloudflarestatus.com/) for recent updates on this issue.|
 
 ### Cloudflare status
 
