@@ -13,6 +13,7 @@ This page provides you with information about:
 | Date  | Article | Change |
 | ------------- |:-------------:|:-------------|
 | 08 September 2022| [SEED service status](seed-status?id=ongoing-incidents) | Included information about an ongoing incident with Cloudflare that impact users accessing SGTS services. |
+| 07 September 2022 | [General FAQ](faqs/seed-faq-general) | Included the information about the latest audit log retention policy and how to sync with it. |
 | 02 September 2022|[Announcements](announcements) | Included information about Cloudflare's announcement on the removal of egress IP trial. |
 | 30 August 2022 | [SEED status](seed-status) | SEED status page was updated for a Cloudflare incident. |
 | 19 August 2022 | [Announcements](announcements) | Included information about the security updates released by Apple to address two zero-day vulnerabilities that affect its operating systems. |
