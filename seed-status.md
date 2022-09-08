@@ -13,7 +13,7 @@ None
 
 | Date | 08 September 2022 |
 | ------------- |:-------------|
-|**Issue summary** | We identified an issue with Cloudflare Gateway at 14:41 SGT and our users are currently unable to access microsoft.com websites for their authentication. We are working with Cloudflare to implement a fix.<br><br>**Impact:**<br>Users will not be able to access SGTS services, including GCC 2.0. |
+|**Issue summary** | We identified an issue with Cloudflare Gateway at 14:41 SGT and our users are currently unable to access Microsoft websites for their authentication. We are working with Cloudflare to implement a fix.<br><br>**Impact:**<br>Users will not be able to access SGTS services, including GCC 2.0. |
 
 ## Previous incidents
 
