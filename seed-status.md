@@ -11,6 +11,8 @@ None
 
 ## Ongoing incidents
 
+None
+
 ## Previous incidents
 | Date | 08 September 2022 |
 | ------------- |:-------------|
