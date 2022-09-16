@@ -12,7 +12,7 @@ This page provides you with information about:
 
 | Date  | Article | Change |
 | ------------- |:-------------:|:-------------|
-| 16 September 2022 | - [Troubleshoot access issues with Cloudflare WARP](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/faqs/cloudflare-warp-known-issues)<br><br> - [Register Microsoft Intune device ID](onboard-device/mac-os?id=step-2-register-microsoft-intune-device-id) | Included instructions on how users can check the category of a domain on Cloudflare radar.<br><br> Note added for SE-GSIB users on how to register their Microsoft Intune device ID. |
+| 16 September 2022 | - [Troubleshoot access issues with Cloudflare WARP](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/faqs/cloudflare-warp-known-issues)<br><br> - [Register Microsoft Intune device ID](https://docs.developer.tech.gov.sg/docs/staging-security-suite-for-engineering-endpoint-devices-seed/onboard-device/mac-os?id=step-2-register-microsoft-intune-device-id) | Included instructions on how users can check the category of a domain on Cloudflare radar.<br><br> Note added for SE-GSIB users on how to register their Microsoft Intune device ID. |
 | 08 September 2022| [SEED service status](seed-status) | Included information about an incident with Cloudflare that impacted users accessing SGTS services. |
 | 07 September 2022 | [General FAQ](faqs/seed-faq-general) | Included the information about the latest audit log retention policy and how to sync with it. |
 | 02 September 2022|[Announcements](announcements) | Included information about Cloudflare's announcement on the removal of egress IP trial. |
