@@ -1,13 +1,14 @@
-# Cloudflare WARP FAQ
+# Troubleshoot access issues with Cloudflare WARP
 
-<details open>
+
+<details>
 <summary style="font-size:20px;font-weight:bold">What should I do if I am unable to browse the internet using Cloudflare WARP?</summary>
 
 Check if you are connected to any VPN. If you are still connected to your VPN, you may not be able to access the internet as it conflicts with your DNS resolver configuration. To resolve this, disconnect from your VPN and make sure only Cloudflare WARP is connected.
 
 </details>
      <hr />
-<details open><summary style="font-size:20px;font-weight:bold">I had to use my VPN and as recommended by SEED, I had turned off Cloudflare WARP and connected to VPN. After three hours, when Cloudflare WARP automatically reconnects, I am unable to browse the internet. What could be the reason and how to resolve it?</summary>
+<details><summary style="font-size:20px;font-weight:bold">I had to use my VPN and as recommended by SEED, I had turned off Cloudflare WARP and connected to my VPN. After three hours, when Cloudflare WARP automatically reconnected, I am unable to browse the internet. What could be the reason and how to resolve it?</summary>
 
 If you disconnect Cloudflare WARP on your device, it gets automatically reconnected after three hours. At that time, if you are still connected to your VPN, you may not be able to access the internet as it conflicts with your DNS resolver configuration.
 
@@ -18,7 +19,7 @@ In addition, make sure the VPN configuration does not route all traffic and DNS 
 </details>
      <hr />
 
-<details open>
+<details>
 <summary style="font-size:20px;font-weight:bold">I am unable to access a particular website. I get an <em>Access restricted</em> error or <em>DNS error</em> while accessing this website.</summary>
 
 The following can cause this issue:
@@ -102,7 +103,22 @@ The following can cause this issue:
 </details>
      <hr />
 
-<details open>
+
+<details>
+<summary style="font-size:20px;font-weight:bold"> While accessing a website, I get an <em>Access restricted</em> error followed by "Your access to this domain has been blocked as the domain has been identified as a Content Risk by Cloudflare". What can I do?</summary>
+
+Cloudflare WARP works with Cloudflare Gateway to block websites that may have been classified under security risk categories.
+
+**To identify Cloudflare category of a domain**:
+
+1. Go to [Cloudflare radar](https://radar.cloudflare.com/domain).
+2. Enter the domain name of the website and check the categories under which it is classified. For more information on categories and their definitions, refer to [Cloudflare DNS categories](https://developers.cloudflare.com/cloudflare-one/policies/filtering/dns-policies/dns-categories/).
+3. If the domain is incorrectly classified, visit [contact Cloudflare](https://radar.cloudflare.com/categorization-feedback/) to provide your feedback.
+
+</details>
+     <hr />
+
+<details>
 <summary style="font-size:20px;font-weight:bold">While using some tools and applications with Cloudflare WARP Client, why do I get SSL errors?</summary>
 
 Your tool or application may be using a certificate store that is separate from the trusted root certificate store of your system.
@@ -118,7 +134,7 @@ Your tool or application may be using a certificate store that is separate from 
 </details>
 <hr />
 
-<details open>
+<details>
 <summary style="font-size:20px;font-weight:bold">I am unable to access the GCC 2.0 Cloud Management Portal, or a Singapore Tech Stack service. Is there a problem with my Government Managed Device?</summary>
 
 If you are unable to access the GCC 2.0 CMP or any SGTS service, do the following:
@@ -139,7 +155,7 @@ If you still have issues, [Generate diagnostic report](https://docs.developer.te
 </details>
 <hr />
 
-<details open>
+<details>
 <summary style="font-size:20px;font-weight:bold">I intermittently experience the error message: "<em>That account does not have access</em>" when accessing SGTS services using Cloudflare WARP.</summary>
 
 This is a known issue with Cloudflare WARP. If you are unable to access any SGTS service, do the following:
@@ -160,7 +176,7 @@ If you still have issues, [Generate diagnostic report](https://docs.developer.te
 </details>
 <hr />
 
-<details open>
+<details>
 <summary style="font-size:20px;font-weight:bold">Tanium client returns a 400 Bad Request Error when contacted by the Cloudflare Access landing page via localhost. What should I do? </summary>
 
 This is due to the time synchronisation issue between Cloudflare and Tanium client. To fix this, resync the local time of your macOS or Windows machine.
@@ -192,7 +208,7 @@ To check and synchronise your device time with the internet time server:
   </details>  
   <hr />
 
-  <details open>
+  <details>
   <summary style="font-size:20px;font-weight:bold">Can I request to include IP addresses or domains in the Cloudflare WARP split tunnel list to exclude them from going through WARP and redirect them to go though other VPN?</summary>
 
   Currently, we do not accept requests for split tunnel or fallback domain entries because from a security compliance perspective, it would allow endpoints to access other VPN networks and act as a network bridge. If you want to connect to other VPN networks, turn off Cloudflare WARP temporarily. Note that Cloudflare WARP when manually turned off, will be automatically turned on after three hours.
