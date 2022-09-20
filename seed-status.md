@@ -10,8 +10,9 @@ This page provides the following Information:
 None
 
 ## Ongoing incidents
-
-None
+| Date | 20 September 2022 |
+| ------------- |:-------------|
+| **Issue summary** | Generally, when SEED users connect to a VPN with Cloudflare WARP active, WARP gets disabled and re-enabled. If users disable WARP before connecting to the VPN,  WARP gets re-enabled. We have identified an issue when Cloudflare gets re-enabled, and users attempt to connect to a VPN that is not on the allowlist. We have raised an issue with Cloudflare to resolve this.<br><br>**Impact:**<br>When WARP gets re-enabled, and if the VPN is not in the allowlist, users will not be able to connect to the VPN.<br><br>**Action recommended:**<br>Uninstall WARP and wait for Microsoft Intune to push down the old version. |
 
 ## Previous incidents
 | Date | 08 September 2022 |
