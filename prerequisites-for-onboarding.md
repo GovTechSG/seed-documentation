@@ -179,7 +179,6 @@ This section explains how public officers and vendors can remove those softwares
   5. When prompted, enter your macOS password.
 
 </details>
-
 <details><summary style="font-size:18px">e. Remove Defender or the current antivirus solution</summary><br>
 
 
