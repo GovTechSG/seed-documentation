@@ -180,8 +180,8 @@ This section explains how public officers and vendors can remove those softwares
 
 </details>
 
+<details><summary style="font-size:18px">e. Remove Defender or the current antivirus solution</summary><br>
 
-<details>
 
   > **Note**:
   > The following steps are to remove Defender from your device. If you have other antivirus solution, contact your administrator to remove it.
