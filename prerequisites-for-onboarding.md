@@ -70,7 +70,7 @@ If you had requested SEED provisioning while signing up for your TechPass accoun
 > Currently, you can't onboard virtual machine to SEED.
 
 ### Remove existing softwares on your device
-Before onboarding to SEED, you need to remove the Following software solutions from your device:
+Before onboarding to SEED, you need to remove the following software solutions from your device if applicable:
 
 - current MDM software
 - Tanium client or any other unified endpoint management and security platform
@@ -182,11 +182,11 @@ This section explains how public officers and vendors can remove those softwares
 
 
 <details>
-  <summary style="font-size:18px">e. Remove current antivirus solution on the device</summary><br>
 
-  <!--[Get the offboarding script to remove antivirus solution](snippets/remove-microsoft-defender-for-endpoint-or-current-antivirus-solution.md ':include')-->
+  > **Note**:
+  > The following steps are to remove Defender from your device. If you have other antivirus solution, contact your administrator to remove it.
 
-  1. Open **Terminal** and run `mdatp health`.
+  1. Open **Terminal** and run `mdatp health`. If you get a `mdatp: command not found` error, you do not have Defender installed on your device and can skip the steps in this section.
   2. Take note of the value displayed for **org_id**.
   3. Identify the organisation corresponding to this **org_id** from the following table. This is the organisation of the Defender or the antivirus on your device.
 
@@ -207,7 +207,7 @@ This section explains how public officers and vendors can remove those softwares
     | TechPass      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/tp_mac)     |
     | Hive      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/hive_mac)     |
 
-  5. When prompted to log in, log in with your TechPass.
+  5. When prompted, log in with your TechPass.
 
     > **Note**:
     >- If you have any issues in accessing the link to download the offboarding script, try accessing the link in incognito mode or one of the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
