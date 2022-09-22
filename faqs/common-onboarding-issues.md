@@ -1,6 +1,14 @@
 # Onboarding FAQ
 
 <details>
+  <summary style="font-size:20px;font-weight:bold">Can I onboard my GSIB device to SEED?</summary>
+
+  No, you can't onboard your GSIB device to SEED. SEED is an MDM solution only for a non-GSIB or non-DWP device. Hence, you can onboard only your non-GSIB or non-DWP device to SEED.
+
+  </details>
+  <hr/>
+
+<details>
   <summary style="font-size:20px;font-weight:bold">What should I do if profile installation fails while installing the management profile?</summary>
 
 <!--<kbd>![profile-installation-failed](images/onboarding-for-macos/profile-installation-failed.png)</kbd>-->
