@@ -25,6 +25,9 @@ If you use a non-SE GSIB device and if your TechPass account is active, to reque
 5. You will receive the SEED onboarding invitation email within the next three business days.
 
 Complete to onboard your non-GSIB or non-DWP device by following the instructions on [SEED documentation](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/prerequisites-for-onboarding).  
+
+If you do not use a non-SE GSIB device and and if your TechPass account is active, [create a service request with TechPass](https://go.gov.sg/techpass-sr) to request for SEED onboarding invitation email.
+
 </details><hr />
 
 <details><summary style="font-size:20px;font-weight:bold">I have lost my GMD. What should I do?</summary>
