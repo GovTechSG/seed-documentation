@@ -58,7 +58,7 @@ If you had requested SEED provisioning while signing up for your TechPass accoun
 
 ### Supported operating systems and devices for SEED
 - A non-GSIB or a non-DWP device that runs on:
-  - Windows 10 Pro or Enterprise versions
+  - Windows 10 and 11 Pro or Enterprise versions
   - macOS 11 (macOS Big Sur) and macOS 12 (macOS Monterey) versions
 
 > **Note**:
@@ -378,7 +378,7 @@ If you are onboarding a macOS device, verify if System Integrity Protection (SIP
 
 8. The device encryption page is displayed. <!--Click **Start encrypting**.-->
 
-?> Depending on your system settings, you may be prompted to restart your computer before the encryption can start. If you are prompted to do so, restart your device, then return to the **Manage BitLocker** window to verify if encryption has started. A padlock icon on the hard drives in your Windows 10 File Explorer indicates that the hard drive has been encrypted.
+?> Depending on your system settings, you may be prompted to restart your computer before the encryption can start. If you are prompted to do so, restart your device, then return to the **Manage BitLocker** window to verify if encryption has started. A padlock icon on the hard drives in your Windows File Explorer indicates that the hard drive has been encrypted.
 
 <!-- tabs:end -->
 

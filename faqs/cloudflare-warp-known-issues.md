@@ -192,7 +192,7 @@ To check and synchronise your device time with the internet time server:
    ![synchronise your Mac time](../images/sync-clock-on-mac.png)
   </details>
 
-  <details><summary style="font-size:20px;font-weight:bold">For Windows 10 device</summary>
+  <details><summary style="font-size:20px;font-weight:bold">For Windows device</summary>
 
     1. Open the **Start** menu and click **Settings**.
     1. Choose **Time & Language**.

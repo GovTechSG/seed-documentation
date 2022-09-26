@@ -11,6 +11,22 @@
 Security Suite for Engineering Endpoint Devices (SEED) is a Mobile Device Management (MDM) solution. SEED ensures data security to protect the digital information of your organisation from unauthorised access, malicious users, and corruption. When you onboard a non-GSIB device to SEED, it becomes a GMD. It allows you to remotely manage access to highly sensitive data, provide user authentication, and can wipe off data from the device remotely if it is lost or compromised.
 
 </details><hr />
+
+<details><summary style="font-size:20px;font-weight:bold">My TechPass account is active but my SEED onboarding email invitation has expired. How do I get another SEED onboarding email invitation?</summary>
+
+Your SEED onboarding email invitation is valid for 30 days. If you have not onboarded to SEED following your TechPass onboarding within this 30 days, your invitation will no longer be valid.
+
+If you use a non-SE GSIB device and if your TechPass account is active, to request for SEED:
+
+1. Go to the [TechPass portal](http://portal.techpass.gov.sg) from your non-SE GSIB device.
+2. Log in with TechPass.
+3. Hover over your user name and click **My Account**.
+4. In the **Profile** page, click **Request for SEED**.
+5. You will receive the SEED onboarding invitation email within the next three business days.
+
+Complete to onboard your non-GSIB or non-DWP device by following the instructions on [SEED documentation](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/prerequisites-for-onboarding).  
+</details><hr />
+
 <details><summary style="font-size:20px;font-weight:bold">I have lost my GMD. What should I do?</summary>
 
 1. Inform the manager-in-charge and operations manager and get an approval to delete the data from the lost device.
