@@ -35,8 +35,10 @@
 
 >**Notes**:
 >- Your device is now enrolled in Microsoft Intune.
->- If you are a vendor or contractor, Tanium and Cloudflare WARP are installed on your device. Microsoft Intune Management Extension sends you a desktop notification about once the installation is complete.
->- If you are a public officer, Tanium and Cloudflare WARP will be installed after you register your device ID on the TechPass portal. Refer to **step b. Register the Microsoft Intune device ID for your Windows device** for more information.
+>
+>- If you are a vendor or contractor, Tanium and Cloudflare WARP are installed on your device. When the installation is complete, Microsoft Intune Management Extension sends you a desktop notification.
+>
+>- If you are a public officer, Tanium and Cloudflare WARP will be installed after registering your device ID on the TechPass portal. Refer to **step b. Register the Microsoft Intune device ID for your Windows device** for more information.
 
 </details>
 
