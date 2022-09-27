@@ -36,7 +36,7 @@ If you do not use a non-SE GSIB device and if your TechPass account is active, [
 2. Raise a [service request][service-request] to notify the SEED team about the lost device.
 3. In this service request, indicate if the device had any sensitive data to prioritise the remote wipe.
 
-> **Note**: To wipe the device, the device needs to be powered on and be connected to a network so it can receive the communication for it to be wiped.
+> **Note**: To wipe the device, the device needs to be powered on and be connected to the internet so it can receive the communication for it to be wiped.
 
 4. Attach the approvals from your managers so that the SEED Administrator can take the required actions accordingly to prevent any data breach.
 
@@ -45,7 +45,7 @@ If you do not use a non-SE GSIB device and if your TechPass account is active, [
 
 Once the SEED team detects that a security of the device is compromised, it will contact the device owner to disconnect the affected device from the network. SEED proceeds to do a remote wipe, after getting the required consent and approval from the device owner and the manager-in-charge, respectively.
 
-> **Note**: To wipe the device, the device needs to be powered on and be connected to a network so it can receive the communication for it to be wiped.
+> **Note**: To wipe the device, the device needs to be powered on and be connected to the internet so it can receive the communication for it to be wiped.
 
 </details><hr />
 <details><summary style="font-size:20px;font-weight:bold">What happens when a remote wipe is performed on a GMD?</summary>
@@ -54,14 +54,14 @@ Remote wipe in SEED is the feature where SEED administrator can remotely delete 
 
 When remote wipe is performed on a device, all the data on it will be erased. For more information, refer to the [Terms and Policies][terms-and-policies].
 
-> **Note**: To wipe the device, the device needs to be powered on and be connected to a network so it can receive the communication for it to be wiped.
+> **Note**: To wipe the device, the device needs to be powered on and be connected to the internet so it can receive the communication for it to be wiped.
 
 </details><hr />
 <details><summary style="font-size:20px;font-weight:bold">Is remote wipe done only on devices that belong to public sector agencies?</summary>
 
 No, remote wipe will be done on any GMD which is lost or whose security is compromised to prevent data breach. However, remote wipe is performed only if the device is stolen, lost or its security is compromised. For more information, refer to the [Terms and Policies][terms-and-policies].
 
-> **Note**: To wipe the device, the device needs to be powered on and be connected to a network so it can receive the communication for it to be wiped.
+> **Note**: To wipe the device, the device needs to be powered on and be connected to the internet so it can receive the communication for it to be wiped.
 
 </details><hr />
 <details><summary style="font-size:20px;font-weight:bold">I have already enrolled my device with Microsoft Intune under my organisation or with other MDM solution. Will this impact when I onboard my device to SEED?</summary>
