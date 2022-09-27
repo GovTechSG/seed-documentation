@@ -50,14 +50,16 @@ Once the SEED team detects that a security of the device is compromised, it will
 </details><hr />
 <details><summary style="font-size:20px;font-weight:bold">What happens when a remote wipe is performed on a GMD?</summary>
 
-Remote wipe in SEED is the feature where SEED administrator can remotely delete and destroy data on a device or system. When remote wipe is performed on a device, all the data on it will be erased. For more information, refer to the [Terms and Policies][terms-and-policies].
+Remote wipe in SEED is the feature where SEED administrator can remotely delete and destroy data on a device or system. Remote wipe is performed only if the device is stolen, lost or its security is compromised.
+
+When remote wipe is performed on a device, all the data on it will be erased. For more information, refer to the [Terms and Policies][terms-and-policies].
 
 > **Note**: To wipe the device, the device needs to be powered on and be connected to a network so it can receive the communication for it to be wiped.
 
 </details><hr />
 <details><summary style="font-size:20px;font-weight:bold">Is remote wipe done only on devices that belong to public sector agencies?</summary>
 
-No, remote wipe will be done on any GMD device that is lost or whose security is compromised to prevent data breach. For more information, refer to the [Terms and Policies][terms-and-policies].
+No, remote wipe will be done on any GMD which is lost or whose security is compromised to prevent data breach. However, Remote wipe is performed only if the device is stolen, lost or its security is compromised. For more information, refer to the [Terms and Policies][terms-and-policies].
 
 > **Note**: To wipe the device, the device needs to be powered on and be connected to a network so it can receive the communication for it to be wiped.
 

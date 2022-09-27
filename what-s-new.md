@@ -12,6 +12,7 @@ This page provides you with information about:
 
 | Date  | Article | Change |
 | ------------- |:-------------:|:-------------|
+| 27 September 2022 | [SEED General FAQ](faqs/seed-faq-general) | Included the following information:<br><br> - Remote wipe is performed only if the device is stolen or security is compromised.<br><br> - To perform remote the device, the device needs to be powered on and be connected to a network so it can receive the communication for it to be wiped. |
 | 26 September 2022 | - [Supported operating systems](#supported-operating-systems-and-devices-for-seed)<br><br> - [SEED General FAQ](faqs/seed-faq-general) | You can now onboard Windows 11 Pro or Enterprise versions to SEED.<br><br>Included the steps to reinitiate the SEED onboarding invitation email. |
 | 20 September 2022 | [Announcement](announcements) | Included a new announcement for an ongoing Cloudflare issue impacting users connecting to VPN that is not on the allowlist. |
 | 16 September 2022 | - [Troubleshoot access issues with Cloudflare WARP](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/faqs/cloudflare-warp-known-issues)<br><br> - [Register Microsoft Intune device ID](https://docs.developer.tech.gov.sg/docs/staging-security-suite-for-engineering-endpoint-devices-seed/onboard-device/mac-os?id=step-2-register-microsoft-intune-device-id) | Included instructions on how users can check the category of a domain on Cloudflare radar.<br><br> Note added for SE-GSIB users on how to register their Microsoft Intune device ID. |
