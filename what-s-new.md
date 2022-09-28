@@ -5,7 +5,8 @@ This page provides you with information about:
 - [Document-history](#latest-changes)
 - [Announcements](announcements)
 - [Known issues](known-issues)
-<!-
+
+<!--
 - bug fixes
 - deprecated functionalities
 -->
