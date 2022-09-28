@@ -2,7 +2,7 @@
 
 This page provides you with information about:
 
-- [Document-history](#latest-changes)
+- [Document-history](#document-history)
 - [Announcements](announcements)
 - [Known issues](known-issues)
 
