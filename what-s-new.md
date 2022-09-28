@@ -2,13 +2,15 @@
 
 This page provides you with information about:
 
-- [latest changes](#latest-changes)
+- [Document-history](#latest-changes)
 - [Announcements](announcements)
 - [Known issues](known-issues)
+<!-
 - bug fixes
 - deprecated functionalities
+-->
 
-## Latest changes
+## Document history
 
 | Date  | Article | Change |
 | ------------- |:-------------:|:-------------|
