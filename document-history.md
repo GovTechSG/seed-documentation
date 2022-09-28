@@ -1,4 +1,4 @@
-## Latest changes to the SEED documentation
+# Latest changes to the SEED documentation
 
 This table shows the history of updates to the SEED documentation.
 
