@@ -1,4 +1,4 @@
-## Announcements
+# Announcements
 
 | Date  | Announcement |
 | ------------- |:-------------:|
