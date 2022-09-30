@@ -210,7 +210,7 @@ This section explains how public officers and vendors can remove those softwares
 
     > **Note**:
     >- If you have any issues in accessing the link to download the offboarding script, try accessing the link in incognito mode or one of the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
-    >- If you still have issues in downloading the script, create a [support request](https://form.gov.sg/#!/5f69797d0666cb0011cc59da).
+    >- If you still have issues in downloading the script, create a [support request](https://go.gov.sg/techpass-sr).
 
   6. Save the offboarding script to the **Downloads** folder.
 
@@ -301,7 +301,7 @@ This section explains how public officers and vendors can remove those softwares
 
   > **Note**:
   >- If you have any issues in accessing the link to download the offboarding script, try accessing the link in incognito mode or one of the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
-  >- If you still have issues in downloading the script, create a [support request](https://form.gov.sg/#!/5f69797d0666cb0011cc59da).
+  >- If you still have issues in downloading the script, create a [support request](https://go.gov.sg/techpass-sr).
 
   8. Save the offboarding script in your **Downloads** folder.
 
