@@ -1,7 +1,10 @@
 **Overview**
   - [Overview](overview)
-  - [What's new](what-s-new)
-**Getting started**  
+  **What's new**
+  - [Announcements](announcements)
+  - [Known issues](known-issues)
+  - [Latest changes to the SEED documentation](document-history)
+  **Getting started**  
   - [Prerequisites](prerequisites-for-onboarding)
   - [Onboard device](onboard-device/onboard-device-to-seed)
 **After onboarding**    
