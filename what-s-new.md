@@ -4,7 +4,6 @@ This page provides you with information about:
 
 - [Announcements](announcements)
 - [Known issues](known-issues)
-
 ## Latest changes
 
 | Date  | Article | Change |
