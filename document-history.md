@@ -1,19 +1,9 @@
-# What's new
+# Latest changes to the SEED documentation
 
-This page provides you with information about:
-
-- [Announcements](announcements)
-- [Known issues](known-issues)
-
-<!--
-- bug fixes
-- deprecated functionalities
-
-## Latest changes
+This table shows the history of updates to the SEED documentation.
 
 | Date  | Article | Change |
 | ------------- |:-------------:|:-------------|
-| 30 September 2022 | [Create support request](raise-an-incident-support-request) | From October 1, 2022, for any SEED issues, except SHIP-HATS users, all others must contact the TechPass support team. SHIP_HATS users must contact their support channel. | 
 | 27 September 2022 | [SEED General FAQ](faqs/seed-faq-general) | Included the following information:<br><br> - Remote wipe is performed only if the device is stolen, lost or security is compromised.<br><br> - To perform remote the device, the device needs to be powered on and be connected to the internet so it can receive the communication for it to be wiped. |
 | 26 September 2022 | - [Supported operating systems](#supported-operating-systems-and-devices-for-seed)<br><br> - [SEED General FAQ](faqs/seed-faq-general) | You can now onboard Windows 11 Pro or Enterprise versions to SEED.<br><br>Included the steps to reinitiate the SEED onboarding invitation email. |
 | 20 September 2022 | [Announcement](announcements) | Included a new announcement for an ongoing Cloudflare issue impacting users connecting to VPN that is not on the allowlist. |
@@ -31,8 +21,3 @@ This page provides you with information about:
 | 07 July 2022 | [Prerequisites for onboarding device to SEED](prerequisites-for-onboarding) | A new prerequisite is added, and this is applicable only for users whose organisation uses a firewall or other policies restricting the Internet traffic. Provided the link to the Cloudflare resource, which tells about the changes. |
 | 24 June 2022     | [Known issues](known-issues)     | Added this topic which lists the known issues and available workaround. |
 | 21 June 2022 | [Announcements](announcements)  | Added this topic to publish incidents and planned maintenance activities. |
-
-
-[Announcements](announcements.md ':include')
-
-[Known issues](known-issues.md ':include')
