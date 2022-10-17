@@ -73,9 +73,13 @@
 
 ## Step 2: Register Microsoft Intune device ID
 
-This step is applicable only for public officers to get the required applications and device configurations on their device.
+- This step is applicable only if your TechPass ID is your official email address. For example, *peter_wilson<span>@</span>tech.gov.sg*.
 
-?> If you are a public officer; your TechPass ID will be your official email address such as *your_name<span>@</span>agency.gov.sg* or *your_name<span>@</span>tech.gov.sg*. Ignore this step if your TechPass ID format is *your_name<span>@</span>techpass.gov.sg*.
+- If you are a SE-GSIB user, complete steps 1-2 and contact the [support team](https://go.gov.sg/techpass-sr) with your Intune device ID to register your Intune device ID.  
+
+- Other users can skip this step. For example, if your TechPass ID is *peter_wilson<span>@</span>techpass.gov.sg*, please ignore this step.
+
+
 
 **To get the Intune device ID**:
 
@@ -115,9 +119,6 @@ IFS="$old_ifs"
 echo "$actual_id"
 ```
 2. Take note of the Intune device ID that is displayed on the Terminal window.
-
-> **Note**
-> If you are using SE-GSIB device, create a [support request](https://go.gov.sg/techpass-sr) to submit your Intune device ID.
 
 3. Using your non-SE GSIB device, go to your profile page on the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
 4. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune device ID. Intune installs the required softwares and configurations to complete your device onboarding.
