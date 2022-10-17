@@ -4,7 +4,7 @@ With split tunnel allowlisting, GCC 2.0 Tenants can connect to their project sys
 
 If agencies intend to allow their project VPNs to be allowed, make sure your request complies with the following are the technical and evaluation criteria:
 
-> **Note**: The approval of split tunnel allowlisting requests is **including but not limited** to the following evaluation criteria.
+> **Note**: The approval of split tunnel allowlisting requests is **including but not limited** to the following criteria.
 
 ## Technical criteria
 
