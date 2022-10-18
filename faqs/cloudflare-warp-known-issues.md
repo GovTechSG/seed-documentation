@@ -8,7 +8,9 @@ Check if you are connected to any VPN. If you are still connected to your VPN, y
 
 </details>
      <hr />
-<details><summary style="font-size:20px;font-weight:bold">I had to use my VPN and as recommended by SEED, I had turned off Cloudflare WARP and connected to my VPN. After three hours, when Cloudflare WARP automatically reconnected, I am unable to browse the internet. What could be the reason and how to resolve it?</summary>
+
+<details>
+<summary style="font-size:20px;font-weight:bold">I had to use my VPN and as recommended by SEED, I had turned off Cloudflare WARP and connected to my VPN. After three hours, when Cloudflare WARP automatically reconnected, I am unable to browse the internet. What could be the reason and how to resolve it?</summary>
 
 If you disconnect Cloudflare WARP on your device, it gets automatically reconnected after three hours. At that time, if you are still connected to your VPN, you may not be able to access the internet as it conflicts with your DNS resolver configuration.
 
@@ -215,6 +217,34 @@ To check and synchronise your device time with the internet time server:
 
   </details>
   </hr>
+
+
+  <details>
+  <summary style="font-size:20px;font-weight:bold">Can I request to allow my VPN to be added to the allowlist?</summary>
+
+
+  We strongly encourage agencies to avoid requesting for split tunnel allowlisting to reduce or prevent harmful security attacks. However, if you still intend to allow a VPN IP, [create a support request to request](https://go.gov.sg/techpass-sr). Our team may need additional information to evaluate this request.
+
+  For more information, refer to [split tunnel allowlist](additional-resources/split-tunnel-allowlist).
+
+  </details>
+  </hr>
+
+
+  <details>
+  <summary style="font-size:20px;font-weight:bold">What happens when I request for split tunnel allowlisting?</summary>
+
+  We will assess the split tunnel allowlisting requests on a case-by-case basis to ensure that the request does not compromise GCC 2.0 or SGTS applications.
+
+  As part of our security review processes, we will periodically review split tunnel entries to check if they are still necessary.
+
+  For more information, refer to [split tunnel allowlist](additional-resources/split-tunnel-allowlist).
+
+
+  </details>
+  </hr>
+
+
 
 
 
