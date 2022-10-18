@@ -213,22 +213,13 @@ To check and synchronise your device time with the internet time server:
   <details>
   <summary style="font-size:20px;font-weight:bold">Can I request to include IP addresses or domains in the Cloudflare WARP split tunnel list to exclude them from going through WARP and redirect them to go though other VPN?</summary>
 
-  Currently, we do not accept requests for split tunnel or fallback domain entries because from a security compliance perspective, it would allow endpoints to access other VPN networks and act as a network bridge. If you want to connect to other VPN networks, turn off Cloudflare WARP temporarily. Note that Cloudflare WARP when manually turned off, will be automatically turned on after three hours.
-
-  </details>
-  </hr>
-
-
-  <details>
-  <summary style="font-size:20px;font-weight:bold">Can I request to allow my VPN to be added to the allowlist?</summary>
-
-
   We strongly encourage agencies to avoid requesting for split tunnel allowlisting to reduce or prevent harmful security attacks. However, if you still intend to allow a VPN IP, [create a support request to request](https://go.gov.sg/techpass-sr). Our team may need additional information to evaluate this request.
 
   For more information, refer to [split tunnel allowlist](additional-resources/split-tunnel-allowlist).
 
+
   </details>
-  </hr>
+  <hr />
 
 
   <details>
@@ -242,7 +233,7 @@ To check and synchronise your device time with the internet time server:
 
 
   </details>
-  </hr>
+  <hr />
 
 
 
