@@ -4,16 +4,11 @@ This page provides you with information about:
 
 - [Announcements](announcements)
 - [Known issues](known-issues)
-
-<!--
-- bug fixes
-- deprecated functionalities
-
 ## Latest changes
 
 | Date  | Article | Change |
 | ------------- |:-------------:|:-------------|
-| 30 September 2022 | [Create support request](raise-an-incident-support-request) | From October 1, 2022, for any SEED issues, except SHIP-HATS users, all others must contact the TechPass support team. SHIP_HATS users must contact their support channel. | 
+| 30 September 2022 | [Create support request](raise-an-incident-support-request) | From October 1, 2022, for any SEED issues, except SHIP-HATS users, all others must contact the TechPass support team. SHIP_HATS users must contact their support channel. |
 | 27 September 2022 | [SEED General FAQ](faqs/seed-faq-general) | Included the following information:<br><br> - Remote wipe is performed only if the device is stolen, lost or security is compromised.<br><br> - To perform remote the device, the device needs to be powered on and be connected to the internet so it can receive the communication for it to be wiped. |
 | 26 September 2022 | - [Supported operating systems](#supported-operating-systems-and-devices-for-seed)<br><br> - [SEED General FAQ](faqs/seed-faq-general) | You can now onboard Windows 11 Pro or Enterprise versions to SEED.<br><br>Included the steps to reinitiate the SEED onboarding invitation email. |
 | 20 September 2022 | [Announcement](announcements) | Included a new announcement for an ongoing Cloudflare issue impacting users connecting to VPN that is not on the allowlist. |

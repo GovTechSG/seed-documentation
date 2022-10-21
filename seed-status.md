@@ -12,9 +12,15 @@ None
 ## Ongoing incidents
 | Date | 20 September 2022 |
 | ------------- |:-------------|
-| **Issue summary** | With the availability of Cloudflare 2022.8.861.0, we identified an issue on 13 September 2022.<br>Generally, when SEED users connect to a VPN with Cloudflare WARP active, WARP gets disabled and re-enabled. If users disable WARP before connecting to the VPN, WARP gets re-enabled.  <br>Users experience issues while connecting to the VPN if it is not on the allowlist.<br><br>**Impact:**<br>Users cannot connect to the VPN if it is not on the allowlist.<br><br>**Action recommended:**<br>While we have raised an issue with Cloudflare to resolve this, if you are impacted, we suggest you uninstall WARP and wait for Microsoft Intune to push down the earlier version of WARP. |
+| **Issue summary** | With the availability of Cloudflare 2022.8.861.0, we identified an issue on 13 September 2022.<br>Generally, when SEED users connect to a VPN with Cloudflare WARP active, WARP gets disabled and re-enabled. If users disable WARP before connecting to the VPN, WARP gets re-enabled.  <br>Users experience issues while connecting to the VPN if it is not on the allowlist.<br><br>**Impact:**<br>Users cannot connect to the VPN if it is not on the allowlist.<br><br>**Action recommended:**<br>While we have raised an issue with Cloudflare to resolve this, if you are impacted, we suggest you uninstall WARP and wait for Microsoft Intune to push down the earlier version of WARP.<br><br>**Updates**:<br><br>**Fix**:<br>Newer version of Cloudflare WARP client will be installed on your GMD to resolve this issue. For more information, refer to [announcement](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/announcements) posted on 21 October 2022. |
 
 ## Previous incidents
+
+| Date | 21 October 2022 |
+| ------------- |:-------------|
+|**Issue summary** | Users encountered intermittent HTTP request failures and may have received error code 409 or CORS Blocked messages on their HTTP clients while using Cloudflare WARP Gateway. This issue has been resolved by Cloudflare WARP.<br><br>**Issue start time**: 20 October 2022, 19:45 SGT<br>**Issue end time**: 21 October 2022, 05:34 SGT<br><br>**Impact:**<br>Container stack users were affected during this time.<br><br>*Posted on: 21 October 2022, 09:50 SGT* |
+
+
 | Date | 08 September 2022 |
 | ------------- |:-------------|
 |**Issue summary** | We identified an issue with Cloudflare Gateway on 08 September 2022, 14:41 SGT, and our users are currently unable to access Microsoft websites to authenticate their logins. We are working with Cloudflare to implement a fix.<br><br>**Impact:**<br>Users will not be able to authenticate their login while accessing SGTS services, including GCC 2.0.<br>*Posted on: 08 September 2022, 16:28 SGT*<br><br>**Updates**:<br><br>**Mitigated**<br> While waiting for a fix from Cloudflare, GovTech implemented a workaround on 08 September 2022, 17:00 SGT mitigating the issue at 17:15 SGT. Users will now be able to access SGTS services.<br>*Posted on: 08 September 2022, 17:22 SGT*<br><br>**Resolved** <br>On September 09 2022, 08:26 SGT Cloudflare confirms that the issue has been resolved. |

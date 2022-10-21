@@ -28,10 +28,11 @@
 
   - If your organisation id corresponds to organisations such as WOG or TechPass, it indicates that **Microsoft Defender** has been configured correctly and you can ignore the rest of this section.
 
-  - If your organisation id corresponds to Hive, it indicates that your device is still enrolled with Hive.  [Download the offboarding script for Hive](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/hive_mac) by logging in with your TechPass and proceed to step 6.
+  - If your organisation id corresponds to Hive, it indicates that your device is still enrolled with Hive.  [Download the offboarding script for Hive](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/hive_mac) on your device by logging in with your TechPass and proceed to step 6.
 
-  > **Note**:
-  >- If you have any issues in accessing the link to download the offboarding script, try accessing the link in incognito mode or one of the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
+  > **Note**: If you have any issues in accessing the link to download the offboarding script,
+  >- Access the link in incognito mode.
+  >- Make sure you are using only the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
   >- If you still have issues in downloading the script, create a [support request](https://go.gov.sg/techpass-sr).
 
   - For all other organisation ids, contact your organisation's MDM administrator or Defender administrator to get the respective offboarding script and proceed to step 6.

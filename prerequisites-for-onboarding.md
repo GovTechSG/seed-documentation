@@ -198,7 +198,7 @@ This section explains how public officers and vendors can remove those softwares
   > **Note**:
   > If your organisation id(org_id) is different from the above three, contact the respective MDM administrator to get the offboarding script.
 
-  4. Based on the organisation, download the offboarding script from the following:
+  4. Based on the organisation, use the non-GSIB or non-DWP device to download the offboarding script from the following:
 
     | Organisation  | Offboarding script |
     | ------------- |:-------------:|
@@ -208,9 +208,11 @@ This section explains how public officers and vendors can remove those softwares
 
   5. When prompted, log in with your TechPass.
 
-    > **Note**:
-    >- If you have any issues in accessing the link to download the offboarding script, try accessing the link in incognito mode or one of the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
-    >- If you still have issues in downloading the script, create a [support request](https://go.gov.sg/techpass-sr).
+  > **Note**: If you have any issues in accessing the link to download the offboarding script,
+  >- Make sure that you are using your non-GSIB or non-DWP device to download the offboarding script.
+  >- Access the link in incognito mode.
+  >- Make sure you are using only the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
+  >- If you still have issues in downloading the script, create a [support request](https://go.gov.sg/techpass-sr).
 
   6. Save the offboarding script to the **Downloads** folder.
 
@@ -289,7 +291,7 @@ This section explains how public officers and vendors can remove those softwares
   > **Note**:
   > If your organisation id(OrgId) is different from the above three, contact the respective MDM administrator to get the offboarding script.
 
-  6. Based on the organisation, download the offboarding script from the following:
+  6. Based on the organisation, use your non-GSIB or non-DWP device to download the offboarding script from the following:
 
   | Organisation  | Offboarding script |
   | ------------- |:-------------:|
@@ -299,8 +301,10 @@ This section explains how public officers and vendors can remove those softwares
 
   7. When prompted to log in, log in with your TechPass.
 
-  > **Note**:
-  >- If you have any issues in accessing the link to download the offboarding script, try accessing the link in incognito mode or one of the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
+  > **Note**: If you have any issues in accessing the link to download the offboarding script,
+  >- Make sure that you are using your non-GSIB or non-DWP device to download the offboarding script.
+  >- Access the link in incognito mode.
+  >- Make sure you are using only the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
   >- If you still have issues in downloading the script, create a [support request](https://go.gov.sg/techpass-sr).
 
   8. Save the offboarding script in your **Downloads** folder.
