@@ -129,4 +129,4 @@ audit -e
 
 [techpass-documentation]: https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/
 [terms-and-policies]: https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/additional-resources/terms-and-policies
-[service-request]: https://form.gov.sg/#!/6099efa30d6a0a0012dff367
+[service-request]: https://go.gov.sg/techpass-sr
