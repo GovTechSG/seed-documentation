@@ -1,4 +1,4 @@
-# SEED post onboarding steps for Windows
+# SEED post onboarding instructions for Windows
 
 **Enrol in Cloudflare using WARP client to access protected engineering resources**
 
