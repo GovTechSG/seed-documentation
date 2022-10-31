@@ -4,6 +4,8 @@ This table shows the history of updates to the SEED documentation.
 
 | Date  | Article | Change |
 | ------------- |:-------------:|:-------------|
+| 31 October 2022 | Announcements](announcements) | Posted an announcement for GCC 1.0 users yet to onboard their internet device to SEED.|
+| 29 October 2022 | [Configuration of common Developer CLI tools with Cloudflare WARP](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/faqs/configuration-of-common-developer-cli-tools-with-cloudflare-warp) | Updated the [Docker](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/faqs/configuration-of-common-developer-cli-tools-with-cloudflare-warp?id=docker).|
 | 21 October 2022 | [Announcements](announcements) and [SEED status](seed-status) page | Updated announcements and status page for Cloudflare WARP issues. |
 | 17 October 2022 | [Split tunnel allowlist](additional-resources/split-tunnel-allowlist) | Included information about split tunnel allowlist |
 | 30 September 2022 | [Create support request](raise-an-incident-support-request) | From October 1, 2022, for any SEED issues, except SHIP-HATS users, all others must contact the TechPass support team. SHIP_HATS users must contact their support channel. |
