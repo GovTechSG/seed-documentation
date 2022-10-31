@@ -12,7 +12,7 @@
 **Offboard device**
   - [Offboard device from SEED](offboard-device/offboard-device-from-seed)
 **Troubleshoot**
-  - [FAQs](faqs/seed-faqs)
+  - [Troubleshooting FAQs](faqs/seed-faqs)
 **Additional resources**  
   - [SEED additional resources](additional-resources/additional-resources)
   - [Split tunnel allowlist](additional-resources/split-tunnel-allowlist)
