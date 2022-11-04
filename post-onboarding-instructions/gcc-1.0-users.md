@@ -29,7 +29,7 @@ Objective of this document is to explain how to verify if your device onboarding
 
 ![connected](../images/gcc-1-users/connected.png ':size=75%')
 
-7. Go to the [DEEP dashboard](https://deep.tech.gov.sg).
+7. Go to the [DEEP dashboard](https://dashboard.deep.tech.gov.sg).
 
 <kbd>![](../images/gcc-1-users/cloudflare-azure.png)</kbd>
 
