@@ -91,8 +91,20 @@ This is a known issue with Microsoft Defender version 101.54.16. To resolve this
 
  Big Sur 11 is the minimum version needed for a successful onboarding. If your macOS is an earlier version, ensure to [upgrade it to a later macOS version](https://support.apple.com/downloads/macos).
 
+ <!--
  > **Note**:
  > When you upgrade the OS of your Mac device, the OpenSSH settings found in `/etc/ssh/sshd_config` file may be reset. Hence, before proceeding to upgrade the OS of your Mac device, back up the `sshd_config` file so that you can easily restore if it gets reset during the OS upgrade.
+ -->
+
+ </details><hr />
+
+ <details>
+   <summary style="font-size:20px;font-weight:bold">Can I upgrade my macOS to macOS 13 (Ventura)?</summary>
+
+  You can safely upgrade your macOS to macOS 13(Ventura). However, you can't onboard macOS 13(Ventura) to SEED.
+
+  If you have already onboarded your Mac device to SEED and now upgrading to macOS 13(Ventura), you will not be able to see the failed checks for your device when you log in to the [DEEP dashboard](https://dashboard.deep.tech.gov.sg/).
+
 
  </details><hr />
 
