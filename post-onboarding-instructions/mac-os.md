@@ -1,4 +1,4 @@
-# SEED post onboarding instructions for macOS
+# SEED post onboarding instructions for macOS 11 and 12
 
 ## Enable Full Disk Access(FDA)
 
