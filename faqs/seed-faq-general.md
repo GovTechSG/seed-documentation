@@ -2,13 +2,13 @@
 
 <details><summary style="font-size:20px;font-weight:bold">What is TechPass and why do I need it?</summary>
 
-  TechPass is an Identity & Access Management (IAM) and Single Sign-On (SSO) solution. It provides a seamless login experience while accessing tools across Singapore Government Technology Stack (SGTS) and allows to easily manage access control for the users from a centralised location. It is a prerequisite for onboarding your device(non-GSIB) to SEED. For more information, refer to [TechPass Documentation][techpass-documentation].
+  TechPass is an Identity & Access Management (IAM) and Single Sign-On (SSO) solution. It provides a seamless login experience while accessing tools across Singapore Government Technology Stack (SGTS) and allows to easily manage access control for the users from a centralised location. It is a prerequisite for onboarding your device(internet) to SEED. For more information, refer to [TechPass Documentation][techpass-documentation].
 
 </details><hr />
 
 <details><summary style="font-size:20px;font-weight:bold">What is SEED and why should I onboard my device to SEED?</summary>
 
-Security Suite for Engineering Endpoint Devices (SEED) is a Mobile Device Management (MDM) solution. SEED ensures data security to protect the digital information of your organisation from unauthorised access, malicious users, and corruption. When you onboard a non-GSIB device to SEED, it becomes a GMD. It allows you to remotely manage access to highly sensitive data, provide user authentication, and can wipe off data from the device remotely if it is lost or compromised.
+Security Suite for Engineering Endpoint Devices (SEED) is a Mobile Device Management (MDM) solution. SEED ensures data security to protect the digital information of your organisation from unauthorised access, malicious users, and corruption. When you onboard an internet device to SEED, it becomes a GMD. It allows you to remotely manage access to highly sensitive data, provide user authentication, and can wipe off data from the device remotely if it is lost or compromised.
 
 </details><hr />
 
@@ -24,7 +24,7 @@ If you use a non-SE GSIB device and if your TechPass account is active, to reque
 4. In the **Profile** page, click **Request for SEED**.
 5. You will receive the SEED onboarding invitation email within the next three business days.
 
-Complete to onboard your non-GSIB or non-DWP device by following the instructions on [SEED documentation](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/prerequisites-for-onboarding).  
+Complete to onboard your internet or non-DWP device by following the instructions on [SEED documentation](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/prerequisites-for-onboarding).  
 
 If you do not use a non-SE GSIB device and if your TechPass account is active, [create a service request with TechPass](https://go.gov.sg/techpass-sr) to receive the SEED onboarding invitation email again.
 
