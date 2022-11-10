@@ -1,5 +1,5 @@
 # Post onboarding verification for GCC 1.0
-This article is for GCC 1.0 users who have onboarded their non-GSIB device to SEED. When your device is onboarded to SEED it becomes a Government Managed Device (GMD).
+This article is for GCC 1.0 users who have onboarded their internet device to SEED. When your device is onboarded to SEED it becomes a Government Managed Device (GMD).
 
 Objective of this document is to explain how to verify if your device onboarding to SEED was successful and if you are still able to access your GCC 1.0 resources.
 
@@ -28,7 +28,7 @@ Objective of this document is to explain how to verify if your device onboarding
 
 ![connected](images/gcc-1-users/connected.png ':size=75%')
 
-7. Go to the [DEEP dashboard](https://deep.tech.gov.sg).
+7. Go to the [DEEP dashboard](https://dashboard.deep.tech.gov.sg).
 
 <kbd>![](images/gcc-1-users/cloudflare-azure.png)</kbd>
 

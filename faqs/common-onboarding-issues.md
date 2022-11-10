@@ -3,7 +3,7 @@
 <details>
   <summary style="font-size:20px;font-weight:bold">Can I onboard my GSIB device to SEED?</summary>
 
-  No, you can't onboard your GSIB device to SEED. SEED is an MDM solution only for a non-GSIB or non-DWP device. Hence, you can onboard only your non-GSIB or non-DWP device to SEED.
+  No, you can't onboard your GSIB device to SEED. SEED is an MDM solution only for an internet or non-DWP device. Hence, you can onboard only your internet or non-DWP device to SEED.
 
   </details>
   <hr/>
@@ -37,7 +37,7 @@
   <details>
   <summary style="font-size:20px;font-weight:bold">While onboarding to Microsoft Intune, I get an error message, "Could not download the identity profile from the Encrypted Profile Service. The credentials within the Device Enrolment profile may have expired."</summary>
 
-  One of the possible reasons could be that your device was earlier onboarded to Microsoft Intune by a different user and was not offboarded properly during the pre-onboarding steps.  
+  One of the possible reasons could be that your device was earlier onboarded to Microsoft Intune by a different user and was not offboarded properly during the pre-onboarding steps.
 
   To confirm if that is the case, [create a support request][raise-support-request] with your device serial number.
 
@@ -255,7 +255,7 @@ If you have successfully onboarded your internet device to SEED, you will get a 
 
   <kbd>![cloudflare-connected](../images/cloud-flare-connected.png ':size=300')</kbd>
 
-3. Go to the [DEEP dashboard](https://deep.tech.gov.sg/) and log in with your TechPass. You should be able to access the DEEP dashboard.
+3. Go to the [DEEP dashboard](https://dashboard.deep.tech.gov.sg/) and log in with your TechPass. You should be able to access the DEEP dashboard.
 
   <kbd>![deep-dashboard](../images/deep-dashboard/deep-dashboard.png)</kbd>
 
