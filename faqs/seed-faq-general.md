@@ -101,9 +101,7 @@ This is a known issue with Microsoft Defender version 101.54.16. To resolve this
  <details>
    <summary style="font-size:20px;font-weight:bold">Can I upgrade my macOS to macOS 13 (Ventura)?</summary>
 
-  You can safely upgrade your macOS to macOS 13(Ventura). However, you can't onboard macOS 13(Ventura) to SEED.
-
-  If you have already onboarded your Mac device to SEED and now upgrading to macOS 13(Ventura), you will not be able to see the failed checks for your device when you log in to the [DEEP dashboard](https://dashboard.deep.tech.gov.sg/).
+  You can now upgrade your Mac device to macOS 13(Ventura) and onboard it to SEED.
 
 
  </details><hr />

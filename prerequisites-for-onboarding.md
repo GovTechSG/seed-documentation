@@ -57,13 +57,10 @@ If you had requested SEED provisioning while signing up for your TechPass accoun
 > If you are a public officer, who already has a TechPass account and needs SEED provisioning, go to your profile page on the [TechPass portal](http://portal.techpass.gov.sg/), request SEED provisioning and follow the on-screen instructions. For more information, refer to [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-to-seed).
 
 ### Supported operating systems and devices for SEED
+
 - Internet or a non-DWP device that runs on:
   - Windows 10 and 11 Pro or Enterprise versions
-  - macOS 11 (macOS Big Sur) and macOS 12 (macOS Monterey) versions
-
-> **Note**:
-> When you upgrade the OS of your Mac device, the OpenSSH settings found in `/etc/ssh/sshd_config` file may be reset. Hence, before proceeding to upgrade the OS of your Mac device, back up the `sshd_config` file so that you can easily restore if it gets reset during the OS upgrade.
-
+  - macOS 11 (macOS Big Sur), macOS 12 (macOS Monterey) and macOS 13 (Ventura) versions
 -  You must have administrator rights on the device.
 
 >**Note:**
