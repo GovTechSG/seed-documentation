@@ -3,7 +3,7 @@
 Security Suite for Engineering Endpoint Devices (SEED) is a Mobile Device Management (MDM) platform for the Government on Commercial Cloud (GCC) 2.0 environment.
 
 > **Note**:
-SEED is the MDM solution for **non-GSIB** and **non-DWP** devices.
+SEED is the MDM solution for your **internet** and **non-DWP** devices.
 
 It includes the following components:
 
