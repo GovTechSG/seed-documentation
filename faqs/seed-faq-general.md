@@ -101,7 +101,8 @@ This is a known issue with Microsoft Defender version 101.54.16. To resolve this
  <details>
    <summary style="font-size:20px;font-weight:bold">Can I upgrade my macOS to macOS 13 (Ventura)?</summary>
 
-  You can safely upgrade your macOS to macOS 13(Ventura) and onboard your macOS 13(Ventura) to SEED.
+  You can now upgrade your Mac device to macOS 13(Ventura) and onboard it to SEED.
+
 
  </details><hr />
 
