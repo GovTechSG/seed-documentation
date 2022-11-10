@@ -4,6 +4,7 @@ This table shows the history of updates to the SEED documentation.
 
 | Date  | Article | Change |
 | ------------- |:-------------:|:-------------|
+| 10 November 2022 | [SEED post onboarding instructions for macOS 13(Ventura)](post-onboarding-instructions/mac-os-13)| Included post onboarding steps for macOS 13 users. |
 | 21 October 2022 | [Announcements](announcements) and [SEED status](seed-status) page | Updated announcements and status page for Cloudflare WARP issues. |
 | 17 October 2022 | [Split tunnel allowlist](additional-resources/split-tunnel-allowlist) | Included information about split tunnel allowlist |
 | 30 September 2022 | [Create support request](raise-an-incident-support-request) | From October 1, 2022, for any SEED issues, except SHIP-HATS users, all others must contact the TechPass support team. SHIP_HATS users must contact their support channel. |

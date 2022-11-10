@@ -1,4 +1,4 @@
-# SEED post onboarding instructions for macOS 11 (Big Sur) and 12 (Monterey)
+# SEED post onboarding instructions for macOS 13(Ventura)
 
 ## Enable Full Disk Access(FDA)
 
@@ -6,31 +6,31 @@ After onboarding, enable FDA for the applications installed during SEED onboardi
 
 **To enable FDA for the installed applications:**
 
-  1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
-  2. Click the **Privacy** tab.
-  3. From the left pane, choose **Full Disk Access**.
-  4. Click the lock icon at the bottom and use your Touch ID or enter your  password to unlock.
+  1. Go to the **Apple** menu > **System Settings**.  
+  2. On the left pane, select **Privacy & Security**.
+  3. When prompted to unlock this settings, use your Touch ID or enter your device password.
 
   > **Note:**
   >
   > If you are unable to access this preference with your current password, complete the following steps to reset your device password:
   >1. Go to the **Apple** menu > **Lock Screen** or use keyboard shortcut **Command+Control+Q**.
   >2. Enter your password and press <b>return</b>. You will be prompted to reset password.
-  >3. Reset your password.
+  >4. Reset your password.
 
-  5. Ensure the following applications are listed:
+  4. On the **Privacy & Security** pane, choose **Full Disk Access**.
+
+  <kbd>![fda-enabled](../images/macos-13-fda.png)</kbd>
+
+  5. Ensure the following applications are listed.
+
        - Tanium Client
        - Microsoft Intune Agent
        - Microsoft Defender
-       - Microsoft Defender ATP Security Extension <!--Microsoft Defenders Endpoint Security Extension-->
+       - Microsoft Defender Endpoint Security Extension
 
+  6. Turn on the toggle key to allow Full Disk Access to these applications.
 
-> **Note:** If any of the listed application is missing, please refer to [Common onboarding issues for macOS users](faqs/common-onboarding-issues).
-
-  6. Select the checkboxes beside these applications.
-
-   <kbd>![fda-enabled](../images/onboarding-for-macos/all-apps-fda-enabled.png)</kbd>
-
+   <kbd>![fda-enabled](../images/applications-on-macos13.png)</kbd>
 
 ## Enrol with Cloudflare using WARP client
 
