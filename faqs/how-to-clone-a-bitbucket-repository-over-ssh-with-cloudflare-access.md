@@ -21,7 +21,7 @@ $ brew install cloudflare/cloudflare/cloudflared
 
 ```
 > **Note**:
-> you don't need to wrap your SSH commands in any unique way. You just need to make a ome-time change to your SSH configuration.
+> You don't need to wrap your SSH commands in any unique way. You just need to make a one-time change to your SSH configuration.
 
 2. To make a one-time change to your SSH configuration file, use `vim ~/.ssh/config`.
 3. Append the following lines:
