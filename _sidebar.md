@@ -19,3 +19,5 @@
 **Support**
   - [Create support request](raise-an-incident-support-request)
   - [SEED service status](seed-status)
+**Glossary**
+  - [Glossary](glossary)  
