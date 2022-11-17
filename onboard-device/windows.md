@@ -42,15 +42,15 @@
 
 </details>
 
-## Step 2: Register the Microsoft Intune device ID
+## Step 2: Register the Microsoft Intune device ID(only for GSIB users)
 
 <details><summary style="font-size:18px">b. Register the Microsoft Intune device ID for your Windows device</summary>
 
-This step is applicable only for public officers to get the required applications and device configurations on their device.
+- This step is applicable only if you have a GSIB device and your TechPass ID is the same as your organisation email address. For example, *peter_wilson<span>@</span>tech.gov.sg*. In other words, this is applicable for users whose TechPass ID belongs to the WOG AD.
 
-?> If you are a public officer; your TechPass ID will be your official email address such as *your_name<span>@</span>agency.gov.sg* or *your_name<span>@</span>tech.gov.sg*. Ignore this step if your TechPass ID format is *your_name<span>@</span>techpass.gov.sg*.
+- If you are a SE-GSIB user, complete steps 1-2 and contact the [support team](https://go.gov.sg/techpass-sr) with your Intune device ID to register your Intune device ID.  
 
-**To get the Intune device ID**:
+- Skip the following steps if your TechPass ID belongs to the TechPass AD and has its domain as *techpass.gov.sg*. For example, *peter_wilson<span>@</span>techpass.gov.sg*.
 
 1. Open **PowerShell** and run the following commands:
 ```
@@ -85,6 +85,4 @@ Write-Output $intune_id
 
 </details>
 
->**Notes**:
->- If you do not receive the successfully onboarded to SEED email, [check if Microsoft Defender is configured correctly](verify-microsoft-defender-is-configured-correctly-for-your-os) and also check if Tanium and Cloudflare are installed. If Tanium or Cloudflare is not installed, [create a support request](raise-an-incident-support-request).
->- Refer to [Best practices](additional-resources/best-practices) to know about the supported browsers.
+**Next step**: Proceed to [Post onboarding steps](post-onboarding-instructions/post-onboarding-steps-and-verification).

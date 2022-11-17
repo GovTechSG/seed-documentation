@@ -14,8 +14,8 @@
 
 ## Step 1: Set up Microsoft Intune
 
- **Set up Microsoft Intune to get the required applications and device configuration**
-
+<details>
+  <summary style="font-size:18px">a. Set up Microsoft Intune to get the required applications and device configuration</summary><br>
 
   1. Download and install [**Company Portal**](https://go.microsoft.com/fwlink/?linkid=853070).
 
@@ -69,19 +69,21 @@
 
   <kbd>![all-set](../images/onboarding-for-macos/all-set-2.png)</kbd>
 
+</details>
 
+## Step 2: Register Microsoft Intune device ID (only for GSIB users)
 
-## Step 2: Register Microsoft Intune device ID
+<details>
+  <summary style="font-size:18px">b. Register the Microsoft Intune device ID for your macOS device</summary><br>
 
-- This step is applicable only if your TechPass ID is your official email address. For example, *peter_wilson<span>@</span>tech.gov.sg*.
+> **Note**:  
+
+- This step is applicable only if you have a GSIB device and your TechPass ID is the same as your organisation email address. For example, *peter_wilson<span>@</span>tech.gov.sg*. In other words, this is applicable for users whose TechPass ID belongs to the WOG AD.
 
 - If you are a SE-GSIB user, complete steps 1-2 and contact the [support team](https://go.gov.sg/techpass-sr) with your Intune device ID to register your Intune device ID.  
 
-- Other users can skip this step. For example, if your TechPass ID is *peter_wilson<span>@</span>techpass.gov.sg*, please ignore this step.
+- Skip the following steps if your TechPass ID belongs to the TechPass AD and has its domain as *techpass.gov.sg*. For example, *peter_wilson<span>@</span>techpass.gov.sg*.
 
-
-
-**To get the Intune device ID**:
 
 1. Open **Terminal** and run the following commands:
 
@@ -129,9 +131,6 @@ If your onboarding is successful, within an hour, you will receive a successfull
 
 <kbd>![list-of-profiles](../images/onboarding-for-macos/list-of-profiles.png)</kbd>
 
+</details>
 
->**Notes:**
->- If you do not receive the successfully onboarded to SEED email, [check if Microsoft Defender is configured correctly](verify-microsoft-defender-is-configured-correctly-for-your-os) and also check if Tanium and Cloudflare are installed. If Tanium or Cloudflare is not installed, [create a support request](raise-an-incident-support-request).
->- Shortly after this email, you will receive a desktop notification informing you that your device has been renamed and will automatically restart in the next five minutes. When you log in again, you will be prompted to reset your password. This is to enforce a strong password policy.
->- If you had reset your password while onboarding, you will not be prompted to reset password when your device automatically restarts.
->- Refer to [Best practices](additional-resources/best-practices) to know about the supported browsers.
+Next step: Proceed to [Post onboarding steps](post-onboarding-instructions/post-onboarding-steps-and-verification).
