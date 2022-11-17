@@ -133,4 +133,4 @@ If your onboarding is successful, within an hour, you will receive a successfull
 
 </details>
 
-Next step: Proceed to [Post onboarding steps](post-onboarding-instructions/post-onboarding-steps-and-verification).
+**Next step**: Proceed to [Post onboarding steps](post-onboarding-instructions/post-onboarding-steps-and-verification).

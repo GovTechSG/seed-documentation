@@ -2,7 +2,7 @@
 
 **Prerequisites**
 
-- If you are using an internet device which is an internet or non-DWP device, [onboard it to SEED](onboard-device/onboard-device-to-seed).
+- If you are using an internet device, [onboard it to SEED](onboard-device/onboard-device-to-seed).
 - [Verify if you have an existing SSH key pair](https://confluence.atlassian.com/bitbucketserver0717/creating-ssh-keys-1087535541.html#CreatingSSHkeys-1.CheckforexistingSSHkeys). If it is available, [add the SSH key in Bitbucket](https://bitbucket.ship.gov.sg/plugins/servlet/ssh/account/keys).
 - If you don't have an SSH key pair, [generate SSH key pair](https://confluence.atlassian.com/bitbucketserver0717/creating-ssh-keys-1087535541.html#) and then add it in Bitbucket.
 - You should know how to setup and use ssh together with Git.
@@ -21,7 +21,7 @@ $ brew install cloudflare/cloudflare/cloudflared
 
 ```
 > **Note**:
-> you don't need to wrap your SSH commands in any unique way. You just need to make a ome-time change to your SSH configuration.
+> You don't need to wrap your SSH commands in any unique way. You just need to make a one-time change to your SSH configuration.
 
 2. To make a one-time change to your SSH configuration file, use `vim ~/.ssh/config`.
 3. Append the following lines:
