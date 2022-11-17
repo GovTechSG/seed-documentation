@@ -24,7 +24,7 @@ $ brew install cloudflare/cloudflare/cloudflared
 
 ```
 > **Note**:
-> you don't need to wrap your SSH commands in any unique way. You just need to make a one-time change to your SSH configuration.
+> You don't need to wrap your SSH commands in any unique way. You just need to make a one-time change to your SSH configuration.
 
 2. To make a one-time change to your SSH configuration file, use `vim ~/.ssh/config`.
 3. Append the following lines:
@@ -74,7 +74,7 @@ The token is saved in your `~/.cloudflared` directory, and the git clone command
 2. Save the .exe file in a desired location and rename it as `cloudflared.exe`.
 
 > **Note**:
-> you don't need to wrap your SSH commands in any unique way. You just need to make a one-time change to your SSH configuration.
+> You don't need to wrap your SSH commands in any unique way. You just need to make a one-time change to your SSH configuration.
 
 3. To make a one-time change to your SSH configuration file, open your ssh config file `$HOME/.ssh/config`.
 
@@ -88,6 +88,9 @@ Host bitbucket-ssh.ship.gov.sg
   ProxyCommand c:\path\to\cloudflared.exe access ssh --hostname %h
   IdentityFile <PATH TO YOUR SSH PRIVATE KEY>
 ```
+> **Note**
+> If you are using cloudflared-windows-amd64.exe, use "\\" when specifying the path.
+
 5. Test the SSH flow by attempting to clone the project.
 
 ```
