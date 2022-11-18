@@ -64,7 +64,7 @@ The token is saved in your `~/.cloudflared` directory, and the git clone command
 2. Save the .exe file in a desired location and rename it as `cloudflared.exe`.
 
 > **Note**:
-> you don't need to wrap your SSH commands in any unique way. You just need to make a one-time change to your SSH configuration.
+> You don't need to wrap your SSH commands in any unique way. You just need to make a one-time change to your SSH configuration.
 
 3. To make a one-time change to your SSH configuration file, open your ssh config file `$HOME/.ssh/config`.
 
