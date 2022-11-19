@@ -24,7 +24,7 @@ If it is past 180 days of expiry, you will not be able to access the SGTS resour
 The device cleanup policy is applies only to SEED users whose TechPass ID belongs to the TechPass AD. If your TechPass ID's domain is *techpass.gov.sg*, it belongs to the TechPass AD. For example, *james_lee@techpass.gov.sg* belongs to the TechPass AD.
 
 >**Note**
-> The device cleanup policy is **not applicable** if your TechPass ID belongs to the **WOG AD**. If your TechPass ID belongs to the WOG AD, then your TechPass ID is the same as your organisational email address, which is in the format of *\<your_name\>@\<acronym for your agency\>.gov.sg*. For example, *peter_wilson@tech.gov.sg*.
+>- The device cleanup policy is **not applicable** if your TechPass ID belongs to the **WOG AD**. >- If your TechPass ID belongs to the WOG AD, then your TechPass ID is the same as your organisational email address, which is in the format of *\<your_name\>@\<acronym for your agency\>.gov.sg*. For example, *peter_wilson@tech.gov.sg*.
 
 ### Purpose of the policy
 
