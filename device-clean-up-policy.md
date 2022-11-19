@@ -30,7 +30,7 @@ The device clean-up policy is applies only to SEED users whose TechPass ID belon
 
 The purpose of this policy is to remove inactive device records from the Intune portal.
 
-### What happens if GMD is inactive
+### What happens if GMD is inactive?
 
 If your TechPass ID belongs to the TechPass AD, and if you have not logged into your GMD(the internet device onboarded to SEED) for 90 consecutive days, the GMD becomes inactive, and its records are soft deleted from the Intune portal.
 
