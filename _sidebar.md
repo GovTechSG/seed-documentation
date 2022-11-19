@@ -9,8 +9,8 @@
   - [Onboard device](onboard-device/onboard-device-to-seed)
 **After onboarding**    
   - [Post onboarding instructions](post-onboarding-instructions/post-onboarding-steps-and-verification)
-  - [Device cleanup policy](device-cleanup-policy)
-    - [Device cleanup policy FAQs](device-cleanup-policy-faqs)
+  - [Device clean-up policy](device-clean-up-policy)
+    - [Device clean-up policy FAQs](device-clean-up-policy-faqs)
 **Offboard device**
   - [Offboard device from SEED](offboard-device/offboard-device-from-seed)
 **Troubleshoot**

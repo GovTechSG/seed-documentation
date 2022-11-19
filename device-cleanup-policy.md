@@ -1,6 +1,6 @@
-# MDM certificate and device cleanup policy
+# MDM certificate and device clean-up policy
 
-This article gives an overview of the MDM certificate and the device cleanup policy for SEED users.
+This article gives an overview of the MDM certificate and the device clean-up policy for SEED users.
 
 ## MDM certificate
 
@@ -19,12 +19,12 @@ If it is past 180 days of expiry, you will not be able to access the SGTS resour
 3. [Onboard the device to SEED](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/onboard-device-to-seed).
 
 
-## Device cleanup policy
+## Device clean-up policy
 
-The device cleanup policy is applies only to SEED users whose TechPass ID belongs to the TechPass AD. If your TechPass ID's domain is *techpass.gov.sg*, it belongs to the TechPass AD. For example, *james_lee@techpass.gov.sg* belongs to the TechPass AD.
+The device clean-up policy is applies only to SEED users whose TechPass ID belongs to the TechPass AD. If your TechPass ID's domain is *techpass.gov.sg*, it belongs to the TechPass AD. For example, *james_lee@techpass.gov.sg* belongs to the TechPass AD.
 
->**Note**
->- The device cleanup policy is **not applicable** if your TechPass ID belongs to the **WOG AD**. >- If your TechPass ID belongs to the WOG AD, then your TechPass ID is the same as your organisational email address, which is in the format of *\<your_name\>@\<acronym for your agency\>.gov.sg*. For example, *peter_wilson@tech.gov.sg*.
+>**Note**:
+>- The device clean-up policy is **not applicable** if your TechPass ID belongs to the **WOG AD**. >- If your TechPass ID belongs to the WOG AD, then your TechPass ID is the same as your organisational email address, which is in the format of *\<your_name\>@\<acronym for your agency\>.gov.sg*. For example, *peter_wilson@tech.gov.sg*.
 
 ### Purpose of the policy
 

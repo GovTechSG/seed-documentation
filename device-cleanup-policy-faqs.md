@@ -1,4 +1,4 @@
-# Device cleanup policy FAQs
+# Device clean-up policy FAQs
 
 <details>
 <summary style="font-size:20px;font-weight:bold">I am regularly using TechPass account on my GSIB device, is my GMD considered to be active?</summary>
@@ -22,7 +22,7 @@ When your device records are "soft deleted", it does not wipe or retire the devi
 Log in to your GMD device provided:
 
 -	Your TechPass account is still active. Note to re-enable a disabled TechPass account, see [TechPass Account Management FAQ](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/support/account)
--	Your MDM certificate is still active, or is within 180 days after its expiry. For more information, refer to MDM certificate on [MDM certificate and device cleanup policy](device-cleanup-policy).
+-	Your MDM certificate is still active, or is within 180 days after its expiry. For more information, refer to MDM certificate on [MDM certificate and device clean-up policy](device-clean-up-policy).
 
 </details>
      <hr />
@@ -30,7 +30,7 @@ Log in to your GMD device provided:
 
 <details><summary style="font-size:20px;font-weight:bold">I am back to work after taking leave for 3 or more months, do I need to re-onboard my device to SEED?</summary>
 
-Refer to MDM certificate on [MDM certificate and device cleanup policy](device-cleanup-policy).
+Refer to MDM certificate on [MDM certificate and device clean-up policy](device-clean-up-policy).
 
 </details>
      <hr />
