@@ -16,6 +16,7 @@
 **Additional resources**  
   - [SEED additional resources](additional-resources/additional-resources)
   - [Split tunnel allowlist](additional-resources/split-tunnel-allowlist)
+  - [[For Beta Users] Cross-Tenant Access Policy (XTAP) Settings](additional-resources/XTAP-settings)
 **Support**
   - [Create support request](raise-an-incident-support-request)
   - [SEED service status](seed-status)
