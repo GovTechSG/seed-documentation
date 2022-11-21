@@ -1,4 +1,3 @@
-<!-- 
 # [For Beta Users] Cross-Tenant Access Policy (XTAP) Settings
 
 Turning on the XTAP settings would allow better coverage for endpoint device posture checking. It is enforced by Azure AD conditional access policies.
@@ -20,5 +19,3 @@ When logging into the application, a prompt box will be popped up to select the 
  2. Click Ok. 
 
  3. If the login in successful, that was the correct cert. If the login failed, repeat step 1 with another cert.
-
- -->
