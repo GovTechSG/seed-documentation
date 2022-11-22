@@ -19,6 +19,7 @@ When your device records are "soft deleted", it does not wipe or retire the devi
 
 <details><summary style="font-size:20px;font-weight:bold">How to restore my device records on Intune?</summary>
 
+
 Log in to your GMD device provided:
 
 -	Your TechPass account is still active. Note to re-enable a disabled TechPass account, see [TechPass Account Management FAQ](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/support/account)
@@ -30,6 +31,7 @@ Log in to your GMD device provided:
 
 <details><summary style="font-size:20px;font-weight:bold">I am back to work after taking leave for 3 or more months, do I need to re-onboard my device to SEED?</summary>
 
+
 Refer to MDM certificate on [MDM certificate and device clean-up policy](device-clean-up-policy).
 
 </details>
@@ -38,12 +40,14 @@ Refer to MDM certificate on [MDM certificate and device clean-up policy](device-
 
 <details><summary style="font-size:20px;font-weight:bold">Will I receive any notification regarding MDM certificate expiration?</summary>
 
+
 No, you won’t receive any notification for this.
 
 </details>
      <hr />
 
 <details><summary style="font-size:20px;font-weight:bold">How should I re-onboard to SEED?</summary>
+
 
 1. [Offboard the device from SEED](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/offboard-device/offboard-device-from-seed)
 2. [Request for SEED provisioning](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/prerequisites-for-onboarding)
