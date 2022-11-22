@@ -46,11 +46,11 @@
 
 <details><summary style="font-size:18px">b. Register the Microsoft Intune device ID for your Windows device</summary>
 
-- This step is applicable only if you have a GSIB device and your TechPass ID is the same as your organisation email address. For example, *peter_wilson<span>@</span>tech.gov.sg*. In other words, this is applicable for users whose TechPass ID belongs to the WOG AD.
+- This step is applicable only if you have a GSIB device and your TechPass ID is the same as your organisation email address. For example, *peter_wilson<span>@</span>tech.gov.sg*. In other words, this is applicable for users whose TechPass ID belongs to the WOG AAD.
 
 - If you are a SE-GSIB user, complete steps 1-2 and contact the [support team](https://go.gov.sg/techpass-sr) with your Intune device ID to register your Intune device ID.  
 
-- Skip the following steps if your TechPass ID belongs to the TechPass AD and has its domain as *techpass.gov.sg*. For example, *peter_wilson<span>@</span>techpass.gov.sg*.
+- Skip the following steps if your TechPass ID belongs to the TechPass AAD and has its domain as *techpass.gov.sg*. For example, *peter_wilson<span>@</span>techpass.gov.sg*.
 
 1. Open **PowerShell** and run the following commands:
 ```
