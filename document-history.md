@@ -4,6 +4,7 @@ This table shows the history of updates to the SEED documentation.
 
 | Date  | Article | Change |
 | ------------- |:-------------:|:-------------|
+| 22 November 2022 | [Device clean-up policy](device-clean-up-policy)<br>[Device clean-up policy FAQ](device-clean-up-policy-faqs)| Published the context and the impact of the device clean-up policy and the related FAQs. |
 | 10 November 2022 | [SEED post onboarding instructions for macOS 13(Ventura)](post-onboarding-instructions/mac-os-13)| Included post onboarding steps for macOS 13 users. |
 | 07 November 2022 | [General FAQ](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/faqs/seed-faq-general) | Included a query for Mac users upgrading to macOS 13(Ventura). |
 | 31 October 2022 | [Announcements](announcements) | Posted an announcement for GCC 1.0 users yet to onboard their internet device to SEED.|

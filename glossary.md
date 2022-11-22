@@ -22,9 +22,9 @@ SSO used to log in to your TechPass account and access SGTS services from your G
 - For vendors, it is *your_name<span>@</span>techpass.gov.sg*.
 
 TechPass ID can belong to one of the following ADs:
-- WOG AD
-- TechPass AD
+- WOG AAD
+- TechPass AAD
 
-Example of TechPass ID belonging to WOG AD is *peter_wilson<span>@</span>tech.gov.sg*. In this case, your TechPass ID is the same as your organisation email address.
+Example of TechPass ID belonging to WOG AAD is *peter_wilson<span>@</span>tech.gov.sg*. In this case, your TechPass ID is the same as your organisation email address.
 
-Example of TechPass ID belonging to TechPass AD is *peter_wilson<span>@</span>techpass.gov.sg*. Mostly, vendors and contractors have this type of TechPass ID.
+Example of TechPass ID belonging to TechPass AAD is *peter_wilson<span>@</span>techpass.gov.sg*. Mostly, vendors and contractors have this type of TechPass ID.
