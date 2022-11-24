@@ -3,6 +3,9 @@
 **DEEP**<br>
 [Developers' environment endpoint posture](https://dashboard.deep.tech.gov.sg/). This is the brains behind the posture attestation.
 
+**non-DWP device**<br>
+This is a non digital workplace device that has to be onbaorded to SEED to access SGTS resources.
+
 **GFE**<br>
 Government furnished equipment is a device issued by a government agency.
 
@@ -11,6 +14,9 @@ Government managed device. An internet device provided by government agency or a
 
 **GSIB**<br>
 Government standard image build is a standard operating environment (SOE) device issued by government. There are two types of GSIB devices: Secret Email(SE) GSIB and non-SE GSIB devices.
+
+**Internet device**<br>
+This is your non-GSIB device. You need to onboard this device to SEED to access SGTS resources.
 
 **TechPass**<br>
 [TechPass](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) is an Identity & Access Management (IAM) and  a single sign-on(SSO)solution to seamlessly access Singapore Government Technology Stack(SGTS) services.
