@@ -1,5 +1,10 @@
 # How to clone a Bitbucket repository using SSH with Cloudflare Access
 
+The following instructions guide you to clone Git repos through SSH from https://bitbucket.ship.gov.sg using Cloudflare tunnel. 
+
+>**Note**:
+> If you are cloning repos from [SHIP-HATS 2.0 GitLab](https://sgts.gitlab-dedicated.com), use your existing Git client without creating any Cloudflare tunnel. 
+
 **Prerequisites**
 
 - If you are using an internet device, [onboard it to SEED](onboard-device/onboard-device-to-seed).
