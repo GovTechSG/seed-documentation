@@ -4,6 +4,7 @@ This table shows the history of updates to the SEED documentation.
 
 | Date  | Article | Change |
 | ------------- |:-------------:|:-------------|
+| 28 November 2022 | [Announcements](announcements)| Posted a latest advice from SingCERT. |
 | 24 November 2022 | [Clone GitLab repoistory](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/faqs/how-to-clone-a-gitlab-repository-over-ssh-with-cloudflare-access)<br>[Clone Bitbucket repoistory](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/faqs/how-to-clone-a-bitbucket-repository-over-ssh-with-cloudflare-access) | Included notes for users cloning via Git client without using Cloudflare WARP. |
 | 22 November 2022 | [Device clean-up policy](device-clean-up-policy)<br>[Device clean-up policy FAQ](device-clean-up-policy-faqs)| Published the context and the impact of the device clean-up policy and the related FAQs. |
 | 10 November 2022 | [SEED post onboarding instructions for macOS 13(Ventura)](post-onboarding-instructions/mac-os-13)| Included post onboarding steps for macOS 13 users. |
