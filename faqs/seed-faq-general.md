@@ -134,18 +134,21 @@ audit -e
 
  </details><hr />
  
- <details><summary style="font-size:20px;font-weight:bold">I received an email indicating that I may not be able to access SEED protected resources. What should I do?</summary>
+ <details><summary style="font-size:20px;font-weight:bold">Previously I had successfully onboarded my internet device to SEED, but now I received an email stating that I may not be able to access SEED-protected resources such as SGTS services and products. What’s the reason, and what should I do?</summary>
 
-Most likely, this email indicates that there has been some error with your device configuration for SEED (e.g. Your Microsoft Defender service is not healthy). As this poses a security risk, your access to SEED resources will be revoked. In this situation there are two ways to respond depending on whether you require to regain access to SEED resources:
-  1. **You do not require access to SEED resources anymore :**
-  Please proceed to properly offboard your device as found [here](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/offboard-device/offboard-device-from-seed)
-  2. **You still require access to SEED resources :**
-  In this case, please raise a [service request][service-request] and indicate the following in the request "SEED access revoked due to device misconfiguration". This would allow the support side to streamline the handling of the request, and hence allow you to regain access to SEED as quickly as possible. Once your device configuration is remediated, you should receive the successfully onboarded email that you got when you first onboarded your device. At this point, your access to SEED resources will be restored.
+Most likely, this indicates that we detected some issues with your device configuration for SEED. For example, your Microsoft Defender could be unhealthy. As such issues pose a security risk, we revoke your access to SEED resources. In this situation, the action required by you may vary based on your need:
+- **Restore my access to SEED-protected resources:**  Raise a [service request][service-request] and in the Details, specify SEED access revoked due to device misconfiguration. This would allow us to process the ticket accordingly. Once your device configuration is remediated, we will send you the successfully onboarded email again, indicating you can now reaccess  SEED-protected resources.
+
+ 
+-   **I no longer need to access SEED-protected resources:** [Offboard your device](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/offboard-device/offboard-device-from-seed) completely.
+
  </details><hr />
 
-<details><summary style="font-size:20px;font-weight:bold">Why did I receive the successfully onboarded email even though I had received it before when I first onboarded my device?</summary>
+<details><summary style="font-size:20px;font-weight:bold">Why did I receive the successfully onboarded email even though I had received it before when I first onboarded my device to SEED?</summary>
 
-If you've received this email again, it is possible that there was some device misconfiguration that caused you to temporarily lose access to SEED resources (see the FAQ on top). In this case, the successfully onboarded email indicates that your access to SEED resources has been restored. 
+If you've received this email again, some or all the services that make your device SEED-compliant may have had misconfiguration issues, causing you to have lost access to SEED-protected resources temporarily.
+
+When the configurations of the impacted services return to a healthy state, you will receive the successfully onboarded email indicating that you can reaccess the SEED-protected resources again.
   
 </details><hr />
 
