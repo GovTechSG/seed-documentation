@@ -138,8 +138,7 @@ audit -e
 
 Most likely, this indicates that we detected some issues with your device configuration for SEED. For example, your Microsoft Defender could be unhealthy. As such issues pose a security risk, we revoke your access to SEED resources. In this situation, the action required by you may vary based on your need:
 
-- **Restore my access to SEED-protected resources:**  Raise a [service request][service-request] and in the Details, specify SEED access revoked due to device misconfiguration. This would allow us to process the ticket accordingly. Once your device configuration is remediated, we will send you the successfully onboarded email again, indicating you can now reaccess  SEED-protected resources.
-
+- **Restore my access to SEED-protected resources:**  Raise a [service request][service-request] and specify that your SEED access revoked due to device misconfiguration. This would allow us to process the ticket accordingly. Once your device configuration is remediated, we will send you the successfully onboarded email again, indicating you can now access SEED-protected resources again.
  
 - **I no longer need to access SEED-protected resources:** [Offboard your device](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/offboard-device/offboard-device-from-seed) completely.
 
@@ -149,7 +148,7 @@ Most likely, this indicates that we detected some issues with your device config
 
 If you've received this email again, some or all the services that make your device SEED-compliant may have had misconfiguration issues, causing you to have lost access to SEED-protected resources temporarily.
 
-When the configurations of the impacted services return to a healthy state, you will receive the successfully onboarded email indicating that you can reaccess the SEED-protected resources again.
+When the configurations of the impacted services return to a healthy state, you will receive the successfully onboarded email indicating that you can access the SEED-protected resources again.
 
 </details><hr />
 
