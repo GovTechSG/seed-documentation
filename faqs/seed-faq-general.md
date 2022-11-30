@@ -136,7 +136,9 @@ audit -e
 
  <details><summary style="font-size:20px;font-weight:bold">Previously I had successfully onboarded my internet device to SEED, but now I received an email stating that I may not be able to access SEED-protected resources such as SGTS services and products. What’s the reason, and what should I do?</summary>
 
-Most likely, this indicates that we detected some issues with your device configuration for SEED. For example, your Microsoft Defender could be unhealthy. As such issues pose a security risk, we revoke your access to SEED resources. In this situation, the action required by you may vary based on your need:
+**Reason**: Most likely, this indicates that we detected some issues with your device configuration for SEED. For example, your Microsoft Defender could be unhealthy. As such issues pose a security risk, we revoke your access to SEED resources.
+
+In this situation, the **action required** by you may vary based on your need:
 
 - **Restore my access to SEED-protected resources:**  Raise a [service request][service-request] and specify that your SEED access revoked due to device misconfiguration. This would allow us to process the ticket accordingly. Once your device configuration is remediated, we will send you the successfully onboarded email again, indicating you can now access SEED-protected resources again.
  
