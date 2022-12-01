@@ -3,7 +3,7 @@
 <details>
   <summary style="font-size:20px;font-weight:bold">Can I onboard my GSIB device to SEED?</summary>
 
-  No, you can't onboard your GSIB device to SEED. SEED is an MDM solution only for an internet or non-DWP device. Hence, you can onboard only your internet or non-DWP device to SEED.
+  No, you can't onboard your GSIB device to SEED. SEED is an MDM solution only for an internet (which is not a GSIB) device. Hence, you can onboard only your internet (which is not a GSIB) device to SEED.
 
   </details>
   <hr/>
