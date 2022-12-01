@@ -1,6 +1,7 @@
 # Prerequisites for onboarding to SEED
+
 > Take note of the following before you proceed with the SEED onboarding:
->- You can onboard only an **internet** or a **non-DWP** device to SEED.
+>- You can onboard only an **internet** device to SEED. In other words, you can't onboard a GSIB device.
 >
 >- You can onboard only one device per user.
 >
@@ -58,7 +59,7 @@ If you had requested SEED provisioning while signing up for your TechPass accoun
 
 ### Supported operating systems and devices for SEED
 
-- Internet or a non-DWP device that runs on:
+- Internet (which is not a GSIB) device that runs on:
   - Windows 10 and 11 Pro or Enterprise versions
   - macOS 11 (macOS Big Sur), macOS 12 (macOS Monterey) and macOS 13 (Ventura) versions
 -  You must have administrator rights on the device.
@@ -195,7 +196,7 @@ This section explains how public officers and vendors can remove those softwares
   > **Note**:
   > If your organisation id(org_id) is different from the above three, contact the respective MDM administrator to get the offboarding script.
 
-  4. Based on the organisation, use the internet or non-DWP device to download the offboarding script from the following:
+  4. Based on the organisation, use the internet (which is not a GSIB) device to download the offboarding script from the following:
 
     | Organisation  | Offboarding script |
     | ------------- |:-------------:|
@@ -206,7 +207,7 @@ This section explains how public officers and vendors can remove those softwares
   5. When prompted, log in with your TechPass.
 
   > **Note**: If you have any issues in accessing the link to download the offboarding script,
-  >- Make sure that you are using your internet or non-DWP device to download the offboarding script.
+  >- Make sure that you are using your internet (which is not a GSIB) device to download the offboarding script.
   >- Access the link in incognito mode.
   >- Make sure you are using only the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
   >- If you still have issues in downloading the script, create a [support request](https://go.gov.sg/techpass-sr).
@@ -288,7 +289,7 @@ This section explains how public officers and vendors can remove those softwares
   > **Note**:
   > If your organisation id(OrgId) is different from the above three, contact the respective MDM administrator to get the offboarding script.
 
-  6. Based on the organisation, use your internet or non-DWP device to download the offboarding script from the following:
+  6. Based on the organisation, use your internet (which is not a GSIB) device to download the offboarding script from the following:
 
   | Organisation  | Offboarding script |
   | ------------- |:-------------:|
@@ -299,7 +300,7 @@ This section explains how public officers and vendors can remove those softwares
   7. When prompted to log in, log in with your TechPass.
 
   > **Note**: If you have any issues in accessing the link to download the offboarding script,
-  >- Make sure that you are using your internet or non-DWP device to download the offboarding script.
+  >- Make sure that you are using your internet (which is not a GSIB) device to download the offboarding script.
   >- Access the link in incognito mode.
   >- Make sure you are using only the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
   >- If you still have issues in downloading the script, create a [support request](https://go.gov.sg/techpass-sr).
