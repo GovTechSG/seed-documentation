@@ -3,9 +3,6 @@
 **DEEP**<br>
 [Developers' environment endpoint posture](https://dashboard.deep.tech.gov.sg/). This is the brains behind the posture attestation.
 
-**non-DWP device**<br>
-This is a non digital workplace device that has to be onboarded to SEED to access SGTS resources.
-
 **GFE**<br>
 Government furnished equipment is a device issued by a government agency.
 
