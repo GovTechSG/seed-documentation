@@ -138,6 +138,8 @@ audit -e
 
 **Reason**: Most likely, this indicates that we detected some issues with your device configuration for SEED. For example, your Microsoft Defender could be unhealthy. As such issues pose a security risk, we revoke your access to SEED resources.
 
+However, there could be other reasons such as Microsoft Defender definitions are obsolete. If you are a mac user, such issues will self-heal and your access will be auto-restored and you will receive an email for this. In such cases, no action required from you for this. 
+
 In this situation, the **action required** by you may vary based on your need:
 
 - **Restore my access to SEED-protected resources:**  Raise a [service request][service-request] and specify that your SEED access revoked due to device misconfiguration. This would allow us to process the ticket accordingly. Once your device configuration is remediated, we will send you the successfully onboarded email again, indicating you can now access SEED-protected resources again.
@@ -148,7 +150,7 @@ In this situation, the **action required** by you may vary based on your need:
 
 <details><summary style="font-size:20px;font-weight:bold">Why did I receive the successfully onboarded email even though I had received it before when I first onboarded my device to SEED?</summary>
 
-If you've received this email again, some or all the services that make your device SEED-compliant may have had misconfiguration issues, causing you to have lost access to SEED-protected resources temporarily.
+If you've received this email again, some or all the services that make your device SEED-compliant may have had misconfiguration issues, causing you to temporarily lose access to SEED-protected resources .
 
 When the configurations of the impacted services return to a healthy state, you will receive the successfully onboarded email indicating that you can access the SEED-protected resources again.
 
