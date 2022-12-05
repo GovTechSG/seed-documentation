@@ -16,10 +16,11 @@
 **Troubleshoot**
   - [Troubleshooting FAQs](faqs/seed-faqs)
 **Additional resources**  
-  - [SEED additional resources](additional-resources/additional-resources)
+  - [Best practices](additional-resources/best-practices)
+  - [Glossary](additional-resources/glossary)
+  - [Terms and Policies](additional-resources/terms-and-policies)
   - [Split tunnel allowlist](additional-resources/split-tunnel-allowlist)
 **Support**
   - [Create support request](raise-an-incident-support-request)
   - [SEED service status](seed-status)
-**Glossary**
-  - [Glossary](glossary)  
+ 
