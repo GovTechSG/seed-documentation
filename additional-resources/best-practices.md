@@ -21,4 +21,5 @@ You can access SEED-protected websites such as CMP or SHIP using the following b
 - Microsoft Edge
 - Mozilla Firefox. If you are using Mozilla Firefox, you need to [configure Firefox to trust the root certificate store of your system](https://support.mozilla.org/en-US/kb/setting-certificate-authorities-firefox).
 
-!> Important: While you can use Safari to access other websites, you can't access SEED-protected websites using Safari.
+> **Important**<br>
+> While you can use Safari to access other websites, you can't access SEED-protected websites using Safari.
