@@ -247,7 +247,6 @@ This may occur if your new password does not meet the following password require
      <hr />
 
 
-
 <details>
  <summary style="font-size:20px;font-weight:bold"> How to confirm if I have onboarded my device to SEED successfully? </summary>
 
