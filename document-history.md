@@ -4,6 +4,7 @@ This table shows the history of updates to the SEED documentation.
 
 | Date  | Article | Change |
 | ------------- |:-------------:|:-------------|
+| 6 December 2022 | - [Onboarding FAQ](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/faqs/common-onboarding-issues)<br>- [Best practices](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices)<br>- [General FAQ](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/faqs/seed-faq-general) | - Updated FAQ related to password.<br>- Included the link to configure certificate authorities in firefox.<br>- Updated the onboarding FAQ on what to do if your access to SEED-protected resources are revoked.
 | 30 November 2022 | [General FAQ](faqs/seed-faq-general) | Included additional questions. | 
 | 28 November 2022 | [Announcements](announcements)| Posted a latest advice from SingCERT. |
 | 24 November 2022 | [Clone GitLab repoistory](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/faqs/how-to-clone-a-gitlab-repository-over-ssh-with-cloudflare-access)<br>[Clone Bitbucket repoistory](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/faqs/how-to-clone-a-bitbucket-repository-over-ssh-with-cloudflare-access) | Included notes for users cloning via Git client without using Cloudflare WARP. |
