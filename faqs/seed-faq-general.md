@@ -140,7 +140,7 @@ audit -e
 
 In this situation, the **action required** by you may vary based on your need:
 
-- **Automatically restore the access**: In some situations, the issue could be rectified automatically. In such cases, you may be able to regain access without any manual intervention and you will receive the successfully onboarded email indicating your access has been restored.
+- **Access automatically restored**: No action required. Your access is automatically restored if you shortly receive an email that you are successfully onboarded to SEED.
 
 - **Restore my access to SEED-protected resources**:  Raise a [service request][service-request] and specify that your SEED access revoked due to device misconfiguration. This would allow us to process the ticket accordingly. Once your device configuration is remediated, we will send you the successfully onboarded email again, indicating you can now access SEED-protected resources again.
  
