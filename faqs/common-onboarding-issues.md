@@ -112,9 +112,11 @@ This is because a new password policy has been enforced and you are required to 
 2. Enter your password and press **return**. You will be prompted to reset password.
 3. Reset your password and make sure it meets the following requirements:
   - should contain at least 12 characters
-  - cannot have two consecutive or three sequential characters
-  - should contain at least one number and one alphabetic character
   - should not be the same as the previous three passwords
+  - same character cannot be used consecutively.
+  - cannot have three sequential characters
+  - should contain at least one number and one alphabetic character
+  
 
 </details>
 <hr />
