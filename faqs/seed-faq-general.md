@@ -140,15 +140,19 @@ audit -e
 
 In this situation, the **action required** by you may vary based on your need:
 
-- **Restore my access to SEED-protected resources:**  Raise a [service request][service-request] and specify that your SEED access revoked due to device misconfiguration. This would allow us to process the ticket accordingly. Once your device configuration is remediated, we will send you the successfully onboarded email again, indicating you can now access SEED-protected resources again.
+- **Access automatically restored**: No action required. 
+
+In some situations, the issue could get rectified automatically. In such cases, you may be able to regain access without any manual intervention and you will receive the successfully onboarded email indicating your access has been restored.
+
+- **Restore my access to SEED-protected resources**:  Raise a [service request][service-request] and specify that your SEED access revoked due to device misconfiguration. This would allow us to process the ticket accordingly. Once your device configuration is remediated, we will send you the successfully onboarded email again, indicating you can now access SEED-protected resources again.
  
-- **I no longer need to access SEED-protected resources:** [Offboard your device](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/offboard-device/offboard-device-from-seed) completely.
+- **I no longer need to access SEED-protected resources**: [Offboard your device](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/offboard-device/offboard-device-from-seed) completely.
 
  </details><hr />
 
 <details><summary style="font-size:20px;font-weight:bold">Why did I receive the successfully onboarded email even though I had received it before when I first onboarded my device to SEED?</summary>
 
-If you've received this email again, some or all the services that make your device SEED-compliant may have had misconfiguration issues, causing you to have lost access to SEED-protected resources temporarily.
+If you've received this email again, some or all the services that make your device SEED-compliant may have had misconfiguration issues, causing you to temporarily lose access to SEED-protected resources .
 
 When the configurations of the impacted services return to a healthy state, you will receive the successfully onboarded email indicating that you can access the SEED-protected resources again.
 
