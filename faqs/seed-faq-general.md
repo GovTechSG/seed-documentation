@@ -138,13 +138,13 @@ audit -e
 
 **Reason**: Most likely, this indicates that we detected some issues with your device configuration for SEED. For example, your Microsoft Defender could be unhealthy. As such issues pose a security risk, we revoke your access to SEED resources.
 
-However, there could be other reasons such as Microsoft Defender definitions are obsolete. If you are a mac user, such issues will self-heal and your access will be auto-restored and you will receive an email for this. In such cases, no action required from you for this. 
-
 In this situation, the **action required** by you may vary based on your need:
 
-- **Restore my access to SEED-protected resources:**  Raise a [service request][service-request] and specify that your SEED access revoked due to device misconfiguration. This would allow us to process the ticket accordingly. Once your device configuration is remediated, we will send you the successfully onboarded email again, indicating you can now access SEED-protected resources again.
+- **Automatically restore the access**: In some situations, the issue could be rectified automatically. In such cases, you may be able to regain access without any manual intervention and you will receive the successfully onboarded email indicating your access has been restored.
+
+- **Restore my access to SEED-protected resources**:  Raise a [service request][service-request] and specify that your SEED access revoked due to device misconfiguration. This would allow us to process the ticket accordingly. Once your device configuration is remediated, we will send you the successfully onboarded email again, indicating you can now access SEED-protected resources again.
  
-- **I no longer need to access SEED-protected resources:** [Offboard your device](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/offboard-device/offboard-device-from-seed) completely.
+- **I no longer need to access SEED-protected resources**: [Offboard your device](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/offboard-device/offboard-device-from-seed) completely.
 
  </details><hr />
 
