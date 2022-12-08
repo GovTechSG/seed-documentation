@@ -167,11 +167,11 @@ As suggested wait for few minutes, retry enrolling your device to Microsoft Intu
 
 This may occur if your new password does not meet the following password requirements:
 
-<li>should have at least 12 characters</li>
-<li>should not have two consecutive or three sequential characters</li>
-<li>should have at least one number and one alphabetic character</li>
-<li>should not be the same as the previous three passwords.</li>
-</ul>
+  - should contain at least 12 characters
+  - should not be the same as the previous three passwords
+  - same character cannot be used consecutively.
+  - cannot have three sequential characters
+  - should contain at least one number and one alphabetic character
 
 <p>There are three password reset options and you may choose one of them to reset password.</p>
 
@@ -245,7 +245,6 @@ This may occur if your new password does not meet the following password require
 
 </details>
      <hr />
-
 
 
 <details>
