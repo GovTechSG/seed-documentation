@@ -2,49 +2,56 @@
 
 
 <details>
-<summary style="font-size:20px;font-weight:bold">What should I do if I am unable to browse the internet using Cloudflare WARP?</summary>
+<summary style="font-size:20px;font-weight:bold"> Unable to browse the internet using Cloudflare WARP</summary>
 
-Check if you are connected to any VPN. If you are still connected to your VPN, you may not be able to access the internet as it conflicts with your DNS resolver configuration. To resolve this, disconnect from your VPN and make sure only Cloudflare WARP is connected.
+Check if you are connected to any VPN. If you are still connected to your VPN, you may not be able to access the internet as it conflicts with your DNS resolver configuration. 
 
-</details>
-     <hr />
+**To resolve this** 
 
-<details>
-<summary style="font-size:20px;font-weight:bold">I had to use my VPN and as recommended by SEED, I had turned off Cloudflare WARP and connected to my VPN. After three hours, when Cloudflare WARP automatically reconnected, I am unable to browse the internet. What could be the reason and how to resolve it?</summary>
-
-If you disconnect Cloudflare WARP on your device, it gets automatically reconnected after three hours. At that time, if you are still connected to your VPN, you may not be able to access the internet as it conflicts with your DNS resolver configuration.
-
-To resolve this, disconnect the device from your WiFi and reconnect it to your WiFi to reset the DNS resolver settings or restart your device.
-
-In addition, make sure the VPN configuration does not route all traffic and DNS queries to the VPN server. Our recommendation is not to turn on WARP and the VPN at the same time.
+1. Disconnect from your VPN.
+2. Make sure only Cloudflare WARP is connected.
 
 </details>
      <hr />
 
 <details>
-<summary style="font-size:20px;font-weight:bold">I am unable to access a particular website. I get an <em>Access restricted</em> error or <em>DNS error</em> while accessing this website.</summary>
+<summary style="font-size:20px;font-weight:bold">Unable to browse the internet when Cloudflare WARP automatically reconnected.</summary>
 
-The following can cause this issue:
+If you disconnect Cloudflare WARP on your device, it  automatically gets reconnected after three hours. At that time, if you are connected to your VPN, you may not be able to access the internet as it conflicts with your DNS resolver configuration.
+
+**To resolve this**
+
+1. Disconnect the device from your WiFi.
+2. Reconnect device to your WiFi to reset the DNS resolver settings or restart your device.
+
+In addition, make sure the VPN configuration does not route all the traffic and DNS queries to the VPN server. Our recommendation is not to turn on WARP and the VPN at the same time.
+
+</details>
+     <hr />
+
+<details>
+<summary style="font-size:20px;font-weight:bold">Unable to access a particular website. I get an <em>Access restricted</em> error or <em>DNS error</em> while accessing this website.</summary>
+
+**The following can cause this issue**:
 
 - Gateway may have blocked these sites as WARP works with Cloudflare Gateway to block websites that are identified as malware sources or a security risk as per our security policy.
 
 - DNS resolution for the website may fail because of WARP and Gateway.
 
-*To resolve gateway issues for trusted sites*
+**To resolve gateway issues for trusted sites**
 
 1. Turn off WARP.
 2. Ensure Microsoft Defender is running to protect your device against malware.
 
 ?> Note WARP connection will automatically reconnect after three hours.
 
-*To resolve DNS error for your device*
+**To resolve DNS error for your device**
 
 <details><summary style="font-size:20px;font-weight:bold">macOS</summary>
 
 1. Go to **Apple** menu > **System Preferences** > **Network**.
 
 <kbd>![network](../images/resolve-dns-error-macos/network.png)</kbd>
-
 
 2. Select **Wi-Fi** from the left pane and click **Advanced**.
 
@@ -137,9 +144,9 @@ Your tool or application may be using a certificate store that is separate from 
 <hr />
 
 <details>
-<summary style="font-size:20px;font-weight:bold">I am unable to access the GCC 2.0 Cloud Management Portal, or a Singapore Tech Stack service. Is there a problem with my Government Managed Device?</summary>
+<summary style="font-size:20px;font-weight:bold">Unable to access the GCC 2.0 Cloud Management Portal, or a Singapore Tech Stack service using my GMD.</summary>
 
-If you are unable to access the GCC 2.0 CMP or any SGTS service, do the following:
+If you are unable to access the GCC 2.0 CMP or any SGTS service using your GMD, do the following:
 
 1. Confirm the following:
     - If you have received the successfully onboarded email from DEEP.
@@ -150,7 +157,7 @@ If you are unable to access the GCC 2.0 CMP or any SGTS service, do the followin
     - If Defender is up-to-date and in the running state.
     - If your TechPass account has the required permissions to access the GCC 2.0 CMP or a particular SGTS service.
 
-2. Make sure the VPN configuration does not route all traffic and DNS queries to the VPN server. Our recommendation is not to turn on WARP and the VPN at the same time.
+2. Make sure the VPN configuration does not route all traffic and DNS queries to the VPN server. We recommend not to turn on WARP and the VPN at the same time.
 
 If you still have issues, [Generate diagnostic report](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request) and upload it to the [incident support request][raise-support-request].
 
@@ -165,13 +172,13 @@ This is a known issue with Cloudflare WARP. If you are unable to access any SGTS
 1. Confirm the following:
     - If you have received the successfully onboarded email from DEEP.
     - If you are using only the [supported browsers](additional-resources/best-practices).
-    - Ensure that Cloudflare WARP client is updated to the latest version and is connected. Go to Cloudflare WARP **Settings**, and ensure that **Gateway with WARP** is selected.
-    - If Tanium is listed in the **Start** menu for Windows and in **Finder** > **Applications** for macOS.
+    - Ensure that Cloudflare WARP client is updated to the latest version and is connected. Go to the Cloudflare WARP **Settings**, and ensure that **Gateway with WARP** is selected.
+    - If Tanium is listed in the **Start** menu for Windows and in **Finder** > **Applications** for macOS devices.
     - If your device operating system is updated to the latest version.
     - If Defender is up-to-date and in the running state.
     - If your TechPass account has the required permissions to access the GCC 2.0 CMP or a particular SGTS service.
 
-2. Make sure the VPN configuration does not route all traffic and DNS queries to the VPN server. Our recommendation is not to turn on WARP and the VPN at the same time.
+2. Make sure the VPN configuration does not route all traffic and DNS queries to the VPN server. We recommend not to turn on WARP and the VPN at the same time.
 
 If you still have issues, [Generate diagnostic report](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request) and upload it to the [incident support request][raise-support-request].
 
@@ -181,7 +188,7 @@ If you still have issues, [Generate diagnostic report](https://docs.developer.te
 <details>
 <summary style="font-size:20px;font-weight:bold">Tanium client returns a 400 Bad Request Error when contacted by the Cloudflare Access landing page via localhost. What should I do? </summary>
 
-This is due to the time synchronisation issue between Cloudflare and Tanium client. To fix this, resync the local time of your macOS or Windows machine.
+This is due to the time synchronisation issue between Cloudflare and Tanium client. To fix this, resynchronise the local time of your macOS or Windows machine.
 
 To check and synchronise your device time with the internet time server:
 
@@ -235,13 +242,13 @@ To check and synchronise your device time with the internet time server:
   </details>
   <hr />
 
+  <details>
+  <summary style="font-size:20px;font-weight:bold">I have a question, but it is not listed here - what do I do?</summary>
 
+  Please visit [Cloudflare troubleshooting](cloudflare-troubleshooting)
 
-
-
-
-
-
+  </details>
+  <hr />
 
 
 
@@ -251,3 +258,5 @@ To check and synchronise your device time with the internet time server:
 [install-cloudflare-cert-operating-system]: https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/install-cloudflare-cert/#add-the-certificate-to-your-system
 [config-cli-tools-with-warp]: faqs/configuration-of-common-developer-cli-tools-with-cloudflare-warp
 [install-cloudflare-cert-applications]: https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/install-cloudflare-cert/#adding-to-applications
+
+[cloudflare-troubleshooting]: https://developers.cloudflare.com/cloudflare-one/faq/teams-troubleshooting/
