@@ -55,7 +55,7 @@ Things to ensure a successful onboarding:
 If you had requested SEED provisioning while signing up for your TechPass account, SEED will be provisioned to you and you will receive an email with instructions on how to onboard your device to SEED.
 
 > **Note**:
-> If you are a public officer, who already has a TechPass account and needs SEED provisioning, go to your profile page on the [TechPass portal](http://portal.techpass.gov.sg/), request SEED provisioning and follow the on-screen instructions. For more information, refer to [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-to-seed).
+> If you are a public officer, who already has a TechPass account and needs SEED provisioning, go to your profile page on the [TechPass portal](http://portal.techpass.gov.sg/), request SEED provisioning and follow the on-screen instructions. For more information, refer to [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/onboard-public-officers-using-non-se-machines).
 
 ### Supported operating systems and devices for SEED
 
