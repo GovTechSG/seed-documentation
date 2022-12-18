@@ -17,7 +17,7 @@ None
 
 | Date | 18 December 2022 |
 | ------------- |:-------------|
-| **Issue summary** | On 18 December 2022 at 12:00 SGT, the SEED team received incident requests for login failures. <br><br>This was caused by an integration issue between Cloudflare and Tanium. Users experienced this issue during non-business hours. The issue was resolved at 13:15 SGT. <br>*Posted on: 18 December 2022, 13:50 SGT*
+| **Issue summary** | On 18 December 2022 at 12:00 SGT, the SEED team received incident requests for login failures. Users experienced this issue during non-business hours. The issue was resolved at 13:15 SGT. <br><br>This was caused by an integration issue between Cloudflare and Tanium. <br><br>*Posted on: 18 December 2022, 13:50 SGT*
 
 
 
