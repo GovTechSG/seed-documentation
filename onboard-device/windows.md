@@ -11,7 +11,7 @@
 
 ## Step 1: Enrol your device in Microsoft Intune
 <details>
-  <summary style="font-size:18px">a. Enrol your device in Microsoft Intune</summary><br>
+  <summary style="font-size:18px">Enrol your device in Microsoft Intune</summary><br>
 
 1. Click **Start** icon on the taskbar.
 
@@ -27,7 +27,9 @@
 
 <kbd>![settings](../images/onboarding-instructions-for-windows/settings.png ':size=600')</kbd>
 
-5. Your account is added and listed as a connection. This account has the **Info** and **Disconnect** options as shown below. Click on the **Info** option and verify that you see something like the following.
+Your account is added and listed as a connection. This account has the **Info** and **Disconnect** options as shown below. 
+
+4. Click on the **Info** option and verify that you see something like the following.
 
 ?> Vendors will see **TechPass** instead of **SG Govt M365**.
 
@@ -37,22 +39,24 @@
 >- Your device is now enrolled in Microsoft Intune.
 >
 >- If you are a vendor or contractor, Tanium and Cloudflare WARP are installed on your device. When the installation is complete, Microsoft Intune Management Extension sends you a desktop notification.
->
->- If you are a public officer, Tanium and Cloudflare WARP will be installed after registering your device ID on the TechPass portal. Refer to [step 2. Register the Microsoft Intune device ID for your Windows device](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/windows?id=step-2-register-the-microsoft-intune-device-id) for more information.
+
+!> If you are a public officer, Tanium and Cloudflare WARP will be installed only after you complete [step 2. Register Microsoft Intune device ID for your Windows device](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/windows?id=step-2-register-microsoft-intune-device-id-only-for-gsib-users-onboarding-their-internet-device).
 
 </details>
 
 ## Step 2: Register Microsoft Intune device ID (only for GSIB users onboarding their internet device)
 
-<details><summary style="font-size:18px">b. Register the Microsoft Intune device ID for your Windows device</summary>
+<details><summary style="font-size:18px">Register the Microsoft Intune device ID for your Windows device</summary>
 
-> **Note**:
+> **Note**:  
 >
->- This step is applicable only if you have a GSIB device and your TechPass ID is the same as your organisation email address. For example, *peter_wilson<span>@</span>tech.gov.sg*. In other words, this is applicable for users whose TechPass ID belongs to the WOG AAD.
+>- This step is applicable only if you have a GSIB device and your TechPass ID is the same as your organisation email address. In other words, this is applicable for users whose TechPass ID's domain **is not** ```techpass.gov.sg```.
 >
->- If you are a SE-GSIB user, complete steps 1-2 and contact the [support team](https://go.gov.sg/techpass-sr) with your Intune device ID to register your Intune device ID.  
->
->- Skip the following steps if your TechPass ID belongs to the TechPass AAD and has its domain as *techpass.gov.sg*. For example, *peter_wilson<span>@</span>techpass.gov.sg*.
+>- If you only have a SE-GSIB device, complete substeps 1 and 2, and then contact the [support team](https://go.gov.sg/techpass-sr) with your Intune device ID to register your Intune device ID.  
+
+<!--
+
+- Skip the following steps if your TechPass ID belongs to the TechPass AAD and has its domain as *techpass.gov.sg*. For example, *peter_wilson<span>@</span>techpass.gov.sg*.-->
 
 1. Open **PowerShell** and run the following commands:
 ```
@@ -83,7 +87,7 @@ Write-Output $intune_id
 
     ii. If prompted to specify your password, enter it.
 
-5. To verify if the required profiles are installed correctly, go to **Settings** > **Apps** > **Apps & features** and ensure that Tanium and Cloudflare WARP are listed.
+5. To verify if the required profiles are installed correctly, go to the internet device onboarded to SEED, open **Settings** > **Apps** > **Apps & features** and ensure that Tanium and Cloudflare WARP are listed.
 
 </details>
 
