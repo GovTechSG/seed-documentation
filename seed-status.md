@@ -15,6 +15,12 @@ None
 
 ## Previous incidents
 
+| Date | 18 December 2022 |
+| ------------- |:-------------|
+| **Issue summary** | We identified an issue with Cloudflare Access and Tanium on 18 December 2022, 12:00 SGT. <br><br>**Impact**: Users were unable to authenticate their login while accessing SGTS services and GCC 2.0 services around this time. The impact duration was during non-business hours.<br><br>**Resolved**: The issue was resolved on 18 December 2022, 13:15 SGT. <br><br>*Posted on: 18 December 2022, 13:50 SGT*
+
+
+
 | Date | 21 October 2022 |
 | ------------- |:-------------|
 |**Issue summary** | Users encountered intermittent HTTP request failures and may have received error code 409 or CORS Blocked messages on their HTTP clients while using Cloudflare WARP Gateway. This issue has been resolved by Cloudflare WARP.<br><br>**Issue start time**: 20 October 2022, 19:45 SGT<br>**Issue end time**: 21 October 2022, 05:34 SGT<br><br>**Impact:**<br> Users may have been unable to access Internet sites intermittently with Cloudflare WARP turned on.<br>*Posted on: 21 October 2022, 09:50 SGT* |
