@@ -40,7 +40,7 @@ Your account is added and listed as a connection. This account has the **Info** 
 >
 >- If you are a vendor or contractor, Tanium and Cloudflare WARP are installed on your device. When the installation is complete, Microsoft Intune Management Extension sends you a desktop notification.
 
-!> If you are a public officer, Tanium and Cloudflare WARP will be installed only after you complete [step 2. Register Microsoft Intune device ID for your Windows device](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/windows?id=step-2-register-microsoft-intune-device-id-only-for-gsib-users-onboarding-their-internet-device).
+!> If you are a public officer, Tanium and Cloudflare WARP will be installed only after you complete [step 2. Register Microsoft Intune device ID for your Windows device](#step-2-register-microsoft-intune-device-id-only-for-gsib-users-onboarding-their-internet-device).
 
 </details>
 

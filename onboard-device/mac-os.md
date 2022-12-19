@@ -55,7 +55,7 @@
 
   9. Click **Install** to get the required configuration profiles.
 
-  !> If you are a public officer, complete all the substeps in [Step 2: Register the Microsoft Intune device ID for your macOS device](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/mac-os?id=step-2-register-microsoft-intune-device-id-only-for-gsib-users-onboarding-their-internet-device) to get the profiles installed. 
+  !> If you are a public officer, complete all the substeps in [Step 2: Register the Microsoft Intune device ID for your macOS device](#step-2-register-microsoft-intune-device-id-only-for-gsib-users-onboarding-their-internet-device) to get the profiles installed. 
 
   <kbd>![profile](../images/onboarding-for-macos/profile-2.png)</kbd>
 
