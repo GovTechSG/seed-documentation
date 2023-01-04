@@ -90,8 +90,7 @@ RUN \
     apt-get install -y ca-certificates && \
     curl -sSLj -o "/etc/ssl/certs/Cloudflare_CA.pem" "https://developers.cloudflare.com/cloudflare-one/static/documentation/connections/Cloudflare_CA.pem" && \
     update-ca-certificates
-
-    ```
+```
 
 ## AWS CLI
 
