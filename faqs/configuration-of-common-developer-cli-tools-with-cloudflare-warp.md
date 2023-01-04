@@ -43,6 +43,7 @@ echo 'export NODE_EXTRA_CA_CERTS="${HOME}/.config/.cloudflare/Cloudflare_CA.pem"
 source "${HOME}/.zshrc"
 ```
 
+
 ## Docker
 
 <!--Docker for Desktop makes use of virtual machines to host the Docker engine. The Docker engine must be configured to trust the Cloudflare Certificate.
