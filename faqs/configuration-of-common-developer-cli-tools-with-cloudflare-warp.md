@@ -24,7 +24,7 @@ Node.js and NPM use a hardcoded certificate store and requires additional config
 
 If you are using macOS, Zsh is likely to be your default terminal. If you are using zsh, please run the following commands:
 
-```sh
+```bash
 mkdir -p "${HOME}/.config/.cloudflare"
 curl -sSLj -o "${HOME}/.config/.cloudflare/Cloudflare_CA.pem" "https://developers.cloudflare.com/cloudflare-one/static/documentation/connections/Cloudflare_CA.pem"
 echo 'export NODE_EXTRA_CA_CERTS="${HOME}/.config/.cloudflare/Cloudflare_CA.pem"' | tee -a "${HOME}/.bashrc"
