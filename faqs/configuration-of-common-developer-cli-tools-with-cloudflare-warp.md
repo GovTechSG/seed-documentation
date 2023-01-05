@@ -30,7 +30,6 @@ curl -sSLj -o "${HOME}/.config/.cloudflare/Cloudflare_CA.pem" "https://developer
 echo 'export NODE_EXTRA_CA_CERTS="${HOME}/.config/.cloudflare/Cloudflare_CA.pem"' | tee -a "${HOME}/.bashrc"
 source "${HOME}/.bashrc"
 ```
-
 **Linux users**
 
 If you are using Linux, Bash is likely to be your default terminal. If you are using bash, please run the following commands:
