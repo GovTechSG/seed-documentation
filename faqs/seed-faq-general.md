@@ -20,7 +20,7 @@ See the [SEED prerequisites](prerequisites-for-onboarding?id=supported-operating
 
 <details><summary style="font-size:20px;font-weight:bold">Can I onboard my mobile device to SEED?</summary>
 
-No. Currently, you can't onboard your mobile device such as mobile phones, tablets and GoMax to SEED.
+No. You can't onboard mobile devices such as GoMax, iOS and Android phones and tablets to SEED.
 
 </details><hr />
 

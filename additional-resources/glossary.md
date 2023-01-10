@@ -30,6 +30,14 @@ Government Furnished Equipment.
 
 Government Managed Device. An internet device or a GFE device when enrolled with SEED becomes a Government Managed Device.
 
+<a id="gomax">
+
+**GoMax**
+
+</a>
+
+GoMax is a managed mobility service introduced in 2012 to provide public officers with access to core services such as email, contacts and calendar, via multiple mobile devices.
+
 <a id="gsib">
 
 **GSIB**
