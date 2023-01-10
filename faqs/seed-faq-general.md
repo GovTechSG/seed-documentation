@@ -12,6 +12,18 @@ Security Suite for Engineering Endpoint Devices (SEED) is a Mobile Device Manage
 
 </details><hr />
 
+<details><summary style="font-size:20px;font-weight:bold">What devices can be onboarded to SEED?</summary>
+
+See the [SEED prerequisites](prerequisites-for-onboarding?id=supported-operating-systems-and-devices-for-seed).
+
+</details><hr />
+
+<details><summary style="font-size:20px;font-weight:bold">Can I onboard my mobile device to SEED?</summary>
+
+No. Currently, you can't onboard your mobile device such as mobile phones, tablets and GoMax to SEED.
+
+</details><hr />
+
 <details><summary style="font-size:20px;font-weight:bold">My TechPass account is active but my SEED onboarding email invitation has expired. How do I get another SEED onboarding email invitation?</summary>
 
 Your SEED onboarding email invitation is valid for 30 days. If you have not onboarded to SEED following your TechPass onboarding within this 30 days, your invitation will no longer be valid.
