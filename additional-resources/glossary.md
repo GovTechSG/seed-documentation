@@ -58,14 +58,23 @@ Device which is not a [GSIB](#gsib). This could be your personal device, or a de
 
 You must enrol this device with SEED (GovTech's MDM solution) in order to access SGTS resources, products and services that requires SEED.
 
+<a id="non-se-gsib">
+
 **non-SE GSIB**
+
+</a>
 
 If you are using a non-SE GSIB device, every time you log in to your device, you will be prompted to enter your BitLocker PIN. You can access the internet and intranet using this device.
 
 **Note**<br>
 > You can't onboard this device to SEED.
 
+
+<a id="se-gsib">
+
 **SE GSIB**
+
+</a>
 
 It is a Secured Email (SE) GSIB device. This GSIB device is assigned to public officers who handle sensitive and secret information.
 
@@ -75,11 +84,19 @@ If you are using a SE GSIB device, you will be using your PS-Card to authenticat
 >- You can't use this device to activate your TechPass account.
 >- You can't onboard this device to SEED.
 
+<a id="seed">
+
 **SEED**
+
+</a>
 
 Security Suite for Engineering Endpoint Devices. This is the MDM solution offered by GovTech.
 
+<a id="techpass">
+
 **TechPass**
+
+</a>
 
 This is an Identity & Access Management (IAM) and  a single sign-on(SSO) solution to seamlessly access Singapore Government Technology Stack(SGTS) services.
 
@@ -89,16 +106,26 @@ If you are public officer and want to get a TechPass account, refer to [Create T
 
 If you are a vendor, request the engaging agency or ministry to provide you with a TechPass account. For more information, refer to [Vendor onboarding to TechPass](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/onboard-vendors-to-techpass).
 
+
+<a id="techpass-id">
+
 **TechPass ID**
+
+</a>
+
 This is used to log in to your TechPass account.
 
 - For public officers, it is your WOG ID.
 - For vendors, it is *your_name<span>@</span>techpass.gov.sg*.
 
-**Whole of Government(WOG) ID or account**
+<a id="wog-id-or-account">
+
+**WOG ID or account**
+
+</a>
 
 WOG ID is the email address belonging to the gov.sg domain. For example, *your_name<span>@</span>tech.gov.sg*.
 
 Public officers who onboard to SEED must have a WOG account. 
 
-Note: WOG ID and organisational email address are used interchangeably.
+**Note:** WOG ID and organisational email address are used interchangeably.
