@@ -4,6 +4,7 @@ This table shows the history of updates to the SEED documentation.
 
 | Date  | Article | Change |
 | ------------- |:-------------:|:-------------|
+| 12 January 2023 | - [Announcements](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/announcements)<br>- [Seed service status](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/seed-status?id=scheduled-maintenance) | Published the details for the upcoming scheduled deployment. | 
 | 10 January 2023 | - [General FAQ](faqs/seed-faq-general)<br> - [Glossary](additional-resources/glossary) | Updated the General FAQ and Glossary. | 
 | 18 December 2022 | - [SEED status page](seed-status) | Updated this page an integration issue between Cloudflare and Tanium which impacted our users. |
 | 6 December 2022 | - [Onboarding FAQ](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/faqs/common-onboarding-issues)<br>- [Best practices](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices)<br>- [General FAQ](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/faqs/seed-faq-general) | - Updated FAQ related to password.<br>- Included the link to configure certificate authorities in firefox.<br>- Updated the onboarding FAQ on what to do if your access to SEED-protected resources are revoked.
