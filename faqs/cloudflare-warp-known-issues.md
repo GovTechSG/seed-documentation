@@ -120,9 +120,9 @@ Cloudflare WARP works with Cloudflare Gateway to block websites that may have be
 
 **To identify Cloudflare category of a domain**:
 
-1. Go to [Cloudflare radar](https://radar.cloudflare.com/domain).
+1. Go to [Cloudflare Radar](https://radar.cloudflare.com/categorization-feedback/).
 2. Enter the domain name of the website and check the categories under which it is classified. For more information on categories and their definitions, refer to [Cloudflare DNS categories](https://developers.cloudflare.com/cloudflare-one/policies/filtering/dns-policies/dns-categories/).
-3. If the domain is incorrectly classified, visit [contact Cloudflare](https://radar.cloudflare.com/categorization-feedback/) to provide your feedback.
+3. If the domain is incorrectly classified, select the relevant categories and click **Submit** to provide your feedback.
 
 </details>
      <hr />
