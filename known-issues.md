@@ -1,5 +1,56 @@
 # Known issues
 
-**Issue:** When accessing SGTS services using Cloudflare WARP, user intermittently experience an error message which states *That account does not have access* .
+Following is the list of known issues that may impact SEED users:
 
-Refer to the question *I intermittently experience the error message: "That account does not have access" when accessing SGTS services using Cloudflare WARP* on the [Cloudflare WARP FAQ](faqs/cloudflare-warp-known-issues). If you still need support, create an [incident support request](raise-an-incident-support-request).
+**Issues**
+
+-[Issue 1](#issue-1)
+
+-[Issue 2](#issue-2)
+
+
+## Issue 1
+
+When accessing SGTS services using Cloudflare WARP, user intermittently experience an error message which states *That account does not have access*.
+
+**Workaround**
+
+1. Confirm the following:
+    - If you have received the successfully onboarded email from DEEP.
+    - If you are using only the [supported browsers](additional-resources/best-practices).
+    - Ensure that Cloudflare WARP client is updated to the latest version and is connected. Go to the Cloudflare WARP **Settings**, and ensure that **Gateway with WARP** is selected.
+    - If Tanium is listed in the **Start** menu for Windows and in **Finder** > **Applications** for macOS devices.
+    - If your device operating system is updated to the latest version.
+    - If Defender is up-to-date and in the running state.
+    - If your TechPass account has the required permissions to access the GCC 2.0 CMP or a particular SGTS service.
+
+2. Make sure the VPN configuration does not route all traffic and DNS queries to the VPN server. We recommend not to turn on WARP and the VPN at the same time.
+
+If you still have issues, [Generate diagnostic report](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request) and upload it to the [incident support request][raise-support-request].
+
+## Issue 2
+
+Cloudflare has reported connectivity issues for its users whose macOS WARP client version is earlier than 2022.12.583.0 (20230112.24). These users may experience connectivity issues while trying to access websites over the internet.
+
+**Workaround**
+
+Upgrade to the latest version of Cloudflare WARP.
+
+1. Open Cloudflare WARP on your GMD.
+2. Click **Settings** > **About WARP**.
+3. If your Cloudflare version is earlier than 2022.12.583.0 (20230112.24), click **Check for Updates**. Details of the latest version are displayed.
+3. Click **Install Updates**. The new version gets downloaded to your GMD.
+4. When prompted, enter your device password and click **OK**.
+5. Click **Install and Relaunch** to install the downloaded latest version of Cloudflare WARP.
+6. Repeat steps 1-2 and confirm if the latest Cloudflare version is installed on your GMD.
+
+
+
+
+
+
+
+
+
+
+
