@@ -24,9 +24,17 @@ When accessing SGTS services using Cloudflare WARP, user intermittently experien
     - If Defender is up-to-date and in the running state.
     - If your TechPass account has the required permissions to access the GCC 2.0 CMP or a particular SGTS service.
 
-2. Make sure the VPN configuration does not route all traffic and DNS queries to the VPN server. We recommend not to turn on WARP and the VPN at the same time.
+> **Note**
+>- SEED does not support running other VPN clients together with Cloudflare WARP. 
+>- We recommend not to turn on WARP and the VPN at the same time.
 
-If you still have issues, [Generate diagnostic report](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request) and upload it to the [incident support request][raise-support-request].
+2.  Verify if you are running any VPN client concurrently with warp on and complete the following steps as needed:
+
+    a. If yes, make sure the VPN configuration does not route all traffic and DNS queries to the VPN server.
+
+   b. If no, proceed to step 3.
+
+3. If you still have issues, [Generate diagnostic report](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request) and upload it to the [incident support request][raise-support-request].
 
 ## Issue 2
 
