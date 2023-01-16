@@ -15,26 +15,31 @@ When accessing SGTS services using Cloudflare WARP, user intermittently experien
 
 **Workaround**
 
-1. Confirm the following:
+1. Ensure you answer "Yes" to the following verifications:
+
     - If you have received the successfully onboarded email from DEEP.
     - If you are using only the [supported browsers](additional-resources/best-practices).
-    - Ensure that Cloudflare WARP client is updated to the latest version and is connected. Go to the Cloudflare WARP **Settings**, and ensure that **Gateway with WARP** is selected.
-    - If Tanium is listed in the **Start** menu for Windows and in **Finder** > **Applications** for macOS devices.
+    - Is your Cloudflare WARP client connected and is it the latest version. 
+    - Open Cloudflare WARP **Settings**, and verify if **Gateway with WARP** is selected.
+    - If your device is a Windows device, go to the **Start** menu and verify if Tanium is listed.
+    - If your device is a macOS device, go to **Finder** > **Applications** and search for Tanium.
     - If your device operating system is updated to the latest version.
     - If Defender is up-to-date and in the running state.
     - If your TechPass account has the required permissions to access the GCC 2.0 CMP or a particular SGTS service.
+
+    2. If you answered "No" to anyone of the questions, take the required actions until you answer "yes" to all the above queries.
 
 > **Note**
 >- SEED does not support running other VPN clients together with Cloudflare WARP. 
 >- We recommend not to turn on WARP and the VPN at the same time.
 
-2.  Verify if you are running any VPN client concurrently with warp on and complete the following steps as needed:
+3.  Verify if you are running any VPN client concurrently with warp on and complete the following steps as needed:
 
     a. If yes, make sure the VPN configuration does not route all traffic and DNS queries to the VPN server.
 
-   b. If no, proceed to step 3.
+    b. If no, proceed to step 3.
 
-3. If you still have issues, [Generate diagnostic report](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request) and upload it to the [incident support request][raise-support-request].
+4. If you still have issues, [Generate diagnostic report](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request) and upload it to the [incident support request][raise-support-request].
 
 ## Issue 2
 
