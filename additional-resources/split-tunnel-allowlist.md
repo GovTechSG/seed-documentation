@@ -32,6 +32,8 @@ To evaluate a split tunnel allowlisting request, we need the following from the 
 
 - As part of our security review process, we will periodically review the allowed split tunnel entries to check if they are still necessary.
 
+- To know more about, how the WARP client handles your DNS requests, see [Cloudflare Docs](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/configure-warp/route-traffic/#how-the-warp-client-handles-dns-requests).
+
 > **Note**:<br>
 >- We will review the allowed split tunnel entries by **October 2023** to decide whether to retain the allowlisting or not.
 >
