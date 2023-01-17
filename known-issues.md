@@ -4,18 +4,20 @@ Following is the list of known issues that may impact SEED users:
 
 **Issues**
 
--[Issue 1](#issue-1)
+- [Intermittently experience the error *Account does not have access*](#issue-1)
 
--[Issue 2](#issue-2)
+- [Users may experience issues accessing or loading Slack](#issue-2)
 
 
 ## Issue 1
+
+**Intermittently experience the error *Account does not have access*.**
 
 When accessing SGTS services using Cloudflare WARP, user intermittently experience an error message which states *That account does not have access*.
 
 **Workaround**
 
-1. Ensure you answer "Yes" to the following verifications:
+1. Confirm the following:
 
     - If you have received the successfully onboarded email from DEEP.
     - If you are using only the [supported browsers](additional-resources/best-practices).
@@ -27,27 +29,29 @@ When accessing SGTS services using Cloudflare WARP, user intermittently experien
     - If Defender is up-to-date and in the running state.
     - If your TechPass account has the required permissions to access the GCC 2.0 CMP or a particular SGTS service.
 
-    2. If you answered "No" to anyone of the questions, take the required actions until you answer "yes" to all the above queries.
-
 > **Note**
 >- SEED does not support running other VPN clients together with Cloudflare WARP. 
 >- We recommend not to turn on WARP and the VPN at the same time.
 
-3.  Verify if you are running any VPN client concurrently with warp on and complete the following steps as needed:
+2.  Verify if you are running any VPN client concurrently with warp on and complete the following steps as needed:
 
     a. If yes, make sure the VPN configuration does not route all traffic and DNS queries to the VPN server.
 
     b. If no, proceed to step 3.
 
-4. If you still have issues, [Generate diagnostic report](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request) and upload it to the [incident support request][raise-support-request].
+3. If you still have issues, [Generate diagnostic report](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request) and upload it to the [incident support request](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/raise-an-incident-support-request).
 
 ## Issue 2
 
-Cloudflare has reported connectivity issues for its users whose macOS WARP client version is earlier than 2022.12.583.0 (20230112.24). These users may experience connectivity issues while trying to access websites over the internet.
+**Users may experience issues accessing or loading Slack**
+
+Cloudflare has reported connectivity issues for its users whose macOS WARP client version is earlier than 2022.12.583.0 (20230112.24). These users may experience intermittent connectivity issues while trying to access websites and applications such as Slack over the internet. 
 
 **Workaround**
 
-Upgrade to the latest version of Cloudflare WARP.
+Upgrade to the latest version of Cloudflare WARP to see if it resolves this issue.
+
+**To install the latest Cloudflare WARP client**
 
 1. Open Cloudflare WARP on your GMD.
 2. Click **Settings** > **About WARP**.
