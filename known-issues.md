@@ -4,10 +4,10 @@ Following is the list of known issues that may impact SEED users:
 
 **Issues**
 
-- [Intermittently experience the error *Account does not have access*](#issue-1)
-- [Users may experience connectivity issues](#issue-2)
-- [User experience issues while accessing or loading Slack](#issue-3)
-- [Unable to access  AWS documentation](#issue-4)
+- [Issue 1: Intermittently experience the error *Account does not have access*](#issue-1)
+- [Issue 2: Users may experience connectivity issues](#issue-2)
+- [Issue 3: User experience issues while accessing or loading Slack](#issue-3)
+- [Issue 4: Unable to access  AWS documentation](#issue-4)
 
 
 ## Issue 1
