@@ -5,8 +5,8 @@ Following is the list of known issues that may impact SEED users:
 **Issues**
 
 - [Intermittently experience the error *Account does not have access*](#issue-1)
-
-- [Users may experience issues accessing or loading Slack](#issue-2)
+- [Users may experience connectivity issues](#issue-2)
+- [User experience issues while accessing or loading Slack](#issue-3)
 
 
 ## Issue 1
@@ -43,9 +43,9 @@ When accessing SGTS services using Cloudflare WARP, user intermittently experien
 
 ## Issue 2
 
-**Users may experience issues accessing or loading Slack**
+**Users may experience connectivity issues**
 
-Cloudflare has reported connectivity issues for its users whose macOS WARP client version is earlier than 2022.12.583.0 (20230112.24). These users may experience intermittent connectivity issues while trying to access websites and applications such as Slack over the internet. 
+Cloudflare has reported connectivity issues for its users whose macOS WARP client version is earlier than 2022.12.583.0 (20230112.24). These users may experience intermittent connectivity issues while trying to access websites over the internet. 
 
 **Workaround**
 
@@ -60,6 +60,18 @@ Upgrade to the latest version of Cloudflare WARP to see if it resolves this issu
 4. When prompted, enter your device password and click **OK**.
 5. Click **Install and Relaunch** to install the downloaded latest version of Cloudflare WARP.
 6. Repeat steps 1-2 and confirm if the latest Cloudflare version is installed on your GMD.
+
+## Issue 3
+
+**Users may experience issues while accessing or loading Slack**
+
+These users may experience intermittent connectivity issues while trying to accessing Slack over the internet.
+
+**Workaround**
+
+Upgrade to the latest version of Cloudflare WARP to see if it resolves this issue. To know how to upgrade to the latest Cloudflare WARP client, see the instructions listed in [Issue 2](#issue-2).
+
+
 
 
 
