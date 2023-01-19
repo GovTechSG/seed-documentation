@@ -70,7 +70,7 @@ Users experience intermittent connectivity issues while trying to accessing Slac
 
 **Workaround**
 
-We are investigating this issue and there is no known workaround available for this. If you experience this issue, create a [support request](https://go.gov.sg/techpass-sr).
+See [Issue 2](#issue-2) for the possible workaround. If you still experience this issue, create a [support request](https://go.gov.sg/techpass-sr).
 
 ## Issue 4
 
