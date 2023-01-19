@@ -66,7 +66,7 @@ Upgrade to the latest version of Cloudflare WARP to see if it resolves this issu
 
 **Users experience issues while accessing or loading Slack**
 
-Users experience intermittent connectivity issues while trying to accessing Slack over the internet.
+Users experience intermittent connectivity issues while trying to accessing Slack application over the internet.
 
 **Workaround**
 
