@@ -1,4 +1,5 @@
 - **Troubleshoot**
+  - [Known issues](faqs/known-issues)
   - [General](faqs/seed-faq-general)
   - [Onboarding](faqs/common-onboarding-issues)
   - [Cloudflare WARP](faqs/cloudflare-warp-known-issues)
