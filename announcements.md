@@ -2,7 +2,7 @@
 
 | Date  | Announcement |
 | ------------- |:-------------:|
-| 17 January 2023 | Updated [Known issues](known-issues). |
+| 17 January 2023 | Updated [Known issues](faq/known-issues). |
 | 12 January 2023 | We will perform a scheduled deployment on 20 January 2023 to revise the Cloudflare WARP and Gateway rules. For more information, see [SEED service status](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/seed-status?id=scheduled-maintenance). |
 | 28 November 2022 | SingCERT advises Google Chrome users to install browser update to address zero-day vulnerability. According to SingCERT, Google Chrome users should install the latest security updates following reports that hackers are actively exploiting a **zero-day vulnerability**.<br><br>**Affected Softwares**:<br>- Chrome and Chromium-based browsers<br><br>**Action required**:<br>To mitigate potential threats,<br>- macOS users using Chrome are advised to upgrade their browser to version 107.0.5304.121<br>- Windows users using Chrome are advised to upgrade their browser version to 107.0.5304.121/122<br>- Users using Chromium-based browsers, such as Microsoft Edge, Brave, Opera, and Vivaldi, are also advised to apply relevant fixes as and when they become available.<br><br>**Additional Information**:<br>Users are also encouraged to enable automatic updates in Chrome to ensure that their software is updated promptly.
 | 22 November 2022 | We will be enforcing a new device clean-up rule for SEED users whose TechPass ID belongs to the TechPass AAD. For more information, see [MDM certificate and device clean-up policy](device-clean-up-policy). |
