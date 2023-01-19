@@ -2,6 +2,7 @@
 
 Browse through these FAQs to find answers to commonly asked questions. We encourage you to read through the relevant articles before raising a support request.
 
+- [Known issues](faqs/known-issues)
 - [General](faqs/seed-faq-general)
 - [Onboarding](faqs/common-onboarding-issues)
 - [Cloudflare WARP](faqs/cloudflare-warp-known-issues)

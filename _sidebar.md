@@ -2,7 +2,6 @@
   - [Overview](overview)
   **What's new**
   - [Announcements](announcements)
-  - [Known issues](known-issues)
   - [Latest changes to the SEED documentation](document-history)
   **Getting started**  
   - [Prerequisites](prerequisites-for-onboarding)
