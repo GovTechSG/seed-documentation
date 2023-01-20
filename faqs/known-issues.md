@@ -34,7 +34,7 @@ When accessing SGTS services using Cloudflare WARP, user intermittently experien
 >- SEED does not support running other VPN clients together with Cloudflare WARP. 
 >- We recommend not to turn on WARP and the VPN at the same time.
 
-2.  Verify if you are running any VPN client concurrently with warp on and complete the following steps as needed:
+2.  Verify if you are running any VPN client concurrently with warp turned on and complete the following steps as needed:
 
     a. If yes, make sure the VPN configuration does not route all traffic and DNS queries to the VPN server.
 
@@ -44,23 +44,27 @@ When accessing SGTS services using Cloudflare WARP, user intermittently experien
 
 ## Issue 2
 
-**Users may experience connectivity issues**
+**Users experience connectivity issues**
 
 Cloudflare has reported connectivity issues for its users whose macOS WARP client version is earlier than 2022.12.583.0 (20230112.24). These users may experience intermittent connectivity issues while trying to access websites over the internet. 
 
 **Workarounds**
 
-- **Upgrade to the latest version of Cloudflare WARP**.
+**Workaround 1**: Update Cloudflare WARP client to the latest version.
 
-**To install the latest Cloudflare WARP client**
+**To update your Cloudflare WARP client**
 
 1. Open Cloudflare WARP on your GMD.
 2. Click **Settings** > **About WARP**.
-3. If your Cloudflare version is earlier than 2022.12.583.0 (20230112.24), click **Check for Updates**. Details of the latest version are displayed.
-3. Click **Install Updates**. The new version gets downloaded to your GMD.
-4. When prompted, enter your device password and click **OK**.
-5. Click **Install and Relaunch** to install the downloaded latest version of Cloudflare WARP.
-6. Repeat steps 1-2 and confirm if the latest Cloudflare version is installed on your GMD.
+3. Click **Check for Updates**. Details of the latest version are displayed.
+
+> **Note**
+>- If you experience error while checking for updates, turn off Cloudflare WARP and repeat steps 1-3.
+
+4. Click **Install Updates** to download the latest version.
+5. When prompted, enter your device password and click **OK**.
+6. Click **Install and Relaunch** to install the downloaded latest version of Cloudflare WARP.
+7. Repeat steps 1-2 and confirm if the latest Cloudflare version is installed on your GMD.
 
 - **If you are unable to upgrade or still have issues, uninstall WARP and install the latest version**
 
@@ -79,7 +83,7 @@ Cloudflare has reported connectivity issues for its users whose macOS WARP clien
 
 3. Enter `Y`. When WARP is successfully uninstalled, the message ```Finished uninstallation!``` is displayed.
 
-4. <a href="https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/post-onboarding-instructions/mac-os?id=enrol-with-cloudflare-using-warp-client">Install the latest WARP client for macOS.</a>
+4. <a href="https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/post-onboarding-instructions/mac-os?id=turn-on-cloudflare-warp-for-macos-13">Install the latest WARP client for macOS.</a>
 
 #### **Windows**
 
@@ -88,45 +92,7 @@ Cloudflare has reported connectivity issues for its users whose macOS WARP clien
   3. Choose Cloudflare WARP and then click **Uninstall**.
 
   4. <a href="https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/post-onboarding-instructions/windows">Install the latest WARP client for Windows.</a>
-
-  **To install Cloudflare WARP for Windows**
-
-1. [Download the latest WARP client for Windows](https://install.appcenter.ms/orgs/cloudflare/apps/1.1.1.1-windows-1/distribution_groups/release).
-2. Follow the on screen instructions and install the WARP client.
-3. Click the **Show hidden icons** arrow next to the notification area and make sure that Cloudflare WARP icon is displayed on your device or go to the **Start** menu and search for **Cloudflare WARP**.
-
-<kbd>![](../images/cloudflare-warp-windows/check-cloudflare-warp-desktop-client.png ':size=400')</kbd>
-
-
-4. Disconnect from any other VPN that might be running as that could clash with Cloudflare.
-
-3. Open the Cloudflare WARP client. You will see the information page, followed by the privacy policy.
-
-4. Click **Next** and accept the policy.
-
-<kbd>![cloudflare-for-teams](../images/cloudflare-warp-windows/cloudflare-for-teams.png ':size=400')</kbd>
-
-3. When prompted to sign in, choose **Azure AD – TechPass Prod**.
-
-<kbd>![azure-ad-techpass-prod](../images/cloudflare-warp-windows/azure-ad-techpass-prod.png ':size=400')</kbd>
-
-5. Sign in using your TechPass credentials.
-
-<kbd>![techpass-sign-in](../images/cloudflare-warp-macos/techpass-sign-in.png ':size=50%')</kbd>
-
-6. Once you have successfully signed in, click the Cloudflare WARP icon. 
-
-When it is connected, you should see the following page.
-
-<kbd>![after-signed-in](../images/cloudflare-warp-windows/after-signed-in.png ':size=400')</kbd>
-
  
-
-
-
-
-
-
 
 
 <!-- tabs:end -->

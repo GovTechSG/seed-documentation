@@ -1,10 +1,15 @@
 # SEED post onboarding instructions for macOS 13(Ventura)
 
+  After you onboard your Internet device to SEED: 
+
+  - [Enable Full Disk Access(FDA)](#enable-full-disk-access-fda)
+  - [Turn on Cloudflare WARP for macOS 13](#turn-on-cloudflare-warp-for-macos-13)
+
 ## Enable Full Disk Access(FDA)
 
-After onboarding, enable FDA for the applications installed during SEED onboarding.
+  After onboarding, enable FDA for the applications installed during SEED onboarding.
 
-**To enable FDA for the installed applications:**
+  **To enable FDA for the installed applications:**
 
   1. Go to the **Apple** menu > **System Settings**.  
   2. On the left pane, select **Privacy & Security**.
@@ -32,48 +37,48 @@ After onboarding, enable FDA for the applications installed during SEED onboardi
 
    <kbd>![fda-enabled](../images/applications-on-macos13.png)</kbd>
 
-## Enrol with Cloudflare using WARP client
+## Turn on Cloudflare WARP for macOS 13
 
-After onboarding to SEED, enrol your device with Cloudflare using WARP client to connect to protected engineering resources.
+After onboarding your Internet device to SEED, install and turn on Cloudflare WARP to protect your Internet connection.
 
+1. [Download the latest Cloudflare WARP client](https://install.appcenter.ms/orgs/cloudflare/apps/1.1.1.1-macos-1/distribution_groups/release) for macOS.
+2. Go to the download folder and open the .pkg file. 
+3. Follow the on screen instructions and grant the appropriate permissions to complete the installation. 
 
- 1. [Download the latest WARP client](https://install.appcenter.ms/orgs/cloudflare/apps/1.1.1.1-macos-1/distribution_groups/release) for macOS from the available Cloudflare WARP release builds.
+Cloudflare WARP icon appears in your menu bar on the top right corner of your device.
 
-> **Note**
-  >- Make sure that you download the WARP client from the correct location.
-  >- Verify if the download has not been modified.
-  >- Grant the appropriate permissions to complete the installation.
+4. If your device is connected to any other VPN, disconnect it as it might clash with Cloudflare WARP.
+5. Open the Cloudflare WARP client from the menu bar.
 
-  2. Follow the on screen instructions and install the WARP client.
-  3. Disconnect from any other VPN that might be running as that could clash with Cloudflare WARP.
-  4. Open the Cloudflare WARP client from the menu bar on the top right corner of your Mac device.
-
-  <kbd>![cloudflare-warp-icon](../images/onboarding-for-macos/cloudflare-icon.png)</kbd> 
+<kbd>![cloudflare-warp-icon](../images/onboarding-for-macos/cloudflare-icon.png)</kbd> 
   
-  You will see the information page, followed by the privacy policy.
+You will see the information page, followed by the privacy policy.
 
-  5. Click **Next** and then **Accept**.
+6. Click **Next** and then **Accept** to agree to the Cloudflare’s privacy policy.
 
-  <kbd>![accept-privacy-policy](../images/cloudflare-warp-macos/accept-privacy-policy.png)</kbd>
+<kbd>![accept-privacy-policy](../images/cloudflare-warp-macos/accept-privacy-policy.png)</kbd>
 
-  6. When prompted to sign in, select **Azure AD – TechPass Prod**.
+7. When prompted to sign in, select **Azure AD – TechPass Prod**.
 
-  ![gcc-cloudflare-access-signin](../images/cloudflare-warp-macos/gcc-cloudflare-access-signin.png ':size=50%')
+![gcc-cloudflare-access-signin](../images/cloudflare-warp-macos/gcc-cloudflare-access-signin.png ':size=50%')
 
-  > **Note** 
-  > 
-  > If you encounter an error stating that user account does not exist in the respective tenant, open a new tab and go to [https://myaccount.microsoft.com](https://myaccount.microsoft.com/), sign out from your account and then retry.
+> **Note** 
+> 
+> If you encounter an error stating that user account does not exist in the respective tenant, open a new tab and go to [https://myaccount.microsoft.com](https://myaccount.microsoft.com/), sign out from your account and then retry.
 
-  7. Sign in using your TechPass credentials.
+8. Sign in using your TechPass credentials.
 
-  ![techpass-sign-in](../images/cloudflare-warp-macos/techpass-sign-in.png ':size=50%')
+![techpass-sign-in](../images/cloudflare-warp-macos/techpass-sign-in.png ':size=50%')
 
-  8. Once you have successfully signed in, click **Open Cloudflare WARP.app** to get your WARP connected.
+9. After successfully signing in, click **Open Cloudflare WARP.app** to get your WARP connected.
 
-  When it is connected, you should see the following page.
+When it is connected, you should see the WARP Zero Trust in the connected state.
   
-  ![cf-warp-connected](../images/cloudflare-warp-connected.png ':size=50%')
-  
+![cf-warp-connected](../images/cloudflare-warp-connected.png ':size=50%')
+
+10. Open Cloudflare WARP **Settings**, and make sure **Gateway with WARP** is selected.
+
+  WARP is now running and protecting your Internet connection.
 
 <!--
 **To enrol with Cloudflare WARP:**
