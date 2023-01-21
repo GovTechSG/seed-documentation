@@ -34,7 +34,7 @@ When accessing SGTS services using Cloudflare WARP, user intermittently experien
 >- SEED does not support running other VPN clients together with Cloudflare WARP. 
 >- We recommend not to turn on WARP and the VPN at the same time.
 
-2.  Verify if you are running any VPN client concurrently with warp on and complete the following steps as needed:
+2.  Verify if you are running any VPN client concurrently with warp turned on and complete the following steps as needed:
 
     a. If yes, make sure the VPN configuration does not route all traffic and DNS queries to the VPN server.
 
@@ -44,33 +44,68 @@ When accessing SGTS services using Cloudflare WARP, user intermittently experien
 
 ## Issue 2
 
-**Users may experience connectivity issues**
+**Users experience connectivity issues**
 
 Cloudflare has reported connectivity issues for its users whose macOS WARP client version is earlier than 2022.12.583.0 (20230112.24). These users may experience intermittent connectivity issues while trying to access websites over the internet. 
 
-**Workaround**
+**Workarounds**
 
-Upgrade to the latest version of Cloudflare WARP to see if it resolves this issue.
+**Workaround 1**: Update Cloudflare WARP client to the latest version.
 
-**To install the latest Cloudflare WARP client**
+**To update your Cloudflare WARP client**
 
 1. Open Cloudflare WARP on your GMD.
 2. Click **Settings** > **About WARP**.
-3. If your Cloudflare version is earlier than 2022.12.583.0 (20230112.24), click **Check for Updates**. Details of the latest version are displayed.
-3. Click **Install Updates**. The new version gets downloaded to your GMD.
-4. When prompted, enter your device password and click **OK**.
-5. Click **Install and Relaunch** to install the downloaded latest version of Cloudflare WARP.
-6. Repeat steps 1-2 and confirm if the latest Cloudflare version is installed on your GMD.
+3. Click **Check for Updates**. Details of the latest version are displayed.
+
+> **Note**
+>- If you experience error while checking for updates, turn off Cloudflare WARP and repeat steps 1-3.
+
+4. Click **Install Updates** to download the latest version.
+5. When prompted, enter your device password and click **OK**.
+6. Click **Install and Relaunch** to install the downloaded latest version of Cloudflare WARP.
+7. Repeat steps 1-2 and confirm if the latest Cloudflare version is installed on your GMD.
+
+- **If you are unable to upgrade or still have issues, uninstall WARP and install the latest version**
+
+<!-- tabs:start -->
+
+#### **macOS**
+
+1. To uninstall the existing WARP client, open the **Terminal** app and run the following command.
+
+  ```
+  sudo /bin/sh /Applications/Cloudflare\ WARP.app/Contents/Resources/uninstall.sh
+  ```
+2. Enter your macOS password when prompted. You will be prompted to confirm the uninstallation.
+
+  ```Do you want to uninstall Cloudflare WARP app? Enter Y to proceed or N to exit.```
+
+3. Enter `Y`. When WARP is successfully uninstalled, the message ```Finished uninstallation!``` is displayed.
+
+4. <a href="https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/post-onboarding-instructions/mac-os?id=turn-on-cloudflare-warp-for-macos-13">Install the latest WARP client for macOS.</a>
+
+#### **Windows**
+
+  1. To uninstall the existing WARP client, click the **Start** icon on the taskbar.
+  2. Go to **Settings** > **Apps** and search for **Cloudflare WARP**.
+  3. Choose Cloudflare WARP and then click **Uninstall**.
+
+  4. <a href="https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/post-onboarding-instructions/windows">Install the latest WARP client for Windows.</a>
+ 
+
+
+<!-- tabs:end -->
 
 ## Issue 3
 
 **Users experience issues while accessing or loading Slack**
 
-Users experience intermittent connectivity issues while trying to accessing Slack over the internet.
+Users experience intermittent connectivity issues while trying to accessing Slack application over the internet.
 
 **Workaround**
 
-We are investigating this issue and there is no known workaround available for this. If you experience this issue, create a [support request](https://go.gov.sg/techpass-sr).
+See [Issue 2](#issue-2) for the possible workaround. If you still experience this issue, create a [support request](https://go.gov.sg/techpass-sr).
 
 ## Issue 4
 
