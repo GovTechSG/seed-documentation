@@ -23,7 +23,9 @@
 
 <kbd>![techpass-sign-in](../images/cloudflare-warp-macos/techpass-sign-in.png ':size=50%')</kbd>
 
-6. Once you have successfully signed in, click the Cloudflare WARP icon. You should see the following page.
+6. Once you have successfully signed in, click the Cloudflare WARP icon. 
+
+When it is connected, you should see the following page.
 
 <kbd>![after-signed-in](../images/cloudflare-warp-windows/after-signed-in.png ':size=400')</kbd>
 

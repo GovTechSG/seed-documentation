@@ -7,9 +7,7 @@ This page provides the following Information:
 
 ## Scheduled maintenance
 
-| Date | 20 January 2023 |
-| ------------- |:-------------|
-| **Issue summary** | We will perform a scheduled deployment on 20 January 2023 to revise the Cloudflare WARP and Gateway rules. <br><br>**Start time**&nbsp;: 20 January 2023, 21:00 SGT<br>**End time**&nbsp;&nbsp;&nbsp;&nbsp;: 20 January 2023, 22:00 SGT <br><br>**Impact**: During the deployment period, users may experience errors if they try to access the Internet or SEED-protected SGTS services with the Cloudflare WARP turned on.<br><br>**Action required**: - After the deployment, please check if you can access the Internet and SGTS resources with Cloudflare WARP turned on.<br> - If you still have issues accessing them, please turn off Cloudflare WARP to access the Internet and create an [incident support request](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/raise-an-incident-support-request) with the respective SGTS service or product team.<br><br>*Posted on: 12 January 2023, 12:00 SGT*
+None
 
 ## Ongoing incidents
 
