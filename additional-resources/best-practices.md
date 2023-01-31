@@ -9,7 +9,10 @@ For a smooth onboarding journey, it is important to link your Apple ID to your d
 ### Update device OS to the latest version
 SEED uses DEEP monitoring agents to ensure your device is patched to the latest versions to prevent compromise from known operating system vulnerabilities when using our services.
 
-For more information on the supported OS versions, refer to [SEED Prerequisites](prerequisites-for-onboarding).
+>**Note**
+>
+>- For more information on the supported OS versions, see [SEED Prerequisites](prerequisites-for-onboarding).
+>- To turn on software update notifications on your MacBook, see [Apple documentation](https://support.apple.com/en-sg/guide/mac-help/mchlpx1065/mac).
 
 ### Keep device free from malware
 SEED uses DEEP monitoring agents to ensure your device is free from malware when using our services. Follow basic cybersecurity hygiene and avoid visiting low-reputation websites that can infect your device with malware. Ensure that Defender is always running and is patched to the latest version.

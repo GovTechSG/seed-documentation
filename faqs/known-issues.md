@@ -34,7 +34,7 @@ When accessing SGTS services using Cloudflare WARP, user intermittently experien
 >- SEED does not support running other VPN clients together with Cloudflare WARP. 
 >- We recommend not to turn on WARP and the VPN at the same time.
 
-2.  Verify if you are running any VPN client concurrently with warp turned on and complete the following steps as needed:
+2.  Verify if you are running any VPN client concurrently with WARP turned on and complete the following steps as needed:
 
     a. If yes, make sure the VPN configuration does not route all traffic and DNS queries to the VPN server.
 
@@ -59,7 +59,7 @@ Cloudflare has reported connectivity issues for its users whose macOS WARP clien
 3. Click **Check for Updates**. Details of the latest version are displayed.
 
 > **Note**
->- If you experience error while checking for updates, turn off Cloudflare WARP and repeat steps 1-3.
+>- If you experience an error stating that Cloudflare is unable to check for updates, try turning off Cloudflare WARP, ensure that you are able to connect to Internet sites and repeat steps 1-3.
 
 4. Click **Install Updates** to download the latest version.
 5. When prompted, enter your device password and click **OK**.
