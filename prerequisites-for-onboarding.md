@@ -1,7 +1,6 @@
 # Prerequisites for onboarding to SEED
 
-This is to test the codeowner file.
-test
+Testing codeowner
 
 > Take note of the following before you proceed with the SEED onboarding:
 >- You can onboard only an **internet** device to SEED. In other words, you can't onboard a GSIB device.
