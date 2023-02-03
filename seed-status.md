@@ -7,11 +7,7 @@ This page provides the following Information:
 
 ## Scheduled maintenance
 
-| Date | 02 February 2023 |
-| ------------- |:-------------|
-| **Summary** | We will perform a scheduled deployment on 02 February 2023 to upgrade the Web Application Firewall(WAF) for the DEEP dashboard. <br><br>**Start time**&nbsp;: 02 February 2023, 21:00 SGT<br>**End time**&nbsp;&nbsp;&nbsp;: 02 February 2023, 22:00 SGT<br><br>**Impact**: During the deployment period, you may not be able to access the DEEP dashboard.<br><br>**Action required**: After the deployment, please check if you can access the [DEEP dashboard](https://dashboard.deep.tech.gov.sg/).<br> If you still have issues accessing it, please create an [incident support request](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/raise-an-incident-support-request) with the TechPass support. <br><br>*Posted on: 01 February 2023, 12:15 SGT* |
-
-
+None
 
 ## Ongoing incidents
 
