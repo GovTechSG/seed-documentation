@@ -15,36 +15,22 @@ To add a new word:
  3. Include a line space before and after the word.
  -->
 
-<a id="gfe">
+
 
 **GFE**
 
-</a>
 Government Furnished Equipment.
-
-<a id="gmd">
 
 **GMD**
 
-</a>
-
 Government Managed Device. An internet device or a GFE device when enrolled with SEED becomes a Government Managed Device.
 
-<a id="gsib">
-
 **GSIB**
-
-</a>
 
 Government Standard Image Build.
 
 
-<a id="internet-device">
-
 **Internet device**
-
-</a>
-
 
 Device which is not a [GSIB](#gsib). This could be your personal device, or a device issued by your vendor or agency.
 
@@ -82,6 +68,7 @@ If you are public officer and want to get a TechPass account, refer to [Create T
 If you are a vendor, request the engaging agency or ministry to provide you with a TechPass account. For more information, refer to [Vendor onboarding to TechPass](https://docs.developer.tech.gov.sg/docs/techpass-documentation/#/onboard?id=vendor).
 
 **TechPass ID**
+
 This is used to log in to your TechPass account.
 
 - For public officers, it is your WOG ID.
