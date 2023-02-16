@@ -15,66 +15,34 @@ To add a new word:
  3. Include a line space before and after the word.
  -->
 
-<a id="gfe">
 
 **GFE**
 
-</a>
 Government Furnished Equipment.
-
-<a id="gmd">
 
 **GMD**
 
-</a>
-
 Government Managed Device. An internet device or a GFE device when enrolled with SEED becomes a Government Managed Device.
 
-<a id="gomax">
-
-**GoMax**
-
-</a>
-
-GoMax is a managed mobility service introduced in 2012 to provide public officers with access to core services such as email, contacts and calendar, via multiple mobile devices.
-
-<a id="gsib">
-
 **GSIB**
-
-</a>
 
 Government Standard Image Build.
 
 
-<a id="internet-device">
-
 **Internet device**
 
-</a>
-
-
-Device which is not a [GSIB](#gsib). This could be your personal device, or a device issued by your vendor or agency.
+Device which is not a GSIB. This could be your personal device, or a device issued by your vendor or agency.
 
 You must enrol this device with SEED (GovTech's MDM solution) in order to access SGTS resources, products and services that requires SEED.
 
-<a id="non-se-gsib">
-
 **non-SE GSIB**
-
-</a>
 
 If you are using a non-SE GSIB device, every time you log in to your device, you will be prompted to enter your BitLocker PIN. You can access the internet and intranet using this device.
 
 **Note**<br>
 > You can't onboard this device to SEED.
 
-
-<a id="se-gsib">
-
 **SE GSIB**
-
-</a>
 
 It is a Secured Email (SE) GSIB device. This GSIB device is assigned to public officers who handle sensitive and secret information.
 
@@ -84,48 +52,30 @@ If you are using a SE GSIB device, you will be using your PS-Card to authenticat
 >- You can't use this device to activate your TechPass account.
 >- You can't onboard this device to SEED.
 
-<a id="seed">
-
 **SEED**
-
-</a>
 
 Security Suite for Engineering Endpoint Devices. This is the MDM solution offered by GovTech.
 
-<a id="techpass">
-
 **TechPass**
-
-</a>
 
 This is an Identity & Access Management (IAM) and  a single sign-on(SSO) solution to seamlessly access Singapore Government Technology Stack(SGTS) services.
 
 While public officers use their WOG credentials(official email address) to log in to their TechPass, vendors use their TechPass ID.
 
-If you are public officer and want to get a TechPass account, refer to [Create TechPass Account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/onboard-public-officers-using-non-se-machines)
+If you are public officer and want to get a TechPass account, refer to [Create TechPass Account](https://docs.developer.tech.gov.sg/docs/techpass-documentation/#/onboard?id=public-officer)
 
-If you are a vendor, request the engaging agency or ministry to provide you with a TechPass account. For more information, refer to [Vendor onboarding to TechPass](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/onboard-vendors-to-techpass).
-
-
-<a id="techpass-id">
+If you are a vendor, request the engaging agency or ministry to provide you with a TechPass account. For more information, refer to [Vendor onboarding to TechPass](https://docs.developer.tech.gov.sg/docs/techpass-documentation/#/onboard?id=vendor).
 
 **TechPass ID**
-
-</a>
 
 This is used to log in to your TechPass account.
 
 - For public officers, it is your WOG ID.
 - For vendors, it is *your_name<span>@</span>techpass.gov.sg*.
 
-<a id="wog-id-or-account">
+**Whole of Government(WOG) ID or account**
 
-**WOG ID or account**
+WOG ID is the email address belonging to the gov.sg domain. For example, *your_name<span>@</span>tech.gov.sg* or *your_name<span>@</span>mof.gov.sg*.
 
-</a>
+Public officers who onboard to SEED must have a WOG ID or account. Note WOG ID and official email address are used interchangeably.
 
-WOG ID is the email address belonging to the gov.sg domain. For example, *your_name<span>@</span>tech.gov.sg*.
-
-Public officers who onboard to SEED must have a WOG account. 
-
-**Note:** WOG ID and organisational email address are used interchangeably.
