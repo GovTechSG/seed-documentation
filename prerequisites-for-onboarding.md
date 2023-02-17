@@ -1,5 +1,7 @@
 # Prerequisites for onboarding to SEED
 
+<!-- This page is linked in the TechPass portal-Register Intune Device ID, so please do not rename this file. -->
+
 > Take note of the following before you proceed with the SEED onboarding:
 >- You can onboard only an **internet** device to SEED. In other words, you can't onboard a GSIB device.
 >

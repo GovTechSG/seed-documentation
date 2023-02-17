@@ -1,0 +1,10 @@
+# These owners will be the default owners for everything in
+# the repo.
+
+# Prerequisites for Onboarding, Onboarding and offboarding
+prerequisites-for-onboarding.md @samloh84
+onboard-device-to-seed.md 
+mac-os.md 
+windows.md                                                              
+
+

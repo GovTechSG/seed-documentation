@@ -1,5 +1,7 @@
 # Windows
 
+<!-- This page is linked in the TechPass portal-Register Intune Device ID, so please do not rename this file. -->
+
 > **Note:** Based on your Windows settings, you may be prompted to restart or reset your password while onboarding.
 
 

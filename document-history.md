@@ -4,6 +4,7 @@ This table shows the history of updates to the SEED documentation.
 
 | Date  | Article | Change |
 | ------------- |:-------------:|:-------------|
+| 14 February 2023 | - [Announcements](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/announcements) | Published the announcement for macOS security updates. |
 | 17 January 2023 | [Known issues](faqs/known-issues) | Included 2 known issues that intermittently affect SEED users while accessing websites or loading Slack. |
 | 12 January 2023 | - [Announcements](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/announcements)<br>- [Seed service status](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/seed-status?id=scheduled-maintenance) | Published the details for the upcoming scheduled deployment. | 
 | 10 January 2023 | - [General FAQ](faqs/seed-faq-general)<br> - [Glossary](additional-resources/glossary) | Updated the General FAQ and Glossary. | 
