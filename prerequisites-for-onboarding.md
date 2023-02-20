@@ -28,7 +28,7 @@ To begin with, you'll need:
 Things to ensure a successful onboarding:
 
 1. [Remove existing softwares on your device](#remove-existing-softwares-on-your-device).
-1. If you are onboarding a macOS device, [verify if System Integrity Protection (SIP) is enabled](#verify-if-system-integrity-protection-is-enabled).
+1. If you are onboarding a macOS device, link your Apple ID to your device and [verify if System Integrity Protection (SIP) is enabled](#verify-if-system-integrity-protection-is-enabled).
 1. [Encrypt your hard disk drive to protect your data at rest](#encrypt-your-hard-disk-drive-to-protect-your-data-at-rest).
 1. If your organisation uses a firewall or other policies to restrict Internet traffic, you may need to make few changes to allow WARP to connect. To know more about these changes, visit [Cloudflare Docs](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/deployment/firewall/).
 

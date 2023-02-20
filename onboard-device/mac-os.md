@@ -4,7 +4,6 @@
 
 > **Note**:
 >- Based on your device settings, while onboarding, you may be prompted to restart your device a couple of times and reset device password.
->- For a smooth onboarding journey, link your Apple ID to your device.
 >- Keep your recovery keys ready if you face issues in resetting your password or logging in to your device.
 
 <ifigure>
