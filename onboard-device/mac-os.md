@@ -4,11 +4,10 @@
 
 > **Note**:
 >- Based on your device settings, while onboarding, you may be prompted to restart your device a couple of times and reset device password.
->- For a smooth onboarding journey, link your Apple ID to your device.
 >- Keep your recovery keys ready if you face issues in resetting your password or logging in to your device.
 
 <ifigure>
-<iframe title="YouTubeVideoPlayer" src="https://www.youtube.com/embed/P9R5RiMpaVU?showinfo=0" height="2000" width="2000" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="YouTubeVideoPlayer" src="https://www.youtube.com/embed/P9R5RiMpaVU?showinfo=0" height="640" width="960" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </ifigure>
 
 
