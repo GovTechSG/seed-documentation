@@ -8,7 +8,7 @@
 >- Keep your recovery keys ready if you face issues in resetting your password or logging in to your device.
 
 <ifigure>
-<iframe title="YouTubeVideoPlayer" src="https://www.youtube.com/embed/P9R5RiMpaVU?showinfo=0" height="315" width="560" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="YouTubeVideoPlayer" src="https://www.youtube.com/embed/P9R5RiMpaVU?showinfo=0" height="1000" width="1000" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </ifigure>
 
 
@@ -17,7 +17,7 @@
 ## Step 1: Set up Microsoft Intune
 
 <details>
-  <summary style="font-size:18px">Set up Microsoft Intune to get the required applications and device configuration</summary><br>
+  <summary style="font-size:18px">Set up Microsoft Intune to get the required applications and device configurations.</summary><br>
 
   1. Download and install [**Company Portal**](https://go.microsoft.com/fwlink/?linkid=853070).
 
