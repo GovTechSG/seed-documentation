@@ -2,6 +2,10 @@
 
 This article gives an overview of the [MDM certificate](#mdm-certificate) and the [device clean-up policy](#device-clean-up-policy) for SEED users.
 
+>**Note**
+>
+> For more information, see [Device clean-up policy FAQs](faqs/device-clean-up-policy-faqs).
+
 ## MDM certificate
 
 When users onboard their internet device to SEED, an MDM certificate is assigned to it, and this is valid for a year from the date of onboarding. The certificate gets automatically renewed if you are logged in to your GMD at the time of certificate expiration.
