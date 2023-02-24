@@ -1,5 +1,6 @@
 - **Troubleshoot**
   - [Known issues](faqs/known-issues)
+- **FAQs**  
   - [General](faqs/seed-faq-general)
   - [Onboarding](faqs/common-onboarding-issues)
   - [Cloudflare WARP](faqs/cloudflare-warp-known-issues)
@@ -7,6 +8,7 @@
     - [Generate and upload Cloudflare diagnostic files](faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request)
     - [Clone GitLab repository](faqs/how-to-clone-a-gitlab-repository-over-ssh-with-cloudflare-access)
     - [Clone Bitbucket repository](faqs/how-to-clone-a-bitbucket-repository-over-ssh-with-cloudflare-access)
+  - [Device clean-up policy FAQs](faqs/device-clean-up-policy-faqs)  
 
 - **Additional resources**
   - [Back to main](/prerequisites-for-onboarding)
