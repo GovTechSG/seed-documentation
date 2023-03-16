@@ -1,7 +1,15 @@
 # Offboard device from SEED
 
-This article explains how to offboard your device from SEED.
+There are two methods to offboard your device from SEED.
 
-**Topics:**
-- [macOS](offboard-device/mac-os)
-- [Windows](offboard-device/windows)
+?> Recommended method: **Method 1 Offboard using a script**. 
+
+## Method 1 Offboard using a script (BETA)
+
+- [Offboard macOS device using a script](offboard-device/mac-os-using-script)
+
+
+## Method 2: Offboard manually
+
+- [Offboard macOS device manually](offboard-device/mac-os)
+- [Offboard Windows device manually](offboard-device/windows)
