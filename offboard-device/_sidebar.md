@@ -1,10 +1,10 @@
 - **Offboarding**
-  - [Offboard](offboard-device/offboard-device-from-seed)
-    - **Method 1 using script(BETA)** 
-      - [macOS](offboard-device/mac-os-using-script)
-    - **Method 2**
-      - [macOS](offboard-device/mac-os)
-      - [Windows](offboard-device/windows)
+  - [Offboard device from SEED](offboard-device/offboard-device-from-seed)
+    - [macOS](offboard-device/mac-os-using-script)
+      
 
 - **Additional resources**
+  - **Manual offboarding**
+   - [macOS](offboard-device/mac-os)
+   - [Windows](offboard-device/windows)
   - [Back to main](/prerequisites-for-onboarding)

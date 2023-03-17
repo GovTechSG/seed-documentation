@@ -1,7 +1,5 @@
 # Offboard macOS device using a script
 
-This new offboarding method is in the **Beta** phase, and in this method, we simplified the offboarding process into two steps.
-
 [Step 1: Offboard device from SEED components](#step-1-offboard-device-from-seed-components)
 
 [Step 2: Submit Intune Device ID](#step-2-submit-intune-device-id)
