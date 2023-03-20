@@ -4,7 +4,5 @@
       
 
 - **Additional resources**
-  - **Manual offboarding**
-   - [macOS](offboard-device/mac-os)
-   - [Windows](offboard-device/windows)
+  
   - [Back to main](/prerequisites-for-onboarding)
