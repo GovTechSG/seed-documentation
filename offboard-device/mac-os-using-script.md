@@ -68,7 +68,7 @@ When you see the following success message on your **Terminal**, you are automat
 ### Prerequisites
 
 1. Successful completion of [Step 1: Offboard device from SEED components](#step-1-offboard-device-from-seed-components).
-2. **Intune Device ID**. <br>Generally, when you successfully offboard your device from the SEED components, the Intune Device ID is  automatically displayed on the **SEED offboarding: Request to remove device record** form.
+2. **Intune Device ID**. Generally, when you successfully offboard your device from the SEED components, the Intune Device ID is  automatically displayed on the **SEED offboarding: Request to remove device record** form.
 
 ?>**Note**<br>- If Intune Device ID is not displayed, complete the appropriate step:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Go to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile) and get the Intune Device ID from your account profile.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If you can't access the TechPass portal, please submit an [incident request](https://go.gov.sg/techpass-sr) to get your Intune Device ID before proceeding further.
 
@@ -77,15 +77,15 @@ When you see the following success message on your **Terminal**, you are automat
 ### To submit Intune Device ID
 
 1. Ensure your **Intune Device ID** is displayed on the form. If it is not displayed, see the [prerequisites](#prerequisites) section.
-2. Enter your organisational email address in **Work Email Address** and click **Verify**.
+2. Enter your organisational email address in **Organisational Email Address** and click **Verify**.
 3. Enter the OTP you receive at this email address.  
 4. Indicate if you had any issues while completing [Step 1: Offboard device from SEED components](#step-1-offboard-device-from-seed-components).
-5. [Optional] If you had issues completing it, provide the  **Support Ticket Number**.
+5. [Optional] If you had issues completing Step 1, provide the  **Support Ticket Number**.
 6. Click **Submit**. When this request is processed successfully, we send a notification via email.
 
 <!--![successfully-offboarded-email](../images/macos-successfully-offboarded-email.png)-->
 
-?> **Additional information**<br>- We need 30 minutes to process your ticket.<br>- If you do not receive any email after 30 minutes, please submit a [TechPass support request](https://go.gov.sg/techpass-sr).
+?> **Additional information**<br>- We need 30 minutes to process your ticket.<br>- If you do not receive any email after 30 minutes, please submit a [TechPass support request](https://go.gov.sg/techpass-sr). 
 
  
       

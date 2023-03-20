@@ -1,4 +1,4 @@
-<details><summary style="font-size:20px;font-weight:bold">I cannot download the offboarding package. What should I do?</summary>
+<details><summary style="font-size:20px;font-weight:bold">I cannot download the offboarding script. What should I do?</summary>
 
   Create an [incident request](https://go.gov.sg/techpass-sr) and request for request for the offboarding script for your Defender organisation.
   
@@ -11,6 +11,11 @@ I cannot log in to my device. What should I do? </summary>
 2. In **Details**, enter the text  *I am unable to offboard my device from SEED components but I would like to submit my Intune Device ID to offboard my device from SEED*. 
 3. Select SEED as **TechPass Tenant**.
 4. Select Production as **Environment**
+5. Make sure to provide all the required details and submit the form.
+
+</details><hr />
+
+
 
 
 
