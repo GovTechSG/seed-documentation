@@ -97,6 +97,6 @@ c. [Optional]If you had submitted an incident request with TechPass support team
 5. [Optional] If you had issues completing Step 1, provide the  **Support Ticket Number**.
 6. Click **Submit**. When this request is processed successfully, we send a notification via email.
 
-?> **Additional information**<br>- We need 30 minutes to process your ticket.<br>- If you do not receive any email after 30 minutes, please submit a [TechPass support request](https://go.gov.sg/techpass-sr). 
+?> **Additional information**<br>If you are still waiting to receive an email after 30 minutes, please submit a [TechPass support request](https://go.gov.sg/techpass-sr)
  
       
