@@ -81,7 +81,7 @@ Write-Output $intune_id
 ```
 2. Take note of the Intune device ID that will be displayed on the Powershell window.
 3. On your **non-SE GSIB** device, go to [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile) > **My Account** > **Profile**.
-4. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune device ID.  Intune installs the required softwares and configurations to complete your device onboarding.
+4. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune device ID.  Intune installs the required software and configurations to complete your device onboarding.
 
   If your onboarding is successful, within an hour, you will receive a successfully onboarded email to your organisational email address.
 
