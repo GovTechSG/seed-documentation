@@ -15,17 +15,39 @@ I cannot log in to my device. What should I do? </summary>
 
 </details><hr />
 
-<details><summary style="font-size:20px;font-weight:bold">My device operating system is Windows and when I run the provided offboarding script on it to remove SEED components, I get the following error: <code>Microsoft Defender for Endpoint Service failed to stop running</code>!</summary>
+</details><hr />
+
+<details><summary style="font-size:20px;font-weight:bold">While running the offboarding script,I get the following error:<code>Unknown Tenant detected</code>.</summary>
+
+This indicates that your Defender does not belong to WOG or TechPass and that means you are not a SEED user. 
+
+If you had onboarded your device to SEED earlier and still get this error message, please submit an [incident request](https://go.gov.sg/techpass-sr) with the TechPass support.
+
+
+</details><hr />
+<details><summary style="font-size:20px;font-weight:bold">While running the offboarding script on my Windows device, I get the following error:<code>Defender offboarding script has expired! Please download a new offboarding package from the docs portal</code></summary>
+
+This error indicates that your offboarding script is outdated. 
+
+1. On the [Offboard device](offboard-device/offboard-device-from-seed) section, follow the offboarding steps for your device operating system .
+2. Make sure to download the offboarding script from this page and complete the offboarding steps.
+
+ !> **Note**<br>If you still experience the same or any other error, submit an [incident request](https://go.gov.sg/techpass-sr) with the TechPass support.
+ 
+
+</details><hr />
+
+<details><summary style="font-size:20px;font-weight:bold">when I run the offboarding script on my Windows device, I get the following error: <code>Microsoft Defender for Endpoint Service failed to stop running</code>!</summary>
 
 This error would look like the following:
 
 ![offboarding-error-for-defender-windows](/images/offboarding-error-for-defender-windows.png)
 
-Try running the script again. If you still experience any error, submit an [incident request](https://go.gov.sg/techpass-sr) with the TechPass support.
+Try running the script again. If you still experience the same or any other error, submit an [incident request](https://go.gov.sg/techpass-sr) with the TechPass support.
 
 </details><hr />
 
-<details><summary style="font-size:20px;font-weight:bold">I get an error while running the script to remove SEED components such as Cloudflare WARP, Microsoft Defender or Tanium Client.</summary>
+<details><summary style="font-size:20px;font-weight:bold">I get an error while running the offboarding script to remove the SEED components such as Cloudflare WARP, Microsoft Defender or Tanium Client.</summary>
 
 Try running the script again. If you still experience any error, submit an [incident request](https://go.gov.sg/techpass-sr) with the TechPass support.
 
