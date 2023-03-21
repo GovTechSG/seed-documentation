@@ -15,7 +15,15 @@ I cannot log in to my device. What should I do? </summary>
 
 </details><hr />
 
+<details><summary style="font-size:20px;font-weight:bold">My device operating system is Windows and when I run the provided offboarding script on it to remove SEED components, I get the error <code>Microsoft Defender for Endpoint Service failed to stop running</code>!</summary>
 
+This error would look like the following:
+
+![offboarding-error-for-defender-windows](/images/offboarding-error-for-defender-windows.png)
+
+Try running the script again. If you still experience any error, submit an [incident request](https://go.gov.sg/techpass-sr) with the TechPass support.
+
+</details><hr />
 
 <details><summary style="font-size:20px;font-weight:bold">I get an error while running the script to remove SEED components such as Cloudflare WARP, Microsoft Defender or Tanium Client.</summary>
 
