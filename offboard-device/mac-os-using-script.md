@@ -57,7 +57,7 @@
 
     ```sudo ./local_mac_offboarding.sh```
 
-When you see the following success message on your **Terminal**, you are automatically directed to the **SEED offboarding: Request to remove device record** form to submit the Intune Device ID. 
+When you see the following success message on your **Terminal**, you are automatically directed to the **SEED Offboarding: Device Record Removal** form to submit the Intune Device ID. 
 
 ![macos-success-message](../images/macos-success-message.png)
 
@@ -69,7 +69,7 @@ When you see the following success message on your **Terminal**, you are automat
 ### Prerequisites
 
 1. Successful completion of [Step 1: Offboard device from SEED components](#step-1-offboard-device-from-seed-components).
-2. **Intune Device ID**. Generally, when you successfully offboard your device from the SEED components, the Intune Device ID is  automatically displayed on the **SEED offboarding: Request to remove device record** form.
+2. **Intune Device ID**. Generally, when you successfully offboard your device from the SEED components, the Intune Device ID is  automatically displayed on the **SEED Offboarding: Device Record Removal** form.
 
 ?>**Note**<br>- If Intune Device ID is not displayed, complete the appropriate step:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Go to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile) and get the Intune Device ID from your account profile.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If you can't access the TechPass portal, please submit an [incident request](https://go.gov.sg/techpass-sr) to get your Intune Device ID before proceeding further.
 
