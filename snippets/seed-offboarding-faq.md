@@ -1,3 +1,5 @@
+# SEED offboarding FAQs
+
 <details><summary style="font-size:20px;font-weight:bold">I cannot download the offboarding script. What should I do?</summary>
 
   Create an [incident request](https://go.gov.sg/techpass-sr) and request for request for the offboarding script for your Defender organisation.
