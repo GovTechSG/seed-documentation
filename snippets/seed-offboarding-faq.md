@@ -15,7 +15,7 @@ I cannot log in to my device. What should I do? </summary>
 
 </details><hr />
 
-<details><summary style="font-size:20px;font-weight:bold">My device operating system is Windows and when I run the provided offboarding script on it to remove SEED components, I get the error <code>Microsoft Defender for Endpoint Service failed to stop running</code>!</summary>
+<details><summary style="font-size:20px;font-weight:bold">My device operating system is Windows and when I run the provided offboarding script on it to remove SEED components, I get the following error: <code>Microsoft Defender for Endpoint Service failed to stop running</code>!</summary>
 
 This error would look like the following:
 
