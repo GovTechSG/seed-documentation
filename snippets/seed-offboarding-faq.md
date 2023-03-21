@@ -15,8 +15,6 @@ I cannot log in to my device. What should I do? </summary>
 
 </details><hr />
 
-</details><hr />
-
 <details><summary style="font-size:20px;font-weight:bold">While running the offboarding script,I get the following error:<code>Unknown Tenant detected</code>.</summary>
 
 This indicates that your Defender does not belong to WOG or TechPass and that means you are not a SEED user. 
