@@ -1,4 +1,4 @@
-# SEED offboarding FAQs
+# SEED offboarding FAQ
 
 <details><summary style="font-size:20px;font-weight:bold">I cannot download the offboarding script. What should I do?</summary>
 
