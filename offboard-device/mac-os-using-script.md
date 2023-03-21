@@ -1,14 +1,12 @@
 # Offboard macOS device using a script
 
-!> **Note**<br>If you have any issues with offboarding, see the [Offboarding FAQ](/faqs/seed-offboarding-faqs) before submitting a ticket.
+!> **Note**<br>If you have any issues with offboarding, see the [Offboarding FAQ](/faqs/seed-offboarding-faqs) before submitting an [incident request](https://go.gov.sg/techpass-sr) with TechPass support.
 
 [Step 1: Offboard device from SEED components](#step-1-offboard-device-from-seed-components)
 
 [Step 2: Submit Intune Device ID](#step-2-submit-intune-device-id)
 
 ## Step 1: Offboard device from SEED components
-
-!> **Important note**<br>If you are unable to complete the following steps, see the FAQs. If you still experience any issues, please submit an [incident request](https://go.gov.sg/techpass-sr).  
 
 1. Press ```Command+Spacebar``` and enter **Terminal.app**.
 
@@ -29,7 +27,7 @@
   | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     |
   | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    | 
 
-!> **Important**<br> If your Defender organisation is neither **WOG** nor **TechPass**, contact the IT support of the organisation that provided you the device.
+!> **Important**<br> If your Defender organisation is neither **WOG** nor **TechPass**, contact the IT support of the organisation that provided you with the device.
 
 5. Download the offboarding script, a ZIP file, for your Defender organisation.
 
@@ -38,13 +36,13 @@
   | WOG      | [Download offboarding script](https://k3uwa66lu3tj6uxft46666ynhe0uvzor.lambda-url.ap-southeast-1.on.aws/local_wog_mac)    |
   | TechPass      | [Download offboarding script](https://k3uwa66lu3tj6uxft46666ynhe0uvzor.lambda-url.ap-southeast-1.on.aws/local_tp_mac)    |
   
-6. Go to the folder where it was downloaded and extract the files from the ZIP file. You should see the following two files. 
+6. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files. 
 
 ![extract-files](../images/macos-extracted-files-for-offboarding.png)
 
 ?> **Note**: The file names vary with the organisation.
 
-7. On your **Terminal**, go to the folder which has the extracted files. For example, if they are in the **Downloads** > **Offboarding_local_wog_mac** folder, go to that folder.
+7. On your **Terminal**, go to the folder where you extracted the files. For example, if they are in the **Downloads** > **Offboarding_local_wog_mac** folder, go to that folder.
 
 ![cd-extracted-folder](../images/macos-cd-downloads.png)
 
@@ -68,12 +66,12 @@ When you see the following success message on your **Terminal**, you are automat
 
 ### Prerequisites
 
-1. Successful completion of [Step 1: Offboard device from SEED components](#step-1-offboard-device-from-seed-components).
-2. **Intune Device ID**. Generally, when you successfully offboard your device from the SEED components, the Intune Device ID is  automatically displayed on the **SEED Offboarding: Device Record Removal** form.
+a. Successful completion of [Step 1: Offboard device from SEED components](#step-1-offboard-device-from-seed-components).
+b. **Intune Device ID**. Generally, when you successfully offboard your device from the SEED components, the Intune Device ID is automatically displayed on the **SEED Offboarding: Device Record Removal** form.
 
 ?>**Note**<br>- If Intune Device ID is not displayed, complete the appropriate step:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Go to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile) and get the Intune Device ID from your account profile.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If you can't access the TechPass portal, please submit an [incident request](https://go.gov.sg/techpass-sr) to get your Intune Device ID before proceeding further.
 
-3. [Optional]If you had submitted an incident request with TechPass support team to offboard your device from the SEED components, please have the reference number ready as we may need this information.
+c. [Optional]If you had submitted an incident request with the TechPass support team to offboard your device from the SEED components, please have the reference number ready as we may need this information.
 
 ### To submit Intune Device ID
 
@@ -81,12 +79,12 @@ When you see the following success message on your **Terminal**, you are automat
 2. Enter your organisational email address in **Organisational Email Address** and click **Verify**.
 3. Enter the OTP you receive at this email address.  
 4. Indicate if you had any issues while completing [Step 1: Offboard device from SEED components](#step-1-offboard-device-from-seed-components).
-5. [Optional] If you had issues completing Step 1, provide the  **Support Ticket Number**.
+5. [Optional] If you had issues completing Step 1, provide the **Support Ticket Number**.
 6. Click **Submit**. When this request is processed successfully, we send a notification via email.
 
 <!--![successfully-offboarded-email](../images/macos-successfully-offboarded-email.png)-->
 
-?> **Additional information**<br>- We need 30 minutes to process your ticket.<br>- If you do not receive any email after 30 minutes, please submit a [TechPass support request](https://go.gov.sg/techpass-sr). 
+?> **Additional information**<br>- We need 30 minutes to process your ticket.<br>- If you are still waiting to receive an email after 30 minutes, please submit a [TechPass support request](https://go.gov.sg/techpass-sr). 
 
  
       
