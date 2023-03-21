@@ -16,6 +16,15 @@ I cannot log in to my device. What should I do? </summary>
 </details><hr />
 
 
+<details><summary style="font-size:20px;font-weight:bold">After submitting my Intune Device ID, I did not receive the successfully offboarded email. What should I do?</summary>
+
+It would take up to 30 minutes for the DEEP team to send the successfully offboarded email to you. If you still have not received this email, please submit an [incident request](https://go.gov.sg/techpass-sr) with the TechPass support.
+
+!> **Note**<br> If the TechPass support team has completed the offboarding for you, you may not receive this email from the DEEP team.
+
+</details><hr />
+
+
 
 
 
