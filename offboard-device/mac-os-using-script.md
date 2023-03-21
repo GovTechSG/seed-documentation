@@ -1,5 +1,6 @@
 # Offboard macOS device using a script
 
+!> **Note**<br>If you have any issues with offboarding, see the [Offboarding FAQ](/faqs/seed-offboarding-faqs) before submitting a ticket.
 
 [Step 1: Offboard device from SEED components](#step-1-offboard-device-from-seed-components)
 
