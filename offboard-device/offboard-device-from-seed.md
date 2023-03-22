@@ -1,15 +1,24 @@
 # Offboard device from SEED
 
-We have now automated most of the offboarding steps to simplify the process. This new offboarding method consists of **only two steps**. 
+We have now automated most of the offboarding steps to simplify the process. This new offboarding method consists of the following two phases:
 
-In the first step, you identify your Defender organisation to download the appropriate offboarding script. When you run this offboarding script on your device, it:
+- Phase A: Offboard device from SEED components
+- Phase B: Submit Intune Device ID
 
-- unenrolls your device from the SEED components such as Intune, Tanium, Defender and Cloudflare WARP. 
-- resets some of the configuration settings that were modified during SEED onboarding.
+In **Phase A**, you need to do the following:
 
-When you complete this step, you are directed to the second step, where you submit a request to us to remove the device record from the server side.
+1. Identify and download the appropriate offboarding script for your Defender. 
+2. Run this offboarding script on your device to:
 
-When we delete your device record from the server side, the DEEP team notifies you about your successful offboarding.
+    - unenroll your device from the SEED components such as Intune, Tanium, Defender and Cloudflare WARP. 
+    - reset some of the configuration settings that were modified during SEED onboarding.
+
+When you complete them, you are directed to Phase B.
+  
+
+In **Phase B**, you need to submit a request to remove the device record from the server side.
+
+When we delete your device record from the server side, we notify you about your successful offboarding.
 
 - [Offboard macOS device using a script](offboard-device/mac-os-using-script)
 
