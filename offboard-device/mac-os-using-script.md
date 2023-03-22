@@ -14,7 +14,7 @@
 
  ## Intune Device ID
 
- [Get Intune Device ID](../snippets/get-intune-device-id.md ':include')
+ [Get Intune Device ID](./snippets/get-intune-device-id.md ':include')
 
 !> **Note**<br>If you have any issues with the offboarding steps, see the [Offboarding FAQ](/faqs/seed-offboarding-faqs) before submitting an [incident request](https://go.gov.sg/techpass-sr) with TechPass support.
 
