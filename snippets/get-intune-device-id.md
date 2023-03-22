@@ -1,4 +1,4 @@
-## Get Intune Device ID
+### Get Intune Device ID
 
 Complete one of the following methods to get your Intune Device ID.
 
