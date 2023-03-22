@@ -2,11 +2,11 @@
  
  This document guides you to offboard your macOS device onboarded to SEED.
 
- ## Audience
+## Audience
 
  - Users who need to offboard their macOS device from SEED.
  
- ## Prerequisites
+## Prerequisites
 
  - You must have an active TechPass account.
  - Your device must have been onboarded to SEED.
