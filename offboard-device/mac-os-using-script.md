@@ -5,22 +5,16 @@
 ## Audience
 
 - Users who need to offboard their macOS device from SEED.
- 
+
 ## Prerequisites
 
 - You must have an active TechPass account.
 - Your device must have been onboarded to SEED.
 - [Optional] We recommend you to have your Intune device ID ready. 
 
-## Intune Device ID
-
- [Get Intune Device ID](./snippets/get-intune-device-id.md ':include')
+[Get Intune Device ID](../snippets/get-intune-device-id.md ':include')
 
 !> **Note**<br>If you have any issues with the offboarding steps, see the [Offboarding FAQ](/faqs/seed-offboarding-faqs) before submitting an [incident request](https://go.gov.sg/techpass-sr) with TechPass support.
-
-[Phase A: Offboard device from SEED components](#phase-a-offboard-device-from-seed-components)
-
-[Phase B: Submit Intune Device ID](#phase-b-submit-intune-device-id)
 
 ## Phase A: Offboard device from SEED components
 
