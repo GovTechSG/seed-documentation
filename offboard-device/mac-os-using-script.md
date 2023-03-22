@@ -29,38 +29,32 @@
 
 ![note-org-id](../images/macos-find-org-id-2.png)
 
-3. Refer to the following table and identify your **Defender organisation**.
+3. Refer to the following table and identify your **Defender organisation** and download the respective offboarding script.
 
-  | org_id  | Defender organisation |
-  | ------------- |:-------------:|
-  | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     |
-  | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    | 
+  | org_id  | Defender organisation | Offboarding script |
+  | ------------- |:-------------:|:-------------:| 
+  | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     | [Download offboarding script](https://k3uwa66lu3tj6uxft46666ynhe0uvzor.lambda-url.ap-southeast-1.on.aws/local_wog_mac)    |
+  | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    | [Download offboarding script](https://k3uwa66lu3tj6uxft46666ynhe0uvzor.lambda-url.ap-southeast-1.on.aws/local_tp_mac)     | 
 
 !> **Important**<br> If your Defender organisation is neither **WOG** nor **TechPass**, contact the IT support of the organisation that provided you with the device.
 
-4. Download the offboarding script, a ZIP file, for your **Defender organisation**.
-
-  | Defender organisation  | SEED offboarding script |
-  | ------------- |:-------------:|
-  | WOG      | [Download offboarding script](https://k3uwa66lu3tj6uxft46666ynhe0uvzor.lambda-url.ap-southeast-1.on.aws/local_wog_mac)    |
-  | TechPass      | [Download offboarding script](https://k3uwa66lu3tj6uxft46666ynhe0uvzor.lambda-url.ap-southeast-1.on.aws/local_tp_mac)     |
-  
-5. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files. 
+ 
+4. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files. 
 
 ![extract-files](../images/macos-extracted-files-for-offboarding.png)
 
 ?> **Note**: The file names vary with the organisation.
 
-6. On your **Terminal**, go to the folder where you extracted the files. For example, if they are in the **Downloads** > **Offboarding_local_wog_mac** folder, go to that folder.
+5. On your **Terminal**, go to the folder where you extracted the files. For example, if they are in the **Downloads** > **Offboarding_local_wog_mac** folder, go to that folder.
 
 ![cd-extracted-folder](../images/macos-cd-downloads.png)
 
-7. Copy and run the following command on your **Terminal**.
+6. Copy and run the following command on your **Terminal**.
 
     ```sudo chmod +x local_mac_offboarding.sh```
 
-8. When prompted for a **Password**, enter your device password.
-9. Copy and run the following command on your **Terminal**.
+7. When prompted for a **Password**, enter your device password.
+8. Copy and run the following command on your **Terminal**.
 
     ```sudo ./local_mac_offboarding.sh```
 
