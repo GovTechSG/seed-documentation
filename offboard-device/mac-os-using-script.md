@@ -80,7 +80,7 @@ When you see the following success message on your **Terminal**, you are automat
 1. Ensure your **Intune Device ID** is displayed on the form. If it is not displayed, provide it.
 2. Enter your organisational email address in **Organisational Email Address** and click **Verify**.
 3. Enter the OTP you receive at this email address.  
-4. Indicate if you had any issues while completing [Step 1: Offboard device from SEED components](#step-1-offboard-device-from-seed-components).
+4. Indicate if you had any issues while completing **Phase A**.
 5. [Optional] If you had issues completing **Phase A**, we encourage you to provide the **Support Ticket Number**.
 6. Click **Submit**. When this request is processed successfully, we send a notification via email.
 
