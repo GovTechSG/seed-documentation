@@ -1,5 +1,3 @@
-## Get Intune Device ID
-
 Complete one of the following methods to get your Intune Device ID:
 
 - Go to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile) and get the Intune Device ID from your account profile.<br>

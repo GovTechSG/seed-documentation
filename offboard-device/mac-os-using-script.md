@@ -12,6 +12,8 @@
 - Your device must have been onboarded to SEED.
 - [Optional] We recommend you to have your Intune device ID ready. 
 
+## Get Intune Device ID
+
 [Get Intune Device ID](../snippets/get-intune-device-id.md ':include')
 
 !> **Note**<br>If you have any issues with the offboarding steps, see the [Offboarding FAQ](/faqs/seed-offboarding-faqs) before submitting an [incident request](https://go.gov.sg/techpass-sr) with TechPass support.
@@ -62,27 +64,25 @@ When you see the following success message on your **Terminal**, you are automat
 
 ![macos-success-message](../images/macos-success-message.png)
 
-!>**Important note**<br> Make sure you complete Step 2 immediately after Step 1. If not, your device update policy can push the latest version of the deleted SEED components.
+!>**Important note**<br> Make sure you complete the steps in Phase 2 immediately after Phase 1. If not, your device update policy may push the latest version of the deleted SEED components.
 
 
 ## Phase B: Submit Intune Device ID
 
 ### Prerequisites
 
-a. Successful completion of [Step 1: Offboard device from SEED components](#step-1-offboard-device-from-seed-components).
-b. **Intune Device ID**. Generally, when you successfully offboard your device from the SEED components, the Intune Device ID is automatically displayed on the **SEED Offboarding: Device Record Removal** form.
-
-?>**Note**<br>- If Intune Device ID is not displayed, complete the appropriate step:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Go to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile) and get the Intune Device ID from your account profile.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- If you can't access the TechPass portal, please submit an [incident request](https://go.gov.sg/techpass-sr) to get your Intune Device ID before proceeding further.
+a. Successful completion of [Phase A: Offboard device from SEED components](#phase-a-offboard-device-from-seed-components).
+b. **Intune Device ID**. Generally, when you successfully offboard your device from the SEED components, the Intune Device ID is automatically displayed on the **SEED Offboarding: Device Record Removal** form. If it is not displayed, see [Get Intune Device ID](#get-intune-device-id).
 
 c. [Optional]If you had submitted an incident request with the TechPass support team to offboard your device from the SEED components, please have the reference number ready as we may need this information.
 
 ### To submit Intune Device ID
 
-1. Ensure your **Intune Device ID** is displayed on the form. If it is not displayed, see the [prerequisites](#prerequisites) section.
+1. Ensure your **Intune Device ID** is displayed on the form. If it is not displayed, provide it.
 2. Enter your organisational email address in **Organisational Email Address** and click **Verify**.
 3. Enter the OTP you receive at this email address.  
 4. Indicate if you had any issues while completing [Step 1: Offboard device from SEED components](#step-1-offboard-device-from-seed-components).
-5. [Optional] If you had issues completing Step 1, provide the **Support Ticket Number**.
+5. [Optional] If you had issues completing **Phase A**, we encourage you to provide the **Support Ticket Number**.
 6. Click **Submit**. When this request is processed successfully, we send a notification via email.
 
 <!--![successfully-offboarded-email](../images/macos-successfully-offboarded-email.png)-->
