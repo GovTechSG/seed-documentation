@@ -1,3 +1,3 @@
-[FAQs](../snippets/seed-offboarding-faq.md ':include')
+[FAQs](../snippets/snippets-seed-offboarding-faq.md ':include')
 
 

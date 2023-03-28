@@ -12,9 +12,9 @@
 - Your device must have been onboarded to SEED.
 - [Optional] We recommend you to have your Intune device ID ready. 
 
-## Get Intune Device ID
+### Get Intune Device ID
 
-[Get Intune Device ID](../snippets/get-intune-device-id.md ':include')
+[Get Intune Device ID](../snippets/snippets-get-intune-device-id.md ':include')
 
 !> **Note**<br>If you have any issues with the offboarding steps, see the [Offboarding FAQ](/faqs/seed-offboarding-faqs) before submitting an [incident request](https://go.gov.sg/techpass-sr) with TechPass support.
 
@@ -41,7 +41,6 @@
 
 !> **Important**<br> If your Defender organisation is neither **WOG** nor **TechPass**, contact the IT support of the organisation that provided you with the device.
 
- 
 4. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files. 
 
 ![extract-files](../images/macos-extracted-files-for-offboarding.png)
@@ -52,7 +51,7 @@
 
 ![cd-extracted-folder](../images/macos-cd-downloads.png)
 
-6. Copy and run the following command on your **Terminal**.
+6. Copy the below and run the following command on the same **Terminal**.
 
     ```sudo chmod +x local_mac_offboarding.sh```
 
@@ -65,10 +64,10 @@ When you see the following success message on your **Terminal**, you are automat
 
 ![macos-success-message](../images/macos-success-message.png)
 
-!>**Important note**<br> Make sure you complete the steps in Phase 2 immediately after Phase 1. If not, your device update policy may push the latest version of the deleted SEED components.
+!>**Important note**<br> Make sure you complete the steps in Phase B immediately after Phase A. If not, your device update policy may reinstall the latest version of the deleted SEED components.
 
 
-## Phase B: Submit Intune Device ID
+## Phase B: Submit Intune Device ID to remove device record
 
 ### Prerequisites
 
@@ -87,7 +86,7 @@ When you see the following success message on your **Terminal**, you are automat
 
 <!--![successfully-offboarded-email](../images/macos-successfully-offboarded-email.png)-->
 
-?> **Additional information**<br>- We need 30 minutes to process your ticket.<br>- If you are still waiting to receive an email after 30 minutes, please submit a [TechPass support request](https://go.gov.sg/techpass-sr). 
+?> **Additional information**<br>- We require up to 30 minutes to process your server-side offboarding request.<br>- If you are still waiting to receive an email after 30 minutes, please submit a [TechPass support request](https://go.gov.sg/techpass-sr). 
 
  
       

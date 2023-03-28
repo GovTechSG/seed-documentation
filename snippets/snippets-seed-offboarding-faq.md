@@ -53,7 +53,7 @@ Try running the script again. If you still experience any error, submit an [inci
 
 </details><hr />
 
-<details><summary style="font-size:20px;font-weight:bold">After I successfully complete step 1 to offboard my device from SEED components, I get the error message<code>Intune ID not found. Please manually input your Intune ID</code>.</summary>
+<details><summary style="font-size:20px;font-weight:bold">After I successfully complete Phase A to offboard my device from SEED components, I get the error message<code>Intune ID not found. Please manually input your Intune ID</code>.</summary>
 
 You may experience this error if we are unable to auto-retrieve your Intune Device ID due to some incorrect configurations on your device. There can be multiple reasons for this incorrect configurations. 
 
@@ -61,9 +61,10 @@ You may experience this error if we are unable to auto-retrieve your Intune Devi
 
     - Go to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile) and get the Intune Device ID from your account profile.
     - If you can't access the TechPass portal, please submit an [incident request](https://go.gov.sg/techpass-sr) with the TechPass support to get your Intune Device ID.
-2. When you have your Intune device ID proceed with Step 2: Submit Intune Device ID.
 
-!> **Important**<br> If there is a significant time lapse between Step 2 and Step 1, the latest version of the SEED components could have been pushed to your device and hence you may need to repeat Step 1: Offboard device from SEED components. 
+2. When you have your Intune device ID proceed with **Phase B: Submit Intune Device ID** to remove device record.
+
+!> **Important**<br> If there is a significant time lapse between Phase B and Phase A, the latest version of the SEED components may be reinstalled on your device. If that is the case, you need to repeat **Phase A: Offboard device from SEED components**. 
 
 
 </details><hr />

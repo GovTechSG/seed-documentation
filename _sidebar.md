@@ -1,7 +1,6 @@
 **Overview**
   - [Overview](overview)
   **What's new**
-  - [Beta features](beta-features)
   - [Announcements](announcements)
   - [Latest changes to the SEED documentation](document-history)
   **Getting started**  
