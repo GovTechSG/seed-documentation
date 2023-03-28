@@ -5,7 +5,7 @@
 
 [Step 1: Offboard device from SEED components](#step-1-offboard-device-from-seed-components)
 
-[Step 2: Submit Intune Device ID](#step-2-submit-intune-device-id)
+[Step 2: Submit Intune Device ID to remove device record](#step-2-submit-intune-device-id-to-remove-device-record)
 
 ## Step 1: Offboard device from SEED components
 
@@ -50,13 +50,7 @@ to find if your organisation is WOG or TechPass.
 
 7. Right-click on the unzipped folder and select **Show more options**, **Copy as path**. The folder path is now saved to your clipboard.
 
-8. Go to **Start** and type **cmd**.
-
-9. Right-click on **Command Prompt** and select **Run as administrator**.
-
-9. If prompted, enter your Windows password.
-
-10. Run the following commands to go to the folder which has the extracted files:
+8. On **Powershell**, run the following commands to go to the folder which has the extracted files:
 
     ```cd {Path from clipboard}```
 
@@ -66,7 +60,7 @@ to find if your organisation is WOG or TechPass.
 
     ![directory](../images/offboarding-windows/windows_cd_downloads.png)
 
-11. To run the script, use the **Command Prompt** session from **step 6** and enter the following command:
+9. To run the script, enter the following command:
 
     ```
     powershell.exe -ExecutionPolicy Bypass .\local_windows_offboarding.ps1
@@ -77,7 +71,7 @@ When you see the following success message on your **Powershell**, you are autom
 
 !>**Important note**<br> Make sure you complete Step 2 immediately after Step 1. If not, your device update policy can push the latest version of the deleted SEED components.
 
-## Step 2: Submit Intune Device ID
+## Step 2: Submit Intune Device ID to remove device record
 
 ### Prerequisites
 
