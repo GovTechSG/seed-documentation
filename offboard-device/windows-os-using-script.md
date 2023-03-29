@@ -85,6 +85,7 @@ When you see the following success message on your **Powershell**, you are autom
 ## Phase B: Submit Intune Device ID to remove device record
 
 ### Prerequisites
+
 - Successful completion of [Phase A: Offboard device from SEED components](#phase-a-offboard-device-from-seed-components).
 - **Intune Device ID**. Generally, when you successfully offboard your device from the SEED components, the Intune Device ID is automatically displayed on the **SEED Offboarding: Device Record Removal** form. If it is not displayed, see [Get Intune Device ID](#get-intune-device-id).
 - [Optional]If you had submitted an incident request with the TechPass support team to offboard your device from the SEED components, please have the reference number ready as we may need this information.
