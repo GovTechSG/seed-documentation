@@ -10,6 +10,7 @@ We have now automated most of the offboarding steps to simplify the process. Thi
 To know the steps in each phase see:
 
 - [Offboard macOS device](offboard-device/mac-os-using-script)
+- [Offboard Windows device](offboard-device/windows-using-script)
 
 
 
