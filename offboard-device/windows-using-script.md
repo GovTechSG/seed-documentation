@@ -4,7 +4,7 @@ This document guides you to offboard your Windows device onboarded to SEED.
 
 ## Audience
 
-- Users who need to offboard their mWindows device from SEED.
+- Users who need to offboard their Windows device from SEED.
 
 ## Prerequisites
 
