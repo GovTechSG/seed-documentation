@@ -12,11 +12,13 @@
 - Your device must have been onboarded to SEED.
 - [Optional] We recommend you to have your Intune device ID ready. 
 
-## Phase A: Offboard device from SEED components
+### Get Intune Device ID
 
 [Get Intune Device ID](../snippets/snippets-get-intune-device-id.md ':include')
 
 !> **Note**<br>If you have any issues with the offboarding steps, see the [Offboarding FAQ](/faqs/seed-offboarding-faqs) before submitting an [incident request](https://go.gov.sg/techpass-sr) with TechPass support.
+
+## Phase A: Offboard device from SEED components
 
 1. Go to the **Start** menu and enter **Powershell**.
 2. Right-click on the search result for **PowerShell** and select **Run as Administrator**
@@ -36,31 +38,26 @@ to find if your organisation is WOG or TechPass.
 
 ![find-org-id](../images/offboarding-windows/org_id_win.png)
 
-5. Refer to the following table and find your Defender organisation.
+5. RRefer to the following table and identify your **Defender organisation** and download the respective offboarding package.
 
-  | org_id  | Organisation |
-  | ------------- |:-------------:|
-  | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     |
-  | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    | 
+  | org_id  | Defender organisation | Offboarding package |
+  | ------------- |:-------------:|:-------------:| 
+  | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     | [Download offboarding script](https://k3uwa66lu3tj6uxft46666ynhe0uvzor.lambda-url.ap-southeast-1.on.aws/local_wog_windows) |
+  | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    | [Download offboarding script](https://k3uwa66lu3tj6uxft46666ynhe0uvzor.lambda-url.ap-southeast-1.on.aws/local_tp_windows)    |
+  | 6389e966-e334-461d-86ce-0fed12484620 | Hive | Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package. |
+
 
 !> **Important**<br> If your Defender organisation is neither **WOG** nor **TechPass**, contact the IT support of the organisation that provided you with the device.
 
-6. Download the offboarding script, a ZIP file, for your Defender organisation.
-
-  | Organisation  | SEED offboarding script |
-  | ------------- |:-------------:|
-  | WOG      | [Download offboarding script](https://k3uwa66lu3tj6uxft46666ynhe0uvzor.lambda-url.ap-southeast-1.on.aws/local_wog_windows)    |
-  | TechPass      | [Download offboarding script](https://k3uwa66lu3tj6uxft46666ynhe0uvzor.lambda-url.ap-southeast-1.on.aws/local_tp_windows)    |
-  
-7. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files. 
+6. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files. 
 
 ![extract-files](../images/offboarding-windows/win_extracted_files_for_offboarding.PNG)
 
 ?> **Note**: The file names vary with the organisation.
 
-8. Right-click on the unzipped folder and select **Show more options** > **Copy as path**. The folder path is now saved to your clipboard.
+7. Right-click on the unzipped folder and select **Show more options** > **Copy as path**. The folder path is now saved to your clipboard.
 
-9. On **Powershell**, run the following command to go to the folder which has the extracted files:
+8. On **Powershell**, run the following command to go to the folder which has the extracted files:
 
     ```cd {Path from clipboard}```
 
