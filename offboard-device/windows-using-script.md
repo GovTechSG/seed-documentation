@@ -16,7 +16,7 @@ This document guides you to offboard your Windows device onboarded to SEED.
 
 [Get Intune Device ID](../snippets/snippets-get-intune-device-id.md ':include')
 
-!> **Note**<br>If you have any issues with the offboarding steps, see the [Offboarding FAQ](/faqs/seed-offboarding-faqs) before submitting an [incident request](https://go.gov.sg/techpass-sr) with TechPass support.
+!> **Note**<br>If you have any issues with the offboarding steps, see the [Offboarding FAQs](/faqs/seed-offboarding-faqs) before submitting an [incident request](https://go.gov.sg/techpass-sr) with TechPass support.
 
 ## Phase A: Offboard device from SEED components
 
