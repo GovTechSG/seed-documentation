@@ -1,8 +1,8 @@
-# SEED offboarding FAQ
+# SEED offboarding FAQs
 
-<details><summary style="font-size:20px;font-weight:bold">I cannot download the offboarding script. What should I do?</summary>
+<details><summary style="font-size:20px;font-weight:bold">I cannot download the offboarding package. What should I do?</summary>
 
-  Create an [incident request](https://go.gov.sg/techpass-sr) and request for request for the offboarding script for your Defender organisation.
+  Create an [incident request](https://go.gov.sg/techpass-sr) and request for request for the offboarding package for your Defender organisation.
   
 </details><hr />
 
@@ -17,27 +17,27 @@ I cannot log in to my device. What should I do? </summary>
 
 </details><hr />
 
-<details><summary style="font-size:20px;font-weight:bold">While running the offboarding script,I get the following error:<code>Unknown Tenant detected</code>.</summary>
+<details><summary style="font-size:20px;font-weight:bold">While running the offboarding package,I get the following error:<code>Unknown Tenant detected</code>.</summary>
 
-This indicates that your Defender does not belong to WOG or TechPass and that means you are not a SEED user. 
+This indicates that you are not a SEED user or your device was not properly enrolled to SEED.
 
-If you had onboarded your device to SEED earlier but still get this error message, please submit an [incident request](https://go.gov.sg/techpass-sr) with the TechPass support.
+If you had properly onboarded your device to SEED earlier but still get this error message, please submit an [incident request](https://go.gov.sg/techpass-sr) with the TechPass support.
 
 
 </details><hr />
-<details><summary style="font-size:20px;font-weight:bold">While running the offboarding script on my Windows device, I get the following error:<code>Defender offboarding script has expired! Please download a new offboarding package from the docs portal</code></summary>
+<details><summary style="font-size:20px;font-weight:bold">While running the offboarding package on my device, I get the following error:<code>Defender offboarding package has expired! Please download a new offboarding package from the docs portal</code></summary>
 
-This error indicates that your offboarding script is outdated. 
+This error indicates that your offboarding package is outdated. 
 
 1. On the [Offboard device](offboard-device/offboard-device-from-seed) section, follow the offboarding steps for your device operating system .
-2. Make sure to download the offboarding script from this page and complete the offboarding steps.
+2. Make sure to download the offboarding package from this page and complete the offboarding steps.
 
  !> **Note**<br>If you still experience the same or any other error, submit an [incident request](https://go.gov.sg/techpass-sr) with the TechPass support.
  
 
 </details><hr />
 
-<details><summary style="font-size:20px;font-weight:bold">when I run the offboarding script on my Windows device, I get the following error: <code>Microsoft Defender for Endpoint Service failed to stop running</code>!</summary>
+<details><summary style="font-size:20px;font-weight:bold">when I run the offboarding package on my device, I get the following error: <code>Microsoft Defender for Endpoint Service failed to stop running</code>!</summary>
 
 This error would look like the following:
 
@@ -47,7 +47,7 @@ Try running the script again. If you still experience the same or any other erro
 
 </details><hr />
 
-<details><summary style="font-size:20px;font-weight:bold">I get an error while running the offboarding script to remove the SEED components such as Cloudflare WARP, Microsoft Defender or Tanium Client.</summary>
+<details><summary style="font-size:20px;font-weight:bold">I get an error on my macOS device while running the offboarding package to remove the SEED components such as Cloudflare WARP, Microsoft Defender or Tanium Client.</summary>
 
 Try running the script again. If you still experience any error, submit an [incident request](https://go.gov.sg/techpass-sr) with the TechPass support.
 
