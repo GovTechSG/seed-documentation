@@ -54,7 +54,7 @@ echo $OrgID
 
 ?> **Note**: The file names vary with the organisation.
 
-7. Right-click on the unzipped folder and select **Show more options** > **Copy as path**. The folder path is now saved to your clipboard.
+7. Right-click the unzipped folder to select **Show more options** > **Copy as path**. The folder path is now saved to your clipboard.
 
 8. On **Powershell**, run the following command to go to the folder which has the extracted files:
 
