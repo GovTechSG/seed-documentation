@@ -1,84 +1,76 @@
-# SEED post onboarding instructions for macOS 11 (Big Sur) and 12 (Monterey)
+# Post onboarding instructions for macOS 11 and 12
 
-  After you onboard your Internet device to SEED: 
+  After you onboard your Internet Device to SEED: 
 
-  - [Enable Full Disk Access(FDA)](#enable-full-disk-access-fda)
+  - [Ensure Full Disk Access(FDA) is enabled for SEED components](#ensure-full-disk-accessfda-is-enabled-for-seed-components)
   - [Turn on Cloudflare WARP for macOS](#turn-on-cloudflare-warp-for-macos)
 
-## Enable Full Disk Access(FDA)
+## Ensure Full Disk Access(FDA) is enabled for SEED components
 
-After onboarding, enable FDA for the applications installed during SEED onboarding.
+After onboarding, ensure FDA is enabled for the following SEED components:
 
-**To enable FDA for the installed applications:**
-
-  1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
-  2. Click the **Privacy** tab.
-  3. From the left pane, choose **Full Disk Access**.
-  4. Click the lock icon at the bottom and use your Touch ID or enter your  password to unlock.
-
-  > **Note:**
-  >
-  > If you are unable to access this preference with your current password, complete the following steps to reset your device password:
-  >1. Go to the **Apple** menu > **Lock Screen** or use keyboard shortcut **Command+Control+Q**.
-  >2. Enter your password and press <b>return</b>. You will be prompted to reset password.
-  >3. Reset your password.
-
-  5. Ensure the following applications are listed:
-       - Tanium Client
-       - Microsoft Intune Agent
-       - Microsoft Defender
-       - Microsoft Defender ATP Security Extension <!--Microsoft Defenders Endpoint Security Extension-->
+  - Tanium Client
+  - Microsoft Intune Agent
+  - Microsoft Defender
+  - Microsoft Defender ATP Security Extension 
 
 
-> **Note:** If any of the listed application is missing, please refer to [Common onboarding issues for macOS users](faqs/common-onboarding-issues).
+### To verify FDA is enabled for the SEED components
 
-  6. Select the checkboxes beside these applications.
+1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
+2. Click the **Privacy** tab.
+3. From the left pane, choose **Full Disk Access**.
+4. Click the lock icon at the bottom and use your Touch ID or enter your  password to unlock.
 
-   <kbd>![fda-enabled](../images/onboarding-for-macos/all-apps-fda-enabled.png)</kbd>
+?> **Note**<br>If you were not prompted to reset device password while onboarding, you will be prompted now. See FAQ for password policy.
 
+5. Ensure the following applications are listed:
+    - Tanium Client
+    - Microsoft Intune Agent
+    - Microsoft Defender
+    - Microsoft Defender ATP Security Extension 
+
+?> **Note**<br>If a SEED component is missing, see [Common onboarding issues for macOS users](faqs/common-onboarding-issues).
+
+6. Ensure the checkboxes beside these applications are selected.
+
+  ![fda-enabled](../images/onboarding-for-macos/all-apps-fda-enabled.png ':size=75%')
 
 ## Turn on Cloudflare WARP for macOS
 
-  After onboarding your Internet device to SEED, install and turn on Cloudflare WARP to protect your Internet connection.
+When you onboard your Internet Device to SEED, Cloudflare WARP is installed on it. You need to turn it on to protect your internet connection.
 
-  1. [Download the latest Cloudflare WARP client](https://install.appcenter.ms/orgs/cloudflare/apps/1.1.1.1-macos-1/distribution_groups/release) for macOS.
-  2. Go to the download folder and open the .pkg file. 
-  3. Follow the on screen instructions and grant the appropriate permissions to complete the installation. 
+### To turn on Cloudflare WARP for macOS
 
-  Cloudflare WARP icon appears in your menu bar on the top right corner of your device.
+1. Open the Cloudflare WARP client from the menu bar.
 
-  4. If your device is connected to any other VPN, disconnect it as it might clash with Cloudflare WARP.
-  5. Open the Cloudflare WARP client from the menu bar.
-
-  <kbd>![cloudflare-warp-icon](../images/onboarding-for-macos/cloudflare-icon.png)</kbd> 
+![cloudflare-warp-icon](../images/onboarding-for-macos/cloudflare-icon.png) 
   
-  You will see the information page, followed by the privacy policy.
+You will see the information page, followed by the privacy policy.
 
-  6. Click **Next** and then **Accept** to agree to the Cloudflare’s privacy policy.
+2. Click **Next**, and then **Accept** to agree to Cloudflare’s privacy policy.
 
-  <kbd>![accept-privacy-policy](../images/cloudflare-warp-macos/accept-privacy-policy.png)</kbd>
+![accept-privacy-policy](../images/cloudflare-warp-macos/accept-privacy-policy.png)
 
-  7. When prompted to sign in, select **Azure AD – TechPass Prod**.
+3. When prompted to sign in, select **Azure AD – TechPass Prod**.
 
-  ![gcc-cloudflare-access-signin](../images/cloudflare-warp-macos/gcc-cloudflare-access-signin.png ':size=50%')
+![gcc-cloudflare-access-signin](../images/cloudflare-warp-macos/gcc-cloudflare-access-signin.png ':size=50%')
 
-  > **Note** 
-  > 
-  > If you encounter an error stating that user account does not exist in the respective tenant, open a new tab and go to [https://myaccount.microsoft.com](https://myaccount.microsoft.com/), sign out from your account and then retry.
+!>**Note**<br> If you encounter an error stating that user account does not exist in the respective tenant, open a new tab and go to [https://myaccount.microsoft.com](https://myaccount.microsoft.com/), sign out from your account and then retry.
 
-  8. Sign in using your TechPass credentials.
+4. Sign in using your TechPass credentials.
 
-  ![techpass-sign-in](../images/cloudflare-warp-macos/techpass-sign-in.png ':size=50%')
+![techpass-sign-in](../images/cloudflare-warp-macos/techpass-sign-in.png ':size=50%')
 
-  9. After successfully signing in, click **Open Cloudflare WARP.app** to get your WARP connected.
+5. After successfully signing in, click **Open Cloudflare WARP.app** to get your WARP connected.
 
-  When it is connected, you should see the WARP Zero Trust in the connected state.
+When it is connected, you should see the WARP Zero Trust in the connected state.
   
-  ![cf-warp-connected](../images/cloudflare-warp-connected.png ':size=50%')
+![cf-warp-connected](../images/cloud-flare-connected.png ':size=50%')
 
-  10. Open Cloudflare WARP **Settings**, and make sure **Gateway with WARP** is selected.
+6. Open Cloudflare WARP **Settings**, and make sure **Gateway with WARP** is selected.
 
-  WARP is now running and protecting your Internet connection.
+WARP is now running and protecting your Internet connection.
   
 
 

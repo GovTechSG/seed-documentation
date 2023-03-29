@@ -1,6 +1,6 @@
 # SEED post onboarding instructions for macOS 13(Ventura)
 
-  After you onboard your Internet device to SEED: 
+  After you onboard your Internet Device to SEED: 
 
   - [Enable Full Disk Access(FDA)](#enable-full-disk-access-fda)
   - [Turn on Cloudflare WARP for macOS 13](#turn-on-cloudflare-warp-for-macos-13)
@@ -39,7 +39,7 @@
 
 ## Turn on Cloudflare WARP for macOS 13
 
-After onboarding your Internet device to SEED, install and turn on Cloudflare WARP to protect your Internet connection.
+After onboarding your Internet Device to SEED, install and turn on Cloudflare WARP to protect your Internet connection.
 
 1. [Download the latest Cloudflare WARP client](https://install.appcenter.ms/orgs/cloudflare/apps/1.1.1.1-macos-1/distribution_groups/release) for macOS.
 2. Go to the download folder and open the .pkg file. 

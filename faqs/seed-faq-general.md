@@ -8,7 +8,7 @@
 
 <details><summary style="font-size:20px;font-weight:bold">What is SEED and why should I onboard my device to SEED?</summary>
 
-Security Suite for Engineering Endpoint Devices (SEED) is a Mobile Device Management (MDM) solution. SEED ensures data security to protect the digital information of your organisation from unauthorised access, malicious users, and corruption. When you onboard an internet device to SEED, it becomes a GMD. It allows you to remotely manage access to highly sensitive data, provide user authentication, and can wipe off data from the device remotely if it is lost or compromised.
+Security Suite for Engineering Endpoint Devices (SEED) is a Mobile Device Management (MDM) solution. SEED ensures data security to protect the digital information of your organisation from unauthorised access, malicious users, and corruption. When you onboard an Internet Device to SEED, it becomes a GMD. It allows you to remotely manage access to highly sensitive data, provide user authentication, and can wipe off data from the device remotely if it is lost or compromised.
 
 </details><hr />
 
@@ -39,6 +39,16 @@ If you use a non-SE GSIB device and if your TechPass account is active, to reque
 Complete to onboard your internet (which is not a GSIB) device by following the instructions on [SEED documentation](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/prerequisites-for-onboarding).  
 
 If you do not use a non-SE GSIB device and if your TechPass account is active, [create a service request with TechPass](https://go.gov.sg/techpass-sr) to receive the SEED onboarding invitation email again.
+
+</details><hr />
+
+<details><summary style="font-size:20px;font-weight:bold">Are there any guidelines for storing data on a GMD?</summary>
+
+You can store confidential data such as log-in credentials, encryption keys, API tokens, and API keys on your GMD.
+
+Do not store any production or live data on a GMD.
+
+!> For security reasons, **encrypt the confidential data** before storing it on your GMD.
 
 </details><hr />
 
@@ -146,7 +156,7 @@ audit -e
 
  </details><hr />
 
- <details><summary style="font-size:20px;font-weight:bold">Previously I had successfully onboarded my internet device to SEED, but now I received an email stating that I may not be able to access SEED-protected resources such as SGTS services and products. What’s the reason, and what should I do?</summary>
+ <details><summary style="font-size:20px;font-weight:bold">Previously I had successfully onboarded my Internet Device to SEED, but now I received an email stating that I may not be able to access SEED-protected resources such as SGTS services and products. What’s the reason, and what should I do?</summary>
 
 **Reason**: Most likely, this indicates that we detected some issues with your device configuration for SEED. For example, your Microsoft Defender could be unhealthy. As such issues pose a security risk, we revoke your access to SEED resources.
 

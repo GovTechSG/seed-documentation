@@ -1,6 +1,6 @@
 # SEED post onboarding instructions for Windows
 
-After you onboard your Internet device to SEED, [Turn on Cloudflare WARP for Windows](#turn-on-cloudflare-warp-for-windows).
+After you onboard your Internet Device to SEED, [Turn on Cloudflare WARP for Windows](#turn-on-cloudflare-warp-for-windows).
 
 ## Turn on Cloudflare WARP for Windows
 

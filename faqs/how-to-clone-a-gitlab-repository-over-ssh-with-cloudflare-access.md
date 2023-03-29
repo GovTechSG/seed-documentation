@@ -8,7 +8,7 @@ The following instructions guide you to clone Git repos through SSH connection f
 
 **Prerequisites**
 
-- If you are using an internet device, [onboard it to SEED](onboard-device/onboard-device-to-seed).
+- If you are using an Internet Device, [onboard it to SEED](onboard-device/onboard-device-to-seed).
 - [Verify if you have an existing SSH key pair](https://gitlab-in.ship.gov.sg/help/user/ssh.md#see-if-you-have-an-existing-ssh-key-pair). If it is available, [add the SSH key in Gitlab](https://gitlab-in.ship.gov.sg/-/profile/keys).
 - If you don't have an SSH key pair, [generate SSH key pair](https://gitlab-in.ship.gov.sg/help/user/ssh.md#generate-an-ssh-key-pair) and then add it in GitLab.
 - You should know how to setup and use ssh together with Git.
