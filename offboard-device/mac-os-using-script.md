@@ -52,7 +52,7 @@
 
 ![cd-extracted-folder](../images/macos-cd-downloads.png)
 
-6. Copy the below and run the following command on the same **Terminal**.
+6. Copy the below and run it on the same **Terminal**.
 
     ```sudo chmod +x local_mac_offboarding.sh```
 

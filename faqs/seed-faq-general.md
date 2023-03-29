@@ -42,6 +42,12 @@ If you do not use a non-SE GSIB device and if your TechPass account is active, [
 
 </details><hr />
 
+<details><summary style="font-size:20px;font-weight:bold">What data can I store on a GMD?</summary>
+
+GMDs are to facilitate development work for developers to access GCC 2.0 and SGTS securely. Production and live data should **not be stored on GMDs**.
+
+</details><hr />
+
 <details><summary style="font-size:20px;font-weight:bold">I have lost my GMD. What should I do?</summary>
 
 1. Inform the manager-in-charge and operations manager and get an approval to delete the data from the lost device.

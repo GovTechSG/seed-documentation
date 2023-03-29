@@ -25,20 +25,20 @@ This document guides you to offboard your Windows device onboarded to SEED.
 
 ![open powershell](../images/offboarding-windows/run_powershell.png)
 
-3. On **Powershell**, run the following command:
+3. On **Powershell**, run the following command.
 
 ```
 $reg64 = [Microsoft.Win32.RegistryKey]::OpenBaseKey([Microsoft.Win32.RegistryHive]::LocalMachine, [Microsoft.Win32.RegistryView]::Registry64)
 $OrgID =  $reg64.OpenSubKey("SOFTWARE\MICROSOFT\Windows Advanced Threat Protection\Status").GetValue("OrgID")
 echo $OrgID
 ``` 
-to find if your organisation is WOG or TechPass.
+
 
 4. Take note of the value displayed for **org_id**.
 
 ![find-org-id](../images/offboarding-windows/org_id_win.png)
 
-5. Refer to the following table and identify your **Defender organisation** and download the respective offboarding package.
+5. Refer to the following table and identify your **Defender organisation** and download the offboarding package.
 
   | org_id  | Defender organisation | Offboarding package |
   | ------------- |:-------------:|:-------------:| 
