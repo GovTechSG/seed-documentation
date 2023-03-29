@@ -95,6 +95,6 @@ When you see the following success message on your **Powershell**, you are autom
 5. [Optional] If you had issues completing **Phase A**, we encourage you to provide the **Support Ticket Number**.
 6. Click **Submit**. When this request is processed successfully, we send a notification via email.
 
-![successfully-offboarded-email](../images/win-successfully-offboarded-email.png)
+![successfully-offboarded-email](../images/offboarding-windows/win-successfully-offboarded-email.png)
 
 ?> **Additional information**<br>- We require up to 30 minutes to process your server-side offboarding request.<br>- If you are still waiting to receive an email after 30 minutes, please submit a [TechPass support request](https://go.gov.sg/techpass-sr).
