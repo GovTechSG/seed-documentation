@@ -23,7 +23,7 @@
 
 ![open powershell](../images/offboarding-windows/run_powershell.png)
 
-3. On **Powershell**, run the following commands:
+3. On **Powershell**, run the following command:
 
 ```
 $reg64 = [Microsoft.Win32.RegistryKey]::OpenBaseKey([Microsoft.Win32.RegistryHive]::LocalMachine, [Microsoft.Win32.RegistryView]::Registry64)
@@ -69,7 +69,7 @@ to find if your organisation is WOG or TechPass.
     ```cd "C:\Users\testUser\Downloads\Offboarding_local_tp_windows"```
 
     ![directory](../images/offboarding-windows/windows_cd_downloads.png)
-    
+
 10. To run the script, enter the following command:
 
     ```
