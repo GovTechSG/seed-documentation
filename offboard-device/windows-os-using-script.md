@@ -58,7 +58,7 @@ to find if your organisation is WOG or TechPass.
 
 ?> **Note**: The file names vary with the organisation.
 
-8. Right-click on the unzipped folder and select **Show more options**, **Copy as path**. The folder path is now saved to your clipboard.
+8. Right-click on the unzipped folder and select **Show more options** > **Copy as path**. The folder path is now saved to your clipboard.
 
 9. On **Powershell**, run the following commands to go to the folder which has the extracted files:
 
