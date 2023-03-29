@@ -3,8 +3,6 @@
 This section lists the most recent changes, new features and fixes that are available for SEED users.
 
 
-> **Tip**: Click the triangle to view more details about the change.
-
 ## 29 March 2023
 
 :sparkles:**Changes** 
