@@ -40,7 +40,7 @@
   6. Once you get the offboarding script, run it on your device to unenrol Defender from your device completely.
 
    > **Note**:
-   > For more information on how to run the offboarding script to remove Defender from the macOS device, refer to **[Remove existing softwares on your device](prerequisites-for-onboarding?id=remove-existing-softwares-on-your-device)**.
+   > For more information on how to run the offboarding script to remove Defender from the macOS device, refer to **[Remove existing software on your device](prerequisites-for-onboarding?id=remove-existing-software-on-your-device)**.
 
 Within the next few hours, **Intune** pushes the **Microsoft Defender** client to your device with the correct configurations. For more information on the duration, refer to [Microsoft Documentation](https://docs.microsoft.com/en-us/mem/intune/configuration/device-profile-troubleshoot#how-long-does-it-take-for-devices-to-get-a-policy-profile-or-app-after-they-are-assigned).
 
@@ -90,7 +90,7 @@ The OrgId displayed depends on the TechPass account you used for enrolling your 
 7. Once you get the offboarding script for your current MDM organisation, run it on your device to unenrol your device from it completely.
 
 > **Note**:
-> For more information on how to run the offboarding script to remove Defender from the Windows device, refer to **[Remove existing softwares on your device](prerequisites-for-onboarding?id=remove-existing-softwares-on-your-device)**.
+> For more information on how to run the offboarding script to remove Defender from the Windows device, refer to **[Remove existing software on your device](prerequisites-for-onboarding?id=remove-existing-software-on-your-device)**.
 
  Within the next few hours, **Intune** pushes the **Microsoft Defender** client to your device with the correct configurations. For more information on the duration, refer to [Microsoft Documentation](https://docs.microsoft.com/en-us/mem/intune/configuration/device-profile-troubleshoot#how-long-does-it-take-for-devices-to-get-a-policy-profile-or-app-after-they-are-assigned).
 
