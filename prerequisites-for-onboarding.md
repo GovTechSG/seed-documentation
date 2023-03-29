@@ -27,7 +27,7 @@ To begin with, you'll need:
 
 Things to ensure a successful onboarding:
 
-1. [Remove existing softwares on your device](#remove-existing-softwares-on-your-device).
+1. [Remove existing software on your device](#remove-existing-software-on-your-device).
 1. If you are onboarding a macOS device, link your Apple ID to your device and [verify if System Integrity Protection (SIP) is enabled](#verify-if-system-integrity-protection-is-enabled).
 1. [Encrypt your hard disk drive to protect your data at rest](#encrypt-your-hard-disk-drive-to-protect-your-data-at-rest).
 1. If your organisation uses a firewall or other policies to restrict Internet traffic, you may need to make few changes to allow WARP to connect. To know more about these changes, visit [Cloudflare Docs](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/deployment/firewall/).
@@ -69,7 +69,7 @@ If you had requested SEED provisioning while signing up for your TechPass accoun
 >**Note:**
 > Currently, you can't onboard virtual machine to SEED.
 
-### Remove existing softwares on your device
+### Remove existing software on your device
 Before onboarding to SEED, you need to remove the following software solutions from your device if applicable:
 
 - current MDM software
@@ -77,7 +77,7 @@ Before onboarding to SEED, you need to remove the following software solutions f
 - Cloudflare WARP or any other software used for privacy and secured connections
 - Defender or any other antivirus solution.
 
-This section explains how public officers and vendors can remove those softwares.
+This section explains how public officers and vendors can remove those software.
 
 <!-- tabs:start -->
 
@@ -100,13 +100,13 @@ This section explains how public officers and vendors can remove those softwares
 
   >**Notes:**
   >* If you see Microsoft Intune in the settings, it indicates that **Microsoft Intune** is your MDM. Proceed to the next **step b. Unenrol from Microsoft Intune**    
-  >* To unenrol your device from MDM softwares other than Microsoft Intune, contact your organisation's IT administrator.
+  >* To unenrol your device from MDM software other than Microsoft Intune, contact your organisation's IT administrator.
 
 <!--
   <div class="warn">
   <ul>
   <li>If you see Microsoft Intune in the settings, it indicates that **Microsoft Intune** is your MDM. Proceed to the next step <strong>b. Unenrol from Microsoft Intune</strong>.</li>
-  <li>To unenrol your device from MDM softwares other than Microsoft Intune, contact your organisation's IT administrator.</li>
+  <li>To unenrol your device from MDM software other than Microsoft Intune, contact your organisation's IT administrator.</li>
   </ul>
   </div>-->
 
