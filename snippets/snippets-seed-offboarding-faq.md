@@ -62,7 +62,7 @@ You may experience this error if we are unable to auto-retrieve your Intune Devi
     - Go to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile) and get the Intune Device ID from your account profile.
     - If you can't access the TechPass portal, please submit an [incident request](https://go.gov.sg/techpass-sr) with the TechPass support to get your Intune Device ID.
 
-2. When you have your Intune device ID proceed with **Phase B: Submit Intune Device ID** to remove device record.
+2. When you have your Intune Device ID proceed with **Phase B: Submit Intune Device ID** to remove device record.
 
 !> **Important**<br> If there is a significant time lapse between Phase B and Phase A, the latest version of the SEED components may be reinstalled on your device. If that is the case, you need to repeat **Phase A: Offboard device from SEED components**. 
 

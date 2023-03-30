@@ -10,9 +10,58 @@
 
 - You must have an active TechPass account.
 - Your device must have been onboarded to SEED.
-- [Optional] We recommend you to have your Intune device ID ready. 
+- [Optional] We recommend you to have your Intune Device ID ready. 
 
 ### Get Intune Device ID
+
+Complete one of the following methods to get your Intune Device ID:
+
+?> **Tip**<br>Click the triangle to view more details about each method.
+
+<details>
+<summary style="font-size:20px;font-weight:bold">Method 1: Get Intune Device ID from your GMD</summary>
+
+
+1. On your GMD, open your **Terminal** and run the following commands:
+
+```
+intune_id="$(security find-certificate -a /Library/Keychains/System.keychain | egrep -B 4 '\"issu\"<blob>=.+MICROSOFT INTUNE MDM DEVICE CA' | grep alis | cut -d '"' -f 4)"
+if [ -z "$intune_id" ]
+then
+    echo "Intune ID not found"
+    return
+fi
+
+num_candidates="$(echo "$intune_id" | wc -l | xargs echo -n)"
+if [ "$num_candidates" -eq 1 ]
+then
+    echo "$intune_id"
+    return
+fi
+
+old_ifs="$IFS"
+IFS='\n'
+actual_id="Intune ID not found"
+curr_latest_end_date_unix=0
+while read id
+do
+    end_date="$(security find-certificate -c "$id" -p /Library/Keychains/System.keychain | openssl x509 -noout -enddate | cut -d '=' -f 2)"
+    end_date_unix="$(date -j -f "%b %e %H:%M:%S %Y %Z" "$end_date" "+%s")"
+    if [ "$end_date_unix" -ge "$curr_latest_end_date_unix" ]
+    then
+        actual_id="$id"
+        curr_latest_end_date_unix="$end_date_unix"
+    fi
+done <<< "$intune_id"
+
+IFS="$old_ifs"
+echo "$actual_id"
+```
+2. Take note of the Intune Device ID that is displayed on the **Terminal** window.
+
+![intune-device-id](../images/macos-get-intune-device-id.png)
+
+</details>
 
 [Get Intune Device ID](../snippets/snippets-get-intune-device-id.md ':include')
 
