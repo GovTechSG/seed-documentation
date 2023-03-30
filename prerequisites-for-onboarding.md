@@ -7,7 +7,7 @@
 >
 >- You can onboard only one device per user.
 >
->- If you are a public officer, after you enrol in Intune, you need to submit your Intune device ID to complete the SEED onboarding for your device.
+>- If you are a public officer, after you enrol in Intune, you need to submit your Intune Device ID to complete the SEED onboarding for your device.
 >
 >- After you complete the onboarding process, you will receive an email confirming your successful onboarding to SEED and your device will be automatically renamed and restarted.
 >
