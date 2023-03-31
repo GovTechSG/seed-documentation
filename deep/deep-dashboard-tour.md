@@ -2,7 +2,7 @@
 
 | Legend | Description |
 | --- | --- |
-| ![1](images/deep-dashboard/step1.png) | Device Information |
+| ![1](../images/deep-dashboard/step1.png) | Device Information |
 
 
 <kbd><img src="images/deep-dashboard/deep-dashboard-tour.png" alt="drawing" width="100%"/></kbd>
