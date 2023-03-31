@@ -14,7 +14,7 @@ Go to the icon on the top right-hand corner of the DEEP Dashboard and click **Re
 </details>
 <br>
 <details>
-<summary style="font-size:18px">I received a notification regarding suspicious and malicious behaviour on my SEED device, what should I do?  </summary>
+<summary style="font-size:18px">I received a notification regarding suspicious and malicious behaviour on my SEED device, what should I do? </summary>
 
 Log in to DEEP dashboard and view the security issues listed. Step-by-step instructions are included to guide you to solve the issues. 
 </details>
