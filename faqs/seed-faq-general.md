@@ -42,16 +42,6 @@ If you do not use a non-SE GSIB device and if your TechPass account is active, [
 
 </details><hr />
 
-<details><summary style="font-size:20px;font-weight:bold">Are there any guidelines for storing data on a GMD?</summary>
-
-You can store confidential data such as log-in credentials, encryption keys, API tokens, and API keys on your GMD.
-
-Do not store any production or live data on a GMD.
-
-!> For security reasons, **encrypt the confidential data** before storing it on your GMD.
-
-</details><hr />
-
 <details><summary style="font-size:20px;font-weight:bold">I have lost my GMD. What should I do?</summary>
 
 1. Inform the manager-in-charge and operations manager and get an approval to delete the data from the lost device.
