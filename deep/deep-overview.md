@@ -16,9 +16,11 @@ You can log in to [DEEP dashboard](https://dashboard.deep.tech.gov.sg/) if you h
 
 **To log in to DEEP dashboard**
 
-1. Go to the [DEEP dashboard](https://dashboard.deep.tech.gov.sg/) . 
+1. Go to the [DEEP dashboard](https://dashboard.deep.tech.gov.sg/). 
 
-2. Click **Sign in with TechPass**. 
+2. Click **Sign in with TechPass**. Use your TechPass credentials.
+
+![log_in](/images/deep-dashboard/sign-in-deep.png)
 
 You are now logged in to the DEEP dashboard.  
 
