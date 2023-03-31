@@ -16,7 +16,7 @@ This table shows the history of updates to the SEED documentation.
 | 22 November 2022 | [Device clean-up policy](device-clean-up-policy)<br>[Device clean-up policy FAQ](faqs/device-clean-up-policy-faqs.md)| Published the context and the impact of the device clean-up policy and the related FAQs. |
 | 10 November 2022 | [SEED post onboarding instructions for macOS 13(Ventura)](post-onboarding-instructions/mac-os-13)| Included post onboarding steps for macOS 13 users. |
 | 07 November 2022 | [General FAQ](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/faqs/seed-faq-general) | Included a query for Mac users upgrading to macOS 13(Ventura). |
-| 31 October 2022 | [Announcements](announcements) | Posted an announcement for GCC 1.0 users yet to onboard their internet device to SEED.|
+| 31 October 2022 | [Announcements](announcements) | Posted an announcement for GCC 1.0 users yet to onboard their Internet Device to SEED.|
 | 29 October 2022 | [Configuration of common Developer CLI tools with Cloudflare WARP](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/faqs/configuration-of-common-developer-cli-tools-with-cloudflare-warp) | Updated the [Docker](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/faqs/configuration-of-common-developer-cli-tools-with-cloudflare-warp?id=docker). |
 | 21 October 2022 | [Announcements](announcements) and [SEED status](seed-status) page | Updated announcements and status page for Cloudflare WARP issues. |
 | 17 October 2022 | [Split tunnel allowlist](additional-resources/split-tunnel-allowlist) | Included information about split tunnel allowlist |

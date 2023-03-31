@@ -48,7 +48,8 @@ Your account is added and listed as a connection. This account has the **Info** 
 
 </details>
 
-## Step 2: Register Microsoft Intune Device ID (only for GSIB users onboarding their internet device)
+
+## Step 2: Register Microsoft Intune Device ID (only for GSIB users onboarding their Internet Device)
 
 <details><summary style="font-size:18px">Register the Microsoft Intune Device ID for your Windows device</summary>
 
@@ -91,7 +92,7 @@ Write-Output $intune_id
 
     ii. If prompted to specify your password, enter it.
 
-5. To verify if the required profiles are installed correctly, go to the internet device onboarded to SEED, open **Settings** > **Apps** > **Apps & features** and ensure that Tanium and Cloudflare WARP are listed.
+5. To verify if the required profiles are installed correctly, go to the Internet Device onboarded to SEED, open **Settings** > **Apps** > **Apps & features** and ensure that Tanium and Cloudflare WARP are listed.
 
 </details>
 

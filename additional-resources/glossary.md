@@ -22,14 +22,14 @@ Government Furnished Equipment.
 
 **GMD**
 
-Government Managed Device. An internet device or a GFE device when enrolled with SEED becomes a Government Managed Device.
+Government Managed Device. An Internet Device or a GFE device when enrolled with SEED becomes a Government Managed Device.
 
 **GSIB**
 
 Government Standard Image Build.
 
 
-**Internet device**
+**Internet Device**
 
 Device which is not a GSIB. This could be your personal device, or a device issued by your vendor or agency.
 

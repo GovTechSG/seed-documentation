@@ -72,7 +72,7 @@
 
 </details>
 
-## Step 2: Register Microsoft Intune Device ID (only for GSIB users onboarding their internet device)
+## Step 2: Register Microsoft Intune Device ID (only for GSIB users onboarding their Internet Device)
 
 <details>
   <summary style="font-size:18px">Register the Microsoft Intune Device ID for your macOS device</summary><br>
