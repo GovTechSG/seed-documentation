@@ -10,7 +10,7 @@ DEEP uses data from TechPass, Cloudflare, Microsoft Defender and Intune, to iden
 <details>
 <summary style="font-size:18px">How do I report a potential security issue?  </summary>
 
-Go to the icon on the top right-hand corner of the DEEP Dashboard and click **Report issue**. You will be redirected to the service request page. We will get back to you within three business days.  
+Go to the icon on the top right-hand corner of the DEEP Dashboard and click **Report issue**. You will be redirected to the service request page. We will respond to your queries within three business days.  
 </details>
 <br>
 <details>
