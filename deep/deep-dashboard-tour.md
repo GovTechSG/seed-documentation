@@ -1,9 +1,14 @@
 # DEEP Dashboard tour
 
+| Legend | Description |
+| --- | --- |
+| ![1](step1.png) | Device Information |
+
+
 <kbd><img src="images/deep-dashboard/deep-dashboard-tour.png" alt="drawing" width="100%"/></kbd>
 
 
-<kbd><img src="images/deep-dashboard/step1.png" alt="drawing" width="3%"/></kbd> Device Information 
+<kbd><img src="images/deep-dashboard/step1.png" alt="drawing"/></kbd> Device Information 
 
 Displays details of the device onboarded to SEED.
 
