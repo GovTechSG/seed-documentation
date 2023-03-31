@@ -1,4 +1,4 @@
-- [DEEP overview](/deep/deep-overview.md)
+- [DEEP overview](../deep/deep-overview.md)
 - [DEEP Dashboard tour](/deep/deep-dashboard-tour.md)
 - [FAQ](/deep/deep-faq.md)
 - [Back to main](/)

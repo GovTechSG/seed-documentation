@@ -12,7 +12,7 @@ Using the DEEP dashboard, you can:
 
 ## Log in to DEEP dashboard
 
-You can log in to [DEEP dashboard](https://dashboard.deep.tech.gov.sg/) if you have onboarded a device to using a [TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/). 
+You can log in to [DEEP dashboard](https://dashboard.deep.tech.gov.sg/) if you have onboarded a device to SEED using a [TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/). 
 
 **To log in to DEEP dashboard**
 
