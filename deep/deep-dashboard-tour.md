@@ -4,7 +4,7 @@
 
 
 | Legend | Description |
-| --- | --- |
+| :--- | :----- |
 | <img src="images/deep-dashboard/step1.png" alt="drawing" width="50%"/> | **Device Information** - This pane displays details of the device onboarded to SEED.  |
 | <img src="images/deep-dashboard/step2.png" alt="drawing" width="50%"/> | **Security Issues** - This pane displays security issues detected on the device, along with step-by-step instructions to resolve them. |
 | <img src="images/deep-dashboard/step3.png" alt="drawing" width="50%"/> | **Options** - This button gives options for users to carry out various administrative tasks. For example, reporting issues. |
