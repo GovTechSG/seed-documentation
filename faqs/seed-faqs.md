@@ -13,4 +13,5 @@ Browse through the known issues and FAQs to find answers to commonly asked quest
   - [Generate and upload Cloudflare diagnostic files](faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request)
   - [Clone GitLab repository](faqs/how-to-clone-a-gitlab-repository-over-ssh-with-cloudflare-access)
   - [Clone Bitbucket repository](faqs/how-to-clone-a-bitbucket-repository-over-ssh-with-cloudflare-access)
-- [Device clean-up policy FAQs](faqs/device-clean-up-policy-faqs) 
+- [Device clean-up policy FAQs](faqs/device-clean-up-policy-faqs)
+- [Offboarding FAQs](faqs/seed-offboarding-faqs.md) 

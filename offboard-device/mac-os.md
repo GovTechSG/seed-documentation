@@ -57,7 +57,7 @@
 
 ## Step 4: Remove Microsoft Defender for Endpoint
 
-To remove Microsoft Defender for Endpoint from your device, offboard your device from it using the offboarding script.
+To remove Microsoft Defender for Endpoint from your device, offboard your device from it using the offboarding package.
 
 1. Open **Terminal** and run `mdatp health`.
 2. Take note of the value displayed for **org_id**.
