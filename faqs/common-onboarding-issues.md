@@ -250,7 +250,7 @@ This may occur if your new password does not meet the following password require
 <details>
  <summary style="font-size:20px;font-weight:bold"> How to confirm if I have onboarded my device to SEED successfully? </summary>
 
-If you have successfully onboarded your internet device to SEED, you will get a confirmation email from DEEP. When you get this confirmation email, do the following on the device you onboarded to SEED:
+If you have successfully onboarded your Internet Device to SEED, you will get a confirmation email from DEEP. When you get this confirmation email, do the following on the device you onboarded to SEED:
 
 1. Disconnect from other VPN connections, if any.
 2. Go to the WARP client and connect to the Cloudflare Zero trust client.

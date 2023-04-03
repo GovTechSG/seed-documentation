@@ -56,7 +56,7 @@
 
   9. Click **Install** to get the required configuration profiles.
 
-  !> If you are a public officer, complete all the substeps in [Step 2: Register the Microsoft Intune device ID for your macOS device](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/mac-os?id=step-2-register-microsoft-intune-device-id-only-for-gsib-users-onboarding-their-internet-device) to get the profiles installed. 
+  !> If you are a public officer, complete all the substeps in [Step 2: Register the Microsoft Intune Device ID for your macOS device](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/mac-os?id=step-2-register-microsoft-intune-device-id-only-for-gsib-users-onboarding-their-internet-device) to get the profiles installed. 
 
   <kbd>![profile](../images/onboarding-for-macos/profile-2.png)</kbd>
 
@@ -72,16 +72,16 @@
 
 </details>
 
-## Step 2: Register Microsoft Intune device ID (only for GSIB users onboarding their internet device)
+## Step 2: Register Microsoft Intune Device ID (only for GSIB users onboarding their Internet Device)
 
 <details>
-  <summary style="font-size:18px">Register the Microsoft Intune device ID for your macOS device</summary><br>
+  <summary style="font-size:18px">Register the Microsoft Intune Device ID for your macOS device</summary><br>
 
 > **Note**:  
 >
 >- This step is applicable only if you have a GSIB device and your TechPass ID is the same as your organisation email address. In other words, this is applicable for users whose TechPass ID's domain **is not** ```techpass.gov.sg```.
 >
->- If you only have a SE-GSIB device, complete substeps 1 and 2, and then contact the [support team](https://go.gov.sg/techpass-sr) with your Intune device ID to register your Intune device ID.  
+>- If you only have a SE-GSIB device, complete substeps 1 and 2, and then contact the [support team](https://go.gov.sg/techpass-sr) with your Intune Device ID to register your Intune Device ID.  
 
 <!--
 
@@ -123,10 +123,10 @@ done <<< "$intune_id"
 IFS="$old_ifs"
 echo "$actual_id"
 ```
-2. Take note of the Intune device ID that is displayed on the Terminal window.
+2. Take note of the Intune Device ID that is displayed on the Terminal window.
 
 3. On your **non-SE GSIB** device, go to [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile) > **My Account** > **Profile**.
-4. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune device ID. Intune installs the required software and configurations to complete your device onboarding.
+4. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune Device ID. Intune installs the required software and configurations to complete your device onboarding.
 
 If your onboarding is successful, within an hour, you will receive a successfully onboarded email to  your organisational email address.
 

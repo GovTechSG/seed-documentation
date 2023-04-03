@@ -8,7 +8,7 @@ This article gives an overview of the [MDM certificate](#mdm-certificate) and th
 
 ## MDM certificate
 
-When users onboard their internet device to SEED, an MDM certificate is assigned to it, and this is valid for a year from the date of onboarding. The certificate gets automatically renewed if you are logged in to your GMD at the time of certificate expiration.
+When users onboard their Internet Device to SEED, an MDM certificate is assigned to it, and this is valid for a year from the date of onboarding. The certificate gets automatically renewed if you are logged in to your GMD at the time of certificate expiration.
 
 >**Note**:
 >- Your TechPass account must be active.
@@ -39,7 +39,7 @@ The purpose of this policy is to remove inactive device records from the Intune 
 
 ### What happens if my GMD is inactive?
 
-If your TechPass ID belongs to the TechPass AAD, and you have not logged into your GMD(the internet device onboarded to SEED) for 90 consecutive days, the GMD becomes inactive, and its records are soft deleted from the Intune portal.
+If your TechPass ID belongs to the TechPass AAD, and you have not logged into your GMD(the Internet Device onboarded to SEED) for 90 consecutive days, the GMD becomes inactive, and its records are soft deleted from the Intune portal.
 
 Note that when your device records are "soft deleted", it does not wipe or retire the device. The device record is temporarily deleted from Intune.
 

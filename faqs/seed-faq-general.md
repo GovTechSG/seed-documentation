@@ -8,7 +8,7 @@
 
 <details><summary style="font-size:20px;font-weight:bold">What is SEED and why should I onboard my device to SEED?</summary>
 
-Security Suite for Engineering Endpoint Devices (SEED) is a Mobile Device Management (MDM) solution. SEED ensures data security to protect the digital information of your organisation from unauthorised access, malicious users, and corruption. When you onboard an internet device to SEED, it becomes a GMD. It allows you to remotely manage access to highly sensitive data, provide user authentication, and can wipe off data from the device remotely if it is lost or compromised.
+Security Suite for Engineering Endpoint Devices (SEED) is a Mobile Device Management (MDM) solution. SEED ensures data security to protect the digital information of your organisation from unauthorised access, malicious users, and corruption. When you onboard an Internet Device to SEED, it becomes a GMD. It allows you to remotely manage access to highly sensitive data, provide user authentication, and can wipe off data from the device remotely if it is lost or compromised.
 
 </details><hr />
 
@@ -152,7 +152,7 @@ audit -e
 
  </details><hr />
 
- <details><summary style="font-size:20px;font-weight:bold">Previously I had successfully onboarded my internet device to SEED, but now I received an email stating that I may not be able to access SEED-protected resources such as SGTS services and products. What’s the reason, and what should I do?</summary>
+ <details><summary style="font-size:20px;font-weight:bold">Previously I had successfully onboarded my Internet Device to SEED, but now I received an email stating that I may not be able to access SEED-protected resources such as SGTS services and products. What’s the reason, and what should I do?</summary>
 
 **Reason**: Most likely, this indicates that we detected some issues with your device configuration for SEED. For example, your Microsoft Defender could be unhealthy. As such issues pose a security risk, we revoke your access to SEED resources.
 

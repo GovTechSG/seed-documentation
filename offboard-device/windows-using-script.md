@@ -10,9 +10,39 @@ This document guides you to offboard your Windows device onboarded to SEED.
 
 - You must have an active TechPass account.
 - Your device must have been onboarded to SEED.
-- [Optional] We recommend you to have your Intune device ID ready. 
+- [Optional] We recommend you to have your Intune Device ID ready. 
 
 ### Get Intune Device ID
+
+Complete one of the following methods to get your Intune Device ID:
+
+?> **Tip**<br>Click the triangle to view more details about each method.
+
+<details>
+<summary style="font-size:20px;font-weight:bold">Method 1: Get Intune Device ID from your GMD</summary>
+
+1. Open **PowerShell** and run the following commands:
+
+```
+$rootKey = [Microsoft.Win32.RegistryKey]::OpenBaseKey(
+ [Microsoft.Win32.RegistryHive]::LocalMachine,
+ [Microsoft.Win32.RegistryView]::Registry64
+)
+$enrollmentsKey = $rootKey.OpenSubKey("Software\Microsoft\Enrollments")
+$intune_id = "Intune ID not found"
+foreach ($name in $enrollmentsKey.GetSubKeyNames()) {
+ $enrollmentIdKey = $enrollmentsKey.OpenSubKey($name)
+ if ($enrollmentIdKey.GetValue("ProviderID") -ieq "MS DM Server") {
+     $intune_id = $enrollmentIdKey.OpenSubKey("DMClient\MS DM Server").GetValue("EntDMID", "Intune ID not found")
+     break
+ }
+}
+Write-Output $intune_id
+
+```
+2. Take note of the Intune Device ID that is displayed on the **Powershell** window.
+
+</details>
 
 [Get Intune Device ID](../snippets/snippets-get-intune-device-id.md ':include')
 
