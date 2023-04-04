@@ -2,6 +2,7 @@
 
 | Date  | Announcement |
 | ------------- |:-------------:|
+| 04 April 2023 | We will be performing a scheduled upgrade of our SEED servers on 04 April 2023. For more information, see [SEED service status](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/seed-status?id=scheduled-maintenance) . |
 | 24 February 2023 | We will be performing a scheduled upgrade of our SEED servers on 27 February 2023. For more information, see [SEED service status](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/seed-status?id=scheduled-maintenance) . |
 | 14 February 2023 |The following security updates are available for macOS users:<br><br>- [Safari 16.3.1](https://support.apple.com/kb/HT213638) for macOS Big Sur and macOS Monterey users<br>- [macOS 13.2.1](https://support.apple.com/kb/HT213633) for macOS Ventura users.<br><br>**Action Required**:<br>Please update the required critical security patches for your macOS device.<br><br>**Additional Information**:<br>For more information, see [Apple security updates](https://support.apple.com/en-sg/HT201222).|
 | 01 February 2023 | We will be performing a scheduled deployment on 2nd February 2023 to upgrade WAF for the DEEP dashboard. For more information, refer to [SEED service status](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/seed-status?id=scheduled-maintenance) page. |
