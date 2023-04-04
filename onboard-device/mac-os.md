@@ -29,29 +29,29 @@
   4. Open the authenticator app on your mobile phone and view your **SG Govt M365 profile**. A one-time password will be displayed. 
   5. Go back to your computer and enter this one-time password as the **Verification code** and click **Sign in**.
 
-  <img src="../images/wog-login-otp.png" width=50% height=50%>
+  <img src="./images/wog-login-otp.png" width=50% height=50%>
 
   A number will be displayed on your computer.
 
-  <img src="../images/approve-tp-login-via-number.png" width=50% height=50%>
+  <img src="./images/approve-tp-login-via-number.png" width=50% height=50%>
   
   
   6. Go back to the authenticator app and enter this number to sign in to your TechPass account. 
   7. Click **Begin**.
 
-  <img src="../images/begin-po.png">
+  <img src="./images/begin-po.png">
 
   8. Review privacy information and then click **Continue**.
 
-  <img src="../images/review-privacy-info-blurred-po.png">
+  <img src="./images/review-privacy-info-blurred-po.png">
 
   9. On the **Install management profile** page, click **Download profile**.
 
-  <img src="../images/install-management-profile-po.png">
+  <img src="./images/install-management-profile-po.png">
 
   10. Click **Install** and follow the on-screen instructions.
 
-  <img src="../images/profile-1-po.png">
+  <img src="./images/profile-1-po.png">
 
   
 
@@ -104,7 +104,7 @@ echo "$actual_id"
 ```
 2. Take note of the Intune Device ID that is displayed on the Terminal window.
 
-<img src="../images/macos-find-org-id-2.png">
+<img src="./images/macos-find-org-id-2.png">
 
 
 3. On your **non-SE GSIB** device, go to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile) > **My Account** > **Profile**.
@@ -136,7 +136,7 @@ echo "$actual_id"
 - Privacy Preferences Policy Profile
 - System Extension Profile
 
-<img src="../images/list-of-profiles.png" width=50% height=50%>
+<img src="./images/list-of-profiles.png" width=50% height=50%>
 
 
 
@@ -156,13 +156,13 @@ echo "$actual_id"
 
   If you are a vendor or a contractor, the required configuration profiles will be installed as shown below. If profile installation fails, refer to [Common onboarding issues for macOS users](faqs/common-onboarding-issues).
 
-  <kbd>![list-of-profiles](../images/onboarding-for-macos/list-of-profiles.png)</kbd>
+  <kbd>![list-of-profiles](./images/onboarding-for-macos/list-of-profiles.png)</kbd>
 
   9. Open the **Company Portal** application again.
 
   10. You will see the success message. Click **Done**.
 
-  <kbd>![all-set](../images/onboarding-for-macos/all-set-2.png)</kbd> 
+  <kbd>![all-set](./images/onboarding-for-macos/all-set-2.png)</kbd> 
 
   intune device id notes: This step is applicable only if you have a GSIB device and your TechPass ID is the same as your organisation email address. In other words, this is applicable for users whose TechPass ID's domain **is not** ```techpass.gov.sg```.
 
