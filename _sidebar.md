@@ -10,7 +10,7 @@
   - [Post onboarding instructions](post-onboarding-instructions/post-onboarding-steps-and-verification)
   - [Device clean-up policy](device-clean-up-policy)
   **Offboard device**
-  - [Offboard device from SEED](offboard-device/offboard-device-from-seed)
+  - [Offboard device from SEED](offboard-device/offboard-device-from-seed.md)
 **Troubleshoot**
   - [Known issues and FAQs](faqs/seed-faqs)
 **Additional resources**  
