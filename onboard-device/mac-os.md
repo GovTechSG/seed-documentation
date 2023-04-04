@@ -24,7 +24,7 @@
 
   3. Enter your organisational email address and click **Next**.
 
-  <img src="../images/wog-login-email-address.png" width=50% height=50%>
+  <img src="./images/wog-login-email-address.png" width=50% height=50%>
 
   4. Open the authenticator app on your mobile phone and view your **SG Govt M365 profile**. A one-time password will be displayed. 
   5. Go back to your computer and enter this one-time password as the **Verification code** and click **Sign in**.
