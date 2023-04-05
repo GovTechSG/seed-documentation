@@ -11,7 +11,7 @@
 </ifigure>
 
 
-> **Note**: Please complete all the steps within the same session.
+> **Note**: Please complete **Step 1** and **Step 2** within the same session.
 
 ## Step 1: Set up Microsoft Intune
 
