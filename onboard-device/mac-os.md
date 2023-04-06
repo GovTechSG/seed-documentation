@@ -110,7 +110,7 @@ echo "$actual_id"
 3. On your **non-SE GSIB** device, go to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile) > **My Account** > **Profile**.
 4. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune Device ID. 
 
-!> - Keep the device connected to the Internet so that Intune is able to install the required SEED components and configurations.<br>- If your onboarding is successful, within two hours, you should receive a successfully onboarded email to  your organisational email address.<br>- If you don't receive this email after two hours, submit a [incident request](https://go.gov.sg/techpass-sr).
+!> - Keep the device connected to the Internet so that Intune is able to install the required SEED components and configurations.<br>- If your onboarding is successful, within two hours, you should receive a successfully onboarded email to  your organisational email address.<br>- If you don't receive this email after two hours, submit an [incident request](https://go.gov.sg/techpass-sr).
 
 </details>
 
