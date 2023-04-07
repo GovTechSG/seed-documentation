@@ -14,7 +14,6 @@
 <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/P9R5RiMpaVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-
 > **Note**: Please complete **Step 1** and **Step 2** within the same session.
 
 ## Step 1: Set up Microsoft Intune
