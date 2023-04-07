@@ -6,9 +6,11 @@
 >- Based on your device settings, while onboarding, you may be prompted to restart your device a couple of times and reset your device password.
 >- Keep your recovery keys ready if you face issues resetting your password or logging in to your device.
 
-<ifigure>
+<!--<ifigure>
 <iframe title="YouTubeVideoPlayer" src="https://www.youtube.com/embed/P9R5RiMpaVU?showinfo=0" height="640" width="960" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</ifigure>
+</ifigure>-->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P9R5RiMpaVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 > **Note**: Please complete **Step 1** and **Step 2** within the same session.
