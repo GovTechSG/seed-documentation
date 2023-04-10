@@ -94,7 +94,7 @@ echo "$actual_id"
 1. Go to the **Apple menu** > **System Settings** > **Privacy and Security**.
 2. Select **Profiles** on the right pane. You should be able to see the following profiles.
   <ul>
-  <li style="padding-left: 30px">- Credential Profile</span></li>
+  <li style="padding-bottom:0px">- Credential Profile</span></li>
   <li>- Custom Preferences Profile - com.cloudflaare.warp</span></li>
   <li>- Custom Preferences Profile - com.microsoft.wdav</li>
   <li>- GCC2 ATP Full Disk Access</li>
