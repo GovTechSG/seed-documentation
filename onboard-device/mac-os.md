@@ -93,7 +93,7 @@ echo "$actual_id"
 
 1. Go to the **Apple menu** > **System Settings** > **Privacy and Security**.
 2. Select **Profiles** on the right pane. You should be able to see the following profiles.
-  <ul style="span {position: relative;left: -12px;}>
+  <ul style="span {position: relative;left: -12px;}">
   <li><span>- Credential Profile</span></li>
   <li><span>- Custom Preferences Profile - com.cloudflaare.warp</span></li>
   <li>- Custom Preferences Profile - com.microsoft.wdav</li>
