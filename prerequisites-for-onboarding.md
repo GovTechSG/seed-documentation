@@ -360,7 +360,7 @@ If you are onboarding a macOS device, verify if System Integrity Protection (SIP
 
 #### **Windows**
 
-1. Click the **Start** icon on the taskbar and search for **Manage BitLocker** and choose to open it. Check if BitLocker is turned on for your OSDisk. A padlock on the drive indicates that BitLocker is turned on ![](images/onboarding-instructions-for-windows/bitlocker-enabled.png). If yes, proceed to **Enrol on Cloudflare using WARP client**.
+1. Click the **Start** icon on the taskbar and search for **Manage BitLocker** and choose to open it. Check if BitLocker is turned on for your OSDisk. A padlock on the drive indicates that BitLocker is turned on ![](images/onboarding-instructions-for-windows/bitlocker-enabled.png).
 2. If BitLocker is not turned on, select **Turn on BitLocker**.
 3. When asked to choose how to unlock your drive at start up, select **Enter a password**.
 
