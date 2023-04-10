@@ -1,7 +1,6 @@
-- **Onboarding**
-  - **Public officers**
+- **Public officers**
   - [Onboard macOS](onboard-device/mac-os.md)
-  - **Vendors**
+- **Vendors**
   - [Onboard macOS](onboard-device/macos-vendor-onboarding.md)
 - [Windows](onboard-device/windows)
 - **Additional resources**
