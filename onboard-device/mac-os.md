@@ -93,20 +93,20 @@ echo "$actual_id"
 
 1. Go to the **Apple menu** > **System Settings** > **Privacy and Security**.
 2. Select **Profiles** on the right pane. You should be able to see the following profiles.
-  <ul>
-  <li style="margin-bottom:-10px">- Credential Profile</span></li>
-  <li>- Custom Preferences Profile - com.cloudflaare.warp</span></li>
-  <li>- Custom Preferences Profile - com.microsoft.wdav</li>
-  <li>- GCC2 ATP Full Disk Access</li>
-  <li>- GCC2 ATP Kernel Extensions - Custom</li>
-  <li>- GCC2 ATP Network Filter</li>
-  <li>- GCC2 ATP Notifications</li>
-  <li>- GCC2 ATP Onboarding</li>
-  <li>- Intune MDM Agent SCEP Profile</li>
-  <li>- Management Profile</li>
-  <li>- Passcode Profile</li>
-  <li>- Privacy Preferences Policy Profile</li>
-  <li>- System Extension Profile</li>
+  <ul style="list-style-type:none;">
+  <li style="margin-bottom:-20px">- Credential Profile</span></li>
+  <li style="margin-bottom:-20px">- Custom Preferences Profile - com.cloudflaare.warp</span></li>
+  <li style="margin-bottom:-20px">- Custom Preferences Profile - com.microsoft.wdav</li>
+  <li style="margin-bottom:-20px">- GCC2 ATP Full Disk Access</li>
+  <li style="margin-bottom:-20px">- GCC2 ATP Kernel Extensions - Custom</li>
+  <li style="margin-bottom:-20px">- GCC2 ATP Network Filter</li>
+  <li style="margin-bottom:-20px">- GCC2 ATP Notifications</li>
+  <li style="margin-bottom:-20px">- GCC2 ATP Onboarding</li>
+  <li style="margin-bottom:-20px">- Intune MDM Agent SCEP Profile</li>
+  <li style="margin-bottom:-20px" style="margin-bottom:-20px">- Management Profile</li>
+  <li style="margin-bottom:-20px">- Passcode Profile</li>
+  <li style="margin-bottom:-20px">- Privacy Preferences Policy Profile</li>
+  <li style="margin-bottom:-20px">- System Extension Profile</li>
   </ul>
 </details>
 
