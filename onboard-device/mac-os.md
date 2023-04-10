@@ -32,8 +32,6 @@
 
 ## Step 2: Register Microsoft Intune Device ID
 
-You need to submit your Intune Device ID on the TechPass portal to get the required SEED components and configurations on the Internet Device.
-
 <details>
   <summary style="font-size:18px">Register the Microsoft Intune Device ID for your macOS device.</summary><br>
 
