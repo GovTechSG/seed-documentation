@@ -74,13 +74,15 @@ echo "$actual_id"
 
 <img src="./images/macos-find-org-id-2.png">
 
-!> If you only have a **SE GSIB** device, submit a [support request](https://go.gov.sg/techpass-sr) to register your Intune Device ID.
+3. Choose the appropriate method to register your Intune Device ID:
 
-3. If you have a **non-SE GSIB** device, go to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile) > **My Account** > **Profile**.
-4. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune Device ID.
-5. Ensure that your device is connected to the Internet so that Intune is able to install the required SEED components and configurations. 
-6. Within the next 2 hours, check your inbox (organisational email address) to see if you have received the successfully onboarded email.
-7. If you don't receive this email after two hours, submit an [incident request](https://go.gov.sg/techpass-sr). 
+ - If you only have a **SE GSIB** device, submit a [support request](https://go.gov.sg/techpass-sr) to register your Intune Device ID and proceed to Sub-step 6.
+ - If you have a **non-SE GSIB** device,log in to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
+4. On the TechPass portal, at the top right, go to your user name and click **My Account**. Your **Profile** details are displayed. 
+5. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune Device ID.
+6. Ensure that your device is connected to the Internet so that Intune is able to install the required SEED components and configurations. 
+7. Within the next 2 hours, check your inbox (organisational email address) to see if you have received the successfully onboarded email.
+8. If you don't receive this email after two hours, submit an [incident request](https://go.gov.sg/techpass-sr). 
 
 </details>
 
