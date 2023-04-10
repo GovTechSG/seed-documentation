@@ -106,7 +106,7 @@ echo "$actual_id"
   <li style="margin-bottom:-20px" style="margin-bottom:-20px">- Management Profile</li>
   <li style="margin-bottom:-20px">- Passcode Profile</li>
   <li style="margin-bottom:-20px">- Privacy Preferences Policy Profile</li>
-  <li style="margin-bottom:-20px">- System Extension Profile</li>
+  <li>- System Extension Profile</li>
   </ul>
 </details>
 
