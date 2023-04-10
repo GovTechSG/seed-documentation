@@ -40,19 +40,21 @@
 1. Go to the **Apple menu** > **System Settings** > **Privacy and Security**.
 2. Select **Profiles** on the right pane. You should be able to see the following profiles.
 
-  - Credential Profile
-  - Custom Preferences Profile - com.cloudflaare.warp
-  - Custom Preferences Profile -com.microsoft.wdav
-  - GCC2 ATP Full Disk Access
-  - GCC2 ATP Kernel Extensions - Custom
-  - GCC2 ATP Network Filter
-  - GCC2 ATP Notifications
-  - GCC2 ATP Onboarding
-  - Intune MDM Agent SCEP Profile
-  - Management Profile
-  - Passcode Profile
-  - Privacy Preferences Policy Profile
-  - System Extension Profile
+ <ul>
+  <li>Credential Profile</li>
+  <li>Custom Preferences Profile - com.cloudflaare.warp</li>
+  <li>Custom Preferences Profile - com.microsoft.wdav</li>
+  <li>GCC2 ATP Full Disk Access</li>
+  <li>GCC2 ATP Kernel Extensions - Custom</li>
+  <li>GCC2 ATP Network Filter</li>
+  <li>GCC2 ATP Notifications</li>
+  <li>GCC2 ATP Onboarding</li>
+  <li>Intune MDM Agent SCEP Profile</li>
+  <li>Management Profile</li>
+  <li>Passcode Profile</li>
+  <li>Privacy Preferences Policy Profile</li>
+  <li>System Extension Profile</li>
+</ul>
 
 
 </details>
