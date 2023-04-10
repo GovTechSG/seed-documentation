@@ -7,10 +7,7 @@ This article explains how to onboard your Internet Device to SEED. Before you pr
 1. Complete the [prerequisites for SEED onboarding](prerequisites-for-onboarding).
 2. Identify your user type and complete the respective onboarding steps. 
 
-
-
-
-
-**Topics:**
-- [macOS](onboard-device/mac-os)
-- [Windows](onboard-device/windows)
+- **Public officers**
+  - [Onboard macOS](onboard-device/mac-os.md)
+- **Vendors**
+  - [Onboard macOS](onboard-device/macos-vendor-onboarding.md)
