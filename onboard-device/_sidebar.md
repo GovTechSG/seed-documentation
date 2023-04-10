@@ -1,3 +1,5 @@
+- **Onboarding**
+[Onboard to SEED](onboard-device/onboard-device-to-seed.md)
 - **Public officers**
   - [Onboard macOS](onboard-device/mac-os.md)
 - **Vendors**
