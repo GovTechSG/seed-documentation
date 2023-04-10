@@ -94,19 +94,19 @@ echo "$actual_id"
 1. Go to the **Apple menu** > **System Settings** > **Privacy and Security**.
 2. Select **Profiles** on the right pane. You should be able to see the following profiles.
 
-- Credential Profile<br>
-- Custom Preferences Profile - com.cloudflaare.warp<br>
-- Custom Preferences Profile -com.microsoft.wdav<br>
-- GCC2 ATP Full Disk Access<br>
-- GCC2 ATP Kernel Extensions - Custom<br>
-- GCC2 ATP Network Filter<br>
-- GCC2 ATP Notifications<br>
-- GCC2 ATP Onboarding<br>
-- Intune MDM Agent SCEP Profile<br>
-- Management Profile<br>
-- Passcode Profile<br>
-- Privacy Preferences Policy Profile<br>
-- System Extension Profile
+  - Credential Profile
+  - Custom Preferences Profile - com.cloudflaare.warp
+  - Custom Preferences Profile -com.microsoft.wdav
+  - GCC2 ATP Full Disk Access
+  - GCC2 ATP Kernel Extensions - Custom
+  - GCC2 ATP Network Filter
+  - GCC2 ATP Notifications
+  - GCC2 ATP Onboarding
+  - Intune MDM Agent SCEP Profile
+  - Management Profile
+  - Passcode Profile
+  - Privacy Preferences Policy Profile
+  - System Extension Profile
 
 
 </details>
