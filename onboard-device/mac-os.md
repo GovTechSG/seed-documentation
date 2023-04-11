@@ -14,7 +14,7 @@
 
 > **Note**: Please complete **Step 1** and **Step 2** within the same session.
 
-## Step 1: Enrol macOS device using Company Portal app
+## Step 1: Set up Microsoft Intune
 
 <details>
   <summary style="font-size:18px">Set up Microsoft Intune to get the required applications and device configurations.</summary><br>
@@ -70,7 +70,7 @@ echo "$actual_id"
 ```
 2. Take note of the Intune Device ID that is displayed on the Terminal window.
 
-<img src="./images/macos-find-org-id-2.png">
+<img src="./images/macos-get-intune-device-id.png">
 
 3. Choose the appropriate method to register your Intune Device ID:
 
