@@ -1,6 +1,5 @@
 - **Onboarding**
 [Onboard to SEED](onboard-device/onboard-device-to-seed.md)
-[Identify user type and onboarding flow]()
 - **Public officers**
   - [Onboard macOS](onboard-device/mac-os.md)
 - **Vendors**
