@@ -2,9 +2,7 @@
 
 <!-- This page is linked in the TechPass portal-Register Intune Device ID, so please do not rename this file. -->
 
-> **Note**:
->Based on your device settings, while onboarding, you may be prompted to restart your device a couple of times and reset your device password.
->Keep your recovery keys ready if you face issues resetting your password or logging in to your device.
+?> <br>- Based on your device settings, while onboarding, you may be prompted to restart your device a couple of times and reset your device password.<br>- Keep your recovery keys ready if you face issues resetting your password or logging in to your device.
 
 <!--<ifigure>
 <iframe title="YouTubeVideoPlayer" src="https://www.youtube.com/embed/P9R5RiMpaVU?showinfo=0" height="640" width="960" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -16,7 +14,7 @@
 
 > **Note**: Please complete **Step 1** and **Step 2** within the same session.
 
-## Step 1: Set up Microsoft Intune
+## Step 1: Enrol macOS device using Company Portal app
 
 <details>
   <summary style="font-size:18px">Set up Microsoft Intune to get the required applications and device configurations.</summary><br>

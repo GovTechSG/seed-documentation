@@ -1,6 +1,6 @@
 # Onboard device to SEED
 
-<!-- This page may be linked in the TechPass portal-Register Intune Device ID, so please do not rename this file. -->
+<!-- **IMPORTANT: This page is linked in the TechPass portal-Register Intune Device ID, so please DO NOT RENAME this file. -->
 
 This article explains how to onboard your Internet Device to SEED. Before you proceed further:
 
