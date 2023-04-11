@@ -114,6 +114,8 @@ echo "$actual_id"
 
 
 <!--
+
+  > <br>- Sign in to the Company Portal using your organisational email address and authenticate it by providing the one-time password displayed for your **SG Govt M365** profile on the Authenticator app.<br>- Authenticate your TechPass login on the Authenticator app by entering the number displayed on your computer.
 <img src="./images/list-of-profiles.png" width=50% height=50%>
   >**Tip**:
    >If **Profiles** page is not displayed, go to the **Apple** menu > **System Preferences** > **Profiles**.

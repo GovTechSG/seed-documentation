@@ -23,8 +23,9 @@
 
    a. Download and install Company Portal.
 
-   b. Enroll your Mac device.
+   b. Enroll your Mac device. 
 
+   
   2. Ensure that your device is connected to the Internet so that Intune is able to install the required SEED components and configurations. 
   3. Within the next 2 hours, check your inbox (organisational email address) to see if you have received the successfully onboarded email.
   4. If you don't receive this email after two hours, submit an [incident request](https://go.gov.sg/techpass-sr). 
@@ -64,6 +65,10 @@
 
 
 <!--
+
+
+?> Sign in to the Company Portal using your TechPass and authenticate it by entering the number displayed on your computer.
+
 <img src="./images/list-of-profiles.png" width=50% height=50%>
   >**Tip**:
    >- If **Profiles** page is not displayed, go to the **Apple** menu > **System Preferences** > **Profiles**.
