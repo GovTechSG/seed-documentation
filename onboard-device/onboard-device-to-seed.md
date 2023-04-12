@@ -6,7 +6,7 @@ This article explains how to onboard your Internet Device to SEED. Before you pr
 
 
 1. Ensure that you complete the [prerequisites for SEED onboarding](prerequisites-for-onboarding).
-2. Based on the following table, identify if you are a **vendor** or a **public officer**. 
+2. Based on the following table, identify your onboarding persona. 
 
 | TechPass ID| Onboard as | <div style="width:210px">Examples</div> |
 | ---- | ---- | ----|
