@@ -4,7 +4,8 @@
 <summary style="font-size:20px;font-weight:bold">Method 2: Get Intune Device ID from TechPass portal</summary>
 
 1. On your non-SE GSIB device, go to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
-2. Take note of the **Intune Device ID** from the **Profile** page.
+2. On the TechPass portal, at the top right, go to your user name and click **My Account**. Your **Profile** details are displayed. 
+3. Take note of the **Intune Device ID** from the **Profile** page.
 
 <img src="/images/tp-portal-intune-device-id.png">
 
