@@ -12,7 +12,7 @@
 ## Step 1: Set up Microsoft Intune
 
 <details>
-  <summary style="font-size:18px">Set up Microsoft Intune to get the required applications and device configurations</summary><br>
+  <summary style="font-size:18px">Set up Microsoft Intune to get the required applications and device configurations.</summary><br>
 
 1. Click **Start** icon on the taskbar.
 
@@ -21,8 +21,6 @@
 ![access-work-or-school](../images/onboarding-instructions-for-windows/access-work-or-school.png)
 
 3.Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. 
-
-![settings](../images/onboarding-instructions-for-windows/settings.png)
 
 Your account is added and listed as a connection. This account has **Info** and **Disconnect** options as shown below. 
 

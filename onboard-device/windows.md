@@ -23,9 +23,6 @@
 
 ![log-in-to-gcc](../images/onboarding-for-macos/log-in-to-gcc.png)
 
-
-![settings](../images/onboarding-instructions-for-windows/settings.png)
-
 Your account is added and listed as a connection. This account has **Info** and **Disconnect** options as shown below. 
 
 ![info-disconnect](../images/onboarding-instructions-for-windows/info-disconnect.png)
