@@ -4,10 +4,15 @@
 
 > **Note:** Based on your Windows settings, you may be prompted to restart or reset your password while onboarding.
 
+<div style="position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden;">
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/Cvb7lppxFqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
+</div>
 
+<!--
 <ifigure>
 <iframe title="YouTubeVideoPlayer" src="https://www.youtube.com/embed/Cvb7lppxFqs" height="580" width="1000" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </ifigure>
+-->
 
 > **Note**: Please complete all the steps within the same session.
 
