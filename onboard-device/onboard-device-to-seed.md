@@ -10,8 +10,8 @@ This article explains how to onboard your Internet Device to SEED. Before you pr
 
 | TechPass ID| Onboard as | <div style="width:210px">Examples</div> |
 | ---- | ---- | ----|
-| If your TechPass ID belongs to domain **techpass.gov.sg** | vendor | john_doe@techpass.gov.sg |
-| If your TechPass ID is same as your organisational email address (WOG account) | public officer | - john_doe@tech.gov.sg<br>- john_doe@moe.gov.sg |
+| TechPass ID belongs to domain **techpass.gov.sg** | vendor | john_doe@techpass.gov.sg |
+| TechPass ID is same as your organisational email address (WOG account) | public officer | - john_doe@tech.gov.sg<br>- john_doe@moe.gov.sg |
 
 <!--
 | User| Description | <div style="width:210px">Examples</div> |
