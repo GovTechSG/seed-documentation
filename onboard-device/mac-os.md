@@ -84,7 +84,7 @@ echo "$actual_id"
 
 </details>
 
-## Step 3: Verify profiles installation
+## Step 3: Verify installation
 
 <details>
   <summary style="font-size:18px">Verify the  installation of the required profiles.</summary><br>
