@@ -61,11 +61,6 @@ Write-Output $intune_id
 5. Ensure that your device is connected to the Internet so that Intune is able to install the required SEED components and configurations. 
 6. Within the next 2 hours, check your inbox (organisational email address) to see if you have received the successfully onboarded email.
 7. If you don't receive this email after two hours, submit an [incident request](https://go.gov.sg/techpass-sr). 
-8. After receiving the email notification, a desktop notification will be sent to inform you of the device name change and snd requesting that you restart the device. Do the following:
-
-  i. Save your current work and restart your device.
-
-  ii. If prompted to specify your password, enter it.
 
 ## Step 3: Verify installation
 
