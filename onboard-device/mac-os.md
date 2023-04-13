@@ -1,4 +1,4 @@
-# Onboard macOS to SEED as public officer
+# Onboard macOS to SEED as public officers
 
 <!-- This page is linked in the TechPass portal-Register Intune Device ID, so please do not rename this file. -->
 

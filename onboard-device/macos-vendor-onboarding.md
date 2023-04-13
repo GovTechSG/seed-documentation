@@ -1,4 +1,4 @@
-# Onboard macOS to SEED as vendors and contractors
+# Onboard macOS to SEED as vendors
 
 <!-- This page is linked in the TechPass portal-Register Intune Device ID, so please do not rename this file. -->
 
