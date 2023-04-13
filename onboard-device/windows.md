@@ -1,4 +1,4 @@
-# Onboard Windows device to SEED as public officer
+# Onboard Windows device to SEED as public officers
 
 > **Note:** Based on your Windows settings, you may be prompted to restart or reset your password while onboarding.
 
@@ -19,7 +19,7 @@
 
 ![access-work-or-school](../images/onboarding-instructions-for-windows/access-work-or-school.png)
 
-3. Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. Authorise your WOG account by entering the verification code displayed for your SG Govt M365 profile on the authenticator app before approving your Techpass login.
+3. Authorise your WOG account by entering the verification code displayed for your SG Govt M365 profile on the authenticator app before approving your TechPass login.
 
 ![log-in-to-gcc](../images/onboarding-for-macos/log-in-to-gcc.png)
 
@@ -59,13 +59,16 @@ Write-Output $intune_id
 
 ![intune-id](../images/offboarding-windows/intune-id.png)
 
-!> If you only have a **SE GSIB** device, submit a [support request](https://go.gov.sg/techpass-sr) to register your Intune Device ID.
+3. Choose the appropriate method to register your Intune Device ID:
 
-3. If you have a **non-SE GSIB** device, go to [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile) > **My Account** > **Profile**.
-4. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune Device ID.
-5. Ensure that your device is connected to the Internet so that Intune is able to install the required SEED components and configurations. 
-6. Within the next 2 hours, check your inbox (organisational email address) to see if you have received the successfully onboarded email.
-7. If you don't receive this email after two hours, submit an [incident request](https://go.gov.sg/techpass-sr). 
+ - If you only have a **SE GSIB** device, submit a [support request](https://go.gov.sg/techpass-sr) to register your Intune Device ID and proceed to Sub-step 6.
+ - If you have a **non-SE GSIB** device,log in to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
+4. On the TechPass portal, at the top right, go to your user name and click **My Account**. Your **Profile** details are displayed. 
+5. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune Device ID.
+6. Ensure that your device is connected to the Internet so that Intune is able to install the required SEED components and configurations. 
+7. Within the next 2 hours, check your inbox (organisational email address) to see if you have received the successfully onboarded email.
+8. If you don't receive this email after two hours, submit an [incident request](https://go.gov.sg/techpass-sr). 
+
 
 </details>
 
@@ -74,7 +77,12 @@ Write-Output $intune_id
 <details>
   <summary style="font-size:18px">Verify the installation.</summary><br>
 
-1. Go to the Internet Device onboarded to SEED, open **Settings** > **Apps** > **Apps & features**. Ensure that Tanium and Cloudflare WARP are listed.
+1. Go to the Internet Device onboarded to SEED, open **Settings** > **Apps** > **Apps & features**. 
+2. Ensure that Cloudflare WARP and Tanium are listed.
+
+![cloudflare](../images/onboarding-instructions-for-windows/cloudflare.png)
+
+![tanium](../images/onboarding-instructions-for-windows/tanium.png)
 
 </details>
 

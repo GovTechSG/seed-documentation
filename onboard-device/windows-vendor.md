@@ -1,4 +1,4 @@
-# Onboard Windows device to SEED as vendors and contractors
+# Onboard Windows device to SEED as vendors
 
 > **Note:** Based on your Windows settings, you may be prompted to restart or reset your password while onboarding.
 
@@ -15,11 +15,13 @@
 
 1. Click **Start** icon on the taskbar.
 
-2. Go to **Settings** > **Accounts** > **Access work or school** and click **Connect** to add your TechPassaccount.
+2. Go to **Settings** > **Accounts** > **Access work or school** and click **Connect** to add your TechPass account.
 
 ![access-work-or-school](../images/onboarding-instructions-for-windows/access-work-or-school.png)
 
-3.Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. 
+3. Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. 
+
+![techpass-sign-in](../images/onboarding-instructions-for-windows/techpass-sign-in.png)
 
 Your account is added and listed as a connection. This account has **Info** and **Disconnect** options as shown below. 
 
@@ -27,7 +29,7 @@ Your account is added and listed as a connection. This account has **Info** and 
 
 4. Select the **Info** option and verify that a similar result to the following is displayed. You will see **TechPass** instead of **SG Govt M365**.
 
-![managed-by-sg-govt-m365](../images/onboarding-instructions-for-windows/managed-by-sg-govt-m365.png)
+![managed-by-tp](../images/onboarding-instructions-for-windows/managed-by-tp.png)
 
 </details>
 
@@ -37,7 +39,12 @@ Your account is added and listed as a connection. This account has **Info** and 
 <details>
   <summary style="font-size:18px">Verify the installation.</summary><br>
 
-1. Go to the Internet Device onboarded to SEED, open **Settings** > **Apps** > **Apps & features**. Ensure that Tanium and Cloudflare WARP are listed.
+1. Go to the Internet Device onboarded to SEED, open **Settings** > **Apps** > **Apps & features**. 
+2. Ensure that Cloudflare WARP and Tanium are listed.
+
+![cloudflare](../images/onboarding-instructions-for-windows/cloudflare.png)
+
+![tanium](../images/onboarding-instructions-for-windows/tanium.png)
 
 </details>
 
