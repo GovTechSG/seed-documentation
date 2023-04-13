@@ -31,9 +31,12 @@ Your account is added and listed as a connection. This account has **Info** and 
 
 ![managed-by-sg-govt-m365](../images/onboarding-instructions-for-windows/managed-by-sg-govt-m365.png)
 
+</details>
+
 ## Step 2: Register Microsoft Intune Device ID
 
-<details><summary style="font-size:18px">Register the Microsoft Intune Device ID for your Windows device.</summary>
+<details>
+  <summary style="font-size:18px">Register the Microsoft Intune Device ID for your Windows device.</summary>
 
 1. Open **PowerShell** and run the following commands:
 ```
@@ -63,6 +66,8 @@ Write-Output $intune_id
 5. Ensure that your device is connected to the Internet so that Intune is able to install the required SEED components and configurations. 
 6. Within the next 2 hours, check your inbox (organisational email address) to see if you have received the successfully onboarded email.
 7. If you don't receive this email after two hours, submit an [incident request](https://go.gov.sg/techpass-sr). 
+
+</details>
 
 ## Step 3: Verify installation
 

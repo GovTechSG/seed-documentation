@@ -29,6 +29,8 @@ Your account is added and listed as a connection. This account has **Info** and 
 
 ![managed-by-sg-govt-m365](../images/onboarding-instructions-for-windows/managed-by-sg-govt-m365.png)
 
+</details>
+
 
 ## Step 2: Verify installation
 
