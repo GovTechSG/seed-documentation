@@ -5,7 +5,7 @@
   - [Onboard Windows](onboard-device/windows.md)
 - **Vendors**
   - [Onboard macOS](onboard-device/macos-vendor-onboarding.md)
-  - [Onboard Windows](onboard-device/windows-vendors.md)
+  - [Onboard Windows](onboard-device/windows-vendor.md)
 - **Additional resources**
   - [Back to main](/prerequisites-for-onboarding)
 
