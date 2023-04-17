@@ -26,5 +26,8 @@ This article explains how to onboard your Internet Device to SEED. Before you pr
 
   - **Public officers**
     - [Onboard macOS](onboard-device/mac-os.md)
+    - [Onboard Windows](onboard-device/windows.md)
+
   - **Vendors**
     - [Onboard macOS](onboard-device/macos-vendor-onboarding.md)
+    - [Onboard Windows](onboard-device/windows-vendor.md)
