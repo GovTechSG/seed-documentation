@@ -2,9 +2,10 @@
 [Onboard to SEED](onboard-device/onboard-device-to-seed.md)
 - **Public officers**
   - [Onboard macOS](onboard-device/mac-os.md)
+  - [Onboard Windows](onboard-device/windows.md)
 - **Vendors**
   - [Onboard macOS](onboard-device/macos-vendor-onboarding.md)
-- [Windows](onboard-device/windows)
+  - [Onboard Windows](onboard-device/windows-vendors.md)
 - **Additional resources**
   - [Back to main](/prerequisites-for-onboarding)
 
