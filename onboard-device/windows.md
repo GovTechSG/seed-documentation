@@ -1,6 +1,6 @@
 # Onboard Windows device to SEED as public officers
 
-> **Note:** Based on your Windows settings, you may be prompted to restart or reset your password while onboarding.
+?> <br>- Based on your Windows settings, you may be prompted to restart or reset your password while onboarding.
 
 <div style="position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden;">
 <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/Cvb7lppxFqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
