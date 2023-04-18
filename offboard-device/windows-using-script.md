@@ -96,14 +96,13 @@ echo $OrgID
   | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    | [Download offboarding script](https://k3uwa66lu3tj6uxft46666ynhe0uvzor.lambda-url.ap-southeast-1.on.aws/local_tp_windows)    |
   | 6389e966-e334-461d-86ce-0fed12484620 | Hive | Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package. |
 
-!> **Important**<br> If your Defender organisation is neither **WOG** nor **TechPass**, contact the IT support of the organisation that provided you with the device.
+  !> **Important**<br> If your Defender organisation is neither **WOG** nor **TechPass**, contact the IT support of the organisation that provided you with the device.
 
 6. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files.
 
-![extract-files](../images/offboarding-windows/win_extracted_files_for_offboarding.PNG)
+  ![extract-files](../images/offboarding-windows/win_extracted_files_for_offboarding.PNG)
 
-
-?> **Note**: The file names vary with the organisation.
+  ?> **Note**: The file names vary with the organisation.
 
 7. Right-click the unzipped folder to select **Show more options** > **Copy as path**. The folder path is now saved to your clipboard.
 
