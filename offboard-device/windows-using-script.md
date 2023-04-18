@@ -44,7 +44,7 @@ Write-Output $intune_id
 
 </details>
 
-[Get Intune Device ID](../snippets/snippets-get-intune-device-id.md ':include')
+
 
 !> **Note**<br>If you have any issues with the offboarding steps, see the [Offboarding FAQs](/faqs/seed-offboarding-faqs) before submitting an [incident request](https://go.gov.sg/techpass-sr) with TechPass support.
 
@@ -128,3 +128,10 @@ When you see the following success message on your **Powershell**, you are autom
 ![successfully-offboarded-email](../images/offboarding-windows/win-successfully-offboarded-email.png)
 
 ?> **Additional information**<br>- We require up to 30 minutes to process your server-side offboarding request.<br>- If you are still waiting to receive an email after 30 minutes, please submit a [TechPass support request](https://go.gov.sg/techpass-sr).
+
+
+<!--
+
+[Get Intune Device ID](../snippets/snippets-get-intune-device-id.md ':include')
+
+-->

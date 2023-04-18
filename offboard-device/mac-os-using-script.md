@@ -63,7 +63,26 @@ echo "$actual_id"
 
 </details>
 
-[Get Intune Device ID](../snippets/snippets-get-intune-device-id.md ':include')
+<details>
+<summary style="font-size:20px;font-weight:bold">Method 2: Get Intune Device ID from TechPass portal</summary>
+
+1. On your non-SE GSIB device, go to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
+2. On the TechPass portal, at the top right, go to your user name and click **My Account**. Your **Profile** details are displayed. 
+3. Take note of the **Intune Device ID** from the **Profile** page.
+
+![tp-intune-device-id](../images/tp-portal-intune-device-id.png)
+
+</details>
+
+<details>
+<summary style="font-size:20px;font-weight:bold">Method 3: Submit an incident request to get Intune Device ID.</summary>
+
+?> **Note**<br>Use this method only if you can't log in to your GMD or TechPass portal.
+
+- Submit an [incident request](https://go.gov.sg/techpass-sr) to get your Intune Device ID.
+
+</details>
+
 
 !> **Note**<br>If you have any issues with the offboarding steps, see the [Offboarding FAQs](/faqs/seed-offboarding-faqs) before submitting an [incident request](https://go.gov.sg/techpass-sr) with TechPass support.
 
@@ -141,7 +160,13 @@ When you see the following success message on your **Terminal**, you are automat
  
       
 
+<!--
 
+[Get Intune Device ID](../snippets/snippets-get-intune-device-id.md ':include')
+
+
+
+-->
 
 
 
