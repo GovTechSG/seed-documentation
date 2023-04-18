@@ -6,7 +6,7 @@ After you onboard your Windows Internet Device to SEED, you need to turn on Clou
 
 !> Make sure your device is **not connected** to any other VPN, as it might clash with Cloudflare WARP.
 
-### To turun on Cloudflare WARP for Windows
+### To turn on Cloudflare WARP for Windows
 
 1. Open the Cloudflare WARP client from the Windows Taskbar. You will see the information page, followed by the privacy policy.
 

@@ -7,16 +7,18 @@ This page provides the following Information:
 
 ## Scheduled maintenance
 
-| Date | 04 April 2023 |
-| ------------- |:-------------|
-| Issue summary| We will be performing a scheduled upgrade of our SEED servers on 04 April 2023.<br><br>**Start time** : 04 April 2023, 18:00 SGT<br>**End time**&nbsp;&nbsp;&nbsp;: 04 April 2023, 19:00 SGT<br><br>**Impact**<br>- For existing SEED users: Your device statuses on the DEEP Dashboard may not be updated.<br>- For new SEED users: Your SEED onboarding may be delayed.<br><br>**Action required**<br>- After the deployment, check if you can access the [DEEP dashboard](https://dashboard.deep.tech.gov.sg/).<br>- If you have issues accessing the DEEP dashboard, please create an [incident support request](raise-an-incident-support-request). |
-
+None
 
 ## Ongoing incidents
 
-None
+No ongoing incidents!
+
 
 ## Previous incidents
+
+| Date | 05 April 2023 |
+| ------------- |:-------------|
+| **Issue summary** | **Resolved**: We identified and implemented a fix for Windows users who experienced connectivity issues with the latest Cloudflare WARP client(2023.3.381.0). <br><br>**Issue start time**&nbsp;&nbsp;**&nbsp;:** 05 April 2023, 10:00 SGT<br>**Issue end time**&nbsp;&nbsp;**&nbsp;&nbsp;&nbsp;:**&nbsp;05 April 2023, 14:30 SGT<br><br>**Impact**: Some of the Windows users would have been unable to connect to GCC 2.0 or SGTS services without a WARP connection.<br><br>*Posted on: 05 April 2023, 16:00 SGT*<br><br><b>What should I do if I am still having an issue?</b><br>Create an [incident support request](https://go.gov.sg/techpass-sr) with the support team. |
 
 | Date | 18 December 2022 |
 | ------------- |:-------------|
