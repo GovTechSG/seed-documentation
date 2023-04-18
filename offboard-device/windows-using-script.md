@@ -66,9 +66,6 @@ Write-Output $intune_id
 
 </details>
 
-
-
-
 !> **Note**<br>If you have any issues with the offboarding steps, see the [Offboarding FAQs](/faqs/seed-offboarding-faqs) before submitting an [incident request](https://go.gov.sg/techpass-sr) with TechPass support.
 
 ## Phase A: Offboard device from SEED components
