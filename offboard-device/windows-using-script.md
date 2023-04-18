@@ -42,11 +42,8 @@ Write-Output $intune_id
 ```
 2. Take note of the Intune Device ID that is displayed on the **Powershell** window.
 
-test
-
 </details>
 
-## test
 
 <details>
 <summary style="font-size:20px;font-weight:bold">Method 2: Get Intune Device ID from TechPass portal</summary>
