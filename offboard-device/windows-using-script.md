@@ -101,9 +101,9 @@ echo $OrgID
 6. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files.
 
 
-  ![extract-files](../images/offboarding-windows/win_extracted_files_for_offboarding.PNG)
+  ![extract-files](../images/offboarding-windows/win-extracted-files-for-offboarding.png)
 
-  ?> **Note**: The file names vary with the organisation.
+?> **Note**: The file names vary with the organisation.
 
 7. Right-click the unzipped folder to select **Show more options** > **Copy as path**. The folder path is now saved to your clipboard.
 
