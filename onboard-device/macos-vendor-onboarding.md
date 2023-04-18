@@ -27,7 +27,7 @@
 
    
   2. Ensure that your device is connected to the Internet so that Intune is able to install the required SEED components and configurations. 
-  3. Within the next 2 hours, check your inbox (organisational email address) to see if you have received the successfully onboarded email.
+  3. Within the next two hours, check your inbox (organisational email address) to see if you have received the successfully onboarded email.
   4. If you don't receive this email after two hours, submit an [incident request](https://go.gov.sg/techpass-sr). 
 
 </details>

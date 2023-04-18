@@ -79,7 +79,7 @@ echo "$actual_id"
 4. On the TechPass portal, at the top right, go to your user name and click **My Account**. Your **Profile** details are displayed. 
 5. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune Device ID.
 6. Ensure that your device is connected to the Internet so that Intune is able to install the required SEED components and configurations. 
-7. Within the next 2 hours, check your inbox (organisational email address) to see if you have received the successfully onboarded email.
+7. Within the next two hours, check your inbox (organisational email address) to see if you have received the successfully onboarded email.
 8. If you don't receive this email after two hours, submit an [incident request](https://go.gov.sg/techpass-sr). 
 
 </details>
