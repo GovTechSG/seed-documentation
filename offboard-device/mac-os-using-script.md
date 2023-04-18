@@ -72,7 +72,6 @@ echo "$actual_id"
 
 ![tp-intune-device-id](../images/tp-portal-intune-device-id.png)
 
-![note-org-id](../images/macos-find-org-id-2.png)
 
 </details>
 
