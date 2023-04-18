@@ -74,8 +74,8 @@ echo "$actual_id"
 
 ![tp-intune-device-id](../images/tp-portal-intune-device-id.png)
 
-
 </details>
+
 
 <details>
 <summary style="font-size:20px;font-weight:bold">Method 3: Submit an incident request to get Intune Device ID.</summary>
