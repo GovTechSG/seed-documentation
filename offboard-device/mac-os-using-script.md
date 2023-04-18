@@ -71,7 +71,7 @@ echo "$actual_id"
 3. Take note of the **Intune Device ID** from the **Profile** page.
 
 
-<img src="../images/tp-portal-intune-device-id.png">
+![tp-intune-device-id](../images/tp-portal-intune-device-id.png)
 
 </details>
 
@@ -83,6 +83,7 @@ echo "$actual_id"
 - Submit an [incident request](https://go.gov.sg/techpass-sr) to get your Intune Device ID.
 
 </details>
+
 
 !> **Note**<br>If you have any issues with the offboarding steps, see the [Offboarding FAQs](/faqs/seed-offboarding-faqs) before submitting an [incident request](https://go.gov.sg/techpass-sr) with TechPass support.
 
@@ -162,7 +163,15 @@ When you see the following success message on your **Terminal**, you are automat
 
 <!--
 
+
 [Get Intune Device ID](../snippets/snippets-get-intune-device-id.md ':include')
+
+
+
+
+
+[Get Intune Device ID](../snippets/snippets-get-intune-device-id.md ':include')
+
 -->
 
 
