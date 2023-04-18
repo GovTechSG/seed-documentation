@@ -1,5 +1,5 @@
 # Offboard Windows device using a script
- 
+
 This document guides you to offboard your Windows device onboarded to SEED.
 
 ## Audience
@@ -10,7 +10,7 @@ This document guides you to offboard your Windows device onboarded to SEED.
 
 - You must have an active TechPass account.
 - Your device must have been onboarded to SEED.
-- [Optional] We recommend you to have your Intune Device ID ready. 
+- [Optional] We recommend you to have your Intune Device ID ready.
 
 ### Get Intune Device ID
 
@@ -44,15 +44,11 @@ Write-Output $intune_id
 
 </details>
 
-<!--
-[Get Intune Device ID](../snippets/snippets-get-intune-device-id.md ':include')
--->
-
 <details>
 <summary style="font-size:20px;font-weight:bold">Method 2: Get Intune Device ID from TechPass portal</summary>
 
 1. On your non-SE GSIB device, go to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
-2. On the TechPass portal, at the top right, go to your user name and click **My Account**. Your **Profile** details are displayed. 
+2. On the TechPass portal, at the top right, go to your user name and click **My Account**. Your **Profile** details are displayed.
 3. Take note of the **Intune Device ID** from the **Profile** page.
 
 ![tp-intune-device-id](../images/tp-portal-intune-device-id.png)
@@ -85,7 +81,7 @@ Write-Output $intune_id
 $reg64 = [Microsoft.Win32.RegistryKey]::OpenBaseKey([Microsoft.Win32.RegistryHive]::LocalMachine, [Microsoft.Win32.RegistryView]::Registry64)
 $OrgID =  $reg64.OpenSubKey("SOFTWARE\MICROSOFT\Windows Advanced Threat Protection\Status").GetValue("OrgID")
 echo $OrgID
-``` 
+```
 
 
 4. Take note of the value displayed for **OrgID**.
@@ -95,14 +91,14 @@ echo $OrgID
 5. Refer to the following table and identify your **Defender organisation** and download the offboarding package.
 
   | OrgID | Defender organisation | Offboarding package |
-  | ------------- |:-------------:|:-------------:| 
+  | ------------- |:-------------:|:-------------:|
   | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     | [Download offboarding script](https://k3uwa66lu3tj6uxft46666ynhe0uvzor.lambda-url.ap-southeast-1.on.aws/local_wog_windows) |
   | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    | [Download offboarding script](https://k3uwa66lu3tj6uxft46666ynhe0uvzor.lambda-url.ap-southeast-1.on.aws/local_tp_windows)    |
   | 6389e966-e334-461d-86ce-0fed12484620 | Hive | Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package. |
 
 !> **Important**<br> If your Defender organisation is neither **WOG** nor **TechPass**, contact the IT support of the organisation that provided you with the device.
 
-6. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files. 
+6. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files.
 
 ![extract-files](../images/offboarding-windows/win_extracted_files_for_offboarding.PNG)
 
@@ -112,11 +108,16 @@ echo $OrgID
 
 8. On **Powershell**, run the following command to go to the folder which has the extracted files:
 
-    ```cd {Path from clipboard}```
+    ```
+    cd {Path from clipboard}
+    ```
 
     For example:
 
-    ```cd "C:\Users\testUser\Downloads\Offboarding_local_tp_windows"```
+    ```
+    cd "C:\Users\testUser\Downloads\Offboarding_local_tp_windows"
+
+    ```
 
     ![directory](../images/offboarding-windows/windows_cd_downloads.png)
 
@@ -124,9 +125,10 @@ echo $OrgID
 
     ```
     powershell.exe -ExecutionPolicy Bypass .\local_windows_offboarding.ps1
+
     ```
 
-When you see the following success message on your **Powershell**, you are automatically directed to the **SEED offboarding: Request to remove device record** form to submit the Intune Device ID. 
+When you see the following success message on your **Powershell**, you are automatically directed to the **SEED offboarding: Request to remove device record** form to submit the Intune Device ID.
 
 ![macos-success-message](../images/offboarding-windows/windows_success_message.png)
 

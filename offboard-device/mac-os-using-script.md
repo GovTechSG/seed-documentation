@@ -1,5 +1,5 @@
 # Offboard macOS device using a script
- 
+
  This document guides you to offboard your macOS device onboarded to SEED.
 
 ## Audience
@@ -10,7 +10,7 @@
 
 - You must have an active TechPass account.
 - Your device must have been onboarded to SEED.
-- [Optional] We recommend you to have your Intune Device ID ready. 
+- [Optional] We recommend you to have your Intune Device ID ready.
 
 ### Get Intune Device ID
 
@@ -63,13 +63,11 @@ echo "$actual_id"
 
 </details>
 
-<!--[Get Intune Device ID](../snippets/snippets-get-intune-device-id.md ':include')-->
-
 <details>
 <summary style="font-size:20px;font-weight:bold">Method 2: Get Intune Device ID from TechPass portal</summary>
 
 1. On your non-SE GSIB device, go to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
-2. On the TechPass portal, at the top right, go to your user name and click **My Account**. Your **Profile** details are displayed. 
+2. On the TechPass portal, at the top right, go to your user name and click **My Account**. Your **Profile** details are displayed.
 3. Take note of the **Intune Device ID** from the **Profile** page.
 
 ![tp-intune-device-id](../images/tp-portal-intune-device-id.png)
@@ -104,15 +102,15 @@ echo "$actual_id"
 3. Refer to the following table and identify your **Defender organisation** and download the respective offboarding package.
 
   | org_id  | Defender organisation | Offboarding package |
-  | ------------- |:-------------:|:-------------:| 
+  | ------------- |:-------------:|:-------------:|
   | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     | [Download offboarding package](https://k3uwa66lu3tj6uxft46666ynhe0uvzor.lambda-url.ap-southeast-1.on.aws/local_wog_mac)    |
-  | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    | [Download offboarding package](https://k3uwa66lu3tj6uxft46666ynhe0uvzor.lambda-url.ap-southeast-1.on.aws/local_tp_mac)     | 
+  | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    | [Download offboarding package](https://k3uwa66lu3tj6uxft46666ynhe0uvzor.lambda-url.ap-southeast-1.on.aws/local_tp_mac)     |
   | 6389e966-e334-461d-86ce-0fed12484620 | Hive | Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package. |
-  
+
 
 !> **Important**<br> If your Defender organisation is neither **WOG** nor **TechPass**, contact the IT support of the organisation that provided you with the device.
 
-4. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files. 
+4. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files.
 
 ![extract-files](../images/macos-extracted-files-for-offboarding.png)
 
@@ -124,14 +122,18 @@ echo "$actual_id"
 
 6. Copy the below and run it on the same **Terminal**.
 
-    ```sudo chmod +x local_mac_offboarding.sh```
+    ```
+    sudo chmod +x local_mac_offboarding.sh
+    ```
 
 7. When prompted for a **Password**, enter your device password.
 8. Copy and run the following command on your **Terminal**.
 
-    ```sudo ./local_mac_offboarding.sh```
+    ```
+    sudo ./local_mac_offboarding.sh
+    ```
 
-When you see the following success message on your **Terminal**, you are automatically directed to the **SEED Offboarding: Device Record Removal** form to submit the Intune Device ID. 
+When you see the following success message on your **Terminal**, you are automatically directed to the **SEED Offboarding: Device Record Removal** form to submit the Intune Device ID.
 
 ![macos-success-message](../images/macos-success-message.png)
 
@@ -157,21 +159,8 @@ When you see the following success message on your **Terminal**, you are automat
 
 ![successfully-offboarded-email](../images/macos-successfully-offboarded-email.png)
 
-?> **Additional information**<br>- We require up to 30 minutes to process your server-side offboarding request.<br>- If you are still waiting to receive an email after 30 minutes, please submit a [TechPass support request](https://go.gov.sg/techpass-sr). 
-
- 
-      
+?> **Additional information**<br>- We require up to 30 minutes to process your server-side offboarding request.<br>- If you are still waiting to receive an email after 30 minutes, please submit a [TechPass support request](https://go.gov.sg/techpass-sr).
 
 
-
-
-
-
-
-
-
-
- 
-
-
-
+<!--
+[Get Intune Device ID](../snippets/snippets-get-intune-device-id.md ':include')-->
