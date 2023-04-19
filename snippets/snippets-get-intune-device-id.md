@@ -8,7 +8,7 @@
 3. Take note of the **Intune Device ID** from the **Profile** page.
 
 
-<img src="../../../images/tp-portal-intune-device-id.png">
+<img src="/images/tp-portal-intune-device-id.png">
 
 </details>
 

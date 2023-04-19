@@ -158,6 +158,9 @@ When you see the following success message on your **Terminal**, you are automat
 
 ?> **Additional information**<br>- We require up to 30 minutes to process your server-side offboarding request.<br>- If you are still waiting to receive an email after 30 minutes, please submit a [TechPass support request](https://go.gov.sg/techpass-sr). 
 
+
+[Get Intune Device ID](../snippets/snippets-get-intune-device-id.md ':include')
+
  
       
 
