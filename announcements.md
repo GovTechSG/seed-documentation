@@ -2,7 +2,7 @@
 
 | Date  | Announcement |
 | ------------- |:-------------:|
-| 19 April 2023 | We will be performing a scheduled maintenance on our SEED servers on 21 April 2023. For more information, see [SEED service status](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/seed-status?id=scheduled-maintenance). |
+| 20 April 2023 | We will be performing a scheduled maintenance on our SEED servers on 21 April 2023. For more information, see [SEED service status](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/seed-status?id=scheduled-maintenance). |
 | 05 April 2023 | Some of the Windows users would have been unable to connect to GCC 2.0 or SGTS services due to an issue with Cloudflare WARP. For more information, see [SEED service status](seed-status?id=previous-incidents). |
 | 04 April 2023 | We will be performing a scheduled upgrade of our SEED servers on 04 April 2023. For more information, see [SEED service status](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/seed-status?id=scheduled-maintenance) . |
 | 24 February 2023 | We will be performing a scheduled upgrade of our SEED servers on 27 February 2023. For more information, see [SEED service status](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/seed-status?id=scheduled-maintenance) . |
