@@ -101,8 +101,6 @@ echo $OrgID
 
     ![extract-files](../images/offboarding-windows/windows-extracted-files.png)
 
-    ![directory](../images/offboarding-windows/windows_cd_downloads.png)
-
 ?> **Note**: The file names vary with the organisation.
 
 7. Right-click the unzipped folder to select **Show more options** > **Copy as path**. The folder path is now saved to your clipboard.
