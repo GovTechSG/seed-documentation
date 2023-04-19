@@ -167,20 +167,24 @@ As suggested wait for few minutes, retry enrolling your device to Microsoft Intu
 
 This may occur if your new password does not meet the following password requirements:
 
-  - should contain at least 12 characters
-  - should not be the same as the previous three passwords
+  - should contain at least 12 characters.
+  - should not be the same as the previous three passwords.
   - same character cannot be used consecutively.
-  - cannot have three sequential characters
-  - should contain at least one number and one alphabetic character
+  - cannot have three sequential characters.
+  - should contain at least one number and one alphabetic character.
 
-<p>There are three password reset options and you may choose one of them to reset password.</p>
+Following are the three options available to reset your password:
 
-<details><summary style="font-size:20px;font-weight:bold">Reset password using your Apple ID</summary>
- <p>Refer to <a href="https://support.apple.com/en-gb/guide/mac-help/mh35902/mac">Reset your Mac login password uisng Apple ID</a> for step-by-step instructions.</p></details>
+  <details><summary style="font-size:20px;font-weight:bold">Reset password using Apple ID</summary>
 
-  <details><summary style="font-size:20px;font-weight:bold">Reset password using a recovery key</summary>
+ Refer to [Reset your Mac login password uisng Apple ID](https://support.apple.com/en-gb/guide/mac-help/mh35902/mac) for step-by-step instructions.
+ 
+  </details>
 
-  *To reset password using recovery key* :
+  <details><summary style="font-size:20px;font-weight:bold">Reset password using recovery key</summary>
+
+  **To reset password using recovery key**
+
   1. Click the question mark next to the password field in the login window.
 
   ?> If you don't see a question mark, press and hold the power button until your Mac shuts down, then press the power button to restart your Mac. Alternatively, enter any password three times.
