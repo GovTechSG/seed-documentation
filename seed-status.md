@@ -7,7 +7,10 @@ This page provides the following Information:
 
 ## Scheduled maintenance
 
-None
+| Date | 19 April 2023 |
+| ------------- |:-------------|
+| **Issue summary** | We will be performing a scheduled maintenance on our SEED servers on 21 April 2023.<br><br>**Start time** : 21 April 2023, 09:00 a.m. SGT<br>**End time**&nbsp;&nbsp;&nbsp;: 21 April 2023, 10:00 a.m. SGT<br><br>**Impact**<br>- Users may not be able to access GCC 2.0 CMP or SGTS services during the maintenance window.<br><br>**Action required**<br>- After the maintenance window, check if you can access [GCC 2.0 CMP](https://cmp.gcc.gov.sg/public/home) or the SGTS services.<br>- If you have issues accessing them, please create an [incident support request](raise-an-incident-support-request). |
+
 
 ## Ongoing incidents
 

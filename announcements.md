@@ -2,7 +2,8 @@
 
 | Date  | Announcement |
 | ------------- |:-------------:|
-| 05 April 2023 | Some of the Windows users would have been unable to connect to GCC 2.0 or SGTS services due to an issue with Cloudflare WARP. For more information, see [SEED service status](seed-status?id=previous-incidents). | 
+| 19 April 2023 | We will be performing a scheduled maintenance on our SEED servers on 21 April 2023. For more information, see [SEED service status](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/seed-status?id=scheduled-maintenance). |
+| 05 April 2023 | Some of the Windows users would have been unable to connect to GCC 2.0 or SGTS services due to an issue with Cloudflare WARP. For more information, see [SEED service status](seed-status?id=previous-incidents). |
 | 04 April 2023 | We will be performing a scheduled upgrade of our SEED servers on 04 April 2023. For more information, see [SEED service status](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/seed-status?id=scheduled-maintenance) . |
 | 24 February 2023 | We will be performing a scheduled upgrade of our SEED servers on 27 February 2023. For more information, see [SEED service status](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/seed-status?id=scheduled-maintenance) . |
 | 14 February 2023 |The following security updates are available for macOS users:<br><br>- [Safari 16.3.1](https://support.apple.com/kb/HT213638) for macOS Big Sur and macOS Monterey users<br>- [macOS 13.2.1](https://support.apple.com/kb/HT213633) for macOS Ventura users.<br><br>**Action Required**:<br>Please update the required critical security patches for your macOS device.<br><br>**Additional Information**:<br>For more information, see [Apple security updates](https://support.apple.com/en-sg/HT201222).|
