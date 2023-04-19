@@ -100,8 +100,7 @@ echo $OrgID
 
 6. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files.
 
-
-  ![extract-files](../images/offboarding-windows/windows-extracted-files.png)
+![extract-files](../images/offboarding-windows/windows-extracted-files.png)
 
 ?> **Note**: The file names vary with the organisation.
 
