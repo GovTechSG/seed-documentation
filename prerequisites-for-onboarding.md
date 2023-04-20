@@ -70,14 +70,15 @@ If you had requested SEED provisioning while signing up for your TechPass accoun
 > Currently, you can't onboard virtual machine to SEED.
 
 ### Remove existing software on your device
-Before onboarding to SEED, you need to remove the following software solutions from your device if applicable:
 
-- current MDM software
-- Tanium client or any other unified endpoint management and security platform
-- Cloudflare WARP or any other software used for privacy and secured connections
+Before onboarding to SEED, you need to remove the following software from your device:
+
+?> **Important** If you are re-onboarding your device to SEED, see [offboard device from SEED](offboard-device/offboard-device-from-seed) to remove the listed software. 
+
+- Existing MDM software.
+- Tanium client or any other unified endpoint management and security platform.
+- Cloudflare WARP or any other software used for privacy and secured connections.
 - Defender or any other antivirus solution.
-
-This section explains how public officers and vendors can remove those software.
 
 <!-- tabs:start -->
 
@@ -182,56 +183,58 @@ This section explains how public officers and vendors can remove those software.
 </details>
 <details><summary style="font-size:18px">e. Remove Defender or the current antivirus solution</summary><br>
 
+If your device is already enrolled with Defender or any other antivirus solution, it has to be completely unenrolled from it before you proceed to onboard the device to SEED.
 
-  > **Note**:
-  > The following steps are to remove Defender from your device. If you have other antivirus solution, contact your administrator to remove it.
+ 
+1. Open **Terminal** and run `mdatp health`. 
+  
+?> Note: If you get a `mdatp: command not found` error, you do not have Defender installed on your device and can skip the steps in this section.
+2. Take note of the value displayed for **org_id**.
+3. Refer to the following table and identify your **Defender organisation** and download the respective offboarding package.
 
-  1. Open **Terminal** and run `mdatp health`. If you get a `mdatp: command not found` error, you do not have Defender installed on your device and can skip the steps in this section.
-  2. Take note of the value displayed for **org_id**.
-  3. Identify the organisation corresponding to this **org_id** from the following table. This is the organisation of the Defender or the antivirus on your device.
+  | org_id  | Defender organisation | Offboarding package |
+  | ------------- |:-------------:|:-------------:|
+  | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     | [Download offboarding package](https://k3uwa66lu3tj6uxft46666ynhe0uvzor.lambda-url.ap-southeast-1.on.aws/local_wog_mac)    |
+  | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    | [Download offboarding package](https://k3uwa66lu3tj6uxft46666ynhe0uvzor.lambda-url.ap-southeast-1.on.aws/local_tp_mac)     |
+  | 6389e966-e334-461d-86ce-0fed12484620 | Hive | Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package. |
 
-  | org_id  | Organisation |
-  | ------------- |:-------------:|
-  | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     |
-  | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    |
-  | 6389e966-e334-461d-86ce-0fed12484620      | Hive     |
 
-  > **Note**:
-  > If your organisation id(org_id) is different from the above three, contact the respective MDM administrator to get the offboarding script.
+!> **Important**<br>- If your **Defender organisation** is **Hive**, please skip the remaining steps in this document. You need to get the offboarding package from the Hive support and unenrol your device from Defender. See the [offboarding FAQs](offboard-device/seed-offboarding-faqs.md) to know how to unenrol your device from Defender using the Hive offboarding package.<br><br>- If your **Defender organisation** is either **WOG** or **TechPass**, it indicates that this device may already have been onboarded to SEED under a different TechPass profile. So you need to offboard this device first before you onboard to SEED. <br><br>- If your **Defender organisation** is **none of the above**, contact the IT support of the organisation that provided you with the device.
 
-  4. Based on the organisation, use the internet (which is not a GSIB) device to download the offboarding script from the following:
+4. Log in with your TechPass to download the offboarding package.
+5. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files.
 
-    | Organisation  | Offboarding script |
-    | ------------- |:-------------:|
-    | WOG      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/wog_mac)    |
-    | TechPass      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/tp_mac)     |
-    | Hive      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/hive_mac)     |
+![extract-files](../images/macos-extracted-files-for-offboarding.png)
 
-  5. When prompted, log in with your TechPass.
+?> **Note**: The file names vary with the organisation.
 
-  > **Note**: If you have any issues in accessing the link to download the offboarding script,
-  >- Make sure that you are using your internet (which is not a GSIB) device to download the offboarding script.
-  >- Access the link in incognito mode.
-  >- Make sure you are using only the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
-  >- If you still have issues in downloading the script, create a [support request](https://go.gov.sg/techpass-sr).
+6. On your **Terminal**, go to the folder where you extracted the files. For example, if they are in the **Downloads** > **Offboarding_local_wog_mac** folder, go to that folder.
 
-  6. Save the offboarding script to the **Downloads** folder.
+![cd-extracted-folder](../images/macos-cd-downloads.png)
 
-    > **Note**:
-    > Check if the script that you received has not yet expired. The expiry date is indicated on the file name. For example, wog_mac_valid_until_2021-11-10.sh
+7. Copy the below and run it on the same **Terminal**.
 
-  7. Go to **Terminal** and run the following command:
-      ```
-      sudo /bin/sh ~/Downloads/<name_of_offboarding_script.sh>
-      ```
-    >- **Note:**
-    > The file name *name_of_offboarding_script* in this command is only an example. When you run the command, specify the file name of the offboarding script you downloaded.
+    ```
+    sudo chmod +x local_mac_offboarding.sh
+    ```
 
-  8. Go back to the **Finder** icon in the **Dock**.
+8. When prompted for a **Password**, enter your device password.
+9. Copy and run the following command on your **Terminal**.
 
-  9. Choose **Applications** and search for **Microsoft Defender for Endpoint.app**.
+    ```
+    sudo ./local_mac_offboarding.sh
+    ```
 
-  10. Drag the app to the Bin, or select the app and choose **File** > **Move to Bin**.
+When you see the following success message on your **Terminal**, you are automatically directed to submit the Intune Device ID.
+
+![macos-success-message](../images/macos-success-message.png)
+
+10. Ensure your **Intune Device ID** is displayed on the form. If it is not displayed, provide it. See [Get Intune Device ID](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/offboard-device/mac-os-using-script?id=get-intune-device-id). 
+11. Enter your organisational email address in **Organisational Email Address** and click **Verify**.
+12. Enter the OTP you receive at this email address.  
+13. Click **Submit**. When this request is processed successfully, we send a notification via email.
+
+![successfully-offboarded-email](../images/macos-successfully-offboarded-email.png)
 
 </details>
 

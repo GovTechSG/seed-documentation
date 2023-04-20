@@ -1,3 +1,5 @@
+<!-- Commenting this page as the info is redundant. If any complaints that this page is missing, we can bring it back to life
+
 ### Organisation IDs and organisation mapping
 
 While onboarding your device to SEED, one of the prerequisites is to remove Microsoft Defender or any other antivirus solution from it. If your device has Microsoft Defender, it will be associated with an organisation.
@@ -33,3 +35,6 @@ The following table provides some of the possible organisation ids and their nam
 - [Ensure Microsoft Defender is configured correctly for your OS](verify-microsoft-defender-is-configured-correctly-for-your-os)
 - [Offboard device from SEED](offboard-device/offboard-device-from-seed)
 - [FAQs](faqs/seed-faqs)
+
+-->
+

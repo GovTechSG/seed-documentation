@@ -95,6 +95,55 @@ It would take up to 30 minutes for the DEEP team to send the successfully offboa
 </details><hr />
 
 
+<details><summary style="font-size:20px;font-weight:bold">My Internet Device belongs to Hive organisation. How do I offboard it from Defender using Hive offboarding package?</summary>
 
+
+
+If your Defender organisation is Hive, contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package and follow the below steps for your device:
+
+<details><summary style="font-size:20px;font-weight:bold">macOS</summary>
+
+1. Save the offboarding script to the **Downloads** folder.
+
+    > **Note**:
+    > Check if the script that you received has not yet expired. The expiry date is indicated on the file name. For example, hive_mac_valid_until_2023-04-30.sh
+
+2. Go to the **Terminal** and run the following command:
+      ```
+      sudo /bin/sh ~/Downloads/<name_of_offboarding_script.sh>
+      ```
+    >- **Note:**
+    > The file name *name_of_offboarding_script* in this command is only an example. When you run the command, specify the file name of the offboarding script you downloaded.
+
+3. Go back to the **Finder** icon in the **Dock**.
+
+4. Choose **Applications** and search for **Microsoft Defender for Endpoint.app**.
+
+5. Drag the app to the Bin, or select the app and choose **File** > **Move to Bin**.
+
+</details>
+
+<details><summary style="font-size:20px;font-weight:bold">Windows</summary>
+
+1. Save the offboarding script in your **Downloads** folder.
+
+  > **Note**:
+  > Check if the script that you received has not yet expired. The expiry date is indicated on the file name. For example, *hive_windows_valid_until_2023-09-07.cmd*.
+
+2. Go to **Start** and type **cmd**.
+3. Right-click on **Command Prompt** and select **Run as administrator**.
+4. If prompted, enter your Windows password.
+5. Run the following commands:
+     ```
+     cd "%USERPROFILE%\Downloads\"
+
+     .\<name_of_offboarding_script.cmd>
+     ```
+> **Note:**
+> Name of the .cmd file mentioned in this command is only an example. When you run the command, specify the file name of the offboarding script you downloaded.  
+
+</details>
+
+</details>
 
 
