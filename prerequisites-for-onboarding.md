@@ -186,10 +186,11 @@ Before onboarding to SEED, you need to remove the following software from your d
 If your device is already enrolled with Defender or any other antivirus solution, it has to be completely unenrolled from it before you proceed to onboard the device to SEED.
 
  
-1. Open **Terminal** and run `mdatp health`. 
-  
-?> Note: If you get a `mdatp: command not found` error, you do not have Defender installed on your device and can skip the steps in this section.
+1. Open **Terminal** and run `mdatp health`.   
 2. Take note of the value displayed for **org_id**.
+
+?> Note: If you get a `mdatp: command not found` error, you do not have Defender installed on your device. You can skip the steps in this section.
+
 3. Refer to the following table and identify your **Defender organisation** and download the respective offboarding package.
 
   | org_id  | Defender organisation | Offboarding package |
@@ -199,7 +200,7 @@ If your device is already enrolled with Defender or any other antivirus solution
   | 6389e966-e334-461d-86ce-0fed12484620 | Hive | Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package. |
 
 
-!> **Important**<br>- If your **Defender organisation** is **Hive**, please skip the remaining steps in this document. You need to get the offboarding package from the Hive support and unenrol your device from Defender. See the [offboarding FAQs](offboard-device/seed-offboarding-faqs.md) to know how to unenrol your device from Defender using the Hive offboarding package.<br><br>- If your **Defender organisation** is either **WOG** or **TechPass**, it indicates that this device may already have been onboarded to SEED under a different TechPass profile. So you need to offboard this device first before you onboard to SEED. <br><br>- If your **Defender organisation** is **none of the above**, contact the IT support of the organisation that provided you with the device.
+!> **Important**<br>- If your **Defender organisation** is **Hive**, please skip the remaining steps in this document. You need to get the offboarding package from the Hive support and unenrol your device from Defender. See the [offboarding FAQs](offboard-device/seed-offboarding-faqs.md) to know how to unenrol your device from Defender using the Hive offboarding package.<br><br>- If your **Defender organisation** is either **WOG** or **TechPass**, it indicates that this device may already have been onboarded to SEED under a different TechPass profile. So you need to offboard this device first before proceeding further. <br><br>- If your **Defender organisation** is **none of the above**, contact the IT support of the organisation that provided you with the device.
 
 4. Log in with your TechPass to download the offboarding package.
 5. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files.
@@ -225,7 +226,7 @@ If your device is already enrolled with Defender or any other antivirus solution
     sudo ./local_mac_offboarding.sh
     ```
 
-When you see the following success message on your **Terminal**, you are automatically directed to submit the Intune Device ID.
+When you see the following success message on your **Terminal**, you are automatically directed to a form to submit the Intune Device ID.
 
 ![macos-success-message](../images/macos-success-message.png)
 
@@ -237,8 +238,6 @@ When you see the following success message on your **Terminal**, you are automat
 ![successfully-offboarded-email](../images/macos-successfully-offboarded-email.png)
 
 </details>
-
-
 
 #### **Windows**
 
@@ -273,63 +272,84 @@ When you see the following success message on your **Terminal**, you are automat
   3. If available, choose **Cloudflare WARP** and then click **Uninstall**.
 
 </details>
-<details>
-  <summary style="font-size:18px">d. Remove current antivirus solution on the device</summary><br>
 
-  1. In the search box on the taskbar, type **regedit**.
-  2. Choose **Registry Editor** from the results and click **Run as administrator**.
-  3. In the **Registry Editor**, go to **Computer** > **HKEY_LOCAL_MACHINE** > **SOFTWARE** > **Microsoft** > **Windows Advanced Threat Protection** > **Status**.
+<details><summary style="font-size:18px">d. Remove current antivirus solution on the device</summary>
 
-  > **Note**:
-  > If you do not see the **Windows Advanced Threat Protection** folder, it indicates your device is not enrolled with any MDM solution. Proceed to onboard your device to SEED.
+If your device is already enrolled with Defender or any other antivirus solution, it has to be completely unenrolled from it before you proceed to onboard the device to SEED.
 
-  4. Take note of the value displayed for **OrgId**.
-  5. Identify the organisation corresponding to this **OrgId** from the following table. This is the organisation of the Defender or the antivirus on your device.
 
-  | OrgId  | Organisation |
-  | ------------- |:-------------:|
-  | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     |
-  | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    |
-  | 6389e966-e334-461d-86ce-0fed12484620      | Hive     |
+1. Go to the **Start** menu and enter **Powershell**.
+2. Right-click on the search result for **PowerShell** and select **Run as Administrator**
 
-  > **Note**:
-  > If your organisation id(OrgId) is different from the above three, contact the respective MDM administrator to get the offboarding script.
+![open powershell](../images/offboarding-windows/run_powershell.png)
 
-  6. Based on the organisation, use your internet (which is not a GSIB) device to download the offboarding script from the following:
+3. On **Powershell**, run the following command.
 
-  | Organisation  | Offboarding script |
-  | ------------- |:-------------:|
-  | WOG      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/wog_windows)    |
-  | TechPass      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/tp_windows)     |
-  | Hive      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/hive_windows)     |
+```
+$reg64 = [Microsoft.Win32.RegistryKey]::OpenBaseKey([Microsoft.Win32.RegistryHive]::LocalMachine, [Microsoft.Win32.RegistryView]::Registry64)
+$OrgID =  $reg64.OpenSubKey("SOFTWARE\MICROSOFT\Windows Advanced Threat Protection\Status").GetValue("OrgID")
+echo $OrgID
+```
 
-  7. When prompted to log in, log in with your TechPass.
 
-  > **Note**: If you have any issues in accessing the link to download the offboarding script,
-  >- Make sure that you are using your internet (which is not a GSIB) device to download the offboarding script.
-  >- Access the link in incognito mode.
-  >- Make sure you are using only the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
-  >- If you still have issues in downloading the script, create a [support request](https://go.gov.sg/techpass-sr).
+4. Take note of the value displayed for **OrgID**.
 
-  8. Save the offboarding script in your **Downloads** folder.
+![find-org-id](../images/offboarding-windows/org_id_win.png)
 
-  > **Note**:
-  > Check if the script that you received has not yet expired. The expiry date is indicated on the file name. For example, *wog_windows_valid_until_2022-09-07.cmd*.
+?> Note: If you don't get any response, it means you do not have Defender installed on your device. You can skip the steps in this section.
 
-  9. Go to **Start** and type **cmd**.
-  10. Right-click on **Command Prompt** and select **Run as administrator**.
-  11. If prompted, enter your Windows password.
-  12. Run the following commands:
-     ```
-     cd "%USERPROFILE%\Downloads\"
+5. Refer to the following table and identify your **Defender organisation** and download the offboarding package.
 
-     .\<name_of_offboarding_script.cmd>
-     ```
-> **Note:**
-> Name of the .cmd file mentioned in this command is only an example. When you run the command, specify the file name of the offboarding script you downloaded.  
+  | OrgID | Defender organisation | Offboarding package |
+  | ------------- |:-------------:|:-------------:|
+  | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     | [Download offboarding script](https://k3uwa66lu3tj6uxft46666ynhe0uvzor.lambda-url.ap-southeast-1.on.aws/local_wog_windows) |
+  | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    | [Download offboarding script](https://k3uwa66lu3tj6uxft46666ynhe0uvzor.lambda-url.ap-southeast-1.on.aws/local_tp_windows)    |
+  | 6389e966-e334-461d-86ce-0fed12484620 | Hive | Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package. |
 
-</details>  
+  !> **Important**<br>- If your **Defender organisation** is **Hive**, please skip the remaining steps in this document. You need to get the offboarding package from the Hive support and unenrol your device from Defender. See the [offboarding FAQs](offboard-device/seed-offboarding-faqs.md) to know how to unenrol your device from Defender using the Hive offboarding package.<br><br>- If your **Defender organisation** is either **WOG** or **TechPass**, it indicates that this device may already have been onboarded to SEED under a different TechPass profile. So you need to [offboard](offboard-device/offboard-device-from-seed) this device first before proceeding further. <br><br>- If your **Defender organisation** is **none of the above**, contact the IT support of the organisation that provided you with the device.
 
+6. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files.
+
+![extract-files](../images/offboarding-windows/windows-extracted-files.png)
+
+?> **Note**: The file names vary with the organisation.
+
+7. Right-click the unzipped folder to select **Show more options** > **Copy as path**. The folder path is now saved to your clipboard.
+
+8. On **Powershell**, run the following command to go to the folder which has the extracted files:
+
+    ```
+    cd {Path from clipboard}
+    ```
+
+    For example:
+
+    ```
+    cd "C:\Users\testUser\Downloads\Offboarding_local_tp_windows"
+
+    ```
+
+    ![directory](../images/offboarding-windows/windows_cd_downloads.png)
+
+10. To run the script, enter the following command:
+
+    ```
+    powershell.exe -ExecutionPolicy Bypass .\local_windows_offboarding.ps1
+
+    ```
+
+When you see the following success message on your **Powershell**, you are automatically directed to a form to submit the Intune Device ID.
+
+![macos-success-message](../images/offboarding-windows/windows_success_message.png)
+
+11. Ensure your **Intune Device ID** is displayed on the form. If it is not displayed, provide it. See [Get Intune Device ID](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/offboard-device/mac-os-using-script?id=get-intune-device-id). 
+12. Enter your organisational email address in **Organisational Email Address** and click **Verify**.
+13. Enter the OTP you receive at this email address.  
+14. Click **Submit**. When this request is processed successfully, we send a notification via email.
+
+![successfully-offboarded-email](../images/macos-successfully-offboarded-email.png)
+
+</details>
 
 <!-- tabs:end -->
 
@@ -399,3 +419,60 @@ If you are onboarding a macOS device, verify if System Integrity Protection (SIP
 
 ### Next steps
 - [Proceed to onboard your device to SEED](onboard-device/onboard-device-to-seed)
+
+
+<!--
+  1. In the search box on the taskbar, type **regedit**.
+  2. Choose **Registry Editor** from the results and click **Run as administrator**.
+  3. In the **Registry Editor**, go to **Computer** > **HKEY_LOCAL_MACHINE** > **SOFTWARE** > **Microsoft** > **Windows Advanced Threat Protection** > **Status**.
+
+  > **Note**:
+  > If you do not see the **Windows Advanced Threat Protection** folder, it indicates your device is not enrolled with any MDM solution. Proceed to onboard your device to SEED.
+
+  4. Take note of the value displayed for **OrgId**.
+  5. Identify the organisation corresponding to this **OrgId** from the following table. This is the organisation of the Defender or the antivirus on your device.
+
+  | OrgId  | Organisation |
+  | ------------- |:-------------:|
+  | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     |
+  | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    |
+  | 6389e966-e334-461d-86ce-0fed12484620      | Hive     |
+
+  > **Note**:
+  > If your organisation id(OrgId) is different from the above three, contact the respective MDM administrator to get the offboarding script.
+
+  6. Based on the organisation, use your internet (which is not a GSIB) device to download the offboarding script from the following:
+
+  | Organisation  | Offboarding script |
+  | ------------- |:-------------:|
+  | WOG      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/wog_windows)    |
+  | TechPass      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/tp_windows)     |
+  | Hive      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/hive_windows)     |
+
+  7. When prompted to log in, log in with your TechPass.
+
+  > **Note**: If you have any issues in accessing the link to download the offboarding script,
+  >- Make sure that you are using your internet (which is not a GSIB) device to download the offboarding script.
+  >- Access the link in incognito mode.
+  >- Make sure you are using only the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
+  >- If you still have issues in downloading the script, create a [support request](https://go.gov.sg/techpass-sr).
+
+  8. Save the offboarding script in your **Downloads** folder.
+
+  > **Note**:
+  > Check if the script that you received has not yet expired. The expiry date is indicated on the file name. For example, *wog_windows_valid_until_2022-09-07.cmd*.
+
+  9. Go to **Start** and type **cmd**.
+  10. Right-click on **Command Prompt** and select **Run as administrator**.
+  11. If prompted, enter your Windows password.
+  12. Run the following commands:
+     ```
+     cd "%USERPROFILE%\Downloads\"
+
+     .\<name_of_offboarding_script.cmd>
+     ```
+> **Note:**
+> Name of the .cmd file mentioned in this command is only an example. When you run the command, specify the file name of the offboarding script you downloaded.  
+
+</details>  
+-->
