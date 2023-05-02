@@ -39,7 +39,7 @@ At any time, users can Sign in to Company Portal app, click the three dots and c
 1. Go to the **Start** menu and enter **Powershell**.
 2. Right-click on the search result for **PowerShell** and select **Run as Administrator**
 
-![open powershell](../images/offboarding-windows/run_powershell.png)
+![open powershell](/images/offboarding-windows/run_powershell.png)
 
 3. On **Powershell**, run the following command.
 
