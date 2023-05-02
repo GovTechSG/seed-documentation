@@ -50,7 +50,7 @@ echo $OrgID
 ```
 4. Take note of the value displayed for **OrgID**.
 
-![find-org-id](../images/offboarding-windows/org_id_win.png)
+![find-org-id](/images/offboarding-windows/org_id_win.png)
 
 ?> Note: If you don't get any response, it means you do not have Defender installed on your device. You can skip the steps in this section. Hence, [proceed to onboard your Windows device to SEED](onboard-device/windows).
 
