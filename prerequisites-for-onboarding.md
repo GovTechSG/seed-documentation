@@ -205,7 +205,7 @@ If your device is already enrolled with Defender or any other antivirus solution
 4. Log in with your TechPass to download the offboarding package.
 5. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files.
 
-![extract-files](/images/macos-extracted-files-for-offboarding.png)
+![extract-files](images/macos-extracted-files-for-offboarding.png)
 
 ?> **Note**: The file names vary with the organisation.
 
