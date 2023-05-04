@@ -228,14 +228,14 @@ If your device is already enrolled with Defender or any other antivirus solution
 
 When you see the following success message on your **Terminal**, you are automatically directed to a form to submit the Intune Device ID.
 
-![macos-success-message](../images/macos-success-message.png)
+![macos-success-message](images/macos-success-message.png)
 
 10. Ensure your **Intune Device ID** is displayed on the form. If it is not displayed, provide it. See [Get Intune Device ID](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/offboard-device/mac-os-using-script?id=get-intune-device-id). 
 11. Enter your organisational email address in **Organisational Email Address** and click **Verify**.
 12. Enter the OTP you receive at this email address.  
 13. Click **Submit**. When this request is processed successfully, we send a notification via email.
 
-![successfully-offboarded-email](../images/macos-successfully-offboarded-email.png)
+![successfully-offboarded-email](images/macos-successfully-offboarded-email.png)
 
 </details>
 
