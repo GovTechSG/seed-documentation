@@ -205,13 +205,13 @@ If your device is already enrolled with Defender or any other antivirus solution
 4. Log in with your TechPass to download the offboarding package.
 5. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files.
 
-![extract-files](../images/macos-extracted-files-for-offboarding.png)
+![extract-files](images/macos-extracted-files-for-offboarding.png)
 
 ?> **Note**: The file names vary with the organisation.
 
 6. On your **Terminal**, go to the folder where you extracted the files. For example, if they are in the **Downloads** > **Offboarding_local_wog_mac** folder, go to that folder.
 
-![cd-extracted-folder](../images/macos-cd-downloads.png)
+![cd-extracted-folder](images/macos-cd-downloads.png)
 
 7. Copy the below and run it on the same **Terminal**.
 
@@ -228,14 +228,14 @@ If your device is already enrolled with Defender or any other antivirus solution
 
 When you see the following success message on your **Terminal**, you are automatically directed to a form to submit the Intune Device ID.
 
-![macos-success-message](../images/macos-success-message.png)
+![macos-success-message](images/macos-success-message.png)
 
 10. Ensure your **Intune Device ID** is displayed on the form. If it is not displayed, provide it. See [Get Intune Device ID](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/offboard-device/mac-os-using-script?id=get-intune-device-id). 
 11. Enter your organisational email address in **Organisational Email Address** and click **Verify**.
 12. Enter the OTP you receive at this email address.  
 13. Click **Submit**. When this request is processed successfully, we send a notification via email.
 
-![successfully-offboarded-email](../images/macos-successfully-offboarded-email.png)
+![successfully-offboarded-email](images/macos-successfully-offboarded-email.png)
 
 </details>
 
