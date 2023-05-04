@@ -167,20 +167,24 @@ As suggested wait for few minutes, retry enrolling your device to Microsoft Intu
 
 This may occur if your new password does not meet the following password requirements:
 
-  - should contain at least 12 characters
-  - should not be the same as the previous three passwords
+  - should contain at least 12 characters.
+  - should not be the same as the previous three passwords.
   - same character cannot be used consecutively.
-  - cannot have three sequential characters
-  - should contain at least one number and one alphabetic character
+  - cannot have three sequential characters.
+  - should contain at least one number and one alphabetic character.
 
-<p>There are three password reset options and you may choose one of them to reset password.</p>
+Following are the three options available to reset your password:
 
-<details><summary style="font-size:20px;font-weight:bold">Reset password using your Apple ID</summary>
- <p>Refer to <a href="https://support.apple.com/en-gb/guide/mac-help/mh35902/mac">Reset your Mac login password uisng Apple ID</a> for step-by-step instructions.</p></details>
+  <details><summary style="font-size:20px;font-weight:bold">Reset password using Apple ID</summary>
 
-  <details><summary style="font-size:20px;font-weight:bold">Reset password using a recovery key</summary>
+ Refer to [Reset your Mac login password uisng Apple ID](https://support.apple.com/en-gb/guide/mac-help/mh35902/mac) for step-by-step instructions.
+ 
+  </details>
 
-  *To reset password using recovery key* :
+  <details><summary style="font-size:20px;font-weight:bold">Reset password using recovery key</summary>
+
+  **To reset password using recovery key**
+
   1. Click the question mark next to the password field in the login window.
 
   ?> If you don't see a question mark, press and hold the power button until your Mac shuts down, then press the power button to restart your Mac. Alternatively, enter any password three times.
@@ -248,26 +252,11 @@ This may occur if your new password does not meet the following password require
 
 
 <details>
- <summary style="font-size:20px;font-weight:bold"> How to confirm if I have onboarded my device to SEED successfully? </summary>
+<summary style="font-size:20px;font-weight:bold">How to confirm if I have successfully onboarded my Internet Device to SEED? </summary>
 
-If you have successfully onboarded your Internet Device to SEED, you will get a confirmation email from DEEP. When you get this confirmation email, do the following on the device you onboarded to SEED:
+When you complete onboarding your device to SEED, within the next two hours, you should receive the successfully onboarded email in your inbox (organisational email address).
 
-1. Disconnect from other VPN connections, if any.
-2. Go to the WARP client and connect to the Cloudflare Zero trust client.
-
-  <kbd>![cloudflare-connected](../images/cloud-flare-connected.png ':size=300')</kbd>
-
-3. Go to the [DEEP dashboard](https://dashboard.deep.tech.gov.sg/) and log in with your TechPass. You should be able to access the DEEP dashboard.
-
-  <kbd>![deep-dashboard](../images/deep-dashboard/deep-dashboard.png)</kbd>
-
-4. If you are a SHIP-HATS user, try accessing the [SHIP-HATS portal](https://ship.gov.sg).
-
-  <kbd>![ship-hats-portal](../images/ship-hats-portal.png)</kbd>
-
-If you can access the DEEP dashboard or the SHIP-HATS portal from the GMD, it indicates you have successfully onboarded your device to SEED using your TechPass.
-
-If you have any issues in accessing them, create a [service request](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/raise-an-incident-support-request).
+If you don't receive this email after two hours, please submit an [incident request](https://go.gov.sg/techpass-sr).
 
 </details>
      <hr />
