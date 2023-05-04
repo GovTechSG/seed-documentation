@@ -211,7 +211,7 @@ If your device is already enrolled with Defender or any other antivirus solution
 
 6. On your **Terminal**, go to the folder where you extracted the files. For example, if they are in the **Downloads** > **Offboarding_local_wog_mac** folder, go to that folder.
 
-![cd-extracted-folder](../images/macos-cd-downloads.png)
+![cd-extracted-folder](images/macos-cd-downloads.png)
 
 7. Copy the below and run it on the same **Terminal**.
 
