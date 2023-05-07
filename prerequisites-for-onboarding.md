@@ -2,72 +2,45 @@
 
 <!-- This page is linked in the TechPass portal-Register Intune Device ID, so please do not rename this file. -->
 
-> Take note of the following before you proceed with the SEED onboarding:
->- You can onboard only an **internet** device to SEED. In other words, you can't onboard a GSIB device.
->
->- You can onboard only one device per user.
->
->- If you are a public officer, after you enrol in Intune, you need to submit your Intune Device ID to complete the SEED onboarding for your device.
->
->- After you complete the onboarding process, you will receive an email confirming your successful onboarding to SEED and your device will be automatically renamed and restarted.
->
->- After the automatic restart, macOS users will be prompted to reset their password to enforce a strong password policy.
->
->- If the device onboarded to SEED is compromised or lost, the respective agency may remotely wipe the device, including any personal information.
+Before you proceed to onboard your device to SEED, note the following prerequisites and recommendations:
 
+!> You can't onboard the following to SEED:<br>- Virtual machines<br>- Mobile phones and Tablets (Android and iOS)<br>- GoMAX devices.
 
-There are few things which you need before you start the onboarding and few things to ensure a successful onboarding.
+<!--
+<ul style="list-style-type: disc; margin-left: -3px;">
+  <li style="margin-bottom:-20px">Ensure you have an active <a href="https://docs.developer.tech.gov.sg/docs/techpass-user-guide/">TechPass account.</a></li>
+  <li style="margin-bottom:-20px">Ensure you have a valid SEED onboarding email. For more information on how to request or sign up for SEED provisioning, see <a href="seed-provisioning">SEED provisioning</a></li>
+  </ul>
+  -->
 
-To begin with, you'll need:
+- Ensure you have an active [TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/).
+- Ensure you have a valid SEED onboarding email. See [SEED provisioning](#seed-provisioning) for more information on how to request or sign up for SEED provisioning.
+- Ensure your are onboarding only an Internet Device which is not a **SE-GSIB** or **Non-SE GSIB** device.
+- You can onboard only **one Internet Device** to SEED.
+- Ensure you have Administrator permissions on the device.
+- Ensure the device is running on one of the following operating systems:
+    - Windows 10 and 11 Pro or Enterprise versions.
+    - macOS 11 (macOS Big Sur), macOS 12 (macOS Monterey) and macOS 13 (Ventura) versions.    
+- [Remove existing software on your device.](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/prerequisites-for-onboarding?id=remove-existing-software-on-your-device)
+- If your device is running on macOS, ensure [System Integrity protection(SIP) is enabled](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/prerequisites-for-onboarding?id=verify-if-system-integrity-protection-is-enabled).
+- [Encrypt hard disk drive to protect the data at rest](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/prerequisites-for-onboarding?id=encrypt-your-hard-disk-drive-to-protect-your-data-at-rest). 
+- If your organisation uses a firewall or other policies to restrict Internet traffic, you may need to make few changes to allow WARP to connect. To know more about these changes, visit [Cloudflare Docs](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/deployment/firewall/). 
 
-1. An active [TechPass account](#get-a-techpass-account).
-1. [SEED provisioning](#seed-provisioning) for you to onboard your device.
-1. [Device with supported operating systems and the required permissions](#supported-operating-systems-and-devices-for-seed).
+<a id="seed-provisioning">
 
+## SEED provisioning
 
-Things to ensure a successful onboarding:
+</a>
 
-1. [Remove existing software on your device](#remove-existing-software-on-your-device).
-1. If you are onboarding a macOS device, link your Apple ID to your device and [verify if System Integrity Protection (SIP) is enabled](#verify-if-system-integrity-protection-is-enabled).
-1. [Encrypt your hard disk drive to protect your data at rest](#encrypt-your-hard-disk-drive-to-protect-your-data-at-rest).
-1. If your organisation uses a firewall or other policies to restrict Internet traffic, you may need to make few changes to allow WARP to connect. To know more about these changes, visit [Cloudflare Docs](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/deployment/firewall/).
+ To request for SEED provisioning, it is mandatory you already have an active TechPass account or you can request for both together in one of the following ways which is applicable:
 
-### Get a TechPass account
+  - All users can contact their reporting officer or project manager to request for TechPass and SEED provisioning via [TechBiz portal](http://portal.techbiz.suite.gov.sg/).
+  - If you can access [TechPass portal](https://portal.techpass.gov.sg/), you can sign up for TechPass and SEED together.
+  - If you already have an active TechPass account and can access the TechPass portal, [request for SEED provisioning](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/request-for-seed-provisioning) anytime from your TechPass account profile.
+  - If you are a SE-GSIB user, submit a [service request](https://go.gov.sg/techpass-sr)for SEED provisioning, provided you already have an active TechPass account.
+  
+  ?> When the SEED provisioning is approved:<br>- We'll send the SEED onboarding email within the next three business days.<br>- This email is valid only for 30 days.<br>- Ensure that you successfully activate your TechPass account before proceeding to onboard your Internet Device to SEED.<br>- If your SEED onboarding email has expired, follow one of the below options:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-If you had requested your reporting officer or project manager for SEED provisioning, contact them again to get another SEED onboarding invitation email.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-If you had signed up for SEED via the TechPass portal, you may log in to the TechPass portal to [request for SEED onboarding invitation email](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/request-for-seed-provisioning).
 
-<!-- tabs:start -->
-
-#### **Public officers**
-
-1. [Set up security verification for your WOG account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines?id=step-1-set-up-security-verification-for-your-wog-account) if you haven't done it yet.
-1. [Sign up for a TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines?id=step-2-sign-up-for-techpass) and request SEED provisioning.
-1. [Accept invitation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines?id=step-3-accept-invitation).
-1. [Onboard to TechPass](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines?id=step-4-onboard-to-techpass).
-
-#### **Vendors/Contractors**
-
-1. [Request for TechPass account and SEED provisioning from your project manager or reporting officer](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-vendors-to-techpass?id=step-1-get-a-techpass-account-and-seed-licence-for-vendors-or-contractors).
-2. [Sign in to TechPass](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-vendors-to-techpass?id=step-2-first-time-sign-in-using-initial-password).
-3. [Set up MFA for your TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-vendors-to-techpass?id=step-3-configure-and-verify-mfa-for-techpass-account).
-4. [Reset initial password](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-vendors-to-techpass?id=step-4-reset-your-initial-password).
-5. [Accept TechPass and MDM policies](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-vendors-to-techpass?id=step-5-accept-terms-of-use-privacy-policy-and-mobile-device-management-acceptable-use-policy).
-
-<!-- tabs:end -->
-
-### SEED provisioning
-If you had requested SEED provisioning while signing up for your TechPass account, SEED will be provisioned to you and you will receive an email with instructions on how to onboard your device to SEED.
-
-> **Note**:
-> If you are a public officer, who already has a TechPass account and needs SEED provisioning, go to your profile page on the [TechPass portal](http://portal.techpass.gov.sg/), request SEED provisioning and follow the on-screen instructions. For more information, refer to [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/onboard-public-officers-using-non-se-machines).
-
-### Supported operating systems and devices for SEED
-
-- Internet (which is not a GSIB) device that runs on:
-  - Windows 10 and 11 Pro or Enterprise versions
-  - macOS 11 (macOS Big Sur), macOS 12 (macOS Monterey) and macOS 13 (Ventura) versions
--  You must have administrator rights on the device.
-
->**Note:**
-> Currently, you can't onboard virtual machine to SEED.
 
 ### Remove existing software on your device
 Before onboarding to SEED, you need to remove the following software solutions from your device if applicable:
