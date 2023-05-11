@@ -281,7 +281,7 @@ If your device is already enrolled with Defender or any other antivirus solution
 1. Go to the **Start** menu and enter **Powershell**.
 2. Right-click on the search result for **PowerShell** and select **Run as Administrator**
 
-![open powershell](../images/offboarding-windows/run_powershell.png)
+![open powershell](images/offboarding-windows/run_powershell.png)
 
 3. On **Powershell**, run the following command.
 
@@ -294,7 +294,7 @@ echo $OrgID
 
 4. Take note of the value displayed for **OrgID**.
 
-![find-org-id](../images/offboarding-windows/org_id_win.png)
+![find-org-id](images/offboarding-windows/org_id_win.png)
 
 ?> Note: If you don't get any response, it means you do not have Defender installed on your device. You can skip the steps in this section.
 
@@ -310,7 +310,7 @@ echo $OrgID
 
 6. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files.
 
-![extract-files](../images/offboarding-windows/windows-extracted-files.png)
+![extract-files](images/offboarding-windows/windows-extracted-files.png)
 
 ?> **Note**: The file names vary with the organisation.
 
@@ -329,7 +329,7 @@ echo $OrgID
 
     ```
 
-    ![directory](../images/offboarding-windows/windows_cd_downloads.png)
+    ![directory](images/offboarding-windows/windows_cd_downloads.png)
 
 10. To run the script, enter the following command:
 
@@ -340,14 +340,14 @@ echo $OrgID
 
 When you see the following success message on your **Powershell**, you are automatically directed to a form to submit the Intune Device ID.
 
-![macos-success-message](../images/offboarding-windows/windows_success_message.png)
+![macos-success-message](images/offboarding-windows/windows_success_message.png)
 
 11. Ensure your **Intune Device ID** is displayed on the form. If it is not displayed, provide it. See [Get Intune Device ID](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/offboard-device/mac-os-using-script?id=get-intune-device-id). 
 12. Enter your organisational email address in **Organisational Email Address** and click **Verify**.
 13. Enter the OTP you receive at this email address.  
 14. Click **Submit**. When this request is processed successfully, we send a notification via email.
 
-![successfully-offboarded-email](../images/macos-successfully-offboarded-email.png)
+![successfully-offboarded-email](images/macos-successfully-offboarded-email.png)
 
 </details>
 
