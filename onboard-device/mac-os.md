@@ -136,7 +136,9 @@ Your Internet Device record is listed under the **SEED Devices** with the follow
   <li>System Extension Profile</li>
   </ul>
 
-**Next step**: Proceed to [Post onboarding steps](post-onboarding-instructions/post-onboarding-steps-and-verification).
+### Next steps
+
+- [Post onboarding steps](post-onboarding-instructions/post-onboarding-steps-and-verification).
 
 
 

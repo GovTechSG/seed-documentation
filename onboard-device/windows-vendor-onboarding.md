@@ -46,4 +46,7 @@ Your account is added and listed as a connection. This account has **Info** and 
 
 </details>
 
-**Next step**: Proceed to [Post onboarding steps](post-onboarding-instructions/post-onboarding-steps-and-verification).
+
+### Next steps
+
+- [Post onboarding steps](post-onboarding-instructions/post-onboarding-steps-and-verification).
