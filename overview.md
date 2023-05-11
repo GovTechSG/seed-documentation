@@ -51,6 +51,21 @@ Device management layer of SEED. It establishes a robust security baseline autom
 
 </details>
 
+<details>
+<summary style="font-size:20px;font-weight:bold">What does SEED monitor?</summary>
+
+
+|SEED can do the following on your GMD|SEED cannot do the following on your GMD|
+|---|---|
+|- View your GMD's model number, serial number and operating system.<br>- View the names of the applications you have installed.<br>- Identify your device by name.<br>- Reset lost or stolen device to factory setting upon required consent and approval from device owner and manager-in-charge, respectively.|- View the browsing history.<br>-Access your emails, contacts and calendar.<br>- Access your documents.|
+
+</details>
+
+
+
+
+
+
 
 
 
