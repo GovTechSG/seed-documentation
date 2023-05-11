@@ -1,79 +1,47 @@
-# Prerequisites for onboarding to SEED
+# Step 0: Prerequisites for onboarding to SEED
 
 <!-- This page is linked in the TechPass portal-Register Intune Device ID, so please do not rename this file. -->
 
-> Take note of the following before you proceed with the SEED onboarding:
->- You can onboard only an **internet** device to SEED. In other words, you can't onboard a GSIB device.
->
->- You can onboard only one device per user.
->
->- If you are a public officer, after you enrol in Intune, you need to submit your Intune Device ID to complete the SEED onboarding for your device.
->
->- After you complete the onboarding process, you will receive an email confirming your successful onboarding to SEED and your device will be automatically renamed and restarted.
->
->- After the automatic restart, macOS users will be prompted to reset their password to enforce a strong password policy.
->
->- If the device onboarded to SEED is compromised or lost, the respective agency may remotely wipe the device, including any personal information.
+## Audience
+
+- Users who want to onboard their Internet Device to SEED.
+
+## Prerequisites
+
+Before you proceed to onboard your device to SEED, note the following prerequisites and recommendations:
+
+!> You **can't onboard** the following to SEED:<br>- Virtual machines<br>- Mobile phones and Tablets (Android and iOS)<br>- GoMAX devices.<br>- SE-GSIB or Non-SE GSIB device.
+<br>- More than one Internet Device.
+
+- Ensure you know what is your TechPass login ID.
+- Ensure you have an active [TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/onboard-to-techpass).
+- Ensure you have a valid SEED onboarding email. For more information on how to request or sign up for SEED provisioning, see [SEED provisioning](#request-seed-provisioning).
+- Ensure you have Administrator permission on the device.
+- Ensure the device is running on one of the following operating systems:
+    - Windows 10 and 11 Pro or Enterprise versions.
+    - macOS 11 (macOS Big Sur), macOS 12 (macOS Monterey) and macOS 13 (Ventura) versions. 
+- Supported browsers: Google Chrome, Microsoft Edge, Mozilla Firefox. If you are using Mozilla Firefox, you need to [configure Firefox to trust the root certificate store of your system](https://support.mozilla.org/en-US/kb/setting-certificate-authorities-firefox).       
+- [Remove existing software on your device.](#remove-existing-software-on-your-device)
+- If your device is running on macOS, ensure [System Integrity protection(SIP) is enabled](#ensure-system-integrity-protectionsip-is-enabled-for-macos).
+- [Encrypt hard disk drive to protect the data at rest](#encrypt-your-hard-disk-drive-to-protect-your-data-at-rest). 
+- If your organisation uses a firewall or other policies to restrict Internet traffic, you may need to make few changes to allow WARP to connect. To know more about these changes, visit [Cloudflare Docs](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/deployment/firewall/). 
+
+## Request SEED provisioning
+
+You can request for SEED provisioning in one of the following ways as applicable:
+
+  - All users can contact their reporting officer or project manager to request for TechPass and SEED provisioning via [TechBiz portal](http://portal.techbiz.suite.gov.sg/).
+  - If you can access [TechPass portal](https://portal.techpass.gov.sg/), you can sign up for TechPass and SEED together. For more information, see [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/onboard-to-techpass).
+  - If you already have an active TechPass account, and can access the TechPass portal, [request for SEED provisioning](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/request-for-seed-provisioning) from your TechPass account profile.
+  - If you are a SE-GSIB user, and have an active TechPass account, submit a [service request](https://go.gov.sg/techpass-sr) for SEED provisioning.
+  
+  ?> When SEED is successfully provisioned:<br>- We'll send the SEED onboarding email within the next three business days.<br>- This email is valid only for 30 days.<br>- Ensure that you successfully activate your TechPass account before proceeding to onboard your Internet Device to SEED.<br>- If your SEED onboarding email has expired, follow one of the below options:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-If you had requested your reporting officer or project manager for SEED provisioning, contact them again to get another SEED onboarding invitation email.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-If you had signed up for SEED via the TechPass portal, you may log in to the TechPass portal to [request for SEED onboarding invitation email](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/request-for-seed-provisioning).
 
 
-There are few things which you need before you start the onboarding and few things to ensure a successful onboarding.
 
-To begin with, you'll need:
+## Remove existing software on your device
 
-1. An active [TechPass account](#get-a-techpass-account).
-1. [SEED provisioning](#seed-provisioning) for you to onboard your device.
-1. [Device with supported operating systems and the required permissions](#supported-operating-systems-and-devices-for-seed).
-
-
-Things to ensure a successful onboarding:
-
-1. [Remove existing software on your device](#remove-existing-software-on-your-device).
-1. If you are onboarding a macOS device, link your Apple ID to your device and [verify if System Integrity Protection (SIP) is enabled](#verify-if-system-integrity-protection-is-enabled).
-1. [Encrypt your hard disk drive to protect your data at rest](#encrypt-your-hard-disk-drive-to-protect-your-data-at-rest).
-1. If your organisation uses a firewall or other policies to restrict Internet traffic, you may need to make few changes to allow WARP to connect. To know more about these changes, visit [Cloudflare Docs](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/deployment/firewall/).
-
-### Get a TechPass account
-
-<!-- tabs:start -->
-
-#### **Public officers**
-
-1. [Set up security verification for your WOG account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines?id=step-1-set-up-security-verification-for-your-wog-account) if you haven't done it yet.
-1. [Sign up for a TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines?id=step-2-sign-up-for-techpass) and request SEED provisioning.
-1. [Accept invitation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines?id=step-3-accept-invitation).
-1. [Onboard to TechPass](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-public-officers-using-non-se-machines?id=step-4-onboard-to-techpass).
-
-#### **Vendors/Contractors**
-
-1. [Request for TechPass account and SEED provisioning from your project manager or reporting officer](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-vendors-to-techpass?id=step-1-get-a-techpass-account-and-seed-licence-for-vendors-or-contractors).
-2. [Sign in to TechPass](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-vendors-to-techpass?id=step-2-first-time-sign-in-using-initial-password).
-3. [Set up MFA for your TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-vendors-to-techpass?id=step-3-configure-and-verify-mfa-for-techpass-account).
-4. [Reset initial password](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-vendors-to-techpass?id=step-4-reset-your-initial-password).
-5. [Accept TechPass and MDM policies](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/onboard-vendors-to-techpass?id=step-5-accept-terms-of-use-privacy-policy-and-mobile-device-management-acceptable-use-policy).
-
-<!-- tabs:end -->
-
-### SEED provisioning
-If you had requested SEED provisioning while signing up for your TechPass account, SEED will be provisioned to you and you will receive an email with instructions on how to onboard your device to SEED.
-
-> **Note**:
-> If you are a public officer, who already has a TechPass account and needs SEED provisioning, go to your profile page on the [TechPass portal](http://portal.techpass.gov.sg/), request SEED provisioning and follow the on-screen instructions. For more information, refer to [TechPass documentation](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/onboard-public-officers-using-non-se-machines).
-
-### Supported operating systems and devices for SEED
-
-- Internet (which is not a GSIB) device that runs on:
-  - Windows 10 and 11 Pro or Enterprise versions
-  - macOS 11 (macOS Big Sur), macOS 12 (macOS Monterey) and macOS 13 (Ventura) versions
--  You must have administrator rights on the device.
-
->**Note:**
-> Currently, you can't onboard virtual machine to SEED.
-
-### Remove existing software on your device
-
-Before onboarding to SEED, you need to remove the following software from your device:
-
-?> **Important** If you are re-onboarding your device to SEED, see [offboard device from SEED](offboard-device/offboard-device-from-seed) to remove the listed software. 
+Before onboarding to SEED, you need to remove the following software solutions from your device if applicable:
 
 - Existing MDM software.
 - Tanium client or any other unified endpoint management and security platform.
@@ -85,59 +53,63 @@ Before onboarding to SEED, you need to remove the following software from your d
 #### **macOS**
 
 <details>
-  <summary style="font-size:18px">a. Verify if your device is already managed by any MDM software</summary><br>
+  <summary style="font-size:18px">a. Verify if your device is already managed by any MDM software</summary>
 
-  **To verify if you already have an MDM software**
+  Complete the following steps to find if your device is already managed by an MDM solution. 
   
-  1. Go to the **Apple** menu > **System Preferences** or click the **System Preferences** icon in the **Dock**.
-  2. Go to **Profiles** and from the left menu, choose **Management Profile**.
+  1. Choose the appropriate step based on your macOS version.
+    
+      1a. If your macOS version is macOS 11 (macOS Big Sur) or macOS 12 (macOS Monterey), go to the **Apple** menu > **System Preferences** > **Profiles**.
+
+      1b. If your macOS version is macOS 13 (Ventura), go to the **Apple** menu > **System Settings** > **Privacy and Security** > **Profiles** on the right.(You may need to scroll down.)
+
+  2. Click **Management Profile**.
+     
+     2a. If your macOS version is macOS 11 (macOS Big Sur) or macOS 12 (macOS Monterey), and see a page similar to the following, it indicates you already have an MDM software.
   <kbd>![verify-other-mdm](images/onboarding-for-macos/verify-other-mdm.png)</kbd>
-  3. At the lower left, if you see "This Mac is supervised and managed by *your-organisation-name*", it indicates you already have an MDM software.
+     2b. If your macOS version is macOS 13 (Ventura) and see a similar page, it indicates you already have an MDM software.
+    ![verify-other-mdm-on-ventura](images/onboarding-for-macos/verify-other-mdm-on-ventura.png)
+     
+ 3. Choose the appropriate step:
+ 
+   3a. When you confirm that your Internet Device is not managed by any MDM currently, proceed to step **c.Remove Tanium Client** to find if you have Tanium Client and remove it.
 
-  ?> If you confirm your device is not managed by any MDM currently, proceed to step **c.Remove Tanium Client**.
-
-  4. To view the details of the current MDM software, go to **Settings** in the right side of **profiles**.
+   3b. If your Internet Device is managed by an MDM, on the **Management Profile**, go to **Settings** to identify the current MDM software.
   ![verify-other-mdm](images/onboarding-for-macos/management-profile-settings.png)
 
-  >**Notes:**
-  >* If you see Microsoft Intune in the settings, it indicates that **Microsoft Intune** is your MDM. Proceed to the next **step b. Unenrol from Microsoft Intune**    
-  >* To unenrol your device from MDM software other than Microsoft Intune, contact your organisation's IT administrator.
-
-<!--
-  <div class="warn">
-  <ul>
-  <li>If you see Microsoft Intune in the settings, it indicates that **Microsoft Intune** is your MDM. Proceed to the next step <strong>b. Unenrol from Microsoft Intune</strong>.</li>
-  <li>To unenrol your device from MDM software other than Microsoft Intune, contact your organisation's IT administrator.</li>
-  </ul>
-  </div>-->
+?><br>- If you see Microsoft Intune in the settings, it indicates that **Microsoft Intune** is your MDM. Proceed to the next **step b. Unenrol from Microsoft Intune**<br>- To unenrol your device from MDM software other than Microsoft Intune, contact your organisation's IT administrator.
 
 </details>
 <details>
-  <summary style="font-size:18px">b. Unenrol from Microsoft Intune</summary><br>
+  <summary style="font-size:18px">b. Unenrol from Microsoft Intune</summary>
 
-  1. Click the **Spotlight** icon or press the ``Command+Spacebar`` to open the **Spotlight Search**.
-  2. Enter **Company Portal**.
-  3. Sign in to **Company Portal**.
+Complete the following steps to remove your device from Intune. 
+
+?> To find if your device is enrolled with Intune, see step **a. Verify if your device is already managed by any MDM software**.
+
+  1. Sign in to the **Company Portal** app.
   <kbd>![sign-in-to-company-portal](images/onboarding-for-macos/sign-in-to-company-portal.png)</kbd>
   4. Go to **Devices** and click the three dots beside the device you want to unenrol.
   5. Choose **Remove**.
   <kbd>![devices](images/onboarding-for-macos/devices-2.png)</kbd>
   6. When prompted to confirm the removal, select **Remove**.
-  7. Click your profile icon and **Sign out** of **Company Portal**.
+  7. Click your profile icon and **Sign out** of the **Company Portal**.
 
 </details>
 
 <details>
-  <summary style="font-size:18px">c. Remove Tanium Client</summary><br>
+  <summary style="font-size:18px">c. Remove Tanium Client</summary>
+
+Complete the following steps to find if Tanium Client is available on your device and remove it.
 
   1. Open **Terminal** and run the following command:
 
    ```
   sudo ls /Library/Tanium/TaniumClient
    ```
-  2. If prompted for password, enter your macOS password.
+  2. When prompted for password, enter your macOS password.
 
-  3. If you see the below on your **Terminal**, it indicates that Tanium Client is installed on your device and go to step 3. If not, proceed to step d. **Remove Cloudflare WARP client**.
+  3. If you see the below on your **Terminal**, it indicates that Tanium Client is installed on your device and go to step 4. If not, proceed to step d. **Remove Cloudflare WARP client**.
 
    <kbd>![tanium-client](images/clean-up-instructions-macos.png)</kbd>
 
@@ -168,7 +140,9 @@ Before onboarding to SEED, you need to remove the following software from your d
 
 </details>
 <details>
-  <summary style="font-size:18px">d. Remove Cloudflare WARP Client</summary><br>
+  <summary style="font-size:18px">d. Remove Cloudflare WARP Client</summary>
+
+Complete the following steps to find if Cloudflare WARP client is available on your device and remove it.  
 
   1. Click the **Finder** icon in the **Dock**.
   2. Choose **Applications**.
@@ -181,17 +155,23 @@ Before onboarding to SEED, you need to remove the following software from your d
   5. When prompted, enter your macOS password.
 
 </details>
-<details><summary style="font-size:18px">e. Remove Defender or the current antivirus solution</summary><br>
+<details><summary style="font-size:18px">e. Remove Defender or the current antivirus solution</summary>
 
 If your device is already enrolled with Defender or any other antivirus solution, it has to be completely unenrolled from it before you proceed to onboard the device to SEED.
 
- 
+Complete the following steps to find if Defender is your current antivirus solution and remove it from your device.
+
+?> If you have other antivirus solution, please contact your administrator to remove it.
+
+
 1. Open **Terminal** and run `mdatp health`.   
-2. Take note of the value displayed for **org_id**.
+2. Choose the appropriate step:
+  
+   2a. If you get a `mdatp: command not found` error, it means you do not have Defender installed on your device. You can skip the remaining steps in this section.
 
-?> Note: If you get a `mdatp: command not found` error, you do not have Defender installed on your device. You can skip the steps in this section.
-
-3. Refer to the following table and identify your **Defender organisation** and download the respective offboarding package.
+   2b. Take note of the value displayed for **org_id**.
+  
+  3. Identify the organisation corresponding to this **org_id** from the following table. This is the organisation that is linked to your Defender or antivirus solution on your device.
 
   | org_id  | Defender organisation | Offboarding package |
   | ------------- |:-------------:|:-------------:|
@@ -200,7 +180,7 @@ If your device is already enrolled with Defender or any other antivirus solution
   | 6389e966-e334-461d-86ce-0fed12484620 | Hive | Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package. |
 
 
-!> **Important**<br>- If your **Defender organisation** is **Hive**, please skip the remaining steps in this document. You need to get the offboarding package from the Hive support and unenrol your device from Defender. See the [offboarding FAQs](offboard-device/seed-offboarding-faqs.md) to know how to unenrol your device from Defender using the Hive offboarding package.<br><br>- If your **Defender organisation** is either **WOG** or **TechPass**, it indicates that this device may already have been onboarded to SEED under a different TechPass profile. So you need to offboard this device first before proceeding further. <br><br>- If your **Defender organisation** is **none of the above**, contact the IT support of the organisation that provided you with the device.
+!> **Important**<br>- If your **Defender organisation** is **Hive**, skip the remaining steps in this document. You need to get the offboarding package from the Hive support and unenrol your device from Defender. See the [offboarding FAQs](offboard-device/seed-offboarding-faqs.md) to know how to unenrol your device from Defender using the Hive offboarding package.<br><br>- If your **Defender organisation** is either **WOG** or **TechPass**, it indicates that this device may already have been onboarded to SEED under a different TechPass profile. So you need to offboard this device first before proceeding further. <br><br>- If your **Defender organisation** is **none of the above**, contact the IT support of the organisation that provided you with the device.
 
 4. Log in with your TechPass to download the offboarding package.
 5. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files.
@@ -244,11 +224,13 @@ When you see the following success message on your **Terminal**, you are automat
 <details>
   <summary style="font-size:18px">a. Remove existing MDM software</summary>
 
+Complete the following steps to find if your device is managed by an MDM solution and remove it.  
+
   1. Click **Start** icon on the taskbar.
   2. Go to **Settings** > **Accounts**.
   3. From the left menu, choose **Access work or school**.
 
-  ?> If your device is managed by an MDM, your username in your organisation's domain will be displayed under **Work or school account**.
+?> If your device is managed by an MDM, your username in your organisation's domain will be displayed under **Work or school account**.
 
   4. Click **Work or school account** and then select **Disconnect**.
 
@@ -258,6 +240,8 @@ When you see the following success message on your **Terminal**, you are automat
 <details>
   <summary style="font-size:18px">b. Remove Tanium Client</summary>
 
+Complete the following steps to find if Tanium client is available on your device and remove it.  
+
   1. Click **Start** icon on the taskbar.
   2. Go to **Settings** > **Apps** and search for **Tanium Client**.
   3. If available, choose it and then click **Uninstall**.
@@ -266,6 +250,8 @@ When you see the following success message on your **Terminal**, you are automat
 
 <details>
   <summary style="font-size:18px">c. Remove Cloudflare WARP Client</summary>
+
+Complete the following steps to find if Cloudflare WARP client is available on your device and remove it.
 
   1. Click **Start** icon on the taskbar.
   2. Go to **Settings** > **Apps** and search for **Cloudflare WARP**.
@@ -277,6 +263,7 @@ When you see the following success message on your **Terminal**, you are automat
 
 If your device is already enrolled with Defender or any other antivirus solution, it has to be completely unenrolled from it before you proceed to onboard the device to SEED.
 
+Complete the following steps to find if Defender is your current antivirus solution and remove it from your device.
 
 1. Go to the **Start** menu and enter **Powershell**.
 2. Right-click on the search result for **PowerShell** and select **Run as Administrator**
@@ -290,7 +277,6 @@ $reg64 = [Microsoft.Win32.RegistryKey]::OpenBaseKey([Microsoft.Win32.RegistryHiv
 $OrgID =  $reg64.OpenSubKey("SOFTWARE\MICROSOFT\Windows Advanced Threat Protection\Status").GetValue("OrgID")
 echo $OrgID
 ```
-
 
 4. Take note of the value displayed for **OrgID**.
 
@@ -353,15 +339,13 @@ When you see the following success message on your **Powershell**, you are autom
 
 <!-- tabs:end -->
 
-### Verify if System Integrity Protection is enabled
-
-If you are onboarding a macOS device, verify if System Integrity Protection (SIP) is enabled on your device to prevent unauthorised code executions.
+## Ensure System Integrity Protection(SIP) is enabled for macOS
 
 1. Open **Terminal** and run the command `csrutil status`.
 2. If the result says it is currently disabled, run the command `csrutil enable`.
 3. Restart your device.
 
-### Encrypt your hard disk drive to protect your data at rest
+## Encrypt your hard disk drive to protect your data at rest
 
 <!-- tabs:start -->
 
@@ -417,62 +401,3 @@ If you are onboarding a macOS device, verify if System Integrity Protection (SIP
 
 
 
-### Next steps
-- [Proceed to onboard your device to SEED](onboard-device/onboard-device-to-seed)
-
-
-<!--
-  1. In the search box on the taskbar, type **regedit**.
-  2. Choose **Registry Editor** from the results and click **Run as administrator**.
-  3. In the **Registry Editor**, go to **Computer** > **HKEY_LOCAL_MACHINE** > **SOFTWARE** > **Microsoft** > **Windows Advanced Threat Protection** > **Status**.
-
-  > **Note**:
-  > If you do not see the **Windows Advanced Threat Protection** folder, it indicates your device is not enrolled with any MDM solution. Proceed to onboard your device to SEED.
-
-  4. Take note of the value displayed for **OrgId**.
-  5. Identify the organisation corresponding to this **OrgId** from the following table. This is the organisation of the Defender or the antivirus on your device.
-
-  | OrgId  | Organisation |
-  | ------------- |:-------------:|
-  | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     |
-  | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    |
-  | 6389e966-e334-461d-86ce-0fed12484620      | Hive     |
-
-  > **Note**:
-  > If your organisation id(OrgId) is different from the above three, contact the respective MDM administrator to get the offboarding script.
-
-  6. Based on the organisation, use your internet (which is not a GSIB) device to download the offboarding script from the following:
-
-  | Organisation  | Offboarding script |
-  | ------------- |:-------------:|
-  | WOG      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/wog_windows)    |
-  | TechPass      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/tp_windows)     |
-  | Hive      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/hive_windows)     |
-
-  7. When prompted to log in, log in with your TechPass.
-
-  > **Note**: If you have any issues in accessing the link to download the offboarding script,
-  >- Make sure that you are using your internet (which is not a GSIB) device to download the offboarding script.
-  >- Access the link in incognito mode.
-  >- Make sure you are using only the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
-  >- If you still have issues in downloading the script, create a [support request](https://go.gov.sg/techpass-sr).
-
-  8. Save the offboarding script in your **Downloads** folder.
-
-  > **Note**:
-  > Check if the script that you received has not yet expired. The expiry date is indicated on the file name. For example, *wog_windows_valid_until_2022-09-07.cmd*.
-
-  9. Go to **Start** and type **cmd**.
-  10. Right-click on **Command Prompt** and select **Run as administrator**.
-  11. If prompted, enter your Windows password.
-  12. Run the following commands:
-     ```
-     cd "%USERPROFILE%\Downloads\"
-
-     .\<name_of_offboarding_script.cmd>
-     ```
-> **Note:**
-> Name of the .cmd file mentioned in this command is only an example. When you run the command, specify the file name of the offboarding script you downloaded.  
-
-</details>  
--->
