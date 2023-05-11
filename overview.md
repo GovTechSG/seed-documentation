@@ -3,17 +3,19 @@
 This document gives you the overview of what SEED is and how to
 onboard your device to SEED.
 
-<details open>
-<summary style="font-size:20px;font-weight:bold">Introduction to SEED</summary>
+> **Tip**: Click the triangle to view the details of each topic.
 
-SEED is the Singapore Government's implementation of Identity and Access Management (IAM) and zero trust framework to protect against unauthorised access to the Government's engineering resources, such as Government on Commercial Cloud (GCC) and the Singapore Tech Stack (SGTS).
+<details>
+<summary style="font-size:20px;font-weight:bold">What is SEED?</summary>
+
+SEED is the Singapore Government's implementation of Identity and Access Management (IAM) and zero trust framework to protect against unauthorised access to the Government's engineering resources, such as Government on Commercial Cloud (GCC) and the Singapore Tech Stack(SGTS).
 
 Zero Trust replaces traditional Virtual Private Network (VPN) connections and network-based security policies with a standardised central identity provider. It offers enforcement of access policies allowing only authorised users to use devices compliant with device postures.
 
 </details>
 
-<details open>
-<summary style="font-size:20px;font-weight:bold">SEED features</summary>
+<details>
+<summary style="font-size:20px;font-weight:bold">Why do we need SEED?</summary>
 
 - Detects and provides remediation steps for known malware.
 - Detects if the endpoint meets the required security hardening baseline according to the corresponding Center of Internet Security (CIS) benchmark for the installed endpoint operating system.
@@ -22,7 +24,7 @@ Zero Trust replaces traditional Virtual Private Network (VPN) connections and ne
 
 </details>
 
-<details open>
+<details>
 <summary style="font-size:20px;font-weight:bold">How does SEED work?</summary>
 
 SEED comprises of three components:
