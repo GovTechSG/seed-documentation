@@ -109,8 +109,7 @@ echo "$actual_id"
 | **triggered, waiting for software installation (step 1 of 2)**| Your SEED onboarding has been triggered on the device and is waiting for the software installation to be completed. | When you click the refresh button after a successful software installation, the status changes to **software installed, waiting for backend onboarding**.|
 | **software installed, waiting for backend onboarding (step 2 of 2)**| Required software has been installed on the device and waiting for backend onboarding.  | When you click the refresh button after a successful backend onboarding, the status changes to **onboarded** . |
 | **onboarded** | Your SEED onboarding is successful. | Go to step 8 in this section.  |
-| **failed(Software installation error occurred while onboarding. Please restart your device and retry the process. Raise a support ticket if the problem persists.)** | Your SEED onboarding failed due to errors in software installation. | 1. Restart the device you are onboarding to SEED and then click **Retry**. on your TechPass portal.<br><br>2. If the problem persists, click **Support** to raise a support request. | 
-| **failed(unexpected error occurred while onboarding. Please raise a support ticket)** | Your SEED onboarding failed due to some unexpected error .  | Click **Support** to raise a support request.|
+| **failed(*Reason for failure*)** | Your SEED onboarding failed due to the  error mentioned within the parentheses. | Action required to resolve this failure is generally mentioned in the parentheses. Complete the suggested action required by you. |
 
 8. Check your inbox (organisational email address) to see if you have received the successfully onboarded email.
 
