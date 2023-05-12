@@ -78,7 +78,7 @@ echo "$actual_id"
 
   3a. If you only have a **SE GSIB** device, submit a [support request](https://go.gov.sg/techpass-sr) to register your Intune Device ID and after two hours, check your inbox (organisational email address) to see if you have received the successfully onboarded email. Skip rest of the steps in this section. If you don't receive this email after two hours, submit an [incident request](https://go.gov.sg/techpass-sr).
 
-  3b. If you have a **non-SE GSIB** device,log in to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
+  3b. If you have a **non-SE GSIB** device, log in to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
 
 4. On the TechPass portal, at the top right, go to your user name and click **My Account**. Your **Profile** details are displayed. 
 5. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune Device ID.
@@ -106,11 +106,10 @@ echo "$actual_id"
 
 | Status | Description | Action required |
 |---| ---| ---|
-| **triggered, waiting for software installation (step 1 of 2)**| Your SEED onboarding has been triggered on the device and is waiting for the software installation to be completed. When the software installation is completed, it approximately takes 30-60 minutes to update the status. | Click the refresh button to update the onboarding status until you see the **onboarded** status.|
-| **software installed, waiting for backend onboarding (step 2 of 2)**| Required software has been installed on the device. It approximately takes 30-60 minutes to update this status.  | You may click the refresh button to update the onboarding status until you see the **onboarded** status. |
+| **triggered, waiting for software installation (step 1 of 2)**| Your SEED onboarding has been triggered on the device and is waiting for the software installation to be completed. | When you click the refresh button after a successful software installation, the status changes to **software installed, waiting for backend onboarding**.|
+| **software installed, waiting for backend onboarding (step 2 of 2)**| Required software has been installed on the device and waiting for backend onboarding.  | When you click the refresh button after a successful backend onboarding, the status changes to **onboarded** . |
 | **onboarded** | Your SEED onboarding is successful. | Go to step 8 in this section.  |
-| **failed(Software installation error occurred while onboarding. Please restart your device and retry the process. Raise a support ticket if the problem persists.)** | Your SEED onboarding failed due to errors in software installation. | 1. Restart the device you are onboarding to SEED and then click **Retry**. on your TechPass portal.<br>
-2. If the problem persists, click **Support** to raise a support request. | 
+| **failed(Software installation error occurred while onboarding. Please restart your device and retry the process. Raise a support ticket if the problem persists.)** | Your SEED onboarding failed due to errors in software installation. | 1. Restart the device you are onboarding to SEED and then click **Retry**. on your TechPass portal.<br><br>2. If the problem persists, click **Support** to raise a support request. | 
 | **failed(unexpected error occurred while onboarding. Please raise a support ticket)** | Your SEED onboarding failed due to some unexpected error .  | Click **Support** to raise a support request.|
 
 8. Check your inbox (organisational email address) to see if you have received the successfully onboarded email.
