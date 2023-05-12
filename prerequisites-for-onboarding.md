@@ -13,7 +13,6 @@ Before you proceed to onboard your device to SEED, note the following prerequisi
 !> You **can't onboard** the following to SEED:<br>- Virtual machines<br>- Mobile phones and Tablets (Android and iOS)<br>- GoMAX devices.<br>- SE-GSIB or Non-SE GSIB device.
 <br>- More than one Internet Device.
 
-- Ensure you know what is your TechPass login ID.
 - Ensure you have an active [TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/onboard-to-techpass).
 - Ensure you have a valid SEED onboarding email. For more information on how to request or sign up for SEED provisioning, see [SEED provisioning](#request-seed-provisioning).
 - Ensure you have Administrator permission on the device.
