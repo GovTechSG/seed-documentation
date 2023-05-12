@@ -98,7 +98,7 @@ echo "$actual_id"
 ```
 2. Take note of the Intune Device ID that is displayed on the Terminal window.
 
-<img src="./images/macos-get-intune-device-id.png">
+<img src="./images/macos-get-intune-device-id-new.png">
 
 3. Choose the appropriate method to register your Intune Device ID:
 

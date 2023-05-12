@@ -59,7 +59,7 @@ echo "$actual_id"
 ```
 2. Take note of the Intune Device ID that is displayed on the **Terminal** window.
 
-![intune-device-id](../images/macos-get-intune-device-id.png)
+![intune-device-id](../images/macos-get-intune-device-id-new.png)
 
 </details>
 
