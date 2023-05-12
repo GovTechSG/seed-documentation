@@ -65,7 +65,7 @@ Write-Output $intune_id
 
 3. Choose the appropriate method to register your Intune Device ID:
 
-  3a. If you only have a **SE GSIB** device, submit a [support request](https://go.gov.sg/techpass-sr) to register your Intune Device ID and proceed to step 8 in this section.
+  3a. If you only have a **SE GSIB** device, submit a [support request](https://go.gov.sg/techpass-sr) to register your Intune Device ID and after two hours, check your inbox (organisational email address) to see if you have received the successfully onboarded email. Skip rest of the steps in this section. If you don't receive this email after two hours, submit an [incident request](https://go.gov.sg/techpass-sr).
 
   3b. If you have a **non-SE GSIB** device,log in to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
 
