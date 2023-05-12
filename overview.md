@@ -3,8 +3,6 @@
 This document gives you the overview of what SEED is and how to
 onboard your device to SEED.
 
-![how-does-seed-work](images/how-does-seed-work.png)
-
 > **Tip**: Click the triangle to view the details under each topic.
 
 <details>
@@ -19,6 +17,8 @@ Zero Trust replaces traditional Virtual Private Network (VPN) connections and ne
 <details>
 <summary style="font-size:20px;font-weight:bold">Why do we need SEED?</summary>
 
+![why-do-we-need-seed](images/why-do-we-need-seed.png)
+
 - Detects and provides remediation steps for known malware.
 - Detects if the endpoint meets the required security hardening baseline according to the corresponding Center of Internet Security (CIS) benchmark for the installed endpoint operating system.
 - Detects if the endpoint’s operating system version and security patches are up-to-date.
@@ -28,6 +28,8 @@ Zero Trust replaces traditional Virtual Private Network (VPN) connections and ne
 
 <details>
 <summary style="font-size:20px;font-weight:bold">How does SEED work?</summary>
+
+![how-does-seed-work](images/how-does-seed-work.png)
 
 SEED comprises of three components:
 
