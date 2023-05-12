@@ -7,6 +7,7 @@
 - [Onboard macOS device](onboard-device/macos-vendor-onboarding)
 - [Onboard Windows device](onboard-device/windows-vendor-onboarding)
 - **Additional resources**
+  - [Onboarding FAQs](faqs/common-onboarding-issues.md)
   - [Back to main](/)
 
 
