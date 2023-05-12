@@ -3,7 +3,9 @@
 This document gives you the overview of what SEED is and how to
 onboard your device to SEED.
 
-> **Tip**: Click the triangle to view the details of each topic.
+![how-does-seed-work](images/how-does-seed-work.png)
+
+> **Tip**: Click the triangle to view the details under each topic.
 
 <details>
 <summary style="font-size:20px;font-weight:bold">What is SEED?</summary>
