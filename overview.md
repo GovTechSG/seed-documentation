@@ -1,11 +1,11 @@
 # SEED Documentation
 
-This document gives you the overview of what SEED is and how to
-onboard your device to SEED.
+The SEED user documentation gives you an overview of what SEED is, how it works. It also has the How-to guides for SEED onboarding and offboarding.
+  
 
 > **Tip**: Click the triangle to view the details under each topic.
 
-<details>
+<details open>
 <summary style="font-size:20px;font-weight:bold">What is SEED?</summary>
 
 SEED is the Singapore Government's implementation of Identity and Access Management (IAM) and zero trust framework to protect against unauthorised access to the Government's engineering resources, such as Government on Commercial Cloud (GCC) and the Singapore Tech Stack(SGTS).
@@ -14,7 +14,7 @@ Zero Trust replaces traditional Virtual Private Network (VPN) connections and ne
 
 </details>
 
-<details>
+<details open>
 <summary style="font-size:20px;font-weight:bold">Why do we need SEED?</summary>
 
 ![why-do-we-need-seed](images/why-do-we-need-seed.png)
@@ -26,7 +26,7 @@ Zero Trust replaces traditional Virtual Private Network (VPN) connections and ne
 
 </details>
 
-<details>
+<details open>
 <summary style="font-size:20px;font-weight:bold">How does SEED work?</summary>
 
 ![how-does-seed-work](images/how-does-seed-work.png)
@@ -55,7 +55,7 @@ Device management layer of SEED. It establishes a robust security baseline autom
 
 </details>
 
-<details>
+<details open>
 <summary style="font-size:20px;font-weight:bold">What can SEED do on my device?</summary>
 
 
