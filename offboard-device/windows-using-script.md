@@ -61,12 +61,12 @@ Write-Output $intune_id
 
 ?> **Note**<br>Use this method only if you can't log in to your GMD or TechPass portal.
 
-- Submit an [incident request](https://go.gov.sg/techpass-sr) to get your Intune Device ID.
+- Submit an [incident request](https://go.gov.sg/seed-techpass-support) to get your Intune Device ID.
 
 </details>
 
 
-!> **Note**<br>If you have any issues with the offboarding steps, see the [Offboarding FAQs](/faqs/seed-offboarding-faqs) before submitting an [incident request](https://go.gov.sg/techpass-sr) with TechPass support.
+!> **Note**<br>If you have any issues with the offboarding steps, see the [Offboarding FAQs](/faqs/seed-offboarding-faqs) before submitting an [incident request](https://go.gov.sg/seed-techpass-support) with TechPass support.
 
 ## Phase A: Offboard device from SEED components
 
@@ -153,4 +153,4 @@ When you see the following success message on your **Powershell**, you are autom
 
 ![successfully-offboarded-email](../images/offboarding-windows/win-successfully-offboarded-email.png)
 
-?> **Additional information**<br>- We require up to 30 minutes to process your server-side offboarding request.<br>- If you are still waiting to receive an email after 30 minutes, please submit a [TechPass support request](https://go.gov.sg/techpass-sr).
+?> **Additional information**<br>- We require up to 30 minutes to process your server-side offboarding request.<br>- If you are still waiting to receive an email after 30 minutes, please submit a [TechPass support request](https://go.gov.sg/seed-techpass-support).

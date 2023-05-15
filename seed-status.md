@@ -19,7 +19,7 @@ No ongoing incidents!
 
 | Date | 05 April 2023 |
 | ------------- |:-------------|
-| **Issue summary** | **Resolved**: We identified and implemented a fix for Windows users who experienced connectivity issues with the latest Cloudflare WARP client(2023.3.381.0). <br><br>**Issue start time**&nbsp;&nbsp;**&nbsp;:** 05 April 2023, 10:00 SGT<br>**Issue end time**&nbsp;&nbsp;**&nbsp;&nbsp;&nbsp;:**&nbsp;05 April 2023, 14:30 SGT<br><br>**Impact**: Some of the Windows users would have been unable to connect to GCC 2.0 or SGTS services without a WARP connection.<br><br>*Posted on: 05 April 2023, 16:00 SGT*<br><br><b>What should I do if I am still having an issue?</b><br>Create an [incident support request](https://go.gov.sg/techpass-sr) with the support team. |
+| **Issue summary** | **Resolved**: We identified and implemented a fix for Windows users who experienced connectivity issues with the latest Cloudflare WARP client(2023.3.381.0). <br><br>**Issue start time**&nbsp;&nbsp;**&nbsp;:** 05 April 2023, 10:00 SGT<br>**Issue end time**&nbsp;&nbsp;**&nbsp;&nbsp;&nbsp;:**&nbsp;05 April 2023, 14:30 SGT<br><br>**Impact**: Some of the Windows users would have been unable to connect to GCC 2.0 or SGTS services without a WARP connection.<br><br>*Posted on: 05 April 2023, 16:00 SGT*<br><br><b>What should I do if I am still having an issue?</b><br>Create an [incident support request](https://go.gov.sg/seed-techpass-support) with the support team. |
 
 | Date | 18 December 2022 |
 | ------------- |:-------------|
