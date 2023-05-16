@@ -100,7 +100,15 @@ echo "$actual_id"
 
 6. Ensure the device you are onboarding is connected to the Internet so that Intune is able to install the required software and configurations.
 
-7. Refer to the following table to know about the possible onboarding status and the action required by you.
+7. After 30-60 minutes, check your inbox (organisational email address) to see if you have received any email regarding your onboarding status.
+
+8. Choose the appropriate step:
+
+   a. If you have received a successfully onboarded email, skip rest of the steps in this section and proceed to [Step 3: Verify installation](#step-3-verify-installation).
+
+   b. If you have received a failed onboarding email, complete the below steps.
+
+9. Refer to the following table to know about the possible onboarding status and the action required by you.
 
 | Status | Description | Action required |
 |---| ---| ---|
@@ -109,7 +117,7 @@ echo "$actual_id"
 | **onboarded** | Your SEED onboarding is successful. | Go to step 8 in this section.  |
 | **failed(*Reason for failure*)** | Your SEED onboarding failed due to the  error mentioned within the parentheses. | Action required to resolve this failure is generally mentioned in the parentheses. Complete the suggested action required by you. |
 
-8. Check your inbox (organisational email address) to see if you have received the successfully onboarded email.
+10. Check your inbox (organisational email address) to see if you have received the successfully onboarded email.
 
 ?> If you don't receive this email after two hours, submit an [incident request](https://go.gov.sg/seed-techpass-support).
 

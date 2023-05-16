@@ -91,17 +91,25 @@ Write-Output $intune_id
 
 6. Ensure the device you are onboarding is connected to the Internet so that Intune is able to install the required software and configurations.
 
-7. Refer to the following table to know about the possible onboarding status and the action required by you.
+7. After 30-60 minutes, check your inbox (organisational email address) to see if you have received any email regarding your onboarding status.
+
+8. Choose the appropriate step:
+
+   a. If you have received a successfully onboarded email, skip rest of the steps in this section and proceed to [Step 3: Verify installation](#step-3-verify-installation).
+
+   b. If you have received a failed onboarding email, complete the below steps.
+
+9. Refer to the following table to know about the possible onboarding status and the action required by you.
 
 | Status | Description | Action required |
 |---| ---| ---|
-| **triggered, waiting for software installation (step 1 of 2)**| Your SEED onboarding has been triggered on the device and is waiting for the software installation to be completed. | When you click the refresh button after a successful software installation, the status changes to **software installed, waiting for backend onboarding**.|
-| **software installed, waiting for backend onboarding (step 2 of 2)**| Required software has been installed on the device and waiting for backend onboarding.  | When you click the refresh button after a successful backend onboarding, the status changes to **onboarded** . |
+| **triggered, waiting for software installation (step 1 of 2)**| Your SEED onboarding has been triggered on the device and is waiting for the software installation to be completed. | When you click the refresh button after a successful software installation, the status changes to **software installed, waiting for backend onboarding (step 2 of 2)**.|
+| **software installed, waiting for backend onboarding (step 2 of 2)**| Required software has been installed on the device and waiting for backend onboarding.  | When you click the refresh button after a successful backend onboarding, the status changes to **onboarded**. |
 | **onboarded** | Your SEED onboarding is successful. | Go to step 8 in this section.  |
 | **failed(*Reason for failure*)** | Your SEED onboarding failed due to the  error mentioned within the parentheses. | Action required to resolve this failure is generally mentioned in the parentheses. Complete the suggested action required by you. | 
 
 
-8. Check your inbox (organisational email address) to see if you have received the successfully onboarded email.
+10. Check your inbox (organisational email address) to see if you have received the successfully onboarded email.
 
 ?> If you don't receive this email after two hours, submit an [incident request](https://go.gov.sg/seed-techpass-support).
 
