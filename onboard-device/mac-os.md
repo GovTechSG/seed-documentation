@@ -106,7 +106,7 @@ echo "$actual_id"
 
    a. If you have received a successfully onboarded email, skip rest of the steps in this section and proceed to [Step 3: Verify installation](#step-3-verify-installation).
 
-   b. If you have received a failed onboarding email, complete the below steps.
+   b. If you have received a failed onboarding email, complete the following step on [TechPass portal](https://portal.techpass.gov.sg/).
 
 9. Refer to the following table to know about the possible onboarding status and the action required by you.
 
