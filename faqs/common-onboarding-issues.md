@@ -3,7 +3,7 @@
 <details>
   <summary style="font-size:20px;font-weight:bold">Can I onboard my GSIB device to SEED?</summary>
 
-  No, you can't onboard your GSIB device to SEED. SEED is an MDM solution only for an internet (which is not a GSIB) device. Hence, you can onboard only your internet (which is not a GSIB) device to SEED.
+  No, you can't onboard your GSIB device to SEED. SEED is an MDM solution only for an Internet Device, which is not a GSIB device.
 
   </details>
   <hr/>
@@ -260,6 +260,28 @@ If you don't receive this email after two hours, please submit an [incident requ
 
 </details>
      <hr />
+
+
+<details>
+<summary style="font-size:20px;font-weight:bold">While I register my Intune Device ID on the TechPass portal, what should I do if my onboarding fails due to one of the following reasons?</summary>
+
+As a prerequisite, ensure the device you are onboarding to SEED has a stable internet connectivity until you see the **Onboarded** Status on the TechPass portal.
+
+![intune-device-id-errors-tp-portal](../images/intune-device-id-error-faq.png)
+
+| Reason for failed onboarding | Action required |
+| ---|---|
+| Unexpected Error| [Create a support request](https://go.gov.sg/seed-techpass-support). |
+| Software Misconfiguration Error | [Create a support request](https://go.gov.sg/seed-techpass-support).|
+| Endpoint Error | <br>1. Ensure the device you are onboarding to SEED has a stable internet connectivity until you see the **Onboarded** Status on the TechPass portal.<br>2. Go to the [TechPass portal](https://portal.techpass.gov.sg/).<br>3. At the top right, go to your user name and click **My Account**. Your profile details are displayed.<br>4. Go to the **SEED Devices** section and click **Retry**. <br>5. If the error persists, [Create a support request](https://go.gov.sg/seed-techpass-support). |
+| Software Installation Error | 1. Restart the device you are onboarding to SEED.<br>2. After 10-15 minutes, go to the [TechPass portal](https://portal.techpass.gov.sg/).<br>3. At the top right, go to your user name and click **My Account**. Your profile details are displayed.<br>4. Go to the **SEED Devices** section and click **Retry**. <br>5. If the error persists, [Create a support request](https://go.gov.sg/seed-techpass-support).|
+| Internal Error | 1. Restart the device you are onboarding to SEED.<br>2. After 10-15minutes, go to the [TechPass portal](https://portal.techpass.gov.sg/).<br>3. At the top right, go to your user name and click **My Account**. Your profile details are displayed.<br>4. Go to the **SEED Devices** section and click **Retry**. <br>5. If the error persists, [Create a support request](https://go.gov.sg/seed-techpass-support).|
+| Device that is trying to onboard is a DWP device. Please onboard with a non-DWP device.| You can't onboard DWP device to SEED. You can onboard only an Internet Device to SEED. |
+
+</details>
+     <hr />
+
+   
 
 
 
