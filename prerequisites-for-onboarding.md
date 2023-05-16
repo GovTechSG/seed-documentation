@@ -20,7 +20,7 @@ Before you proceed to onboard your device to SEED, note the following prerequisi
     - Windows 10 and 11 Pro or Enterprise versions.
     - macOS 11 (macOS Big Sur), macOS 12 (macOS Monterey) and macOS 13 (Ventura) versions. 
 - Supported browsers: Google Chrome, Microsoft Edge, Mozilla Firefox. If you are using Mozilla Firefox, you need to [configure Firefox to trust the root certificate store of your system](https://support.mozilla.org/en-US/kb/setting-certificate-authorities-firefox).       
-- [Remove existing software on your device.](#remove-existing-software-on-your-device)
+- [Remove existing software on your device](#remove-existing-software-on-your-device) such as any existing MDM software, Tanium client or any other unified endpoint management and security platform.
 - If your device is running on macOS, ensure [System Integrity protection(SIP) is enabled](#ensure-system-integrity-protectionsip-is-enabled-for-macos).
 - [Encrypt hard disk drive to protect the data at rest](#encrypt-your-hard-disk-drive-to-protect-your-data-at-rest). 
 - If your organisation uses a firewall or other policies to restrict Internet traffic, you may need to make few changes to allow WARP to connect. To know more about these changes, visit [Cloudflare Docs](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/deployment/firewall/). 
