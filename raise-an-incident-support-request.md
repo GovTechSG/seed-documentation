@@ -17,7 +17,7 @@ Following are the support channels for the various service/product users who exp
 | Service/Product  | Support channel|
 | ------------- |:-------------:|
 | SHIP-HATS      | [SHIP-HATS support](https://go.gov.sg/ship-hats-support)   |
-| TechPass, GCC 1.0 and GCC 2.0 | [TechPass support](https://go.gov.sg/seed-techpass-support) |
+| TechPass, GCC 1.0 and GCC 2.0 | [TechPass and SEED support](https://go.gov.sg/seed-techpass-support) |
 
 >**Note:**
 >
