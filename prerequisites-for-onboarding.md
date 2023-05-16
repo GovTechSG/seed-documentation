@@ -58,22 +58,25 @@ Before onboarding to SEED, you need to remove the following software solutions f
   
   1. Choose the appropriate step based on your macOS version.
     
-      1a. If your macOS version is macOS 11 (macOS Big Sur) or macOS 12 (macOS Monterey), go to the **Apple** menu > **System Preferences** > **Profiles**.
+      a. If your macOS version is macOS 11 (macOS Big Sur) or macOS 12 (macOS Monterey), go to the **Apple** menu > **System Preferences** > **Profiles**.
 
-      1b. If your macOS version is macOS 13 (Ventura), go to the **Apple** menu > **System Settings** > **Privacy and Security** > **Profiles** on the right.(You may need to scroll down.)
+      b. If your macOS version is macOS 13 (Ventura), go to the **Apple** menu > **System Settings** > **Privacy and Security** > **Profiles** on the right.(You may need to scroll down.)
 
   2. Click **Management Profile**.
      
-     2a. If your macOS version is macOS 11 (macOS Big Sur) or macOS 12 (macOS Monterey), and see a page similar to the following, it indicates you already have an MDM software.
+      a. If your macOS version is macOS 11 (macOS Big Sur) or macOS 12 (macOS Monterey), and see a page similar to the following, it indicates you already have an MDM software.
+
   <kbd>![verify-other-mdm](images/onboarding-for-macos/verify-other-mdm.png)</kbd>
-     2b. If your macOS version is macOS 13 (Ventura) and see a similar page, it indicates you already have an MDM software.
+
+      b. If your macOS version is macOS 13 (Ventura) and see a similar page, it indicates you already have an MDM software.
+
     ![verify-other-mdm-on-ventura](images/onboarding-for-macos/verify-other-mdm-on-ventura.png)
      
  3. Choose the appropriate step:
  
-   3a. When you confirm that your Internet Device is not managed by any MDM currently, proceed to step **c.Remove Tanium Client** to find if you have Tanium Client and remove it.
+    a. When you confirm that your Internet Device is not managed by any MDM currently, proceed to step **c.Remove Tanium Client** to find if you have Tanium Client and remove it.
 
-   3b. If your Internet Device is managed by an MDM, on the **Management Profile**, go to **Settings** to identify the current MDM software.
+    b. If your Internet Device is managed by an MDM, on the **Management Profile**, go to **Settings** to identify the current MDM software.
   ![verify-other-mdm](images/onboarding-for-macos/management-profile-settings.png)
 
 ?><br>- If you see Microsoft Intune in the settings, it indicates that **Microsoft Intune** is your MDM. Proceed to the next **step b. Unenrol from Microsoft Intune**<br>- To unenrol your device from MDM software other than Microsoft Intune, contact your organisation's IT administrator.
@@ -166,9 +169,9 @@ Complete the following steps to find if Defender is your current antivirus solut
 1. Open **Terminal** and run `mdatp health`.   
 2. Choose the appropriate step:
   
-   2a. If you get a `mdatp: command not found` error, it means you do not have Defender installed on your device. You can skip the remaining steps in this section.
+   a. If you get a `mdatp: command not found` error, it means you do not have Defender installed on your device. You can skip the remaining steps in this section.
 
-   2b. Take note of the value displayed for **org_id**.
+   b. Take note of the value displayed for **org_id**.
   
   3. Identify the organisation corresponding to this **org_id** from the following table. This is the organisation that is linked to your Defender or antivirus solution on your device.
 
