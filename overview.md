@@ -3,8 +3,6 @@
 The SEED user documentation gives you an overview of what SEED is, how it works. It also has the How-to guides for SEED onboarding and offboarding.
   
 
-> **Tip**: Click the triangle to view the details under each topic.
-
 <details open>
 <summary style="font-size:20px;font-weight:bold">What is SEED?</summary>
 
