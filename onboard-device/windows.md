@@ -35,8 +35,19 @@ Your account is added and listed as a connection. This account has **Info** and 
 
 ## Step 2: Register Microsoft Intune Device ID
 
+
 <details>
   <summary style="font-size:18px">Register the Microsoft Intune Device ID for your Windows device.</summary>
+
+## Step 2: Register Microsoft Intune Device ID (only for GSIB users onboarding their Internet Device)
+
+<details><summary style="font-size:18px">Register the Microsoft Intune Device ID for your Windows device</summary>
+
+> **Note**:  
+>
+>- This step is applicable only if you have a GSIB device and your TechPass ID is the same as your organisation email address. In other words, this is applicable for users whose TechPass ID's domain **is not** ```techpass.gov.sg```.
+>
+>- If you only have a SE-GSIB device, complete substeps 1 and 2, and then contact the [support team](https://go.gov.sg/seed-techpass-support) with your Intune Device ID to register your Intune Device ID.  
 
 1. Open **PowerShell** and run the following commands:
 ```
@@ -110,7 +121,6 @@ Write-Output $intune_id
 
 </details>
 
-<!--
 
 ## Step 3: Verify installation
 
@@ -126,4 +136,4 @@ Write-Output $intune_id
 
 </details>
 
--->
+
