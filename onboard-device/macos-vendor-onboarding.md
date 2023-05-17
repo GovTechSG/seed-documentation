@@ -12,7 +12,7 @@
 
 ## Set up Microsoft Intune
 
-<details>
+<details open>
   <summary style="font-size:18px">Set up Microsoft Intune to get the required applications and device configurations.</summary><br>
 
   1. Go to [Microsoft Intune documentation](https://learn.microsoft.com/en-us/mem/intune/user-help/enroll-your-device-in-intune-macos-cp) and follow the instructions on this page to complete the following:
@@ -28,12 +28,12 @@
 
 </details>
 
-### Next steps
-
-- [Post onboarding steps](post-onboarding-instructions/post-onboarding-steps-and-verification).
 
 
-<!--<ifigure>
+
+<!--
+
+<ifigure>
 <iframe title="YouTubeVideoPlayer" src="https://www.youtube.com/embed/P9R5RiMpaVU?showinfo=0" height="640" width="960" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </ifigure>
 

@@ -89,7 +89,7 @@ Write-Output $intune_id
 
 8. Choose the appropriate step:
 
-   a. If you have received a successfully onboarded email, skip rest of the steps in this section.
+   a. If you have received a successfully onboarded email, skip the following the steps.
 
     b. If you have **not yet received** the **successfully onboarded email** or if you **have received** a **failed onboarding email**, complete the following step on [TechPass portal](https://portal.techpass.gov.sg/).
 
@@ -109,10 +109,6 @@ Write-Output $intune_id
 
 
 </details>
-
-### Next steps
-
-- [Post onboarding steps](post-onboarding-instructions/post-onboarding-steps-and-verification).
 
 <!--
 

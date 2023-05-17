@@ -8,7 +8,7 @@
 
 ## Set up Microsoft Intune
 
-<details>
+<details open>
   <summary style="font-size:18px">Set up Microsoft Intune to get the required applications and device configurations.</summary><br>
 
 1. Click **Start** icon on the taskbar.
@@ -31,9 +31,6 @@ Your account is added and listed as a connection. This account has **Info** and 
 
 </details>
 
-### Next steps
-
-- [Post onboarding steps](post-onboarding-instructions/post-onboarding-steps-and-verification).
 
 <!--
 ## Step 2: Verify installation

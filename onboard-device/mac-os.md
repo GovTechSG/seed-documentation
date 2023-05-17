@@ -119,9 +119,7 @@ echo "$actual_id"
 
 </details>
 
-### Next steps
 
-- [Post onboarding steps](post-onboarding-instructions/post-onboarding-steps-and-verification).
 
  
 <!--

@@ -8,7 +8,7 @@
 - [Onboard Windows device](onboard-device/windows-vendor-onboarding)
 - **Additional resources**
   - [Onboarding FAQs](faqs/common-onboarding-issues.md)
-  - [Post onboarding steps](post-onboarding-instructions/post-onboarding-steps-and-verification).
+  - [Post onboarding steps](post-onboarding-instructions/post-onboarding-steps-and-verification)
   - [Back to main](/)
 
 
