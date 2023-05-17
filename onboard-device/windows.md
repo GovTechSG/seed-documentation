@@ -63,7 +63,7 @@ Your account is added and listed as a connection. This account has the **Info** 
 >
 >- This step is applicable only if you have a GSIB device and your TechPass ID is the same as your organisation email address. In other words, this is applicable for users whose TechPass ID's domain **is not** ```techpass.gov.sg```.
 >
->- If you only have a SE-GSIB device, complete substeps 1 and 2, and then contact the [support team](https://go.gov.sg/techpass-sr) with your Intune Device ID to register your Intune Device ID.  
+>- If you only have a SE-GSIB device, complete substeps 1 and 2, and then contact the [support team](https://go.gov.sg/seed-techpass-support) with your Intune Device ID to register your Intune Device ID.  
 
 <!--
 

@@ -70,7 +70,7 @@ Users experience intermittent connectivity issues while trying to accessing Slac
 
 **Workaround**
 
-We are investigating this issue and there is no known workaround available for this. If you experience this issue, create a [support request](https://go.gov.sg/techpass-sr).
+We are investigating this issue and there is no known workaround available for this. If you experience this issue, create a [support request](https://go.gov.sg/seed-techpass-support).
 
 ## Issue 4
 
@@ -80,7 +80,7 @@ Users are unable to access AWS documentation if Cloudflare Warp is turned on. Cl
 
 **Workaround**
 
-If you continue to experience this issue, create a [support request](https://go.gov.sg/techpass-sr).
+If you continue to experience this issue, create a [support request](https://go.gov.sg/seed-techpass-support).
 
 
 
