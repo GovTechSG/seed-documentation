@@ -29,11 +29,6 @@ Based on your onboarding persona and operating system of your Internet Device, c
 - [Onboard macOS device](onboard-device/macos-vendor-onboarding)
 - [Onboard Windows device](onboard-device/windows-vendor-onboarding)
 
-### Next steps
-
-- [Post onboarding steps](/post-onboarding-instructions/post-onboarding-steps-and-verification)
-
-
 <!--
 ### Onboard as public officers
 
