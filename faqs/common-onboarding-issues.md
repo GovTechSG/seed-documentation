@@ -256,7 +256,7 @@ Following are the three options available to reset your password:
 
 When you complete onboarding your device to SEED, within the next two hours, you should receive the successfully onboarded email in your inbox (organisational email address).
 
-If you don't receive this email after two hours, please submit an [incident request](https://go.gov.sg/techpass-sr).
+If you don't receive this email after two hours, please submit an [incident request](https://go.gov.sg/seed-techpass-support).
 
 </details>
      <hr />

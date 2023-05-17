@@ -87,7 +87,7 @@ At any time, users can manually sync by going to **Start** > **Settings** > **Ac
   > **Note**: If you have any issues in accessing the link to download the offboarding script,
   >- Access the link in incognito mode.
   >- Make sure you are using only the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
-  >- If you still have issues in downloading the script, create a [support request](https://go.gov.sg/techpass-sr).
+  >- If you still have issues in downloading the script, create a [support request](https://go.gov.sg/seed-techpass-support).
 
   5. Once you get the offboarding script, run it on your device to unenrol Defender from your device completely.
 
@@ -108,7 +108,7 @@ At any time, users can manually sync by going to **Start** > **Settings** > **Ac
 
   > **Note**:
 >- If you have any issues in accessing the link to download the offboarding script, try accessing the link in incognito mode or one of the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
->- If you still have issues in downloading the script, create a [support request](https://go.gov.sg/techpass-sr).
+>- If you still have issues in downloading the script, create a [support request](https://go.gov.sg/seed-techpass-support).
 
 - For all other organisation ids, contact your organisation's MDM administrator or Defender administrator to get the respective offboarding script and proceed to step 7.
 

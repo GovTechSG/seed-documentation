@@ -455,7 +455,7 @@ If you are onboarding a macOS device, verify if System Integrity Protection (SIP
   >- Make sure that you are using your internet (which is not a GSIB) device to download the offboarding script.
   >- Access the link in incognito mode.
   >- Make sure you are using only the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
-  >- If you still have issues in downloading the script, create a [support request](https://go.gov.sg/techpass-sr).
+  >- If you still have issues in downloading the script, create a [support request](https://go.gov.sg/seed-techpass-support).
 
   8. Save the offboarding script in your **Downloads** folder.
 

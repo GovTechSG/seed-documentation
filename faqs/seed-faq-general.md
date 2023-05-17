@@ -38,7 +38,7 @@ If you use a non-SE GSIB device and if your TechPass account is active, to reque
 
 Complete to onboard your internet (which is not a GSIB) device by following the instructions on [SEED documentation](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/prerequisites-for-onboarding).  
 
-If you do not use a non-SE GSIB device and if your TechPass account is active, [create a service request with TechPass](https://go.gov.sg/techpass-sr) to receive the SEED onboarding invitation email again.
+If you do not use a non-SE GSIB device and if your TechPass account is active, [create a service request with TechPass](https://go.gov.sg/seed-techpass-support) to receive the SEED onboarding invitation email again.
 
 </details><hr />
 
@@ -178,4 +178,4 @@ When the configurations of the impacted services return to a healthy state, you 
 
 [techpass-documentation]: https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/
 [terms-and-policies]: https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/additional-resources/terms-and-policies
-[service-request]: https://go.gov.sg/techpass-sr
+[service-request]: https://go.gov.sg/seed-techpass-support

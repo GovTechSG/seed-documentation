@@ -17,7 +17,7 @@
 
 ?> **Note**<br>Use this method only if you can't log in to your GMD or TechPass portal.
 
-- Submit an [incident request](https://go.gov.sg/techpass-sr) to get your Intune Device ID.
+- Submit an [incident request](https://go.gov.sg/seed-techpass-support) to get your Intune Device ID.
 
 </details>
 
