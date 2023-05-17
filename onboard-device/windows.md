@@ -89,7 +89,7 @@ Write-Output $intune_id
 
 8. Choose the appropriate step:
 
-   a. If you have received a successfully onboarded email, skip the following the steps.
+   a. If you have received a successfully onboarded email, skip rest of the steps in this section and proceed to [Step 3: Verify installation](#step-3-verify-installation).
 
     b. If you have **not yet received** the **successfully onboarded email** or if you **have received** a **failed onboarding email**, complete the following step on [TechPass portal](https://portal.techpass.gov.sg/).
 

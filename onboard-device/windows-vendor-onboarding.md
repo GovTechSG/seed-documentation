@@ -6,33 +6,33 @@
 <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/Cvb7lppxFqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
 </div>
 
-## Set up Microsoft Intune
+## Step 1: Set up Microsoft Intune
 
-<details open>
+<details>
   <summary style="font-size:18px">Set up Microsoft Intune to get the required applications and device configurations.</summary><br>
 
 1. Click **Start** icon on the taskbar.
 
 2. Go to **Settings** > **Accounts** > **Access work or school** and click **Connect** to add your TechPass account.
 
-![access-work-or-school](../images/onboarding-instructions-for-windows/access-work-or-school.png)
+  ![access-work-or-school](../images/onboarding-instructions-for-windows/access-work-or-school.png)
 
 3. Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. 
 
-![techpass-sign-in](../images/onboarding-instructions-for-windows/techpass-sign-in.png)
+  ![techpass-sign-in](../images/onboarding-instructions-for-windows/techpass-sign-in.png)
 
-Your account is added and listed as a connection. This account has **Info** and **Disconnect** options as shown below. 
+  Your account is added and listed as a connection. This account has **Info** and **Disconnect** options as shown below. 
 
-![info-disconnect](../images/onboarding-instructions-for-windows/info-disconnect.png)
+  ![info-disconnect](../images/onboarding-instructions-for-windows/info-disconnect.png)
 
 4. Select the **Info** option and verify that a similar result to the following is displayed. You will see **TechPass** instead of **SG Govt M365**.
 
-![managed-by-tp](../images/onboarding-instructions-for-windows/managed-by-tp.png)
+  ![managed-by-tp](../images/onboarding-instructions-for-windows/managed-by-tp.png)
 
 </details>
 
 
-<!--
+
 ## Step 2: Verify installation
 
 <details>
@@ -41,11 +41,11 @@ Your account is added and listed as a connection. This account has **Info** and 
 1. Go to the Internet Device onboarded to SEED, open **Settings** > **Apps** > **Apps & features**. 
 2. Ensure that Cloudflare WARP and Tanium are listed.
 
-![cloudflare](../images/onboarding-instructions-for-windows/cloudflare.png)
+  ![cloudflare](../images/onboarding-instructions-for-windows/cloudflare.png)
 
-![tanium](../images/onboarding-instructions-for-windows/tanium.png)
+  ![tanium](../images/onboarding-instructions-for-windows/tanium.png)
 
 </details>
--->
+
 
 

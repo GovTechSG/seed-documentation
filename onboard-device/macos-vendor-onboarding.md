@@ -10,9 +10,9 @@
 <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/P9R5RiMpaVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
 </div>
 
-## Set up Microsoft Intune
+## Step 1: Set up Microsoft Intune
 
-<details open>
+<details>
   <summary style="font-size:18px">Set up Microsoft Intune to get the required applications and device configurations.</summary><br>
 
   1. Go to [Microsoft Intune documentation](https://learn.microsoft.com/en-us/mem/intune/user-help/enroll-your-device-in-intune-macos-cp) and follow the instructions on this page to complete the following:
@@ -27,15 +27,6 @@
   4. If you don't receive this email after two hours, submit an [incident request](https://go.gov.sg/seed-techpass-support). 
 
 </details>
-
-
-
-
-<!--
-
-<ifigure>
-<iframe title="YouTubeVideoPlayer" src="https://www.youtube.com/embed/P9R5RiMpaVU?showinfo=0" height="640" width="960" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</ifigure>
 
 ## Step 2: Verify installation
 
@@ -63,6 +54,17 @@
 
 
 </details>
+
+
+
+
+
+<!--
+
+<ifigure>
+<iframe title="YouTubeVideoPlayer" src="https://www.youtube.com/embed/P9R5RiMpaVU?showinfo=0" height="640" width="960" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</ifigure>
+
  
 
 
