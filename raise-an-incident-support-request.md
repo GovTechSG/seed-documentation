@@ -16,7 +16,7 @@ Following are the support channels for the various service/product users who exp
 
 | Service/Product  | Support channel|
 | ------------- |:-------------:|
-| SHIP-HATS      | [SHIP-HATS support](https://jira.ship.gov.sg/servicedesk/customer/portal/11)   |
+| SHIP-HATS      | [SHIP-HATS support](https://go.gov.sg/ship-hats-support)   |
 | TechPass, GCC 1.0 and GCC 2.0 | [TechPass and SEED support](https://go.gov.sg/seed-techpass-support) |
 
 >**Note:**
@@ -31,17 +31,4 @@ Following are the support channels for the various service/product users who exp
 
 
 
-  <!--
-
-  If you have any issues with SEED and subscribed to any SGTS service or product, create an incident and service support request with the respective service desk provided in the following table.
-
-  >**Note:**
-  > If you have not subscribed to any SGTS service or product, create a service request with [TechPass](https://go.gov.sg/seed-techpass-support).
-
-  | Service/Product	  | Support channel |
-  | ------------- |-------------|
-  | [Techpass](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) | [TechPass](https://go.gov.sg/seed-techpass-support) |
-  | [SHIP-HATS](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/) | [SHIP-HATS service desk](https://jira.ship.gov.sg/servicedesk/customer/portal/11) |
-  | GCC 1.0 | Create the incident and support request from the service management module of [Cloud Management Portal](https://portal.gcc.gov.sg/). |
-  | [GCC 2.0](https://docs.developer.tech.gov.sg/docs/gcc-version-2-user-documentation/#/) | From your GSIB device, create an incident and service support request from your GCC 2.0 project on [ITSM](https://itsm.sgnet.gov.sg/sp3). |
-  -->
+  

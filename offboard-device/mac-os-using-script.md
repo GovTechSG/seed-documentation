@@ -59,7 +59,7 @@ echo "$actual_id"
 ```
 2. Take note of the Intune Device ID that is displayed on the **Terminal** window.
 
-![intune-device-id](../images/macos-get-intune-device-id.png)
+![intune-device-id](../images/macos-get-intune-device-id-new.png)
 
 </details>
 
@@ -84,7 +84,9 @@ echo "$actual_id"
 
 </details>
 
+
 !> **Note**<br>If you have any issues with the offboarding steps, see the [Offboarding FAQs](/faqs/seed-offboarding-faqs) before submitting an [incident request](https://go.gov.sg/seed-techpass-support) with TechPass and SEED support.
+
 
 ## Phase A: Offboard device from SEED components
 
@@ -159,7 +161,9 @@ When you see the following success message on your **Terminal**, you are automat
 
 ![successfully-offboarded-email](../images/macos-successfully-offboarded-email.png)
 
+
 ?> **Additional information**<br>- We require up to 30 minutes to process your server-side offboarding request.<br>- If you are still waiting to receive an email after 30 minutes, please submit a [TechPass and SEED support request](https://go.gov.sg/seed-techpass-support).
+
 
 
 <!--

@@ -12,4 +12,4 @@
   - [Offboarding FAQs](faqs/seed-offboarding-faqs.md)
 
 - **Additional resources**
-  - [Back to main](/prerequisites-for-onboarding)
+  - [Back to main](/)

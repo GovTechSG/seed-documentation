@@ -4,8 +4,9 @@
   - [Release notes](release-notes)
   - [Announcements](announcements)
   **Getting started**  
-  - [Prerequisites](prerequisites-for-onboarding)
-  - [Onboard device](onboard-device/onboard-device-to-seed)
+  - [Step 0: Prerequisites](prerequisites-for-onboarding)
+  - [Step 1: Identify persona](identify-seed-onboarding-persona)
+  - [Step 2: Onboard device](onboard-device/onboard-device-to-seed)
 **After onboarding**    
   - [Post onboarding instructions](post-onboarding-instructions/post-onboarding-steps-and-verification)
   - [Device clean-up policy](device-clean-up-policy)

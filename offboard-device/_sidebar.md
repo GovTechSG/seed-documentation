@@ -6,4 +6,4 @@
 
 - **Additional resources**
   - [Offboarding FAQs](offboard-device/seed-offboarding-faqs.md)
-  - [Back to main](/prerequisites-for-onboarding)
+  - [Back to main](/)

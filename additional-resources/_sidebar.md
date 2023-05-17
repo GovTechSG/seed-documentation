@@ -5,4 +5,4 @@
   - [Terms and Policies](additional-resources/terms-and-policies)
 
 - **Additional resources**
-  - [Back to main](/prerequisites-for-onboarding)
+  - [Back to main](/)
