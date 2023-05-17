@@ -4,15 +4,13 @@
 
 ?> <br>- Based on your device settings, while onboarding, you may be prompted to restart your device a couple of times and reset your device password.<br>- Keep your recovery keys ready if you face issues resetting your password or logging in to your device.
 
-<!--<ifigure>
-<iframe title="YouTubeVideoPlayer" src="https://www.youtube.com/embed/P9R5RiMpaVU?showinfo=0" height="640" width="960" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</ifigure>-->
+
 
 <div style="position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden;">
 <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/P9R5RiMpaVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
 </div>
 
-## Step 1: Enrol macOS device using Company Portal app
+## Set up Microsoft Intune
 
 <details>
   <summary style="font-size:18px">Set up Microsoft Intune to get the required applications and device configurations.</summary><br>
@@ -30,7 +28,15 @@
 
 </details>
 
-  
+### Next steps
+
+- [Post onboarding steps](post-onboarding-instructions/post-onboarding-steps-and-verification).
+
+
+<!--<ifigure>
+<iframe title="YouTubeVideoPlayer" src="https://www.youtube.com/embed/P9R5RiMpaVU?showinfo=0" height="640" width="960" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</ifigure>
+
 ## Step 2: Verify installation
 
 <details>
@@ -57,14 +63,12 @@
 
 
 </details>
-
-### Next steps
-
-- [Post onboarding steps](post-onboarding-instructions/post-onboarding-steps-and-verification).
+ 
 
 
 
-<!--
+
+
 
 
 ?> Sign in to the Company Portal using your TechPass and authenticate it by entering the number displayed on your computer.

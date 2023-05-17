@@ -5,12 +5,6 @@
 ?> <br>- Based on your device settings, while onboarding, you may be prompted to restart your device a couple of times and reset your device password.<br>- Keep your recovery keys ready if you face issues resetting your password or logging in to your device.
 
 
-<!-- 
-<ifigure>
-<iframe title="YouTubeVideoPlayer" src="https://www.youtube.com/embed/P9R5RiMpaVU?showinfo=0" height="640" width="960" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</ifigure>
--->
-
 <div style="position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden;">
 <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/P9R5RiMpaVU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
 </div>
@@ -104,7 +98,7 @@ echo "$actual_id"
 
 8. Choose the appropriate step:
 
-   a. If you have received a successfully onboarded email, skip rest of the steps in this section and proceed to [Step 3: Verify installation](#step-3-verify-installation).
+   a. If you have received a successfully onboarded email, skip the following the steps.
 
    b. If you have **not yet received** the **successfully onboarded email** or if you **have received** a **failed onboarding email**, complete the following step on [TechPass portal](https://portal.techpass.gov.sg/).
 
@@ -117,7 +111,6 @@ echo "$actual_id"
 | **onboarded** | Your SEED onboarding is successful. | Go to step 10 in this section.  |
 | **failed(*Reason for failure*)** | Your SEED onboarding failed due to the  error mentioned within the parentheses. | 1. Go to the [TechPass portal](https://portal.techpass.gov.sg/).<br><br>2. At the top right, go to your user name and click **My Account**. Your profile details are displayed.<br><br>3. Go to the **SEED Devices** section. Action required to resolve this failure is generally mentioned in the parentheses.<br><br>4. Complete the suggested action. | 
 
-
 10. Check your inbox (organisational email address) to see if you have received the successfully onboarded email.
 
 ?> If you don't receive this email after two hours, submit an [incident request](https://go.gov.sg/seed-techpass-support).
@@ -125,6 +118,17 @@ echo "$actual_id"
  
 
 </details>
+
+### Next steps
+
+- [Post onboarding steps](post-onboarding-instructions/post-onboarding-steps-and-verification).
+
+ 
+<!--
+  
+  <img src="./images/macos-get-intune-device-id-new.png">
+  
+
 
 ## Step 3: Verify installation
 
@@ -151,10 +155,6 @@ echo "$actual_id"
 
   </details>
 
-### Next steps
-
-- [Post onboarding steps](post-onboarding-instructions/post-onboarding-steps-and-verification).
-
- <!--
-  <img src="./images/macos-get-intune-device-id-new.png">
+  in this section and proceed to [Step 3: Verify installation](#step-3-verify-installation)
   -->
+  

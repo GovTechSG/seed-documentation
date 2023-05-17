@@ -2,12 +2,6 @@
 
 ?> <br>- Based on your Windows settings, you may be prompted to restart or reset your password while onboarding.
 
-<!--
-<ifigure>
-<iframe title="YouTubeVideoPlayer" src="https://www.youtube.com/embed/Cvb7lppxFqs" height="580" width="1000" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</ifigure>
--->
-
 <div style="position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden;">
 <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/Cvb7lppxFqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
 </div>
@@ -95,7 +89,7 @@ Write-Output $intune_id
 
 8. Choose the appropriate step:
 
-   a. If you have received a successfully onboarded email, skip rest of the steps in this section and proceed to [Step 3: Verify installation](#step-3-verify-installation).
+   a. If you have received a successfully onboarded email, skip rest of the steps in this section.
 
     b. If you have **not yet received** the **successfully onboarded email** or if you **have received** a **failed onboarding email**, complete the following step on [TechPass portal](https://portal.techpass.gov.sg/).
 
@@ -116,6 +110,12 @@ Write-Output $intune_id
 
 </details>
 
+### Next steps
+
+- [Post onboarding steps](post-onboarding-instructions/post-onboarding-steps-and-verification).
+
+<!--
+
 ## Step 3: Verify installation
 
 <details>
@@ -130,6 +130,4 @@ Write-Output $intune_id
 
 </details>
 
-### Next steps
-
-- [Post onboarding steps](post-onboarding-instructions/post-onboarding-steps-and-verification).
+-->
