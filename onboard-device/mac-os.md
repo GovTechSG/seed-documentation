@@ -29,14 +29,6 @@
 <details>
   <summary style="font-size:18px">Register the Microsoft Intune Device ID for your macOS device.</summary><br>
 
-
-> **Note**:  
->
->- This step is applicable only if you have a GSIB device and your TechPass ID is the same as your organisation email address. In other words, this is applicable for users whose TechPass ID's domain **is not** ```techpass.gov.sg```.
->
->- If you only have a SE-GSIB device, complete substeps 1 and 2, and then contact the [support team](https://go.gov.sg/seed-techpass-support) with your Intune Device ID to register your Intune Device ID.  
-
-
 1. Open **Terminal** and run the following commands:
 
 ```
