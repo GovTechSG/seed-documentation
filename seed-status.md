@@ -7,7 +7,10 @@ This page provides the following Information:
 
 ## Scheduled maintenance
 
-No scheduled maintenance.
+<!--No scheduled maintenance.-->
+| Date | 18 May 2023 |
+| ------------- |:-------------|
+| Issue summary| We will be performing a scheduled patching and upgrade of our SEED servers on 18 May 2023.<br><br>**Start time** : 18 May 2023, 18:00 SGT<br>**End time**&nbsp;&nbsp;&nbsp;: 18 May 2023, 19:00 SGT<br><br>**Impact**<br>- For existing SEED users: Your device statuses on the DEEP Dashboard may not be updated.<br>- For new SEED users: Your SEED onboarding may be delayed.<br><br>**Action required**<br>- After the deployment, check if you can access the [DEEP dashboard](https://dashboard.deep.tech.gov.sg/).<br>- If you have issues accessing the DEEP dashboard, please create an [incident support request](https://go.gov.sg/seed-techpass-support). |
 
 
 ## Ongoing incidents
