@@ -9,7 +9,7 @@ This section lists the most recent changes, new features and fixes that are avai
 <details open>
 <summary style="font-size:20px;font-weight:bold">Release of the SEED Primer</summary>
 
-You asked and we acted! We received feedback to simplify the onboarding guide and today, we roll out the SEED Primer. It serves like a quick start user guide to enable users to onboard quickly. 
+You asked and we acted! We received feedback to simplify the onboarding guide and today, we roll out the SEED Primer. It serves like a quick start guide to enable users to onboard quickly. 
 
 For more information, see [SEED Primer](https://docs.developer.tech.gov.sg/docs/seed-primer/).
 
