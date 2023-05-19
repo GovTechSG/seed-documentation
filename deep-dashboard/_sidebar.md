@@ -1,4 +1,4 @@
-- [SEED dashboard overview](/seed-dashboard-overview.md)
-- [SEED dashboard tour](/seed-dashboard-tour.md)
-- [FAQ](/seed-dashboard-faq.md)
+- [DEEP dashboard overview](/deep-overview.md)
+- [DEEP dashboard tour](/deep-dashboard-tour.md)
+- [FAQ](/deep-dashboard-faq.md)
 - [Back to main](/)
