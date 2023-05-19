@@ -5,6 +5,7 @@ This article is for GCC 1.0 users who have onboarded their Internet Device to SE
 Objective of this document is to explain how to verify if your device onboarding to SEED was successful and if you are still able to access your GCC 1.0 resources.
 
 **To verify SEED onboarding for GCC 1.0 users**:
+
 1.	As only one VPN connection can be active at a time, go to the Cloudflare WARP icon on your GMD and toggle the **Connected** switch to **Paused**.
 
 <kbd>![cloudflare-switch](../images/gcc-1-users/pause-connection.png ':size=75%')</kbd>

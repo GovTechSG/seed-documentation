@@ -1,5 +1,5 @@
 - **Post onboarding**
-  - [Post onboarding instructions](post-onboarding-instructions/post-onboarding-steps-and-verification)
+  - [Post onboarding steps](post-onboarding-instructions/post-onboarding-steps-and-verification)
     - macOS
       - [macOS 11 (Big Sur) and 12(Monterey)](post-onboarding-instructions/mac-os)
       - [macOS 13 (Ventura)](post-onboarding-instructions/mac-os-13)

@@ -1,7 +1,9 @@
-# SEED post onboarding verification steps
+# SEED post onboarding steps
 
 
-Following the SEED onboarding, complete the post onboarding steps. If you are a GCC 1.0 user, make sure to complete the verification steps.
+Following the SEED onboarding, complete the post onboarding steps. 
+
+?> If you are a GCC 1.0 user, make sure to complete your [post onboarding verification steps](post-onboarding-instructions/gcc-1.0-users).
 
 - Post onboarding instructions for macOS
   - [Post onboarding instructions for macOS 11(Big Sur) and 12 (Monterey)](post-onboarding-instructions/mac-os.md)
