@@ -1,7 +1,7 @@
 - **Offboarding**
   - [Offboard device from SEED](offboard-device/offboard-device-from-seed)
-    - [macOS](offboard-device/mac-os-using-script)
-    - [Windows](offboard-device/windows-using-script)
+    - [macOS](offboard-device/mac-os)
+    - [Windows](offboard-device/windows)
       
 
 - **Additional resources**
