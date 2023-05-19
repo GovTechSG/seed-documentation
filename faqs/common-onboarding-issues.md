@@ -281,7 +281,7 @@ As a prerequisite, ensure the device you are onboarding to SEED has a stable int
 | Device that is trying to onboard is a DWP device. Please onboard with a non-DWP device.| You can't onboard DWP device to SEED. You can onboard only an Internet Device to SEED. |
 
 </details>
-     <hr />
+   
 
 
 
