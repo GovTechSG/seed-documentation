@@ -59,8 +59,6 @@ echo "$actual_id"
 ```
 2. Take note of the Intune Device ID that is displayed on the **Terminal** window.
 
-![intune-device-id](../images/macos-get-intune-device-id-new.png)
-
 </details>
 
 <details>
@@ -70,7 +68,7 @@ echo "$actual_id"
 2. On the TechPass portal, at the top right, go to your user name and click **My Account**. Your **Profile** details are displayed.
 3. Take note of the **Intune Device ID** from the **Profile** page.
 
-![tp-intune-device-id](../images/tp-portal-intune-device-id.png)
+![tp-intune-device-id](../images/macos-get-intune-device-id.png)
 
 </details>
 
@@ -167,7 +165,11 @@ When you see the following success message on your **Terminal**, you are automat
 
 
 <!--
-[Get Intune Device ID](../snippets/snippets-get-intune-device-id.md ':include')-->
+[Get Intune Device ID](../snippets/snippets-get-intune-device-id.md ':include')
+
+![intune-device-id](../images/macos-get-intune-device-id-new.png)
+
+-->
 
 
 
