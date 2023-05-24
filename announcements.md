@@ -2,6 +2,7 @@
 
 | Date  | Announcement |
 | ------------- |:-------------:|
+| 19 May 2023 | We have released the SEED Primer on 19 May 2023. For more information, see [SEED Primer](https://docs.developer.tech.gov.sg/docs/seed-primer/). |
 | 18 May 2023 | We will be performing a scheduled maintenance on our SEED servers on 18 May 2023. For more information, see [SEED service status](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/seed-status?id=scheduled-maintenance). |
 | 17 May 2023 | We have updated the onboarding process for SEED. For more information, see [Onboard your device to SEED](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/onboard-device-to-seed). |
 | 20 April 2023 | We will be performing a scheduled maintenance on our SEED servers on 21 April 2023. For more information, see [SEED service status](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/seed-status?id=scheduled-maintenance). |
