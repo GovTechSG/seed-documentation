@@ -2,8 +2,7 @@
 
 | Date  | Announcement |
 | ------------- |:-------------:|
-| 25 May 2023 | We will be performing a maintenance activity for Cloudflare to turn on egress IP on 25 May 2023. Users will see that traffic routed through Cloudflare Gateway will reflect the origin IP to be either of the following:
-<br><br> - 8.29.230.19/32 or<br>- 8.29.230.18/32<br><br>**Customer Impact**:<br>There should be no impact on browsing websites through Cloudflare Gateway or accessing SGTS and GCC 2.0 applications protected by SEED.<br><br>**Additional Information**: For any further clarifications regarding this maintenance, please reach us at https://go.gov.sg/seed-techpass-support|
+| 25 May 2023 | We will be performing a maintenance activity for Cloudflare to turn on egress IP on 25 May 2023. Users will see that traffic routed through Cloudflare Gateway will reflect the origin IP to be either of the following:<br><br> - 8.29.230.19/32 or<br>- 8.29.230.18/32<br><br>**Customer Impact**:<br>There should be no impact on browsing websites through Cloudflare Gateway or accessing SGTS and GCC 2.0 applications protected by SEED.<br><br>**Additional Information**: For any further clarifications regarding this maintenance, please reach us at https://go.gov.sg/seed-techpass-support|
 | 19 May 2023 | We have released the SEED Primer on 19 May 2023. For more information, see [SEED Primer](https://docs.developer.tech.gov.sg/docs/seed-primer/). |
 | 18 May 2023 | We will be performing a scheduled maintenance on our SEED servers on 18 May 2023. For more information, see [SEED service status](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/seed-status?id=scheduled-maintenance). |
 | 17 May 2023 | We have updated the onboarding process for SEED. For more information, see [Onboard your device to SEED](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/onboard-device-to-seed). |
