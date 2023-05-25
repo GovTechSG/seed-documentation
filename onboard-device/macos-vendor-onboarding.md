@@ -52,7 +52,7 @@
   <li>System Extension Profile</li>
   </ul>
 
-?> You may receive a desktop notification that your device has been renamed according to convention, and that a timed restart will occur in 10 minutes. This is completely expected, and you should save any existing work to prevent data loss. Alternatively, you can also opt to manually restart your device to speed up the process. As the naming convention is required for administrative purposes, please refrain from renaming your device thereafter.
+  ?> You may receive a desktop notification that your device has been renamed according to convention, and that a timed restart will occur in 5 minutes. This is completely expected, and you should save any existing work to prevent data loss. Alternatively, you can also opt to manually restart your device, after receiving the desktop notification, to speed up the process. As the naming convention is required for administrative purposes, please refrain from renaming your device thereafter.
 
 </details>
 
