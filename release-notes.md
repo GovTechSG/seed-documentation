@@ -2,6 +2,17 @@
 
 This section lists the most recent changes, new features and fixes that are available for SEED users.
 
+## 25 May 2023
+
+:sparkles:**New Feature** 
+
+<details open>
+<summary style="font-size:20px;font-weight:bold">Roll out of Egress Static IPs</summary>
+
+This a long awaited feature. We have rolled out egress to all SEED users. While this feature does not affect the majority of SEED users, it improves the integration between SEED and some services that don't support integration with Cloudflare. If you have such a requirement to secure your environment, please get in touch with us through our SEED mailbox at [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg).
+
+</details>
+
 ## 19 May 2023
 
 :sparkles:**Documentation Enhancement** 
