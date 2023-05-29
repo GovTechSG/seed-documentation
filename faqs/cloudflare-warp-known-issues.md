@@ -177,6 +177,7 @@ This is a known issue with Cloudflare WARP. If you are unable to access any SGTS
     - If your device operating system is updated to the latest version.
     - If Defender is up-to-date and in the running state.
     - If your TechPass account has the required permissions to access the GCC 2.0 CMP or a particular SGTS service.
+    - If you have restarted your machine.
 
 2. Make sure the VPN configuration does not route all traffic and DNS queries to the VPN server. We recommend not to turn on WARP and the VPN at the same time.
 
