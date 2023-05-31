@@ -4,7 +4,8 @@
 <details>
 <summary style="font-size:18px">How does SEED dashboard work? </summary>
 
-SEED dashboard uses data from TechPass, Cloudflare, Microsoft Defender and Intune, to identify and prevent insecure devices from accessing protected resources. Additionally, DEEP measures device compliance against CIS-based benchmarks and automatically corrects non-compliant configurations. 
+SEED Dashboard extracts data from the respective components of SEED, including TechPass, Cloudflare, Microsoft Defender, and Intune. This data is used to present an overall view of the device's security status. Users can also utilise the dashboard to determine how they can rectify security issues and regain access to SEED-protected applications.
+
 </details>
 <br>
 <details>
