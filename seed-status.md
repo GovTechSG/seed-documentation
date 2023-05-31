@@ -16,8 +16,10 @@ No scheduled maintenance.
 
 ## Ongoing incidents
 
-No ongoing incidents!
-
+<!--No ongoing incidents!-->
+| Date | 31 May 2023 |
+| ------------- |:-------------|
+| **Issue summary** | Cloudflare has notified us of network issues on 31 May 2023, 16:50 SGT. <br><br>**Impact**: Users may experience service degradation on their GMDs. More information available https://www.cloudflarestatus.com/incidents/28lv1y81cvh9. <br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support).
 
 ## Previous incidents
 
