@@ -16,12 +16,19 @@ No scheduled maintenance.
 
 ## Ongoing incidents
 
-<!--No ongoing incidents!-->
+No ongoing incidents!
+<!--
 | Date | 31 May 2023 |
 | ------------- |:-------------|
 | **Issue summary** | Cloudflare has notified us of network issues on 31 May 2023, 16:50 SGT. <br><br>**Impact**: Users may experience service degradation on their GMDs. More information available https://www.cloudflarestatus.com/incidents/28lv1y81cvh9. <br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support).
+-->
 
 ## Previous incidents
+
+| Date | 31 May 2023 |
+| ------------- |:-------------|
+| **Issue summary** | Cloudflare has resolved the network issues notified to us on 31 May 2023, 16:50 SGT. <br><br>**Issue start time**&nbsp;&nbsp;**&nbsp;**: 31 May 2023, 15:32 SGT<br>**Issue end time**&nbsp;&nbsp;**&nbsp;&nbsp;&nbsp;**:&nbsp;31 May 2023, 17:23 SGT<br><br>**Impact**: Users may experience service degradation on their GMDs. <br><br>*Posted on: 31 May 2023, 18:00 SGT*<br><br><b>What should I do if I am still having an issue?</b><br>Create an [incident support request](https://go.gov.sg/seed-techpass-support) with the support team. |
+
 
 | Date | 05 April 2023 |
 | ------------- |:-------------|
