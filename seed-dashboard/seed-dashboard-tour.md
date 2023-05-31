@@ -1,4 +1,4 @@
-# DEEP Dashboard tour
+# SEED Dashboard tour
 
 <img src="images/seed-dashboard/seed-dashboard-tour.png" alt="drawing" width="100%"/>
 
