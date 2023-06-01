@@ -1,4 +1,0 @@
-- [DEEP dashboard overview](/deep-overview.md)
-- [DEEP dashboard tour](/deep-dashboard-tour.md)
-- [FAQ](/deep-dashboard-faq.md)
-- [Back to main](/)
