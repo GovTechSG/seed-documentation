@@ -33,7 +33,8 @@ SEED comprises of three components:
 
 - TechPass
 - Cloudflare
-- SEED Dashboard
+- Development Environment Endpoint Posture(DEEP)
+
 <!-- tabs:start -->
 
 ### **TechPass**
@@ -44,9 +45,9 @@ This is the Identity Access Management(IAM) and Single Sign-On(SSO) solution for
 
 The security platform that enforces Zero Trust network access allowing faster and safer connections to the Internet and applications. This comprises of the following:<br>- **Cloudflare WARP**: Replaces the traditional VPN clients.<br>- **Cloudflare Gateway**: Blocks and protects from malicious content.<br>- **Cloudflare Access**: Evaluates every request for user identity and device context.
 
-### **SEED Dashboard**
+### **DEEP**
 
-Device management layer of SEED. It establishes a robust security baseline automatically​ and prevents insecure or compromised devices from accessing engineering resources.​ SEED Dashboard manages the following:<br>- **Microsoft Intune**: Provides device and application management including remote application deployment and selective device wipe.<br>- **Microsoft Defender Advanced Threat Prevention**: Enterprise class vulnerability management, threat detection and response security solution.<br>- **Tanium**: Works with Cloudflare to ensure posture-based conditional access to the endpoint assets.
+Device management layer of SEED. It establishes a robust security baseline automatically​ and prevents insecure or compromised devices from accessing engineering resources.​ DEEP manages the following:<br>- **Microsoft Intune**: Provides device and application management including remote application deployment and selective device wipe.<br>- **Microsoft Defender Advanced Threat Prevention**: Enterprise class vulnerability management, threat detection and response security solution.<br>- **Tanium**: Works with Cloudflare to ensure posture-based conditional access to the endpoint assets.
 
 <!-- tabs:end -->
 
@@ -61,17 +62,3 @@ Device management layer of SEED. It establishes a robust security baseline autom
 |- View the model number, serial number and operating system of the device.<br>- View the names of the applications you have installed.<br>- Identify your device by name.<br>- Reset lost or stolen device to factory setting upon required consent and approval from device owner and manager-in-charge, respectively.|- View the browsing history.<br>-Access your emails, contacts and calendar.<br>- Access your documents.|
 
 </details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
