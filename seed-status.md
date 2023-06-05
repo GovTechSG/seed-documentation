@@ -31,11 +31,9 @@ No ongoing incidents!
 | ------------- |:-------------|
 | **Issue summary** | Cloudflare has resolved the network issues identified on 05 June 2023, 16:50 SGT. <br><br>**Issue start time**&nbsp;&nbsp;**&nbsp;**: 05 June 2023, 13:30 SGT<br>**Issue end time**&nbsp;&nbsp;**&nbsp;&nbsp;&nbsp;**:&nbsp;05 June 2023, 17:11 SGT<br><br>**Impact**: Users may experience service degradation on their GMDs and intermittent connectivity to SGTS services and GCC. <br><br>*Posted on: 05 June 2023, 18:00 SGT*<br><br><b>What should I do if I am still having an issue?</b><br>Create an [incident support request](https://go.gov.sg/seed-techpass-support) with the support team. |
 
-
 | Date | 31 May 2023 |
 | ------------- |:-------------|
-| **Issue summary** | Cloudflare has resolved the network issues notified to us on 31 May 2023, 16:50 SGT. <br><br>**Issue start time**&nbsp;&nbsp;**&nbsp;**: 31 May 2023, 15:32 SGT<br>**Issue end time**&nbsp;&nbsp;**&nbsp;&nbsp;&nbsp;**:&nbsp;31 May 2023, 17:23 SGT<br><br>**Impact**: Users may experience service degradation on their GMDs. <br><br>*Posted on: 31 May 2023, 18:00 SGT*<br><br><b>What should I do if I am still having an issue?</b><br>Create an [incident support request](https://go.gov.sg/seed-techpass-support) with the support team. |
-
+| **Issue summary** | Cloudflare has resolved the network issues notified to us on 31 May 2023, 16:50 SGT.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>**Issue start time**&nbsp;&nbsp;**&nbsp;:** 31 May 2023, 15:32 SGT<br>**Issue end time**&nbsp;&nbsp;**&nbsp;&nbsp;&nbsp;:**&nbsp;31 May 2023, 17:23 SGT<br><br>**Impact**: Users may experience service degradation on their GMDs. <br><br>*Posted on: 31 May 2023, 18:00 SGT*<br><br><b>What should I do if I am still having an issue?</b><br>Create an [incident support request](https://go.gov.sg/seed-techpass-support) with the support team. |
 
 | Date | 05 April 2023 |
 | ------------- |:-------------|
@@ -44,8 +42,6 @@ No ongoing incidents!
 | Date | 18 December 2022 |
 | ------------- |:-------------|
 | **Issue summary** | We identified an issue with Cloudflare Access and Tanium on 18 December 2022, 12:00 SGT. <br><br>**Impact**: Users were unable to authenticate their login while accessing SGTS services and GCC 2.0 services around this time. The impact duration was during non-business hours.<br><br>**Resolved**: The issue was resolved on 18 December 2022, 13:15 SGT. <br><br>*Posted on: 18 December 2022, 13:50 SGT*
-
-
 
 | Date | 21 October 2022 |
 | ------------- |:-------------|
