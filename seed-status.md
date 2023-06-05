@@ -18,13 +18,19 @@ No scheduled maintenance.
 
 ## Ongoing incidents
 
-<!--No ongoing incidents!-->
+No ongoing incidents!
+
+<!--| Date | 05 June 2023 |
+| ------------- |:-------------|
+| **Issue summary** | We have identified connectivity issues through Cloudflare WARP on 05 Jun 2023, 13:30 SGT. <br><br>**Impact**: Users may experience service degradation on their GMDs and intermittent connectivity to SGTS services and GCC. More information available https://www.cloudflarestatus.com/incidents/q7kv4q501n0n. <br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support).
+-->
+
+## Previous incidents
 
 | Date | 05 June 2023 |
 | ------------- |:-------------|
-| **Issue summary** | We have identified connectivity issues through Cloudflare WARP on 05 Jun 2023, 13:30 SGT. <br><br>**Impact**: Users may experience service degradation on their GMDs and intermittent connectivity to SGTS services and GCC. More information available https://www.cloudflarestatus.com/incidents/q7kv4q501n0n. <br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support).
+| **Issue summary** | Cloudflare has resolved the network issues identified on 05 June 2023, 16:50 SGT. <br><br>**Issue start time**&nbsp;&nbsp;**&nbsp;**: 05 June 2023, 13:30 SGT<br>**Issue end time**&nbsp;&nbsp;**&nbsp;&nbsp;&nbsp;**:&nbsp;05 June 2023, 16:48 SGT<br><br>**Impact**: Users may experience service degradation on their GMDs and intermittent connectivity to SGTS services and GCC. <br><br>*Posted on: 05 June 2023, 16:55 SGT*<br><br><b>What should I do if I am still having an issue?</b><br>Create an [incident support request](https://go.gov.sg/seed-techpass-support) with the support team. |
 
-## Previous incidents
 
 | Date | 31 May 2023 |
 | ------------- |:-------------|
