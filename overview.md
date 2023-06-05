@@ -33,7 +33,7 @@ SEED comprises of three components:
 
 - TechPass
 - Cloudflare
-- Development Environment Endpoint Posture(DEEP)
+- SEED Dashboard
 
 <!-- tabs:start -->
 
@@ -45,7 +45,7 @@ This is the Identity Access Management(IAM) and Single Sign-On(SSO) solution for
 
 The security platform that enforces Zero Trust network access allowing faster and safer connections to the Internet and applications. This comprises of the following:<br>- **Cloudflare WARP**: Replaces the traditional VPN clients.<br>- **Cloudflare Gateway**: Blocks and protects from malicious content.<br>- **Cloudflare Access**: Evaluates every request for user identity and device context.
 
-### **DEEP**
+### **SEED Dashboard**
 
 Device management layer of SEED. It establishes a robust security baseline automatically​ and prevents insecure or compromised devices from accessing engineering resources.​ DEEP manages the following:<br>- **Microsoft Intune**: Provides device and application management including remote application deployment and selective device wipe.<br>- **Microsoft Defender Advanced Threat Prevention**: Enterprise class vulnerability management, threat detection and response security solution.<br>- **Tanium**: Works with Cloudflare to ensure posture-based conditional access to the endpoint assets.
 
