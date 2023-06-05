@@ -22,7 +22,7 @@ No scheduled maintenance.
 
 | Date | 05 June 2023 |
 | ------------- |:-------------|
-| **Issue summary** | We have identified connectivity issues through Cloudflare WARP on 05 Jun 2023, 13:30 SGT. <br><br>**Impact**: Users may experience service degradation on their GMDs. More information available https://www.cloudflarestatus.com/incidents/q7kv4q501n0n. <br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support).
+| **Issue summary** | We have identified connectivity issues through Cloudflare WARP on 05 Jun 2023, 13:30 SGT. <br><br>**Impact**: Users may experience service degradation on their GMDs and intermittent connectivity to SGTS services and GCC. More information available https://www.cloudflarestatus.com/incidents/q7kv4q501n0n. <br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support).
 
 ## Previous incidents
 
