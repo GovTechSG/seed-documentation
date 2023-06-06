@@ -7,13 +7,11 @@ This page provides the following Information:
 
 ## Scheduled maintenance
 
-No scheduled maintenance.
+<!--No scheduled maintenance.-->
 
-<!--
-| Date | 01 June 2023 |
+| Date | 07 June 2023 |
 | ------------- |:-------------|
-| Issue summary| We will be performing a scheduled patching and upgrade of our SEED servers on 01 Jun 2023.<br><br>**Start time** : 01 Jun 2023, 21:00 SGT<br>**End time**&nbsp;&nbsp;&nbsp;: 01 Jun 2023, 22:00 SGT<br><br>**Impact**<br>- There should be no impact on browsing websites through Cloudflare Gateway.<br>- Users may not be able to access SGTS and GCC 2.0 applications protected by SEED during the maintenance activity.<br><br>**Action required**<br>- After the deployment, check if you can access the SGTS and GCC 2.0 applications protected by SEED.<br>- If you have issues accessing the applications, please create an [incident support request](https://go.gov.sg/seed-techpass-support).|
--->
+| Issue summary| Cloudflare will be performing scheduled maintenance in SIN (Singapore) datacenter on 07 June 2023. <br><br>**Start time** : 07 June 2023, 01:00 SGT<br>**End time**&nbsp;&nbsp;&nbsp;: 07 June 2023, 07:00 SGT<br><br>**Impact**<br>- Users may experience service degradation on their GMDs.<br><br>**Action required**<br>- After the deployment, check if you can access the SGTS and GCC 2.0 applications protected by SEED.<br>- If you have issues accessing the applications, please create an [incident support request](https://go.gov.sg/seed-techpass-support).|
 
 
 ## Ongoing incidents
