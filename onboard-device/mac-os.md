@@ -129,16 +129,16 @@ echo "$actual_id"
 <ul style="list-style-type: disc; margin-left: -3px;">
   <li>Credential Profile</li>
   <li>Custom Preferences Profile - com.cloudflare.warp</li>
-  <li style="margin-bottom:-10px">Custom Preferences Profile - com.microsoft.wdav</li>
-  <li style="margin-bottom:-10px">GCC2 ATP Full Disk Access</li>
-  <li style="margin-bottom:-10px">GCC2 ATP Kernel Extensions - Custom</li>
-  <li style="margin-bottom:-10px">GCC2 ATP Network Filter</li>
-  <li style="margin-bottom:-10px">GCC2 ATP Notifications</li>
-  <li style="margin-bottom:-10px">GCC2 ATP Onboarding</li>
-  <li style="margin-bottom:-10px">Intune MDM Agent SCEP Profile</li>
-  <li style="margin-bottom:-10px">Management Profile</li>
-  <li style="margin-bottom:-10px">Passcode Profile</li>
-  <li style="margin-bottom:-10px">Privacy Preferences Policy Profile</li>
+  <li>Custom Preferences Profile - com.microsoft.wdav</li>
+  <li>GCC2 ATP Full Disk Access</li>
+  <li>GCC2 ATP Kernel Extensions - Custom</li>
+  <li>GCC2 ATP Network Filter</li>
+  <li>GCC2 ATP Notifications</li>
+  <li>GCC2 ATP Onboarding</li>
+  <li>Intune MDM Agent SCEP Profile</li>
+  <li>Management Profile</li>
+  <li>Passcode Profile</li>
+  <li>Privacy Preferences Policy Profile</li>
   <li>System Extension Profile</li>
   </ul>
 
