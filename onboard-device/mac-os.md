@@ -127,18 +127,18 @@ echo "$actual_id"
 1. Go to the **Apple menu** > **System Settings** > **Privacy and Security**.
 2. Select **Profiles** on the right pane. You should be able to see the following profiles.
 <ul style="list-style-type: disc; margin-left: -3px;">
-  <li style="margin-bottom:-20px">Credential Profile</li>
-  <li style="margin-bottom:-20px">Custom Preferences Profile - com.cloudflare.warp</li>
-  <li style="margin-bottom:-20px">Custom Preferences Profile - com.microsoft.wdav</li>
-  <li style="margin-bottom:-20px">GCC2 ATP Full Disk Access</li>
-  <li style="margin-bottom:-20px">GCC2 ATP Kernel Extensions - Custom</li>
-  <li style="margin-bottom:-20px">GCC2 ATP Network Filter</li>
-  <li style="margin-bottom:-20px">GCC2 ATP Notifications</li>
-  <li style="margin-bottom:-20px">GCC2 ATP Onboarding</li>
-  <li style="margin-bottom:-20px">Intune MDM Agent SCEP Profile</li>
-  <li style="margin-bottom:-20px">Management Profile</li>
-  <li style="margin-bottom:-20px">Passcode Profile</li>
-  <li style="margin-bottom:-20px">Privacy Preferences Policy Profile</li>
+  <li style="margin-bottom:-10px">Credential Profile</li>
+  <li style="margin-bottom:-10px">Custom Preferences Profile - com.cloudflare.warp</li>
+  <li style="margin-bottom:-10px">Custom Preferences Profile - com.microsoft.wdav</li>
+  <li style="margin-bottom:-10px">GCC2 ATP Full Disk Access</li>
+  <li style="margin-bottom:-10px">GCC2 ATP Kernel Extensions - Custom</li>
+  <li style="margin-bottom:-10px">GCC2 ATP Network Filter</li>
+  <li style="margin-bottom:-10px">GCC2 ATP Notifications</li>
+  <li style="margin-bottom:-10px">GCC2 ATP Onboarding</li>
+  <li style="margin-bottom:-10px">Intune MDM Agent SCEP Profile</li>
+  <li style="margin-bottom:-10px">Management Profile</li>
+  <li style="margin-bottom:-10px">Passcode Profile</li>
+  <li style="margin-bottom:-10px">Privacy Preferences Policy Profile</li>
   <li>System Extension Profile</li>
   </ul>
 
