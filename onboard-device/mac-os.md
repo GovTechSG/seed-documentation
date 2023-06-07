@@ -126,6 +126,7 @@ echo "$actual_id"
 
 1. Go to the **Apple menu** > **System Settings** > **Privacy and Security**.
 2. Select **Profiles** on the right pane. You should be able to see the following profiles.
+
 <ul style="list-style-type: disc; margin-left: -3px;">
   <li>Credential Profile</li>
   <li>Custom Preferences Profile - com.cloudflare.warp</li>
