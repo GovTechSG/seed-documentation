@@ -26,6 +26,7 @@ If you had properly onboarded your device to SEED earlier but still get this err
 
 
 </details>
+
 <details><summary>While running the offboarding package, I get the error <b>Defender offboarding package has expired! Please download a new offboarding package from the docs portal</b>.</summary>
 
 This error indicates that your offboarding package is outdated. 
