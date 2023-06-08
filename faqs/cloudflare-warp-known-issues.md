@@ -2,7 +2,7 @@
 
 
 <details>
-<summary style="font-size:20px;font-weight:bold"> Unable to browse the internet using Cloudflare WARP</summary>
+<summary> Unable to browse the internet using Cloudflare WARP</summary>
 
 Check if you are connected to any VPN. If you are still connected to your VPN, you may not be able to access the internet as it conflicts with your DNS resolver configuration. 
 
@@ -12,10 +12,10 @@ Check if you are connected to any VPN. If you are still connected to your VPN, y
 2. Make sure only Cloudflare WARP is connected.
 
 </details>
-     <hr />
+     
 
 <details>
-<summary style="font-size:20px;font-weight:bold">Unable to browse the internet when Cloudflare WARP automatically reconnected.</summary>
+<summary>Unable to browse the internet when Cloudflare WARP automatically reconnected.</summary>
 
 If you disconnect Cloudflare WARP on your device, it  automatically gets reconnected after three hours. At that time, if you are connected to your VPN, you may not be able to access the internet as it conflicts with your DNS resolver configuration.
 
@@ -27,10 +27,10 @@ If you disconnect Cloudflare WARP on your device, it  automatically gets reconne
 In addition, make sure the VPN configuration does not route all the traffic and DNS queries to the VPN server. Our recommendation is not to turn on WARP and the VPN at the same time.
 
 </details>
-     <hr />
+     
 
 <details>
-<summary style="font-size:20px;font-weight:bold">Unable to access a particular website. I get an <em>Access restricted</em> error or <em>DNS error</em> while accessing this website.</summary>
+<summary>Unable to access a particular website. I get an <em>Access restricted</em> error or <em>DNS error</em> while accessing this website.</summary>
 
 **The following can cause this issue**:
 
@@ -47,7 +47,7 @@ In addition, make sure the VPN configuration does not route all the traffic and 
 
 **To resolve DNS error for your device**
 
-<details><summary style="font-size:20px;font-weight:bold">macOS</summary>
+<details><summary>macOS</summary>
 
 1. Go to **Apple** menu > **System Preferences** > **Network**.
 
@@ -79,7 +79,7 @@ In addition, make sure the VPN configuration does not route all the traffic and 
 8. If you still cannot access SEED-trusted websites, [create a support request][raise-support-request].
 </details><br>
 
-<details><summary style="font-size:20px;font-weight:bold">Windows</summary>
+<details><summary>Windows</summary>
 
 1. Select **Start** > **Settings** > **Network & Internet**.
 
@@ -110,11 +110,11 @@ In addition, make sure the VPN configuration does not route all the traffic and 
 
 </details>
 </details>
-     <hr />
+     
 
 
 <details>
-<summary style="font-size:20px;font-weight:bold"> While accessing a website, I get an <em>Access restricted</em> error followed by "Your access to this domain has been blocked as the domain has been identified as a Content Risk by Cloudflare". What can I do?</summary>
+<summary> While accessing a website, I get an <em>Access restricted</em> error followed by "Your access to this domain has been blocked as the domain has been identified as a Content Risk by Cloudflare". What can I do?</summary>
 
 Cloudflare WARP works with Cloudflare Gateway to block websites that may have been classified under security risk categories.
 
@@ -125,10 +125,10 @@ Cloudflare WARP works with Cloudflare Gateway to block websites that may have be
 3. If the domain is incorrectly classified, select the relevant categories and click **Submit** to provide your feedback.
 
 </details>
-     <hr />
+     
 
 <details>
-<summary style="font-size:20px;font-weight:bold">While using some tools and applications with Cloudflare WARP Client, why do I get SSL errors?</summary>
+<summary>While using some tools and applications with Cloudflare WARP Client, why do I get SSL errors?</summary>
 
 Your tool or application may be using a certificate store that is separate from the trusted root certificate store of your system.
 
@@ -141,10 +141,10 @@ Your tool or application may be using a certificate store that is separate from 
        tools][install-cloudflare-cert-applications].
 
 </details>
-<hr />
+
 
 <details>
-<summary style="font-size:20px;font-weight:bold">Unable to access the GCC 2.0 Cloud Management Portal, or a Singapore Tech Stack service using my GMD.</summary>
+<summary>Unable to access the GCC 2.0 Cloud Management Portal, or a Singapore Tech Stack service using my GMD.</summary>
 
 If you are unable to access the GCC 2.0 CMP or any SGTS service using your GMD, do the following:
 
@@ -162,10 +162,10 @@ If you are unable to access the GCC 2.0 CMP or any SGTS service using your GMD, 
 If you still have issues, [Generate diagnostic report](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request) and upload it to the [incident support request][raise-support-request].
 
 </details>
-<hr />
+
 
 <details>
-<summary style="font-size:20px;font-weight:bold">I intermittently experience the error message: "<em>That account does not have access</em>" when accessing SGTS services using Cloudflare WARP.</summary>
+<summary>I intermittently experience the error message: "<em>That account does not have access</em>" when accessing SGTS services using Cloudflare WARP.</summary>
 
 This is a known issue with Cloudflare WARP. If you are unable to access any SGTS service, do the following:
 
@@ -184,16 +184,16 @@ This is a known issue with Cloudflare WARP. If you are unable to access any SGTS
 If you still have issues, [Generate diagnostic report](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request) and upload it to the [incident support request][raise-support-request].
 
 </details>
-<hr />
+
 
 <details>
-<summary style="font-size:20px;font-weight:bold">Tanium client returns a 400 Bad Request Error when contacted by the Cloudflare Access landing page via localhost. What should I do? </summary>
+<summary>Tanium client returns a 400 Bad Request Error when contacted by the Cloudflare Access landing page via localhost. What should I do? </summary>
 
 This is due to the time synchronisation issue between Cloudflare and Tanium client. To fix this, resynchronise the local time of your macOS or Windows machine.
 
 To check and synchronise your device time with the internet time server:
 
-  <details><summary style="font-size:20px;font-weight:bold">For macOS device</summary>
+  <details><summary>For macOS device</summary>
 
    1. From the **Apple** menu, go to **System Preferences** > **Date & Time**.
    2. Click the lock icon and use your Touch ID or enter your password to unlock.
@@ -202,7 +202,7 @@ To check and synchronise your device time with the internet time server:
    ![synchronise your Mac time](../images/sync-clock-on-mac.png)
   </details>
 
-  <details><summary style="font-size:20px;font-weight:bold">For Windows device</summary>
+  <details><summary>For Windows device</summary>
 
     1. Open the **Start** menu and click **Settings**.
     1. Choose **Time & Language**.
@@ -216,10 +216,10 @@ To check and synchronise your device time with the internet time server:
 
   </details>
   </details>  
-  <hr />
+  
 
   <details>
-  <summary style="font-size:20px;font-weight:bold">Can I request to include IP addresses or domains in the Cloudflare WARP split tunnel list to exclude them from going through WARP and redirect them to go though other VPN?</summary>
+  <summary>Can I request to include IP addresses or domains in the Cloudflare WARP split tunnel list to exclude them from going through WARP and redirect them to go though other VPN?</summary>
 
   We strongly encourage agencies to avoid requesting for split tunnel allowlisting to reduce or prevent harmful security attacks. However, if you still intend to allow a VPN IP, [create a support request to request](https://go.gov.sg/seed-techpass-support). Our team may need additional information to evaluate this request.
 
@@ -227,11 +227,11 @@ To check and synchronise your device time with the internet time server:
 
 
   </details>
-  <hr />
+  
 
 
   <details>
-  <summary style="font-size:20px;font-weight:bold">What happens when I request for split tunnel allowlisting?</summary>
+  <summary>What happens when I request for split tunnel allowlisting?</summary>
 
   We will assess the split tunnel allowlisting requests on a case-by-case basis to ensure that the request does not compromise GCC 2.0 or SGTS applications.
 
@@ -241,15 +241,15 @@ To check and synchronise your device time with the internet time server:
 
 
   </details>
-  <hr />
+  
 
   <details>
-  <summary style="font-size:20px;font-weight:bold">I have a question, but it is not listed here - what do I do?</summary>
+  <summary>I have a question, but it is not listed here - what do I do?</summary>
 
   Please visit [Cloudflare troubleshooting](cloudflare-troubleshooting)
 
   </details>
-  <hr />
+  
 
 
 

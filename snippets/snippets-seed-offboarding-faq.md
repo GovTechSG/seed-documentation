@@ -1,12 +1,12 @@
 # SEED offboarding FAQs
 
-<details><summary style="font-size:20px;font-weight:bold">I cannot download the offboarding package. What should I do?</summary>
+<details><summary>I cannot download the offboarding package. What should I do?</summary>
 
   Create an [incident request](https://go.gov.sg/seed-techpass-support) and request for request for the offboarding package for your Defender organisation.
   
-</details><hr />
+</details>
 
-<details><summary style="font-size:20px;font-weight:bold">
+<details><summary>
 I cannot log in to my device. What should I do? </summary>
 
 1. Create an [incident support](https://go.gov.sg/seed-techpass-support) request.
@@ -15,9 +15,9 @@ I cannot log in to my device. What should I do? </summary>
 4. Select Production as **Environment**
 5. Make sure to provide all the required details and submit the form.
 
-</details><hr />
+</details>
 
-<details><summary style="font-size:20px;font-weight:bold">While running the offboarding package,I get the following error:<code>Unknown Tenant detected</code>.</summary>
+<details><summary>While running the offboarding package,I get the following error:<code>Unknown Tenant detected</code>.</summary>
 
 This indicates that you are not a SEED user or your device was not properly enrolled to SEED.
 
@@ -25,8 +25,8 @@ This indicates that you are not a SEED user or your device was not properly enro
 If you had properly onboarded your device to SEED earlier but still get this error message, please submit an [incident request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support.
 
 
-</details><hr />
-<details><summary style="font-size:20px;font-weight:bold">While running the offboarding package on my device, I get the following error:<code>Defender offboarding package has expired! Please download a new offboarding package from the docs portal</code></summary>
+</details>
+<details><summary>While running the offboarding package on my device, I get the following error:<code>Defender offboarding package has expired! Please download a new offboarding package from the docs portal</code></summary>
 
 This error indicates that your offboarding package is outdated. 
 
@@ -37,9 +37,9 @@ This error indicates that your offboarding package is outdated.
 
  
 
-</details><hr />
+</details>
 
-<details><summary style="font-size:20px;font-weight:bold">when I run the offboarding package on my device, I get the following error: <code>Microsoft Defender for Endpoint Service failed to stop running</code>!</summary>
+<details><summary>when I run the offboarding package on my device, I get the following error: <code>Microsoft Defender for Endpoint Service failed to stop running</code>!</summary>
 
 This error would look like the following:
 
@@ -48,16 +48,16 @@ This error would look like the following:
 Try running the script again. If you still experience the same or any other error, submit an [incident request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support.
 
 
-</details><hr />
+</details>
 
-<details><summary style="font-size:20px;font-weight:bold">I get an error on my macOS device while running the offboarding package to remove the SEED components such as Cloudflare WARP, Microsoft Defender or Tanium Client.</summary>
+<details><summary>I get an error on my macOS device while running the offboarding package to remove the SEED components such as Cloudflare WARP, Microsoft Defender or Tanium Client.</summary>
 
 
 Try running the script again. If you still experience any error, submit an [incident request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support.
 
-</details><hr />
+</details>
 
-<details><summary style="font-size:20px;font-weight:bold">After I successfully complete Phase A to offboard my device from SEED components, I get the error message<code>Intune ID not found. Please manually input your Intune ID</code>.</summary>
+<details><summary>After I successfully complete Phase A to offboard my device from SEED components, I get the error message<code>Intune ID not found. Please manually input your Intune ID</code>.</summary>
 
 You may experience this error if we are unable to auto-retrieve your Intune Device ID due to some incorrect configurations on your device. There can be multiple reasons for this incorrect configurations. 
 
@@ -73,9 +73,9 @@ You may experience this error if we are unable to auto-retrieve your Intune Devi
 !> **Important**<br> If there is a significant time lapse between Phase B and Phase A, the latest version of the SEED components may be reinstalled on your device. If that is the case, you need to repeat **Phase A: Offboard device from SEED components**. 
 
 
-</details><hr />
+</details>
 
-<details><summary style="font-size:20px;font-weight:bold">After submitting the Intune Device ID, I received an email stating that my offboarding was unsuccessful. What should I do?</summary>
+<details><summary>After submitting the Intune Device ID, I received an email stating that my offboarding was unsuccessful. What should I do?</summary>
 
 This can happen if you had submitted an incorrect Intune Device ID. 
 
@@ -91,10 +91,10 @@ This can happen if you had submitted an incorrect Intune Device ID.
 !> **Note**<br>-  In spite of submitting a correct Intune Device ID, if your offboarding is unsuccessful, please submit an [incident request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support.<br><br>- If the TechPass and SEED support team completes the offboarding for you, you may not receive this successfully offboarded email from the DEEP team. However, the TechPass and SEED support team can confirm if you have successfully offboarded your device from SEED.
 
 
-</details><hr />
+</details>
 
 
-<details><summary style="font-size:20px;font-weight:bold">After submitting my Intune Device ID, I did not receive the successfully offboarded email. What should I do?</summary>
+<details><summary>After submitting my Intune Device ID, I did not receive the successfully offboarded email. What should I do?</summary>
 
 
 It would take up to 30 minutes for the DEEP team to send the successfully offboarded email to you. If you still have not received this email, please submit an [incident request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support.
@@ -102,16 +102,16 @@ It would take up to 30 minutes for the DEEP team to send the successfully offboa
 
 !> **Note**<br> If the TechPass and SEED support team has completed the offboarding for you, you may not receive this email from the DEEP team. However, the TechPass and SEED support team can confirm if you have successfully offboarded your device from SEED.
 
-</details><hr />
+</details>
 
 
-<details><summary style="font-size:20px;font-weight:bold">My Internet Device belongs to Hive organisation. How do I offboard it from Defender using Hive offboarding package?</summary>
+<details><summary>My Internet Device belongs to Hive organisation. How do I offboard it from Defender using Hive offboarding package?</summary>
 
 
 
 If your Defender organisation is Hive, contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package and follow the below steps for your device:
 
-<details><summary style="font-size:20px;font-weight:bold">macOS</summary>
+<details><summary>macOS</summary>
 
 1. Save the offboarding script to the **Downloads** folder.
 
@@ -133,7 +133,7 @@ If your Defender organisation is Hive, contact [Hive support](mailto:GDS_DEN@hiv
 
 </details>
 
-<details><summary style="font-size:20px;font-weight:bold">Windows</summary>
+<details><summary>Windows</summary>
 
 1. Save the offboarding script in your **Downloads** folder.
 
