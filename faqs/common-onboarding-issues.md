@@ -1,7 +1,7 @@
 # Onboarding FAQ
 
 <details>
-  <summary style="font-size:20px;font-weight:bold">Can I onboard my GSIB device to SEED?</summary>
+  <summary>Can I onboard my GSIB device to SEED?</summary>
 
   No, you can't onboard your GSIB device to SEED. SEED is an MDM solution only for an Internet Device, which is not a GSIB device.
 
@@ -9,7 +9,7 @@
   <hr/>
 
 <details>
-  <summary style="font-size:20px;font-weight:bold">What should I do if profile installation fails while installing the management profile?</summary>
+  <summary>What should I do if profile installation fails while installing the management profile?</summary>
 
 <!--<kbd>![profile-installation-failed](images/onboarding-for-macos/profile-installation-failed.png)</kbd>-->
 
@@ -25,17 +25,17 @@
 <hr/>
 
 <details>
-  <summary style="font-size:20px;font-weight:bold">Microsoft Defender does not get automatically installed after enrolling to Company Portal?</summary>
+  <summary>Microsoft Defender does not get automatically installed after enrolling to Company Portal?</summary>
 
   This can happen if Defender or any other antivirus solution previously installed on the device was not completely removed before onboarding to SEED.
 
   To confirm this, [Verify if Microsoft Defender is configured correctly on your device][verify-defender-configuration].
 
   </details>
-  <hr />
+  
 
   <details>
-  <summary style="font-size:20px;font-weight:bold">While onboarding to Microsoft Intune, I get an error message, "Could not download the identity profile from the Encrypted Profile Service. The credentials within the Device Enrolment profile may have expired."</summary>
+  <summary>While onboarding to Microsoft Intune, I get an error message, "Could not download the identity profile from the Encrypted Profile Service. The credentials within the Device Enrolment profile may have expired."</summary>
 
   One of the possible reasons could be that your device was earlier onboarded to Microsoft Intune by a different user and was not offboarded properly during the pre-onboarding steps.
 
@@ -48,18 +48,18 @@
   - If you are a macOS user, go to **System Preferences**  and locate the old Management Profile. Refer to [SEED offboarding steps][seed-offboarding-steps].
 
   </details>
-  <hr />
+  
 
   <details>
-  <summary style="font-size:20px;font-weight:bold">What should I do if my device does not get renamed automatically after onboarding to SEED?</summary>
+  <summary>What should I do if my device does not get renamed automatically after onboarding to SEED?</summary>
 
   This can happen if Defender or any other antivirus already installed on the device was not completely removed before onboarding to SEED. To confirm this, [Verify if Microsoft Defender is configured correctly on your device][verify-defender-configuration].
 
   </details>
-  <hr />
+  
 
 <details>
-  <summary style="font-size:20px;font-weight:bold">While enabling Full Disk Access(FDA), I can't find <b>TaniumClient</b>. What should I do?</summary>
+  <summary>While enabling Full Disk Access(FDA), I can't find <b>TaniumClient</b>. What should I do?</summary>
 
   1. Open the **Terminal** application and run the command: ``sudo chmod 755 /Library/Tanium/TaniumClient``.
   2. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
@@ -74,7 +74,7 @@
 <hr/>
 
 <details>
-<summary style="font-size:20px;font-weight:bold">While enabling Full Disk Access(FDA), I can't find <b>Microsoft Intune Agent</b> and <b>Microsoft Defender for Endpoint</b>. What should I do?</summary>
+<summary>While enabling Full Disk Access(FDA), I can't find <b>Microsoft Intune Agent</b> and <b>Microsoft Defender for Endpoint</b>. What should I do?</summary>
 
 1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
 2. Click the **Privacy** tab.
@@ -86,7 +86,7 @@
 </details>
 <hr/>
 
-<details><summary style="font-size:20px;font-weight:bold">While enabling Full Disk Access(FDA), I can't find <strong>Microsoft Defenders Endpoint Security Extension</strong>. Can I proceed with my onboarding?</summary>
+<details><summary>While enabling Full Disk Access(FDA), I can't find <strong>Microsoft Defenders Endpoint Security Extension</strong>. Can I proceed with my onboarding?</summary>
 
 Yes, you may proceed with your SEED onboarding and the Microsoft Defenders Endpoint Security Extension should be available within four hours. If it is still not available after four hours, please create a [Support Request](raise-an-incident-support-request) as it is required to ensure the completeness of your onboarding.
 
@@ -94,7 +94,7 @@ Yes, you may proceed with your SEED onboarding and the Microsoft Defenders Endpo
 <hr/>
 
 <details>
-<summary style="font-size:20px;font-weight:bold">When enabling FileVault or Full Disk Access, I am unable to unlock Security & Privacy preferences using my current password.</summary>
+<summary>When enabling FileVault or Full Disk Access, I am unable to unlock Security & Privacy preferences using my current password.</summary>
 
 This is because a new password policy has been enforced and you are required to reset your password.
 
@@ -105,7 +105,7 @@ This is because a new password policy has been enforced and you are required to 
 <hr/>
 
 
-<details><summary style="font-size:20px;font-weight:bold">How do I reset the password for my macOS device?</summary>
+<details><summary>How do I reset the password for my macOS device?</summary>
 
 *To reset password while enabling FileVault or FDA* :
 1. Go to the **Apple** menu > **Lock Screen** or use keyboard shortcut **Command+Control+Q** .
@@ -120,11 +120,11 @@ This is because a new password policy has been enforced and you are required to 
   
 
 </details>
-<hr />
+
 
 
 <details>
-<summary style="font-size:20px;font-weight:bold">After onboarding to SEED, I did not receive the successfully onboarded email. What should I do?</summary>
+<summary>After onboarding to SEED, I did not receive the successfully onboarded email. What should I do?</summary>
 
 Possible reasons could be:
 
@@ -138,45 +138,45 @@ Before raising a support request, confirm the following:
 - Check if Tanium and Cloudflare are installed. These applications will be automatically installed while enrolling your device to SEED. If they are not installed, [create a support request][raise-support-request].
 
 </details>
-<hr />
 
-<details><summary style="font-size:20px;font-weight:bold">While enrolling my device to SEED, I get an error message, "<em>Couldn’t add your device. Wait a few minutes, then try again or contact your company support.</em>" What should I do?
+
+<details><summary>While enrolling my device to SEED, I get an error message, "<em>Couldn’t add your device. Wait a few minutes, then try again or contact your company support.</em>" What should I do?
 </summary>
 
 As suggested wait for few minutes, retry enrolling your device to Microsoft Intune and click **Approve** in the management profile.
 
 </details>
-<hr />
+
 
 <details>
-<summary style="font-size:20px;font-weight:bold">While approving the management profiles, I get a message "<em>Profiles cannot be approved while using remote or automated input method.</em>” What should I do?</summary>
+<summary>While approving the management profiles, I get a message "<em>Profiles cannot be approved while using remote or automated input method.</em>” What should I do?</summary>
 
  Upgrade to the [latest macOS version][upgrade-macos] and ensure there is enough disk space available on your Mac device before retrying.
 
 </details>
-<hr />
 
-<details><summary style="font-size:20px;font-weight:bold">What should I do when I get an error message, “<em>You can’t use this version of the application Company Portal with this version of OS X.</em>" </summary>
+
+<details><summary>What should I do when I get an error message, “<em>You can’t use this version of the application Company Portal with this version of OS X.</em>" </summary>
 
  Upgrade to the [latest macOS version][upgrade-macos].
 
  </details>
- <hr />
+ 
 
 
 <details>
-<summary style="font-size:20px;font-weight:bold">How to confirm if I have successfully onboarded my Internet Device to SEED? </summary>
+<summary>How to confirm if I have successfully onboarded my Internet Device to SEED? </summary>
 
 When you complete onboarding your device to SEED, within the next two hours, you should receive the successfully onboarded email in your inbox (organisational email address).
 
 If you don't receive this email after two hours, please submit an [incident request](https://go.gov.sg/seed-techpass-support).
 
 </details>
-     <hr />
+     
 
 <details>
 
-  <summary style="font-size:20px;font-weight:bold">After resetting my macOS password, I am unable to log in using the new password, why?</summary>
+  <summary>After resetting my macOS password, I am unable to log in using the new password, why?</summary>
 
 This may occur if your new password does not meet the following password requirements:
 
@@ -188,13 +188,13 @@ This may occur if your new password does not meet the following password require
 
 Following are the three options available to reset your password:
 
-  <details><summary style="font-size:20px;font-weight:bold">Reset password using Apple ID</summary>
+  <details><summary>Reset password using Apple ID</summary>
 
  Refer to [Reset your Mac login password uisng Apple ID](https://support.apple.com/en-gb/guide/mac-help/mh35902/mac) for step-by-step instructions.
  
   </details>
 
-  <details><summary style="font-size:20px;font-weight:bold">Reset password using recovery key</summary>
+  <details><summary>Reset password using recovery key</summary>
 
   **To reset password using recovery key**
 
@@ -209,7 +209,7 @@ Following are the three options available to reset your password:
   </details>
 
   <details>
-  <summary style="font-size:20px;font-weight:bold">Reset password using recovery mode</summary>
+  <summary>Reset password using recovery mode</summary>
 
   If you have do not have an Apple ID or a recovery key, depending on the chip on your Mac device, start your Mac in recovery mode to reset password.
 
@@ -262,10 +262,10 @@ Following are the three options available to reset your password:
 
 </details>
 </details>
-     <hr />
+     
 
 <details>
-<summary style="font-size:20px;font-weight:bold">While I register my Intune Device ID on the TechPass portal, what should I do if my onboarding fails due to one of the following reasons?</summary>
+<summary>While I register my Intune Device ID on the TechPass portal, what should I do if my onboarding fails due to one of the following reasons?</summary>
 
 As a prerequisite, ensure the device you are onboarding to SEED has a stable internet connectivity until you see the **Onboarded** Status on the TechPass portal.
 

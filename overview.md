@@ -2,18 +2,13 @@
 
 The SEED user documentation gives you an overview of what SEED is, how it works. It also has the How-to guides for SEED onboarding and offboarding.
   
-
-<details open>
-<summary style="font-size:20px;font-weight:bold">What is SEED?</summary>
+## What is SEED?
 
 SEED is the Singapore Government's implementation of Identity and Access Management (IAM) and zero trust framework to protect against unauthorised access to the Government's engineering resources, such as Government on Commercial Cloud (GCC) and the Singapore Tech Stack(SGTS).
 
 Zero Trust replaces traditional Virtual Private Network (VPN) connections and network-based security policies with a standardised central identity provider. It offers enforcement of access policies allowing only authorised users to use devices compliant with device postures.
 
-</details>
-
-<details open>
-<summary style="font-size:20px;font-weight:bold">Why do we need SEED?</summary>
+## Why do we need SEED?
 
 ![why-do-we-need-seed](images/why-do-we-need-seed.png)
 
@@ -22,10 +17,7 @@ Zero Trust replaces traditional Virtual Private Network (VPN) connections and ne
 - Detects if the endpoint’s operating system version and security patches are up-to-date.
 - Prevents accessing the resources of GCC and the SGTS services if the above requirements are not satisfied.
 
-</details>
-
-<details open>
-<summary style="font-size:20px;font-weight:bold">How does SEED work?</summary>
+## How does SEED work?
 
 ![how-does-seed-work](images/how-does-seed-work.png)
 
@@ -51,21 +43,12 @@ Device management layer of SEED. It establishes a robust security baseline autom
 
 <!-- tabs:end -->
 
-</details>
-
-<details open>
-<summary style="font-size:20px;font-weight:bold">What can SEED do on my device?</summary>
+## What can SEED do on my device?
 
 
 |SEED can do the following on your device|SEED cannot do the following on your device|
 |---|---|
 |- View the model number, serial number and operating system of the device.<br>- View the names of the applications you have installed.<br>- Identify your device by name.<br>- Reset lost or stolen device to factory setting upon required consent and approval from device owner and manager-in-charge, respectively.|- View the browsing history.<br>-Access your emails, contacts and calendar.<br>- Access your documents.|
-
-</details>
-
-
-
-
 
 
 
