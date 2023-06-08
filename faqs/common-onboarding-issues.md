@@ -35,7 +35,7 @@
   
 
   <details>
-  <summary>While onboarding to Microsoft Intune, I get an error message, "Could not download the identity profile from the Encrypted Profile Service. The credentials within the Device Enrolment profile may have expired."</summary>
+  <summary>While onboarding to Microsoft Intune, I get an error <b>Could not download the identity profile from the Encrypted Profile Service. The credentials within the Device Enrolment profile may have expired</b>.</summary>
 
   One of the possible reasons could be that your device was earlier onboarded to Microsoft Intune by a different user and was not offboarded properly during the pre-onboarding steps.
 
@@ -140,7 +140,7 @@ Before raising a support request, confirm the following:
 </details>
 
 
-<details><summary>While enrolling my device to SEED, I get an error message, "<em>Couldn’t add your device. Wait a few minutes, then try again or contact your company support.</em>" What should I do?
+<details><summary>While enrolling my device to SEED, I get an error <b>Couldn’t add your device. Wait a few minutes, then try again or contact your company support</b>. What should I do?
 </summary>
 
 As suggested wait for few minutes, retry enrolling your device to Microsoft Intune and click **Approve** in the management profile.
@@ -149,14 +149,14 @@ As suggested wait for few minutes, retry enrolling your device to Microsoft Intu
 
 
 <details>
-<summary>While approving the management profiles, I get a message "<em>Profiles cannot be approved while using remote or automated input method.</em>” What should I do?</summary>
+<summary>While approving the management profiles, I get a message <b>Profiles cannot be approved while using remote or automated input method</b>. What should I do?</summary>
 
  Upgrade to the [latest macOS version][upgrade-macos] and ensure there is enough disk space available on your Mac device before retrying.
 
 </details>
 
 
-<details><summary>What should I do when I get an error message, “<em>You can’t use this version of the application Company Portal with this version of OS X.</em>" </summary>
+<details><summary>What should I do when I get an error <b>You can’t use this version of the application Company Portal with this version of OS X.</b> </summary>
 
  Upgrade to the [latest macOS version][upgrade-macos].
 
