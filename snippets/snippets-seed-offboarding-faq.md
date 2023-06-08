@@ -17,7 +17,7 @@ I cannot log in to my device. What should I do? </summary>
 
 </details>
 
-<details><summary>While running the offboarding package,I get the following error:<code>Unknown Tenant detected</code>.</summary>
+<details><summary>I get the following error:<code>Unknown Tenant detected</code>.</summary>
 
 This indicates that you are not a SEED user or your device was not properly enrolled to SEED.
 
@@ -26,7 +26,7 @@ If you had properly onboarded your device to SEED earlier but still get this err
 
 
 </details>
-<details><summary>While running the offboarding package on my device, I get the following error:<code>Defender offboarding package has expired! Please download a new offboarding package from the docs portal</code></summary>
+<details><summary>I get the following error:<code>Defender offboarding package has expired! Please download a new offboarding package from the docs portal</code></summary>
 
 This error indicates that your offboarding package is outdated. 
 

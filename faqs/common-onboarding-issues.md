@@ -6,7 +6,7 @@
   No, you can't onboard your GSIB device to SEED. SEED is an MDM solution only for an Internet Device, which is not a GSIB device.
 
   </details>
-  <hr/>
+  
 
 <details>
   <summary>What should I do if profile installation fails while installing the management profile?</summary>
@@ -22,7 +22,7 @@
 
 
 </details>
-<hr/>
+
 
 <details>
   <summary>Microsoft Defender does not get automatically installed after enrolling to Company Portal?</summary>
@@ -71,7 +71,7 @@
   8. Ensure the checkbox beside **TaniumClient** is selected.
 
 </details>
-<hr/>
+
 
 <details>
 <summary>While enabling Full Disk Access(FDA), I can't find <b>Microsoft Intune Agent</b> and <b>Microsoft Defender for Endpoint</b>. What should I do?</summary>
@@ -84,14 +84,14 @@
   - To add **Microsoft Intune Agent**, go to **Macintosh HD** >  **Library** > **Intune** and open **Microsoft Intune Agent.app**.
   - To add **Microsoft Defender for Endpoint**, go to **Application** > select **Microsoft Defender for Endpoint** and click **Open**.
 </details>
-<hr/>
+
 
 <details><summary>While enabling Full Disk Access(FDA), I can't find <strong>Microsoft Defenders Endpoint Security Extension</strong>. Can I proceed with my onboarding?</summary>
 
 Yes, you may proceed with your SEED onboarding and the Microsoft Defenders Endpoint Security Extension should be available within four hours. If it is still not available after four hours, please create a [Support Request](raise-an-incident-support-request) as it is required to ensure the completeness of your onboarding.
 
 </details>
-<hr/>
+
 
 <details>
 <summary>When enabling FileVault or Full Disk Access, I am unable to unlock Security & Privacy preferences using my current password.</summary>
@@ -102,7 +102,7 @@ This is because a new password policy has been enforced and you are required to 
 2. Enter your current password and press **Return**.
 3. You will be prompted to reset your password.
 </details>
-<hr/>
+
 
 
 <details><summary>How do I reset the password for my macOS device?</summary>
