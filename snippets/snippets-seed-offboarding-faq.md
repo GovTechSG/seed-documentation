@@ -17,16 +17,17 @@ I cannot log in to my device. What should I do? </summary>
 
 </details>
 
-<details><summary>While running the offboarding package, I get the error message:<b>Unknown Tenant detected</b>.</summary>
+<details><summary>While running the offboarding package, I get the error <b>Unknown Tenant detected</b>.</summary>
 
 This indicates that you are not a SEED user or your device was not properly enrolled to SEED.
 
 
-If you had properly onboarded your device to SEED earlier but still get this error message, please submit an [incident request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support.
+If you had properly onboarded your device to SEED earlier but still get this error, please submit an [incident request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support.
 
 
 </details>
-<details><summary>While running the offboarding package, I get the error message:<b>Defender offboarding package has expired! Please download a new offboarding package from the docs portal</b>.</summary>
+
+<details><summary>While running the offboarding package, I get the error <b>Defender offboarding package has expired! Please download a new offboarding package from the docs portal</b>.</summary>
 
 This error indicates that your offboarding package is outdated. 
 
@@ -39,7 +40,7 @@ This error indicates that your offboarding package is outdated.
 
 </details>
 
-<details><summary>when I run the offboarding package on my device, I get the following error: <b>Microsoft Defender for Endpoint Service failed to stop running</b>!</summary>
+<details><summary>when I run the offboarding package on my device, I get the  error <b>Microsoft Defender for Endpoint Service failed to stop running</b>!</summary>
 
 This error would look like the following:
 
@@ -57,7 +58,7 @@ Try running the script again. If you still experience any error, submit an [inci
 
 </details>
 
-<details><summary>After I successfully complete Phase A to offboard my device from SEED components, I get the error message<b>Intune ID not found. Please manually input your Intune ID</b>.</summary>
+<details><summary>After I successfully complete Phase A to offboard my device from SEED components, I get the error <b>Intune ID not found. Please manually input your Intune ID</b>.</summary>
 
 You may experience this error if we are unable to auto-retrieve your Intune Device ID due to some incorrect configurations on your device. There can be multiple reasons for this incorrect configurations. 
 
