@@ -1,6 +1,6 @@
 # Release notes
 
-This section lists the most recent changes, new features and fixes that are available for SEED users.
+This section lists the most recent enhancements, new features and fixes that are available for SEED users.
 
 ## 25 May 2023
 
