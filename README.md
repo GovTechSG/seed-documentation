@@ -1,6 +1,6 @@
 # Overview
 
-The SEED user documentation gives you an overview of what SEED is, how it works. It also has the How-to guides for SEED onboarding and offboarding.
+The **Security Suite for Engineering Endpoint Devices(SEED)** gives you an overview of what SEED is, how it works. It also has the How-to guides for SEED onboarding and offboarding.
   
 ## What is SEED?
 
