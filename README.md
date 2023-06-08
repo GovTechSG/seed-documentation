@@ -1,4 +1,4 @@
-# SEED Documentation
+# Overview
 
 The SEED user documentation gives you an overview of what SEED is, how it works. It also has the How-to guides for SEED onboarding and offboarding.
   
