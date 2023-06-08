@@ -1,10 +1,6 @@
 # Overview
 
-The **Security Suite for Engineering Endpoint Devices(SEED)** gives you an overview of what SEED is, how it works. It also has the How-to guides for SEED onboarding and offboarding.
-  
-## What is SEED?
-
-SEED is the Singapore Government's implementation of Identity and Access Management (IAM) and zero trust framework to protect against unauthorised access to the Government's engineering resources, such as Government on Commercial Cloud (GCC) and the Singapore Tech Stack(SGTS).
+**Security Suite for Engineering Endpoint Devices(SEED)** is the Singapore Government's implementation of Identity and Access Management (IAM) and zero trust framework to protect against unauthorised access to the Government's engineering resources, such as Government on Commercial Cloud (GCC) and the Singapore Tech Stack(SGTS).
 
 Zero Trust replaces traditional Virtual Private Network (VPN) connections and network-based security policies with a standardised central identity provider. It offers enforcement of access policies allowing only authorised users to use devices compliant with device postures.
 
