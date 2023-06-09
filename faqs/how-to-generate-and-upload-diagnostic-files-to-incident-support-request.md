@@ -55,7 +55,7 @@ This section provides the instructions to generate HAR file for the [supported b
 
 ### Generate HAR file for Google Chrome
 
-1. Open Google Chrome and right-click anywhere and select **Inspect** or press Command+Option+C (Mac) or Control+Shift+C (Windows). The Developer tools panel will be displayed.
+1. Open Google Chrome and right-click anywhere and select **Inspect** or press Command+Option+C(Mac) or Control+Shift+C(Windows). The Developer tools panel will be displayed.
 1. Go to **Network** and select **Preserve log**.
 1. Log in to the [GCC 2.0 CMP](https://cmp.gcc.gov.sg/) or access the SGTS service through Cloudflare Access.
 1. Verify if a request was made to 127.0.0.1/zero_trust/auth with a 200 ok response. If not, please specify this in your support request.
@@ -66,7 +66,7 @@ This section provides the instructions to generate HAR file for the [supported b
 
 ?> Note: Make sure your Mozilla Firefox is configured to trust your system's trusted root certificate store.
 
-1. Open Firefox and go to application menu > **More tools** > **Web Developer Tools** or press Ctrl+Shift+I (Windows) or Command+Option+I (macOS) and click **Network**. The Developer Tools will be displayed.
+1. Open Firefox and go to application menu > **More tools** > **Web Developer Tools** or press Ctrl+Shift+I(Windows) or Command+Option+I(macOS) and click **Network**. The Developer Tools will be displayed.
 2. Click **Network Settings** in the upper-right of the Developer Tools panel and enable **Persist Logs**.
 3. Log in to the [GCC 2.0 CMP](https://cmp.gcc.gov.sg/) or access the SGTS service through Cloudflare Access.
 4. Verify that a request was made to 127.0.0.1/zero_trust/auth with a 200 ok response. If not, please specify this in your support request.
@@ -75,7 +75,7 @@ This section provides the instructions to generate HAR file for the [supported b
 
 ### Generate HAR file for Microsoft Edge
 
-1. Open Microsoft Edge and go to application menu > **More tools** > **Developer tools** or or Control+Shift+I (Windows) or Command+Option+I (macOS). The Developer tools will be displayed.
+1. Open Microsoft Edge and go to application menu > **More tools** > **Developer tools** or or Control+Shift+I(Windows) or Command+Option+I(macOS). The Developer tools will be displayed.
 2. Go to **Network** and select **Preserve log**.
 4. Try to login to the [GCC 2.0 CMP](https://cmp.gcc.gov.sg/) or access the SGTS service through Cloudflare Access
 5. Verify that a request was made to 127.0.0.1/zero_trust/auth with a 200 ok response. If not, please specify this in your support request.

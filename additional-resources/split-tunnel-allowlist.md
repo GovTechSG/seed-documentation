@@ -10,14 +10,14 @@ If agencies intend to allow their project VPNs to be allowed, make sure your req
 
 Your project VPNs should fulfil the following technical criteria:
 
-- It should not route all traffic (0.0.0.0/0) to the VPN gateway; instead, it should only route private RFC1918 CIDR ranges (10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16) and CGNAT RFC 6598 IP ranges (100.64.0.0/10).
+- It should not route all traffic(0.0.0.0/0) to the VPN gateway; instead, it should only route private RFC1918 CIDR ranges(10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16) and CGNAT RFC 6598 IP ranges(100.64.0.0/10).
 - It should not route all DNS queries to the VPN DNS server; instead, it should only route project system DNS domains.
 
 ## Evaluation criteria
 
-To evaluate a split tunnel allowlisting request, we need the following from the requester, and they have to be acknowledged and approved by the system’s Agency Chief Information Security Officer (ACISO).
+To evaluate a split tunnel allowlisting request, we need the following from the requester, and they have to be acknowledged and approved by the system’s Agency Chief Information Security Officer(ACISO).
 
-- Evidence that risk assessment and acceptance for the VPN (which you request to be allowed) has been conducted, approved and supported from the system's ACISO or above.
+- Evidence that risk assessment and acceptance for the VPN(which you request to be allowed) has been conducted, approved and supported from the system's ACISO or above.
 - Acknowledgement from the system’s ACISO or above, that their agency takes the responsibility of allowing concurrent access to the VPN IP and their data stored on GCC 2.0/SGTS applications.
 - Acknowledgement from the system’s ACISO or above that GovTech is not responsible for incidents to the requesting agency’s data or systems on GCC 2.0/SGTS applications that may occur as a result of allowing the split tunnel request.
 

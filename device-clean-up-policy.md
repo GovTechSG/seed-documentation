@@ -43,7 +43,7 @@ If your TechPass ID belongs to the TechPass AAD, and you have not logged into yo
 
 Note that when your device records are "soft deleted", it does not wipe or retire the device. The device record is temporarily deleted from Intune.
 
-SEED administrators will not be able to view details such as the health status of this device and will no longer able to manage it from the DEEP Dashboard.
+SEED administrators will not be able to view details such as the health status of this device and will no longer able to manage it from the SEED Dashboard.
 
 ### Restore my device records on Intune
 

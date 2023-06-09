@@ -1,6 +1,6 @@
 # SEED post onboarding verification steps for GCC 1.0 users
 
-This article is for GCC 1.0 users who have onboarded their Internet Device to SEED. When your device is onboarded to SEED it becomes a Government Managed Device (GMD).
+This article is for GCC 1.0 users who have onboarded their Internet Device to SEED. When your device is onboarded to SEED it becomes a Government Managed Device(GMD).
 
 Objective of this document is to explain how to verify if your device onboarding to SEED was successful and if you are still able to access your GCC 1.0 resources.
 
@@ -30,7 +30,7 @@ Objective of this document is to explain how to verify if your device onboarding
 
 ![connected](../images/gcc-1-users/connected.png ':size=75%')
 
-7. Go to the [DEEP dashboard](https://dashboard.deep.tech.gov.sg).
+7. Go to the [SEED dashboard](https://dashboard.seed.tech.gov.sg/login).
 
 <kbd>![](../images/gcc-1-users/cloudflare-azure.png)</kbd>
 
@@ -41,10 +41,10 @@ Objective of this document is to explain how to verify if your device onboarding
 
 ?> If you are public officer, you may have to authenticate your WOG account first by using the one-time password code displayed under your SG Govt M365 profile in the Authenticator app.
 
-10. In the **DEEP** login page, click **Sign in with TechPass**.
+10. In the **SEED** login page, click **Sign in with TechPass**.
 
 <kbd>![](../images/gcc-1-users/deep-login-with-techpass.png)</kbd>
 
-You will be directed to your DEEP dashboard.
+You will be directed to your SEED dashboard.
 
 ![](../images/gcc-1-users/deep-dashboard.png)

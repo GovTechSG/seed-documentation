@@ -46,7 +46,7 @@ When accessing SGTS services using Cloudflare WARP, user intermittently experien
 
 **Users experience connectivity issues**
 
-Cloudflare has reported connectivity issues for its users whose macOS WARP client version is earlier than 2022.12.583.0 (20230112.24). These users may experience intermittent connectivity issues while trying to access websites over the internet. 
+Cloudflare has reported connectivity issues for its users whose macOS WARP client version is earlier than 2022.12.583.0(20230112.24). These users may experience intermittent connectivity issues while trying to access websites over the internet. 
 
 **Workarounds**
 

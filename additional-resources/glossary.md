@@ -33,24 +33,21 @@ Government Standard Image Build.
 
 Device which is not a GSIB. This could be your personal device, or a device issued by your vendor or agency.
 
-You must enrol this device with SEED (GovTech's MDM solution) in order to access SGTS resources, products and services that requires SEED.
+You must enrol this device with SEED(GovTech's MDM solution) in order to access SGTS resources, products and services that requires SEED.
 
-**non-SE GSIB**
+**Non-SE GSIB**
 
-If you are using a non-SE GSIB device, every time you log in to your device, you will be prompted to enter your BitLocker PIN. You can access the internet and intranet using this device.
+GSIB device which is not a Secured Email(SE) device. You can access the internet and intranet using this device.
 
-**Note**<br>
-> You can't onboard this device to SEED.
+?> You can't onboard this device to SEED.
 
 **SE GSIB**
 
-It is a Secured Email (SE) GSIB device. This GSIB device is assigned to public officers who handle sensitive and secret information.
+GSIB device which is a Secured Email(SE) device. This GSIB device is assigned to public officers who handle sensitive and secret information.
 
 If you are using a SE GSIB device, you will be using your PS-Card to authenticate. You will not be able to access internet using this SE-GSIB device.
 
-**Note**<br>
->- You can't use this device to activate your TechPass account.
->- You can't onboard this device to SEED.
+?> - You can't use this device to activate your TechPass account.<br>- You can't onboard this device to SEED.
 
 **SEED**
 
@@ -58,7 +55,7 @@ Security Suite for Engineering Endpoint Devices. This is the MDM solution offere
 
 **TechPass**
 
-This is an Identity & Access Management (IAM) and  a single sign-on(SSO) solution to seamlessly access Singapore Government Technology Stack(SGTS) services.
+This is an Identity & Access Management(IAM) and  a single sign-on(SSO) solution to seamlessly access Singapore Government Technology Stack(SGTS) services.
 
 While public officers use their WOG credentials(official email address) to log in to their TechPass, vendors use their TechPass ID.
 

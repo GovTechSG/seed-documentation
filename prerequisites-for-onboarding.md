@@ -10,7 +10,7 @@
 
 Before you proceed to onboard your device to SEED, note the following prerequisites and recommendations:
 
-!> You **can't onboard** the following to SEED:<br>- Virtual machines<br>- Mobile phones and Tablets (Android and iOS)<br>- GoMAX devices.<br>- SE-GSIB or Non-SE GSIB device.
+!> You **can't onboard** the following to SEED:<br>- Virtual machines<br>- Mobile phones and Tablets(Android and iOS)<br>- GoMAX devices.<br>- SE-GSIB or Non-SE GSIB device.
 <br>- More than one Internet Device.
 
 - Ensure you have an active [TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/onboard-to-techpass).
@@ -18,7 +18,7 @@ Before you proceed to onboard your device to SEED, note the following prerequisi
 - Ensure you have Administrator permission on the device.
 - Ensure the device is running on one of the following operating systems:
     - Windows 10 and 11 Pro or Enterprise versions.
-    - macOS 11 (macOS Big Sur), macOS 12 (macOS Monterey) and macOS 13 (Ventura) versions. 
+    - macOS 11(macOS Big Sur), macOS 12(macOS Monterey) and macOS 13(Ventura) versions. 
 - Supported browsers: Google Chrome, Microsoft Edge, Mozilla Firefox. If you are using Mozilla Firefox, you need to [configure Firefox to trust the root certificate store of your system](https://support.mozilla.org/en-US/kb/setting-certificate-authorities-firefox).       
 - [Remove existing software on your device](#remove-existing-software-on-your-device) such as any existing MDM software, Tanium client or any other unified endpoint management and security platform.
 - If your device is running on macOS, ensure [System Integrity protection(SIP) is enabled](#ensure-system-integrity-protectionsip-is-enabled-for-macos).
@@ -58,17 +58,17 @@ Before onboarding to SEED, you need to remove the following software solutions f
   
   1. Choose the appropriate step based on your macOS version.
     
-      a. If your macOS version is macOS 11 (macOS Big Sur) or macOS 12 (macOS Monterey), go to the **Apple** menu > **System Preferences** > **Profiles**.
+      a. If your macOS version is macOS 11(macOS Big Sur) or macOS 12(macOS Monterey), go to the **Apple** menu > **System Preferences** > **Profiles**.
 
-      b. If your macOS version is macOS 13 (Ventura), go to the **Apple** menu > **System Settings** > **Privacy and Security** > **Profiles** on the right.(You may need to scroll down.)
+      b. If your macOS version is macOS 13(Ventura), go to the **Apple** menu > **System Settings** > **Privacy and Security** > **Profiles** on the right.(You may need to scroll down.)
 
   2. Click **Management Profile**.
      
-      a. If your macOS version is macOS 11 (macOS Big Sur) or macOS 12 (macOS Monterey), and see a page similar to the following, it indicates you already have an MDM software.
+      a. If your macOS version is macOS 11(macOS Big Sur) or macOS 12(macOS Monterey), and see a page similar to the following, it indicates you already have an MDM software.
 
   <kbd>![verify-other-mdm](images/onboarding-for-macos/verify-other-mdm.png)</kbd>
 
-      b. If your macOS version is macOS 13 (Ventura) and see a similar page, it indicates you already have an MDM software.
+      b. If your macOS version is macOS 13(Ventura) and see a similar page, it indicates you already have an MDM software.
 
     ![verify-other-mdm-on-ventura](images/onboarding-for-macos/verify-other-mdm-on-ventura.png)
      
@@ -409,60 +409,4 @@ When you see the following success message on your **Powershell**, you are autom
 
 - [Proceed to onboard your device to SEED](onboard-device/onboard-device-to-seed)
 
-
-<!--
-  1. In the search box on the taskbar, type **regedit**.
-  2. Choose **Registry Editor** from the results and click **Run as administrator**.
-  3. In the **Registry Editor**, go to **Computer** > **HKEY_LOCAL_MACHINE** > **SOFTWARE** > **Microsoft** > **Windows Advanced Threat Protection** > **Status**.
-
-  > **Note**:
-  > If you do not see the **Windows Advanced Threat Protection** folder, it indicates your device is not enrolled with any MDM solution. Proceed to onboard your device to SEED.
-
-  4. Take note of the value displayed for **OrgId**.
-  5. Identify the organisation corresponding to this **OrgId** from the following table. This is the organisation of the Defender or the antivirus on your device.
-
-  | OrgId  | Organisation |
-  | ------------- |:-------------:|
-  | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     |
-  | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    |
-  | 6389e966-e334-461d-86ce-0fed12484620      | Hive     |
-
-  > **Note**:
-  > If your organisation id(OrgId) is different from the above three, contact the respective MDM administrator to get the offboarding script.
-
-  6. Based on the organisation, use your internet (which is not a GSIB) device to download the offboarding script from the following:
-
-  | Organisation  | Offboarding script |
-  | ------------- |:-------------:|
-  | WOG      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/wog_windows)    |
-  | TechPass      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/tp_windows)     |
-  | Hive      | [Download offboarding script](https://26mucnez5qtouxu6dtg7bwcpwa0glupx.lambda-url.ap-southeast-1.on.aws/hive_windows)     |
-
-  7. When prompted to log in, log in with your TechPass.
-
-  > **Note**: If you have any issues in accessing the link to download the offboarding script,
-  >- Make sure that you are using your internet (which is not a GSIB) device to download the offboarding script.
-  >- Access the link in incognito mode.
-  >- Make sure you are using only the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
-  >- If you still have issues in downloading the script, create a [support request](https://go.gov.sg/seed-techpass-support).
-
-  8. Save the offboarding script in your **Downloads** folder.
-
-  > **Note**:
-  > Check if the script that you received has not yet expired. The expiry date is indicated on the file name. For example, *wog_windows_valid_until_2022-09-07.cmd*.
-
-  9. Go to **Start** and type **cmd**.
-  10. Right-click on **Command Prompt** and select **Run as administrator**.
-  11. If prompted, enter your Windows password.
-  12. Run the following commands:
-     ```
-     cd "%USERPROFILE%\Downloads\"
-
-     .\<name_of_offboarding_script.cmd>
-     ```
-> **Note:**
-> Name of the .cmd file mentioned in this command is only an example. When you run the command, specify the file name of the offboarding script you downloaded.  
-
-</details>  
--->
 

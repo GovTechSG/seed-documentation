@@ -167,7 +167,7 @@ As suggested wait for few minutes, retry enrolling your device to Microsoft Intu
 <details>
 <summary>How to confirm if I have successfully onboarded my Internet Device to SEED? </summary>
 
-When you complete onboarding your device to SEED, within the next two hours, you should receive the successfully onboarded email in your inbox (organisational email address).
+When you complete onboarding your device to SEED, within the next two hours, you should receive the successfully onboarded email in your inbox(organisational email address).
 
 If you don't receive this email after two hours, please submit an [incident request](https://go.gov.sg/seed-techpass-support).
 
@@ -216,7 +216,7 @@ Following are the three options available to reset your password:
 <!-- tabs:start -->
 
 #### **M1 chip**
-  1. Restart or shutdown the device by pressing the power button until the screen is black and any lights (including in the Touch Bar) are off.
+  1. Restart or shutdown the device by pressing the power button until the screen is black and any lights(including in the Touch Bar) are off.
   1. Press and hold the power button on your Mac until the **Loading startup options** appears. After a few seconds you’ll see two icons: **Macintosh HD** and **Options**.
   1. Click **Options** and choose the user account for which you know the password and click **Next**.
   1. Enter the password to continue.
