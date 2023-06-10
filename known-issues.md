@@ -61,15 +61,3 @@ Users are unable to access AWS documentation if Cloudflare Warp is turned on. Cl
 If you continue to experience this issue, create a [support request](https://go.gov.sg/seed-techpass-support).
 
 
-
-
-
-
-
-
-
-
-
-
-
-
