@@ -8,7 +8,7 @@ Create an incident support request if you experience:
 
 - connectivity issues while accessing GCC 2.0 CMP or SGTS services.
 
->**Note**: Refer to the [FAQs](faqs/seed-faqs) before creating the service request.
+>**Note**: see the [FAQs](faqs/seed-faqs) before creating the service request.
 
 ## Support channels
 

@@ -2,17 +2,13 @@
 
 This article gives an overview of the [MDM certificate](#mdm-certificate) and the [device clean-up policy](#device-clean-up-policy) for SEED users.
 
->**Note**
->
-> For more information, see [Device clean-up policy FAQs](faqs/device-clean-up-policy-faqs).
+>? For more information, see the [Device clean-up policy FAQs](faqs/device-clean-up-policy-faqs).
 
 ## MDM certificate
 
 When users onboard their Internet Device to SEED, an MDM certificate is assigned to it, and this is valid for a year from the date of onboarding. The certificate gets automatically renewed if you are logged in to your GMD at the time of certificate expiration.
 
->**Note**:
->- Your TechPass account must be active.
->- To know how to re-enable a disabled TechPass account, see [TechPass Account Management FAQ](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/support/account).
+>? - Your TechPass account must be active.<br>- To know how to re-enable a disabled TechPass account, see the [TechPass Account Management FAQs](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/support/account).
 
 An expired MDM certificate is automatically renewed if you log in to your device within 180 days from the expiration date. In this case, you don't need to re-onboard your device to SEED.
 

@@ -15,7 +15,7 @@ Posted on 14 July 2022
 | What will happen?  |  <for example, TechPass Portal will be going through a migration during this maintenance window.>  |
 | User Impact|<user impact.>     |
 |Action Required?|Specify yes or no. If yes, include what is the action required.|
-| Additional information | <Specify the additional resources which they can refer to if applicable. If nothing is applicable, specify None.> |
+| Additional information | <Specify the additional resources which they can see if applicable. If nothing is applicable, specify None.> |
 
 <details>
   <summary style="font-size:18px">14 June 2022</summary>
@@ -26,7 +26,7 @@ Posted on 14 July 2022
   | What will happen?  |  <for example, TechPass Portal will be going through a migration during this maintenance window.>  |
   | User Impact|<user impact.>     |
   |Action Required?|Specify yes or no. If yes, include what is the action required.|
-  | Additional information | <Specify the additional resources which they can refer to if applicable. If nothing is applicable, specify None.> |
+  | Additional information | <Specify the additional resources which they can see if applicable. If nothing is applicable, specify None.> |
 
 </details>
 <details>
@@ -38,7 +38,7 @@ Posted on 14 July 2022
   | What will happen?  |  <for example, TechPass Portal will be going through a migration during this maintenance window.>  |
   | User Impact|<user impact.>     |
   |Action Required?|Specify yes or no. If yes, include what is the action required.|
-  | Additional information | <Specify the additional resources which they can refer to if applicable. If nothing is applicable, specify None.> |
+  | Additional information | <Specify the additional resources which they can see if applicable. If nothing is applicable, specify None.> |
 
 </details>
 

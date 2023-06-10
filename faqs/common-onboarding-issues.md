@@ -43,9 +43,9 @@
 
   The SEED team can verify if your device was previously enrolled to Microsoft Intune under a different user. If this is confirmed, choose on the following to offboard it from Microsoft Intune and then retry onboarding your device to SEED.
 
-  - If you are a Windows user, refer to [SEED offboarding steps][seed-offboarding-steps].
+  - If you are a Windows user, see [SEED offboarding steps][seed-offboarding-steps].
 
-  - If you are a macOS user, go to **System Preferences**  and locate the old Management Profile. Refer to [SEED offboarding steps][seed-offboarding-steps].
+  - If you are a macOS user, go to **System Preferences**  and locate the old Management Profile. see [SEED offboarding steps][seed-offboarding-steps].
 
   </details>
   
@@ -190,7 +190,7 @@ Following are the three options available to reset your password:
 
   <details><summary>Reset password using Apple ID</summary>
 
- Refer to [Reset your Mac login password uisng Apple ID](https://support.apple.com/en-gb/guide/mac-help/mh35902/mac) for step-by-step instructions.
+ see [Reset your Mac login password uisng Apple ID](https://support.apple.com/en-gb/guide/mac-help/mh35902/mac) for step-by-step instructions.
  
   </details>
 

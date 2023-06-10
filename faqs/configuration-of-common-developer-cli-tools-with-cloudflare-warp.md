@@ -4,7 +4,7 @@ This article tells you how to configure the following common applications.
 
 > **Note**:
 >- Tools listed here are the common applications/tools used by software developers in the Singapore Government agencies.
->- To configure other applications or tools, refer to the [Cloudflare documentation](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/install-cloudflare-cert).
+>- To configure other applications or tools, see the [Cloudflare documentation](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/install-cloudflare-cert).
 
 - [Node.js and NPM](#nodejs-and-npm)
 - [Docker](#docker)
@@ -12,7 +12,7 @@ This article tells you how to configure the following common applications.
 - [Golang](#golang)
 
 > **Note**:
->- If you are experiencing issues while using any CLI tools and applications to access SGTS services, create a support request. For more information, refer to [create support request](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/raise-an-incident-support-request).
+>- If you are experiencing issues while using any CLI tools and applications to access SGTS services, create a support request. For more information, see [create support request](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/raise-an-incident-support-request).
 >- All other issues that are not related to SGTS services, contact [Cloudflare Community Support Forums](https://support.cloudflare.com/hc/en-us)
 
 ## Node.js and NPM
@@ -61,9 +61,10 @@ Following are the instructions for the smooth operation of the Docker engine beh
 
 ### Pull Docker images from a Docker image repository with Cloudflare Warp
 
-To pull Docker images from a Docker image repository with Cloudflare Warp turned on, you must configure the Docker engine on your host machine to trust the Cloudflare Certificate Authority (CA) certificate.
+To pull Docker images from a Docker image repository with Cloudflare Warp turned on, you must configure the Docker engine on your host machine to trust the Cloudflare Certificate Authority(CA) certificate.
 
-**To configure Docker engine on your host machine to trust Cloudflare Certificate Authority (CA) certificate**
+
+**To configure Docker engine on your host machine to trust Cloudflare Certificate Authority(CA) certificate**
 
 1.	Locate the Docker engine configuration directory on your host machine. This is usually the `.docker` directory in your user home directory. Create the `.docker` directory if it does not exist.
 2.	Locate the certificate directory for your Docker image repository. This is located in the `certs.d` directory in the `.docker` directory. Create the directory for your Docker Image repository if it does not exist in the `certs.d` directory.

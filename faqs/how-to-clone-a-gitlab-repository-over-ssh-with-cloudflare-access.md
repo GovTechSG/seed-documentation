@@ -14,7 +14,7 @@ The following instructions guide you to clone Git repos through SSH connection f
 - You should know how to setup and use ssh together with Git.
 
 > **Note**:
-> Refer to [SSH key pairs](https://gitlab-in.ship.gov.sg/help/user/ssh) for additional information.
+> see [SSH key pairs](https://gitlab-in.ship.gov.sg/help/user/ssh) for additional information.
 
 **To clone GitLab repository using SSH with Cloudflare Access**
 

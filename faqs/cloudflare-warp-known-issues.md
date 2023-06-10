@@ -49,7 +49,7 @@ In addition, make sure the VPN configuration does not route all the traffic and 
 
 <details><summary>macOS</summary>
 
-1. Go to **Apple** menu > **System Preferences** > **Network**.
+1. Go to the **Apple** menu > **System Preferences** > **Network**.
 
 <kbd>![network](../images/resolve-dns-error-macos/network.png)</kbd>
 
@@ -121,7 +121,7 @@ Cloudflare WARP works with Cloudflare Gateway to block websites that may have be
 **To identify Cloudflare category of a domain**:
 
 1. Go to [Cloudflare Radar](https://radar.cloudflare.com/categorization-feedback/).
-2. Enter the domain name of the website and check the categories under which it is classified. For more information on categories and their definitions, refer to [Cloudflare DNS categories](https://developers.cloudflare.com/cloudflare-one/policies/filtering/dns-policies/dns-categories/).
+2. Enter the domain name of the website and check the categories under which it is classified. For more information on categories and their definitions, see [Cloudflare DNS categories](https://developers.cloudflare.com/cloudflare-one/policies/filtering/dns-policies/dns-categories/).
 3. If the domain is incorrectly classified, select the relevant categories and click **Submit** to provide your feedback.
 
 </details>
@@ -133,8 +133,8 @@ Cloudflare WARP works with Cloudflare Gateway to block websites that may have be
 Your tool or application may be using a certificate store that is separate from the trusted root certificate store of your system.
 
   1. Download the Cloudflare CA certificate to your root system store(s) from the [Cloudflare documentation page][install-cloudflare-cert-operating-system].
-  2. Refer to your CLI tool documentation and configure it to trust the Cloudflare root certificate.
-  3. You can also refer to the following links for instructions to configure your tool or application:
+  2. see your CLI tool documentation and configure it to trust the Cloudflare root certificate.
+  3. You can also see the following links for instructions to configure your tool or application:
      * [GovTech instructions for commonly used CLI tools across Singapore
        Government developers][config-cli-tools-with-warp], or
      * [Cloudflare instructions for configuring commonly used developer CLI
@@ -223,7 +223,7 @@ To check and synchronise your device time with the internet time server:
 
   We strongly encourage agencies to avoid requesting for split tunnel allowlisting to reduce or prevent harmful security attacks. However, if you still intend to allow a VPN IP, [create a support request to request](https://go.gov.sg/seed-techpass-support). Our team may need additional information to evaluate this request.
 
-  For more information, refer to [split tunnel allowlist](additional-resources/split-tunnel-allowlist).
+  For more information, see [split tunnel allowlist](additional-resources/split-tunnel-allowlist).
 
 
   </details>
@@ -237,7 +237,7 @@ To check and synchronise your device time with the internet time server:
 
   As part of our security review processes, we will periodically review split tunnel entries to check if they are still necessary.
 
-  For more information, refer to [split tunnel allowlist](additional-resources/split-tunnel-allowlist).
+  For more information, see [split tunnel allowlist](additional-resources/split-tunnel-allowlist).
 
 
   </details>

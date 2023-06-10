@@ -90,7 +90,7 @@ echo $OrgID
 
 ![find-org-id](../images/offboarding-windows/org_id_win.png)
 
-5. Refer to the following table and identify your **Defender organisation** and download the offboarding package.
+5. see the following table and identify your **Defender organisation** and download the offboarding package.
 
   | OrgID | Defender organisation | Offboarding package |
   | ------------- |:-------------:|:-------------:|

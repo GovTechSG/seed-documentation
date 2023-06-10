@@ -23,7 +23,7 @@ After onboarding, ensure FDA is enabled for the following SEED components:
 
 ?> **Note**<br>If you were not prompted to reset device password while onboarding, you will be prompted now. See FAQ for password policy.
 
-5. Ensure the following applications are listed and enabled (checkboxes should be selected):
+5. Ensure the following applications are listed and enabled(select the checkboxes):
     - Tanium Client
     - Microsoft Intune Agent
     - Microsoft Defender
@@ -31,7 +31,7 @@ After onboarding, ensure FDA is enabled for the following SEED components:
 
 ![fda-enabled](../images/onboarding-for-macos/all-apps-fda-enabled.png ':size=75%')
 
-?> **Note**<br>If a SEED component is missing, see [Common onboarding issues for macOS users](faqs/common-onboarding-issues) to resolve it.
+?> If a SEED component is missing, see the [Common onboarding issues for macOS users](faqs/common-onboarding-issues) to resolve it.
 
 ## Turn on Cloudflare WARP for macOS
 

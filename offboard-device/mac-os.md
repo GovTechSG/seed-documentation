@@ -99,7 +99,7 @@ echo "$actual_id"
 
 ![note-org-id](../images/macos-find-org-id-2.png)
 
-3. Refer to the following table and identify your **Defender organisation** and download the respective offboarding package.
+3. see the following table and identify your **Defender organisation** and download the respective offboarding package.
 
   | org_id  | Defender organisation | Offboarding package |
   | ------------- |:-------------:|:-------------:|

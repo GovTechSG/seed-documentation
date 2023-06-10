@@ -94,7 +94,7 @@ Write-Output $intune_id
 
     b. If you have **not yet received** the **successfully onboarded email** or if you **have received** a **failed onboarding email**, complete the following step on [TechPass portal](https://portal.techpass.gov.sg/).
 
-9. Refer to the following table to know about the possible onboarding status and the action required by you.
+9. see the following table to know about the possible onboarding status and the action required by you.
 
 | Status | Description | Action required |
 |---| ---| ---|

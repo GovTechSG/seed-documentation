@@ -59,9 +59,9 @@ This is an Identity & Access Management(IAM) and  a single sign-on(SSO) solution
 
 While public officers use their WOG credentials(official email address) to log in to their TechPass, vendors use their TechPass ID.
 
-If you are public officer and want to get a TechPass account, refer to [Create TechPass Account](https://docs.developer.tech.gov.sg/docs/techpass-documentation/#/onboard?id=public-officer)
+If you are public officer and want to get a TechPass account, see [Create TechPass Account](https://docs.developer.tech.gov.sg/docs/techpass-documentation/#/onboard?id=public-officer)
 
-If you are a vendor, request the engaging agency or ministry to provide you with a TechPass account. For more information, refer to [Vendor onboarding to TechPass](https://docs.developer.tech.gov.sg/docs/techpass-documentation/#/onboard?id=vendor).
+If you are a vendor, request the engaging agency or ministry to provide you with a TechPass account. For more information, see [Vendor onboarding to TechPass](https://docs.developer.tech.gov.sg/docs/techpass-documentation/#/onboard?id=vendor).
 
 **TechPass ID**
 

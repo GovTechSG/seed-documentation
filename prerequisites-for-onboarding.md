@@ -286,7 +286,7 @@ echo $OrgID
 
 ?> Note: If you don't get any response, it means you do not have Defender installed on your device. You can skip the steps in this section.
 
-5. Refer to the following table and identify your **Defender organisation** and download the offboarding package.
+5. see the following table and identify your **Defender organisation** and download the offboarding package.
 
   | OrgID | Defender organisation | Offboarding package |
   | ------------- |:-------------:|:-------------:|
