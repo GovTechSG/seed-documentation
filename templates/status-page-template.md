@@ -9,7 +9,7 @@ This page provides the following Information:
 
 Posted on 14 July 2022
 
-| Category |  <specify where this maintenance is planned for. For example, TechPass portal> |
+| Category |  <specify where this maintenance is planned for. For example, TechPass Portal> |
 | ------------- |:-------------|
 | Scheduled for      | <specify the date in Date Month YYYY  with the start and end time in 24 hrs SGT >    |
 | What will happen?  |  <for example, TechPass Portal will be going through a migration during this maintenance window.>  |
@@ -20,7 +20,7 @@ Posted on 14 July 2022
 <details>
   <summary style="font-size:18px">14 June 2022</summary>
 
-  | Category |  <specify where this maintenance is planned for. For example, TechPass portal> |
+  | Category |  <specify where this maintenance is planned for. For example, TechPass Portal> |
   | ------------- |:-------------|
   | Scheduled for      | <specify the date in Date Month YYYY  with the start and end time in 24 hrs SGT >    |
   | What will happen?  |  <for example, TechPass Portal will be going through a migration during this maintenance window.>  |
@@ -32,7 +32,7 @@ Posted on 14 July 2022
 <details>
   <summary style="font-size:18px">14 May 2022</summary>
 
-  | Category |  <specify where this maintenance is planned for. For example, TechPass portal> |
+  | Category |  <specify where this maintenance is planned for. For example, TechPass Portal> |
   | ------------- |:-------------|
   | Scheduled for      | <specify the date in Date Month YYYY  with the start and end time in 24 hrs SGT >    |
   | What will happen?  |  <for example, TechPass Portal will be going through a migration during this maintenance window.>  |
@@ -46,9 +46,9 @@ Posted on 14 July 2022
 ## Ongoing incident(s)
 | Date| Date Month YYYY|
 | ------------- |:-------------|
-|**Issue summary** | <summarise the issue statement here in a sentence. For example, Intermittent 500 errors in the TechPass portal.> <br><br> Start with the investigating status and keep appending to it. <br><br>**Monitoring** - A fix has been implemented and we are monitoring the results.<br><br>**Identified** - The issue has been identified and a fix is being implemented.<br><br>**Investigating** - TechPass portal is investigating an increased level of HTTP 500 errors in the dashboard. <br><br> |
+|**Issue summary** | <summarise the issue statement here in a sentence. For example, Intermittent 500 errors in the TechPass Portal.> <br><br> Start with the investigating status and keep appending to it. <br><br>**Monitoring** - A fix has been implemented and we are monitoring the results.<br><br>**Identified** - The issue has been identified and a fix is being implemented.<br><br>**Investigating** - TechPass Portal is investigating an increased level of HTTP 500 errors in the dashboard. <br><br> |
 
 ## Previous incidents
 | Date| Date Month YYYY|
 | ------------- |:-------------|
-|**Issue summary** | <summarise the issue statement here in a sentence. For example, Intermittent 500 errors in the TechPass portal.> <br><br>**Resolved** - This incident has been resolved on Date Month YYYY, HH:MM SGT.<br><br>**Monitoring** - A fix has been implemented and we are monitoring the results.<br><br>**Identified** - The issue has been identified and a fix is being implemented.<br><br>**Investigating** - TechPass portal is investigating an increased level of HTTP 500 errors in the dashboard. <br><br>|
+|**Issue summary** | <summarise the issue statement here in a sentence. For example, Intermittent 500 errors in the TechPass Portal.> <br><br>**Resolved** - This incident has been resolved on Date Month YYYY, HH:MM SGT.<br><br>**Monitoring** - A fix has been implemented and we are monitoring the results.<br><br>**Identified** - The issue has been identified and a fix is being implemented.<br><br>**Investigating** - TechPass Portal is investigating an increased level of HTTP 500 errors in the dashboard. <br><br>|

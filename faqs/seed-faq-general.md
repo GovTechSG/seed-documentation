@@ -30,7 +30,7 @@ Your SEED onboarding email invitation is valid for 30 days. If you have not onbo
 
 If you use a non-SE GSIB device and if your TechPass account is active, to request for SEED:
 
-1. Go to the [TechPass portal](http://portal.techpass.gov.sg) from your non-SE GSIB device.
+1. Go to the [TechPass Portal](http://portal.techpass.gov.sg) from your non-SE GSIB device.
 2. Log in with TechPass.
 3. Hover over your user name and click **My Account**.
 4. In the **Profile** page, click **Request for SEED**.

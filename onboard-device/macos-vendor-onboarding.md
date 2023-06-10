@@ -1,6 +1,6 @@
 # Onboard macOS device to SEED as vendors
 
-<!-- This page is linked in the TechPass portal-Register Intune Device ID, so please do not rename this file. -->
+<!-- This page is linked in the TechPass Portal-Register Intune Device ID, so please do not rename this file. -->
 
 ?> <br>- Based on your device settings, while onboarding, you may be prompted to restart your device a couple of times and reset your device password.<br>- Keep your recovery keys ready if you face issues resetting your password or logging in to your device.
 

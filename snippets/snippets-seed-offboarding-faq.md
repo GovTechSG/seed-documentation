@@ -64,9 +64,9 @@ You may experience this error if we are unable to auto-retrieve your Intune Devi
 
 1. If you encounter this error, complete one of the following methods to get your Intune Device ID:
 
-    - Go to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile) and get the Intune Device ID from your account profile.
+    - Go to the [TechPass Portal](https://portal.techpass.gov.sg/secure/account/profile) and get the Intune Device ID from your account profile.
 
-    - If you can't access the TechPass portal, please submit an [incident request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support to get your Intune Device ID.
+    - If you can't access the TechPass Portal, please submit an [incident request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support to get your Intune Device ID.
 
 
 2. When you have your Intune Device ID proceed with **Phase B: Submit Intune Device ID** to remove device record.
@@ -82,8 +82,8 @@ This can happen if you had submitted an incorrect Intune Device ID.
 
 1. Complete one of the following steps to get your Intune Device ID:
 
-    - Go to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile) and get the Intune Device ID from your account profile.
-    - If you can't access the TechPass portal, please submit an [incident request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support to get your Intune Device ID.
+    - Go to the [TechPass Portal](https://portal.techpass.gov.sg/secure/account/profile) and get the Intune Device ID from your account profile.
+    - If you can't access the TechPass Portal, please submit an [incident request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support to get your Intune Device ID.
 
 
 2. Complete the [offboarding steps](offboard-device/offboard-device-from-seed) for your device.

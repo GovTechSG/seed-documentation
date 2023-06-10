@@ -10,7 +10,7 @@ No, GMD is considered to be active only if you regularly log in to it. Your GMD 
 
 <details><summary>What happens if my device become inactive?</summary>
 
-If your GMD becomes inactive, its records are "soft deleted" from the Intune portal.
+If your GMD becomes inactive, its records are "soft deleted" from the Intune Portal.
 
 When your device records are "soft deleted", it does not wipe or retire the device. The device record is temporarily deleted from Intune.
 

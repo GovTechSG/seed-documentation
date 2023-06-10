@@ -23,19 +23,17 @@ To access the SGTS resources via this device:
 
 ## Device clean-up policy
 
-The device clean-up policy applies only to SEED users whose TechPass ID belongs to the TechPass AAD. If your TechPass ID's domain is *techpass.gov.sg*, it belongs to the TechPass AAD. For example, *james_lee@techpass.gov.sg* belongs to the TechPass AAD.
+The device clean-up policy applies only to SEED users whose TechPass ID belongs to the TechPass AAD. If your TechPass ID's domain is *techpass.gov.sg*, it belongs to the TechPass AAD. For example, *john_doe@techpass.gov.sg* belongs to the TechPass AAD.
 
->**Note**:
->- The device clean-up policy is **not applicable** if your TechPass ID belongs to the **WOG AAD**.
->- If your TechPass ID belongs to the WOG AAD, then your TechPass ID is the same as your organisational email address, which is in the format of *\<your_name\>@\<acronym for your agency\>.gov.sg*. For example, *peter_wilson@tech.gov.sg*.
+?>- The device clean-up policy is **not applicable** if your TechPass ID belongs to the **WOG AAD**.<br>- If your TechPass ID belongs to the WOG AAD, then your TechPass ID is the same as your organisational email address, which is in the format of *\<your_name\>@\<acronym for your agency\>.gov.sg*. For example, *john_doe@tech.gov.sg*.
 
 ### Purpose of the policy
 
-The purpose of this policy is to remove inactive device records from the Intune portal.
+The purpose of this policy is to remove inactive device records from the Intune Portal.
 
 ### What happens if my GMD is inactive?
 
-If your TechPass ID belongs to the TechPass AAD, and you have not logged into your GMD(the Internet Device onboarded to SEED) for 90 consecutive days, the GMD becomes inactive, and its records are soft deleted from the Intune portal.
+If your TechPass ID belongs to the TechPass AAD, and you have not logged into your GMD(the Internet Device onboarded to SEED) for 90 consecutive days, the GMD becomes inactive, and its records are soft deleted from the Intune Portal.
 
 Note that when your device records are "soft deleted", it does not wipe or retire the device. The device record is temporarily deleted from Intune.
 
