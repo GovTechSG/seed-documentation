@@ -4,7 +4,7 @@ This page lists the known issues that may impact SEED users.
 
 ## Account does not have access
 
-**Description**: When accessing SGTS services using Cloudflare WARP, user intermittently experience an error message which states *That account does not have access*.
+**Description**: When accessing SEED protected resources via Cloudflare WARP, user intermittently experiences the error *That account does not have access*.
 
 **Workaround**: 
 
