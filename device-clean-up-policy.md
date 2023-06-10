@@ -8,7 +8,7 @@ This article gives an overview of the [MDM certificate](#mdm-certificate) and th
 
 When users onboard their Internet Device to SEED, an MDM certificate is assigned to it, and this is valid for a year from the date of onboarding. The certificate gets automatically renewed if you are logged in to your GMD at the time of certificate expiration.
 
->? - Your TechPass account must be active.<br>- To know how to re-enable a disabled TechPass account, see the [TechPass Account Management FAQs](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/support/account).
+>?- Your TechPass account must be active.<br>- To know how to re-enable a disabled TechPass account, see the [TechPass Account Management FAQs](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/support/account).
 
 An expired MDM certificate is automatically renewed if you log in to your device within 180 days from the expiration date. In this case, you don't need to re-onboard your device to SEED.
 
