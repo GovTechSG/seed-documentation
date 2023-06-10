@@ -6,7 +6,7 @@ This page lists the known issues that may impact SEED users.
 
 **Description**: When accessing SEED protected resources via Cloudflare WARP, user intermittently experiences the error *That account does not have access*.
 
-**Workaround**: 
+**What should you do?**: 
 
 1. Confirm the following:
 
@@ -30,7 +30,7 @@ This page lists the known issues that may impact SEED users.
 
 **Description**: Cloudflare has reported connectivity issues for its users whose macOS WARP client version is earlier than 2022.12.583.0(20230112.24). These users may experience intermittent connectivity issues while trying to access websites over the internet. 
 
-**Workaround**: Upgrade to the latest version of Cloudflare WARP to see if it resolves this issue.
+**What should you do?**: Upgrade to the latest version of Cloudflare WARP to see if it resolves this issue.
 
 **To install the latest Cloudflare WARP client**
 
@@ -46,12 +46,12 @@ This page lists the known issues that may impact SEED users.
 
 **Description**: Users experience intermittent connectivity issues while trying to accessing Slack over the internet.
 
-**Workaround**: If you experience this issue, create a [support request](https://go.gov.sg/seed-techpass-support).
+**What should you do?**: If you experience this issue, create a [support request](https://go.gov.sg/seed-techpass-support).
 
 ## Unable to access the AWS documentation
 
 **Description**: Users are unable to access AWS documentation if Cloudflare Warp is turned on. Cloudflare has stated that it has resolved this issue. 
 
-**Workaround**: If you **experience this issue, create a [support request](https://go.gov.sg/seed-techpass-support).
+**What should you do?**: If you **experience this issue, create a [support request](https://go.gov.sg/seed-techpass-support).
 
 
