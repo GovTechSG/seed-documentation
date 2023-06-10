@@ -4,7 +4,7 @@ With split tunnel allowlisting, GCC 2.0 Tenants can connect to their project sys
 
 If agencies intend to allow their project VPNs to be allowed, make sure your request complies with the following are the technical and evaluation criteria:
 
-> **Note**: The approval of split tunnel allowlisting requests is **including but not limited** to the following criteria.
+?> The approval of split tunnel allowlisting requests is **including but not limited** to the following criteria.
 
 ## Technical criteria
 
@@ -34,12 +34,4 @@ To evaluate a split tunnel allowlisting request, we need the following from the 
 
 - To know more about, how the WARP client handles your DNS requests, see [Cloudflare Docs](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/configure-warp/route-traffic/#how-the-warp-client-handles-dns-requests).
 
-> **Note**:<br>
->- We will review the allowed split tunnel entries by **October 2023** to decide whether to retain the allowlisting or not.
->
-> **Pilot projects for tools and applications behind Cloudflare Zero Trust**
->
->- We welcome pilot projects to put their project system management tools and applications behind Cloudflare Zero Trust. For more information, contact *ask_codex@tech.gov.sg*.
->
->
->- We strongly encourage GCC 2.0 tenants to use CSP native remote administrative tools to perform remote administration or access their databases instead of using their internet devices to connect directly to workloads or databases through Project VPNs.
+?>- We will review the allowed split tunnel entries by **October 2023** to decide whether to retain the allowlisting or not.<br><br>**Pilot projects for tools and applications behind Cloudflare Zero Trust**<br><br>- We welcome pilot projects to put their project system management tools and applications behind Cloudflare Zero Trust. For more information, contact *ask_codex@tech.gov.sg*.<br>- We strongly encourage GCC 2.0 tenants to use CSP native remote administrative tools to perform remote administration or access their databases instead of using their Internet Devices to connect directly to workloads or databases through Project VPNs.

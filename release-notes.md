@@ -13,7 +13,7 @@ This section lists the most recent enhancements, new features and fixes that are
 
 | **Type** 	| **Description** 	|
 |---	|---	|
-| **Enhancement** 	| **SEED Primer**: You asked and we acted! We received feedback to simplify the onboarding guide and today, we roll out the SEED Primer. It serves like a quick start guide to enable users to onboard quickly. For more information, see [SEED Primer](https://docs.developer.tech.gov.sg/docs/seed-primer/). |
+| **Enhancement** 	| **SEED Primer**: You asked and we acted! We received feedback to simplify the onboarding guide and today, we roll out the SEED Primer. It serves like a quick start guide to enable users to onboard quickly. For more information, see the [SEED Primer](https://docs.developer.tech.gov.sg/docs/seed-primer/) documentation. |
 
 
 ## 17 May 2023

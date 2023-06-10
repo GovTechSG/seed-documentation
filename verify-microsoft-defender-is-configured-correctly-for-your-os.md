@@ -7,8 +7,7 @@
   1. Open **Terminal** and run `mdatp health`.
   2. Take note of the value displayed for **org_id**.
 
-  > **Note**:
-  > If this command does not return anything, it indicates your device does not have Defender. Hence, [proceed to onboard your macOS device to SEED](onboard-device/mac-os).
+  ?>- If this command does not return anything, it indicates your device does not have Defender. Hence, [proceed to onboard your macOS device to SEED](onboard-device/mac-os).
 
   3. Identify the organisation corresponding to this **org_id** from the following table. This is the organisation of the Defender or the antivirus on your device.
 
@@ -75,42 +74,4 @@ Within the next few hours, **Intune** pushes the **Microsoft Defender** client t
 At any time, users can manually sync by going to **Start** > **Settings** > **Accounts** > **Access work or school** > **Work or School Account** > **Info** > **Sync**. Alternatively, Open the Company Portal app on your device, go to **Settings** > **Sync**. Wait while Company Portal syncs your device. When complete, the screen will show the timestamp of the last successful sync.
 
 
- <!--
-
- 4. Based on the **org_id**, identify the organisation of the Defender or the antivirus on your device.
  
- > **Note**:
-  >- The org_id displayed depends on the TechPass account used for enrolling your device to SEED.
-  >- If your TechPass ID used for SEED onboarding is similar to <em>your_name<span>@</span>tech.gov.sg</em> or <em>your_name<span>@</span><agency>.gov.sg</em>, your device will be onboarded to SEED under WOG profile - SG Govt M365 profile.</li>
-  >- If your TechPass ID used for SEED onboarding is similar to <em>your_name<span>@</span>techpass.gov.sg</em>, your device will be onboarded to SEED under TECHPASS profile.
-
-  > **Note**: If you have any issues in accessing the link to download the offboarding script,
-  >- Access the link in incognito mode.
-  >- Make sure you are using only the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
-  >- If you still have issues in downloading the script, create a [support request](https://go.gov.sg/seed-techpass-support).
-
-  5. Once you get the offboarding script, run it on your device to unenrol Defender from your device completely.
-
-   > **Note**:
-   > For more information on how to run the offboarding script to remove Defender from the macOS device, see **[Remove existing software on your device](prerequisites-for-onboarding?id=remove-existing-software-on-your-device)**.
-
-  
-
-
-  windows
-  The OrgId displayed depends on the TechPass account you used for enrolling your device to SEED.
-
-  > **Note**:
-  >- The org_id displayed depends on the TechPass account used for enrolling your device to SEED.
-  >- If your TechPass ID used for SEED onboarding is similar to <em>your_name<span>@</span>tech.gov.sg</em> or <em>your_name<span>@</span><agency>.gov.sg</em>, your device will be onboarded to SEED under WOG profile - SG Govt M365 profile.</li>
-  >- If your TechPass ID used for SEED onboarding is similar to <em>your_name<span>@</span>techpass.gov.sg</em>, your device will be onboarded to SEED under TECHPASS profile.
-
-
-  > **Note**:
->- If you have any issues in accessing the link to download the offboarding script, try accessing the link in incognito mode or one of the [supported browsers](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/best-practices?id=supported-browsers).
->- If you still have issues in downloading the script, create a [support request](https://go.gov.sg/seed-techpass-support).
-
-- For all other organisation ids, contact your organisation's MDM administrator or Defender administrator to get the respective offboarding script and proceed to step 7.
-
-7. Once you get the offboarding script for your current MDM organisation, run it on your device to unenrol your device from it completely.
-  -->

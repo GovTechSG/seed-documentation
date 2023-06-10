@@ -14,7 +14,7 @@ Before you proceed to onboard your device to SEED, note the following prerequisi
 <br>- More than one Internet Device.
 
 - Ensure you have an active [TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/onboard-to-techpass).
-- Ensure you have a valid SEED onboarding email. For more information on how to request or sign up for SEED provisioning, see [SEED provisioning](#request-seed-provisioning).
+- Ensure you have a valid SEED onboarding email. For more information on how to request or sign up for SEED provisioning, see the [SEED provisioning](#request-seed-provisioning) section.
 - Ensure you have Administrator permission on the device.
 - Ensure the device is running on one of the following operating systems:
     - Windows 10 and 11 Pro or Enterprise versions.
