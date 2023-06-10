@@ -189,7 +189,7 @@ Complete the following steps to find if Defender is your current antivirus solut
 
 ![extract-files](images/macos-extracted-files-for-offboarding.png)
 
-?> **Note**: The file names vary with the organisation.
+?> The file names may vary with the organisation.
 
 6. On your **Terminal**, go to the folder where you extracted the files. For example, if they are in the **Downloads** > **Offboarding_local_wog_mac** folder, go to that folder.
 
@@ -300,7 +300,7 @@ echo $OrgID
 
 ![extract-files](images/offboarding-windows/windows-extracted-files.png)
 
-?> **Note**: The file names vary with the organisation.
+?> The file names may vary with the organisation.
 
 7. Right-click the unzipped folder to select **Show more options** > **Copy as path**. The folder path is now saved to your clipboard.
 
