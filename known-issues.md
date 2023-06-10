@@ -1,18 +1,8 @@
 # Known issues
 
-Following is the list of known issues that may impact SEED users:
+This page lists the known issues that may impact SEED users.
 
-**Issues**
-
-- [Issue 1: Intermittently experience the error *Account does not have access*](#issue-1)
-- [Issue 2: Users may experience connectivity issues](#issue-2)
-- [Issue 3: User experience issues while accessing or loading Slack](#issue-3)
-- [Issue 4: Unable to access  AWS documentation](#issue-4)
-
-
-## Issue 1
-
-**Intermittently experience the error *Account does not have access*.**
+## Account does not have access
 
 When accessing SGTS services using Cloudflare WARP, user intermittently experience an error message which states *That account does not have access*.
 
@@ -32,17 +22,11 @@ When accessing SGTS services using Cloudflare WARP, user intermittently experien
 
 ?>- SEED does not support running other VPN clients together with Cloudflare WARP.<br>- We recommend not to turn on WARP and the VPN at the same time.
 
-2.  Verify if you are running any VPN client concurrently with warp on and complete the following steps as needed:
-
-a. If yes, make sure the VPN configuration does not route all traffic and DNS queries to the VPN server.
-
-b. If no, proceed to step 3.
+2. If you are running any VPN client concurrently with Cloudflare Warp, make sure your VPN configuration does not route all traffic and DNS queries to the VPN server.
 
 3. If you still have issues, [Generate diagnostic report](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request) and upload it to the [incident support request](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/raise-an-incident-support-request).
 
-## Issue 2
-
-**Users may experience connectivity issues**
+## Connectivity issues 
 
 Cloudflare has reported connectivity issues for its users whose macOS WARP client version is earlier than 2022.12.583.0(20230112.24). These users may experience intermittent connectivity issues while trying to access websites over the internet. 
 
@@ -60,9 +44,7 @@ Upgrade to the latest version of Cloudflare WARP to see if it resolves this issu
 5. Click **Install and Relaunch** to install the downloaded latest version of Cloudflare WARP.
 6. Repeat steps 1-2 and confirm if the latest Cloudflare version is installed on your GMD.
 
-## Issue 3
-
-**Users experience issues while accessing or loading Slack**
+## Slack connection issues
 
 Users experience intermittent connectivity issues while trying to accessing Slack over the internet.
 
@@ -70,9 +52,7 @@ Users experience intermittent connectivity issues while trying to accessing Slac
 
 We are investigating this issue and there is no known workaround available for this. If you experience this issue, create a [support request](https://go.gov.sg/seed-techpass-support).
 
-## Issue 4
-
-**Unable to access  AWS documentation**
+## Unable to access the AWS documentation
 
 Users are unable to access AWS documentation if Cloudflare Warp is turned on. Cloudflare has stated that it has resolved this issue. 
 
