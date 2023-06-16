@@ -2,7 +2,7 @@
 
 | <div style="width:150px"><b>Date</b></div>  | Announcement |
 | --- | --- |
-| 16 June 2023 | SEED is now on DevConsole widget|
+| 16 June 2023 | SEED is now on DevConsole widget. |
 | 07 June 2023 | Cloudflare will be performing scheduled maintenance in SIN (Singapore) data center on 07 June 2023, from 01:00 SGT to 07:00 SGT. <br><br>**Impact**:<br/> Users may experience service degradation on their GMDs.<br><br>**For more assistance**:<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support).|
 | 05 June 2023 | We have identified connectivity issues through Cloudflare WARP on 05 June 2023, 13:30 SGT. <br><br>**Impact**:<br/> Users may experience service degradation on their GMDs and intermittent connectivity to SGTS services and GCC. We have raised an issue with Cloudflare to resolve this. For more information, see [SEED service status](seed-status?id=previous-incidents).<br><br>**For more assistance**:<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support).|
 | 01 June 2023 | We will be performing a maintenance of our SEED servers on 01 Jun 2023, from 21:00 SGT to 21:00 SGT.<br><br>**Impact**:<br/>- There should be no impact on browsing websites through Cloudflare Gateway.<br>- Users may not be able to access SGTS and GCC 2.0 applications protected by SEED during the maintenance activity. <br><br>**Action required**:<br>- After the deployment, check if you can access the SGTS and GCC 2.0 applications protected by SEED.<br>- If you have issues accessing the applications, please create an [incident support request](https://go.gov.sg/seed-techpass-support).|
