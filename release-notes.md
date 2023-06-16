@@ -2,9 +2,7 @@
 
 This section lists the most recent enhancements, new features and fixes that are available for SEED users.
 
-## May 2023
-
-### 25 May 2023
+## 25 May 2023
 
 | <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
 | --- | --- | --- |
