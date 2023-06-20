@@ -7,12 +7,11 @@ This page provides the following Information:
 
 ## Scheduled maintenance
 
-No scheduled maintenance.
-<!--
+<!-- No scheduled maintenance. -->
+
 | Date | 13 June 2023 |
 | ------------- |:-------------|
-| Issue summary| We will be performing scheduled maintenance of the SEED servers. <br><br>**Start time** : 14 June 2023, 22:00 SGT<br>**End time**&nbsp;&nbsp;&nbsp;: 15 June 2023, 23:59 SGT<br><br>**Impact**<br>- Users may experience service disruptions on their GMDs.<br>After deployment, keep your GMDs connected to the Internet, for at least 15 mins, for the synchronization to be completed before accessing GCC 2.0 or other SGTS services.<br>- If you continue to face issues accessing the applications after 30 mins, please create an [incident support request](https://go.gov.sg/seed-techpass-support).|
--->
+| Issue summary| We will be performing scheduled maintenance of the SEED servers. <br><br>**Start time** : 21 June 2023, 10:30 SGT<br>**End time**&nbsp;&nbsp;&nbsp;: 21 June 2023, 12:30 SGT<br><br>**Impact**<br>- No impact for users accessing the new [SEED Dashboard](https://dashboard.seed.tech.gov.sg/). Users accessing the deprecated [DEEP Dashboard](https://dashboard.deep.tech.gov.sg/) will be redirected to the new SEED Dashboard in within 10 seconds.<br>- Users may notice weekly malware scans being performed on their GMDs, every Monday at 12:00 SGT.<br>- If you face issues accessing the SEED Dashboard or the GMD, please create an [incident support request](https://go.gov.sg/seed-techpass-support).|
 
 
 ## Ongoing incidents
