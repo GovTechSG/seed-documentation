@@ -9,7 +9,7 @@ This page provides the following Information:
 
 <!-- No scheduled maintenance. -->
 
-| Date | 13 June 2023 |
+| Date | 20 June 2023 |
 | ------------- |:-------------|
 | Issue summary| We will be performing scheduled maintenance of the SEED servers. <br><br>**Start time** : 21 June 2023, 10:30 SGT<br>**End time**&nbsp;&nbsp;&nbsp;: 21 June 2023, 12:30 SGT<br><br>**Impact**<br>- No impact for users accessing the new [SEED Dashboard](https://dashboard.seed.tech.gov.sg/). Users accessing the deprecated [DEEP Dashboard](https://dashboard.deep.tech.gov.sg/) will be redirected to the new SEED Dashboard in within 10 seconds.<br>- Users may notice weekly malware scans being performed on their GMDs, every Monday at 12:00 SGT.<br>- If you face issues accessing the SEED Dashboard or the GMD, please create an [incident support request](https://go.gov.sg/seed-techpass-support).|
 
