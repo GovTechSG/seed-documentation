@@ -2,13 +2,22 @@
 
 This section lists the most recent enhancements, new features and fixes that are available for SEED users.
 
+## June 2023
+
+### 22 June 2023
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Enhancement** | **Rebranding of the dashboard** | In the efforts to unify SEED, we have rebranded the DEEP Dashboard to SEED Dashboard. While this feature does not affect the functionality of the dashboard, the URL to the SEED Dashboard is now [https://dashboard.seed.tech.gov.sg/](https://dashboard.seed.tech.gov.sg/). If you face issues accessing the new SEED Dashboard, please get in touch with us through our SEED mailbox at: [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg).|
+
+
 ## May 2023
 
 ### 25 May 2023
 
 | <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
 | --- | --- | --- |
-| **New feature** | **Roll out of egress static IPs** | This a long awaited feature. We have rolled out egress to all SEED users. While this feature does not affect the majority of SEED users, it improves the integration between SEED and some services that do not support integration with Cloudflare. If you have such a requirement to secure your environment, please get in touch with us through our SEED mailbox at:<br/> [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg).|
+| **New feature** | **Roll out of egress static IPs** | This a long awaited feature. We have rolled out egress to all SEED users. While this feature does not affect the majority of SEED users, it improves the integration between SEED and some services that do not support integration with Cloudflare. If you have such a requirement to secure your environment, please get in touch with us through our SEED mailbox at: [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg).|
 
 
 ### 19 May 2023
