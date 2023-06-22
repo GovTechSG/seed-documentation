@@ -2,6 +2,15 @@
 
 This section lists the most recent enhancements, new features and fixes that are available for SEED users.
 
+## June 2023
+
+### 22 June 2023
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Enhancement** | **Rebranding of the dashboard** | In the efforts to unify SEED, we have rebranded the DEEP Dashboard to SEED Dashboard. While this feature does not affect the functionality of the dashboard, the URL to the SEED Dashboard is now [https://dashboard.seed.tech.gov.sg/](https://dashboard.seed.tech.gov.sg/). If you face issues accessing the new SEED Dashboard, please get in touch with us through our SEED mailbox at:<br/> [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg).|
+
+
 ## May 2023
 
 ### 25 May 2023
