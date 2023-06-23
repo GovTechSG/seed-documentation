@@ -2,7 +2,7 @@
 
 **Security Suite for Engineering Endpoint Devices (SEED)** is Singapore Government's implementation for Identity and Access Management (IAM) and zero trust framework to secure access to the Government's engineering resources, such as Government on Commercial Cloud (GCC) and the Singapore Government Tech Stack (SGTS).
 
-The zero trust framework replaces the traditional Virtual Private Network (VPN) technologies and centralises network-based security policies with a standardised central identity provider. It enforces access policies to only allow users to use devices with compliant with our security controls.
+The zero trust framework replaces the traditional Virtual Private Network (VPN) technologies and centralises network-based security policies with a standardised central identity provider. It enforces access policies to only allow users to use devices that are compliant with our security controls, to access the protected services.
 
 ## Why do we need SEED?
 
