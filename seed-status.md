@@ -17,13 +17,18 @@ No scheduled maintenance.
 
 ## Ongoing incidents
 
-<!-- No ongoing incidents! -->
+No ongoing incidents!
+
+<!-- | Date | 09 July 2023 |
+| ------------- |:-------------|
+| **Issue summary** | Cloudflare has identified increase level of 530 errors in Singapore on 09 July 2023, 10:54 SGT. <br><br>**Impact**: Users may experience service degradation on their GMDs and intermittent connectivity to SGTS services and GCC. More information available https://www.cloudflarestatus.com/ <br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support).|
+-->
+
+## Previous incidents
 
 | Date | 09 July 2023 |
 | ------------- |:-------------|
-| **Issue summary** | Cloudflare has identified increase level of 530 errors in Singapore on 09 July 2023, 10:54 SGT. <br><br>**Impact**: Users may experience service degradation on their GMDs and intermittent connectivity to SGTS services and GCC. More information available https://www.cloudflarestatus.com/ <br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support).|
-
-## Previous incidents
+| **Issue summary** | Cloudflare has resolved the increased levels of 530 error identified on 09 July 2023, 15:26 SGT. <br><br>**Issue start time**&nbsp;&nbsp;**&nbsp;**: 09 July 2023, 10:54 SGT<br>**Issue end time**&nbsp;&nbsp;**&nbsp;&nbsp;&nbsp;**:&nbsp;09 July 2023, 15:26 SGT<br><br>**Impact**: Users may experience service degradation on their GMDs and intermittent connectivity to SGTS services and GCC. <br><br>*Posted on: 09 July 2023, 17:30 SGT*<br><br><b>What should I do if I am still having an issue?</b><br>Create an [incident support request](https://go.gov.sg/seed-techpass-support) with the support team. |
 
 | Date | 05 June 2023 |
 | ------------- |:-------------|
