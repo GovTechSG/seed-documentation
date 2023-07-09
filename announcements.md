@@ -1,9 +1,5 @@
 # Announcements
-Cloudflare has identified increase level of 530 errors in Singapore on 09 July 2023, 10:54 SGT.
 
-Impact: Users may experience service degradation on their GMDs and intermittent connectivity to SGTS services and GCC. More information available https://www.cloudflarestatus.com/
-
-For more assistance: Create an incident support request.
 | <div style="width:150px"><b>Date</b></div>  | Announcement |
 | --- | --- |
 | 09 July 2023 | Cloudflare has identified increase level of 530 errors in Singapore on 09 July 2023, 10:54 SGT.
