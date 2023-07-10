@@ -12,13 +12,6 @@
 
 ## Step 1: Set up Microsoft Intune
 
-> **Note**: If you are using a silicon-based chip Mac, such as M1 or M2, run the following commands in Terminal before beginning the onboarding process. These commands are necessary to ensure that certain applications can be installed on your device without encountering any software installation errors:
-
-```
-sudo softwareupdate --install-rosetta
-```
-
-
 <details>
   <summary style="font-size:18px">Set up Microsoft Intune to get the required applications and device configurations.</summary>
 
