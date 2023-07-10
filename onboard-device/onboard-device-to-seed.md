@@ -15,11 +15,11 @@ Ensure that you complete the following:
  - [Step 0: Prerequisites for onboarding to SEED](prerequisites-for-onboarding) 
  - [Step 1: Identify your SEED onboarding persona](identify-seed-onboarding-persona)
 
-If you are using a silicon-based chip Mac, such as M1 or M2, run the following commands in Terminal before beginning the onboarding process. 
+If you are using a silicon-based chip Mac, such as M1 or M2, run the following command in Terminal before beginning the onboarding process. 
 ```
 sudo softwareupdate --install-rosetta
 ```
-These commands are necessary to ensure that certain applications can be installed on your device without encountering any software installation errors.
+This command is necessary to ensure that certain applications can be installed on your device without encountering any software installation errors.
 
 ## Onboard device to SEED
 
