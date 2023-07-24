@@ -7,24 +7,26 @@ This page provides the following Information:
 
 ## Scheduled maintenance
 
-No scheduled maintenance.
+<!-- No scheduled maintenance. -->
 
-<!--
-| Date | 20 June 2023 |
+| Date | 24 July 2023 |
 | ------------- |:-------------|
-| Issue summary| We will be performing scheduled maintenance of the SEED servers. <br><br>**Start time** : 21 June 2023, 10:30 SGT<br>**End time**&nbsp;&nbsp;&nbsp;: 21 June 2023, 12:30 SGT<br><br>**Impact**<br>- No impact for users accessing the new [SEED Dashboard](https://dashboard.seed.tech.gov.sg/). Users accessing the deprecated [DEEP Dashboard](https://dashboard.deep.tech.gov.sg/) will be redirected to the new SEED Dashboard in within 10 seconds.<br>- Users may notice weekly malware scans being performed on their GMDs, every Monday at 12:00 SGT.<br>- If you face issues accessing the SEED Dashboard or the GMD, please create an [incident support request](https://go.gov.sg/seed-techpass-support).|
--->
+| Issue summary| We will be performing scheduled maintenance of the SEED servers. <br><br>**Start time** : 25 July 2023, 20:00 SGT<br>**End time**&nbsp;&nbsp;&nbsp;: 25 July 2023, 22:00 SGT<br><br>**Impact**<br>- Users may experience service degradation on their GMDs and intermittent connectivity to SGTS services and GCC. <br>- If you face issues accessing services on your GMD, please create an [incident support request](https://go.gov.sg/seed-techpass-support).|
 
 ## Ongoing incidents
 
 No ongoing incidents!
 
-<!--| Date | 05 June 2023 |
+<!-- | Date | 09 July 2023 |
 | ------------- |:-------------|
-| **Issue summary** | We have identified connectivity issues through Cloudflare WARP on 05 Jun 2023, 13:30 SGT. <br><br>**Impact**: Users may experience service degradation on their GMDs and intermittent connectivity to SGTS services and GCC. More information available https://www.cloudflarestatus.com/incidents/q7kv4q501n0n. <br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support).
+| **Issue summary** | Cloudflare has identified increase level of 530 errors in Singapore on 09 July 2023, 10:54 SGT. <br><br>**Impact**: Users may experience service degradation on their GMDs and intermittent connectivity to SGTS services and GCC. More information available https://www.cloudflarestatus.com/ <br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support).|
 -->
 
 ## Previous incidents
+
+| Date | 09 July 2023 |
+| ------------- |:-------------|
+| **Issue summary** | Cloudflare has resolved the increased levels of 530 error identified on 09 July 2023, 15:26 SGT. <br><br>**Issue start time**&nbsp;&nbsp;**&nbsp;**: 09 July 2023, 10:54 SGT<br>**Issue end time**&nbsp;&nbsp;**&nbsp;&nbsp;&nbsp;**:&nbsp;09 July 2023, 15:26 SGT<br><br>**Impact**: Users may experience service degradation on their GMDs and intermittent connectivity to SGTS services and GCC. <br><br>*Posted on: 09 July 2023, 17:30 SGT*<br><br><b>What should I do if I am still having an issue?</b><br>Create an [incident support request](https://go.gov.sg/seed-techpass-support) with the support team. |
 
 | Date | 05 June 2023 |
 | ------------- |:-------------|
