@@ -3,7 +3,7 @@
 ?> Based on your Windows settings, you may be prompted to restart or reset your password while onboarding.
 
 <div style="position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden;">
-<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/Cvb7lppxFqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/PAyKoRZ7WSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
 </div>
 
 ## Step 1: Set up Microsoft Intune
@@ -13,21 +13,33 @@
 
 1. Click **Start** icon on the taskbar.
 
-2. Go to **Settings** > **Accounts** > **Access work or school** and click **Connect** to add your TechPass account.
+2. Go to **Settings** > **Accounts** > **Access work or school** and click **Connect** to add your WOG account.
 
-  ![access-work-or-school](../images/onboarding-instructions-for-windows/access-work-or-school.png)
+![access-work-or-school](../images/onboarding-instructions-for-windows/access-work-or-school.png)
 
 3. Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. 
 
   ![techpass-sign-in](../images/onboarding-instructions-for-windows/techpass-sign-in.png)
 
-  Your account is added and listed as a connection. This account has **Info** and **Disconnect** options as shown below. 
+4. Set up Windows Hello pin.
 
-  ![info-disconnect](../images/onboarding-instructions-for-windows/info-disconnect.png)
+![set up windows hello](../images/onboarding-instructions-for-windows/set-up-windows-hello-pin.png)
 
-4. Select the **Info** option and verify that a similar result to the following is displayed. You will see **TechPass** instead of **SG Govt M365**.
+5. Click **OK** and **Next**.
 
-  ![managed-by-tp](../images/onboarding-instructions-for-windows/managed-by-tp.png)
+6. Enter your account password and select **OK**.
+
+![acc password](../images/onboarding-instructions-for-windows/verify-local-pw.png)
+
+
+Your account is added and listed as a connection. This account has **Info** and **Disconnect** options as shown below. 
+
+![info-disconnect](../images/onboarding-instructions-for-windows/info-disconnect-vendor.png)
+
+4. Select the **Info** option and verify that a similar result to the following is displayed.
+
+![managed-by-tp](../images/onboarding-instructions-for-windows/managed-by-tp.png)
+
 
 </details>
 
