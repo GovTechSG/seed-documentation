@@ -243,12 +243,6 @@ To check and synchronise your device time with the internet time server:
   </details>
   
 
-  <details>
-  <summary>I have a question, but it is not listed here - what do I do?</summary>
-
-  Please visit [Cloudflare troubleshooting](cloudflare-troubleshooting)
-
-  </details>
   
 
 
