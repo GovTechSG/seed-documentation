@@ -2,7 +2,7 @@
 
 <!-- This page is linked in the TechPass portal-Register Intune Device ID, so please do not rename this file. -->
 
-?> On September 26, 2023, Apple will release macOS 14 Sonoma. We are currently in the process of testing and ensuring full compatibility with SEED. Before upgrading to the latest version, please wait until we confirm SEED support. <br>Mac OS Compatible upgrade as follows:<br>- iMac: 2019 and above<br>- iMac Pro: 2017 and above<br>- Mac Mini: 2018 and above<br>- MacBook Air: 2018 and above<br>- MacBook Pro: 2018 and above<br>- Mac Pro: 2019 and above<br>- Mac Studio: 2022 and above<br>For more details on the new macOS version, please visit https://www.apple.com/sg/macos/sonoma-preview/.
+?> On September 26, 2023, Apple will release macOS 14 Sonoma. We are currently in the process of testing and ensuring full compatibility with SEED. Before upgrading to the latest version, please wait until we confirm SEED support. <br>For more details on the new macOS version, please visit https://www.apple.com/sg/macos/sonoma-preview/.
 
 ?> <br>- Based on your device settings, while onboarding, you may be prompted to restart your device a couple of times and reset your device password.<br>- Keep your recovery keys ready if you face issues resetting your password or logging in to your device.
 
