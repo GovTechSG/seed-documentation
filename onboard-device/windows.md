@@ -3,7 +3,7 @@
 ?> <br>- Based on your Windows settings, you may be prompted to restart or reset your password while onboarding.
 
 <div style="position:relative;padding-bottom:56.25%;padding-top:30px;height:0;overflow:hidden;">
-<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/Cvb7lppxFqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/PAyKoRZ7WSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
 </div>
 
 
@@ -21,6 +21,17 @@
 3. Authorise your WOG account by entering the verification code displayed for your SG Govt M365 profile on the authenticator app before approving your TechPass login.
 
 ![log-in-to-gcc](../images/onboarding-for-macos/log-in-to-gcc.png)
+
+4. Set up Windows Hello pin.
+
+![set up windows hello](../images/onboarding-instructions-for-windows/set-up-windows-hello-pin.png)
+
+5. Click **OK** and **Next**.
+
+6. Enter your account password and select **OK**.
+
+![acc password](../images/onboarding-instructions-for-windows/verify-local-pw.png)
+
 
 Your account is added and listed as a connection. This account has **Info** and **Disconnect** options as shown below. 
 
