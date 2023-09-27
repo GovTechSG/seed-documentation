@@ -2,6 +2,7 @@
 
 | <div style="width:150px"><b>Date</b></div>  | Announcement |
 | --- | --- |
+| 27 September 2023 | Previously, we received feedback that some users faced difficulties onboarding onto SEED, which we had found attributed to licensing problems. This issue has been resolved as of 26 Sep 2023.<br><br>If you are still experiencing onboarding issues please refer to the [troubleshooting page](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/faqs/common-onboarding-issues). <br><br> Thank you.|
 | 26 September 2023 | We will be performing a maintenance of our SEED configurations on 27 September 2023, from 20:00 SGT to 22:00 SGT. <br><br>**Impact**:<br/>Users may experience intermittent connectivity while internet surfing or access GCC and SGTS services during the deployment.<br><br>**For more assistance**:<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support).|
 | 15 September 2023 | We are currently experiencing difficulties with onboarding new users onto SEED due to licensing problems. Rest assured, our team is actively addressing this issue, and a resolution is forthcoming. |
 | 4 September 2023 | We are currently testing macOS 14 (Sonoma) compatibility with SEED. Official support will come after our internal tests. Access to SEED remains unaffected, but compliance controls may need time to adapt if you upgrade to macOS 14. We recommend waiting before upgrading if possible. |
