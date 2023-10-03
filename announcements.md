@@ -1,5 +1,7 @@
 # Announcements
 
+?> We are currently testing macOS 14 (Sonoma) compatibility with SEED. Official support will come after our internal tests. Access to SEED remains unaffected, but compliance controls may need time to adapt if you upgrade to macOS 14. We recommend waiting before upgrading if possible. 
+
 | <div style="width:150px"><b>Date</b></div>  | Announcement |
 | --- | --- |
 | 27 September 2023 | Previously, we received feedback that some users faced difficulties onboarding onto SEED, which we had found attributed to licensing problems. This issue has been resolved as of 26 Sep 2023.<br><br>If you are still experiencing onboarding issues, please refer to the [troubleshooting page](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/faqs/common-onboarding-issues). <br><br> Thank you.|
