@@ -1,6 +1,6 @@
 # Announcements
 
-?> We are currently testing macOS 14 (Sonoma) compatibility with SEED. Official support will come after our internal tests. Access to SEED remains unaffected, but compliance controls may need time to adapt if you upgrade to macOS 14. We recommend waiting before upgrading if possible. 
+?> We are in the final stages of testing macOS 14 (Sonoma) compatibility with SEED. If the testing proceeds as planned, we anticipate introducing official support as early as next week. While we continue these tests, access to SEED remains uninterrupted. Please be aware that compliance controls may need minor adjustments upon upgrading to macOS 14. We recommend holding off on the upgrade if feasible, ensuring a smoother transition when our support is fully in place.
 
 | <div style="width:150px"><b>Date</b></div>  | Announcement |
 | --- | --- |
