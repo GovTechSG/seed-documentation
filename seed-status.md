@@ -16,9 +16,7 @@ No scheduled maintenance.
 
 ## Ongoing incidents
 
-| Date | 4 October 2023 |
-| ------------- |:-------------|
-| **Issue summary** | Cloudflare has identified DNS resolution issues impacting users on the 1.1.1.1 public resolver and WARP services on October 4 2023, 16:19 SGT. <br><br>**Impact**:<br>Users may experience difficulties with DNS resolution, potentially leading to the inability to access the internet. <br>More information available on https://www.cloudflarestatus.com/. <br><br>**For more assistance**:<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+No ongoing incidents!
 
 
 <!-- | Date | 09 July 2023 |
