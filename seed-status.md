@@ -27,7 +27,7 @@ No ongoing incidents!
 
 | Date | 4 October 2023 |
 | ------------- |:-------------|
-| **Issue summary** | Cloudflare has resolved the network issues identified on October 4 2023, 16:19 SGT. <br><br>**Issue started**: October 4 2023, 16:19 SGT<br><br>**Issue ended**: October 4 2023, 19:19<br><br>**Impact**:<br>Users may experience difficulties with DNS resolution, potentially leading to the inability to access the internet. <br><br>*Posted on: October 5 2023, 11:30SGT*<br><br>**What should I do if I am still having an issue?**<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+| **Issue summary** | Cloudflare has resolved the network issues identified on October 4 2023, 16:19 SGT. <br><br>**Issue started**: October 4 2023, 16:19 SGT<br><br>**Issue ended**: October 4 2023, 19:19 SGT<br><br>**Impact**:<br>Users may experience difficulties with DNS resolution, potentially leading to the inability to access the internet. <br><br>*Posted on: October 5 2023, 11:30 SGT*<br><br>**What should I do if I am still having an issue?**<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
 
 
 | Date | 09 July 2023 |
