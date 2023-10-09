@@ -17,6 +17,9 @@ No scheduled maintenance.
 ## Ongoing incidents
 
 No ongoing incidents!
+| Date | 09 October 2023 |
+| ------------- |:-------------|
+| **Issue summary** | Cloudflare has identified a widespread issue impacting users' ability to access the internet using Cloudflare WARP services on 09 October 2023, 04:09 SGT. Additionally, Cloudflare is investigating an issue that potentially impacts various Cloudflare services, including images, network, pages, stream, Tunnels, WARP, and Zero Trust services. These services may become temporarily unavailable or return 5xx HTTP errors. <br><br>**Impact**:<br>Users are unable to access the internet using Cloudflare WARP. Disabling Cloudflare services temporarily can restore internet access; however, this may restrict access to certain Cloudflare-protected applications, including SGTS products. <br>More information available on https://www.cloudflarestatus.com/. <br><br>**For more assistance**:<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support).|
 
 <!-- | Date | 09 July 2023 |
 | ------------- |:-------------|
