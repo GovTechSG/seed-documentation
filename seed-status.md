@@ -16,9 +16,8 @@ No scheduled maintenance.
 
 ## Ongoing incidents
 
-| Date | 9 October 2023 |
-| ------------- |:-------------|
-| **Issue summary** | Cloudflare has identified an issue impacting users' ability to access the internet using Cloudflare WARP services on 9 October 2023, 04:09 SGT. Additionally, Cloudflare is investigating an issue that potentially impacts various Cloudflare services, including images, network, pages, stream, Tunnels, WARP, and Zero Trust services. These services may become temporarily unavailable or return 5xx HTTP errors. <br><br>**Impact**:<br>Users are unable to access the internet using Cloudflare WARP. Disabling Cloudflare services temporarily can restore internet access; however, this may restrict access to certain Cloudflare-protected applications, including SGTS products. <br>More information available on https://www.cloudflarestatus.com/. <br><br>**For more assistance**:<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support).|
+No ongoing incidents!
+
 
 <!-- | Date | 09 July 2023 |
 | ------------- |:-------------|
@@ -27,9 +26,13 @@ No scheduled maintenance.
 
 ## Previous incidents
 
-| Date | 4 October 2023 |
+| Date | 09 October 2023 |
 | ------------- |:-------------|
-| **Issue summary** | Cloudflare has resolved the network issues identified on October 4 2023, 16:19 SGT. <br><br>**Issue started**: October 4 2023, 16:19 SGT<br><br>**Issue ended**: October 4 2023, 19:19 SGT<br><br>**Impact**:<br>Users may experience difficulties with DNS resolution, potentially leading to the inability to access the internet. <br><br>*Posted on: October 5 2023, 11:30 SGT*<br><br>**What should I do if I am still having an issue?**<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+| **Issue summary** | Cloudflare has resolved the network issues identified on October 09 2023, 04:09 SGT. <br><br>**Issue started**: October 09 2023, 04:09 SGT<br><br>**Issue ended**: October 09 2023, 13:30 SGT<br><br>**Impact**:<br>Users are unable to access the internet using Cloudflare WARP. Disabling Cloudflare services temporarily can restore internet access; however, this may restrict access to certain Cloudflare-protected applications, including SGTS products. <br><br>*Posted on: October 09 2023, 15:30 SGT*<br><br>**What should I do if I am still having an issue?**<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+
+| Date | 04 October 2023 |
+| ------------- |:-------------|
+| **Issue summary** | Cloudflare has resolved the network issues identified on October 04 2023, 16:19 SGT. <br><br>**Issue started**: October 04 2023, 16:19 SGT<br><br>**Issue ended**: October 04 2023, 19:19 SGT<br><br>**Impact**:<br>Users may experience difficulties with DNS resolution, potentially leading to the inability to access the internet. <br><br>*Posted on: October 05 2023, 11:30 SGT*<br><br>**What should I do if I am still having an issue?**<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
 
 
 | Date | 09 July 2023 |
