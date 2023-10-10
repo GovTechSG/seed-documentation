@@ -9,10 +9,10 @@ This page provides the following Information:
 
 No scheduled maintenance.
 
-<!-- | Date | 24 July 2023 |
+| Date | 10 October 2023 |
 | ------------- |:-------------|
-| Issue summary| We will be performing scheduled maintenance of the SEED servers. <br><br>**Start time** : 25 July 2023, 20:00 SGT<br>**End time**&nbsp;&nbsp;&nbsp;: 25 July 2023, 22:00 SGT<br><br>**Impact**<br>- Users may experience service degradation on their GMDs and intermittent connectivity to SGTS services and GCC. <br>- If you face issues accessing services on your GMD, please create an [incident support request](https://go.gov.sg/seed-techpass-support).|
--->
+| Issue summary| We will be performing scheduled maintenance of the SEED servers. <br><br>**Start time** : 11 October 2023, 10:00 SGT<br>**End time**&nbsp;&nbsp;&nbsp;: 11 October 2023, 12:00 SGT<br><br>**Impact**<br>- There should be no impact to the users. <br>- If you face issues accessing services on your GMD, please create an [incident support request](https://go.gov.sg/seed-techpass-support).|
+
 
 ## Ongoing incidents
 
