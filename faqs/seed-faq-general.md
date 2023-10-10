@@ -52,7 +52,7 @@ GMDs are to facilitate development work for developers to access GCC 2.0 and SGT
 
 Installing unlicensed software on your GMD is strictly prohibited. GMDs are government-managed, and this policy ensures security and compliance. Unauthorised software compromises security and violates regulations. 
 
-If you need a particular software for your development work, please follow your organisation's processes to obtain the legitimate version. Refer to [Terms of Use](http://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/terms-of-use.pdf) for details.
+If you need a particular software for your development work, please follow your organisation's processes to obtain the legitimate version. Refer to [Terms of Use](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/terms-of-use.pdf) for details.
 
 </details>
 
