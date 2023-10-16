@@ -56,6 +56,13 @@ If you need a particular software for your development work, please follow your 
 
 </details>
 
+<details><summary>Can I bring and use my GMD (Government Managed Device) overseas?</summary>
+
+Users should assess the risk and seek approval from their Reporting Officer (RO) before doing so.
+
+</details>
+
+
 <details><summary>I have lost my Government Managed Device (GMD). What should I do?</summary>
 
 1. Inform the manager-in-charge and operations manager and get an approval to delete the data from the lost device.
