@@ -98,6 +98,25 @@ No, remote wipe will be done on any GMD which is lost or whose security is compr
 > **Note**: To wipe the device, the device needs to be powered on and be connected to the internet so it can receive the communication for it to be wiped.
 
 </details>
+
+<details><summary>What should I do if my device has been inactive for 180 days?</summary>
+
+If your device is no longer required to access SEED, please [offboard your device](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/offboard-device/offboard-device-from-seed). If you still require access after being inactive for 180 days, please email enquiries_seed@tech.gov.sg for assistance.
+
+</details>
+
+<details><summary>What should I do if I want to check if my device record has been deleted?</summary>
+
+Log in to [SEED Dashboard](https://dashboard.seed.tech.gov.sg/) after 23rd October to see whether your device record still exists. If your device record does not exist, or you are unable to log into SEED Dashboard, your device records have been cleaned up.
+
+</details>
+
+<details><summary>What should I do if my device record has been deleted even though it is still active?</summary>
+
+Please email enquiries_seed@tech.gov.sg for assistance.
+
+</details>
+
 <details><summary>I have already enrolled my device with Microsoft Intune under my organisation or with other MDM solution. Will this impact when I onboard my device to SEED?</summary>
 
 Yes, this impacts your SEED onboarding. Before onboarding to SEED, remove your existing Microsoft Intune enrolment under your organisation's tenancy or other MDM solution on your device.
