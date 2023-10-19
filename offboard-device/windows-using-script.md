@@ -94,8 +94,8 @@ echo $OrgID
 
   | OrgID | Defender organisation | Offboarding package |
   | ------------- |:-------------:|:-------------:|
-  | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     | [Download offboarding script](https://qqfp7b77sunlu7creacs5ssxky0jaszz.lambda-url.ap-southeast-1.on.aws/local_wog_windows) |
-  | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    | [Download offboarding script](https://qqfp7b77sunlu7creacs5ssxky0jaszz.lambda-url.ap-southeast-1.on.aws/local_tp_windows)    |
+  | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     | [Download offboarding script](https://kaao45f5hebx3i7lsypkr625rq0zuiyt.lambda-url.ap-southeast-1.on.aws/local_wog_windows) |
+  | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    | [Download offboarding script](https://kaao45f5hebx3i7lsypkr625rq0zuiyt.lambda-url.ap-southeast-1.on.aws/local_tp_windows)    |
   | 6389e966-e334-461d-86ce-0fed12484620 | Hive | Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package. |
 
   !> **Important**<br>- If your **Defender organisation** is **Hive**, please skip the remaining steps in this document. You need to get the offboarding package from the Hive support and unenrol your device from Defender. See the [offboarding FAQs](offboard-device/seed-offboarding-faqs.md) to know how to unenrol your device from Defender using the Hive offboarding package.<br><br>- If your **Defender organisation** is either **WOG** or **TechPass**, you need to use your TechPass to download the offboarding package and proceed with the remaining steps.<br><br>- If your **Defender organisation** is **none of the above**, contact the IT support of the organisation that provided you with the device.
