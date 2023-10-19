@@ -1,4 +1,4 @@
-# Post onboarding instructions for macOS 11 and 12
+# Post onboarding instructions for macOS 12
 
   After you onboard your Internet Device to SEED: 
 
