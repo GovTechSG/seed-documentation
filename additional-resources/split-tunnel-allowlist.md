@@ -40,6 +40,7 @@ To evaluate a split tunnel allowlisting request, we need the following from the 
 > **Pilot projects for tools and applications behind Cloudflare Zero Trust**
 >
 >- We welcome pilot projects to put their project system management tools and applications behind Cloudflare Zero Trust. For more information, contact *ask_codex@tech.gov.sg*.
+
 >
 >
 >- We strongly encourage GCC 2.0 tenants to use CSP native remote administrative tools to perform remote administration or access their databases instead of using their internet devices to connect directly to workloads or databases through Project VPNs.

@@ -144,7 +144,7 @@ This is a known issue with Microsoft Defender version 101.54.16. To resolve this
 <details>
    <summary>What is the minimum version of macOS needed for onboarding it into Microsoft Intune?</summary>
 
- Big Sur 11 is the minimum version needed for a successful onboarding. If your macOS is an earlier version, ensure to [upgrade it to a later macOS version](https://support.apple.com/downloads/macos).
+ macOS 12 (Monterrey) is the minimum version needed for a successful onboarding. If your macOS is an earlier version, ensure to [upgrade it to a later macOS version](https://support.apple.com/downloads/macos).
 
  <!--
  > **Note**:
@@ -154,9 +154,9 @@ This is a known issue with Microsoft Defender version 101.54.16. To resolve this
 </details>
 
 <details>
-  <summary>Can I upgrade my macOS to macOS 13 (Ventura)?</summary>
+  <summary>Can I upgrade my macOS to macOS 14 (Sonoma)?</summary>
 
-  You can now upgrade your Mac device to macOS 13(Ventura) and onboard it to SEED.
+  You can now upgrade your Mac device to macOS 14 (Sonoma) and onboard it to SEED.
 
 
 </details>
