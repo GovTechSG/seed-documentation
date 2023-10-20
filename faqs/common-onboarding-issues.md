@@ -59,7 +59,7 @@
   
 
 <details>
-  <summary>While enabling Full Disk Access(FDA), I can't find <b>TaniumClient</b>. What should I do?</summary>
+  <summary>While enabling Full Disk Access (FDA), I can't find <b>TaniumClient</b>. What should I do?</summary>
 
   1. Open the **Terminal** application and run the command: ``sudo chmod 755 /Library/Tanium/TaniumClient``.
   2. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
@@ -74,7 +74,7 @@
 
 
 <details>
-<summary>While enabling Full Disk Access(FDA), I can't find <b>Microsoft Intune Agent</b> and <b>Microsoft Defender for Endpoint</b>. What should I do?</summary>
+<summary>While enabling Full Disk Access (FDA), I can't find <b>Microsoft Intune Agent</b> and <b>Microsoft Defender for Endpoint</b>. What should I do?</summary>
 
 1. Go to the **Apple** menu > **System Preferences** > **Security & Privacy**.
 2. Click the **Privacy** tab.
@@ -86,7 +86,7 @@
 </details>
 
 
-<details><summary>While enabling Full Disk Access(FDA), I can't find <strong>Microsoft Defenders Endpoint Security Extension</strong>. Can I proceed with my onboarding?</summary>
+<details><summary>While enabling Full Disk Access (FDA), I can't find <strong>Microsoft Defenders Endpoint Security Extension</strong>. Can I proceed with my onboarding?</summary>
 
 Yes, you may proceed with your SEED onboarding and the Microsoft Defenders Endpoint Security Extension should be available within four hours. If it is still not available after four hours, please create a [Support Request](raise-an-incident-support-request) as it is required to ensure the completeness of your onboarding.
 
@@ -173,6 +173,17 @@ If you don't receive this email after two hours, please submit an [incident requ
 
 </details>
      
+<details>
+  <summary>Do I need to change my SEED onboarding password after a year, and what are the password requirements for it?</summary>
+
+  Yes, you are required to change your SEED onboarding password after a year. The password requirements for SEED onboarding are as follows:
+
+- It should contain at least 12 characters.
+- It should not be the same as the previous three passwords.
+- The same character cannot be used consecutively.
+- It cannot have three sequential characters.
+- It should contain at least one number and one alphabetic character.
+</details>
 
 <details>
 

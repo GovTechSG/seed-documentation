@@ -1,4 +1,4 @@
-# SEED post onboarding instructions for macOS 13(Ventura)
+# SEED post onboarding instructions for macOS 13 (Ventura)
 
   After you onboard your Internet Device to SEED: 
 
