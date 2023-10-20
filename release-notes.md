@@ -11,8 +11,7 @@ This section lists the most recent enhancements, new features and fixes that are
 | **Gamma Release** | **Device Based Blocking** | To enforce better protection to our development resources e.g., GCC and SGTS services and tools. On 19 July 2023, we have rolled out beta testing for more effective blocking of access when a GMD's health is at risk. We have passed the beta test and we have rolled out the gamma release. If you have queries on this feature, please get in touch with us through our SEED mailbox at: [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg).|
 -->
 
-Support for macOS Sonoma 14:
-SEED now fully supports macOS Sonoma 14, ensuring a seamless onboarding experience for users on the latest macOS version. If you encounter any issues or have questions about SEED’s performance on macOS Sonoma 14, please contact us at: enquiries_seed@tech.gov.sg.
+
 
 ## October 2023
 
@@ -20,7 +19,7 @@ SEED now fully supports macOS Sonoma 14, ensuring a seamless onboarding experien
 
 | <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
 | --- | --- | --- |
-| **Update** | **SEED onboarding support for macOS 14 (Sonoma)** | SEED now fully supports macOS 14 (Sonoma), ensuring a seamless onboarding experience for users on the latest macOS version. If you have queries on this update, please get in touch with us through our SEED mailbox at: [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg).|
+| **New feature** | **Support for macOS 14 (Sonoma)** | SEED now fully supports macOS 14 (Sonoma), allowing user to experience SEED on latest macOS version. If you have queries on this update, please get in touch with us through our SEED mailbox at: [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg).|
 
 
 ## September 2023
