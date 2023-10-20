@@ -39,7 +39,7 @@ To evaluate a split tunnel allowlisting request, we need the following from the 
 >
 > **Pilot projects for tools and applications behind Cloudflare Zero Trust**
 >
->- We welcome pilot projects to put their project system management tools and applications behind Cloudflare Zero Trust. For more information, contact *ask_codex@tech.gov.sg*.
+>- We welcome pilot projects to put their project system management tools and applications behind Cloudflare Zero Trust. For more information, contact *enquiries_seed@tech.gov.sg*.
 
 >
 >
