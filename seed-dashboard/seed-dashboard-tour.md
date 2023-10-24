@@ -6,6 +6,33 @@
 | Legend | Description |
 | :--- | :----- |
 | <img src="images/seed-dashboard/step1.png" alt="drawing" width="50%"/> | **Device Information** - This pane displays details of the device onboarded to SEED.  |
-| <img src="images/seed-dashboard/step2.png" alt="drawing" width="50%"/> | **Security Issues** - This pane displays security issues detected on the device, along with step-by-step instructions to resolve them. |
-| <img src="images/seed-dashboard/step3.png" alt="drawing" width="50%"/> | **Options** - This button gives options for users to carry out various administrative tasks. For example, reporting issues. |
-| <img src="images/seed-dashboard/step4.png" alt="drawing" width="50%"/> | **Show passed checks** - Click this button to display checks with no issues. |
+| <img src="images/seed-dashboard/step2.png" alt="drawing" width="50%"/> | **Malware Alerts** - This section displays alerts related to malware detected on the device, categorised as low, medium, or high severity. Click here to view steps for remediation and to understand the nature of the alert. |
+| <img src="images/seed-dashboard/step3.png" alt="drawing" width="50%"/> | **Compliance Checks** -  This section shows detected compliance checks. Click to view the specific compliance requirements that need to be met. |
+| <img src="images/seed-dashboard/step4.png" alt="drawing" width="50%"/> | **Resolve the following issues** - This area highlights the problems that require resolution. |
+| <img src="images/seed-dashboard/step5.png" alt="drawing" width="50%"/> | **Device Status** - This section indicates the current status of your device. There are three statuses: blocked, enabled, and suspended. Hover over the tooltip for explanations of these statuses. |
+
+
+## View malware alerts
+
+To view malware alerts detected on your device, follow these steps:
+
+1. Click the section labelled **Malware Alerts** to learn more about the detected malware issues, categorised as low, medium, or high severity.
+   ![mal-alert](../images/seed-dashboard/mal-alert.png)
+
+2. Upon clicking, you will find two tabs:
+    - **Malware Alerts**: This tab displays detailed information about the detected malware alerts.
+    ![mal-des](../images/seed-dashboard/mal-des.png)
+
+    - **Remediation Steps**: You can find the necessary steps required to fix the malware issue.
+    ![remediation-steps](../images/seed-dashboard/remediation-step)
+
+## View compliance checks
+
+To review your compliance status and view the necessary compliance checks, follow these steps:
+
+1. Click the section labelled **Compliance Checks** to see the compliance checks you need to complete.
+    ![comp-check](../images/seed-dashboard/comp-check.png)
+
+
+2. Within this section, there is a **Show Passed Checks** button which displays the compliance checks you have already completed.
+    ![comp-page](../images/seed-dashboard/com-page.png)
