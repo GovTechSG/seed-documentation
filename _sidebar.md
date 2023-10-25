@@ -1,24 +1,37 @@
-- **Overview**
-  - [Overview](overview)
-- **What's new**
+- Introduction
+  - [Home](README.md)
+  - [SEED overview](overview)
+- What's new
   - [Release notes](release-notes)
   - [Announcements](announcements)
-- **Getting started**  
-  - [Step 0: Prerequisites](prerequisites-for-onboarding)
-  - [Step 1: Identify persona](identify-seed-onboarding-persona)
-  - [Step 2: Onboard device](onboard-device/onboard-device-to-seed)
-- **After onboarding**    
-  - [Post onboarding instructions](post-onboarding-instructions/post-onboarding-steps-and-verification)
-  - [Device clean-up policy](device-clean-up-policy)
-- **Offboard device**
-  - [Offboard device from SEED](offboard-device/offboard-device-from-seed)
-- **Troubleshoot**
-  - [Known issues and FAQs](faqs/seed-faqs)
-- **Additional resources**  
-  - [SEED additional resources](additional-resources/additional-resources)
-  - [Split tunnel allowlist](additional-resources/split-tunnel-allowlist)
-  - [SEED Dashboard](seed-dashboard/seed-overview.md)
-- **Support**
-  - [Create support request](raise-an-incident-support-request)
-  - [SEED service status](seed-status)
+- Onboard to SEED
+  - [Prerequisites](prerequisites-for-onboarding)
+  - [Identify onboarding persona](/onboard-device/identify-onboarding-persona.md)
+  - [Onboard as a public officer](onboard-device/public-officer)
+  - [Onboard as a vendor](onboard-device/vendor)
+- Post onboarding steps  
+  - [macOS 14 and 13 post onboarding guide](/post-onboarding-instructions/mac-os-13.md)
+  - [macOS 12 post onboarding guide](/post-onboarding-instructions/mac-os.md)
+  - [Windows post onboarding guide](/post-onboarding-instructions/windows.md)
+- Monitor using SEED Dashboard
+  - [SEED Dashboard overview](/seed-dashboard/seed-overview.md)
+  - [SEED Dashboard tour](/seed-dashboard/seed-dashboard-tour.md)
+- Offboard from SEED
+  - [macOS offboarding guide](/offboard-device/mac-os.md)
+  - [Windows offboarding guide](/offboard-device/windows.md)
+- FAQ
+  - [General FAQ](/faqs/general-faq.md)
+  - [Onboarding FAQ](/faqs/onboarding-faq.md)
+  - [Offboarding FAQ](/faqs/seed-offboarding-faq.md)
+  - [GCC 1.0 connectivity FAQ](/faqs/gcc1-connectivity-faq.md)
+- Support
+  - [Raise a service request](/support/raise-service-request.md)
+  - [Troubleshooting issues](/support/troubleshooting-issues.md)
+  - [Generate diagnostic files](/support/generate-diagnostic-files)
+  - [View SEED service status](/support/seed-status.md)
+- Additional resources 
+  - [Best practices](/additional-resources/best-practices.md)
+  - [Split tunnel allowlisting](additional-resources/split-tunnel-allowlist)
+  - [Terms and policies](additional-resources/terms-and-policies.md)
+  - [Glossary](additional-resources/glossary)
  
