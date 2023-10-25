@@ -18,6 +18,7 @@
   - [SEED additional resources](additional-resources/additional-resources)
   - [Split tunnel allowlist](additional-resources/split-tunnel-allowlist)
   - [SEED Dashboard](seed-dashboard/seed-overview.md)
+    - [SEED Dashboard tour](seed-dashboard/seed-dashboard-tour.md)
 - **Support**
   - [Create support request](raise-an-incident-support-request)
   - [SEED service status](seed-status)
