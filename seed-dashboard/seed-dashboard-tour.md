@@ -6,19 +6,6 @@
 | Legend | Description |
 | :--- | :----- |
 | <img src="images/seed-dashboard/step1.png" alt="drawing" width="50%"/> | **Device Information** - This pane displays details of the device onboarded to SEED.  |
-| <img src="images/seed-dashboard/step2.png" alt="drawing" width="50%"/> | **Security Issues** - This pane displays security issues detected on the device, along with step-by-step instructions to resolve them. |
-| <img src="images/seed-dashboard/step3.png" alt="drawing" width="50%"/> | **Options** - This button gives options for users to carry out various administrative tasks. For example, reporting issues. |
-| <img src="images/seed-dashboard/step4.png" alt="drawing" width="50%"/> | **Show passed checks** - Click this button to display checks with no issues. |
-
-
-# SEED Dashboard tour
-
-<img src="images/seed-dashboard/seed-dashboard-tour.png" alt="drawing" width="100%"/>
-
-
-| Legend | Description |
-| :--- | :----- |
-| <img src="images/seed-dashboard/step1.png" alt="drawing" width="50%"/> | **Device Information** - This pane displays details of the device onboarded to SEED.  |
 | <img src="images/seed-dashboard/step2.png" alt="drawing" width="50%"/> | **Malware Alerts** - This section displays alerts related to malware detected on the device, categorised as low, medium, or high severity. Click here to view steps for remediation and to understand the nature of the alert. |
 | <img src="images/seed-dashboard/step3.png" alt="drawing" width="50%"/> | **Compliance Checks** -  This section shows detected compliance checks. Click to view the specific compliance requirements that need to be met. |
 | <img src="images/seed-dashboard/step4.png" alt="drawing" width="50%"/> | **Issue updates** - This area provides real-time updates on your device's status. If no issues are detected, it will display "No known issues detected for your device.". If your device is blocked, it will guide you on how to unblock it. For specific issues, such as malware alerts or compliance check failures, further details are available when you click on the corresponding category. |
