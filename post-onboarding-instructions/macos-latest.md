@@ -35,7 +35,7 @@ After onboarding, ensure FDA is enabled for the following SEED components:
     - Microsoft Defender Endpoint Security Extension
 
     <kbd>![fda-enabled](../images/applications-on-macos13.png)</kbd>
-    >**Note**: If a SEED component is missing, refer to [Onboarding FAQ](faqs/onboarding-faq).
+    >**Note**: If a SEED component is missing, refer to [Onboarding FAQ](/faqs/onboarding-faq).
 
 
 ## Turn on Cloudflare WARP
@@ -81,7 +81,7 @@ Once connected, you should see WARP Zero Trust in the connected state.
 1. Open **Terminal** and run `mdatp health`.
 2. Take note of the value displayed for **org_id**.
 
-> **Note**: If this command does not return anything, it indicates your device does not have Defender. [Proceed to onboard your macOS device to SEED](onboard-device/identify-onboarding-persona).
+> **Note**: If this command does not return anything, it indicates your device does not have Defender. [Proceed to onboard your macOS device to SEED](/onboard-device/identify-onboarding-persona).
 
 Identify the organisation corresponding to this **org_id** from the following table. This is the organisation of the Defender or the antivirus on your device.
 

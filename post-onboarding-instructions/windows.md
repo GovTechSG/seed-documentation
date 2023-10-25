@@ -58,7 +58,7 @@ echo $OrgID
 
 ![find-org-id](/images/offboarding-windows/org_id_win.png)
 
-?> Note: If you do not receive any response, it means you do not have Defender installed on your device. You can skip the steps in this section. [Proceed to onboard your Windows device to SEED](onboard-device/identify-onboarding-persona).
+?> Note: If you do not receive any response, it means you do not have Defender installed on your device. You can skip the steps in this section. [Proceed to onboard your Windows device to SEED](/onboard-device/identify-onboarding-persona).
 
 5. Identify the organisation corresponding to this **OrgId** from the following table. This is the organisation of the Defender or the antivirus on your device.
 
@@ -72,7 +72,7 @@ echo $OrgID
 
   - If your organisation id corresponds to WOG or TechPass, it indicates that **Microsoft Defender** has been configured correctly and you can ignore the rest of this section.
 
-  - If your organisation id corresponds to Hive, it indicates that your device is still enrolled with Hive. Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package to unenrol your device. Refer to [offboarding FAQ](faq/offboarding-faq.md) for more details.
+  - If your organisation id corresponds to Hive, it indicates that your device is still enrolled with Hive. Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package to unenrol your device. Refer to [offboarding FAQ](/faq/offboarding-faq.md) for more details.
     
   - If your device is enrolled with a different MDM, contact your organisation IT support to unenrol your device from it.
 

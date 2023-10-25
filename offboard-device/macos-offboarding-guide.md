@@ -125,21 +125,24 @@ echo "$actual_id"
 
 ?> **Note**: The file names vary with the organisation.
 
-5. On your **Terminal**, run the following commands:
 
+5. On your **Terminal**, run the following command:
 
-5. On your **Terminal**, go to the folder where you extracted the files. For example, if they are in the **Downloads** > **Offboarding_local_wog_mac** folder, go to that folder.
+```
+sudo mdatp config tamper-protection enforcement-level --value audit
+```
+6. On your **Terminal**, go to the folder where you extracted the files. For example, if they are in the **Downloads** > **Offboarding_local_wog_mac** folder, go to that folder.
 
 ![cd-extracted-folder](../images/macos-cd-downloads.png)
 
-6. Copy the below and run it on the same **Terminal**.
+7. Copy the below and run it on the same **Terminal**.
 
     ```
     sudo chmod +x local_mac_offboarding.sh
     ```
 
-7. When prompted for a **Password**, enter your device password.
-8. Copy and run the following command on your **Terminal**.
+8. When prompted for a **Password**, enter your device password.
+9. Copy and run the following command on your **Terminal**.
 
     ```
     sudo ./local_mac_offboarding.sh
@@ -174,6 +177,49 @@ When you see the following success message on your **Terminal**, you will be aut
 
 
 ?> **Additional information**<br>- We require up to 30 minutes to process your server-side offboarding request.<br>- If you are still waiting to receive an email after 30 minutes, please raise a [support request](https://go.gov.sg/seed-techpass-support).
+
+
+
+## Device clean-up policy
+
+The device clean-up policy applies to SEED users with TechPass IDs belonging to the TechPass AAD. You can identify a TechPass AAD account if your TechPass ID's domain is *techpass.gov.sg*. For example, *james_lee@techpass.gov.sg* is associated with the TechPass AAD.
+
+The primary objective of this policy is to remove inactive device records from the Intune portal.
+
+> **Note**:
+> 
+> - The device clean-up policy does **not apply** if your TechPass ID belongs to the **WOG AAD**.
+> - A TechPass ID in the WOG AAD typically aligns with your organizational email address, which is in the format *\<your_name\>@\<acronym for your agency\>.gov.sg*. For example, *peter_wilson@tech.gov.sg*.
+
+
+### What happens if my GMD is inactive?
+
+
+If your TechPass ID belongs to the TechPass AAD and you have not logged into your GMD for 90 consecutive days, the GMD becomes inactive, and its records are soft deleted from the Intune portal.
+
+It is essential to note that when your device records are soft deleted, it does not wipe or retire the device. Instead, the device record is temporarily removed from Intune.
+
+As a result, SEED administrators will not be able to access details such as the device's health status, and they can no longer manage it from the SEED Dashboard.
+
+
+### Restore my device records on Intune
+
+You can restore your device records on Intune by simply logging in to your GMD device the next time, provided that:
+
+- Your TechPass account is still active.
+- Your MDM certificate is still valid or within 180 days after its expiry.
+
+## MDM certificate
+
+When you onboard your Internet Device to SEED, you receive an MDM certificate that is valid for one year from the date of onboarding. The certificate is automatically renewed if you are logged in to your GMD when it expires.
+
+> **Note**:
+> 
+> - Ensure that your TechPass account remains active.
+
+If the MDM certificate expires, it can be automatically renewed by logging in to your device within 180 days from the expiration date. In such cases, re-onboarding your device to SEED is not required.
+
+If the certificate remains expired for over 180 days, your device record is permanently deleted, preventing access to SGTS products.
 
 
 

@@ -43,18 +43,18 @@ If you have not received the confirmation email after this two-hour period, [rai
 
   One possible reason for this error is that your device may have been previously onboarded to Microsoft Intune by a different user and was not properly offboarded during the pre-onboarding steps.
 
-  To confirm this, please [raise a service request][raise-support-request] and provide your device's serial number. The SEED team will investigate whether your device was previously enrolled in Microsoft Intune under a different user.
+  To confirm this, please [raise a service request](https://go.gov.sg/seed-techpass-support) and provide your device's serial number. The SEED team will investigate whether your device was previously enrolled in Microsoft Intune under a different user.
 
   If this is confirmed, you can choose one of the following options to offboard your device from Microsoft Intune and then retry the SEED onboarding process:
 
-  - For Windows users, refer to the [SEED offboarding steps for Windows](offboard-device/windows).
-  - For macOS users, go to **System Preferences** and locate the old Management Profile. Follow the [SEED offboarding steps for macOS](offboard-device/mac-os).
+  - For Windows users, refer to the [SEED offboarding steps for Windows](/offboard-device/windows-offboarding-guide.md).
+  - For macOS users, go to **System Preferences** and locate the old Management Profile. Follow the [SEED offboarding steps for macOS](/offboard-device/macos-offboarding-guide.md).
 </details>
   
 <details>
   <summary>What should I do if my device is not automatically renamed after SEED onboarding?</summary>
 
-  This can happen if Defender or any other antivirus already installed on the device was not completely removed before onboarding to SEED. To confirm this, [Verify if Microsoft Defender is configured correctly on your device][verify-defender-configuration].
+  This can happen if Defender or any other antivirus already installed on the device was not completely removed before onboarding to SEED. To confirm this, verify if Microsoft Defender is configured correctly on your device.
 
 </details>
 
@@ -94,7 +94,7 @@ If you have not received the confirmation email after this two-hour period, [rai
 <details>
   <summary>While enabling Full Disk Access (FDA), I cannot find <b>Microsoft Defender Endpoint Security Extension</b>. Can I proceed with onboarding?</summary>
 
-  Yes, you can proceed with your SEED onboarding, and **Microsoft Defender Endpoint Security Extension** should become available within four hours. If it does not become available after four hours, please [raise a service request](raise-an-incident-support-request) as it is necessary to ensure the completeness of your onboarding.
+  Yes, you can proceed with your SEED onboarding, and **Microsoft Defender Endpoint Security Extension** should become available within four hours. If it does not become available after four hours, please [raise a service request](https://go.gov.sg/seed-techpass-support) as it is necessary to ensure the completeness of your onboarding.
 
 </details> 
 
@@ -120,7 +120,7 @@ Possible reasons:
 
 Before raising a service request, confirm the following:
 
-- [Verify if Microsoft Defender is configured correctly on your device][verify-defender-configuration].
+- Verify if Microsoft Defender is configured correctly on your device.
 
 - Check if Tanium and Cloudflare are installed. These applications should be automatically installed during device enrolment with SEED. If they are not installed, [raise a service request][raise-support-request].
 

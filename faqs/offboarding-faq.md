@@ -33,8 +33,8 @@ If you had properly onboarded your device to SEED earlier but still get this err
 This error indicates that your offboarding package is outdated.
 
 For detailed steps on offboarding your device, please refer to the appropriate guide:
-- [Windows offboarding steps](offboard-device/windows)
-- [macOS ofboarding steps](offfboard-device/mac-os)
+- [Windows offboarding steps](/offboard-device/windows-offboarding-guide.md)
+- [macOS offboarding steps](/offboard-device/macos-offboarding-guide.md)
 
 Download the offboarding package from the provided page and complete the offboarding steps.
 
@@ -76,8 +76,8 @@ This can happen if you submitted an incorrect Intune Device ID.
 2. Complete the offboarding steps for your device.
 
 For detailed steps on offboarding your device, please refer to the appropriate guide:
-- [Windows offboarding steps](offboard-device/windows)
-- [macOS ofboarding steps](offfboard-device/mac-os)
+- [Windows offboarding steps](/offboard-device/windows-offboarding-guide.md)
+- [macOS offboarding steps](/offboard-device/macos-offboarding-guide.md)
 
 If your offboarding is still unsuccessful despite submitting the correct Intune Device ID, please [raise a service request](https://go.gov.sg/seed-techpass-support).
 
@@ -105,8 +105,10 @@ If your Defender organisation is Hive, contact [Hive support](mailto:GDS_DEN@hiv
     > **Note**:
     > Check if the script that you received has not yet expired. The expiry date is indicated on the file name. For example, hive_mac_valid_until_2023-04-30.sh
 
-2. Go to the **Terminal** and run the following command:
+2. Go to the **Terminal** and run the following commands:
       ```
+      sudo mdatp config tamper-protection enforcement-level --value audit
+      
       sudo /bin/sh ~/Downloads/<name_of_offboarding_script.sh>
       ```
     >- **Note:**

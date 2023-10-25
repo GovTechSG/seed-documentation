@@ -5,7 +5,7 @@
   - [Release notes](release-notes)
   - [Announcements](announcements)
 - Onboard to SEED
-  - [Prerequisites](prerequisites-for-onboarding)
+  - [Prerequisites](/onboard-device/seed-prerequisites.md)
   - [Identify onboarding persona](/onboard-device/identify-onboarding-persona.md)
   - [Onboard as a public officer](onboard-device/public-officer)
   - [Onboard as a vendor](onboard-device/vendor)
