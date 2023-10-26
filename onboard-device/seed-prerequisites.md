@@ -65,7 +65,7 @@ Follow the steps below to check for and remove any existing software on your dev
      
       a. If your macOS version is macOS 12, and you see a page similar to the following, it indicates that you already have an MDM software installed.
 
-      ![verify-other-mdm](images/onboarding-for-macos/verify-other-mdm.png)
+      ![verify-other-mdm](../images/onboarding-for-macos/verify-other-mdm.png)
 
       b. If your macOS version is macOS 13 or 14 and you see a similar page, it indicates that you already have MDM software installed.
 
