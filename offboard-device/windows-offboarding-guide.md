@@ -94,8 +94,8 @@ echo $OrgID
 
   | OrgID | Defender organisation | Offboarding package |
   | ------------- |:-------------:|:-------------:|
-  | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     | [Download offboarding script](https://kgxtc4rxln5a7bxhanhw4d4cm0mmzsf.lambda-url.ap-southeast-1.on.aws/local_wog_windows) |
-  | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    | [Download offboarding script](https://kgxtc4rxln5a7bxhanhw4d4cm0mmzsf.lambda-url.ap-southeast-1.on.aws/local_tp_windows)    |
+  | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     | [Download offboarding script](https://ekgxtc4rxln5a7bxhanhw4d4cm0mmzsf.lambda-url.ap-southeast-1.on.aws/local_wog_windows) |
+  | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    | [Download offboarding script](https://ekgxtc4rxln5a7bxhanhw4d4cm0mmzsf.lambda-url.ap-southeast-1.on.aws/local_tp_windows)    |
   | 6389e966-e334-461d-86ce-0fed12484620 | Hive | Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package. |
 
 ?> **Important**
