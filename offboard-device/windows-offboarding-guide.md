@@ -53,7 +53,7 @@ Write-Output $intune_id
 2. On the TechPass portal, at the top right, go to your user name and click **My Account**. Your **Profile** details are displayed.
 3. Take note of the **Intune Device ID** from the **Profile** page.
 
-![tp-intune-device-id](../images/offboarding-windows/tp-portal-intune-device-id.png)
+    ![tp-intune-device-id](../images/offboarding-windows/tp-portal-intune-device-id.png)
 
 </details>
 
@@ -61,14 +61,13 @@ Write-Output $intune_id
 <details>
 <summary>Method 3: Raise a service request to retrieve Intune Device ID.</summary>
 
-?> **Note**<br>Use this method if you cannot log in to your GMD or TechPass portal.
+> **Note**: Use this method if you cannot log in to your GMD or TechPass portal.
 
 - [Raise a service request](https://go.gov.sg/seed-techpass-support) to retrieve your Intune Device ID.
 
 </details>
 
-> **Note**:
-> For more information, refer to [Offboarding FAQ](/faqs/offboarding-faq.md).
+> **Note**:mFor more information, refer to [Offboarding FAQ](/faqs/offboarding-faq.md).
 
 
 ## Phase A: Offboard device from SEED components
@@ -76,7 +75,7 @@ Write-Output $intune_id
 1. Go to the **Start** menu and enter **Powershell**.
 2. Right-click on the search result for **PowerShell** and select **Run as Administrator**
 
-![open powershell](../images/offboarding-windows/run_powershell.png)
+    ![open powershell](../images/offboarding-windows/run_powershell.png)
 
 3. On **Powershell**, run the following command.
 
@@ -89,7 +88,7 @@ echo $OrgID
 
 4. Take note of the value displayed for **OrgID**.
 
-![find-org-id](../images/offboarding-windows/org_id_win.png)
+    ![find-org-id](../images/offboarding-windows/org_id_win.png)
 
 5. Refer to the following table and identify your **Defender organisation** and download the offboarding package.
 
@@ -99,7 +98,7 @@ echo $OrgID
   | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    | [Download offboarding script](https://k3uwa66lu3tj6uxft46666ynhe0uvzor.lambda-url.ap-southeast-1.on.aws/local_tp_windows)    |
   | 6389e966-e334-461d-86ce-0fed12484620 | Hive | Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package. |
 
-!> **Important**
+?> **Important**
 >
 > - If your **Defender organisation** is **Hive**, please disregard the remaining steps in this document. Instead, you should obtain the offboarding package from Hive support and unenroll your device from Defender. Refer to [Offboarding FAQ](/faqs/offboarding-faq.md) for guidance on unenrolling your device from Defender using the Hive offboarding package.
 >   
@@ -111,9 +110,9 @@ echo $OrgID
 
 6. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files.
 
-![extract-files](../images/offboarding-windows/windows-extracted-files.png)
+    ![extract-files](../images/offboarding-windows/windows-extracted-files.png)
 
-?> **Note**: The file names vary with the organisation.
+> **Note**: The file names vary with the organisation.
 
 7. Right-click the unzipped folder to select **Show more options** > **Copy as path**. The folder path is now saved to your clipboard.
 
@@ -139,11 +138,11 @@ echo $OrgID
 
     ```
 
-When you see the following success message on your **Powershell**, you are automatically directed to the **SEED offboarding: Request to remove device record** form to submit the Intune Device ID.
+    When you see the following success message on your **Powershell**, you are automatically directed to the **SEED offboarding: Request to remove device record** form to submit the Intune Device ID.
 
-![macos-success-message](../images/offboarding-windows/windows_success_message.png)
+    ![macos-success-message](../images/offboarding-windows/windows_success_message.png)
 
-!>**Important note**<br> Make sure you complete the steps in Phase B immediately after Phase A. If not, your device update policy may reinstall the latest version of the deleted SEED components.
+>**Note**: Ensure you complete the steps in Phase B immediately after Phase A. If not, your device update policy may reinstall the latest version of the deleted SEED components.
 
 ## Phase B: Submit Intune Device ID to remove device record
 
@@ -164,10 +163,12 @@ When you see the following success message on your **Powershell**, you are autom
 5. [Optional] If you had issues completing **Phase A**, we encourage you to provide the **Support Ticket Number**.
 6. Click **Submit**. When this request is processed successfully, we send a notification via email.
 
-![successfully-offboarded-email](../images/offboarding-windows/win-successfully-offboarded-email.png)
+    ![successfully-offboarded-email](../images/offboarding-windows/win-successfully-offboarded-email.png)
 
 
-?> **Additional Information**<br>- We require up to 30 minutes to process your server-side offboarding request.<br>- If you are still waiting to receive an email after 30 minutes, please [raise a service request](https://go.gov.sg/seed-techpass-support).
+> **Note**:
+> - We require up to 30 minutes to process your server-side offboarding request.
+>- If you are still waiting to receive an email after 30 minutes, please [raise a service request](https://go.gov.sg/seed-techpass-support).
 
 ## Device clean-up policy
 
@@ -202,9 +203,7 @@ You can restore your device records on Intune by simply logging in to your GMD d
 
 When you onboard your Internet Device to SEED, you receive an MDM certificate that is valid for one year from the date of onboarding. The certificate is automatically renewed if you are logged in to your GMD when it expires.
 
-> **Note**:
-> 
-> - Ensure that your TechPass account remains active.
+> **Note**: - Ensure that your TechPass account remains active.
 
 If the MDM certificate expires, it can be automatically renewed by logging in to your device within 180 days from the expiration date. In such cases, re-onboarding your device to SEED is not required.
 

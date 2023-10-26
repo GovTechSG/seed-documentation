@@ -24,8 +24,7 @@ After onboarding, ensure FDA is enabled for the following SEED components:
 > **Note**: If you were not prompted to reset device password during onboarding, you will be prompted now. Refer to the FAQ for password policy.
 
 4. On the **Privacy & Security** pane, choose **Full Disk Access**.
-
-  <kbd>![fda-enabled](../images/macos-13-fda.png)</kbd>
+  ![fda-enabled](../images/macos-13-fda.png)
 
 5. Ensure the following applications are listed and enabled:
 
@@ -34,7 +33,7 @@ After onboarding, ensure FDA is enabled for the following SEED components:
     - Microsoft Defender
     - Microsoft Defender Endpoint Security Extension
 
-    <kbd>![fda-enabled](../images/applications-on-macos13.png)</kbd>
+    ![fda-enabled](../images/applications-on-macos13.png)
 
     >**Note**: If a SEED component is missing, refer to [Onboarding FAQ](/faqs/onboarding-faq).
 

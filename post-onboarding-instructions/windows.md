@@ -45,7 +45,7 @@ If you encounter an error stating that your user account is not found in the res
 1. Go to the **Start** menu and enter **Powershell**.
 2. Right-click on the search result for **PowerShell** and select **Run as Administrator**.
 
-![open powershell](/images/offboarding-windows/run_powershell.png)
+  ![open powershell](../images/offboarding-windows/run_powershell.png)
 
 3. On **Powershell**, run the following command:
 
@@ -56,9 +56,9 @@ echo $OrgID
 ```
 4. Take note of the value displayed for **OrgID**.
 
-![find-org-id](/images/offboarding-windows/org_id_win.png)
+  ![find-org-id](../images/offboarding-windows/org_id_win.png)
 
-?> Note: If you do not receive any response, it means you do not have Defender installed on your device. You can skip the steps in this section. [Proceed to onboard your Windows device to SEED](/onboard-device/identify-onboarding-persona).
+> **Note**: If you do not receive any response, it means you do not have Defender installed on your device. You can skip the steps in this section. [Proceed to onboard your Windows device to SEED](/onboard-device/identify-onboarding-persona).
 
 5. Identify the organisation corresponding to this **OrgId** from the following table. This is the organisation of the Defender or the antivirus on your device.
 

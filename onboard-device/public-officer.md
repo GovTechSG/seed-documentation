@@ -74,7 +74,7 @@ echo "$actual_id"
 ```
 2. Record the Intune Device ID displayed in the Terminal window.
 
-?> **Note**: The following steps (3 and 4) are for users with **non-SE GSIB** devices. If you have an **SE GSIB** device, proceed to step 5.
+> **Note**: The following steps (3 and 4) are for users with **non-SE GSIB** devices. If you have an **SE GSIB** device, proceed to step 5.
 
 
 3. Log in to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).

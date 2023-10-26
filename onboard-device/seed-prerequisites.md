@@ -69,7 +69,7 @@ Follow the steps below to check for and remove any existing software on your dev
 
       b. If your macOS version is macOS 13 or 14 and you see a similar page, it indicates that you already have MDM software installed.
 
-      ![verify-other-mdm-on-ventura](images/onboarding-for-macos/verify-other-mdm-on-ventura.png)
+      ![verify-other-mdm-on-ventura](../images/onboarding-for-macos/verify-other-mdm-on-ventura.png)
      
  3. Choose the appropriate step:
  
@@ -77,7 +77,7 @@ Follow the steps below to check for and remove any existing software on your dev
 
     - If your Internet Device is managed by an MDM software, go to **Settings** on the **Management Profile** to identify the current MDM software.
 
-    ![verify-other-mdm](images/onboarding-for-macos/management-profile-settings.png)
+    ![verify-other-mdm](../images/onboarding-for-macos/management-profile-settings.png)
 
 ?><br>- If you see Microsoft Intune in the settings, it indicates that your MDM is **Microsoft Intune**. Proceed to **step b. Unenrol from Microsoft Intune**<br>- For devices managed by other MDM software, please contact your organization's IT administrator to unenrol your device.
 
@@ -90,7 +90,7 @@ Complete the following steps to remove your device from Intune.
 ?> To find if your device is enrolled with Intune, refer to step **a. Verify if your device is already managed by any MDM software**.
 
   1. Sign in to the **Company Portal** app.
-    ![sign-in-to-company-portal](images/onboarding-for-macos/sign-in-to-company-portal.png)
+    ![sign-in-to-company-portal](../images/onboarding-for-macos/sign-in-to-company-portal.png)
   2. Go to **Devices** and click the three dots beside the device you want to unenrol.
   3. Choose **Remove**.
     ![devices](images/onboarding-for-macos/devices-2.png)
@@ -112,9 +112,7 @@ Complete the following steps to find if Tanium Client is available on your devic
   2. Enter your macOS password when prompted.
 
   3. If you see confirmation, as shown in the image below, that Tanium Client is installed on your device, proceed to step 4. If not, continue to **step d. Remove the Cloudflare WARP client**.
-
-
-   <kbd>![tanium-client](images/clean-up-instructions-macos.png)</kbd>
+    ![tanium-client](../images/clean-up-instructions-macos.png)
 
   4. Run the following commands in **Terminal**:
 
@@ -182,15 +180,17 @@ Complete the following steps to determine if Defender is your current antivirus 
   | 6389e966-e334-461d-86ce-0fed12484620 | Hive | Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package. |
 
 
-!> **Important**<br>- If your **Defender organization** is **Hive**, skip the remaining steps in this document. Obtain the offboarding package from Hive support and unenrol your device from Defender. Refer to the [offboarding FAQs](faqs/seed-offboarding-faqs.md) for instructions on how to unenrol your device from Defender using the Hive offboarding package.<br><br>- If your **Defender organization** is either **WOG** or **TechPass**, it suggests that this device may have already been onboarded to SEED under a different TechPass profile. Therefore, you need to offboard this device before proceeding further.<br><br>- If your **Defender organization** is **none of the above**, please contact the IT support of the organization that provided you with the device.
-
+?> **Important** 
+> - If your **Defender organization** is **Hive**, skip the remaining steps in this document. Obtain the offboarding package from Hive support and unenrol your device from Defender. Refer to [Offboarding FAQ](/faqs/onboarding-faq.md) for instructions on how to unenrol your device from Defender using the Hive offboarding package.
+> - If your **Defender organization** is either **WOG** or **TechPass**, it suggests that this device may have already been onboarded to SEED under a different TechPass profile. Therefore, you need to offboard this device before proceeding further.
+> - If your **Defender organization** is **none of the above**, please contact the IT support of the organization that provided you with the device.
 
 4. Log in with your TechPass to download the offboarding package.
 5. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files.
 
-  ![extract-files](images/macos-extracted-files-for-offboarding.png)
+  ![extract-files](../images/macos-extracted-files-for-offboarding.png)
 
-?> **Note**: The file names vary with the organisation.
+> **Note**: The file names vary with the organisation.
 
 6. On your **Terminal**, run the following command:
 
@@ -200,7 +200,7 @@ sudo mdatp config tamper-protection enforcement-level --value audit
 
 7. On **Terminal**, go to the folder where you extracted the files. For example, if they are in the **Downloads** > **Offboarding_local_wog_mac** folder, go to that folder.
 
-  ![cd-extracted-folder](images/macos-cd-downloads.png)
+  ![cd-extracted-folder](../images/macos-cd-downloads.png)
 
 8. Copy the below and run it in the same **Terminal**.
 
@@ -215,16 +215,16 @@ sudo mdatp config tamper-protection enforcement-level --value audit
     sudo ./local_mac_offboarding.sh
     ```
 
-When the following success message appears in **Terminal**, ou will be automatically redirected to a form to submit the Intune Device ID.
+  When the following success message appears in **Terminal**, ou will be automatically redirected to a form to submit the Intune Device ID.
 
-  ![macos-success-message](images/macos-success-message.png)
+  ![macos-success-message](../images/macos-success-message.png)
 
 11. Ensure your **Intune Device ID** is displayed on the form. If it is not displayed, provide it. Refer to [Get Intune Device ID](/offboard-device/mac-os) for assistance. 
 12. Enter your organisational email address in the **Organisational Email Address** field and click **Verify**.
 13. Enter the OTP you receive at this email address.  
 14. Click **Submit**. Once this request is processed successfully, we will send a notification via email.
 
-  ![successfully-offboarded-email](images/macos-successfully-offboarded-email.png)
+  ![successfully-offboarded-email](../images/macos-successfully-offboarded-email.png)
 
 </details>
 
@@ -277,7 +277,7 @@ Complete the following steps to find if Defender is your current antivirus solut
 1. Go to the **Start** menu and search for **Powershell**.
 2. Right-click on the search result for **PowerShell** and select **Run as Administrator**.
 
-  ![open powershell](images/offboarding-windows/run_powershell.png)
+  ![open powershell](../images/offboarding-windows/run_powershell.png)
 
 3. On **Powershell**, run the following command:
 
@@ -289,7 +289,7 @@ echo $OrgID
 
 4. Take note of the value displayed for **OrgID**.
 
-  ![find-org-id](images/offboarding-windows/org_id_win.png)
+  ![find-org-id](../images/offboarding-windows/org_id_win.png)
 
 ?> Note: If you do not receive any response, it means you do not have Defender installed on your device. You can skip the steps in this section.
 
@@ -301,11 +301,14 @@ echo $OrgID
   | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    | [Download offboarding script](https://k3uwa66lu3tj6uxft46666ynhe0uvzor.lambda-url.ap-southeast-1.on.aws/local_tp_windows)    |
   | 6389e966-e334-461d-86ce-0fed12484620 | Hive | Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package. |
 
-  !> **Important**<br>- If your **Defender organisation** is **Hive**, please skip the remaining steps in this document. You need to get the offboarding package from the Hive support and unenrol your device from Defender. See the [offboarding FAQs](offboard-device/seed-offboarding-faqs.md) to know how to unenrol your device from Defender using the Hive offboarding package.<br><br>- If your **Defender organisation** is either **WOG** or **TechPass**, it indicates that this device may already have been onboarded to SEED under a different TechPass profile. So you need to [offboard](offboard-device/offboard-device-from-seed) this device first before proceeding further. <br><br>- If your **Defender organisation** is **none of the above**, contact the IT support of the organisation that provided you with the device.
+  ?> **Important**
+  > - If your **Defender organisation** is **Hive**, please skip the remaining steps in this document. You need to get the offboarding package from the Hive support and unenrol your device from Defender. See  [Offboarding FAQ](/faqs/offboarding-faq.md) to know how to unenrol your device from Defender using the Hive offboarding package.
+  > - If your **Defender organisation** is either **WOG** or **TechPass**, it indicates that this device may already have been onboarded to SEED under a different TechPass profile. You need to offboard this device first before proceeding further. Refer to [macOS offboarding guide](/offboard-device/macos-offboarding-guide.md) or [Windows offboarding guide](/offboard-device/windows-offboarding-guide.md).
+  > - If your **Defender organisation** is **none of the above**, contact the IT support of the organisation that provided you with the device.
 
 6. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files.
 
-  ![extract-files](images/offboarding-windows/windows-extracted-files.png)
+  ![extract-files](../images/offboarding-windows/windows-extracted-files.png)
 
 ?> **Note**: The file names vary with the organisation.
 
@@ -324,7 +327,7 @@ echo $OrgID
 
     ```
 
-    ![directory](images/offboarding-windows/windows_cd_downloads.png)
+    ![directory](../images/offboarding-windows/windows_cd_downloads.png)
 
 10. To run the script, enter the following command:
 
@@ -333,16 +336,16 @@ echo $OrgID
 
     ```
 
-When you see the following success message on your **Powershell**, you are automatically directed to a form to submit the Intune Device ID.
+  When you see the following success message on your **Powershell**, you are automatically directed to a form to submit the Intune Device ID.
 
-![macos-success-message](images/offboarding-windows/windows_success_message.png)
+  ![macos-success-message](images/offboarding-windows/windows_success_message.png)
 
 11. Ensure your **Intune Device ID** is displayed on the form. If it is not displayed, provide it. See [Get Intune Device ID](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/offboard-device/mac-os-using-script?id=get-intune-device-id). 
 12. Enter your organisational email address in **Organisational Email Address** and click **Verify**.
 13. Enter the OTP you receive at this email address.  
 14. Click **Submit**. When this request is processed successfully, we send a notification via email.
 
-  ![successfully-offboarded-email](images/macos-successfully-offboarded-email.png)
+  ![successfully-offboarded-email](../images/macos-successfully-offboarded-email.png)
 
 </details>
 
@@ -370,7 +373,7 @@ When you see the following success message on your **Powershell**, you are autom
 
 5. When prompted to specify how you would like to unlock your device if you forget your device password,  select **Create a recovery key and do not use my iCloud account**.
 
-  ![create-recovery-key](images/onboarding-for-macos/create-recovery-key-1.png)
+  ![create-recovery-key](../images/onboarding-for-macos/create-recovery-key-1.png)
 
 6. Save the recovery key on a different device.
 
@@ -379,25 +382,25 @@ When you see the following success message on your **Powershell**, you are autom
 1. Click the **Start** icon on the taskbar and type **Manage BitLocker** in the Windows search bar, and choose to open it. Check if BitLocker is turned on for your OSDisk. A padlock on the drive indicates that BitLocker is turned on ![](images/onboarding-instructions-for-windows/bitlocker-enabled.png).
 2. If BitLocker is not turned on, select **Turn on BitLocker**.
 3. When asked to choose how to unlock your drive at start up, select **Enter a password**.
-  ![enter-pwd](images/onboarding-instructions-for-windows/enter-pwd.png)
+  ![enter-pwd](../images/onboarding-instructions-for-windows/enter-pwd.png)
 
 4. To backup the recovery key for your computer, insert a thumb drive or any other form of removable storage device into the USB port of your computer.
 5. When asked how you would like to back up your recovery key, select **Save to a file**, save the file in the inserted removable storage device and click **Next**.
 
-?> Remove the external storage device and transfer this file to a safe location other than your computer.
+Remove the external storage device and transfer this file to a safe location other than your computer.
 
-  ![save-to-file](images/onboarding-instructions-for-windows/save-to-file.png)
+  ![save-to-file](../images/onboarding-instructions-for-windows/save-to-file.png)
 
 6. When asked how much of your drive to be encrypted, select **Encrypt entire drive(slower but best for PCs and drives already in use)** and click **Next**.
 
-  ![encrypt-entire-drive](images/onboarding-instructions-for-windows/encrypt-entire-drive.png)
+  ![encrypt-entire-drive](../images/onboarding-instructions-for-windows/encrypt-entire-drive.png)
 
 7. When asked which encryption mode to use, select **New encryption mode(best for fixed drives on this device)** and click **Next**.
 
-  ![new-encryption-mode](images/onboarding-instructions-for-windows/new-encryption-mode.png)
+  ![new-encryption-mode](../images/onboarding-instructions-for-windows/new-encryption-mode.png)
 
 8. The device encryption page is displayed. <!--Click **Start encrypting**.-->
 
-?> Depending on your system settings, you may be prompted to restart your computer before the encryption can start. If you are prompted to do so, restart your device, then return to the **Manage BitLocker** window to verify if encryption has started. A padlock icon on the hard drives in your Windows File Explorer indicates that the hard drive has been encrypted.
+>**Note**: Depending on your system settings, you may be prompted to restart your computer before the encryption can start. If you are prompted to do so, restart your device, then return to the **Manage BitLocker** window to verify if encryption has started. A padlock icon on the hard drives in your Windows File Explorer indicates that the hard drive has been encrypted.
 
 <!-- tabs:end -->

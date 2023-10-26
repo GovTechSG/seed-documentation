@@ -18,7 +18,7 @@ Before you begin, make sure you have the following:
 
 You need your Intune Device ID during the offboarding process. Here is how to find it:
 
-?> **Tip**<br>Click the triangle to view more details about each method.
+?> Click the triangle to view more details.
 
 <details>
 <summary>Method 1: Retrieve Intune Device ID from your macOS device</summary>
@@ -70,7 +70,7 @@ echo "$actual_id"
 2. On the TechPass portal, at the top right, go to your user name and click **My Account**. Your **Profile** details are displayed.
 3. Take note of the **Intune Device ID** from the **Profile** page.
 
-![tp-intune-device-id](../images/macos-get-intune-device-id.png)
+    ![tp-intune-device-id](../images/macos-get-intune-device-id.png)
 
 </details>
 
@@ -78,15 +78,14 @@ echo "$actual_id"
 <details>
 <summary>Method 3: Raise a service request to retrieve Intune Device ID.</summary>
 
-?> **Note**<br>Use this method if you cannot log in to your GMD or TechPass portal.
+> **Note**: Use this method if you cannot log in to your GMD or TechPass portal.
 
 - [Raise a service request](https://go.gov.sg/seed-techpass-support) to retrieve your Intune Device ID.
 
 </details>
 
 
-> **Note**:
-> For more information, refer to [Offboarding FAQ](/faqs/offboarding-faq.md).
+> **Note**: For more information, refer to [Offboarding FAQ](/faqs/offboarding-faq.md).
 
 ## Phase A: Offboard device from SEED components
 
@@ -99,7 +98,7 @@ echo "$actual_id"
 
 2. Take note of the value displayed for **org_id**.
 
-![note-org-id](../images/macos-find-org-id-2.png)
+    ![note-org-id](../images/macos-find-org-id-2.png)
 
 3. Refer to the following table and identify your **Defender organisation** and download the respective offboarding package.
 
@@ -110,7 +109,7 @@ echo "$actual_id"
   | 6389e966-e334-461d-86ce-0fed12484620 | Hive | Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package. |
 
 
-!> **Important**
+> **Important**
 >
 > - If your **Defender organisation** is **Hive**, please disregard the remaining steps in this document. Instead, you should obtain the offboarding package from Hive support and unenroll your device from Defender. Refer to [Offboarding FAQ](/faqs/offboarding-faq.md) for guidance on unenrolling your device from Defender using the Hive offboarding package.
 >   
@@ -120,10 +119,9 @@ echo "$actual_id"
 
 
 4. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files.
+    ![extract-files](../images/macos-extracted-files-for-offboarding.png)
 
-![extract-files](../images/macos-extracted-files-for-offboarding.png)
-
-?> **Note**: The file names vary with the organisation.
+> **Note**: The file names vary with the organisation.
 
 
 5. On your **Terminal**, run the following command:
@@ -133,7 +131,7 @@ sudo mdatp config tamper-protection enforcement-level --value audit
 ```
 6. On your **Terminal**, go to the folder where you extracted the files. For example, if they are in the **Downloads** > **Offboarding_local_wog_mac** folder, go to that folder.
 
-![cd-extracted-folder](../images/macos-cd-downloads.png)
+    ![cd-extracted-folder](../images/macos-cd-downloads.png)
 
 7. Copy the below and run it on the same **Terminal**.
 
@@ -148,11 +146,11 @@ sudo mdatp config tamper-protection enforcement-level --value audit
     sudo ./local_mac_offboarding.sh
     ```
 
-When you see the following success message on your **Terminal**, you will be automatically directed to the **SEED Offboarding: Device Record Removal** form to submit the Intune Device ID.
+    When you see the following success message on your **Terminal**, you will be automatically directed to the **SEED Offboarding: Device Record Removal** form to submit the Intune Device ID.
 
-![macos-success-message](../images/macos-success-message.png)
+    ![macos-success-message](../images/macos-success-message.png)
 
-!>**Important note**<br> Make sure you complete the steps in Phase B immediately after Phase A. Failure to do so may result in your device update policy reinstalling the latest version of the removed SEED components.
+    >**Note**: Ensure you complete the steps in Phase B immediately after Phase A. Failure to do so may result in your device update policy reinstalling the latest version of the removed SEED components.
 
 ## Phase B: Submit Intune Device ID to remove device record
 
@@ -173,10 +171,12 @@ When you see the following success message on your **Terminal**, you will be aut
 5. [Optional] If you had issues completing **Phase A**, we encourage you to provide the **Support ticket number**.
 6. Click **Submit**. When this request is processed successfully, we send a notification via email.
 
-![successfully-offboarded-email](../images/macos-successfully-offboarded-email.png)
+    ![successfully-offboarded-email](../images/macos-successfully-offboarded-email.png)
 
 
-?> **Additional information**<br>- We require up to 30 minutes to process your server-side offboarding request.<br>- If you are still waiting to receive an email after 30 minutes, please raise a [service request](https://go.gov.sg/seed-techpass-support).
+> **Note**:
+> - We require up to 30 minutes to process your server-side offboarding request.
+> - If you are still waiting to receive an email after 30 minutes, please raise a [service request](https://go.gov.sg/seed-techpass-support).
 
 
 
@@ -187,7 +187,6 @@ The device clean-up policy applies to SEED users with TechPass IDs belonging to 
 The primary objective of this policy is to remove inactive device records from the Intune portal.
 
 > **Note**:
-> 
 > - The device clean-up policy does **not apply** if your TechPass ID belongs to the **WOG Entra ID**.
 > - A TechPass ID in the WOG Entra ID typically aligns with your organizational email address, which is in the format *\<your_name\>@\<acronym for your agency\>.gov.sg*. For example, *peter_wilson@tech.gov.sg*.
 
