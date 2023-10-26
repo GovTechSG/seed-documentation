@@ -171,20 +171,20 @@ When you see the following success message on your **Powershell**, you are autom
 
 ## Device clean-up policy
 
-The device clean-up policy applies to SEED users with TechPass IDs belonging to the TechPass AAD. You can identify a TechPass AAD account if your TechPass ID's domain is *techpass.gov.sg*. For example, *james_lee@techpass.gov.sg* is associated with the TechPass AAD.
+The device clean-up policy applies to SEED users with TechPass IDs belonging to the TechPass Entra ID. You can identify a TechPass Entra ID account if your TechPass ID's domain is *techpass.gov.sg*. For example, *james_lee@techpass.gov.sg* is associated with the TechPass Entra ID.
 
 The primary objective of this policy is to remove inactive device records from the Intune portal.
 
 > **Note**:
 > 
-> - The device clean-up policy does **not apply** if your TechPass ID belongs to the **WOG AAD**.
-> - A TechPass ID in the WOG AAD typically aligns with your organizational email address, which is in the format *\<your_name\>@\<acronym for your agency\>.gov.sg*. For example, *peter_wilson@tech.gov.sg*.
+> - The device clean-up policy does **not apply** if your TechPass ID belongs to the **WOG Entra ID**.
+> - A TechPass ID in the WOG Entra ID typically aligns with your organizational email address, which is in the format *\<your_name\>@\<acronym for your agency\>.gov.sg*. For example, *peter_wilson@tech.gov.sg*.
 
 
 ### What happens if my GMD is inactive?
 
 
-If your TechPass ID belongs to the TechPass AAD and you have not logged into your GMD for 90 consecutive days, the GMD becomes inactive, and its records are soft deleted from the Intune portal.
+If your TechPass ID belongs to the TechPass Entra ID and you have not logged into your GMD for 90 consecutive days, the GMD becomes inactive, and its records are soft deleted from the Intune portal.
 
 It is essential to note that when your device records are soft deleted, it does not wipe or retire the device. Instead, the device record is temporarily removed from Intune.
 

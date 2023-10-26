@@ -14,19 +14,16 @@ Raise a service request if you experience:
 
 Following are the support channels for the various service/product users who experience issues with SEED.
 
+
 | Service/Product  | Support channel|
 | ------------- |:-------------:|
 | SHIP-HATS      | [SHIP-HATS support](https://go.gov.sg/ship-hats-support)   |
 | TechPass, GCC 1.0 and GCC 2.0 | [TechPass and SEED support](https://go.gov.sg/seed-techpass-support) |
 
->**Note:**
->
-> To troubleshoot Cloudflare WARP, Tanium, Defender or Intune issues
->
->- Attach the [diagnostics information for Cloudflare Access](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request?id=generate-cloudflare-access-diagnostic-file) and the [diagnostics information for Cloudflare WARP](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request?id=generate-cloudflare-warp-diagnostic-logs) to the service request.
->
-> To troubleshoot connectivity issues for GCC 2.0 CMP or SGTS services
->
->- [Generate diagnostic files](/support/generate-diagnostic-files.md) and attach it to the service request.
+For business-related questions and requests, please contact us at enquiries_seed@tech.gov.sg.
 
+## Troubleshooting procedures
 
+To troubleshoot issues with Cloudflare WARP, Tanium, Defender, Intune, GCC 2.0 CMP, or SGTS products:
+
+Follow the instructions outlined in the [Generate diagnostic files](/support/generate-diagnostic-files.md) page and attach the generated files to your service request.

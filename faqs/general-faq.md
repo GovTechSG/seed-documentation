@@ -104,7 +104,7 @@ Receiving this email again indicates that services ensuring SEED compliance may 
 
 <details><summary>Do I need to re-onboard my device to SEED after returning from a long leave?</summary>
 
-If you belong to the TechPass AAD and your GMD has not been logged into for 90 consecutive days, the GMD becomes inactive, and its' records are softly removed from the Intune portal.
+If you belong to the TechPass Entra ID and your GMD has not been logged into for 90 consecutive days, the GMD becomes inactive, and its' records are softly removed from the Intune portal.
 
 It is important to understand that when your device records are softly removed, it does not perform a device wipe or retirement. Instead, the device record is temporarily taken out of Intune.
 

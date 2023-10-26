@@ -1,4 +1,4 @@
-# Generate diagnostic Files for raising a service request
+# Generate diagnostic files for raising a service request
 
 This guide provides step-by-step instructions on generating and uploading diagnostic files for raising a service request. If you are experiencing connectivity issues while accessing GCC 2.0 CMP or SGTS services and require assistance, follow the steps below to troubleshoot common issues.
 
@@ -7,7 +7,7 @@ This guide provides step-by-step instructions on generating and uploading diagno
 - If you are facing connectivity problems with GCC 2.0 CMP or SGTS services, you should generate a HAR (HTTP Archive) file and attach it to your service request.
 
 
-## Generate Cloudflare Access Diagnostic File
+## Generate Cloudflare Access Diagnostic file
 
 1. Log in to the [Cloudflare Access Application Launcher](https://gccgovsg.cloudflareaccess.com).
 2. Click on your profile name in the upper-right corner and select **Account**.

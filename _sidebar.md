@@ -7,18 +7,18 @@
 - Onboard to SEED
   - [Prerequisites](/onboard-device/seed-prerequisites.md)
   - [Identify onboarding persona](/onboard-device/identify-onboarding-persona.md)
-  - [Onboard as a public officer](onboard-device/public-officer)
+  - [Onboard as a public officer](/onboard-device/public-officer)
   - [Onboard as a vendor](onboard-device/vendor)
 - Post onboarding steps  
-  - [macOS 14 and 13 post onboarding guide](/post-onboarding-instructions/mac-os-13.md)
-  - [macOS 12 post onboarding guide](/post-onboarding-instructions/mac-os.md)
+  - [macOS 14 and 13 post onboarding guide](/post-onboarding-instructions/macos-latest.md)
+  - [macOS 12 post onboarding guide](/post-onboarding-instructions/macos.md)
   - [Windows post onboarding guide](/post-onboarding-instructions/windows.md)
 - Monitor using SEED Dashboard
   - [SEED Dashboard overview](/seed-dashboard/seed-overview.md)
   - [SEED Dashboard tour](/seed-dashboard/seed-dashboard-tour.md)
 - Offboard from SEED
-  - [macOS offboarding guide](/offboard-device/mac-os.md)
-  - [Windows offboarding guide](/offboard-device/windows.md)
+  - [macOS offboarding guide](/offboard-device/macos-offboarding-guide.md)
+  - [Windows offboarding guide](/offboard-device/windows-offboarding-guide.md)
 - FAQ
   - [General FAQ](/faqs/general-faq.md)
   - [Onboarding FAQ](/faqs/onboarding-faq.md)
