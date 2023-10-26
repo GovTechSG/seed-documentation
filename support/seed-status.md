@@ -7,16 +7,16 @@ This page provides the following Information:
 
 ## Scheduled maintenance
 
-<!--No scheduled maintenance.-->
+No scheduled maintenance.
 
-| Date | 10 October 2023 |
-| ------------- |:-------------|
-| Issue summary| We will be performing scheduled maintenance of the SEED servers. <br><br>**Start time** : 11 October 2023, 10:00 SGT<br>**End time**&nbsp;&nbsp;&nbsp;: 11 October 2023, 12:00 SGT<br><br>**Impact**<br>- There should be no impact to the users. <br>- However, if you face issues accessing services on your GMD, please create an [incident support request](https://go.gov.sg/seed-techpass-support).|
 
 
 ## Ongoing incidents
 
-No ongoing incidents!
+| Date | 25 October 2023 |
+| ------------- |:-------------|
+| **Issue summary** | We have detected internal server errors from Cloudflare API on 24 October 2023, 21:50 SGT, impacting several of our services including CMP, SHIP-HATS, APEX, and SEED. Users on GMDs are currently affected, while users on GSIB should not experience any issues. <br><br>**Impact**: Users on GMD are not able to access the following services.<br>**Affected services**: CMP, SHIP-HATS, APEX, SEED. Please note that this disruption is limited to our non-production environment; services in the production environment are functioning normally.<br><br>**For more assistance**:<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+
 
 
 <!-- | Date | 09 July 2023 |
