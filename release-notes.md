@@ -97,3 +97,4 @@ This section lists the most recent enhancements, new features and fixes that are
 | <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div>| **Description** |
 | --- | --- | --- |
 | **Enhancement** | **Improved offboarding steps** | We have developed an offboarding package (script) that automates the steps to offboard your device from SEED components. <br> You'll then be directed to submit your Intune Device ID for us to remove your device record from the server side and notify you. <br> For more information, see [Offboard device from SEED](offboard-device/offboard-device-from-seed.md)	|
+
