@@ -1,3 +1,2 @@
-[FAQs](../snippets/snippets-seed-offboarding-faq.md ':include')
-
+!> This documentation has moved to [Offboarding FAQ](offboarding-faq).
 

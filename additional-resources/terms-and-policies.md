@@ -1,5 +1,5 @@
 # Terms and policies
-Below are links to latest Terms of Use (TOU) and Privacy Policy for SEED users and Acceptable Use Policy(AUP) for mobile device management(MDM).
+Below are links to latest Terms of Use (TOU) and Privacy Policy for SEED users and Acceptable Use Policy(AUP) for mobile device management (MDM).
 
 [Download Terms of Use](additional-resources/terms-of-use.pdf ':target=_blank')
 
