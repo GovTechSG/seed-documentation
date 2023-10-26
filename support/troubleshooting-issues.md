@@ -4,14 +4,14 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
 
 ## Experiencing the *Account does not have access* error
 
-When using SGTS products with Cloudflare WARP, you might encounter an error message saying, "That account does not have access".
+When using SGTS products with Cloudflare WARP, you might encounter an error message saying, *That account does not have access*.
 
 ## Solution
 
 1.  First, check the following:
 
-    - Have you received the "successfully onboarded" email from DEEP?
-    - Are you using one of the [supported browsers](additional-resources/best-practices)?
+    - Have you received the *successfully onboarded* email from SEED?
+    - Are you using one of the supported browsers?
     - Is your Cloudflare WARP client connected and up to date?
     - Open Cloudflare WARP **Settings** and ensure "Gateway with WARP" is selected.
     - For Windows users, check if Tanium is listed in the **Start** menu.

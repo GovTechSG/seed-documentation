@@ -1,0 +1,1 @@
+!> This documentation is obsolete. Refer to [Cloudflare troubleshooting](https://support.cloudflare.com/hc/en-us/categories/200276217-Troubleshooting) for more details.
