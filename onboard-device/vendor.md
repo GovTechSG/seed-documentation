@@ -112,7 +112,7 @@ Based on your Windows settings, you may be prompted to restart or reset your pas
 
   ![tanium](../images/onboarding-instructions-for-windows/tanium.png)
   
-  ?> You will receive a desktop notification that your device will be renamed according to our standard convention, followed by an automatic restart in 5 minutes. Please save your work to avoid data loss. You can also manually restart your device after the notification for a quicker update. Keep in mind that this naming convention is necessary for administrative purposes, so avoid renaming your device afterward.
+  You will receive a desktop notification that your device will be renamed according to our standard convention, followed by an automatic restart in 5 minutes. Please save your work to avoid data loss. You can also manually restart your device after the notification for a quicker update. Keep in mind that this naming convention is necessary for administrative purposes, so avoid renaming your device afterward.
 
 </details>
 

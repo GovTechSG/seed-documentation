@@ -3,14 +3,14 @@
 <details>
 <summary>What should I do if I cannot download the offboarding package?</summary>
 
-Raise a [support request](https://go.gov.sg/seed-techpass-support) and request the offboarding package for your Defender organisation.
+Raise a [service request](https://go.gov.sg/seed-techpass-support) and request the offboarding package for your Defender organisation.
 
 </details>
 
 <details>
 <summary>What should I do if I am unable to log in to my device?</summary>
 
-1. Raise a [support request](https://go.gov.sg/seed-techpass-support).
+1. Raise a [service request](https://go.gov.sg/seed-techpass-support).
 2. In **Details**, enter the text *I am unable to offboard my device from SEED components but I would like to submit my Intune Device ID to offboard my device from SEED*.
 3. Select SEED as **TechPass Tenant**.
 4. Select Production as **Environment**.
@@ -23,7 +23,7 @@ Raise a [support request](https://go.gov.sg/seed-techpass-support) and request t
 
 This error indicates that you are not a SEED user or your device was not properly enrolled in SEED.
 
-If you had properly onboarded your device to SEED earlier but still get this error, please r[aise a service request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support.
+If you had properly onboarded your device to SEED earlier but still get this error, please [raise a service request](https://go.gov.sg/seed-techpass-support) with the TechPass and SEED support.
 
 </details>
 
@@ -108,7 +108,7 @@ If your Defender organisation is Hive, contact [Hive support](mailto:GDS_DEN@hiv
 2. Go to the **Terminal** and run the following commands:
       ```
       sudo mdatp config tamper-protection enforcement-level --value audit
-      
+
       sudo /bin/sh ~/Downloads/<name_of_offboarding_script.sh>
       ```
     >- **Note:**

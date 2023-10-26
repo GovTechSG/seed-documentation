@@ -68,7 +68,7 @@ Write-Output $intune_id
 </details>
 
 > **Note**:
-> For more information, refer to [Offboarding FAQs](/faqs/seed-offboarding-faqs).
+> For more information, refer to [Offboarding FAQ](/faqs/offboarding-faq.md).
 
 
 ## Phase A: Offboard device from SEED components
@@ -101,7 +101,7 @@ echo $OrgID
 
 !> **Important**
 >
-> - If your **Defender organisation** is **Hive**, please disregard the remaining steps in this document. Instead, you should obtain the offboarding package from Hive support and unenroll your device from Defender. Refer to the [offboarding FAQs](offboard-device/seed-offboarding-faqs.md) for guidance on unenrolling your device from Defender using the Hive offboarding package.
+> - If your **Defender organisation** is **Hive**, please disregard the remaining steps in this document. Instead, you should obtain the offboarding package from Hive support and unenroll your device from Defender. Refer to [Offboarding FAQ](/faqs/offboarding-faq.md) for guidance on unenrolling your device from Defender using the Hive offboarding package.
 >   
 > - If your **Defender organisation** is either **WOG** or **TechPass**, you should use your TechPass account to download the offboarding package and proceed with the remaining steps.
 >   

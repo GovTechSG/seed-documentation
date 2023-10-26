@@ -35,6 +35,7 @@ After onboarding, ensure FDA is enabled for the following SEED components:
     - Microsoft Defender Endpoint Security Extension
 
     <kbd>![fda-enabled](../images/applications-on-macos13.png)</kbd>
+
     >**Note**: If a SEED component is missing, refer to [Onboarding FAQ](/faqs/onboarding-faq).
 
 
@@ -95,7 +96,7 @@ Identify the organisation corresponding to this **org_id** from the following ta
 
 - If your organisation id corresponds to WOG or TechPass, it indicates that **Microsoft Defender** has been configured correctly and you can ignore the rest of this section.
 
-- If your organisation id corresponds to Hive, it indicates that your device is still enrolled with Hive. Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package to unenrol your device. Refer to [offboarding FAQ](faq/offboarding-faq.md) for more details.
+- If your organisation id corresponds to Hive, it indicates that your device is still enrolled with Hive. Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to retrieve the offboarding package to unenrol your device. Refer to [Offboarding FAQ](faq/offboarding-faq.md) for more details.
     
  - If your device is enrolled with a different MDM, contact your organisation IT support to unenrol your device from it.
 

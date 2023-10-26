@@ -4,7 +4,7 @@ If you have connectivity issues while accessing GCC 2.0 CMP or SGTS services, re
 
 - To troubleshoot Cloudflare WARP, Tanium, Defender or Intune issues, attach [diagnostic file for Cloudflare Access](#generate-cloudflare-access-diagnostic-file) and [diagnostic file for Cloudflare WARP](#generate-cloudflare-warp-diagnostic-logs) to the service request.
 
-- To troubleshoot connectivity issues for GCC 2.0 CMP or SGTS services, [Generate HAR file](#generate-har-file) and attach it to the service request.
+- To troubleshoot connectivity issues for GCC 2.0 CMP or SGTS services, [Generate diagnostic file](/support/generate-diagnostic-files.md) and attach it to the service request.
 
 
 ## Generate Cloudflare Access diagnostic file
@@ -45,7 +45,7 @@ Logs and diagnostic information captured by Cloudflare WARP will be saved as a z
 
 ## Generate HAR file
 
-This section provides the instructions to generate HAR file for the [supported browsers](additional-resources/best-practices) when you experience problems connecting to the GCC 2.0 CMP or SGTS services.
+This section provides the instructions to generate HAR file for the support when you experience problems connecting to the GCC 2.0 CMP or SGTS services.
 
 - [Google Chrome](#generate-har-file-for-google-chrome)
 

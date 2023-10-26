@@ -34,7 +34,12 @@ If you have not received the confirmation email after this two-hour period, [rai
 <details>
   <summary>Why is Microsoft Defender not automatically installed after enrolling in Company Portal?</summary>
 
-  This can happen if Defender or any other antivirus solution previously installed on the device was not completely removed before onboarding to SEED. To address this, please verify that Microsoft Defender is correctly configured on your device by following the steps provided in [Verify if Microsoft Defender is configured correctly on your device][verify-defender-configuration].
+  This can happen if Defender or any other antivirus solution previously installed on the device was not completely removed before onboarding to SEED. Please verify that Microsoft Defender is correctly configured on your device.
+
+  For detailed steps on verifying Microsoft Defender on your device, please refer to the appropriate guide:
+    - [macOS 14 and 13](/post-onboarding-instructions/macos-latest.md)
+    - [macOS 12](/post-onboarding-instructions/macos.md)
+    - [Windows](/post-onboarding-instructions/windows.md)
 
 </details>
   
@@ -122,7 +127,7 @@ Before raising a service request, confirm the following:
 
 - Verify if Microsoft Defender is configured correctly on your device.
 
-- Check if Tanium and Cloudflare are installed. These applications should be automatically installed during device enrolment with SEED. If they are not installed, [raise a service request][raise-support-request].
+- Check if Tanium and Cloudflare are installed. These applications should be automatically installed during device enrolment with SEED. If they are not installed, [raise a service request](https://go.gov.sg/seed-techpass-support).
 
 </details>
 

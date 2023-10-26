@@ -10,7 +10,7 @@ GMDs are intended to facilitate development work for accessing GCC 2.0 and SGTS 
 
 Installing unlicensed software on your GMD is strictly prohibited. GMDs are government-managed, and this policy ensures security and compliance. Unauthorised software compromises security and violates regulations. 
 
-If you need a particular software for your development work, please follow your organisation's processes to obtain the legitimate version. Refer to [Terms of use](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/terms-of-use.pdf) for details.
+If you need a particular software for your development work, please follow your organisation's processes to obtain the legitimate version. Refer to [Terms of policies](/additional-resources/terms-and-policies.md)for details.
 
 </details>
 
@@ -39,24 +39,24 @@ Users should assess the risk and seek approval from their Reporting Officer (RO)
 </details>
 <details><summary>What happens when a remote wipe is performed on a Government Managed Device (GMD)?</summary>
 
-  Remote wipe erases all data on the device, performed only for theft, loss, or security compromise. For more information, refer to the [Terms and policies](terms-and-policies).
+  Remote wipe erases all data on the device, performed only for theft, loss, or security compromise. For more information, refer to the [Terms and policies](/additional-resources/terms-and-policies).
 
 </details>
 <details><summary>Is remote wipe done only on devices that belong to public sector agencies?</summary>
 
-  No, remote wipe applies to any lost or compromised GMD to prevent data breaches. For more information, refer to the [Terms and policies](terms-and-policies).
+  No, remote wipe applies to any lost or compromised GMD to prevent data breaches. For more information, refer to the [Terms and policies](/additional-resources/terms-and-policies).
 
 </details>
 
 <details><summary>What should I do if my device has been inactive for 180 days?</summary>
 
-If your device is no longer required to access SEED, please [offboard your device](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/offboard-device/offboard-device-from-seed). If you still require access after being inactive for 180 days, please email enquiries_seed@tech.gov.sg for assistance.
+If your device is no longer required to access SEED, please offboard your device. For detailed steps on offboarding your Mac, click [here](/offboard-device/macos-offboarding-guide.md), and for Windows, click [here](/offboard-device/windows-offboarding-guide.md). If you still require access after being inactive for 180 days, please email enquiries_seed@tech.gov.sg for assistance.
 
 </details>
 
 <details><summary>What should I do if I want to check if my device record has been deleted?</summary>
 
-Log in to [SEED Dashboard](https://dashboard.seed.tech.gov.sg/) after 23rd October to see whether your device record still exists. If your device record does not exist, or you are unable to log into SEED Dashboard, your device records have been cleaned up.
+Log in to [SEED Dashboard](https://dashboard.seed.tech.gov.sg/) after 26 October 2023 to see whether your device record still exists. If your device record does not exist, or you are unable to log into SEED Dashboard, your device records have been cleaned up.
 
 </details>
 
@@ -109,8 +109,6 @@ If you belong to the TechPass Entra ID and your GMD has not been logged into for
 It is important to understand that when your device records are softly removed, it does not perform a device wipe or retirement. Instead, the device record is temporarily taken out of Intune.
 
 Consequently, SEED administrators will no longer have access to details such as the device's health status, and they will not be able to manage it from the SEED Dashboard.
-
-For more information, refer to [device clean-up policy](device-clean-up-policy).
 
 </details>
 

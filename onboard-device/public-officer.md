@@ -223,7 +223,7 @@ Write-Output $intune_id
 
     a. If you only have a **SE GSIB** device, [raise a service request](https://go.gov.sg/seed-techpass-support) to register your Intune Device ID and skip rest of the steps. Within two hours, you should receive the successfully onboarded email.
 
-    b. If you have a **non-SE GSIB** device,log in to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
+    b. If you have a **non-SE GSIB** device, log in to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
 
 4. On the TechPass portal, at the top right, go to your user name and click **My Account**. Your **Profile** details are displayed. 
 5. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune Device ID.
@@ -285,8 +285,7 @@ Write-Output $intune_id
 
   ![tanium](../images/onboarding-instructions-for-windows/tanium.png)
 
-  
-?> You may receive a desktop notification that your device has been renamed according to convention, and that a timed restart will occur in 5 minutes. This is completely expected, and you should save any existing work to prevent data loss. Alternatively, you can also opt to manually restart your device, after receiving the desktop notification, to speed up the process. As the naming convention is required for administrative purposes, please refrain from renaming your device thereafter.
+  You may receive a desktop notification that your device has been renamed according to convention, and that a timed restart will occur in 5 minutes. This is completely expected, and you should save any existing work to prevent data loss. Alternatively, you can also opt to manually restart your device, after receiving the desktop notification, to speed up the process. As the naming convention is required for administrative purposes, please refrain from renaming your device thereafter.
 
 </details>
 

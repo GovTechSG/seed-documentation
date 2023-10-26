@@ -86,7 +86,7 @@ echo "$actual_id"
 
 
 > **Note**:
-> For more information, refer to [Offboarding FAQ](/faqs/seed-offboarding-faq).
+> For more information, refer to [Offboarding FAQ](/faqs/offboarding-faq.md).
 
 ## Phase A: Offboard device from SEED components
 
@@ -112,7 +112,7 @@ echo "$actual_id"
 
 !> **Important**
 >
-> - If your **Defender organisation** is **Hive**, please disregard the remaining steps in this document. Instead, you should obtain the offboarding package from Hive support and unenroll your device from Defender. Refer to the [offboarding FAQs](offboard-device/seed-offboarding-faqs.md) for guidance on unenrolling your device from Defender using the Hive offboarding package.
+> - If your **Defender organisation** is **Hive**, please disregard the remaining steps in this document. Instead, you should obtain the offboarding package from Hive support and unenroll your device from Defender. Refer to [Offboarding FAQ](/faqs/offboarding-faq.md) for guidance on unenrolling your device from Defender using the Hive offboarding package.
 >   
 > - If your **Defender organisation** is either **WOG** or **TechPass**, you should use your TechPass account to download the offboarding package and proceed with the remaining steps.
 >   
@@ -170,13 +170,13 @@ When you see the following success message on your **Terminal**, you will be aut
 2. Enter your organizational email address in **Organizational Email Address** and click **Verify**.
 3. Enter the OTP.
 4. Indicate if you had any issues while completing **Phase A**.
-5. [Optional] If you had issues completing **Phase A**, we encourage you to provide the **Support Ticket Number**.
+5. [Optional] If you had issues completing **Phase A**, we encourage you to provide the **Support ticket number**.
 6. Click **Submit**. When this request is processed successfully, we send a notification via email.
 
 ![successfully-offboarded-email](../images/macos-successfully-offboarded-email.png)
 
 
-?> **Additional information**<br>- We require up to 30 minutes to process your server-side offboarding request.<br>- If you are still waiting to receive an email after 30 minutes, please raise a [support request](https://go.gov.sg/seed-techpass-support).
+?> **Additional information**<br>- We require up to 30 minutes to process your server-side offboarding request.<br>- If you are still waiting to receive an email after 30 minutes, please raise a [service request](https://go.gov.sg/seed-techpass-support).
 
 
 
@@ -212,10 +212,6 @@ You can restore your device records on Intune by simply logging in to your GMD d
 ## MDM certificate
 
 When you onboard your Internet Device to SEED, you receive an MDM certificate that is valid for one year from the date of onboarding. The certificate is automatically renewed if you are logged in to your GMD when it expires.
-
-> **Note**:
-> 
-> - Ensure that your TechPass account remains active.
 
 If the MDM certificate expires, it can be automatically renewed by logging in to your device within 180 days from the expiration date. In such cases, re-onboarding your device to SEED is not required.
 
