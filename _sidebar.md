@@ -22,7 +22,7 @@
 - FAQ
   - [General FAQ](/faqs/general-faq.md)
   - [Onboarding FAQ](/faqs/onboarding-faq.md)
-  - [Offboarding FAQ](/faqs/seed-offboarding-faq.md)
+  - [Offboarding FAQ](/faqs/offboarding-faq.md)
   - [GCC 1.0 connectivity FAQ](/faqs/gcc1-connectivity-faq.md)
 - Support
   - [Raise a service request](/support/raise-service-request.md)
