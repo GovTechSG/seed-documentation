@@ -14,7 +14,7 @@
   - [macOS 12 post onboarding guide](/post-onboarding-instructions/macos.md)
   - [Windows post onboarding guide](/post-onboarding-instructions/windows.md)
 - Monitor using SEED Dashboard
-  - [SEED Dashboard overview](/seed-dashboard/seed-overview.md)
+  - [SEED Dashboard overview](/seed-dashboard/seed-dashboard-overview.md)
   - [SEED Dashboard tour](/seed-dashboard/seed-dashboard-tour.md)
 - Offboard from SEED
   - [macOS offboarding guide](/offboard-device/macos-offboarding-guide.md)
