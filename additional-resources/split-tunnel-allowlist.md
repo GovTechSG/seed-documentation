@@ -21,26 +21,21 @@ To evaluate a split tunnel allowlisting request, we need the following from the 
 - Acknowledgement from the system’s ACISO or above, that their agency takes the responsibility of allowing concurrent access to the VPN IP and their data stored on GCC 2.0/SGTS applications.
 - Acknowledgement from the system’s ACISO or above that GovTech is not responsible for incidents to the requesting agency’s data or systems on GCC 2.0/SGTS applications that may occur as a result of allowing the split tunnel request.
 
-## Request for split tunnel allowlisting
+### Request for split tunnel allowlisting
 
-> **Important**: To reduce or prevent harmful security attacks, we strongly encourage agencies to avoid requesting for split tunnel allowlisting.
+To reduce or prevent harmful security attacks, we strongly encourage agencies to avoid requesting for split tunnel allowlisting.
 
 
-- [Create a support request to request](https://go.gov.sg/seed-techpass-support) to add the required VPN to the allowlist.
+- [Raise a service request](https://go.gov.sg/seed-techpass-support) to add the required VPN to the allowlist.
 
 - We will assess your split tunnel allowlisting requests on a case-by-case basis to ensure that the request does not compromise the security of GCC 2.0 or any SGTS applications.
 
 - As part of our security review process, we will periodically review the allowed split tunnel entries to check if they are still necessary.
 
-- To know more about, how the WARP client handles your DNS requests, see [Cloudflare Docs](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/configure-warp/route-traffic/#how-the-warp-client-handles-dns-requests).
+- To know more about how the WARP client handles your DNS requests, see [Cloudflare documentation](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/configure-warp/route-traffic/#how-the-warp-client-handles-dns-requests).
 
-> **Note**:<br>
->- We will review the allowed split tunnel entries by **October 2023** to decide whether to retain the allowlisting or not.
->
-> **Pilot projects for tools and applications behind Cloudflare Zero Trust**
->
->- We welcome pilot projects to put their project system management tools and applications behind Cloudflare Zero Trust. For more information, contact *enquiries_seed@tech.gov.sg*.
 
->
->
->- We strongly encourage GCC 2.0 tenants to use CSP native remote administrative tools to perform remote administration or access their databases instead of using their internet devices to connect directly to workloads or databases through Project VPNs.
+### Pilot projects for tools and applications behind Cloudflare Zero Trust
+We welcome pilot projects to put their project system management tools and applications behind Cloudflare Zero Trust. For more information, contact *enquiries_seed@tech.gov.sg*.
+
+We strongly encourage GCC 2.0 tenants to use CSP native remote administrative tools to perform remote administration or access their databases instead of using their internet devices to connect directly to workloads or databases through Project VPNs.

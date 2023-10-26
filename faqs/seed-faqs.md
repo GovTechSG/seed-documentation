@@ -8,7 +8,8 @@ Browse through the known issues and FAQs to find answers to commonly asked quest
 
 - [General](faqs/seed-faq-general)
 - [Onboarding](faqs/common-onboarding-issues)
-- [Cloudflare WARP](faqs/cloudflare-warp-known-issues)  
+- [Cloudflare WARP](faqs/cloudflare-warp-known-issues)
+  - [Configuration of common Developer CLI tools in Cloudflare WARP](faqs/configuration-of-common-developer-cli-tools-with-cloudflare-warp)  
   - [Generate and upload Cloudflare diagnostic files](faqs/how-to-generate-and-upload-diagnostic-files-to-incident-support-request)
 - [Device clean-up policy FAQs](faqs/device-clean-up-policy-faqs)
 - [Offboarding FAQs](faqs/seed-offboarding-faqs.md) 
