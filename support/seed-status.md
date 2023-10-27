@@ -13,9 +13,7 @@ No scheduled maintenance.
 
 ## Ongoing incidents
 
-| Date | 25 October 2023 |
-| ------------- |:-------------|
-| **Issue summary** | We have detected internal server errors from Cloudflare API on 24 October 2023, 21:50 SGT, impacting several of our services including CMP, SHIP-HATS, APEX, and SEED. Users on GMDs are currently affected, while users on GSIB should not experience any issues. <br><br>**Impact**: Users on GMD are not able to access the following services.<br>**Affected services**: CMP, SHIP-HATS, APEX, SEED. Please note that this disruption is limited to our non-production environment; services in the production environment are functioning normally.<br><br>**For more assistance**:<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+No ongoing incidents!
 
 
 
@@ -25,6 +23,11 @@ No scheduled maintenance.
 -->
 
 ## Previous incidents
+
+| Date | 25 October 2023 |
+| ------------- |:-------------|
+| **Issue summary** |Cloudflare has resolved the issues identified on 24 October 2023, 21:50 SGT. <br><br>**Issue started**: 24 October 2023, 21:50 SGT <br><br> **Issue ended**: 26 October 2023, 02:07 SGT<br><br>**Impact**: Users on GMD are not able to access the following services.<br>**Affected services**: CMP, SHIP-HATS, APEX, SEED. Please note that this disruption is limited to our non-production environment; services in the production environment are functioning normally.<<br><br>*Posted on:26 October 2023, 17:30 SGT*<br><br>**What should I do if I am still having an issue?**<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+
 
 | Date | 09 October 2023 |
 | ------------- |:-------------|
