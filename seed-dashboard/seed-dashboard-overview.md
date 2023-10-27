@@ -12,11 +12,11 @@ Using the SEED Dashboard, you can:
 
 ## Log in to SEED Dashboard
 
-You can log in to [SEED Dashboard](https://dashboard.seed.tech.gov.sg/login) if you have onboarded a device to SEED using a [TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/). 
+You can log in to [SEED Dashboard](https://dashboard.seed.tech.gov.sg) if you have onboarded a device to SEED using a [TechPass account](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/). 
 
 **To log in to SEED Dashboard**
 
-1. Go to [SEED Dashboard](https://dashboard.seed.tech.gov.sg/login). 
+1. Go to [SEED Dashboard](https://dashboard.seed.tech.gov.sg). 
 
 2. Click **Sign in with TechPass**. Use your TechPass credentials.
 
