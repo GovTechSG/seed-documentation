@@ -1,6 +1,21 @@
 # Home
 
 Welcome to the SEED documentation! 
+ 
+## Supported browsers and Operating Systems (OS)
+
+Ensure you are using one of the supported browsers and operating systems before getting started with SEED:
+
+**Supported browsers**:
+
+- Google Chrome
+- Microsoft Edge
+- Mozilla Firefox (Configuration needed, [learn more](https://support.mozilla.org/en-US/kb/setting-certificate-authorities-firefox)))
+
+**Supported Operating Systems (OS)**:
+
+- macOS 12 or higher
+- Windows 10 and 11
 
 ## Popular topics
 |  |  | 

@@ -2,6 +2,11 @@
 
 This guide provides solutions to common problems for SEED. Follow the steps below to troubleshoot and resolve the problems you're experiencing.
 
+
+## Cloudflare WARP is in *Connecting* status
+
+If your Cloudflare WARP is stuck in connecting status, visit [Cloudflare documentation](https://developers.cloudflare.com/1.1.1.1/setup/) for detailed instructions on resolving Cloudflare WARP connection issues.
+
 ## Experiencing the *Account does not have access* error
 
 When using SGTS products with Cloudflare WARP, you might encounter an error message saying, *That account does not have access*.
