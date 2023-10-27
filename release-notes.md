@@ -12,8 +12,14 @@ This section lists the most recent enhancements, new features and fixes that are
 -->
 
 
-
 ## October 2023
+
+### 26 October 2023
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Enhancement** | **Improved SEED dashboard** | The updated [SEED Dashboard](https://dashboard.seed.tech.gov.sg/) simplifies monitoring for GMD devices, offering instant insights into health status and security issues. If you have queries on this enhancement, please get in touch with us through our SEED mailbox at: [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg).|
+
 
 ### 19 October 2023
 
