@@ -1,4 +1,4 @@
-## Identify onboarding persona
+# Identify onboarding persona
 
 Before setting up your device for SEED, you need to identify your onboarding role: **public officer** or **vendor**. Your TechPass login ID determines whether you should onboard your Internet Device to SEED as a public officer or a vendor.
 
