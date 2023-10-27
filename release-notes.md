@@ -11,9 +11,16 @@ This section lists the most recent enhancements, new features and fixes that are
 | **Gamma Release** | **Device Based Blocking** | To enforce better protection to our development resources e.g., GCC and SGTS services and tools. On 19 July 2023, we have rolled out beta testing for more effective blocking of access when a GMD's health is at risk. We have passed the beta test and we have rolled out the gamma release. If you have queries on this feature, please get in touch with us through our SEED mailbox at: [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg).|
 -->
 
-
+The updated SEED Dashboard simplifies monitoring for GMD devices, offering instant insights into health status and security issues.
 
 ## October 2023
+
+### 26 October 2023
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Enhancement** | **Improved SEED dashboard** | The updated [SEED Dashboard](https://dashboard.seed.tech.gov.sg/) simplifies monitoring for GMD devices, offering instant insights into health status and security issues.. If you have queries on this update, please get in touch with us through our SEED mailbox at: [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg).|
+
 
 ### 19 October 2023
 
