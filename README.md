@@ -10,7 +10,7 @@ Ensure you are using one of the supported browsers and operating systems before 
 
 - Google Chrome
 - Microsoft Edge
-- Mozilla Firefox (Configuration needed, [learn more](https://support.mozilla.org/en-US/kb/setting-certificate-authorities-firefox)))
+- Mozilla Firefox (Configuration needed, [learn more](https://support.mozilla.org/en-US/kb/setting-certificate-authorities-firefox))
 
 **Supported Operating Systems (OS)**:
 
