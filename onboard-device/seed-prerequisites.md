@@ -13,7 +13,10 @@ Supported browsers:
 Supported OS:
 
 - macOS 12 or higher
-- Windows 10 and 11
+- Windows 10 and 11 (Pro and Enterprise)
+
+> **Note**: 
+> Admin privilege is required to onboard to SEED.
 
 ## Request SEED provisioning
 
