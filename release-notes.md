@@ -13,6 +13,12 @@ This section lists the most recent enhancements, new features and fixes that are
 
 ## November 2023
 
+### 16 November 2023
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **New feature** | **Applying Egress IP Conditional Access Checks** | To have better assurance of traffic accessing our development resources e.g., GCC and SGTS services and tools, we have rolled out a beta release for Egress IP conditional access checks to only allow traffic coming from devices with Cloudflare WARP installed and turned on. If you have queries on this feature, please get in touch with us through our SEED mailbox at: [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg).|
+
 ### 15 November 2023
 
 | <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
