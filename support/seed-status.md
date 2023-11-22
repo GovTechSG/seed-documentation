@@ -7,9 +7,9 @@ This page provides the following Information:
 
 ## Scheduled maintenance
 
-| Date | 14 November 2023 |
+| Date | 22 November 2023 |
 | ------------- |:-------------|
-| **Issue summary** | SEED team will be implementing changes on 16 November 2023, Thursday, from 10:00 to 11:00 SGT.<br><br>The following changes will be implemented:<br> - Egress IP Conditional Access Policies for Cloudflare Access protected applications to all SEED users, and <br> - Egress IP Conditional Access Policies for GCC 2.0 AWS SSO Enterprise Application to GDS-Central.<br><br>**Impact**: Users on GMD are not able to access the following services.<br>**Affected services**: CMP, SHIP-HATS, APEX, SEED.<br><br>Please note that this disruption is limited to our non-production environment; services in the production environment are functioning normally.<br><br>**For more assistance**:<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+| **Issue summary** | SEED will be performing scheduled maintenance for Tanium updates on 22 November 2023, from 18:00 SGT to 20:00 SGT. <br><br>**Impact**:<br/> There is no impact to current SEED users.<br><br>**For more assistance**:<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support).| 
 
 
 ## Ongoing incidents
