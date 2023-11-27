@@ -7,9 +7,9 @@ This page provides the following Information:
 
 ## Scheduled maintenance
 
-| Date | 22 November 2023 |
+| Date | 27 November 2023 |
 | ------------- |:-------------|
-| **Issue summary** | SEED will be performing scheduled maintenance for Tanium updates on 22 November 2023, from 18:00 SGT to 20:00 SGT. <br><br>**Impact**:<br/> There is no impact to current SEED users.<br><br>**For more assistance**:<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support).| 
+| **Issue summary** | SEED will be rolling out updates for the admin view feature on 27 November 2023, from 18:00 SGT to 20:00 SGT. <br><br>**Impact**:<br/> There is no impact to current SEED users.<br><br>**For more assistance**:<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support).| 
 
 
 ## Ongoing incidents
