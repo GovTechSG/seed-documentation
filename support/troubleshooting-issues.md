@@ -5,7 +5,39 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
 
 ## Cloudflare WARP is in *Connecting* status
 
-If your Cloudflare WARP is stuck in connecting status, visit [Cloudflare documentation](https://developers.cloudflare.com/1.1.1.1/setup/) for detailed instructions on resolving Cloudflare WARP connection issues.
+If your Cloudflare WARP is stuck in the connecting status, please follow these steps to resolve the issue:
+
+1. Click the **Start** icon in the taskbar.
+
+2. Navigate to **Settings** > **Apps**.
+
+3. Search for **Cloudflare WARP** and select **Uninstall**.
+
+After uninstalling, proceed to [download Cloudflare WARP](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/)
+
+Once downloaded, follow these steps:
+
+1. Click the **gear** icon > **Preferences** > **Account**.
+
+![gear](/images/disconnected-cf.png)
+
+2. Log in with Cloudflare for Teams.
+3. Enter **gccgovsg** in the organisation name field.
+![gear](/images/gcc-org.png)
+4. Test using incognito mode using Google Chrome or Microsoft Edge browser and test using your personal hotspot or home Wi-Fi.
+
+Ensure to re-authenticate your Cloudflare WARP client with the following steps:
+
+1. Clear your browsing history/cache on Chrome.
+
+2. Click the **Cloudflare WARP** icon.
+   
+   - Click the **gear** icon.
+   - Navigate to **Preferences** > **Account**.
+   - Click **Re-authenticate with Cloudflare zero trust**.
+
+3. Reboot your machine.
+
 
 ## Experiencing the *Account does not have access* error
 
