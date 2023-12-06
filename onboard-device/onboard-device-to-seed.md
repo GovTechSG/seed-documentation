@@ -1,1 +1,1 @@
-!> This documentation has moved to [Identify onboarding persona](identify-onboarding-persona).
+!> This documentation has moved to [Identify onboarding persona](/onboard-device/identify-onboarding-persona).
