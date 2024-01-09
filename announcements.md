@@ -2,6 +2,7 @@
 
 | <div style="width:150px"><b>Date</b></div>  | Announcement |
 | --- | --- | 
+| 09 January 2024 | Users might experience intermittent issues accessing the SEED dashboard on both GMD and GSIB devices. <br><br>**Impact**:<br/> This may prevent users from accessing the SEED dashboard. <br><br>**For more assistance**:<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support).|
 | 06 Dec 2023 | SEED will be rolling out updates to tighten security on the M365 trial on 06 December 2023, from 18:00 SGT to 21:00 SGT. <br><br>**Impact**:<br/> SEED users may experience intermittent access to the Internet during the deployment. Otherwise, no other action is required. <br><br>**For more assistance**:<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support).|
 | 04 Dec 2023 | SEED will be rolling out updates to pave way for new dashboard features on 04 December 2023, from 18:00 SGT to 21:00 SGT. <br><br>**Impact**:<br/> SEED users will not be able to access the SEED dashboard during this time. New users onboarding to SEED at this time may face issues too.<br><br>**For more assistance**:<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support).|
 | 22 November 2023 | SEED will be rolling out updates for the admin view feature on 27 November 2023, from 18:00 SGT to 20:00 SGT. <br><br>**Impact**:<br/> There is no impact to current SEED users.<br><br>**For more assistance**:<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support).|
