@@ -7,15 +7,14 @@ This page provides the following Information:
 
 ## Scheduled maintenance
 
-| Date | 27 November 2023 |
-| ------------- |:-------------|
-| **Issue summary** | SEED will be rolling out updates for the admin view feature on 27 November 2023, from 18:00 SGT to 20:00 SGT. <br><br>**Impact**:<br/> There is no impact to current SEED users.<br><br>**For more assistance**:<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support).| 
+No ongoing maintenance!
 
 
 ## Ongoing incidents
 
-No ongoing incidents!
-
+| Date            | 9 January 2024                  |
+|-----------------|---------------------------------|
+| **Issue summary** | Users might experience intermittent issues accessing the SEED dashboard on both GMD and GSIB devices. <br><br>**Impact**:</br> This issue may prevent users from accessing the SEED dashboard. <br><br>**For more assistance**:<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
 
 
 <!-- | Date | 09 July 2023 |
@@ -24,6 +23,11 @@ No ongoing incidents!
 -->
 
 ## Previous incidents
+
+| Date | 27 November 2023 |
+| ------------- |:-------------|
+| **Issue summary** | SEED will be rolling out updates for the admin view feature on 27 November 2023, from 18:00 SGT to 20:00 SGT. <br><br>**Impact**:<br/> There is no impact to current SEED users.<br><br>*Posted on: November 27 2023, 15:30 SGT*<br><br>**What should I do if I am still having an issue?**<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support).| 
+
 
 | Date | 25 October 2023 |
 | ------------- |:-------------|
