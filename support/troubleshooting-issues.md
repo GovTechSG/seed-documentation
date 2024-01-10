@@ -3,6 +3,18 @@
 This guide provides solutions to common problems for SEED. Follow the steps below to troubleshoot and resolve the problems you're experiencing.
 
 
+## Experiencing the *You cannot access this right now* error 
+
+![error](/images/troubleshoot-issue.png)
+
+When using SGTS products with Cloudflare WARP turned off, you might encounter an error message saying, *That account does not have access*.
+
+### Solution
+
+- Turn on Cloudflare WARP Client and access the application. 
+
+If you are facing an issue with your Cloudflare WARP, please follow the solutions in this page. Alternatively, [raise a service request](https://go.gov.sg/seed-techpass-support) for assistance.
+
 ## Cloudflare WARP is in *Connecting* status
 
 If your Cloudflare WARP is stuck in the connecting status, please follow these steps to resolve the issue:
@@ -43,7 +55,7 @@ Ensure to re-authenticate your Cloudflare WARP client with the following steps:
 
 When using SGTS products with Cloudflare WARP, you might encounter an error message saying, *That account does not have access*.
 
-## Solution
+### Solution
 
 1.  First, check the following:
 
@@ -71,9 +83,9 @@ When using SGTS products with Cloudflare WARP, you might encounter an error mess
 Cloudflare has reported connectivity problems for users with macOS WARP client versions earlier than 2022.12.583.0 (20230112.24). These users may experience intermittent connectivity issues while trying to access websites.
 
 
-## Solutions
+### Solutions
 
-### Workaround 1: Update Cloudflare WARP client to the latest version
+#### Workaround 1: Update Cloudflare WARP client to the latest version
 
 **To update your Cloudflare WARP client**:
 
