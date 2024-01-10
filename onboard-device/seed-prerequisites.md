@@ -379,7 +379,7 @@ echo $OrgID
 
   ![create-recovery-key](../images/onboarding-for-macos/create-recovery-key-1.png)
 
-6. Save the recovery key on a different device.
+6. Save the **recovery key on a different device**.
 
 #### **Windows**
 
