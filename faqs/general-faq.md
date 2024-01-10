@@ -129,3 +129,10 @@ No, you will not receive any notification for this.
 - It cannot have three sequential characters.
 - It should contain at least one number and one alphabetic character.
 </details>
+
+<details>
+  <summary>How do I reset my password via the macOS <b>Utilities</b> menu?</summary>
+
+Refer to the following image below:
+![reset_password]()
+</details>
