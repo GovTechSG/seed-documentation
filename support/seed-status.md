@@ -12,9 +12,7 @@ No ongoing maintenance!
 
 ## Ongoing incidents
 
-| Date            | 9 January 2024                  |
-|-----------------|---------------------------------|
-| **Issue summary** | Users might experience intermittent issues accessing the SEED dashboard on both GMD and GSIB devices. <br><br>**Impact**:</br> This issue may prevent users from accessing the SEED dashboard. <br><br>**For more assistance**:<br/> Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+No ongoing incident!
 
 
 <!-- | Date | 09 July 2023 |
@@ -23,6 +21,11 @@ No ongoing maintenance!
 -->
 
 ## Previous incidents
+
+| Date            | 9 January 2024                  |
+|-----------------|---------------------------------|
+| **Issue summary** | Users might experience intermittent issues accessing the SEED dashboard on both GMD and GSIB devices. <br><br>**Impact**:</br> This issue may prevent users from accessing the SEED dashboard. <br><br>*Posted on: November 9 January 2023, 15:30 SGT*<br><br>**What should I do if I am still having an issue?**<br/>Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+
 
 | Date | 27 November 2023 |
 | ------------- |:-------------|
