@@ -7,7 +7,9 @@ This page provides the following Information:
 
 ## Scheduled maintenance
 
-No ongoing maintenance!
+| Date            | 9 January 2024                  |
+|-----------------|---------------------------------|
+| **Issue summary** | UsSEED will be performing scheduled maintenance updates on 24 January 2024, from 14:00 SGT to 16:00 SGT. The maintenance involves patching of components and key rotation. <br><br>**Impact**:</br> There is no impact to current SEED users <br><br>*Posted on: 24 January 2023, 12:30 SGT*<br><br>**What should I do if I am still having an issue?**<br/>Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
 
 
 ## Ongoing incidents
@@ -24,7 +26,7 @@ No ongoing incident!
 
 | Date            | 9 January 2024                  |
 |-----------------|---------------------------------|
-| **Issue summary** | Users might experience intermittent issues accessing the SEED dashboard on both GMD and GSIB devices. <br><br>**Impact**:</br> This issue may prevent users from accessing the SEED dashboard. <br><br>*Posted on: November 9 January 2023, 15:30 SGT*<br><br>**What should I do if I am still having an issue?**<br/>Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+| **Issue summary** | Users might experience intermittent issues accessing the SEED dashboard on both GMD and GSIB devices. <br><br>**Impact**:</br> This issue may prevent users from accessing the SEED dashboard. <br><br>*Posted on: 9 January 2023, 15:30 SGT*<br><br>**What should I do if I am still having an issue?**<br/>Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
 
 
 | Date | 27 November 2023 |
