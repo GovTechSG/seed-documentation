@@ -19,6 +19,7 @@
 - Offboard from SEED
   - [macOS offboarding guide](/offboard-device/macos-offboarding-guide.md)
   - [Windows offboarding guide](/offboard-device/windows-offboarding-guide.md)
+  - [Device clean-up policy](/offboard-device/device-cleanup-policy.md)
 - FAQ
   - [General FAQ](/faqs/general-faq.md)
   - [Onboarding FAQ](/faqs/onboarding-faq.md)
