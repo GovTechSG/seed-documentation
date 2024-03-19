@@ -172,32 +172,22 @@ echo $OrgID
 
 ## Device clean-up policy
 
-The device clean-up policy applies to SEED users with TechPass IDs belonging to the TechPass Entra ID. You can identify a TechPass Entra ID account if your TechPass ID's domain is *techpass.gov.sg*. For example, *james_lee@techpass.gov.sg* is associated with the TechPass Entra ID.
+The Device Record Clean-Up Policy aims to manage and maintain the cleanliness of device records in both the pending and onboarded tables. This documentation outlines the policy for cleaning up onboarded records, ensuring the removal of stale records, and notifying users of impending actions.
 
-The primary objective of this policy is to remove inactive device records from the Intune portal.
+### Onboarded records clean-up policy
+To prevent stale records from accumulating indefinitely, the following process is established:
 
-> **Note**:
-> 
-> - The device clean-up policy does **not apply** if your TechPass ID belongs to the **WOG Entra ID**.
-> - A TechPass ID in the WOG Entra ID typically aligns with your organizational email address, which is in the format *\<your_name\>@\<acronym for your agency\>.gov.sg*. For example, *peter_wilson@tech.gov.sg*.
+   - After 180 days of inactivity, device records are permanently deleted.
+   - Users are notified via email 30 days before record deletion, with subsequent notifications everyday.
+   - Users can raise a [service request](https://go.gov.sg/seed-techpass-support) if they encounter issues that prevent records from being deleted.
 
+### Restore my device records
 
-### What happens if my GMD is inactive?
-
-
-If your TechPass ID belongs to the TechPass Entra ID and you have not logged into your GMD for 90 consecutive days, the GMD becomes inactive, and its records are soft deleted from the Intune portal.
-
-It is essential to note that when your device records are soft deleted, it does not wipe or retire the device. Instead, the device record is temporarily removed from Intune.
-
-As a result, SEED administrators will not be able to access details such as the device's health status, and they can no longer manage it from the SEED Dashboard.
-
-
-### Restore my device records on Intune
-
-You can restore your device records on Intune by simply logging in to your GMD device the next time, provided that:
+You can restore your device records by simply logging in to your GMD device the next time, provided that:
 
 - Your TechPass account is still active.
 - Your MDM certificate is still valid or within 180 days after its expiry.
+- Your device is configured with the required software, including Tanium, Cloudflare, Microsoft Defender, and Intune.
 
 ## MDM certificate
 
