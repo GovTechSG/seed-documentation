@@ -177,29 +177,17 @@ The Device Record Clean-Up Policy aims to manage and maintain the cleanliness of
 ### Onboarded records clean-up policy
 To prevent stale records from accumulating indefinitely, the following process is established:
 
-1. **Stale records management:**
-   - After 90 days of inactivity, device records are marked as suspended (`is_blacklisted = True`).
-   - Suspended records are blocked from accessing SEED protected resources.
-   - Records cannot be updated to maintain their inactive status.
-   - A service request is required to move a device record out of the blacklist.
-
-2. **Notification process:**
-   - Users are notified via email 30 days before blacklisting, with subsequent notifications every 10 days.
-   - Additional email notifications are sent when a device is suspended, including remediation steps or documentation links.
-
-3. **Deletion of stale records:**
    - After 180 days of inactivity, device records are permanently deleted.
-   - Pre-deletion operations are performed to undo onboarding procedures, including resetting AAD object attributes and removing from associated AAD groups.
-   - Users are notified via email 7 days before deletion, with re-onboarding steps provided in the notification email.
+   - Users are notified via email 30 days before record deletion, with subsequent notifications everyday.
+   - Users can raise a [service request](https://go.gov.sg/seed-techpass-support) if they encounter issues that prevent their records from being deleted.
 
+### Restore my device records
 
-
-### Restore my device records on Intune
-
-You can restore your device records on Intune by simply logging in to your GMD device the next time, provided that:
+You can restore your device records by simply logging in to your GMD device the next time, provided that:
 
 - Your TechPass account is still active.
 - Your MDM certificate is still valid or within 180 days after its expiry.
+- Your device is configured with the required software, including Tanium, Cloudflare, Microsoft Defender, and Intune.
 
 ## MDM certificate
 
