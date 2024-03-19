@@ -1,6 +1,6 @@
 # Device clean-up policy
 
-The Device Record Clean-Up Policy aims to manage and maintain the cleanliness of device records in both the pending and onboarded tables. This documentation outlines the policy for cleaning up onboarded records, ensuring the removal of stale records, and notifying users of impending actions.
+The Device Record Clean-Up Policy aims to manage and maintain the cleanliness of device records in SEED's backend. This documentation outlines the policy for cleaning up onboarded records, ensuring the removal of stale records, and notifying users of impending actions.
 
 ## Onboarded records clean-up policy
 To prevent stale records from accumulating indefinitely, the following process is established:
