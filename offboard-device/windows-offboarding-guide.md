@@ -179,7 +179,7 @@ To prevent stale records from accumulating indefinitely, the following process i
 
    - After 180 days of inactivity, device records are permanently deleted.
    - Users are notified via email 30 days before record deletion, with subsequent notifications everyday.
-   - Users can raise a [service request](https://go.gov.sg/seed-techpass-support) if they encounter issues that prevent their records from being deleted.
+   - Users can raise a [service request](https://go.gov.sg/seed-techpass-support) if they encounter issues that prevent records from being deleted.
 
 ### Restore my device records
 
