@@ -7,9 +7,10 @@ This page provides the following Information:
 
 ## Scheduled maintenance
 
-| Date            | 01 February 2024                  |
-|-----------------|---------------------------------|
-| **Issue summary** | SEED team will be implementing changes on 01 February, Thursday, from 10:00 to 11:00 SGT.<br><br>The following changes will be implemented:<br> - Egress IP Conditional Access Policies for GCC 2.0 AWS SSO enterprise application to all TechPass users on TechPass production environment.<br> - Egress IP Conditional Access Policies for Azure portal to all TechPass users on TechPass production environment.<br><br>**Impact**:<br/>There is no impact to current SEED users who are working with the Cloudflare WARP enabled, to access GCC and SGTS services.<br>If you are facing the “You cannot access this right now” error, ensure that you are onboarded to SEED and enable Cloudflare WARP, before re-accessing the GCC or SGTS Resources.<br>If you are still encountering issues, please refer to the [troubleshooting guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues). *Posted on: 25 January 2023, 14:40 SGT*<br><br>**What should I do if I am still having an issue?**<br/>Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+| Date            | 20 March 2024                       |
+|-----------------|-------------------------------------|
+| **Issue Summary** | We will be performing SEED maintenance on 23rd March 2024, Saturday, from 07:00 to 18:00 SGT. During this time, the following components will be affected:<br><br>- **SEED Dashboard**: Users may face intermittent access issues and may see outdated data.<br>- **SEED Onboarding**: Users may encounter difficulties in the onboarding process and may not be able to onboard successfully.<br><br>**Impact**: There should be no impact to the following components:<br>- SEED Offboarding<br>- Access to SGTS and GCC services<br><br>For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+
 
 
 
@@ -24,6 +25,11 @@ No ongoing incident!
 -->
 
 ## Previous incidents
+
+| Date            | 01 February 2024                  |
+|-----------------|---------------------------------|
+| **Issue summary** | SEED team will be implementing changes on 01 February, Thursday, from 10:00 to 11:00 SGT.<br><br>The following changes will be implemented:<br> - Egress IP Conditional Access Policies for GCC 2.0 AWS SSO enterprise application to all TechPass users on TechPass production environment.<br> - Egress IP Conditional Access Policies for Azure portal to all TechPass users on TechPass production environment.<br><br>**Impact**:<br/>There is no impact to current SEED users who are working with the Cloudflare WARP enabled, to access GCC and SGTS services.<br>If you are facing the “You cannot access this right now” error, ensure that you are onboarded to SEED and enable Cloudflare WARP, before re-accessing the GCC or SGTS Resources.<br>If you are still encountering issues, please refer to the [troubleshooting guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues). *Posted on: 25 January 2023, 14:40 SGT*<br><br>**What should I do if I am still having an issue?**<br/>Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+
 
 | Date            | 24 January 2024                  |
 |-----------------|---------------------------------|
