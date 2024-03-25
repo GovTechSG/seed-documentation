@@ -7,9 +7,7 @@ This page provides the following Information:
 
 ## Scheduled maintenance
 
-| Date            | 20 March 2024                       |
-|-----------------|-------------------------------------|
-| **Issue Summary** | We will be performing SEED maintenance on 23rd March 2024, Saturday, from 07:00 to 18:00 SGT. During this time, the following components will be affected:<br><br>- **SEED Dashboard**: Users may face intermittent access issues and may see outdated data.<br>- **SEED Onboarding**: Users may encounter difficulties in the onboarding process and may not be able to onboard successfully.<br><br>**Impact**: There should be no impact to the following components:<br>- SEED Offboarding<br>- Access to SGTS and GCC services<br><br>For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+No ongoing maintenance!
 
 
 
