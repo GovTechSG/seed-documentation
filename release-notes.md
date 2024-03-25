@@ -18,7 +18,7 @@ This section lists the most recent enhancements, new features and fixes that are
 
 | <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
 | --- | --- | --- |
-| **New feature** | **SEED Dashboard available on GoMax devices** | The SEED Dashboard is now accessible on GoMax devices.  For any queries, please contact us via the SEED mailbox at: [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg).|
+| **New feature** | **SEED Dashboard available on GoMax devices** | The SEED Dashboard is now accessible on GoMax devices. For any queries, please contact us via the SEED mailbox at: [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg).|
 
 
 ### 29 February 2024
