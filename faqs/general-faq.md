@@ -14,6 +14,12 @@ If you need a particular software for your development work, please follow your 
 
 </details>
 
+<details><summary>Why am I unable to access certain websites?</summary>
+
+If you are experiencing issues accessing websites, [Cloudflare Radar](https://radar.cloudflare.com/security-and-attacks) can identify the cause. Visit [Cloudflare Radar scan](https://radar.cloudflare.com/security-and-attacks), enter the domain you are having trouble with, and view the report. This tool provides insights into network issues or security settings that may be affecting website access.
+
+</details>
+
 <details><summary>Can I bring and use my Government Managed Device (GMD) overseas?</summary>
 
 Users should assess the risk and seek approval from their Reporting Officer (RO) before doing so.
@@ -134,5 +140,5 @@ No, you will not receive any notification for this.
   <summary>How do I reset my password via the macOS <b>Utilities</b> menu?</summary>
 
 Refer to the following image below:
-![reset_password]()
+![reset_password](/images/reset-password-utiliy.png)
 </details>
