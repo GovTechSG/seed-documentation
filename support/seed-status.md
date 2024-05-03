@@ -14,7 +14,9 @@ No ongoing maintenance!
 
 ## Ongoing incidents
 
-No ongoing incident!
+| Date            | 02 May 2024                       |
+|-----------------|-----------------------------------|
+| **Issue summary** | Connectivity issues have been identified through Cloudflare WARP on 2 May 2024, at 15:24 SGT.<br><br>The SEED team has raised a high-priority ticket with Cloudflare and is actively working with them to resolve the issue. Updates will be provided as they become available.<br><br>**Impact**:<br/>Users may experience access issues.<br><br>**Workaround**:<br>If you are still unable to access after reinstallation of the Cloudflare WARP client, kindly follow these steps and re-authenticate your Cloudflare WARP client. For detailed instructions, please refer to the [troubleshooting guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues).<br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
 
 
 <!-- | Date | 09 July 2023 |
