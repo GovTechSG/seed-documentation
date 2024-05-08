@@ -14,9 +14,7 @@ No ongoing maintenance!
 
 ## Ongoing incidents
 
-| Date            | 03 May 2024                       |
-|-----------------|-----------------------------------|
-| **Issue summary** | Connectivity issues have been identified through Cloudflare WARP on 2 May 2024, at 15:24 SGT.<br><br>The SEED team has raised a high-priority ticket with Cloudflare and is actively working with them to resolve the issue. Updates will be provided as they become available.<br><br>**Impact**:<br/>Users may experience access issues.<br><br>**Workaround**:<br>If you are still unable to access after reinstallation of the Cloudflare WARP client, kindly follow these steps and re-authenticate your Cloudflare WARP client. For detailed instructions, please refer to the [troubleshooting guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/su[…]oting-issues?id=cloudflare-warp-is-in-connecting-status).<br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+No ongoing incidents!
 
 
 <!-- | Date | 09 July 2023 |
@@ -25,6 +23,10 @@ No ongoing maintenance!
 -->
 
 ## Previous incidents
+
+| Date            | 03 May 2024                       |
+|-----------------|-----------------------------------|
+| **Issue summary** | Connectivity issues have been identified through Cloudflare WARP on 2 May 2024, at 15:24 SGT.<br><br>The SEED team has raised a high-priority ticket with Cloudflare and is actively working with them to resolve the issue. Updates will be provided as they become available.<br><br>**Impact**:<br/>Users may experience access issues.<br><br>**Workaround**:<br>If you are still unable to access after reinstallation of the Cloudflare WARP client, kindly follow these steps and re-authenticate your Cloudflare WARP client. For detailed instructions, please refer to the [troubleshooting guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/su[…]oting-issues?id=cloudflare-warp-is-in-connecting-status). *Posted on: 8 May 2024, 13:00 SGT*<br><br>**What should I do if I am still having an issue?</br> Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
 
 | Date            | 01 February 2024                  |
 |-----------------|---------------------------------|
