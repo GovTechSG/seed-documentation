@@ -74,14 +74,12 @@ echo "$actual_id"
 ```
 2. Record the Intune Device ID displayed in the Terminal window.
 
-> **Note**: The following steps (3 and 4) are for users with **non-SE GSIB** devices. If you have an **SE GSIB** device, proceed to step 5.
+3. For **non-SE GSIB devices**: Log in to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
 
-
-3. Log in to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
+For **SE GSIB** devices: [raise a service request](https://go.gov.sg/seed-techpass-support) to register your Intune Device ID and skip the remaining steps. An email confirming successful onboarding will be sent to you within two hours.
 
 4. On the TechPass portal, go to your user name at the top right and select **My Account**. Your **Profile** details will be displayed.
 
-5. If you have an **SE GSIB** device, [raise a service request](https://go.gov.sg/seed-techpass-support) to register your Intune Device ID and skip the remaining steps. An email confirming successful onboarding will be sent to you within two hours.
 
 6. Click **Onboard device to SEED** and follow the on-screen instructions to submit your Intune Device ID.
 
