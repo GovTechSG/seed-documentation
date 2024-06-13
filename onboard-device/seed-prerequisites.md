@@ -10,14 +10,15 @@ Supported browsers:
  - Microsoft Edge
  - Mozilla Firefox. If you are using Mozilla Firefox, you need to [configure Firefox to trust the root certificate store of your system](https://support.mozilla.org/en-US/kb/setting-certificate-authorities-firefox).
 
-?> **Note**: *Safari* is not supported. You must download and use one of the supported browsers listed above before onboarding to SEED.
+> **Note**: 
+> *Safari* is not supported. You must download and use one of the supported browsers listed above before onboarding to SEED.
 
 Supported OS:
 
 - macOS 12 or higher
 - Windows 10 and 11 (Pro and Enterprise)
 
-> **Note**: 
+> **Note**:
 > Admin privilege is required to onboard to SEED.
 
 ## Request SEED provisioning
