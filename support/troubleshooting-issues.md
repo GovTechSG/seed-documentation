@@ -127,7 +127,29 @@ Cloudflare has reported connectivity problems for users with macOS WARP client v
 
   4. <a href="https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/post-onboarding-instructions/windows">Install the latest WARP client for Windows.</a>
  
-
-
 <!-- tabs:end -->
+
+Once downloaded,follow the steps below:
+
+1. Click the **gear** icon > **Preferences** > **Account**.
+
+![gear](/images/disconnected-cf.png)
+
+2. Log in with Cloudflare for Teams.
+3. Enter **gccgovsg** in the organisation name field.
+![gear](/images/gcc-org.png)
+4. Test using incognito mode using Google Chrome or Microsoft Edge browser and test using your personal hotspot or home Wi-Fi.
+
+Ensure to re-authenticate your Cloudflare WARP client with the following steps:
+
+1. Clear your browsing history/cache on Chrome.
+
+2. Click the **Cloudflare WARP** icon.
+   
+   - Click the **gear** icon.
+   - Navigate to **Preferences** > **Account**.
+   - Click **Re-authenticate with Cloudflare zero trust**.
+
+3. Reboot your machine.
+
 
