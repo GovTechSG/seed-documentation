@@ -71,7 +71,7 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
    - Vendors: 49237d71-42ac-425a-a803-881b92cc18ce
 4. If the values are different, check with your IT administrator to identify which Defender tenant you are currently under and offboard from that tenant before attempting to re-onboard.
 
-### macOS
+### **macOS**
 
 #### Cloudflare
 
