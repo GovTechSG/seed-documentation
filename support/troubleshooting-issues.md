@@ -27,7 +27,7 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
 ![acc-cf](/images/acc-cf.png)
 3. If Cloudflare WARP is not authenticated to *gccgovsg*, refer to [troubleshooting issues](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues).
 
-**For any other CloudFlare issues, refer to the [troubleshooting documentation](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues).**
+**For any other Cloudflare issues, refer to the [troubleshooting documentation](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues).**
 
 #### Intune
 
