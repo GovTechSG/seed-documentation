@@ -89,7 +89,7 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
 **Ensure that Cloudflare is authenticated and verified**
 
 1. Click the *Cloudflare WARP* icon on the taskbar > *Preference*.
-2. Navigate to *Account* and ensure that you are authenticated with the team namenac *gccgovsg*.
+2. Navigate to *Account* and ensure that you are authenticated with the team name *gccgovsg*.
 ![mac-gcc](/images/mac-gcc.png)
 3. If Cloudflare WARP is not authenticated to *gccgovsg*, refer to [troubleshooting issues](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues).
 
