@@ -34,7 +34,7 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
 **Ensure that Intune is enrolled with the valid tenant**
 
 1. Search for *Access work or school* in the search bar.
-2. Ensure that you have an account added with a *techpass.gov.sg* domain (for vendors) or a *.gov.sg* domain (for all Public officers).
+2. Ensure that you have an account added with a *techpass.gov.sg* domain (for vendors) or a *<agency_name>.gov.sg* domain (for all Public officers).
 ![work](/images/work-school.png)
 3. Click the account > *Info*.
 4. Ensure that the top of the page shows either *Managed by SG Govt M365* for public officers or *Managed by TechPass* for vendors.
