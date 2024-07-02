@@ -118,13 +118,13 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
 
 **Ensure that the Defender service is running and is healthy**
 
-1. Open Terminal.
+1. Open *Terminal*.
 2. Run `ps aux | grep -i "Defender"`.
 3. Ensure you see the following output.
 
 **If the service is not running, refer to the following steps**:
 
-1. Open Terminal.
+1. Open *Terminal*.
 2. Run the following command to start the services:
    - `sudo launchctl kickstart -k system/com.microsoft.wdav`
    - `sudo launchctl kickstart -k system/com.microsoft.wdav.enterprise`
@@ -133,20 +133,20 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
 
 **Ensure that Defender has real-time protection enabled**
 
-1. Open Terminal.
+1. Open *Terminal*.
 2. Run `mdatp health --field real_time_protection_enabled`.
 3. Ensure that the value is *true*.
 
 **Ensure that Defender is cloud enabled**
 
-1. Open Terminal.
+1. Open *Terminal*.
 2. Run `mdatp health --field cloud_enabled`.
 3. Ensure that the value is *true*.
 ![mac-virus](/images/mac-virus.png)
 
 **Ensure that Defender has a valid tenant**
 
-1. Open Terminal.
+1. Open *Terminal*.
 2. Run `mdatp health --field org_id`.
 3. Ensure that the value is one of the following:
    - Public officers: faa36a5e-2da6-4225-8e27-226177c801a0
@@ -268,7 +268,7 @@ Cloudflare has reported connectivity problems for users with macOS WARP client v
 
 #### **macOS**
 
-1. To uninstall the existing WARP client, open the **Terminal** app and run the following command.
+1. To uninstall the existing WARP client, open the ***Terminal*** app and run the following command.
 
   ```
   sudo /bin/sh /Applications/Cloudflare\ WARP.app/Contents/Resources/uninstall.sh
