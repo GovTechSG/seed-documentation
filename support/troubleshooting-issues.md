@@ -27,14 +27,14 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
 ![acc-cf](/images/acc-cf.png)
 3. If Cloudflare WARP is not authenticated to *gccgovsg*, refer to [troubleshooting issues](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues).
 
-**For any other CloudFlare issues, refer to the [troubleshooting documentation](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues).**
+**For any other Cloudflare issues, refer to the [troubleshooting documentation](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues).**
 
 #### Intune
 
 **Ensure that Intune is enrolled with the valid tenant**
 
 1. Search for *Access work or school* in the search bar.
-2. Ensure that you have an account added with a *techpass.gov.sg* domain (for vendors) or a *.gov.sg* domain (for all Public officers).
+2. Ensure that you have an account added with a *techpass.gov.sg* domain (for vendors) or a *<agency_name>.gov.sg* domain (for all Public officers).
 ![work](/images/work-school.png)
 3. Click the account > *Info*.
 4. Ensure that the top of the page shows either *Managed by SG Govt M365* for public officers or *Managed by TechPass* for vendors.
@@ -89,7 +89,7 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
 **Ensure that Cloudflare is authenticated and verified**
 
 1. Click the *Cloudflare WARP* icon on the taskbar > *Preference*.
-2. Navigate to *Account* and ensure that you are authenticated with the team namenac *gccgovsg*.
+2. Navigate to *Account* and ensure that you are authenticated with the team name *gccgovsg*.
 ![mac-gcc](/images/mac-gcc.png)
 3. If Cloudflare WARP is not authenticated to *gccgovsg*, refer to [troubleshooting issues](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues).
 
@@ -129,7 +129,7 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
    - `sudo launchctl kickstart -k system/com.microsoft.wdav`
    - `sudo launchctl kickstart -k system/com.microsoft.wdav.enterprise`
 3. Run `ps aux | grep -i "Defender"` to verify if the services are running now.
-4. If the issue persists, raise a [service request](http://go.gov.sg/seed-techpass-support).ma
+4. If the issue persists, raise a [service request](http://go.gov.sg/seed-techpass-support)
 
 **Ensure that Defender has real-time protection enabled**
 
