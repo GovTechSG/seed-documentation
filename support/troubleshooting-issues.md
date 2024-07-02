@@ -129,7 +129,7 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
    - `sudo launchctl kickstart -k system/com.microsoft.wdav`
    - `sudo launchctl kickstart -k system/com.microsoft.wdav.enterprise`
 3. Run `ps aux | grep -i "Defender"` to verify if the services are running now.
-4. If the issue persists, raise a [service request](http://go.gov.sg/seed-techpass-support).ma
+4. If the issue persists, raise a [service request](http://go.gov.sg/seed-techpass-support)
 
 **Ensure that Defender has real-time protection enabled**
 
