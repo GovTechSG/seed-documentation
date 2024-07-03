@@ -14,20 +14,26 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
 
 1. Search for *Add or Remove Programs* in the search bar.
 2. Ensure that Cloudflare Warp shows up as an installed program.
+
 ![cf](/images/cf-installed.png)
+
 3. Search for *Run* in the search bar and run *services.msc*.
 4. Ensure that Cloudflare WARP is a running service.
+
 ![cf run](/images/cf-running.png)
+
 5. If Cloudflare WARP is not installed or not running, refer to [troubleshooting Cloudflare issues](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues).
 
 **Ensure that Cloudflare is authenticated and verified**
 
 1. Open the taskbar, right-click on the Cloudflare Warp icon, and then click on *Preference*.
 2. Navigate to *Account* and ensure that you are authenticated with the team name *gccgovsg*.
+
 ![acc-cf](/images/acc-cf.png)
+
 3. If Cloudflare WARP is not authenticated to *gccgovsg*, refer to [troubleshooting issues](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues).
 
-**For any other Cloudflare issues, refer to the [troubleshooting documentation](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues).**
+**For any other Cloudflare issues, refer to the Cloudflare troubleshooting information in the relevant section on this page.**
 
 #### Intune
 
@@ -35,10 +41,14 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
 
 1. Search for *Access work or school* in the search bar.
 2. Ensure that you have an account added with a *techpass.gov.sg* domain (for vendors) or a *<agency_name>.gov.sg* domain (for all Public officers).
+
 ![work](/images/work-school.png)
+
 3. Click the account > *Info*.
 4. Ensure that the top of the page shows either *Managed by SG Govt M365* for public officers or *Managed by TechPass* for vendors.
+
 ![cf](/images/managed-by.png)
+
 5. If there is no enrollment, refer to the following links for help on how to enroll your device to Intune:
    - [Public officer](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/public-officer)
    - [Vendor](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/vendor)
@@ -49,7 +59,9 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
 
 1. Search for *Run* in the search bar and type *services.msc*.
 2. Ensure that *Microsoft Defender Antivirus Service* and *Microsoft Defender Core Service* are running.
+
 ![defender run](/images/defender-run.png)
+
 3. If the services are not running, reboot your system and verify again, or try to start them manually by right-clicking and click *Start*.
 4. If your services are unable to start after multiple attempts, raise a [service request](http://go.gov.sg/seed-techpass-support)
 
@@ -58,7 +70,9 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
 1. Search for *Windows Security* in the search bar.
 2. Navigate to *Virus & threat protection* > *Manage Settings* under *Virus & threat protection settings*.
 3. Ensure that *Real-time protection* and *Cloud-delivered protection* are enabled.
+
 ![rt](/images/realtime-protection.png)
+
 4. If they cannot be enabled, navigate to the previous page and click *Check for Updates* under *Virus & threat protection Updates*, and install the updates, if any.
 5. If it is still not enabled, raise a [service request](http://go.gov.sg/seed-techpass-support), and state *Disabled Real-Time protection and Cloud-delivered protection* in the description.
 
@@ -86,7 +100,9 @@ echo $OrgID
 
 1. Access the *Application* folder.
 2. Ensure that Cloudflare WARP is appearing as an installed program.
+
 ![mac-cf](/images/mac-cf.png)
+
 3. Open *Terminal*.
 4. Type `sudo launchctl list | grep -i cloudflare` and ensure the service is running.
 5. If Cloudflare WARP is not installed or not running, refer to the Cloudflare troubleshooting information in the relevant section on this page.
@@ -97,7 +113,9 @@ echo $OrgID
 
 1. Click the *Cloudflare WARP* icon on the taskbar > *Preference*.
 2. Navigate to *Account* and ensure that you are authenticated with the team name *gccgovsg*.
+
 ![mac-gcc](/images/mac-gcc.png)
+
 3. If Cloudflare WARP is not authenticated to *gccgovsg*, refer to [troubleshooting issues](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues).
 
 #### Intune
@@ -107,7 +125,9 @@ echo $OrgID
 1. Log into Company Portal using your `<agency_name>.gov.sg` or `techpass.gov.sg` username.
 2. Ensure that your device is shown as **managed**.
 3. Ensure that the top right-hand corner shows *SG Govt M365* or *TechPass* to show it is managed by the correct tenant.
+
 ![mac-365](/images/mac-365.png)
+
 4. If there is no enrollment, refer to the following links for help on how to enroll to Intune:
 
    - [Public officer](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/public-officer)
@@ -121,6 +141,7 @@ echo $OrgID
 **Ensure that the Defender service is installed**
 
 1. Access the *Application* folder.
+
 ![mac-app](/images/mac-app.png)
 
 **Ensure that the Defender service is running and is healthy**
@@ -149,6 +170,7 @@ echo $OrgID
 1. Open *Terminal*.
 2. Run `mdatp health --field cloud_enabled`.
 3. Ensure that the value is *true*.
+
 ![mac-virus](/images/mac-virus.png)
 
 **Ensure that Defender has a valid tenant**
@@ -164,9 +186,12 @@ echo $OrgID
 
 1. Open Microsoft Defender.
 2. Under *Virus & threat protection updates*, click *Check for updates*.
+
 ![mac-check](/images/mac-check.png)
+
 3. Click *Help* > *Check for product updates*.
 4. Click *Update All*.
+
 ![mac-virus](/images/mac-update-all.png)
 
 <!-- tabs:end -->
