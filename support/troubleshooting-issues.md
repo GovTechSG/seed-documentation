@@ -64,12 +64,17 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
 
 **Ensure that Defender has a valid tenant**
 
-1. Search for *Run* in the search bar and type *regedit*.
-2. Navigate to *Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Advanced Threat Protection\Status* and look at the value of the *OrgID* key.
-3. Ensure that the value is one of the following:
+1. Go to the Start menu and enter Powershell.
+2. Right-click on the search result for PowerShell and select Run as Administrator
+3. On Powershell, run the following command.
+$reg64 = [Microsoft.Win32.RegistryKey]::OpenBaseKey([Microsoft.Win32.RegistryHive]::LocalMachine, [Microsoft.Win32.RegistryView]::Registry64)
+$OrgID =  $reg64.OpenSubKey("SOFTWARE\MICROSOFT\Windows Advanced Threat Protection\Status").GetValue("OrgID")
+echo $OrgID
+4. Take note of the value displayed for OrgID.
+5. Ensure that the value is one of the following:
    - Public officers: faa36a5e-2da6-4225-8e27-226177c801a0
    - Vendors: 49237d71-42ac-425a-a803-881b92cc18ce
-4. If the values are different, check with your IT administrator to identify which Defender tenant you are currently under and offboard from that tenant before attempting to re-onboard.
+6. If the values are different, check with your IT administrator to identify which Defender tenant you are currently under and offboard from that tenant before attempting to re-onboard.
 
 ### **macOS**
 
