@@ -66,10 +66,12 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
 
 1. Go to the Start menu and enter Powershell.
 2. Right-click on the search result for PowerShell and select Run as Administrator
-3. On Powershell, run the following command.
+3. On Powershell, run the following command:
+```
 $reg64 = [Microsoft.Win32.RegistryKey]::OpenBaseKey([Microsoft.Win32.RegistryHive]::LocalMachine, [Microsoft.Win32.RegistryView]::Registry64)
 $OrgID =  $reg64.OpenSubKey("SOFTWARE\MICROSOFT\Windows Advanced Threat Protection\Status").GetValue("OrgID")
 echo $OrgID
+```
 4. Take note of the value displayed for OrgID.
 5. Ensure that the value is one of the following:
    - Public officers: faa36a5e-2da6-4225-8e27-226177c801a0
@@ -87,7 +89,7 @@ echo $OrgID
 ![mac-cf](/images/mac-cf.png)
 3. Open *Terminal*.
 4. Type `sudo launchctl list | grep -i cloudflare` and ensure the service is running.
-5. If Cloudflare WARP is not installed or not running, refer to [troubleshooting Cloudflare issues](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues).
+5. If Cloudflare WARP is not installed or not running, refer to the Cloudflare troubleshooting information in the relevant section on this page.
 
 > **Note**: Spotlight is used to detect the existence of applications. If you have disabled Spotlight, we would not be able to detect Cloudflare WARP on your device.
 
