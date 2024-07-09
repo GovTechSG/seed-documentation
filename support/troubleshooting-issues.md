@@ -148,7 +148,9 @@ echo $OrgID
 
 1. Open *Terminal*.
 2. Run `ps aux | grep -i "Defender"`.
-3. Ensure you see the following output.
+3. Ensure you see the following output:
+
+![defender-terminal](/images/defender-terminal.png)
 
 **If the service is not running, refer to the following steps**:
 
