@@ -148,7 +148,9 @@ echo $OrgID
 
 1. Open *Terminal*.
 2. Run `ps aux | grep -i "Defender"`.
-3. Ensure you see the following output.
+3. Ensure you see the following output:
+
+![defender-terminal](/images/defender-terminal.png)
 
 **If the service is not running, refer to the following steps**:
 
@@ -220,6 +222,11 @@ If your Cloudflare WARP is stuck in the connecting status, please follow these s
 3. Search for **Cloudflare WARP** and select **Uninstall**.
 
 After uninstalling, proceed to [download Cloudflare WARP](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/)
+
+For a smooth experience, download the following versions:
+
+- **Windows**: Version 2024.3.409.0
+- **macOS**: Version 2024.3.409.0
 
 Once downloaded, follow these steps:
 
