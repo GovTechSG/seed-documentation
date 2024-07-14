@@ -281,27 +281,27 @@ When using SGTS products with Cloudflare WARP, you might encounter an error mess
 
 ## Connectivity issues for macOS WARP users
 
-Cloudflare has reported connectivity problems for users with macOS WARP client versions earlier than 2022.12.583.0 (20230112.24). These users may experience intermittent connectivity issues while trying to access websites.
+Cloudflare has reported connectivity problems for users with macOS WARP. Users may experience intermittent connectivity issues while trying to access websites.
 
 
 ### Solutions
 
-#### Workaround 1: Update Cloudflare WARP client to the latest version
+#### Workaround: Uninstall and reinstall Cloudflare WARP
 
-**To update your Cloudflare WARP client**:
+**To uninstall and reinstall Cloudflare WARP on macOS**:
 
-1. Open Cloudflare WARP on your GMD.
-2. Click **Settings** > **About WARP**.
-3. Click **Check for Updates** to see details of the latest version.
+1. Open **Finder** and go to the **Applications** folder.
+2. Locate **Cloudflare WARP** and drag it to the **Trash**.
+3. Empty the **Trash** to complete the uninstallation.
 
->- If you encounter an error when checking for updates, turn off Cloudflare WARP, ensure you can connect to the internet, and then repeat steps 1-3.
+**To download and install Cloudflare WARP**:
 
-4. Click **Install Updates** to download the latest version.
-5. Enter your device password when prompted and click **OK**.
-6. Click **Install and Relaunch** to install the downloaded latest version of Cloudflare WARP.
-7. Repeat steps 1-2 and confirm if the latest Cloudflare version is installed on your GMD.
-> **Note**:
-> If you still face issues, uninstall WARP and install the latest version**.
+1. Proceed to [download Cloudflare WARP](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/).
+   - **macOS:** Version 2024.3.409.0
+
+2. Install the downloaded version on your GMD.
+3. Follow the installation prompts and restart Cloudflare WARP.
+
 
 <!-- tabs:start -->
 
@@ -330,7 +330,7 @@ Cloudflare has reported connectivity problems for users with macOS WARP client v
  
 <!-- tabs:end -->
 
-Once downloaded,follow the steps below:
+Once downloaded, follow the steps below:
 
 1. Click the **gear** icon > **Preferences** > **Account**.
 
