@@ -226,7 +226,7 @@ After uninstalling, proceed to [download Cloudflare WARP](https://developers.clo
 For a smooth experience, download the following versions:
 
 - **Windows**: Version 2024.3.409.0
-- **macOS**: Version 2024.3.409.0
+- **macOS**: Version 2024.3.444.0
 
 Once downloaded, follow these steps:
 
@@ -279,29 +279,14 @@ When using SGTS products with Cloudflare WARP, you might encounter an error mess
 3. If the issues persist, [generate a diagnostic report](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/generate-diagnostic-files) and upload it to the [service request](https://go.gov.sg/seed-techpass-support).
 
 
-## Connectivity issues for macOS WARP users
+## Connectivity issues for macOS and windows WARP users
 
-Cloudflare has reported connectivity problems for users with macOS WARP. Users may experience intermittent connectivity issues while trying to access websites.
+Cloudflare has reported connectivity problems for users with macOS and windows WARP. Users may experience intermittent connectivity issues while trying to access websites.
 
 
 ### Solutions
 
 #### Workaround: Uninstall and reinstall Cloudflare WARP
-
-**To uninstall and reinstall Cloudflare WARP on macOS**:
-
-1. Open **Finder** and go to the **Applications** folder.
-2. Locate **Cloudflare WARP** and drag it to the **Trash**.
-3. Empty the **Trash** to complete the uninstallation.
-
-**To download and install Cloudflare WARP**:
-
-1. Proceed to [download Cloudflare WARP](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/).
-   - **macOS:** Version 2024.3.409.0
-
-2. Install the downloaded version on your GMD.
-3. Follow the installation prompts and restart Cloudflare WARP.
-
 
 <!-- tabs:start -->
 
@@ -318,7 +303,11 @@ Cloudflare has reported connectivity problems for users with macOS WARP. Users m
 
 3. Enter `Y`. When WARP is successfully uninstalled, the message ```Finished uninstallation!``` is displayed.
 
-4. <a href="https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/post-onboarding-instructions/mac-os?id=turn-on-cloudflare-warp-for-macos-13">Install the latest WARP client for macOS.</a>
+4. Proceed to [download Cloudflare WARP](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/).
+   - **macOS**: Version 2024.3.444.0 
+
+5. Install the downloaded version on your GMD.
+6. Follow the installation prompts and restart Cloudflare WARP.
 
 #### **Windows**
 
@@ -326,8 +315,9 @@ Cloudflare has reported connectivity problems for users with macOS WARP. Users m
   2. Go to **Settings** > **Apps** and search for **Cloudflare WARP**.
   3. Choose Cloudflare WARP and click **Uninstall**.
 
-  4. <a href="https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/post-onboarding-instructions/windows">Install the latest WARP client for Windows.</a>
- 
+  4. Proceed to [download Cloudflare WARP](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/).
+     - **Windows**: Version 2024.3.409.0
+
 <!-- tabs:end -->
 
 Once downloaded, follow the steps below:
