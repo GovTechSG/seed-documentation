@@ -232,12 +232,14 @@ Once downloaded, follow these steps:
 
 1. Click the **gear** icon > **Preferences** > **Account**.
 
-![gear](/images/disconnected-cf.png)
+   ![gear](/images/disconnected-cf.png)
 
 2. Log in with Cloudflare for Teams.
 3. Enter **gccgovsg** in the organisation name field.
-![gear](/images/gcc-org.png)
-4. Test using incognito mode using Google Chrome or Microsoft Edge browser and test using your personal hotspot or home Wi-Fi.
+4. 
+   ![gear](/images/gcc-org.png)
+   
+6. Test using incognito mode using Google Chrome or Microsoft Edge browser and test using your personal hotspot or home Wi-Fi.
 
 Ensure to re-authenticate your Cloudflare WARP client with the following steps:
 
@@ -270,7 +272,7 @@ When using SGTS products with Cloudflare WARP, you might encounter an error mess
     - Make sure Defender is updated and running.
     - Check if your TechPass account has the necessary permissions for GCC 2.0 CMP or a specific SGTS service.
 
-> **Note**
+> **Note**:
 >- SEED does not support running other VPN clients alongside Cloudflare WARP.
 >- It is recommended not to use WARP and a VPN simultaneously.
 
@@ -306,16 +308,13 @@ Cloudflare has reported connectivity problems for users with macOS and Windows W
 4. Proceed to [download Cloudflare WARP](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/).
    - **macOS**: Version 2024.3.444.0 
 
-5. Install the downloaded version on your GMD.
-6. Follow the installation prompts and restart Cloudflare WARP.
-
 #### **Windows**
 
 1. To uninstall the existing WARP client, click the **Start** icon on the taskbar.
 2. Go to **Settings** > **Apps** and search for **Cloudflare WARP**.
 3. Choose Cloudflare WARP and click **Uninstall**.
 4. Proceed to [download Cloudflare WARP](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/).
-     - **Windows**: Version 2024.3.409.0
+   - **Windows**: Version 2024.3.409.0
 
 <!-- tabs:end -->
 
