@@ -311,11 +311,10 @@ Cloudflare has reported connectivity problems for users with macOS and Windows W
 
 #### **Windows**
 
-  1. To uninstall the existing WARP client, click the **Start** icon on the taskbar.
-  2. Go to **Settings** > **Apps** and search for **Cloudflare WARP**.
-  3. Choose Cloudflare WARP and click **Uninstall**.
-
-  4. Proceed to [download Cloudflare WARP](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/).
+1. To uninstall the existing WARP client, click the **Start** icon on the taskbar.
+2. Go to **Settings** > **Apps** and search for **Cloudflare WARP**.
+3. Choose Cloudflare WARP and click **Uninstall**.
+4. Proceed to [download Cloudflare WARP](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/).
      - **Windows**: Version 2024.3.409.0
 
 <!-- tabs:end -->
