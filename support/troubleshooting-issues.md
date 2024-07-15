@@ -281,7 +281,7 @@ When using SGTS products with Cloudflare WARP, you might encounter an error mess
 
 ## Connectivity issues for macOS and windows WARP users
 
-Cloudflare has reported connectivity problems for users with macOS and windows WARP. Users may experience intermittent connectivity issues while trying to access websites.
+Cloudflare has reported connectivity problems for users with macOS and Windows WARP. Users may experience intermittent connectivity issues while trying to access websites.
 
 
 ### Solutions
