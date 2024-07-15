@@ -322,12 +322,14 @@ Once downloaded, follow the steps below:
 
 1. Click the **gear** icon > **Preferences** > **Account**.
 
-![gear](/images/disconnected-cf.png)
+   ![gear](/images/disconnected-cf.png)
 
 2. Log in with Cloudflare for Teams.
 3. Enter **gccgovsg** in the organisation name field.
-![gear](/images/gcc-org.png)
-4. Test using incognito mode using Google Chrome or Microsoft Edge browser and test using your personal hotspot or home Wi-Fi.
+
+   ![gear](/images/gcc-org.png)
+   
+5. Test using incognito mode using Google Chrome or Microsoft Edge browser and test using your personal hotspot or home Wi-Fi.
 
 Ensure to re-authenticate your Cloudflare WARP client with the following steps:
 
