@@ -27,7 +27,7 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
 3. Enter your macOS password when prompted.
 4. If you see confirmation, as shown in the image below, Tanium Client is installed on your device.
 ![tanium-client](/images/tanium-client-mac.png)
-5. If you are unable to find it, log into Company Portal to install the Tanium Client on your device. Otherwise, you might need to re-onboard your device following the steps here: [SEED Prerequisites](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/seed-prerequisites)
+5. If you are unable to find it, log into Company Portal to install the Tanium Client on your device. Otherwise, you might need to re-onboard your device following the steps [here](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/seed-prerequisites).
 
 
 <!-- tabs:end -->
