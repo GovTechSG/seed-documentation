@@ -2,6 +2,36 @@
 
 This guide provides solutions to common problems for SEED. Follow the steps below to troubleshoot and resolve the problems you're experiencing.
 
+## Tanium issues
+
+<!-- tabs:start -->
+
+### **Windows**
+
+**Check for Tanium Client installation**
+
+1. Click the Start icon on the taskbar.
+2. Go to *Settings* > *Apps *and search for Tanium Client.
+   
+![tanium](/images/tanium-client-win.png)
+
+3. If you are unable to find it, try to resync your Intune to install the Tanium Client on your device.
+
+### **macOS**
+
+**Check for Tanium Client installation**
+
+1. Open *Terminal*.
+2. Eun the following command:
+   ```sudo ls /Library/Tanium/TaniumClient```
+3. Enter your macOS password when prompted.
+4. If you see confirmation, as shown in the image below, Tanium Client is installed on your device.
+![tanium-client](/images/tanium-client-mac.png)
+5. If you are unable to find it, log into Company Portal to install the Tanium Client on your device. Otherwise, you might need to re-onboard your device following the steps [here](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/seed-prerequisites).
+
+
+<!-- tabs:end -->
+
 ## Receiving notifications on desktop and email for misconfigurations on SEED device
 
 <!-- tabs:start -->
