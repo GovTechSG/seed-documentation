@@ -22,6 +22,8 @@ Following are the support channels for the various service/product users who exp
 
 For business-related questions and requests, please contact us at enquiries_seed@tech.gov.sg.
 
+> **Service Desk operating hours:** Mondays to Fridays (excluding Public Holidays) from 8.30am to 6.30pm.
+
 ## Troubleshooting procedures
 
 To troubleshoot issues with Cloudflare WARP, Tanium, Defender, Intune, GCC 2.0 CMP, or SGTS products:

@@ -1,1 +1,1 @@
-!> This documentation has moved to [General FAQ](general-faq).
+!> This documentation has moved to [General FAQ](faqs/general-faq).
