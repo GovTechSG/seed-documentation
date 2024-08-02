@@ -15,7 +15,7 @@ Supported browsers:
 
 Supported OS:
 
-- macOS 12 or higher
+- macOS 13 or higher
 - Windows 10 and 11 (Pro and Enterprise)
 
 > **Note**:
@@ -62,19 +62,9 @@ Follow the steps below to check for and remove any existing software on your dev
 
   Complete the following steps to find if your device is already managed by an MDM solution. 
   
-  1. Choose the appropriate step based on your macOS version:
-    
-      a. If your macOS version is macOS 12, navigate to the **Apple** menu > **System Preferences** > **Profiles**.
+  1. Navigate to the **Apple** menu > **System Settings** > **Privacy and Security** > **Profiles** on the right. You may need to scroll down.
 
-      b. If your macOS version is macOS 13 or 14, navigate to the **Apple** menu > **System Settings** > **Privacy and Security** > **Profiles** on the right. You may need to scroll down.
-
-  2. Click **Management Profile**.
-     
-      a. If your macOS version is macOS 12, and you see a page similar to the following, it indicates that you already have an MDM software installed.
-
-      ![verify-other-mdm](../images/onboarding-for-macos/verify-other-mdm.png)
-
-      b. If your macOS version is macOS 13 or 14 and you see a similar page, it indicates that you already have MDM software installed.
+  2. Click **Management Profile**. If you see a similar page, it indicates that you already have MDM software installed.
 
       ![verify-other-mdm-on-ventura](../images/onboarding-for-macos/verify-other-mdm-on-ventura.png)
      
