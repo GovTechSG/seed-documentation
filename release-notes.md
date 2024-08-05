@@ -11,6 +11,17 @@ This section lists the most recent enhancements, new features and fixes that are
 | **Gamma Release** | **Device Based Blocking** | To enforce better protection to our development resources e.g., GCC and SGTS services and tools. On 19 July 2023, we have rolled out beta testing for more effective blocking of access when a GMD's health is at risk. We have passed the beta test and we have rolled out the gamma release. If you have queries on this feature, please get in touch with us through our SEED mailbox at: [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg).|
 -->
 
+## August 2024
+
+### 5 August 2024
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **New feature** | **Enhanced notification for access issues** | Improved notifications to help users troubleshoot access issues with SGTS services. For any queries, please contact us via the SEED mailbox at: [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg). |
+| **New feature** | **Improved SEED component integrations** | More effective integrations between SEED components to promote a smoother user experience when accessing SGTS services. For any queries, please contact us via the SEED mailbox at: [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg). |
+| **New feature** | **Expanded browser support** | Widened support to include Safari browser for macOS users. For any queries, please contact us via the SEED mailbox at: [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg). |
+| **New feature** | **Strengthened security for GCC 2.0 AWS** | Enhanced protection for access to GCC 2.0 AWS. For any queries, please contact us via the SEED mailbox at: [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg). |
+
 
 ## March 2024
 
