@@ -9,10 +9,9 @@ Ensure you are using one of the supported browsers and operating systems before 
 **Supported browsers**:
 
 - Google Chrome
+- Safari
 - Microsoft Edge
 - Mozilla Firefox (Configuration needed, [learn more](https://support.mozilla.org/en-US/kb/setting-certificate-authorities-firefox))
-
-> **Note**: Safari is not supported. You must download and use one of the supported browsers listed above before onboarding to SEED.
 
 **Supported Operating Systems (OS)**:
 
