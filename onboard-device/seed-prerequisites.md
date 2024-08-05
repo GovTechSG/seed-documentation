@@ -9,7 +9,7 @@ Supported browsers:
  - Google Chrome
  - Microsoft Edge
  - Mozilla Firefox. If you are using Mozilla Firefox, you need to [configure Firefox to trust the root certificate store of your system](https://support.mozilla.org/en-US/kb/setting-certificate-authorities-firefox).
- - Safari.
+ - Safari
 
 Supported OS:
 
