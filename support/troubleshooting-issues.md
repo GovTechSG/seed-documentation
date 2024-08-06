@@ -32,6 +32,12 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
 
 <!-- tabs:end -->
 
+## Other Tanium issues
+
+If your device remains blocked after checking all the other settings, please try to connect using a mobile hotspot and wait for 15-20 minutes for the Tanium server to find your device.
+
+If step 1 is successful and your device is unblocked, it is probable that the firewall of the previous network you're connecting to is blocking the Tanium IPs. We suggest you contact your system administrator to whitelist the Tanium IPs. The IP addresses can be found at this link (accessible via TechPass login)](https://docsportallink).
+
 ## Receiving notifications on desktop and email for misconfigurations on SEED device
 
 <!-- tabs:start -->
