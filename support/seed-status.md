@@ -11,10 +11,12 @@ No ongoing maintenance!
 
 
 
-
 ## Ongoing incidents
 
-No ongoing incidents!
+| Date | 20 August 2023 |
+| ------------- |:-------------|
+| **Issue summary** | We have identified access issues where SEED users are not able to access the GCC2.0 AWS portal on their GMD and Comet devices as of 20 August, 10:59 SGT. <br><br>**Impact**: SEED users may experience access issues with the GCC2.0 portal on both GMD and Comet devices. GSIB is unaffected. <br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support).|
+
 
 
 <!-- | Date | 09 July 2023 |
