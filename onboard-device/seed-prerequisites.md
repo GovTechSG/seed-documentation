@@ -13,7 +13,7 @@ Supported browsers:
 
 Supported OS:
 
-- macOS 13 or higher
+- macOS 13 and 14
 - Windows 10 and 11 (Pro and Enterprise)
 
 > **Note**:
