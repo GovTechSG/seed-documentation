@@ -2,6 +2,49 @@
 
 This guide provides solutions to common problems for SEED. Follow the steps below to troubleshoot and resolve the problems you're experiencing.
 
+## Troubleshooting access issues for SGTS Resources
+
+If you encounter the screen below:
+
+![Error Screen](cf-i1.png)
+
+Please follow the steps below to diagnose the issue:
+
+1. **Check the SEED Dashboard**: Investigate why access to certain resources might be restricted. However, before accessing the SEED Dashboard, ensure the following:
+
+   - Your Cloudflare WARP client is connected and enrolled in the `gccgovsg` organisation.
+   - The Tanium Client is installed and running on your device.
+
+If these conditions are met, you will be able to access the SEED Dashboard on your GMD to diagnose the issue with your device.
+
+### Possible reasons for blocking
+
+1. **Malware on the device**: If your device is infected with malware or exhibits suspicious behaviour that could indicate a compromised endpoint, it may be classified as high-risk, resulting in blocked access to SGTS resources.
+
+2. **Incorrect configuration of essential components for SEED**:
+   - **Cloudflare**:
+     - The service must be running, without being terminated or stopped.
+     - The service must be enrolled in the `gccgovsg` organisation. If your Cloudflare is not enrolled in the correct organisation (or any organisation), your device will be marked as misconfigured.
+   - **Intune**:
+     - Your device must be enrolled in one of the following tenants: `SG Govt M365` or `TECHPASS`. To verify, click "Access Work or School" and then the "Info" button on your account.
+     - The device must be able to sync with Intune.
+   - **Defender**:
+     - The MDE client must be enrolled in the correct tenant. Refer to the documentation on which tenants are correct for each persona. Ensure your tenant matches your onboarding persona, as outlined [here](#). The `org_id` can be obtained from the offboarding documentation for Mac or Windows under Phase A.
+     
+       - `WOG` org_id: `faa36a5e-2da6-4225-8e27-226177c801a0`
+       - `TechPass` org_id: `49237d71-42ac-425a-a803-881b92cc18ce`
+     - The MDE client must have the following settings enabled:
+       - Real-time protection
+       - Cloud-delivered protection/cloud enabled
+       - No other health issues (can be checked using `mdatp health` on Mac)
+     - The MDE client process must be running.
+
+3. **Tanium Client unable to communicate**: If the Tanium Client cannot communicate with our servers or is registered to another server, the device may be blocked due to incorrect telemetry.
+
+4. **Other reasons**:
+   - **Unable to identify the device on Cloudflare**: Check using `warp-cli registration show` to ensure that your device still has a `Device ID` field. If this field is missing, there may be issues with your WARP client.
+
+
 ## Tanium issues
 
 <!-- tabs:start -->
