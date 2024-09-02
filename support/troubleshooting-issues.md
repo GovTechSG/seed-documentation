@@ -6,7 +6,7 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
 
 If you encounter the screen below:
 
-![Error Screen](image8.png)
+![Error Screen](cf-i1.png)
 
 Please follow the steps below to diagnose the issue:
 
