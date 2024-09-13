@@ -1,6 +1,33 @@
 # Troubleshooting issues
 
-This guide provides solutions to common problems for SEED. Follow the steps below to troubleshoot and resolve the problems you're experiencing.
+This guide provides solutions to common problems for SEED. Follow the steps below to troubleshoot and resolve the problems you aree experiencing.
+
+## Troubleshooting access issues for SGTS Resources
+
+If you encounter the screen below:
+
+![Error Screen](/images/cf-i1.png)
+
+Follow these steps to diagnose the issue:
+
+1. **Check the SEED Dashboard**: Start by investigating the reason why access to certain resources is restricted. Ensure the following:
+
+   - Your Cloudflare WARP client is connected and enrolled in the `gccgovsg` organisation.
+   - The Tanium Client is installed and running on your device.
+
+Once these conditions are met, you can access the SEED Dashboard on your GMD to further diagnose the issue with your device.
+
+### Possible reasons for blocking
+
+Access to SGTS resources may be blocked for the following reasons:
+
+| **Issue** | **Description** | **Category** |
+|---|---|---|
+| Malware on the device | The device is infected with malware or exhibits suspicious behavior, causing it to be classified as high-risk and blocking access to SGTS. | Security |
+| Incorrect Cloudflare configuration | The Cloudflare WARP client is either stopped or not enrolled in the `gccgovsg` organization, marking the device as misconfigured. | Configuration |
+| Incorrect Intune configuration | Device not enrolled in the correct tenants (`SG Govt M365` or `TECHPASS`), or unable to sync with Intune, blocking access to resources. | Configuration |
+| Tanium Client cannot communicate | The Tanium Client is unable to communicate with our servers, leading to blocked access due to lack of necessary status updates.| Configuration |
+
 
 ## Tanium issues
 
