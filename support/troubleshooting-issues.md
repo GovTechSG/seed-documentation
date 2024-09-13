@@ -26,7 +26,7 @@ Access to SGTS resources may be blocked for the following reasons:
 | Malware on the device | The device is infected with malware or exhibits suspicious behavior, causing it to be classified as high-risk and blocking access to SGTS. | Security |
 | Incorrect Cloudflare configuration | The Cloudflare WARP client is either stopped or not enrolled in the `gccgovsg` organization, marking the device as misconfigured. | Configuration |
 | Incorrect Intune configuration | Device not enrolled in the correct tenants (`SG Govt M365` or `TECHPASS`), or unable to sync with Intune, blocking access to resources. | Configuration |
-| Tanium Client cannot communicate | The Tanium Client is unable to communicate with our servers, leading to blocked access due to lack of necessary status updates.| Communication issues |
+| Tanium Client cannot communicate | The Tanium Client is unable to communicate with our servers, leading to blocked access due to lack of necessary status updates.| Configuration |
 
 
 ## Tanium issues
