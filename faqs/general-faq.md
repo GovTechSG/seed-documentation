@@ -142,3 +142,8 @@ No, you will not receive any notification for this.
 Refer to the following image below:
 ![reset_password](/images/reset-password-utiliy.png)
 </details>
+
+<details><summary>Is SEED supported on macOS 15?</summary>
+Currently, SEED is not supported on macOS 15 Sequoia. We recommend not updating to macOS 15 as you may experience issues. For assistance, contact us at enquiries_seed@tech.gov.sg.
+
+</details>
