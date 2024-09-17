@@ -1,6 +1,6 @@
 # Troubleshooting issues
 
-This guide provides solutions to common problems for SEED. Follow the steps below to troubleshoot and resolve the problems you aree experiencing.
+This guide provides solutions to common problems for SEED. Follow the steps below to troubleshoot and resolve the problems you are experiencing.
 
 ## Troubleshooting access issues for SGTS Resources
 
