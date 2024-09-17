@@ -11,7 +11,6 @@
   - [Onboard as a vendor](onboard-device/vendor)
 - Post onboarding steps  
   - [macOS 14 and 13 post onboarding guide](/post-onboarding-instructions/macos-latest.md)
-  - [macOS 12 post onboarding guide](/post-onboarding-instructions/macos.md)
   - [Windows post onboarding guide](/post-onboarding-instructions/windows.md)
 - Monitor using SEED Dashboard
   - [SEED Dashboard overview](/seed-dashboard/seed-dashboard-overview.md)
