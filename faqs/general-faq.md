@@ -144,6 +144,6 @@ Refer to the following image below:
 </details>
 
 <details><summary>Is SEED supported on macOS 15?</summary>
-SEED has not been officially tested on macOS 15 Sequoia. Therefore, no support can be provided if users run into issues. We recommend not updating to macOS 15 at this time. For further assistance, contact us at enquiries_seed@tech.gov.sg.
+SEED has not been officially tested on macOS 15 Sequoia. Therefore, no support can be provided if users run into issues. For further assistance, contact us at enquiries_seed@tech.gov.sg.
 
 </details>
