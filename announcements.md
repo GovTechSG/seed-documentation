@@ -2,6 +2,7 @@
 
 | <div style="width:150px"><b>Date</b></div>  | Announcement |
 | --- | --- |
+| 20 September 2024 | A new banner feature has been introduced on the [SEED Dashboard](https://dashboard.seed.tech.gov.sg/) to push critical messages to SEED users.<br><br>.<br><br>**For more assistance**:<br>Email us at enquiries_seed@tech.gov.sg. |
 | 16 September 2024 | SEED has not been officially tested on macOS 15 Sequoia, and we cannot provide support if users encounter issues. <br><br>For more assistance:<br>Email us at enquiries_seed@tech.gov.sg. |
 | 30 August 2024 | The previously announced support for macOS 15 Sequoia, originally scheduled to begin on August 31, 2024, has been delayed until further notice.<br><br>**For more assistance**:<br>Email us at enquiries_seed@tech.gov.sg. |
 | 5 August 2024 | SEED team has implemented the following changes:<br><br> - Enhanced notifications to help users troubleshoot access issues with SGTS services.<br> - Improved integrations between SEED components for a smoother user experience when accessing SGTS services.<br> - Expanded browser support, now including Safari for macOS users.<br> - Strengthened security measures for accessing GCC 2.0 AWS.<br><br>**For more assistance**:<br>Create an [incident support request](https://go.gov.sg/seed-techpass-support).|
