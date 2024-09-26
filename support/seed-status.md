@@ -13,7 +13,9 @@ No ongoing maintenance!
 
 ## Ongoing incidents
 
-No ongoing incidents!
+| Date | 25 September 2024 |
+| ------------- |:-------------|
+| **Issue summary** | We are currently experiencing intermittent connectivity issues with Cloudflare, affecting SEED users as of 25 September 2024, 09:54 SGT. <br><br>**Impact**: Users may be unable to access SGTS services at this time. Our team is actively working to resolve the issue. <br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support).|
 
 
 
