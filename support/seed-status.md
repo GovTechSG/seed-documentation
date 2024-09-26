@@ -26,6 +26,12 @@ No ongoing maintenance!
 
 ## Previous incidents
 
+| Date | 26 September 2024 |
+| ------------- |:-------------|
+| **Issue summary** | **Resolved**<br>The Cloudflare connectivity issue affecting SEED users has been resolved as of 26 September 2024, 11:30 SGT. <br><br>*Updated on: 26 September 2024, 09:33 SGT*<br><br>**Impact**: Users may have experienced issues accessing SGTS or GCC services during the outage. <br><br>**Workaround**: If you are still facing issues, please turn Cloudflare WARP off and on again, and reboot your device. <br><br>**What should I do if I am still having an issue?**<br> Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+
+
+
 | Date | 20 August 2024 |
 |------|--------------|
 | **Issue summary** | **Resolved**<br>The issue has been resolved.<br><br>*Updated on: 20 August 2024, 2:25 PM SGT*<br><br>The access issues where SEED users were unable to access the GCC2.0 AWS portal on their GMDs and Comet devices have been resolved. Both TechPass and SEED teams have verified recovery.<br><br>**Impact**:<br/>Users may have experienced disruptions accessing the GCC2.0 AWS portal on GMDs and Comet devices. GSIB was unaffected.<br><br>**Workaround**:<br>The issue has been resolved, so no workaround is necessary.<br><br>**What should I do if I am still having an issue?**<br> Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
