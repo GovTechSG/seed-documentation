@@ -146,17 +146,15 @@ To resolve the issue, follow these steps:
    - At the top right, select your username and click **My Account** to view your profile details.
    - Reboot your device.
 
-2. **For Mac (Intel Chip)**:
+2. **For mac (Intel)**:
    - Connect to your personal hotspot.
    - Open Terminal and run the following command:  
      `launchctl kickstart -k -p system/com.tanium.taniumclient`
    - Go to the Company Portal, click on the three dots, and select **Check status** to sync the device.
    - Wait for 5–10 minutes for the status in the TechPass portal to change to 'Onboarded'. If the status does not update, restart the Tanium service and wait again.
 
-3. **For Mac (M1 to M3 Apple Chip)**:
+3. **For mac (Apple silicone chip)**:
    - Connect to your personal hotspot.
-   - Open Terminal and run this command to install Rosetta:  
-     `sudo softwareupdate --install-rosetta`
    - Reboot your device.
    - Go to the Company Portal, click on the three dots, and select **Check status** to sync the device.
    - Wait for 5–10 minutes for the status in the TechPass portal to change to 'Onboarded'. If it does not update, restart the Tanium service and wait again.
@@ -170,6 +168,7 @@ To resolve the issue, follow these steps:
 If the issue persists after following these steps, please raise an [incident support request](https://go.gov.sg/seed-techpass-support).
 
 </details>
+
 
 <details>
   <summary>While approving the management profiles, I get a message <b>Profiles cannot be approved while using remote or automated input method</b>. What should I do?</summary>
