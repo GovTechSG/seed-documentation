@@ -131,6 +131,45 @@ Before raising a service request, confirm the following:
 
 </details>
 
+<details>
+<summary>What should I do if my onboarding status to SEED shows as 'Failed' due to Tanium issues?</summary>
+
+Possible reasons for a failed onboarding status include:
+
+- **Failed (Tanium not installed or configured incorrectly)**: Tanium was either not installed or set up properly.
+- **Failed (Error occurred while tagging device as onboarded)**: An issue occurred while tagging the device as onboarded in Tanium.
+- **Failed (Error occurred while installing endpoint identity tools)**: An error occurred during the installation of the endpoint identity tools.
+
+To resolve the issue, follow these steps:
+
+1. **Access the TechPass portal on your non-SE GSIB device**:
+   - At the top right, select your username and click **My Account** to view your profile details.
+   - Reboot your device.
+
+2. **For Mac (Intel Chip)**:
+   - Connect to your personal hotspot.
+   - Open Terminal and run the following command:  
+     `launchctl kickstart -k -p system/com.tanium.taniumclient`
+   - Go to the Company Portal, click on the three dots, and select **Check status** to sync the device.
+   - Wait for 5–10 minutes for the status in the TechPass portal to change to 'Onboarded'. If the status does not update, restart the Tanium service and wait again.
+
+3. **For Mac (M1 to M3 Apple Chip)**:
+   - Connect to your personal hotspot.
+   - Open Terminal and run this command to install Rosetta:  
+     `sudo softwareupdate --install-rosetta`
+   - Reboot your device.
+   - Go to the Company Portal, click on the three dots, and select **Check status** to sync the device.
+   - Wait for 5–10 minutes for the status in the TechPass portal to change to 'Onboarded'. If it does not update, restart the Tanium service and wait again.
+
+4. **For Windows devices**:
+   - Click on **Run**, type `services.msc`, and find **Tanium Client**. Right-click and select **Restart**.
+   - Connect to your mobile personal hotspot.
+   - Go to **Access work or school**, click on the **Info** button next to your TechPass account, and then click **Sync**.
+   - Wait for 5–10 minutes for the status in the TechPass portal to change to 'Onboarded'. If it does not update, restart the Tanium service and wait again.
+
+If the issue persists after following these steps, please raise an [incident support request](https://go.gov.sg/seed-techpass-support).
+
+</details>
 
 <details>
   <summary>While approving the management profiles, I get a message <b>Profiles cannot be approved while using remote or automated input method</b>. What should I do?</summary>
