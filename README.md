@@ -18,6 +18,10 @@ Ensure you are using one of the supported browsers and operating systems before 
 - macOS 13 and 14
 - Windows 10 and 11 (Pro and Enterprise)
 
+> **Important notice for SEED users on macOS 15 (Sequoia)**:  
+If you are experiencing Cloudflare issues after upgrading to macOS 15, you may need to temporarily disable your device firewall. For more details, please refer to this [Cloudflare community post](https://community.cloudflare.com/t/cf-dns-lookup-failure-cloudflare-zero-trust-gateway-with-wrap-on-macos-15/712557).
+
+
 
 ## Popular topics
 |  |  | 

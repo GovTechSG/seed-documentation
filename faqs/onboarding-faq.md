@@ -131,6 +131,44 @@ Before raising a service request, confirm the following:
 
 </details>
 
+<details>
+<summary>What should I do if my onboarding status to SEED shows as 'Failed' due to Tanium issues?</summary>
+
+Possible reasons for a failed onboarding status include:
+
+- **Failed (Tanium not installed or configured incorrectly)**: Tanium was either not installed or set up properly.
+- **Failed (Error occurred while tagging device as onboarded)**: An issue occurred while tagging the device as onboarded in Tanium.
+- **Failed (Error occurred while installing endpoint identity tools)**: An error occurred during the installation of the endpoint identity tools.
+
+To resolve the issue, follow these steps:
+
+1. **Access the TechPass portal on your non-SE GSIB device**:
+   - At the top right, select your username and click **My Account** to view your profile details.
+   - Reboot your device.
+
+2. **For mac (Intel)**:
+   - Connect to your personal hotspot.
+   - Open Terminal and run the following command:  
+     `launchctl kickstart -k -p system/com.tanium.taniumclient`
+   - Go to the Company Portal, click on the three dots, and select **Check status** to sync the device.
+   - Wait for 5–10 minutes for the status in the TechPass portal to change to 'Onboarded'. If the status does not update, restart the Tanium service and wait again.
+
+3. **For mac (Apple silicone chip)**:
+   - Connect to your personal hotspot.
+   - Reboot your device.
+   - Go to the Company Portal, click on the three dots, and select **Check status** to sync the device.
+   - Wait for 5–10 minutes for the status in the TechPass portal to change to 'Onboarded'. If it does not update, restart the Tanium service and wait again.
+
+4. **For Windows devices**:
+   - Click on **Run**, type `services.msc`, and find **Tanium Client**. Right-click and select **Restart**.
+   - Connect to your mobile personal hotspot.
+   - Go to **Access work or school**, click on the **Info** button next to your TechPass account, and then click **Sync**.
+   - Wait for 5–10 minutes for the status in the TechPass portal to change to 'Onboarded'. If it does not update, restart the Tanium service and wait again.
+
+If the issue persists after following these steps, please raise an [incident support request](https://go.gov.sg/seed-techpass-support).
+
+</details>
+
 
 <details>
   <summary>While approving the management profiles, I get a message <b>Profiles cannot be approved while using remote or automated input method</b>. What should I do?</summary>
@@ -138,92 +176,6 @@ Before raising a service request, confirm the following:
   To resolve this issue, upgrade to the [latest macOS version][upgrade-macos] and ensure your Mac device has sufficient available disk space before attempting to approve the management profiles.
 
 
-</details>
-
-<details>
-  <summary>How can I reset my password on macOS?</summary>
-If you encounter password reset issues on macOS, it may be due to new password requirements. Before you proceed to reset your macOS password, please ensure that the new password meets the following requirements:
-
-- It should contain at least 12 characters.
-- It should not be the same as the previous three passwords.
-- The same character cannot be used consecutively.
-- It cannot have three sequential characters.
-- It should contain at least one number and one alphabetic character.
-
-Now, here are three options for resetting your macOS password:
-
-<details>
-  <summary>Reset password using Apple ID</summary>
-
-Refer to [Reset your macOS login password using Apple ID](https://support.apple.com/en-gb/guide/mac-help/mh35902/mac) for step-by-step instructions.
-</details>
-
-<details>
-  <summary>Reset password Using recovery key</summary>
-
-**To reset your password using a recovery key**:
-
-1. Click the question mark next to the password field in the login window.
-
-?> If you do not see a question mark, press and hold the power button until your Mac shuts down, then press the power button to restart your Mac. Alternatively, enter any password three times.
-
-2. Click **If you forgot your password, you can reset it using your Recovery Key**.
-3. Enter the recovery key, making sure to use uppercase letters and include hyphens.
-4. Reset your password.
-</details>
-
-<details>
-  <summary>Reset password using recovery mode</summary>
-
-If you do not have an Apple ID or a recovery key, you can reset your password in recovery mode based on your Mac's chip:
-
-<!-- tabs:start -->
-
-#### **M1 Chip**
-1. Restart or shut down your device by pressing the power button until the screen is black and all lights, including the Touch Bar, are off.
-2. Press and hold the power button on your Mac until the **Loading startup options** screen appears. After a few seconds, you’ll see two icons: **Macintosh HD** and **Options**.
-3. Click **Options** and select your user account, then click **Next**.
-4. Enter your password to continue.
-5. Go to **Applications** > **Utilities** > **Terminal**.
-6. Enter `resetpassword` and press `return`. The **Reset Password** assistant will be displayed.
-7. Choose **My password doesn’t work when logging in** and click **Next**.
-8. If prompted, select the user account for which you need to change the password.
-9. Enter the old password and your new password in the respective fields.
-10. Type the new password again to verify and provide a password hint.
-11. Click **Next**.
-12. Restart your device and, on the login screen, select your user account and enter the new password.
-
-> **Note**:
-
-> 1. If you still cannot reset your password, repeat steps 1-6.
-> 2. Select **My keyboard isn't working when typing my password to log in** and click **Next**.
-> 3. Disable FileVault on the **Macintosh HD** volume.
-> 4. Restart your device. On the login screen, select your user account and enter the new password.
-
-#### **Intel chip**
-
-1. Restart your device by pressing the power button while holding down the `Command + R` keys.
-2. Release the keys when you see the load bar.
-3. Go to **Applications** > **Utilities** > **Terminal**.
-4. Enter `resetpassword` and press `return`. The **Reset Password** assistant will be displayed.
-5. Choose **My password does not work when logging in** and click **Next**.
-6. If prompted, select the user account for which you need to change the password.
-7. Enter the old password and your new password in the respective fields.
-8. Type the new password again to verify and provide a password hint.
-9. Click **Next**.
-10. Restart your device. On the login screen, select your user account and enter the new password.
-
-> **Note**:
-
-> 1. If you still cannot reset your password, repeat steps 1-4.
-> 2. Select **My keyboard is not working when typing my password to log in** and click **Next**.
-> 3. Disable FileVault on the **Macintosh HD** volume.
-> 4. Restart your device and, on the login screen, select your user account and enter the new password.
-
-<!-- tabs:end -->
-
-</details>
-</details>
 </details>     
 
 <details>

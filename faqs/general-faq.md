@@ -146,4 +146,7 @@ Refer to the following image below:
 <details><summary>Is SEED supported on macOS 15?</summary>
 SEED has not been officially tested on macOS 15 Sequoia. Therefore, no support can be provided if users run into issues. For further assistance, contact us at enquiries_seed@tech.gov.sg.
 
+However, if you have upgraded to macOS 15 and are experiencing Cloudflare issues, you may need to temporarily disable your device firewall. For more details and instructions, please refer to this [Cloudflare community post](https://community.cloudflare.com/t/cf-dns-lookup-failure-cloudflare-zero-trust-gateway-with-wrap-on-macos-15/712557).
+
+
 </details>
