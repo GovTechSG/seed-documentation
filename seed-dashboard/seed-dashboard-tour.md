@@ -38,3 +38,9 @@ To review your compliance status and view the necessary compliance checks, follo
 
 2. Within this section, there is a **Show Passed Checks** button which displays the compliance checks you have already completed.
     ![comp-page](../images/seed-dashboard/com-page.png)
+
+## OS upgrade issues
+
+- **Warning**: Devices running unsupported OS versions receive a warning based on requirements outlined [here](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/). Notifications are sent to users for necessary OS upgrades.
+- **Blocked**: After a 7-day notification period, unsupported OS devices will be blocked. Email and in-app notifications are provided, and steps for upgrading are accessible on the details page.
+
