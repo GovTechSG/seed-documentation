@@ -1,4 +1,4 @@
-# macOS 14 and 13 post onboarding guide
+# macOS post onboarding guide
 
 After onboarding your Internet Device to SEED, follow these instructions:
 
