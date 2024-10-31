@@ -26,7 +26,7 @@ To view malware alerts detected on your device, follow these steps:
     ![mal-des](../images/seed-dashboard/high_malware_user_detail.png)
 
     - **Remediation Steps**: You can find the necessary steps required to fix the malware issue.
-    ![remediation-steps](../images/seed-dashboard/malware_remediation_steps.png)
+    ![remediation-steps](../images/seed-dashboard/malware_remediation_step.png)
 
 ## View compliance checks
 
