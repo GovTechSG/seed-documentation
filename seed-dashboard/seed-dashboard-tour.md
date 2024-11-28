@@ -11,7 +11,7 @@
 | <img src="images/seed-dashboard/step4.png" alt="drawing" width="50%"/> | **SEED cogfiguration** - Indicates whether there are any configuration issues with your device. |
 | <img src="images/seed-dashboard/step5.png" alt="drawing" width="50%"/> | **Operating System** - Indicates whether there are any compatibility issues with your device’s operating system. If the OS is unsupported, guidance on updating will be provided.|
 | <img src="images/seed-dashboard/step6.png" alt="drawing" width="50%"/> | **Device Status** - This section indicates the current status of your device. There are two statuses: blocked and enabled. Hover over the tooltip for explanations of these statuses. |
-| <img src="images/seed-dashboard/step-7.png" alt="drawing" width="50%"/> | Issue updates - This area provides real-time updates on your device's status. If no issues are detected, it will display "No known issues detected for your device.". If your device is blocked, it will guide you on how to unblock it. For specific issues, such as malware alerts or compliance check failures, further details are available when you click on the corresponding category. Further troubleshooting steps will also be provided on this page.|
+| <img src="images/seed-dashboard/step-7.png" alt="drawing" width="50%"/> | Issue updates - This area provides real-time updates on your device's status. If no issues are detected, it will display "No known issues detected for your device.". If your device is blocked, it will guide you on how to unblock it. For specific issues, such as malware alerts or compliance check failures, further details are available when you click on the corresponding category. Links to further troubleshooting steps will also be provided on this page.|
 
 
 ## View malware alerts
