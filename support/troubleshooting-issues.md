@@ -4,9 +4,9 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
 
 ## Resolving *Cloudflare CF_DNS_Lookup_Failure* error on macOS 15
 
-![Firewall settings](images/cferror.png)
+![Firewall settings](/images/cferror.png)
 
-If you encounter the `CF_DNS_Lookup_Failure` error while using Cloudflare WARP on macOS 15.0.x, follow these steps to resolve the issue:
+If you encounter the `CF_DNS_Lookup_Failure` error while using Cloudflare WARP on macOS 15, follow these steps to resolve the issue:
 
 
 ### Upgrade macOS
@@ -17,13 +17,14 @@ Cloudflare recommends upgrading to **macOS 15.1 or later**, as macOS 15.1 resolv
 - Follow the on-screen instructions to update to **macOS 15.1 or later**.
 
 ### Enable firewall settings
+
 Ensure your firewall settings are properly configured to allow Cloudflare WARP to function.
 
 - Open **System Preferences**.
 - Navigate to **Settings > Network > Firewall**.
 - Turn on the firewall.
 
-![Firewall settings](images/firewall-macos15.png)
+![Firewall settings](/images/firewall-macos15.png)
 
 
 ### Disable *block all incoming connections*
@@ -41,7 +42,7 @@ Enable incoming connections explicitly for the following applications:
 2. **Cloudflare WARP** with the bundle ID:  
    `com.cloudflare.1dot1dot1dot1dot1.macos`
 
-![Allow incoming connections](images/allow-warp.png)
+![Allow incoming connections](/images/allow-warp.png)
 
 After completing these steps, the `CF_DNS_Lookup_Failure` error should no longer occur.
 
