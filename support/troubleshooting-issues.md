@@ -232,7 +232,7 @@ echo $OrgID
 
 1. Log into Company Portal using your `<agency_name>.gov.sg` or `techpass.gov.sg` username.
 2. Ensure that your device is shown as **managed**.
-3. Ensure that the top right-hand corner shows *SG Govt M365* or *TechPass* to show it is managed by the correct tenant.
+3. Ensure that the top left-hand corner shows *SG Govt M365* or *TechPass* to show it is managed by the correct tenant.
 
 ![mac-365](/images/mac-365.png)
 
