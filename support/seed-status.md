@@ -15,7 +15,7 @@ No ongoing maintenance!
 
 | Date | 11 December 2024  |
 |---|---|
-| **Issue summary** | We are aware that some users have received unexpected notifications on their SEED devices. Please ignore these notifications for now, as the team is currently investigating the issue. <br><br>**Impact**: Access to SGTS and GCC services is not affected. <br><br>**What should I do if I am still having an issue?**<br> Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+| **Issue summary** | We are aware that some users have received unexpected notifications on their SEED devices. The team has investigated and fixed the issue. <br><br>**Impact**: Access to SGTS and GCC services is not affected. <br><br>**What should I do if I am still having an issue?**<br> Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
 
 
 <!-- | Date | 09 July 2023 |
