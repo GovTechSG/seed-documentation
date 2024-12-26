@@ -2,33 +2,9 @@
 
 | <div style="width:150px"><b>Date</b></div>  | Announcement |
 | --- | --- |
-| 26 December 2024 | **Update of Cloudflare Root Certificate** <table>
-    <tr>
-        <th>Column 1</th>
-        <th>Column 2</th>
-        <th>Column 3</th>
-    </tr>
-    <tr>
-        <td>Row 1, Col 1</td>
-        <td>Row 1, Col 2</td>
-        <td>Row 1, Col 3</td>
-    </tr>
-    <tr>
-        <td>Row 2, Col 1</td>
-        <td>Row 2, Col 2</td>
-        <td>Row 2, Col 3</td>
-    </tr>
-    <tr>
-        <td>Row 3, Col 1</td>
-        <td>Row 3, Col 2</td>
-        <td>Row 3, Col 3</td>
-    </tr>
-    <tr>
-        <td>Row 4, Col 1</td>
-        <td>Row 4, Col 2</td>
-        <td>Row 4, Col 3</td>
-    </tr>
-</table> |
+| 26 December 2024 | **Update of Cloudflare Root Certificate** <br><br> 
+|Environment|Certificate|Valid Until Date|
+| --- | --- | ---| |
 | 24 December 2024 | **Wrapping up an incredible 2024!**<br>As we wrap up 2024, WOW, what a year! The TechPass and SEED teams absolutely crushed it, and it’s all thanks to your hard work, creativity, and dedication. You’ve made this year’s achievements not just possible, but extraordinary!<br><br>To our awesome users and bosses, a big shoutout to you too! Your feedback and support have been the secret sauce to our success.<br><br>**Looking ahead to 2025:**<br>- I’d love to hear your ideas, thoughts, or even wild dreams for what we can do next.<br>- Book time with me: [Schedule a session](https://outlook.office.com/bookwithme/user/c8467a03effd490b8669ecefa50fccb7@tech.gov.sg?anonymous&ep=pcard&isanonymous=true). Let’s make magic happen together!<br><br>Here’s to a well-deserved break, a joyful holiday season, and an even brighter New Year. You’ve earned it! 🎄🍾🎉<br><br>**Eunice Teo**<br>Product Manager of TechPass and SEED![TechPass](/images/impact.png)<br> |
 | 18 December 2024 | **Intermittent issue accessing Microsoft Sentinel on Azure portal**<br>TechPass has detected an issue where some users are experiencing intermittent difficulties accessing Microsoft Sentinel on the Azure portal. Our team is actively investigating the matter to resolve it as soon as possible.<br><br>**Key details:**<br>- The issue affects access to Microsoft Sentinel on the Azure portal.<br>- Sign-ins to downstream applications remain unaffected.<br><br>We apologise for any inconvenience caused. If you need further assistance, please contact us at **enquiries_seed@tech.gov.sg**. |
 | 06 December 2024 | **Resolve *CF_DNS_Lookup_Failure* on macOS**<br>We have observed instances of users encountering the `CF_DNS_Lookup_Failure` error while using Cloudflare WARP on macOS. To address this issue, please follow the updated resolution steps.<br><br>**Key Recommendations:**<br>- **Upgrade macOS**: Update to macOS 15.1 or later to resolve several underlying issues.<br>- **Firewall Settings**: Ensure your firewall is turned on and configured to allow incoming connections for Cloudflare WARP.<br>- **Additional Steps**: Disable "block all incoming connections" in your firewall settings and explicitly allow connections for the Cloudflare WARP application.<br><br>[Read the full guide here](https://community.cloudflare.com/t/cf-dns-lookup-failure-cloudflare-zero-trust-gateway-with-wrap-on-macos-15/712557/2).<br><br>If you need further assistance, contact us at **enquiries_seed@tech.gov.sg**. |
