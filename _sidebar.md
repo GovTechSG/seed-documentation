@@ -23,14 +23,14 @@
   - [General FAQ](/faqs/general-faq.md)
   - [Onboarding FAQ](/faqs/onboarding-faq.md)
   - [Offboarding FAQ](/faqs/offboarding-faq.md)
-  - [Cloudflare Certificate Update FAQ](/faqs/cloudflare-cert-update-faq)
-  - [Configuration of Common Tools FAQ](/faqs/configuration-of-common-developer-cli-tools-with-cloudflare-warp.md)
   - [GCC 1.0 connectivity FAQ](/faqs/gcc1-connectivity-faq.md)
 - Support
-  - [Raise a service request](/support/raise-service-request.md)
-  - [Troubleshooting issues](/support/troubleshooting-issues.md)
+  - [Cloudflare Certificate Update FAQ](/support/cloudflare-cert-update-faq)
+  - [Configuration of Common Tools FAQ](/support/configuration-of-common-developer-cli-tools-with-cloudflare-warp.md)
   - [Generate diagnostic files](/support/generate-diagnostic-files)
+  - [Troubleshooting issues](/support/troubleshooting-issues.md)
   - [View SEED service status](/support/seed-status.md)
+  - [Raise a service request](/support/raise-service-request.md)
 - Additional resources 
   - [Best practices](/additional-resources/best-practices.md)
   - [Split tunnel allowlisting](additional-resources/split-tunnel-allowlist)
