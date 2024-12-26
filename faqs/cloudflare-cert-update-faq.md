@@ -10,12 +10,12 @@ Click on the links to download the certifcate to your GMD.
 
 | Environment | Certificate | Validity |
 | --- | --- |--- |
-| Cloudflare PROD | Cloudflare_CA_old.crt<br>Cloudflare_CA_old.pem | Currently active until 13 Jan 2025|
-| Cloudflare PROD | Cloudflare_CA.crt<br>Cloudflare_CA.pem | 13 Jan 2025 to 26 Dec 2029 |
-| Cloudflare DEV | Cloudflare_CA _dev.crt<br>Cloudflare_CA _dev.pem | Currently active 18 Dec 2029 |
-| Cloudflare STG |Cloudflare_CA _stg.crt<br>Cloudflare_CA _stg.pem | Currently active 23 Dec 2029 |
+| Cloudflare PROD | [Cloudflare_CA_old.crt](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/assets/Cloudflare_CA_old.crt)<br>[Cloudflare_CA_old.pem](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/assets/Cloudflare_CA_old.pem) | Currently active until 13 Jan 2025|
+| Cloudflare PROD | [Cloudflare_CA.crt](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/assets/Cloudflare_CA.crt)<br>[Cloudflare_CA.pem](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/assets/Cloudflare_CA.pem) | 13 Jan 2025 to 26 Dec 2029 |
+| Cloudflare DEV | [Cloudflare_CA _dev.crt](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/assets/Cloudflare_CA_dev.crt)<br>[Cloudflare_CA_dev.pem](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/assets/Cloudflare_CA_dev.pem) | Currently active 18 Dec 2029 |
+| Cloudflare STG |[Cloudflare_CA _stg.crt](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/assets/Cloudflare_CA_stg.crt)<br>[Cloudflare_CA_stg.pem](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/assets/Cloudflare_CA_stg.pem) | Currently active 23 Dec 2029 |
 
-##Certificate update for macOS
+## Certificate update for macOS
 
 To install a Cloudflare certificate in macOS, you need to download a certificate in .crt format.
 1.	Download a Cloudflare certificate.
@@ -25,7 +25,7 @@ To install a Cloudflare certificate in macOS, you need to download a certificate
 5.	Select **Trust**. Under **When using this certificate**, select _Always Trust_.
 The root certificate is now installed and ready to be used.
 
-##Certificate update for Windows
+## Certificate update for Windows
 
 1.	Download a Cloudflare certificate.
 2.	Right-click the certificate file.
