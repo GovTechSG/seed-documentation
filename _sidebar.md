@@ -23,6 +23,7 @@
   - [General FAQ](/faqs/general-faq.md)
   - [Onboarding FAQ](/faqs/onboarding-faq.md)
   - [Offboarding FAQ](/faqs/offboarding-faq.md)
+  - [Configuration of Common Tools](/faqs/configuration-of-common-developer-cli-tools-with-cloudflare-warp.md)
   - [GCC 1.0 connectivity FAQ](/faqs/gcc1-connectivity-faq.md)
 - Support
   - [Raise a service request](/support/raise-service-request.md)
