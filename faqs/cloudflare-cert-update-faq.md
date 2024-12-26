@@ -1,6 +1,6 @@
 <!-- !> This documentation is obsolete. Refer to [SHIP-HATS documentation](https://docs.developer.tech.gov.sg/docs/ship-hats-docs/) for more details. -->
 
-# Cloudflare Cert Update
+# Cloudflare Certificate Update
 
 This article guides you to update the Cloudflare Cert on your GMD
 
