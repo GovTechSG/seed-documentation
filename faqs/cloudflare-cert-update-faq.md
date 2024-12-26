@@ -7,8 +7,9 @@ This article guides you to update the Cloudflare Cert on your GMD
 **Download Cloudflare Root Certificates**
 
 Click on the links to links to download the certifcate to your GMD.
+
 | Environment | Certificate | Validity |
-|---|---|---|
+| --- | --- |--- |
 | Cloudflare PROD | Cloudflare_CA_old.crt<br>Cloudflare_CA_old.pem | Currently active until 13 Jan 2025|
 | Cloudflare PROD | Cloudflare_CA.crt<br>Cloudflare_CA.pem | 13 Jan 2025 to 26 Dec 2029 |
 | Cloudflare DEV | Cloudflare_CA _dev.crt<br>Cloudflare_CA _dev.pem | Currently active 18 Dec 2029 |
