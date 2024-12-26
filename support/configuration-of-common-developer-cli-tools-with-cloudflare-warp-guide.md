@@ -1,6 +1,6 @@
 <!-- !> This documentation is obsolete. Refer to [SHIP-HATS documentation](https://docs.developer.tech.gov.sg/docs/ship-hats-docs/) for more details. -->
 
-# Configuration of common Developer CLI tools with Cloudflare WARP Guide
+# Configuration of Common Developer CLI tools with Cloudflare WARP Guide
 
 This article tells you how to configure the following common applications.
 
