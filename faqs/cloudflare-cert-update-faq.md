@@ -5,6 +5,7 @@
 This article guides you to update the Cloudflare Cert on your GMD
 
 **Download Cloudflare Root Certificates**
+
 Click on the links to links to download the certifcate to your GMD.
 | Environment | Certificate | Validity |
 |---|---|---|
