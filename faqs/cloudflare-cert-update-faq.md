@@ -4,7 +4,7 @@
 
 This article guides you to update the Cloudflare Cert on your GMD
 
-**Download Cloudflare Root Certificates**
+## Download Cloudflare Root Certificates
 
 Click on the links to download the certifcate to your GMD.
 
@@ -39,4 +39,4 @@ The root certificate is now installed and ready to be used.
 
 > **Note**:
 >- Link to: [Configuration of common Developer CLI tools with Cloudflare WARP](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/faqs/configuration-of-common-developer-cli-tools-with-cloudflare-warp.md)
-<br>Once you have downloaded the respective certificate, you can configure your Developer CLI tools to trust the Cloudflare Certificate.
+<br><br>Once you have downloaded the respective certificate, you can configure your Developer CLI tools to trust the Cloudflare Certificate.
