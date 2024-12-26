@@ -38,5 +38,5 @@ The root certificate is now installed and ready to be used.
 The root certificate is now installed and ready to be used.
 
 > **Note**:
->- Link to: [Configuration of common Developer CLI tools with Cloudflare WARP](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/faqs/configuration-of-common-developer-cli-tools-with-cloudflare-warp.md)
+>- Link to: [Configuration of Common Developer CLI tools with Cloudflare WARP](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/faqs/configuration-of-common-developer-cli-tools-with-cloudflare-warp.md)
 <br><br>Once you have downloaded the respective certificate, you can configure your Developer CLI tools to trust the Cloudflare Certificate.
