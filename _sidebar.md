@@ -25,8 +25,8 @@
   - [Offboarding FAQ](/faqs/offboarding-faq.md)
   - [GCC 1.0 connectivity FAQ](/faqs/gcc1-connectivity-faq.md)
 - Support
-  - [Cloudflare Certificate Update FAQ](/support/cloudflare-cert-update-faq)
-  - [Configuration of Common Tools FAQ](/support/configuration-of-common-developer-cli-tools-with-cloudflare-warp.md)
+  - [Cloudflare Certificate Update FAQ](/support/cloudflare-cert-update-guide.md)
+  - [Configuration of Common Tools FAQ](/support/configuration-of-common-developer-cli-tools-with-cloudflare-warp-guide.md)
   - [Generate diagnostic files](/support/generate-diagnostic-files)
   - [Troubleshooting issues](/support/troubleshooting-issues.md)
   - [View SEED service status](/support/seed-status.md)
