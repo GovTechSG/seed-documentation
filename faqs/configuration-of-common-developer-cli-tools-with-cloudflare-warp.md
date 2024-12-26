@@ -14,7 +14,7 @@ This article tells you how to configure the following common applications.
 - [Golang](#golang)
 
 > **Note**:
->- If you are experiencing issues while using any CLI tools and applications to access SGTS services, create a support request. For more information, refer to [create support request](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/raise-an-incident-support-request).
+>- If you are experiencing issues while using any CLI tools and applications to access SGTS services, create a support request. For more information, refer to [create support request](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/raise-service-request).
 >- All other issues that are not related to SGTS services, contact [Cloudflare Community Support Forums](https://support.cloudflare.com/hc/en-us)
 
 ## Node.js and NPM
