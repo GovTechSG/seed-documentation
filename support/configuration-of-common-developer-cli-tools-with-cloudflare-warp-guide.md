@@ -71,7 +71,7 @@ To pull Docker images from a Docker image repository with Cloudflare Warp turned
 
 For example, `mkdir -p ~/.docker/certs.d/registry-in.ship.gov.sg`.
 
-3. Copy the Cloudflare CA certificate from https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/assets/Cloudflare_CA.pem and save it in the Docker Image repository certificate directory as ca-certificates.crt.
+3. Copy the Cloudflare CA certificate from https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/cloudflare-cert-update-guide and save it in the Docker Image repository certificate directory as ca-certificates.crt.
 For example:
 
 ```

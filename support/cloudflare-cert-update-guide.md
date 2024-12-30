@@ -10,10 +10,10 @@ Click on the links to download the certifcate to your GMD.
 
 | Environment | Certificate | Validity |
 | --- | --- |--- |
-| Cloudflare PROD | [Cloudflare_CA_old.crt](assets/Cloudflare_CA_old.crt)<br>[Cloudflare_CA_old.pem](assets/Cloudflare_CA_old.pem) | Currently active until 13 Jan 2025|
-| Cloudflare PROD | [Cloudflare_CA.crt](assets/Cloudflare_CA.crt)<br>[Cloudflare_CA.pem](assets/Cloudflare_CA.pem) | 13 Jan 2025 to 26 Dec 2029 |
-| Cloudflare DEV | [Cloudflare_CA _dev.crt](assets/Cloudflare_CA_dev.crt)<br>[Cloudflare_CA_dev.pem](assets/Cloudflare_CA_dev.pem) | Currently active 18 Dec 2029 |
-| Cloudflare STG |[Cloudflare_CA _stg.crt](assets/Cloudflare_CA_stg.crt)<br>[Cloudflare_CA_stg.pem](assets/Cloudflare_CA_stg.pem) | Currently active 23 Dec 2029 |
+| Cloudflare PROD | [Cloudflare_CA_old.crt](https://seed-general-public-files.s3.ap-southeast-1.amazonaws.com/seed-cloudflare-root-certs/Cloudflare_CA_old.crt)<br>[Cloudflare_CA_old.pem](https://seed-general-public-files.s3.ap-southeast-1.amazonaws.com/seed-cloudflare-root-certs/Cloudflare_CA_old.pem)  | Currently active until 13 Jan 2025|
+| Cloudflare PROD | [Cloudflare_CA.crt](https://seed-general-public-files.s3.ap-southeast-1.amazonaws.com/seed-cloudflare-root-certs/Cloudflare_CA.crt)<br>[Cloudflare_CA.pem](https://seed-general-public-files.s3.ap-southeast-1.amazonaws.com/seed-cloudflare-root-certs/Cloudflare_CA.pem) | 13 Jan 2025 to 26 Dec 2029 |
+| Cloudflare DEV | [Cloudflare_CA _dev.crt](https://seed-general-public-files.s3.ap-southeast-1.amazonaws.com/seed-cloudflare-root-certs/Cloudflare_CA_dev.crt)<br>[Cloudflare_CA_dev.pem](https://seed-general-public-files.s3.ap-southeast-1.amazonaws.com/seed-cloudflare-root-certs/Cloudflare_CA_dev.pem) | Currently active 18 Dec 2029 |
+| Cloudflare STG |[Cloudflare_CA _stg.crt](https://seed-general-public-files.s3.ap-southeast-1.amazonaws.com/seed-cloudflare-root-certs/Cloudflare_CA_stg.crt)<br>[Cloudflare_CA_stg.pem](https://seed-general-public-files.s3.ap-southeast-1.amazonaws.com/seed-cloudflare-root-certs/Cloudflare_CA_stg.pem) | Currently active 23 Dec 2029 |
 
 ## Certificate update for macOS
 
@@ -38,5 +38,5 @@ The root certificate is now installed and ready to be used.
 The root certificate is now installed and ready to be used.
 
 > **Note**:
->- Link to: [Configuration of Common Developer CLI tools with Cloudflare WARP](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/faqs/configuration-of-common-developer-cli-tools-with-cloudflare-warp.md)
+>- Link to: [Configuration of Common Developer CLI tools with Cloudflare WARP](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/configuration-of-common-developer-cli-tools-with-cloudflare-warp-guide)
 <br><br>Once you have downloaded the respective certificate, you can configure your Developer CLI tools to trust the Cloudflare Certificate.
