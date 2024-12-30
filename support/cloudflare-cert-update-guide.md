@@ -10,10 +10,10 @@ Click on the links to download the certifcate to your GMD.
 
 | Environment | Certificate | Validity |
 | --- | --- |--- |
-| Cloudflare PROD | [Cloudflare_CA_old.crt](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/assets/Cloudflare_CA_old.crt)<br>[Cloudflare_CA_old.pem](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/assets/Cloudflare_CA_old.pem) | Currently active until 13 Jan 2025|
-| Cloudflare PROD | [Cloudflare_CA.crt](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/assets/Cloudflare_CA.crt)<br>[Cloudflare_CA.pem](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/assets/Cloudflare_CA.pem) | 13 Jan 2025 to 26 Dec 2029 |
-| Cloudflare DEV | [Cloudflare_CA _dev.crt](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/assets/Cloudflare_CA_dev.crt)<br>[Cloudflare_CA_dev.pem](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/assets/Cloudflare_CA_dev.pem) | Currently active 18 Dec 2029 |
-| Cloudflare STG |[Cloudflare_CA _stg.crt](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/assets/Cloudflare_CA_stg.crt)<br>[Cloudflare_CA_stg.pem](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/assets/Cloudflare_CA_stg.pem) | Currently active 23 Dec 2029 |
+| Cloudflare PROD | [Cloudflare_CA_old.crt](assets/Cloudflare_CA_old.crt)<br>[Cloudflare_CA_old.pem](assets/Cloudflare_CA_old.pem) | Currently active until 13 Jan 2025|
+| Cloudflare PROD | [Cloudflare_CA.crt](assets/Cloudflare_CA.crt)<br>[Cloudflare_CA.pem](assets/Cloudflare_CA.pem) | 13 Jan 2025 to 26 Dec 2029 |
+| Cloudflare DEV | [Cloudflare_CA _dev.crt](assets/Cloudflare_CA_dev.crt)<br>[Cloudflare_CA_dev.pem](assets/Cloudflare_CA_dev.pem) | Currently active 18 Dec 2029 |
+| Cloudflare STG |[Cloudflare_CA _stg.crt](assets/Cloudflare_CA_stg.crt)<br>[Cloudflare_CA_stg.pem](assets/Cloudflare_CA_stg.pem) | Currently active 23 Dec 2029 |
 
 ## Certificate update for macOS
 
