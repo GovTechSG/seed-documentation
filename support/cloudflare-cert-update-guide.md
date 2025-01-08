@@ -37,6 +37,30 @@ The root certificate is now installed and ready to be used.
 8.	Select **OK**, then select **Finish**.
 The root certificate is now installed and ready to be used.
 
+## Verify Cloudflare root certification
+
+### For macOS users
+
+Follow these steps to verify if the Cloudflare root certificate is successfully installed using Keychain Access:
+
+1. Open the **Keychain Access** app on your Mac:
+   - Press **Command + Space bar**, type **Keychain Access**, and press **Return**.
+2. Enter your MacBook's password if prompted.
+3. In Keychain Access, click **System** on the left sidebar.
+4. Look for the Cloudflare certificate titled **Gateway CA - Cloudflare Managed G1 d4cab1c0e006138441e1f1b57bfde614**.
+5. Ensure the expiry date of the certificate is **26 December 2029**.
+
+### For Windows users
+
+To verify SSL certificates on Windows, use the Certificate Manager tool:
+
+1. Open the command prompt.
+2. Type `certlm.msc` and press **Enter**.
+3. Expand the folder **Trusted Root Certification Authorities > Certificates**.
+4. Locate the Cloudflare certificate titled **Gateway CA - Cloudflare Managed G1 d4cab1c0e006138441e1f1b57bfde614**.
+5. Verify that the expiry date of the certificate is **26 December 2029**.
+
+
 > **Note**:
 >- Link to: [Configuration of Common Developer CLI tools with Cloudflare WARP](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/configuration-of-common-developer-cli-tools-with-cloudflare-warp-guide)
 <br><br>Once you have downloaded the respective certificate, you can configure your Developer CLI tools to trust the Cloudflare Certificate.
