@@ -75,7 +75,7 @@ For example, `mkdir -p ~/.docker/certs.d/registry-in.ship.gov.sg`.
 For example:
 
 ```
-curl -sSLj -o ~/.docker/certs.d/registry-in.ship.gov.sg/ca-certificates.crt https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/assets/Cloudflare_CA.pem
+curl -sSLj -o ~/.docker/certs.d/registry-in.ship.gov.sg/ca-certificates.crt https://seed-general-public-files.s3.ap-southeast-1.amazonaws.com/seed-cloudflare-root-certs/Cloudflare_CA.pem
 ```
 
 ### Connect operating system in your Docker container to Internet with Cloudflare Warp
@@ -97,7 +97,7 @@ The following Dockerfile snippet shows how to configure the operating system to 
 RUN \
     apt-get update && \
     apt-get install -y ca-certificates && \
-    curl -sSLj -o "/etc/ssl/certs/Cloudflare_CA.pem" "https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/assets/Cloudflare_CA.pem" && \
+    curl -sSLj -o "/etc/ssl/certs/Cloudflare_CA.pem" "https://seed-general-public-files.s3.ap-southeast-1.amazonaws.com/seed-cloudflare-root-certs/Cloudflare_CA.pem" && \
     update-ca-certificates
 ```
 
@@ -108,7 +108,7 @@ AWS CLI uses its own certificate store. It must be configured to trust the Cloud
 For Linux & macOS users:
 ```bash
 mkdir -p "${HOME}/.config/.cloudflare"
-curl -sSLj -o "${HOME}/.config/.cloudflare/Cloudflare_CA.pem" "https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/assets/Cloudflare_CA.pem"
+curl -sSLj -o "${HOME}/.config/.cloudflare/Cloudflare_CA.pem" "https://seed-general-public-files.s3.ap-southeast-1.amazonaws.com/seed-cloudflare-root-certs/Cloudflare_CA.pem"
 
 # If you are using macOS, Zsh is likely to be your default terminal. If you are using Zsh, please run the following commands:
 echo 'export AWS_CA_BUNDLE="${HOME}/.config/.cloudflare/Cloudflare_CA.pem"' | "tee -a ${HOME}/.zshrc"
