@@ -10,27 +10,6 @@ This section lists the most recent enhancements, new features and fixes that are
 | --- | --- | --- |
 | **Gamma Release** | **Device Based Blocking** | To enforce better protection to our development resources e.g., GCC and SGTS services and tools. On 19 July 2023, we have rolled out beta testing for more effective blocking of access when a GMD's health is at risk. We have passed the beta test and we have rolled out the gamma release. If you have queries on this feature, please get in touch with us through our SEED mailbox at: [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg).|
 -->
-## December 2024
-
-### 26 December 2024
-
-| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
-| --- | --- | --- |
-| **Update** | **Cloudflare root certificate** | The SEED team will push new certificates to all GMDs on 30th December 2024, between 12:00 PM to 02:00 PM SGT, in preparation for the Cloudflare rotation exercise. No impact to users is expected. <br><br>**Action required:** <br>- Update certificates for developer CLI tools as needed using the [Configuration guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/configuration-of-common-developer-cli-tools-with-cloudflare-warp-guide). <br>- For troubleshooting issues accessing SGTS and GCC from 13th January 2025, refer to the [Cloudflare certificate update guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/cloudflare-cert-update-guide). |
-
-### 18 December 2024
-
-| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
-| --- | --- | --- |
-| **Issue** | **Intermittent access to Microsoft Sentinel on Azure portal** | Some users experienced difficulties accessing Microsoft Sentinel on the Azure portal. Sign-ins to downstream applications remain unaffected. The team is actively investigating. For assistance, contact **enquiries_seed@tech.gov.sg**. |
-
-### 6 December 2024
-
-| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
-| --- | --- | --- |
-| **Update** | **Resolution for *CF_DNS_Lookup_Failure* on macOS** | Updated resolution steps for the `CF_DNS_Lookup_Failure` error when using Cloudflare WARP on macOS. <br><br>**Recommendations:** <br>- Update macOS to 15.1 or later. <br>- Configure firewall settings to allow incoming connections for Cloudflare WARP. <br>- Disable "block all incoming connections" in firewall settings if needed. <br><br>[Read the full guide](https://community.cloudflare.com/t/cf-dns-lookup-failure-cloudflare-zero-trust-gateway-with-wrap-on-macos-15/712557/2). For support, contact **enquiries_seed@tech.gov.sg**. |
-
----
 
 ## November 2024
 
