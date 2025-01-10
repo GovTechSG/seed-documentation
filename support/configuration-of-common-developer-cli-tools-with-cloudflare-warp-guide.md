@@ -28,7 +28,7 @@ If you are using macOS, Zsh is likely to be your default terminal. If you are us
 
 ```bash
 mkdir -p "${HOME}/.config/.cloudflare"
-curl -sSLj -o "${HOME}/.config/.cloudflare/Cloudflare_CA.pem" "https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/assets/Cloudflare_CA.pem"
+curl -sSLj -o "${HOME}/.config/.cloudflare/Cloudflare_CA.pem" "https://seed-general-public-files.s3.ap-southeast-1.amazonaws.com/seed-cloudflare-root-certs/Cloudflare_CA.pem"
 echo 'export NODE_EXTRA_CA_CERTS="${HOME}/.config/.cloudflare/Cloudflare_CA.pem"' | tee -a "${HOME}/.zshrc"
 source "${HOME}/.zshrc"
 ```
@@ -38,7 +38,7 @@ If you are using Linux, Bash is likely to be your default terminal. If you are u
 
 ```bash
 mkdir -p "${HOME}/.config/.cloudflare"
-curl -sSLj -o "${HOME}/.config/.cloudflare/Cloudflare_CA.pem" "https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/assets/Cloudflare_CA.pem"
+curl -sSLj -o "${HOME}/.config/.cloudflare/Cloudflare_CA.pem" "https://seed-general-public-files.s3.ap-southeast-1.amazonaws.com/seed-cloudflare-root-certs/Cloudflare_CA.pem"
 echo 'export NODE_EXTRA_CA_CERTS="${HOME}/.config/.cloudflare/Cloudflare_CA.pem"' | tee -a "${HOME}/.bashrc"
 source "${HOME}/.bashrc"
 ```
