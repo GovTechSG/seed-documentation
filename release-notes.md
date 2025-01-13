@@ -81,7 +81,7 @@ This section lists the most recent enhancements, new features and fixes that are
 
 | <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
 |---|---|---|
-| **Update** | **Email notifications and logging enhancements** | Standardised device naming in email notifications and added Tanium computer IDs to CloudWatch logs for `query-tanium-eid-last-seen` lambda. <br><br>For assistance, contact **enquiries_seed@tech.gov.sg**. |
+| **Bug fix** | **Email and desktop notifications** | Device naming will be standardised for notifications <br><br>For assistance, contact **enquiries_seed@tech.gov.sg**. |
 
 ---
 
