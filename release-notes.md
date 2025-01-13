@@ -89,7 +89,7 @@ This section lists the most recent enhancements, new features and fixes that are
 
 | <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
 |---|---|---|
-| **Update** | **SEED dashboard UI changes** | Updated SEED dashboard with new configurations for DBB checks. Explore the changes on [SEED Dashboard tour](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/seed-dashboard/seed-dashboard-tour) <br><br>For assistance, contact **enquiries_seed@tech.gov.sg**. |
+| **Update** | **SEED dashboard UI changes** | The SEED Dashboard has been updated with information on SEED Configuration issues. Explore the changes on [SEED Dashboard tour](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/seed-dashboard/seed-dashboard-tour) <br><br>For assistance, contact **enquiries_seed@tech.gov.sg**. |
 
 
 ### 5 August 2024
