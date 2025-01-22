@@ -9,7 +9,7 @@ This page provides the following Information:
 
 | **Date** | 22 January 2025 |
 |---|---|
-| **Scheduled maintenance** | Upgrading of Tanium servers will occur after office hours at **6pm, Thursday, 23rd January 2025**. <br><br>**Impact**:<br>- Support staff will not have access to the Tanium console during this period. <br>- Onboarding may experience intermittent errors. Users are advised to avoid onboarding activities during this time.<br><br>**What should I do if I encounter issues?**<br>- Please refrain from onboarding during the maintenance period. <br>- If you face any issues post-maintenance, submit an [incident support request](https://go.gov.sg/seed-techpass-support). |
+| **Scheduled maintenance** | Upgrading of Tanium servers will occur after office hours from **6pm to 9pm, Thursday, 23rd January 2025**. <br><br>**Impact**:<br>- Support staff will not have access to the Tanium console during this period. <br>- Onboarding may experience intermittent errors. Users are advised to avoid onboarding activities during this time.<br><br>**What should I do if I encounter issues?**<br>- Please refrain from onboarding during the maintenance period. <br>- If you face any issues post-maintenance, submit an [incident support request](https://go.gov.sg/seed-techpass-support). |
 
 
 
