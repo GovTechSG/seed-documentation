@@ -73,51 +73,61 @@ Based on your Windows settings, you may be prompted to restart or reset your pas
 <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/PAyKoRZ7WSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
 </div>
 
-### Step 1: Set up Microsoft Intune
+### Step 1: Create your personal local administrator account
+
+> **Note**: Do not use the default administrator account for onboarding.
+
+<details>
+  <summary style="font-size:18px">Create your personal local administrator account.</summary><br>
+
+1. Search for **Computer Management**.
+2. Navigate to **Local Users and Groups**, and click on **Users**.
+3. Click **New User**.
+4. Fill in **User Name**, **Password**, and **Confirm Password**. Ensure that **User must change password at next logon** is unchecked. Once done, click **Create**.
+5. Double-click on the user you created and add the user as a member of the **Administrators** group.
+
+
+---
+
+### Step 2: Set up Microsoft Intune
 
 <details>
   <summary style="font-size:18px">Set up Microsoft Intune to get the required applications and device configurations.</summary><br>
 
-1. Click **Start** icon on the taskbar.
+1. Click the **Start** icon on the taskbar.
+2. Go to **Settings** > **Accounts** > **Access work or school**, and click **Connect** to add your TechPass account.
 
-2. Go to **Settings** > **Accounts** > **Access work or school** and click **Connect** to add your TechPass account.
+   ![access-work-or-school](../images/onboarding-instructions-for-windows/access-work-or-school.png)
 
-  ![access-work-or-school](../images/onboarding-instructions-for-windows/access-work-or-school.png)
+3. Approve your TechPass login using the authenticator app used to set up TechPass MFA.
 
-3. Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. 
+   ![techpass-sign-in](../images/onboarding-instructions-for-windows/techpass-sign-in.png)
 
-  ![techpass-sign-in](../images/onboarding-instructions-for-windows/techpass-sign-in.png)
+   Your account is added and listed as a connection. This account has **Info** and **Disconnect** options as shown below.
 
-  Your account is added and listed as a connection. This account has **Info** and **Disconnect** options as shown below. 
-
-  ![info-disconnect](../images/onboarding-instructions-for-windows/info-disconnect.png)
+   ![info-disconnect](../images/onboarding-instructions-for-windows/info-disconnect.png)
 
 4. Select the **Info** option and verify that a similar result to the following is displayed. You will see **TechPass** instead of **SG Govt M365**.
 
-  ![managed-by-tp](../images/onboarding-instructions-for-windows/managed-by-tp.png)
+   ![managed-by-tp](../images/onboarding-instructions-for-windows/managed-by-tp.png)
 
 </details>
 
+---
 
-
-### Step 2: Verify installation
+### Step 3: Verify installation
 
 <details>
   <summary style="font-size:18px">Verify the installation.</summary><br>
 
-1. Go to the Internet Device onboarded to SEED, open **Settings** > **Apps** > **Apps & features**. 
-2. Ensure that Cloudflare WARP and Tanium are listed.
+1. Go to the Internet device onboarded to SEED, open **Settings** > **Apps** > **Apps & features**.
+2. Ensure that **Cloudflare WARP** and **Tanium** are listed.
 
-  ![cloudflare](../images/onboarding-instructions-for-windows/cloudflare.png)
+   ![cloudflare](../images/onboarding-instructions-for-windows/cloudflare.png)
 
-  ![tanium](../images/onboarding-instructions-for-windows/tanium.png)
+   ![tanium](../images/onboarding-instructions-for-windows/tanium.png)
   
-  You will receive a desktop notification that your device will be renamed according to our standard convention, followed by an automatic restart in 5 minutes. Please save your work to avoid data loss. You can also manually restart your device after the notification for a quicker update. Keep in mind that this naming convention is necessary for administrative purposes, so avoid renaming your device afterward.
+   You will receive a desktop notification that your device will be renamed according to our standard convention, followed by an automatic restart in 5 minutes. Please save your work to avoid data loss. You can also manually restart your device after the notification for a quicker update. Keep in mind that this naming convention is necessary for administrative purposes, so avoid renaming your device afterward.
 
 </details>
-
-
-
-
-
 

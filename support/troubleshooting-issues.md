@@ -1,6 +1,51 @@
 # Troubleshooting issues
 
-This guide provides solutions to common problems for SEED. Follow the steps below to troubleshoot and resolve the problems you aree experiencing.
+This guide provides solutions to common problems for SEED. Follow the steps below to troubleshoot and resolve the problems you are experiencing.
+
+## Resolving *Cloudflare CF_DNS_Lookup_Failure* error on macOS 15
+
+![Firewall settings](/images/cferror.png)
+
+If you encounter the `CF_DNS_Lookup_Failure` error while using Cloudflare WARP on macOS 15, follow these steps to resolve the issue:
+
+
+### Upgrade macOS
+Cloudflare recommends upgrading to **macOS 15.1 or later**, as macOS 15.1 resolves several issues that could cause the WARP client to misbehave.
+
+- Open **System Preferences**.
+- Select **Software Update**.
+- Follow the on-screen instructions to update to **macOS 15.1 or later**.
+
+### Enable firewall settings
+
+Ensure your firewall settings are properly configured to allow Cloudflare WARP to function.
+
+- Open **System Preferences**.
+- Navigate to **Settings > Network > Firewall**.
+- Turn on the firewall.
+
+![Firewall settings](/images/firewall-macos15.png)
+
+
+### Disable *block all incoming connections*
+Adjust your firewall settings to allow incoming connections.
+
+- Go to **Settings > Network > Firewall > Options**.
+- Ensure **"Block all incoming connections"** is **unchecked**.
+
+
+### Allow incoming connections for Cloudflare WARP
+Enable incoming connections explicitly for the following applications:
+
+1. **CloudflareWARP** located at:  
+   `/Applications/CloudflareWARP.app/Contents/Resources/CloudflareWARP`
+2. **Cloudflare WARP** with the bundle ID:  
+   `com.cloudflare.1dot1dot1dot1dot1.macos`
+
+![Allow incoming connections](/images/allow-warp.png)
+
+After completing these steps, the `CF_DNS_Lookup_Failure` error should no longer occur.
+
 
 ## Troubleshooting access issues for SGTS Resources
 
@@ -187,7 +232,7 @@ echo $OrgID
 
 1. Log into Company Portal using your `<agency_name>.gov.sg` or `techpass.gov.sg` username.
 2. Ensure that your device is shown as **managed**.
-3. Ensure that the top right-hand corner shows *SG Govt M365* or *TechPass* to show it is managed by the correct tenant.
+3. Ensure that the top left-hand corner shows *SG Govt M365* or *TechPass* to show it is managed by the correct tenant.
 
 ![mac-365](/images/mac-365.png)
 

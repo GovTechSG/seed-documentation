@@ -15,7 +15,7 @@ Ensure you are using one of the supported browsers and operating systems before 
 
 **Supported Operating Systems (OS)**:
 
-- macOS 13 and 14
+- macOS 13, 14 and 15
 - Windows 10 and 11 (Pro and Enterprise)
 
 

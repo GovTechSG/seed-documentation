@@ -7,14 +7,15 @@ This page provides the following Information:
 
 ## Scheduled maintenance
 
-No ongoing maintenance!
+| **Date** | 22 January 2025 |
+|---|---|
+| **Scheduled maintenance** | Upgrading of Tanium servers will occur after office hours from **6pm to 9pm, Thursday, 23rd January 2025**. <br><br>**Impact**: <br>- Onboarding may experience intermittent errors. Users are advised to avoid onboarding activities during this time.<br><br>**What should I do if I encounter issues?**<br>- Please refrain from onboarding during the maintenance period. <br>- If you face any issues post-maintenance, submit an [incident support request](https://go.gov.sg/seed-techpass-support). |
 
 
 
 ## Ongoing incidents
 
-No ongoing incidents!
-
+No ongoing incidents
 
 
 <!-- | Date | 09 July 2023 |
@@ -23,6 +24,16 @@ No ongoing incidents!
 -->
 
 ## Previous incidents
+
+| Date | 11 December 2024  |
+|---|---|
+| **Issue summary** | We are aware that some users have received unexpected notifications on their SEED devices. The team has investigated and fixed the issue. <br><br>**Impact**: Access to SGTS and GCC services is not affected. <br><br>**What should I do if I am still having an issue?**<br> Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+
+| Date | 26 September 2024 |
+| ------------- |:-------------|
+| **Issue summary** | **Resolved**<br>The Cloudflare connectivity issue affecting SEED users has been resolved as of 26 September 2024, 11:30 SGT. <br><br>*Updated on: 26 September 2024, 09:33 SGT*<br><br>**Impact**: Users may have experienced issues accessing SGTS or GCC services during the outage. <br><br>**Workaround**: If you are still facing issues, please turn Cloudflare WARP off and on again, and reboot your device. <br><br>**What should I do if I am still having an issue?**<br> Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+
+
 
 | Date | 20 August 2024 |
 |------|--------------|
