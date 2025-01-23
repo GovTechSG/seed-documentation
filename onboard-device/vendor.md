@@ -77,6 +77,8 @@ Based on your Windows settings, you may be prompted to restart or reset your pas
 
 > **Note**: Do not use the default administrator account for onboarding.
 
+<details>
+  <summary style="font-size:18px">Create your personal local administrator account.</summary><br>
 
 1. Search for **Computer Management**.
 2. Navigate to **Local Users and Groups**, and click on **Users**.
