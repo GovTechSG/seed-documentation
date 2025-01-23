@@ -168,16 +168,20 @@ Based on your Windows settings, you may be prompted to restart or reset your pas
 
 ### Step 1: Create your personal local administrator account
 
-> **Note**: Do not use the default administrator account for onboarding.
-
 <details>
   <summary style="font-size:18px">Create your personal local administrator account.</summary><br>
+
+  > **Note**: Do not use the default administrator account for onboarding.
+
 
 1. Search for **Computer Management**.
 2. Navigate to **Local Users and Groups**, and click on **Users**.
 3. Click **New User**.
 4. Fill in **User Name**, **Password**, and **Confirm Password**. Ensure that **User must change password at next logon** is unchecked. Once done, click **Create**.
 5. Double-click on the user you created and add the user as a member of the **Administrators** group.
+
+   </details>
+
 
 ### Step 2: Set up Microsoft Intune 
 
