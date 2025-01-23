@@ -90,7 +90,6 @@ Based on your Windows settings, you may be prompted to restart or reset your pas
 
 </details>
 
----
 
 ### Step 2: Set up Microsoft Intune
 
@@ -116,7 +115,7 @@ Based on your Windows settings, you may be prompted to restart or reset your pas
 
 </details>
 
----
+
 
 ### Step 3: Verify installation
 
