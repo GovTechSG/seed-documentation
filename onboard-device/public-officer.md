@@ -166,7 +166,24 @@ Based on your Windows settings, you may be prompted to restart or reset your pas
 <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/PAyKoRZ7WSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
 </div>
 
-### Step 1: Set up Microsoft Intune 
+### Step 1: Create your personal local administrator account
+
+<details>
+  <summary style="font-size:18px">Create your personal local administrator account.</summary><br>
+
+  > **Note**: Do not use the default administrator account for onboarding.
+
+
+1. Search for **Computer Management**.
+2. Navigate to **Local Users and Groups**, and click on **Users**.
+3. Click **New User**.
+4. Fill in **User Name**, **Password**, and **Confirm Password**. Ensure that **User must change password at next logon** is unchecked. Once done, click **Create**.
+5. Double-click on the user you created and add the user as a member of the **Administrators** group.
+
+   </details>
+
+
+### Step 2: Set up Microsoft Intune 
 
 <details>
   <summary style="font-size:18px"> Set up Microsoft Intune to get the required applications and device configurations.</summary><br>
@@ -192,7 +209,7 @@ Based on your Windows settings, you may be prompted to restart or reset your pas
 
 </details>
 
-### Step 2: Register Microsoft Intune Device ID
+### Step 3: Register Microsoft Intune Device ID
 
 
 <details>
@@ -271,7 +288,7 @@ Write-Output $intune_id
 </details>
 
 
-### Step 3: Verify installation
+### Step 4: Verify installation
 
 <details>
   <summary style="font-size:18px">Verify the installation.</summary><br>
