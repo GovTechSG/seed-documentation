@@ -79,6 +79,16 @@ Please email enquiries_seed@tech.gov.sg for assistance.
 
  </details>
 
+<details><summary>Why is my device not showing on SEED Dashboard?</summary>
+
+  Your TechPass account is not linked to an existing SEED device. This may be due to an issue during onboarding or an incorrect account termination.
+
+  To resolve this:
+  1. Offboard and re-onboard your device. Follow the [Windows offboarding guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/offboard-device/windows-offboarding-guide) or [macOS offboarding guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/offboard-device/macos-offboarding-guide), then complete the onboarding process.
+  2. If the issue persists, submit a service request to inform the SEED team.
+
+</details>
+
 
 <details><summary>Why do I need to turn on File Vault encryption?</summary>
 
