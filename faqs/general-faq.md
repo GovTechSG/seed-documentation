@@ -85,7 +85,7 @@ Please email enquiries_seed@tech.gov.sg for assistance.
 
   To resolve this:
   1. Offboard and re-onboard your device. Follow the [Windows offboarding guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/offboard-device/windows-offboarding-guide) or [macOS offboarding guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/offboard-device/macos-offboarding-guide), then complete the onboarding process.
-  2. If the issue persists, submit a service request to inform the SEED team.
+  2. If the issue persists, submit a [service request](https://go.gov.sg/seed-techpass-support) to inform the SEED team.
 
 </details>
 
