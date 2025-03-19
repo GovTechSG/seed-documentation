@@ -41,7 +41,7 @@ Supported operating system:
   <summary>Windows</summary>
 
 1. Click on the **Start** icon and select **Settings**  
-   ![Windows Start](/images/heckos-win.png)  
+   ![Windows Start](/images/checkos-win.png)  
 2. Open **System Settings**  
    ![Windows System Settings](/images/checkos-win2.png)  
 3. Select **System**  
