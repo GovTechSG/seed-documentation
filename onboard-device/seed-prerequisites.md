@@ -34,18 +34,18 @@ Supported operating system:
 2. Search for **About this Mac.app**  
 3. Look for the line that says **macOS** (as highlighted below). This will show your macOS version.
 
-![macOS](/images/checkos-mb.png)
+   ![macOS](/images/checkos-mb.png)
 </details>
 
 <details>
   <summary>Windows</summary>
 
 1. Click on the **Start** icon and select **Settings**  
-   ![Windows Start](checkos-win.png)  
+   ![Windows Start](/images/heckos-win.png)  
 2. Open **System Settings**  
-   ![Windows System Settings](checkos-win2.png)  
+   ![Windows System Settings](/images/checkos-win2.png)  
 3. Select **System**  
-   ![Windows System Page](checkos-win3.png)  
+   ![Windows System Page](/images/checkos-win3.png)  
 4. Under **Windows Specifications**, look at:  
    - **Edition** – Ensure it is **Windows 10/11** and either **Enterprise** or **Pro** edition  
    - **OS Build** – Check the **build number** and **revision number**. The build number must be valid, and the revision number should be **greater than or equal** to the required version.  
@@ -53,7 +53,7 @@ Supported operating system:
    **Example:**  
    If the build number is **19045**, your revision number should be at least **5487**. If your build number is not listed in the table of valid builds, update your device or change to a supported version.  
 
-   ![Windows OS Build](checkos-win4.png)  
+   ![Windows OS Build](/images/checkos-win4.png)  
 </details>
 
 ## Request SEED provisioning
