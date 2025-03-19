@@ -34,7 +34,7 @@ Supported operating system:
 2. Search for **About this Mac.app**  
 3. Look for the line that says **macOS** (as highlighted below). This will show your macOS version.
 
-![macOS](checkos-mb.png)
+![macOS](/images/checkos-mb.png)
 </details>
 
 <details>
