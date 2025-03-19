@@ -14,10 +14,13 @@ Supported browsers:
 Supported operating system:
 
 
-| Operating system | Supported versions |
-|---|---|
-| **macOS** | 15.1.1 and above (macOS 15) <br> 14.7.3 (macOS 14) <br> macOS 13 (To be deprecated) |
-| **Windows** | **10:** 1507 (LTSC only, build 10240, revision 20915) <br> 1607 (LTSC only, build 14393, revision 7785) <br> 1809 (LTSC only, 6893) <br> 21H2 (LTSC only, build 19044, revision 5487) <br> 22H2 (build 19045, revision 5487) <br><br> **11:** 22H2 (build 22621, revision 4890) <br> 23H2 (build 22631, revision 4890) <br> 24H2 (build 26100, revision 3194) |
+| **Operating system** | **Version** |
+|----------------------|------------|
+| **MacOS 15**        | 15.3.2     |
+| **MacOS 14**        | 14.7.3     |
+| **MacOS 13**        | 13.7.3     |
+| **Windows 10**      | 1507 (LTSC only, build 10240, minimally revision 20915) <br> 1607 (LTSC only, build 14393, minimally revision 7785) <br> 1809 (LTSC only, build number 17763, minimally revision 6893) <br> 21H2 (LTSC only, build 19044, minimally revision 5487) <br> 22H2 (build 19045, minimally revision 5487) |
+| **Windows 11**      | 22H2 (build 22621, minimally revision 4890) <br> 23H2 (build 22631, minimally revision 4890) <br> 24H2 (build 26100, minimally revision 3194) |
 
 > **Note**:
 > Admin privilege is required to onboard to SEED.
@@ -38,16 +41,19 @@ Supported operating system:
   <summary>Windows</summary>
 
 1. Click on the **Start** icon and select **Settings**  
-   ![winstart](checkos-win.jpg)  
+   ![Windows Start](checkos-win.png)  
 2. Open **System Settings**  
-   ![winsetting](checkos-win2.jpg)  
+   ![Windows System Settings](checkos-win2.png)  
 3. Select **System**  
+   ![Windows System Page](checkos-win3.png)  
 4. Under **Windows Specifications**, look at:  
    - **Edition** – Ensure it is **Windows 10/11** and either **Enterprise** or **Pro** edition  
    - **OS Build** – Check the **build number** and **revision number**. The build number must be valid, and the revision number should be **greater than or equal** to the required version.  
 
    **Example:**  
-   If the build number is **19045**, your revision number should be at least **5487**. If your build number is not listed in the table of valid builds, update your device or change to a supported version.
+   If the build number is **19045**, your revision number should be at least **5487**. If your build number is not listed in the table of valid builds, update your device or change to a supported version.  
+
+   ![Windows OS Build](checkos-win4.png)  
 </details>
 
 ## Request SEED provisioning
