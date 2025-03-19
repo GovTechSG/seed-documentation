@@ -16,9 +16,9 @@ Supported operating system:
 
 | **Operating system** | **Version** |
 |----------------------|------------|
-| **MacOS 15**        | 15.3.2     |
-| **MacOS 14**        | 14.7.3     |
-| **MacOS 13**        | 13.7.3     |
+| **macOS 15**        | 15.3.2     |
+| **macOS 14**        | 14.7.3     |
+| **macOS 13**        | 13.7.3     |
 | **Windows 10**      | 1507 (LTSC only, build 10240, minimally revision 20915) <br> 1607 (LTSC only, build 14393, minimally revision 7785) <br> 1809 (LTSC only, build number 17763, minimally revision 6893) <br> 21H2 (LTSC only, build 19044, minimally revision 5487) <br> 22H2 (build 19045, minimally revision 5487) |
 | **Windows 11**      | 22H2 (build 22621, minimally revision 4890) <br> 23H2 (build 22631, minimally revision 4890) <br> 24H2 (build 26100, minimally revision 3194) |
 
@@ -31,7 +31,7 @@ Supported operating system:
   <summary>macOS</summary>
 
 1. Open Spotlight using **Cmd + Space**  
-2. Search for **About this Mac.app**  
+2. Search for **About this mac.app**  
 3. Look for the line that says **macOS** (as highlighted below). This will show your macOS version.
 
    ![macOS](/images/checkos-mb.png)
