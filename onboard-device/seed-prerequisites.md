@@ -16,7 +16,7 @@ Supported operating system:
 
 | **Operating system** | **Version** |
 |----------------------|------------|
-| **macOS 15**        | 15.1.1     |
+| **macOS 15**        | 15.3.2    |
 | **macOS 14**        | 14.7.3     |
 | **macOS 13**        | 13.7.3     |
 | **Windows 10**      | 1507 (LTSC only, build 10240, minimally revision 20915) <br> 1607 (LTSC only, build 14393, minimally revision 7785) <br> 1809 (LTSC only, build number 17763, minimally revision 6893) <br> 21H2 (LTSC only, build 19044, minimally revision 5487) <br> 22H2 (build 19045, minimally revision 5487) |
