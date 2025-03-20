@@ -14,7 +14,7 @@ Supported browsers:
 Supported operating system:
 
 
-| **Operating system** | **Version** |
+| **Operating system** | **Version supported** |
 |----------------------|------------|
 | **macOS 15**        | 15.3.2 <br> **Note**: If you encounter issues accessing SGTS or GCC services after the update, please ensure that [FDA is enabled](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/post-onboarding-instructions/macos-latest?id=ensure-full-disk-access-fda-is-enabled-for-seed-components) and reboot your device.*   |
 | **macOS 14**        | 14.7.3     |
