@@ -7,21 +7,15 @@ This page provides the following Information:
 
 ## Scheduled maintenance
 
-| **Date** | 04 March 2025 |
-|---|---|
-| **Scheduled maintenance** | A scheduled upgrade for the Tanium servers will take place after office hours from **6pm to 9pm, Tuesday, 18th March 2025**. <br><br>**Impact**: <br>- Onboarding may experience intermittent errors. Users are advised to avoid onboarding activities during this time and preferably **avoid starting onboarding 30 minutes before the maintenance begins**.<br>- If you face any issues post-maintenance, submit an [incident support request](https://go.gov.sg/seed-techpass-support). |
-
-
-
-| **Date** | 22 January 2025 |
-|---|---|
-| **Scheduled maintenance** | Upgrading of Tanium servers will occur after office hours from **6pm to 9pm, Thursday, 23rd January 2025**. <br><br>**Impact**: <br>- Onboarding may experience intermittent errors. Users are advised to avoid onboarding activities during this time.<br><br>**What should I do if I encounter issues?**<br>- Please refrain from onboarding during the maintenance period. <br>- If you face any issues post-maintenance, submit an [incident support request](https://go.gov.sg/seed-techpass-support). |
-
+No scheduled maintenance!
 
 
 ## Ongoing incidents
 
-No ongoing incidents
+| Date | 21 March 2025 |
+|------|--------------|
+| **Issue summary** | We have identified access issues to SGTS and GCC services for some users at **9:06 AM SGT**. Our team is actively investigating the matter. <br><br>**Impact**: Users may experience difficulties accessing SGTS and GCC services. <br><br>We will provide updates as soon as we have more information. Thank you for your patience. <br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+
 
 
 <!-- | Date | 09 July 2023 |
