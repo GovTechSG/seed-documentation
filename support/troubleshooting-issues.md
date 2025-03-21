@@ -1,6 +1,6 @@
 # Troubleshooting issues
 
-This guide provides solutions to common problems for SEED. Follow the steps below to troubleshoot and resolve the problems you are experiencing
+This guide provides solutions to common problems for SEED. Follow the steps below to troubleshoot and resolve the problems you are experiencing.
 
 ## Unable to log in to MacBook – login loop
 
