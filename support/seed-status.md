@@ -21,7 +21,10 @@ This page provides the following Information:
 
 ## Ongoing incidents
 
-No ongoing incidents
+| Date | 21 March 2025 |
+|------|--------------|
+| **Issue summary** | We have identified access issues for some users at **9:06 AM SGT**. Our team is actively investigating the matter. <br><br>**Impact**: Users may experience difficulties accessing SEED services. <br><br>We will provide updates as soon as we have more information. Thank you for your patience. <br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+
 
 
 <!-- | Date | 09 July 2023 |
