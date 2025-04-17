@@ -16,11 +16,12 @@ Supported operating system:
 
 | **Operating system** | **Version supported** |
 |----------------------|------------|
-| **macOS 15**        | 15.3.2 <br> **Note**: If you encounter issues accessing SGTS or GCC services after the update, please ensure that [FDA is enabled](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/post-onboarding-instructions/macos-latest?id=ensure-full-disk-access-fda-is-enabled-for-seed-components) and reboot your device.*   |
-| **macOS 14**        | 14.7.3     |
-| **macOS 13**        | 13.7.3     |
+| **macOS 15**        | 15.4.1 <br> **Note**: If you encounter issues accessing SGTS or GCC services after the update, please ensure that [FDA is enabled](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/post-onboarding-instructions/macos-latest?id=ensure-full-disk-access-fda-is-enabled-for-seed-components) and reboot your device.  |
+| **macOS 14**        | 14.7.5    |
+| **macOS 13**        | 13.7.5  |
 | **Windows 10**      | 1507 (LTSC only, build 10240, minimally revision 20915) <br> 1607 (LTSC only, build 14393, minimally revision 7785) <br> 1809 (LTSC only, build 17763, minimally revision 6893) <br> 21H2 (LTSC only, build 19044, minimally revision 5487) <br> 22H2 (build 19045, minimally revision 5487) |
 | **Windows 11**      | 22H2 (build 22621, minimally revision 4890) <br> 23H2 (build 22631, minimally revision 4890) <br> 24H2 (build 26100, minimally revision 3194) |
+
 
 > **Note**:
 > Admin privilege is required to onboard to SEED.
