@@ -7,7 +7,9 @@ This page provides the following Information:
 
 ## Scheduled maintenance
 
-No scheduled maintenance!
+| Date            | 21 May 2025                  |
+|-----------------|------------------------------|
+| **Issue summary** | SEED will be performing scheduled maintenance updates on **21 May 2025, Wednesday, from 6:00 PM SGT onwards**. This maintenance was announced via email broadcast on 8 May and on the documentation portal. <br><br>**Impact**:</br> Users onboarding to SEED may encounter intermittent errors or delays. Users are advised **not to onboard during this period or 30 minutes prior to it**, as the maintenance will take place after office hours. <br><br>*Posted on: 21 May 2025, 9:00 AM SGT*<br><br>**What should I do if I am still having an issue?**<br/>Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
 
 
 ## Ongoing incidents
