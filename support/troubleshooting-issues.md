@@ -4,11 +4,9 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
 
 ## Unable to log in to MacBook – login loop
 
-This is a known issue affecting older versions of macOS, where users are unable to log in despite entering the correct password. The issue has been resolved in **macOS 15.4.1 and later**.
+This is a known issue affecting older versions of macOS, where users are unable to log in despite entering the correct password.
 
 The problem typically occurs because some key presses are not registered properly at the login screen, resulting in an incorrect password input — even if the user typed it correctly.
-
-To resolve the issue, upgrade your macOS to version **15.4.1 or later**.
 
 ### Suggested steps
 
