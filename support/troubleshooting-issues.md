@@ -4,7 +4,10 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
 
 ## Unable to log in to MacBook – login loop
 
-This issue commonly occurs on devices with outdated macOS versions. To resolve it, please upgrade your macOS to version 15.1.1 or later.
+This is a known issue affecting older versions of macOS, where users are unable to log in despite entering the correct password.
+The problem typically occurs because some key presses are not registered properly at the login screen, resulting in an incorrect password input — even if the user typed it correctly.
+This issue is fixed from macOS **15.4 or later**.
+To resolve the issue, and aligning to our OS baselining, we recommend you to upgrade your macOS to version **15.4.1 or later**, to avoid encountering the login loop issue.
 
 ### Suggested steps
 
@@ -47,6 +50,12 @@ Follow the steps below depending on your Mac model. If you are unsure whether yo
 ### Reinstall macOS if necessary
 
 If you are still unable to log in, reinstall macOS through recovery mode. Refer to [Apple’s guide on reinstalling macOS](https://support.apple.com/en-sg/102655).
+
+### Additional reference
+
+Apple has acknowledged this issue in their enterprise support article:  
+[https://support.apple.com/en-gb/121011](https://support.apple.com/en-gb/121011)
+
 
 
 ## Resolving *Cloudflare CF_DNS_Lookup_Failure* error on macOS 15
