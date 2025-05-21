@@ -9,7 +9,7 @@ The problem typically occurs because some key presses are not registered properl
 This issue is fixed from macOS **15.4 or later**.
 To resolve the issue, and aligning to our OS baselining, we recommend you to upgrade your macOS to version **15.4.1 or later**, to avoid encountering the login loop issue.
 
-### Suggested steps
+### Suggested steps to log in and update
 
 1. **Log in and upgrade macOS**
    - Attempt to log in to the MacBook a few times using the correct password. Once logged in, upgrade your macOS.
