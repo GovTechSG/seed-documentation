@@ -17,13 +17,13 @@
   - [Dashboard overview](/seed-dashboard/seed-dashboard-overview.md)
   - [Dashboard tour](/seed-dashboard/seed-dashboard-tour.md)
   - [Generate diagnostic files](/support/generate-diagnostic-files.md)
-  - [View SEED service status](/support/seed-status.md)
 
 - Offboarding
   - [Offboarding](/offboard-device/offboarding.md)
   - [Device clean-up policy](/offboard-device/device-cleanup-policy.md)
 
 - Support
+  - [View SEED service status](/support/seed-status.md)
   - [Troubleshooting guide](/support/troubleshooting-issues.md)
   - [Raise a service request](/support/raise-service-request.md)
   - [Cloudflare certificate update](/support/cloudflare-cert-update-guide.md)
