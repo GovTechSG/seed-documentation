@@ -1,39 +1,44 @@
-- Introduction
-  - [Home](README.md)
-  - [SEED overview](overview)
-- What's new
-  - [Release notes](release-notes)
-  - [Announcements](announcements)
-- Onboard to SEED
-  - [Prerequisites](/onboard-device/seed-prerequisites.md)
-  - [Identify onboarding persona](/onboard-device/identify-onboarding-persona.md)
-  - [Onboard as a public officer](/onboard-device/public-officer)
-  - [Onboard as a vendor](onboard-device/vendor)
-- Post onboarding steps  
-  - [macOS post onboarding guide](/post-onboarding-instructions/macos-latest.md)
-  - [Windows post onboarding guide](/post-onboarding-instructions/windows.md)
-- Monitor using SEED Dashboard
-  - [SEED Dashboard overview](/seed-dashboard/seed-dashboard-overview.md)
-  - [SEED Dashboard tour](/seed-dashboard/seed-dashboard-tour.md)
-- Offboard from SEED
-  - [macOS offboarding guide](/offboard-device/macos-offboarding-guide.md)
-  - [Windows offboarding guide](/offboard-device/windows-offboarding-guide.md)
-  - [Device clean-up policy](/offboard-device/device-cleanup-policy.md)
-- FAQ
-  - [General FAQ](/faqs/general-faq.md)
-  - [Onboarding FAQ](/faqs/onboarding-faq.md)
-  - [Offboarding FAQ](/faqs/offboarding-faq.md)
-  - [GCC 1.0 connectivity FAQ](/faqs/gcc1-connectivity-faq.md)
-- Support
-  - [Cloudflare Certificate Update FAQ](/support/cloudflare-cert-update-guide.md)
-  - [Configuration of Common Tools FAQ](/support/configuration-of-common-developer-cli-tools-with-cloudflare-warp-guide.md)
-  - [Generate diagnostic files](/support/generate-diagnostic-files)
-  - [Troubleshooting issues](/support/troubleshooting-issues.md)
+- [Home](README.md)
+- [SEED overview](/overview)
+
+- Getting started
+  - [Identify your onboarding persona](/onboard-device/identify-onboarding-persona.md)
+  - [SEED prerequisites](/onboard-device/seed-prerequisites.md)
+
+- Onboarding
+  - Public officers
+    - [Onboarding guide](/onboard-device/public-officer.md)
+    - [Post-onboarding (macOS)](/post-onboarding-instructions/macos-latest.md)
+    - [Post-onboarding (Windows)](/post-onboarding-instructions/windows.md)
+  - Vendors
+    - [Onboarding guide](/onboard-device/vendor.md)
+    - [Post-onboarding (macOS)](/post-onboarding-instructions/macos-latest.md)
+    - [Post-onboarding (Windows)](/post-onboarding-instructions/windows.md)
+
+- SEED Dashboard
+  - [Dashboard overview](/seed-dashboard/seed-dashboard-overview.md)
+  - [Dashboard tour](/seed-dashboard/seed-dashboard-tour.md)
+  - [Generate diagnostic files](/support/generate-diagnostic-files.md)
   - [View SEED service status](/support/seed-status.md)
+
+- Offboarding
+  - [macOS offboarding](/offboard-device/macos-offboarding-guide.md)
+  - [Windows offboarding](/offboard-device/windows-offboarding-guide.md)
+  - [Device clean-up policy](/offboard-device/device-cleanup-policy.md)
+
+- Support
+  - [Troubleshooting guide](/support/troubleshooting-issues.md)
   - [Raise a service request](/support/raise-service-request.md)
-- Additional resources 
+  - [Cloudflare certificate update](/support/cloudflare-cert-update-guide.md)
+  - [Configuring common tools](/support/configuration-of-common-developer-cli-tools-with-cloudflare-warp-guide.md)
+
+- Resources
   - [Best practices](/additional-resources/best-practices.md)
-  - [Split tunnel allowlisting](additional-resources/split-tunnel-allowlist)
-  - [Terms and policies](additional-resources/terms-and-policies.md)
-  - [Glossary](additional-resources/glossary)
- 
+  - [Split tunnel allowlisting](/additional-resources/split-tunnel-allowlist.md)
+  - [Terms and policies](/additional-resources/terms-and-policies.md)
+  - [Glossary](/additional-resources/glossary.md)
+  - [FAQs](/faqs/general-faq.md)
+
+- Updates
+  - [Release notes](/release-notes.md)
+  - [Announcements](/announcements.md)
