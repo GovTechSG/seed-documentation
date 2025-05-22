@@ -1,19 +1,17 @@
 - [Home](README.md)
-- [SEED overview](/overview)
+- [SEED overview](/overview.md)
 
 - Getting started
   - [Identify your onboarding persona](/onboard-device/identify-onboarding-persona.md)
   - [SEED prerequisites](/onboard-device/seed-prerequisites.md)
 
-- Onboarding
+- Set up SEED
   - Public officers
-    - [Onboarding guide](/onboard-device/public-officer.md)
-    - [Post-onboarding (macOS)](/post-onboarding-instructions/macos-latest.md)
-    - [Post-onboarding (Windows)](/post-onboarding-instructions/windows.md)
+    - [Onboarding](/onboard-device/public-officer.md)
+    - [Post-onboarding](/post-onboarding-instructions/public-officer.md)
   - Vendors
-    - [Onboarding guide](/onboard-device/vendor.md)
-    - [Post-onboarding (macOS)](/post-onboarding-instructions/macos-latest.md)
-    - [Post-onboarding (Windows)](/post-onboarding-instructions/windows.md)
+    - [Onboarding](/onboard-device/vendor.md)
+    - [Post-onboarding](/post-onboarding-instructions/vendor.md)
 
 - SEED Dashboard
   - [Dashboard overview](/seed-dashboard/seed-dashboard-overview.md)
@@ -22,8 +20,7 @@
   - [View SEED service status](/support/seed-status.md)
 
 - Offboarding
-  - [macOS offboarding](/offboard-device/macos-offboarding-guide.md)
-  - [Windows offboarding](/offboard-device/windows-offboarding-guide.md)
+  - [Offboarding](/offboard-device/offboarding.md)
   - [Device clean-up policy](/offboard-device/device-cleanup-policy.md)
 
 - Support
