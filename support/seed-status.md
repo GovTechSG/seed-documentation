@@ -11,9 +11,7 @@ No scheduled maintenance
 
 ## Ongoing incidents
 
-| **Date** | 4 June 2025 |
-|---|---|
-| **Incident summary** | We are currently facing issues with Intune. We have identified the root cause and are working closely with Microsoft to resolve the issue.<br><br>**Impact**<br>- New users onboarding to SEED may be affected.<br><br>If you encounter access issues, please [raise a support ticket](https://go.gov.sg/seed-techpass-support).<br><br>*Posted on: 4 June 2025, 2:10 PM SGT* |
+No ongoing incident
 
 
 <!-- | Date | 09 July 2023 |
@@ -22,6 +20,11 @@ No scheduled maintenance
 -->
 
 ## Previous incidents
+
+| Date | 4 June 2025 |
+|------|--------------|
+| **Issue summary** | The Intune issue affecting new user onboarding to SEED was **resolved at 6:57 PM SGT**. <br><br>**Impact**: Some new users may have experienced difficulties during the onboarding process earlier today. <br><br>The issue has been fixed, and onboarding is now working as expected. <br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+
 
 
 | Date | 21 March 2025 |
