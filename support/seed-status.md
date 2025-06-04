@@ -7,15 +7,13 @@ This page provides the following Information:
 
 ## Scheduled maintenance
 
-| Date            | 21 May 2025                  |
-|-----------------|------------------------------|
-| **Issue summary** | SEED will be performing scheduled maintenance updates on **21 May 2025, Wednesday, from 6:00 PM SGT onwards**. This maintenance was announced via email broadcast on 8 May and on the documentation portal. <br><br>**Impact**:</br> Users onboarding to SEED may encounter intermittent errors or delays. Users are advised **not to onboard during this period or 30 minutes prior to it**, as the maintenance will take place after office hours. <br><br>*Posted on: 21 May 2025, 9:00 AM SGT*<br><br>**What should I do if I am still having an issue?**<br/>Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
-
+No scheduled maintenance
 
 ## Ongoing incidents
 
-No ongoing incident!
-
+| **Date** | 4 June 2025 |
+|---|---|
+| **Incident summary** | We are currently facing issues with Intune. We have identified the root cause and are working closely with Microsoft to resolve the issue.<br><br>**Impact**<br>- New users onboarding to SEED may be affected.<br><br>If you encounter access issues, please [raise a support ticket](https://go.gov.sg/seed-techpass-support).<br><br>*Posted on: 4 June 2025, 2:10 PM SGT* |
 
 
 <!-- | Date | 09 July 2023 |
