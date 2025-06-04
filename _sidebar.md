@@ -27,6 +27,7 @@
 - Support
   - [Cloudflare Certificate Update FAQ](/support/cloudflare-cert-update-guide.md)
   - [Configuration of Common Tools FAQ](/support/configuration-of-common-developer-cli-tools-with-cloudflare-warp-guide.md)
+  - [Security hardening list](/support/hardening-list.md)
   - [Generate diagnostic files](/support/generate-diagnostic-files)
   - [Troubleshooting issues](/support/troubleshooting-issues.md)
   - [View SEED service status](/support/seed-status.md)
