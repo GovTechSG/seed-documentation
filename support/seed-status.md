@@ -7,7 +7,9 @@ This page provides the following Information:
 
 ## Scheduled maintenance
 
-No scheduled maintenance
+| Date | 5 June 2025 |
+|---|---|
+| **Scheduled maintenance for Tanium servers** | We will be upgrading the Tanium servers to ensure continued performance and reliability. <br><br>**Maintenance schedule**:<br>- Thursday, **26 June 2025**, from **6:00 PM to 9:00 PM SGT**. <br><br>**Impact**:<br>- Onboarding may experience intermittent errors. Users are strongly advised to refrain from onboarding during this time and to avoid starting onboarding **30 minutes before the maintenance begins**. <br>- Access to SGTS for onboarded users should not be affected. <br><br>**Need help?**<br>Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
 
 ## Ongoing incidents
 
