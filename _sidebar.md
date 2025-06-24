@@ -24,6 +24,8 @@
   - [Onboarding FAQ](/faqs/onboarding-faq.md)
   - [Offboarding FAQ](/faqs/offboarding-faq.md)
   - [GCC 1.0 connectivity FAQ](/faqs/gcc1-connectivity-faq.md)
+- Update schedule
+  - [Patching schedule (OS updates)](update-schedule/os-patching-schedule.md)
 - Support
   - [Cloudflare Certificate Update FAQ](/support/cloudflare-cert-update-guide.md)
   - [Configuration of Common Tools FAQ](/support/configuration-of-common-developer-cli-tools-with-cloudflare-warp-guide.md)
