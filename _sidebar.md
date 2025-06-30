@@ -14,9 +14,7 @@
   - [Windows post onboarding guide](/post-onboarding-instructions/windows.md)
 - SEED+
   - [What is SEED+](seed-plus/overview.md)
-  - [CyberArk dialogs and permissions](seed-plus/epm-dialogs.md)
-  - [Just-In-Time access workflow](seed-plus/jit-elevation.md)
-  - [Temporary elevation request workflow](seed-plus/temporary-elevation.md)
+  - [CyberArk dialogs and permissions](seed-plus/cyberarlk-dialog.md)
   - [POC approval role](seed-plus/poc-approver-guide.md)
 - Monitor using SEED Dashboard
   - [SEED Dashboard overview](/seed-dashboard/seed-dashboard-overview.md)
