@@ -15,7 +15,7 @@
 - SEED+
   - [What is SEED+](seed-plus/overview.md)
   - [CyberArk dialogs and permissions](seed-plus/cyberark-dialog.md)
-  - [POC approval role](seed-plus/poc-approver-guide.md)
+  - [Approval guide (PoC)](seed-plus/poc-approver-guide.md)
 - Monitor using SEED Dashboard
   - [SEED Dashboard overview](/seed-dashboard/seed-dashboard-overview.md)
   - [SEED Dashboard tour](/seed-dashboard/seed-dashboard-tour.md)
