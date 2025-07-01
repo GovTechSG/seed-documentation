@@ -1,100 +1,89 @@
-# SEED+ POC Approver Guide
+# SEED+ – POC approver guide
 
-This guide is for Point-of-Contact (POC) approvers managing elevation requests submitted by offshore developers onboarded to SEED+. These requests are triggered when users attempt actions requiring elevated privileges on their devices (e.g. running `sudo` commands, installing software).
-
----
-
-## How elevation requests work
-
-When a SEED+ user performs a restricted action:
-- CyberArk EPM will display a prompt.
-- The user clicks **Activate** to submit a request with justification.
-- POC approvers will receive an email notification and must review the request in the CyberArk EPM portal.
+This guide is for point-of-contact (POC) approvers who manage and approve elevation requests from offshore developers via CyberArk Endpoint Privilege Manager (EPM).
 
 ---
 
-## Examples of typical elevation requests
+## Typical elevation requests
 
-These are common actions that trigger elevation prompts:
+Examples of elevation requests that may require your approval:
 
-- `sudo htop` from macOS terminal  
-  ![sudo htop request (macOS)](../images/seed-plus/poc-approval/sudo-htop-macos.png)
+- `sudo htop` from macOS Terminal  
+  ![sudo htop step 1](../images/seed-plus/poc-approval/sudo-htop-step1.png)  
+  ![sudo htop step 2](../images/seed-plus/poc-approval/sudo-htop-step2.png)
 
 - Software installation on Windows  
-  ![install software request (Windows)](../images/seed-plus/poc-approval/software-install-windows.png)
+  ![software install step 1](../images/seed-plus/poc-approval/software-install-step1.png)  
+  ![software install step 2](../images/seed-plus/poc-approval/software-install-step2.png)
+
+- Temporary elevation approval  
+  ![temporary elevation](../images/seed-plus/poc-approval/temp-elevation.png)
 
 ---
 
-## Approving a Temporary Elevation Request
+## How to approve elevation requests
 
-To approve a request from the CyberArk EPM portal:
+1. You will receive an email notification.  
+   ![email notification](../images/seed-plus/poc-approval/email-notification.png)
 
-1. Go to [CyberArk EPM portal](http://sg.epm.cyberark.com/SAML/GovTech)  
-   ![Login screen](../images/seed-plus/poc-approval/login-screen.png)
+2. Go to [CyberArk EPM Portal](http://sg.epm.cyberark.com/SAML/GovTech).  
+   Login with your TechPass credentials.  
+   ![CyberArk login](../images/seed-plus/poc-approval/cyberark-login.png)
 
-2. Log in with your **TechPass credentials**  
-   *Refer to the [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/get-invited-and-onboard-to-techpass) if you have not set this up.*
+3. Go to **Events Management**.
 
-3. Navigate to **Events Management**  
-   ![Access request list](../images/seed-plus/poc-approval/access-request-list.png)
+4. Click **All filters**, check **With justification**, and click **Apply**.  
+   ![JIT filters](../images/seed-plus/poc-approval/jit-filters.png)
 
-4. Click **All filters**
+5. You will be able to see the justification in the first result.  
+   ![JIT justification](../images/seed-plus/poc-approval/jit-justification.png)
 
-5. Check the box **With justification**
-
-6. Click **Apply**
-
-7. You will see a list of pending requests. Look for the relevant request.  
-   ![Request detail](../images/seed-plus/poc-approval/request-detail.png)
-
-8. Click the **3-dot menu (···)** next to the request and select **Approve temporary elevation**  
-   ![Approve button](../images/seed-plus/poc-approval/approve-button.png)
-
-Once approved:
-- A temporary elevation policy will be created automatically in the **Policies** section.  
-  ![Policy created](../images/seed-plus/poc-approval/policy-created.png)
-- This policy is valid for **24 hours**.
-- Inform the user that elevation access has been granted.
+6. Click on the 3 dots (`...`) and click **Approve temporary elevation**.  
+   A policy will be automatically created and visible in the Policies section.
 
 ---
 
-## JIT (Just-In-Time) Access Elevation
+## Just-in-time (JIT) access elevation
 
-This method is triggered **automatically every hour** when there are pending JIT access requests. Approvers must take action to create and confirm the JIT policy.
+### What is JIT access elevation?
 
-### Steps to handle JIT requests:
-
-1. Open the email notification from CyberArk.  
-   ![Sample email notification](../images/seed-plus/poc-approval/sample-jit-email.png)
-
-2. Go to [CyberArk EPM portal](http://sg.epm.cyberark.com/SAML/GovTech) and log in using TechPass.
-
-3. In the portal:
-   - Navigate to **Events Management**
-   - Click **All filters**
-   - Check **With justification**
-   - Click **Apply**  
-     ![Filter for justification](../images/seed-plus/poc-approval/jit-filters.png)
-
-4. Locate the request. A sample justification will be shown.  
-   ![Sample justification](../images/seed-plus/poc-approval/jit-justification.png)
-
-5. Click **Create JIT access and elevation policy**
-
-6. On the policy page:
-   - Under **Permissions (Local Groups)**, add:
-     - `admin` for macOS
-     - `Administrators` for Windows  
-     ![JIT policy creation](../images/seed-plus/poc-approval/jit-policy.png)
-
-7. Click **Create** and then **Confirm**
-
-Once completed, the user will receive the temporary elevation automatically on their device.  
-![User notification](../images/seed-plus/poc-approval/user-jit-notification.png)
+Just-in-time (JIT) access elevation allows temporary administrative rights to be granted to users on a per-request basis. This ensures that elevated privileges are only provided when needed and for a limited duration, reducing the risk of persistent admin access on SEED+ devices.
 
 ---
 
-## Notes
+### JIT approval flow
 
-- JIT and Temporary Elevation are two different flows, but both require POC approval.
-- If unsure whether to approve, consult your internal agency process or security team.
+1. You will receive a JIT email notification.  
+   ![JIT email notification](../images/seed-plus/poc-approval/jit-notification.png)
+
+2. Download or preview the Excel sheet linked in the email.  
+   ![request sheet](../images/seed-plus/poc-approval/request-sheet.png)
+
+3. Go to [CyberArk EPM Portal](http://sg.epm.cyberark.com/SAML/GovTech) and log in using your TechPass credentials.  
+   ![CyberArk login](../images/seed-plus/poc-approval/cyberark-login.png)
+
+4. Go to **Events Management** > Click **All filters** > Check **With justification** > Click **Apply**.  
+   ![access request list](../images/seed-plus/poc-approval/access-request-list.png)
+
+5. You will be able to see the justification in the first result.
+
+6. Click **Create JIT access and elevation policy**.  
+   ![JIT policy screen](../images/seed-plus/poc-approval/jit-policy.png)
+
+7. Under **Permissions (Local Groups)**:
+   - Add `admin` for macOS
+   - Add `Administrators` for Windows
+
+8. Click **Create**, then **Confirm**.  
+   ![JIT policy confirm](../images/seed-plus/poc-approval/jit-policy-confirm.png)
+
+9. The user will be notified from their endpoint that temporary elevation has been granted.
+
+---
+
+## Reminders for POC approvers
+
+- **Check justification** before approving any request.
+- **Elevation is temporary**: Each JIT policy is valid for **24 hours only**.
+- **Inform the user** once the request is approved.
+- Use **admin** (macOS) or **Administrators** (Windows) when assigning permissions.
