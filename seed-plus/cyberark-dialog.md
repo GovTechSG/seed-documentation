@@ -23,17 +23,13 @@ You may encounter dialogs when installing software, running certain commands, or
 
 ## 2. Application runs with administrative privileges
 
-<!-- tabs:start -->
 
 #### **Windows**
 
 ![Windows](../images/epm/windows-runs-admin.png)
 
-#### **macOS**
 
-![macOS](../images/epm/macos-runs-admin.png)
 
-<!-- tabs:end -->
 
 ---
 
