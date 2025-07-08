@@ -4,101 +4,68 @@ After your device is onboarded to SEED+, CyberArk Endpoint Privilege Manager (EP
 
 You may encounter dialogs when installing software, running certain commands, or using tools that need admin access. These dialogs vary slightly between Windows and macOS. Use the tabs to view the appropriate version for your device.
 
----
-
-### Application requires administrative privileges
-
 <!-- tabs:start -->
 
-#### Windows
-
-![Windows](../images/epm/windows-admin-privileges.png)
+### **1. Application requires administrative privileges**
 
 #### macOS
-
 ![macOS](../images/epm/macos-admin-privileges.png)
 
-<!-- tabs:end -->
+#### Windows
+![Windows](../images/epm/windows-admin-privileges.png)
 
 ---
 
-### Application runs with administrative privileges
-
-<!-- tabs:start -->
-
-#### Windows
-
-![Windows](../images/epm/windows-runs-admin.png)
+### **2. Application runs with administrative privileges**
 
 #### macOS
-
 ![macOS](../images/epm/macos-runs-admin.png)
 
-<!-- tabs:end -->
+#### Windows
+![Windows](../images/epm/windows-runs-admin.png)
 
 ---
 
-### Launch with elevated privileges
+### **3. Launch with elevated privileges**
 
-<!-- tabs:start -->
+#### macOS
+![macOS](../images/epm/macos-launch-elevated.png)
 
-#### 🖥️ Windows
-
+#### Windows
 ![Windows](../images/epm/windows-launch-elevated.png)
 
-#### macOS
-
-![macOS](../images/epm/mac-launch-elevated.png)
-
-<!-- tabs:end -->
-
 ---
 
-### Request administrative privileges
+### **4. Request administrative privileges**
 
-<!-- tabs:start -->
+#### macOS
+![macOS](../images/epm/macos-request-admin.png)
 
 #### Windows
-
 ![Windows](../images/epm/windows-request-admin.png)
 
-#### macOS
-
-![macOS](../images/epm/mac-request-admin.png)
-
-<!-- tabs:end -->
-
 ---
 
-### Temporary permissions granted
-
-<!-- tabs:start -->
-
-#### Windows
-
-![Windows](../images/epm/windows-temp-granted.png)
+### **5. Temporary permissions granted**
 
 #### macOS
-
 ![macOS](../images/epm/macos-temp-granted.png)
 
-<!-- tabs:end -->
+#### Windows
+![Windows](../images/epm/windows-temp-granted.png)
 
 ---
 
-### Temporary permissions expiration
-
-<!-- tabs:start -->
-
-#### Windows
-
-![Windows](../images/epm/windows-temp-expiring.png)
+### **6. Temporary permissions expiration**
 
 #### macOS
-
 ![macOS](../images/epm/macos-temp-expiring.png)
 
+#### Windows
+![Windows](../images/epm/windows-temp-expiring.png)
+
 <!-- tabs:end -->
+
 
 
 test
