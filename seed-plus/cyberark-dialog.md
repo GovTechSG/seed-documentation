@@ -100,6 +100,19 @@ You may encounter dialogs when installing software, running certain commands, or
 
 <!-- tabs:end -->
 
----
 
-*These dialogs are part of the standard SEED+ security experience. Reach out to your point-of-contact (POC) if you need help approving elevation requests.*
+test
+
+<!-- tabs:start -->
+
+#### **Windows**
+
+1. The following dialog appears when an application requests administrative rights.  
+   ![Windows](../images/epm/windows-admin-privileges.png)
+
+#### **macOS**
+
+1. The following dialog appears when an application requests administrative rights.  
+   ![macOS](../images/epm/macos-admin-privileges.png)
+
+<!-- tabs:end -->
