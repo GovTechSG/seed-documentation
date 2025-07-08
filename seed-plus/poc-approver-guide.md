@@ -1,4 +1,4 @@
-# SEED+ – POC approver guide
+# SEED+ POC approver guide
 
 This guide is for point-of-contact (POC) approvers who manage and approve elevation requests from offshore developers via CyberArk Endpoint Privilege Manager (EPM).
 
