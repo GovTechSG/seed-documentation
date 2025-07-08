@@ -10,11 +10,11 @@ You may encounter dialogs when installing software, running certain commands, or
 
 <!-- tabs:start -->
 
-#### 🖥️ Windows
+#### Windows
 
 ![Windows](../images/epm/windows-admin-privileges.png)
 
-#### 🍎 macOS
+#### macOS
 
 ![macOS](../images/epm/macos-admin-privileges.png)
 
@@ -26,11 +26,11 @@ You may encounter dialogs when installing software, running certain commands, or
 
 <!-- tabs:start -->
 
-#### 🖥️ Windows
+#### Windows
 
 ![Windows](../images/epm/windows-runs-admin.png)
 
-#### 🍎 macOS
+#### macOS
 
 ![macOS](../images/epm/macos-runs-admin.png)
 
@@ -46,7 +46,7 @@ You may encounter dialogs when installing software, running certain commands, or
 
 ![Windows](../images/epm/windows-launch-elevated.png)
 
-#### 🍎 macOS
+#### macOS
 
 ![macOS](../images/epm/mac-launch-elevated.png)
 
@@ -58,11 +58,11 @@ You may encounter dialogs when installing software, running certain commands, or
 
 <!-- tabs:start -->
 
-#### 🖥️ Windows
+#### Windows
 
 ![Windows](../images/epm/windows-request-admin.png)
 
-#### 🍎 macOS
+#### macOS
 
 ![macOS](../images/epm/mac-request-admin.png)
 
@@ -74,11 +74,11 @@ You may encounter dialogs when installing software, running certain commands, or
 
 <!-- tabs:start -->
 
-#### 🖥️ Windows
+#### Windows
 
 ![Windows](../images/epm/windows-temp-granted.png)
 
-#### 🍎 macOS
+#### macOS
 
 ![macOS](../images/epm/macos-temp-granted.png)
 
@@ -90,11 +90,11 @@ You may encounter dialogs when installing software, running certain commands, or
 
 <!-- tabs:start -->
 
-#### 🖥️ Windows
+#### Windows
 
 ![Windows](../images/epm/windows-temp-expiring.png)
 
-#### 🍎 macOS
+#### macOS
 
 ![macOS](../images/epm/macos-temp-expiring.png)
 
