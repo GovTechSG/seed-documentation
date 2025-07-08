@@ -26,7 +26,6 @@ SEED+ uses the same baseline protection as SEED, with additional controls for of
 - **CyberArk Endpoint Privilege Manager (EPM)**  
   - Removes administrative rights on your account  
   - Elevation requests require approval from the POC  
-  - CyberArk is tied to the device, not the email address  
 
 - **USB storage blocking**  
   - Only applies to storage devices  
@@ -34,6 +33,9 @@ SEED+ uses the same baseline protection as SEED, with additional controls for of
 
 - **Cloudflare WARP**  
   - Always stays on and connected  
+
+- **DNS IP address preset**  
+  - Uses Cloudflare DNS: `1.1.1.1` and `1.0.0.1`
 
 ---
 
@@ -45,7 +47,6 @@ SEED+ uses the same baseline protection as SEED, with additional controls for of
 
 - If your device is idle for more than 30 days, it may be offboarded. Keeping the device online will prevent this.
 
-- Before resigning or reformatting your device, you must revoke the license to allow reuse.
 
 ## Getting started
 

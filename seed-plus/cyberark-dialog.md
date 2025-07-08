@@ -1,61 +1,105 @@
-# CyberArk dialogs and permissions 
+# CyberArk dialogs and permissions
 
-After your device is onboarded to SEED+, CyberArk Endpoint Privilege Manager (EPM) helps manage actions that require elevated permissions.
+After your device is onboarded to SEED+, CyberArk Endpoint Privilege Manager (EPM) manages actions that require elevated permissions.
 
-Some actions (like installing apps or running commands) may trigger dialogs. These are either:
-- **Activate dialogs**: You can request permission. Your POC will approve or reject it.
-- **Deactivate dialogs**: These are system-enforced. You cannot interact with them.
+You may encounter dialogs when installing software, running certain commands, or using tools that need admin access. These dialogs vary slightly between Windows and macOS. Use the tabs to view the appropriate version for your device.
 
 ---
 
-## Activate dialogs (require approval)
+### Application requires administrative privileges
 
-### 1. Application requires administrative privileges  
-**Platforms**: Windows, macOS  
-**Status**: Activate  
-**What to do**: Click **Activate**. Enter justification if prompted. Request will be sent to your POC.  
-![Windows](../images/epm/windows-admin-privileges.png)  
+<!-- tabs:start -->
+
+#### 🖥️ Windows
+
+![Windows](../images/epm/windows-admin-privileges.png)
+
+#### 🍎 macOS
+
 ![macOS](../images/epm/macos-admin-privileges.png)
 
+<!-- tabs:end -->
+
 ---
 
-### 2. Application runs with administrative privileges  
-**Platforms**: Windows, macOS  
-**Status**: Activate  
-**What to do**: Click **Activate**. Enter justification if prompted. Request will be sent to your POC.  
-![Windows](../images/epm/windows-runs-admin.png)  
+### Application runs with administrative privileges
+
+<!-- tabs:start -->
+
+#### 🖥️ Windows
+
+![Windows](../images/epm/windows-runs-admin.png)
+
+#### 🍎 macOS
+
 ![macOS](../images/epm/macos-runs-admin.png)
 
+<!-- tabs:end -->
+
 ---
 
-### 3. Launch with elevated privileges  
-**Platforms**: Windows only  
-**Status**: Activate  
-**What to do**: Click **Activate**. Enter justification if prompted. Request will be sent to your POC.  
+### Launch with elevated privileges
+
+<!-- tabs:start -->
+
+#### 🖥️ Windows
+
 ![Windows](../images/epm/windows-launch-elevated.png)
 
+#### 🍎 macOS
+
+![macOS](../images/epm/mac-launch-elevated.png)
+
+<!-- tabs:end -->
+
 ---
 
-### 4. Request administrative privileges  
-**Platforms**: Windows only  
-**Status**: Activate  
-**What to do**: Click **Activate**. Enter justification if prompted. Request will be sent to your POC.  
+### Request administrative privileges
+
+<!-- tabs:start -->
+
+#### 🖥️ Windows
+
 ![Windows](../images/epm/windows-request-admin.png)
 
+#### 🍎 macOS
+
+![macOS](../images/epm/mac-request-admin.png)
+
+<!-- tabs:end -->
+
 ---
 
-### 5. Temporary permissions granted  
-**Platforms**: Windows, macOS  
-**Status**: Activate  
-**What to do**: No action needed. You have been granted temporary admin access.  
-![Windows](../images/epm/windows-temp-granted.png)  
+### Temporary permissions granted
+
+<!-- tabs:start -->
+
+#### 🖥️ Windows
+
+![Windows](../images/epm/windows-temp-granted.png)
+
+#### 🍎 macOS
+
 ![macOS](../images/epm/macos-temp-granted.png)
 
+<!-- tabs:end -->
+
 ---
 
-### 6. Temporary permissions expiration  
-**Platforms**: Windows, macOS  
-**Status**: Activate  
-**What to do**: No action needed. This is an informational dialog to let you know access will expire.  
-![Windows](../images/epm/windows-temp-expiring.png)  
+### Temporary permissions expiration
+
+<!-- tabs:start -->
+
+#### 🖥️ Windows
+
+![Windows](../images/epm/windows-temp-expiring.png)
+
+#### 🍎 macOS
+
 ![macOS](../images/epm/macos-temp-expiring.png)
+
+<!-- tabs:end -->
+
+---
+
+*These dialogs are part of the standard SEED+ security experience. Reach out to your point-of-contact (POC) if you need help approving elevation requests.*
