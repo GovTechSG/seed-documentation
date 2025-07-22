@@ -11,7 +11,9 @@ No scheduled maintenance
 
 ## Ongoing incidents
 
-No ongoing incident
+| Date | 22 July 2025 |
+|------|--------------|
+| **Issue summary** | Public officers (WoG) are currently unable to onboard new SEED devices.<br><br>**Impact**: Existing SEED users and vendor device onboarding are **not affected**.<br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
 
 
 <!-- | Date | 09 July 2023 |
