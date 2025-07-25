@@ -1,36 +1,3 @@
-<details>
-  <summary>I did not receive the SMS with the OTP. What should I do?</summary>
-
-If you did not receive the one-time password (OTP) via SMS:
-
-- Ensure your mobile number is correct and active.
-- Confirm that your country allows messages from Singapore Sender IDs (`gov.sg`).
-
-
-If you are still unable to receive the SMS, follow this manual password reset process:
-
-1. Raise a [service support request](https://go.gov.sg/seed-techpass-support).
-2. The SEED support team will reset your password.
-3. You will receive a **password-protected ZIP file** containing the new password via email.
-4. A separate email will be sent with the password to open the ZIP file.
-
-</details>
-
-<details>
-  <summary>I am using a China mobile number and cannot receive the SMS. What should I do?</summary>
-
-Due to SMS Sender ID restrictions in China, messages sent from `gov.sg` may be blocked. As a result, users with China mobile numbers may not receive OTPs required for login or password reset.
-
-If you are affected:
-
-1. Raise a [service support request](https://go.gov.sg/seed-techpass-support).
-2. The SEED support team will reset your password.
-3. You will receive a **password-protected ZIP file** containing the new password via email.
-4. A separate email will be sent with the password to open the ZIP file.
-
-Please notify the duty L3 or SEED team if there is a surge in such requests.
-</details>
-
 
 <details>
   <summary>Do I need to change my SEED onboarding password after a year, and what are the password requirements for it?</summary>
