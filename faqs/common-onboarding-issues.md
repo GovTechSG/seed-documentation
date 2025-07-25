@@ -1,1 +1,0 @@
-!> This documentation has moved to [Onboarding FAQ](/post-onboarding-instructions/onboarding-faq).
