@@ -80,7 +80,7 @@ Once SEED provisioning is successfully completed, the following steps are as fol
   - If you originally requested SEED provisioning via your reporting officer or project manager, reach out to them again to receive a new SEED onboarding invitation email.
   - If you signed up for SEED via the TechPass portal, you can log in to the TechPass portal to [request a new SEED onboarding invitation email](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/request-for-seed-provisioning).
 
-> **Note**: Users with China mobile numbers may not receive OTPs during password setup or login. This is due to local restrictions. If this happens, refer to the [FAQ for manual reset steps](../faqs/password-faq.md#i-am-using-a-china-mobile-number-and-cannot-receive-the-sms-what-should-i-do)
+> **Note**: Users with China mobile numbers may not receive OTPs during password setup or login. This is due to local restrictions. If this happens, refer to the [FAQ for China mobile numbers](/faqs/password-faq.md).
 
 
 
