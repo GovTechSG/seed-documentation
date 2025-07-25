@@ -24,7 +24,8 @@ Supported operating system:
 
 
 > **Note**:
-> Admin privilege is required to onboard to SEED. 
+> Admin privilege is required to onboard to SEED.
+> 
 > If you are using a China phone number, you may not receive OTPs due to local SMS restrictions.  
 > Refer to the [FAQ for China mobile numbers](/faqs/password-faq.md) for steps and support options.
 
