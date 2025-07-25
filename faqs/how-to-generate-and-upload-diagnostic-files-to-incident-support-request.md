@@ -1,1 +1,0 @@
-!> This documentation has moved to [Generate diagnostic files](/support/generate-diagnostic-files.md) for more details.
