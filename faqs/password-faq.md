@@ -1,4 +1,5 @@
-#Password FAQ
+# Password FAQ
+
 <details>
   <summary>Do I need to change my SEED onboarding password after a year, and what are the password requirements for it?</summary>
 
