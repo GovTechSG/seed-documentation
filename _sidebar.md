@@ -13,7 +13,6 @@
   - [macOS post onboarding guide](/post-onboarding-instructions/macos-latest.md)
   - [Windows post onboarding guide](/post-onboarding-instructions/windows.md)
 - SEED+
-  - [What is SEED+](seed-plus/overview.md)
   - [CyberArk dialogs and permissions](seed-plus/cyberark-dialog.md)
   - [Approval guide (PoC)](seed-plus/poc-approver-guide.md)
 - Monitor using SEED Dashboard
