@@ -18,7 +18,7 @@ SEED and SEED+ are security solutions for managing and protecting engineering en
 
 > **Know which one applies to you?**  
 > - [Go to SEED → What is SEED](#what-is-seed)  
-> - [Go to SEED+ → What is SEED+](#what-is-seed)
+> - [Go to SEED+ → What is SEED+](#what-is-seed+)
 
 ---
 
