@@ -11,6 +11,48 @@ This section lists the most recent enhancements, new features and fixes that are
 | **Gamma Release** | **Device Based Blocking** | To enforce better protection to our development resources e.g., GCC and SGTS services and tools. On 19 July 2023, we have rolled out beta testing for more effective blocking of access when a GMD's health is at risk. We have passed the beta test and we have rolled out the gamma release. If you have queries on this feature, please get in touch with us through our SEED mailbox at: [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg).|
 -->
 
+## July 2025
+
+### 31 July 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **Tanium Server Maintenance** | Upgraded Tanium TanOS to version `1.8.4.0190`. SEED onboarding was affected from **18:00 to 21:00**. [More information](https://go.gov.sg/seed-techpass-support) can be found here. |
+
+### 17 July 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **New Feature** | **Crowdstrike Deployment** | Deployed Crowdstrike to CEP SEED users (Public Officers and Vendors). No user impact during installation. Users will be evaluated based on **CrowdStrike risk score** instead of Microsoft Defender. Microsoft Defender remains installed during this trial period. |
+
+### 11 July 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **Cloudflare WARP client update** | Updated Cloudflare WARP client in WoG. <br><br>**macOS WARP Client version:** `2025.4.943.0`<br><br>Brief disconnection from SGTS may occur during installation. |
+
+
+## June 2025
+
+### 26 June 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **Tanium Server Maintenance** | Upgraded Tanium Server Platform to `7.6.4.2132` and TanOS to `1.8.4.0188`. SEED onboarding was affected from **18:00 to 21:00**. [More information](https://go.gov.sg/seed-techpass-support) can be found here. |
+
+### 24 June 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **OS version enforcement** | Monthly OS updates will be pushed based on a fixed schedule. Users not meeting the minimum OS version [baseline](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/#/update-schedule/os-patching-schedule) will begin receiving update reminders before access is removed. |
+
+### 23 June 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **Cloudflare WARP client update** | Updated Cloudflare WARP client for TechPass and WoG.<br><br>**TechPass:**<br>- WinOS WARP Client: `2025.4.943.0`<br>- macOS WARP Client: `2025.4.943.0`<br><br>**WoG:**<br>- WinOS WARP Client: `2025.4.943.0`<br><br>Brief disconnection from SGTS may occur during installation. |
+
+
 ## May 2025
 
 ### 23 May 2025
