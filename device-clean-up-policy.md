@@ -1,1 +1,0 @@
-!> This documentation is obsolute. Refer to [macOS offboarding guide](/offboard-device/macos-offboarding-guide.md) and [Windows offboarding guide](/offboard-device/windows-offboarding-guide.md).
