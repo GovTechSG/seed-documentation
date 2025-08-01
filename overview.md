@@ -8,7 +8,7 @@ SEED and SEED+ are security solutions for managing and protecting engineering en
 
 |  Feature | **SEED** | **SEED+** |
 |---|---|---|
-| Who it is for | Users working in Singapore on government engineering systems | Users working outside Singapore for government projects |
+| Who it is for | Users working in Singapore on government engineering systems | Users working outside Singapore for government projects. <br><br> **Note for offshore development centres (ODCs)**:If you are part of a fully qualified ODC, your agency’s POC will initiate your access by registering the ODC as a supplier in the TechPass portal. Once registered, you will receive an email invitation to onboard to SEED+. Follow the link to begin onboarding, then refer to the [SEED+](#what-is-seed+) section of this documentation for details. |
 | Device types | macOS and Windows | macOS and Windows |
 | Admin rights  | Retained by user | Removed (CyberArk used for elevation) |
 | USB storage blocking | No       | Yes (storage only) |
