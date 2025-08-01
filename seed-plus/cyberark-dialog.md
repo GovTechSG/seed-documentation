@@ -1,4 +1,4 @@
-# CyberArk dialogs and permissions
+# CyberArk dialogs and permissions (Users)
 
 After your device is onboarded to SEED+, CyberArk Endpoint Privilege Manager (EPM) manages actions that require elevated permissions.
 
