@@ -65,14 +65,12 @@ SEED comprises three key components:
 | Access emails, contacts, and calendar        | ❌ |
 | Access documents                             | ❌ |
 
----
 
 ### Next steps for SEED users
 
 If SEED applies to you, you can proceed directly with onboarding.  
 Go to the **Onboard to SEED** section in the sidebar.
 
----
 
 ## What is SEED+
 
@@ -89,7 +87,7 @@ SEED+ is intended for:
 
 > A POC (point-of-contact) is a designated officer from the sponsoring agency who is responsible for approving your onboarding and access requests.
 
----
+
 
 ### What SEED+ includes
 
@@ -107,7 +105,6 @@ SEED+ uses the same baseline protection as SEED, with additional controls for of
 - **DNS IP address preset**  
   Cloudflare DNS: `1.1.1.1` and `1.0.0.1`
 
----
 
 ### What to expect
 
@@ -115,7 +112,6 @@ SEED+ uses the same baseline protection as SEED, with additional controls for of
 - Elevation requests will be routed to your POC for approval.
 - Devices that are idle for more than 30 days may be offboarded automatically.
 
----
 
 ### Next steps for SEED+ users
 
