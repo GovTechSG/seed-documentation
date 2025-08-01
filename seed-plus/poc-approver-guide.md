@@ -57,15 +57,17 @@ Just-in-time (JIT) access elevation allows temporary administrative rights to be
 
 2. Click **Create JIT access and elevation policy**  
    ![JIT policy creation](../images/seed-plus/poc-approval/jit-policy.png)
+   ![JIT policy creation](../images/seed-plus/poc-approval/jit8.png)
 
-3. Under **Permissions (Local Groups)**, add:  
+
+4. Under **Permissions (Local Groups)**, add:  
    - `admin` (for macOS)  
    - `Administrators` (for Windows)
 
-4. Click **Create**, then **Confirm**  
+5. Click **Create**, then **Confirm**  
    ![JIT policy confirmation](../images/seed-plus/poc-approval/jit-policy-confirm.png)
 
-5. Once approved, the user will receive a confirmation on their endpoint  
+6. Once approved, the user will receive a confirmation on their endpoint  
    ![Temporary access granted (user view)](../images/seed-plus/poc-approval/temp-user-granted.png)
 
 ---
