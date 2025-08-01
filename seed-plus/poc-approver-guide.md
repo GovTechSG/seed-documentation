@@ -78,7 +78,7 @@ Just-in-time (JIT) access elevation allows temporary administrative rights to be
 ## Reminders for POC approvers
 
 - Always **review the justification** before approving any request
-- JIT access is **temporary** and lasts **24 hours**
+- JIT access is temporary and lasts for up to **24 hours**. Access is granted only for the duration needed to complete the specific task, and not beyond that.
 - **Notify the user** once the request is approved
 - Use the correct group name (`admin` for macOS, `Administrators` for Windows)
 
