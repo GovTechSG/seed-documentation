@@ -8,13 +8,13 @@ SEED and SEED+ are security solutions for managing and protecting engineering en
 
 |  Feature | **SEED** | **SEED+** |
 |---|---|---|
-| Who it is for | Users working in Singapore on government engineering systems | Users working outside Singapore for government projects. <br><br> **Note for offshore development centres (ODCs)**:If you are part of a fully qualified ODC, your agency’s POC will initiate your access by registering the ODC as a supplier in the TechPass portal. Once registered, you will receive an email invitation to onboard to SEED+. Follow the link to begin onboarding, then refer to the [SEED+](#what-is-seed+) section of this documentation for details. |
+| Who it is for | Users working in Singapore on government engineering systems | Users working outside Singapore for government projects. <br><br> **Note**: SEED+ applies to users from fully qualified offshore development centres (ODCs) or those approved by their POC. New users will receive an email invitation to onboard to SEED, then proceed with SEED+ onboarding. Both new SEED+ users and existing users can refer to the [SEED+ section of this documentation](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices-seed/overview?id=what-is-seed+) for more details. |
 | Device types | macOS and Windows | macOS and Windows |
 | Admin rights  | Retained by user | Removed (CyberArk used for elevation) |
 | USB storage blocking | No       | Yes (storage only) |
-| Network access | Based on device posture | Always-on Cloudflare WARP |
-| DNS configuration | Follows network | Preset Cloudflare DNS (1.1.1.1, 1.0.0.1) |
-| Onboarding flow | [Standard SEED onboarding](/onboard-device/identify-onboarding-persona.md) | Same as vendor onboarding, with POC approval |
+| Network access | No Always-On Cloudflare WARP | Always-on Cloudflare WARP |
+| DNS configuration | No Preset DNS | Preset Cloudflare DNS (1.1.1.1, 1.0.0.1) |
+| Onboarding flow | [Standard SEED onboarding](/onboard-device/identify-onboarding-persona.md) | [Standard SEED onboarding](/onboard-device/identify-onboarding-persona.md)|
 
 > **Know which one applies to you?**  
 > - [Go to SEED → What is SEED](#what-is-seed)  
@@ -119,7 +119,7 @@ If SEED+ applies to you, follow the [Onboard as a vendor guide](/onboard-device/
 
 After onboarding, go to the **SEED+ section** in the sidebar to learn more about:
 
-- [CyberArk dialogs and permissions](/seed-plus/cyberark-dialog.md)  
+- [CyberArk dialogs and permissions (Users)](/seed-plus/cyberark-dialog.md)  
 - [Approval guide (POC)](/seed-plus/poc-approver-guide.md)
 
 
