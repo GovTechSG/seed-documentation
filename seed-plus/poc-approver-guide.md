@@ -46,7 +46,7 @@ Examples of elevation requests that may require your approval:
 
 ### What is JIT access elevation?
 
-Just-in-time (JIT) access elevation allows temporary administrative rights to be granted to users on a per-request basis. This ensures that elevated privileges are provided only when needed and expire after a set time (24 hours), improving security posture.
+Just-in-time (JIT) access elevation allows temporary administrative rights to be granted to users on a per-request basis. 
 
 ---
 
@@ -78,7 +78,7 @@ Just-in-time (JIT) access elevation allows temporary administrative rights to be
 ## Reminders for POC approvers
 
 - Always **review the justification** before approving any request
-- JIT access is temporary and lasts for up to **24 hours**. Access is granted only for the duration needed to complete the specific task, and not beyond that.
+- Access must be granted solely for the period necessary to complete the task, and no longer.
 - **Notify the user** once the request is approved
 - Use the correct group name (`admin` for macOS, `Administrators` for Windows)
 
