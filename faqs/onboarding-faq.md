@@ -105,19 +105,19 @@
 ## 🛡️ CrowdStrike
 
 <details>
-  <summary>Falcon sensor is not registered, not operational or not cloud connected.</summary>
-  **macOS**:  
-  1. Go to **Apple menu** > **System Settings**.  
-  2. Click **Privacy & Security**.  
-  3. Unlock if prompted.  
-  4. Enable **Full Disk Access** for **Falcon**.
+  <summary>Why is the Falcon sensor not registered, not operational, or not cloud connected?</summary>
+  **macOS**: Ensure Falcon is turned on for Full Disk Access.
+
+  - Go to the Apple menu > System Settings.
+  - On the left pane, select Privacy & Security.
+  - If prompted, unlock the setting using your Touch ID or enter your device password.
+  - Check that Falcon is turned on for Full Disk Access.
 </details>
 
 <details>
-  <summary>Falcon sensor is not pushed down.</summary>
-  1. Ensure you have the SEED License assigned to you in the [TechPass Portal](https://portal.techpass.gov.sg).  
-  2. Sync your device:
-     - **macOS**: Open Company Portal, click three dots → **Check status**
-     - **Windows**: Access work/school → Info → **Sync**
-  3. Restart your computer.
+  <summary>Why is the Falcon sensor not pushed down to my device?</summary>
+  - Make sure you have the SEED License assigned to you in the [TechPass Portal](https://portal.techpass.gov.sg).
+  - **macOS**: Go to the Company Portal, click the three dots, and select **Check status** to sync the device.
+  - **Windows**: Go to **Access work or school**, click the **Info** button next to your TechPass account, and then click **Sync**.
+  - Restart your computer.
 </details>
