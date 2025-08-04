@@ -8,7 +8,7 @@ SEED and SEED+ are security solutions for managing and protecting engineering en
 
 |  Feature | **SEED** | **SEED+** |
 |---|---|---|
-| Who it is for | Users working in Singapore on government engineering systems | Users working outside Singapore for government projects. <br><br> **Note**: SEED+ applies to users from fully qualified offshore development centres (ODCs) or those approved by their POC. New users will receive an email invitation to onboard to SEED. Both new SEED+ users and existing users can refer to the [SEED+ section of this documentation](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices-seed/overview?id=what-is-seed+) for more details. |
+| Who it is for | Users working in Singapore on government engineering systems | Users working outside Singapore for government projects. <br><br> **Note**: SEED+ applies to users from fully qualified offshore development centres (ODCs) or those approved by their POC. New users will receive an email invitation to onboard to SEED. Both new SEED+ users and existing users can refer to the [SEED+ section of this documentation]([https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices-seed/overview?id=what-is-seed+](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/overview?id=what-is-seed-1)) for more details. |
 | Device types | macOS and Windows | macOS and Windows |
 | Admin rights  | Retained by user | Removed (CyberArk used for elevation) |
 | USB storage blocking | No       | Yes (storage only) |
@@ -18,7 +18,7 @@ SEED and SEED+ are security solutions for managing and protecting engineering en
 
 > **Know which one applies to you?**  
 > - [Go to SEED → What is SEED](#what-is-seed)  
-> - [Go to SEED+ → What is SEED+](#what-is-seed+)
+> - [Go to SEED+ → What is SEED+](#what-is-seed-1)
 
 ---
 
