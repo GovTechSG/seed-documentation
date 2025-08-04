@@ -60,7 +60,7 @@ Just-in-time (JIT) access elevation allows temporary administrative rights to be
 
    
 3. Under **OS users**, add:
-   - .\\<username> (For example: .\hin)
+   - .\\\<username> (For example: .\hin)
    ![JIT policy creation](../images/seed-plus/poc-approval/jit8.png)
 
 4. Under **Permissions (Local Groups)**, add:
