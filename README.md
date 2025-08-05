@@ -16,7 +16,7 @@ Supported operating system:
 
 | **Operating system** | **Version supported** |
 |---|---|
-| **macOS 15**        | 15.5 <br> **Note**: If you encounter issues accessing SGTS or GCC services after the update, please ensure that [FDA is enabled](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/post-onboarding-instructions/macos-latest?id=ensure-full-disk-access-fda-is-enabled-for-seed-components) and reboot your device. |
+| **macOS 15**        | 15.5 <br> **Note**: If you encounter issues accessing SGTS or GCC services after the update, please ensure that [FDA is enabled](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/post-onboarding-instructions/macos-latest?id=ensure-full-disk-access-fda-is-enabled-for-seed-components) and reboot your device. <br> Do **not** install unsupported versions of macOS unless explicitly communicated via email by the SEED team.|
 | **macOS 14**        | 14.7.6 |
 | **macOS 13**        | 13.7.6 |
 | **Windows 10**      | 1507 (LTSC only, build 10240, minimally revision 21073) <br> 1607 (LTSC only, build 14393, minimally revision 8246) <br> 1809 (LTSC only, build 17763, minimally revision 7558) <br> 21H2 (LTSC only, build 19044, minimally revision 6093) <br> 22H2 (build 19045, minimally revision 6093) |
