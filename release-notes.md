@@ -11,6 +11,15 @@ This section lists the most recent enhancements, new features and fixes that are
 | **Gamma Release** | **Device Based Blocking** | To enforce better protection to our development resources e.g., GCC and SGTS services and tools. On 19 July 2023, we have rolled out beta testing for more effective blocking of access when a GMD's health is at risk. We have passed the beta test and we have rolled out the gamma release. If you have queries on this feature, please get in touch with us through our SEED mailbox at: [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg).|
 -->
 
+## August 2025
+
+### 11 August 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **macOS Platform SSO rollout** | macOS Platform SSO is now available for **CEP SEED users** on macOS. This feature allows you to sign in to your Mac using your enterprise credentials and automatically gain access to supported apps and services without repeatedly entering your username and password, improving convenience and security. You can enrol your device by following the steps in the [macOS Platform SSO registration guide](https://sgtechstack.atlassian.net/wiki/spaces/SEED/pages/268985202/MacOS+Platform+SSO#Platform-SSO-registration).<br><br>**Rollout dates:**<br>- **CEP SEED users**: 11 August 2025<br>- **Public officer SEED users**: 18 August 2025<br>- **Vendor SEED users**: 25 August 2025 |
+
+
 ## May 2025
 
 ### 23 May 2025
