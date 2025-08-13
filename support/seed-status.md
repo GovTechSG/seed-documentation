@@ -15,16 +15,17 @@ No scheduled maintenance
 | ------------- |:-------------|
 | **Issue summary** | Cloudflare has identified increase level of 530 errors in Singapore on 09 July 2023, 10:54 SGT. <br><br>**Impact**: Users may experience service degradation on their GMDs and intermittent connectivity to SGTS services and GCC. More information available https://www.cloudflarestatus.com/ <br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support).|
 -->
-| Date | 13 August 2025 |
-| ------------- |:-------------|
-| **Issue summary** | Users may encounter **Cloudflare connection** or **certificate errors** when using SEED.<br><br>**Impact**: Some users may be unable to connect or may see a security warning. The **SEED team is aware** and is investigating the issue.<br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
-
+No ongoing incident!
 
 ## Previous incidents
 
+| Date | 13 August 2025 |
+| ------------- |:-------------|
+| **Issue summary** | Users may encounter **Cloudflare connection** or **certificate errors** when using SEED.<br><br>**Impact**: Some users may be unable to connect or may see a security warning. <br><br>The issue has been fixed, and is now working as expected.<br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+
 | Date | 22 July 2025 |
 |------|--------------|
-| **Issue summary** | Public officers (WoG) are currently unable to onboard new SEED devices.<br><br>**Impact**: Existing SEED users and vendor device onboarding are **not affected**.< <br><br>The issue has been fixed, and is now working as expected. <br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support).  |
+| **Issue summary** | Public officers (WoG) are currently unable to onboard new SEED devices.<br><br>**Impact**: Existing SEED users and vendor device onboarding are **not affected**. <br><br>The issue has been fixed, and is now working as expected. <br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support).  |
 
 | Date | 4 June 2025 |
 |------|--------------|
