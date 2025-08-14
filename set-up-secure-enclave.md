@@ -2,10 +2,6 @@
 
 Before setting up Secure Enclave, it is recommended to create another local administrator profile on your Mac. This serves as a safeguard for scenarios where you may need administrator access (breakglass account). The SEED team is exploring Endpoint Privilege Management (EPM) or custom scripts for creating breakglass administrator accounts.
 
-## Enrol in Intune MDM
-
-Follow the [Enrol in Intune MDM](#) steps if you have not already onboarded to SEED. If you are already enrolled, proceed to Platform SSO registration.
-
 
 ## Platform SSO registration
 
