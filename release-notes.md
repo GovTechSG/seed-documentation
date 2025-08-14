@@ -11,6 +11,63 @@ This section lists the most recent enhancements, new features and fixes that are
 | **Gamma Release** | **Device Based Blocking** | To enforce better protection to our development resources e.g., GCC and SGTS services and tools. On 19 July 2023, we have rolled out beta testing for more effective blocking of access when a GMD's health is at risk. We have passed the beta test and we have rolled out the gamma release. If you have queries on this feature, please get in touch with us through our SEED mailbox at: [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg).|
 -->
 
+## August 2025
+
+### 28 August 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **Tanium server maintenance** | Upgraded Tanium Server Platform to 7.6.4.2144.<br><br>SEED onboarding was affected from 18:00 hrs to 21:00 hrs. |
+
+### 11 August 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **macOS Platform SSO rollout** | macOS Platform SSO is now available for **CEP SEED users** on macOS. This feature allows you to sign in to your Mac using your enterprise credentials and automatically gain access to supported apps and services without repeatedly entering your username and password, improving convenience and security.<br><br>**Rollout dates:**<br>- **CEP SEED users**: 11 August 2025<br>- **PO SEED users**: 18 August 2025<br>- **Vendor SEED users**: 25 August 2025 |
+
+## July 2025
+
+### 31 July 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **Tanium server maintenance** | Upgraded Tanium TanOS to 1.8.4.0190.<br><br>SEED onboarding was affected from 18:00 hrs to 21:00 hrs. More information can be found [here](https://help.tanium.com/bundle/2024H2_releasenotes/page/maintenance.html#2024h2_update_8_june_18_2025). |
+
+### 17 July 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **New feature** | **CrowdStrike deployment** | Deployed CrowdStrike to CEP SEED users (public officers and vendors). No user impact during installation.<br><br>Users will be evaluated based on CrowdStrike risk score instead of Microsoft Defender. Microsoft Defender will still be installed during this trial period. |
+
+### 11 July 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **Cloudflare WARP client update** | Updated Cloudflare WARP client in WoG.<br>- macOS WARP Client version: 2025.4.943.0<br>Brief disconnection from SGTS may occur during installation. |
+
+---
+
+## June 2025
+
+### 26 June 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **Tanium server maintenance** | Upgraded Tanium Server Platform to 7.6.4.2132 and TanOS to 1.8.4.0188.<br><br>SEED onboarding was affected from 18:00 hrs to 21:00 hrs. More information can be found [here](https://help.tanium.com/bundle/2024H2_releasenotes/page/maintenance.html#2024h2_update_6_may_22_2025). |
+
+### 24 June 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **OS version enforcement** | Monthly updates will be pushed on a fixed schedule found [here](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/update-schedule/os-patching-schedule). Users who do not meet the minimum OS version [baseline](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/seed-prerequisites?id=how-to-check-your-operating-system-version) will start receiving update reminders before access is removed. |
+
+### 23 June 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **Cloudflare WARP client update** | Updated Cloudflare WARP client.<br><br>**TechPass:**<br>- WinOS WARP Client version: 2025.4.943.0<br>- macOS WARP Client version: 2025.4.943.0<br><br>**WoG:**<br>- WinOS WARP Client version: 2025.4.943.0<br>Brief disconnection from SGTS may occur during installation. |
+
+
 ## May 2025
 
 ### 23 May 2025
