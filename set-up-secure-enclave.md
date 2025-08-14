@@ -38,7 +38,10 @@ Secure Enclave allows passwordless, phish-resistant sign-in on macOS using hardw
 8. For selected users (excluding CEP), your local Mac profile will become a **Standard User** after registering with Platform SSO.  
    ![Standard user profile](/images/enclave-7.png)
 
-   If you do not see the registration prompt, check that the SSO profile is present in your Mac settings. Alternatively, open **Company Portal**, select your profile icon, and choose **Register for SSO**.
+   If you do not see the registration prompt, check that the SSO profile is present in your Mac settings.
+   ![Profile Settings](/images/enclave-8.png)
+   ![Profile Settings](/images/enclave-9.png)
+   Alternatively, open **Company Portal**, select your profile icon, and choose **Register for SSO**.
 
 ---
 
