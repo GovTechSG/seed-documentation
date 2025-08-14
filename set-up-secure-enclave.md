@@ -56,5 +56,5 @@ Secure Enclave allows passwordless, phish-resistant sign-in on macOS using hardw
 4. You can also verify registration using the **Terminal** app. Run the provided command to check the registration status. The output should indicate that SSO tokens have been retrieved. For macOS 13 Ventura users, this command is required to verify registration.
 `app-sso platform -s`
 
-6. Once issued, an SSO token is valid for 14 days and will be continuously renewed as long as the device is actively used.  
+5. Once issued, an SSO token is valid for 14 days and will be continuously renewed as long as the device is actively used.  
    ![Verify registration](/images/enclave-10.png)
