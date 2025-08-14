@@ -2,6 +2,8 @@
 
 Secure Enclave allows passwordless, phish-resistant sign-in on macOS using hardware-bound cryptographic keys. This setup enables seamless access to Microsoft Entra ID applications after the initial device unlock.
 
+**Prerequisite:** Your device must already be onboarded to SEED before you set up Secure Enclave.
+
 
 ## Platform SSO registration
 
