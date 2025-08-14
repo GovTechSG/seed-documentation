@@ -36,7 +36,7 @@ Secure Enclave allows passwordless, phish-resistant sign-in on macOS using hardw
 7. Your local Mac password is not affected and will still be required to log on to the Mac.
 
 8. For selected users (excluding CEP), your local Mac profile will become a **Standard User** after registering with Platform SSO.  
-   ![Standard user profile](/images/nclave-7.png)
+   ![Standard user profile](/images/enclave-7.png)
 
    If you do not see the registration prompt, check that the SSO profile is present in your Mac settings. Alternatively, open **Company Portal**, select your profile icon, and choose **Register for SSO**.
 
@@ -45,7 +45,6 @@ Secure Enclave allows passwordless, phish-resistant sign-in on macOS using hardw
 ## Check device registration status
 
 1. Navigate to **Settings** and select **Users & Groups**.  
-   ![Users & Groups settings](/images/enclave-8.png)
 
 2. Select **Edit** next to **Network Account Server** and confirm that **Platform SSO** is listed as **Registered**.
 
@@ -54,4 +53,4 @@ Secure Enclave allows passwordless, phish-resistant sign-in on macOS using hardw
 4. You can also verify registration using the **Terminal** app. Run the provided command to check the registration status. The output should indicate that SSO tokens have been retrieved. For macOS 13 Ventura users, this command is required to verify registration.
 
 5. Once issued, an SSO token is valid for 14 days and will be continuously renewed as long as the device is actively used.  
-   ![Registration verification](/images/enclave-9.png)
+
