@@ -12,7 +12,7 @@
 - Post onboarding steps  
   - [macOS post onboarding guide](/post-onboarding-instructions/macos-latest.md)
   - [Windows post onboarding guide](/post-onboarding-instructions/windows.md)
--macOS Secure Enclave
+- macOS Platform SSO 
   - [Set up Secure Enclave](set-up-secure-enclave.md)
 - SEED+
   - [CyberArk dialogs and permissions (Users)](seed-plus/cyberark-dialog.md)
