@@ -1,6 +1,6 @@
 # Set up Secure Enclave
 
-Before setting up Secure Enclave, it is recommended to create another local administrator profile on your Mac. This serves as a safeguard for scenarios where you may need administrator access (breakglass account). The SEED team is exploring Endpoint Privilege Management (EPM) or custom scripts for creating breakglass administrator accounts.
+Secure Enclave allows passwordless, phish-resistant sign-in on macOS using hardware-bound cryptographic keys. This setup enables seamless access to Microsoft Entra ID applications after the initial device unlock.
 
 
 ## Platform SSO registration
