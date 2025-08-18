@@ -72,7 +72,7 @@
 
 <details>
   <summary>Why am I prompted to select the device certificate when accessing some websites?</summary>
-  Due to the device compliance check policy, during the Entra ID authentication, you will be prompted the select the device certificate which will be checked for the valid     MDM certificate on your machine. 
+  Due to the device compliance check policy, during the Entra ID authentication, you will be prompted the select the device certificate which will be checked for the valid MDM certificate on your machine. 
   Afterwards, you will be given access to your application if your device is compliant.
 </details>
 
