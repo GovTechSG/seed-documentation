@@ -29,7 +29,7 @@
 <details>
   <summary>What should I do if I lose my Government Managed Device (GMD)?</summary>
   1. Notify your manager and operations manager to approve data deletion.  
-  2. [Raise a service request](https://go.gov.sg/seed-techpass-support) to notify the SEED team.  
+  2. <a href="https://go.gov.sg/seed-techpass-support"> Raise a support request </a> to notify the SEED team.  
   3. Mention any sensitive data to prioritise remote wiping.  
   4. Attach manager approvals to the request.
 </details>
@@ -111,13 +111,13 @@
 <details>
   <summary>Why is my device not showing on the SEED Dashboard?</summary>
   Your TechPass account may not be linked to your SEED device due to an onboarding or account termination issue.  
-  Offboard and re-onboard your device, or [raise a service request](https://go.gov.sg/seed-techpass-support).
+  Offboard and re-onboard your device, or <a href="https://go.gov.sg/seed-techpass-support"> raise a support request </a>.
 </details>
 
 <details>
   <summary>Why did I receive an email indicating limited access to SEED-protected resources after previously onboarding successfully?</summary>
   SEED may have detected device configuration issues (e.g. unhealthy Microsoft Defender).  
-  Offboard the device if no longer needed, or [raise a service request](https://go.gov.sg/seed-techpass-support).
+  Offboard the device if no longer needed, or <a href="https://go.gov.sg/seed-techpass-support"> raise a support request </a>.
 </details>
 
 <details>
@@ -151,7 +151,8 @@
 <details>
   <summary>How do I reset my password using the macOS <b>Utilities</b> menu?</summary>
   Refer to the following image:  
-  ![reset_password](/images/reset-password-utiliy.png)
+  
+  ![reset_password](/images/reset-password-utility.png)
 </details>
 
 ## 🛡️ CrowdStrike
@@ -160,7 +161,7 @@
   <summary>Why was my device blocked due to a malware alert in CrowdStrike?</summary>
   Your device will be blocked if you have malware alerts on CrowdStrike.  
   No action is required from you. The SEED team will review your ticke, and your device will be unblocked after the assessment is completed.  
-  Please [raise a support request(https://go.gov.sg/seed-techpass-support) if you are not unblocked automatically.
+  Please <a href="https://go.gov.sg/seed-techpass-support"> raise a support request </a> if you are not unblocked automatically.
 </details>
 
 <details>
@@ -171,6 +172,7 @@
   ![image](/images/cs1.png)
 
   You will see a pop up window on the right hand corner.
+  
   ![image](/images/cs2.png)
   
 </details>
