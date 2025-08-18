@@ -79,9 +79,9 @@
 <details>
   <summary>What password should you key in if you are prompted to select the certificate?</summary>
   Select the device certificate when prompted and click OK.
-  [device cert](/images/device-cert1.png)
+  ![device cert](/images/device-cert1.png)
   Type in your local mac password and click on “Always Allow”.
-  [device cert](/images/device-cert2.png)
+  ![device cert](/images/device-cert2.png)
   You might be prompted to enter the password multiple times (1-3 times), make sure to click on “Always Allow”.
   Note: Selecting of certificate is not required if the MacOS is joined to Entra (Registered with Platform SSO)
 </details>
@@ -164,10 +164,10 @@
   Right-click the drive → Click **Show more options** → Click **CrowdStrike Falcon malware scan** → Click **Scan**.  
   A pop-up window will appear at the lower-right corner.
   
-  [image](/images/cs1.png)
+  ![image](/images/cs1.png)
 
   You will see a pop up window on the right hand corner.
-  [image](/images/cs2.png)
+  ![image](/images/cs2.png)
   
 </details>
 
@@ -175,11 +175,11 @@
   <summary>[Windows only] How do I check the results of a CrowdStrike malware scan?</summary>
   Go to your Desktop → Right-click and select **Show more options** → Click **CrowdStrike Falcon malware scan** → Click **See results of last scan**.  
 
-  [imaeg](/images/cs3.png)
+  ![image](/images/cs3.png)
   
   You should see the status as **Completed**.
 
-  [image](/images/cs4.png)
+  ![image](/images/cs4.png)
   
 </details>
 
