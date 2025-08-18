@@ -79,9 +79,13 @@
 <details>
   <summary>What password should you key in if you are prompted to select the certificate?</summary>
   Select the device certificate when prompted and click OK.
+  
   ![device cert](/images/device-cert1.png)
+  
   Type in your local mac password and click on “Always Allow”.
+  
   ![device cert](/images/device-cert2.png)
+  
   You might be prompted to enter the password multiple times (1-3 times), make sure to click on “Always Allow”.
   Note: Selecting of certificate is not required if the MacOS is joined to Entra (Registered with Platform SSO)
 </details>
