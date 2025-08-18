@@ -12,12 +12,12 @@
   <summary>Can I install unlicensed software or tools on my Government Managed Device (GMD)?</summary>
   Installing unlicensed software is strictly prohibited.  
   Use your organisation’s process to request legitimate software.  
-  Refer to [Terms and policies](/additional-resources/terms-and-policies.md) for details.
+  Refer to [Terms and policies](/../additional-resources/terms-and-policies.md) for details.
 </details>
 
 <details>
   <summary>Why am I unable to access certain websites?</summary>
-  If you are experiencing access issues, use [Cloudflare Radar](https://radar.cloudflare.com/security-and-attacks) to investigate.  
+  If you are experiencing access issues, use <a href="https://radar.cloudflare.com/security-and-attacks"> Cloudflare Radar </a> to investigate.  
   Enter the domain you are trying to access and view the network/security report.
 </details>
 
@@ -100,7 +100,7 @@
 
 <details>
   <summary>How do I check if my device record has been deleted?</summary>
-  Log in to the [SEED Dashboard](https://dashboard.seed.tech.gov.sg/) to check your device records.
+  Log in to the <a href="https://dashboard.seed.tech.gov.sg/"> SEED Dashboard </a> to check your device records.
 </details>
 
 <details>
@@ -152,7 +152,7 @@
   <summary>How do I reset my password using the macOS <b>Utilities</b> menu?</summary>
   Refer to the following image:  
   
-  ![reset_password](/images/reset-password-utility.png)
+  ![reset_password](/images/reset-password-utiliy.png)
 </details>
 
 ## 🛡️ CrowdStrike
