@@ -70,6 +70,22 @@
   Disable or uninstall any non-Microsoft antivirus software.
 </details>
 
+<details>
+  <summary>Why am I prompted to select the device certificate when accessing some websites?</summary>
+  Due to the device compliance check policy, during the Entra ID authentication, you will be prompted the select the device certificate which will be checked for the valid     MDM certificate on your machine. 
+  Afterwards, you will be given access to your application if your device is compliant.
+</details>
+
+<details>
+  <summary>What password should you key in if you are prompted to select the certificate?</summary>
+  Select the device certificate when prompted and click OK.
+  [device cert](/images/device-cert1.png)
+  Type in your local mac password and click on “Always Allow”.
+  [device cert](/images/device-cert2.png)
+  You might be prompted to enter the password multiple times (1-3 times), make sure to click on “Always Allow”.
+  Note: Selecting of certificate is not required if the MacOS is joined to Entra (Registered with Platform SSO)
+</details>
+
 ## 🔁 Device records and inactivity
 
 <details>
