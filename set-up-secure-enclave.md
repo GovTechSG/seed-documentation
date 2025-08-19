@@ -49,16 +49,18 @@ Secure Enclave allows passwordless, phish-resistant sign-in on macOS using hardw
 
 ## Check device registration status
 
-1. Navigate to **Settings** and select **Users & Groups**.  
+1. If you encounter problem registering the device, make sure that device registration status is correct.
+    
+2. Navigate to **Settings** and select **Users & Groups**.  
 
-2. Select **Edit** next to **Network Account Server** and confirm that **Platform SSO** is listed as **Registered**.
+3. Select **Edit** next to **Network Account Server** and confirm that **Platform SSO** is listed as **Registered**.
 
 ![Registered](/images/enclave-12.png ':size=50%')
 
-3. To verify the authentication method, select your username in the **Users & Groups** window, then select the **Information** icon. Confirm that the method listed is **Secure Enclave**, **Smart Card**, or **Password**.
+4. To verify the authentication method, select your username in the **Users & Groups** window, then select the **Information** icon. Confirm that the method listed is **Secure Enclave**, **Smart Card**, or **Password**.
 
-4. You can also verify registration using the **Terminal** app. Run the provided command to check the registration status. The output should indicate that SSO tokens have been retrieved. For macOS 13 Ventura users, this command is required to verify registration.
+5. You can also verify registration using the **Terminal** app. Run the provided command to check the registration status. The output should indicate that SSO tokens have been retrieved. For macOS 13 Ventura users, this command is required to verify registration.
 `app-sso platform -s`
 
-5. Once issued, an SSO token is valid for 14 days and will be continuously renewed as long as the device is actively used.  
+6. Once issued, an SSO token is valid for 14 days and will be continuously renewed as long as the device is actively used.  
    ![Verify registration](/images/enclave-10.png)
