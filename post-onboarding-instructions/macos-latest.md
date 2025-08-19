@@ -14,6 +14,7 @@ After onboarding, ensure FDA is enabled for the following SEED components:
 - Microsoft Intune Agent
 - Microsoft Defender
 - Microsoft Defender ATP Security Extension 
+- Falcon agent (Users who signed up after 22 August 2025)
 
 **Verification steps**:
 
@@ -24,7 +25,7 @@ After onboarding, ensure FDA is enabled for the following SEED components:
 > **Note**: If you were not prompted to reset device password during onboarding, you will be prompted now. Refer to the FAQ for password policy.
 
 4. On the **Privacy & Security** pane, choose **Full Disk Access**.
-  ![fda-enabled](../images/macos-13-fda.png)
+  ![fda-enabled](../images/macosimage-1.png)
 
 5. Ensure the following applications are listed and enabled:
 
@@ -32,12 +33,25 @@ After onboarding, ensure FDA is enabled for the following SEED components:
     - Microsoft Intune Agent
     - Microsoft Defender
     - Microsoft Defender Endpoint Security Extension
+    - Falcon agent (Users who signed up after 22 August 2025)
 
-    ![fda-enabled](../images/applications-on-macos13.png)
+
+    ![fda-enabled](../images/macosimage-2.png)
 
     >**Note**: If a SEED component is missing, refer to [Onboarding FAQ](/faqs/onboarding-faq).
 
+## Verify CrowdStrike is configured
 
+1. Open **Finder** → **Applications** → **Falcon.app**.
+2. Ensure the **CrowdStrike Falcon Sensor** is **registered**, **operational**, and **cloud connected**.  
+
+   ![CrowdStrike Falcon Sensor status](macosimage-3.png)
+
+3. If any of the above statuses indicate an error:
+   - Open the **Company Portal** application.
+   - Select the **three-dot menu** → **Check status** to sync the device.
+   - Restart your computer.
+   
 ## Turn on Cloudflare WARP
 
 After onboarding your macOS Internet Device to SEED, you need to activate Cloudflare WARP.
