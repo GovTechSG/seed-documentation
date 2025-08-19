@@ -12,7 +12,7 @@
   <summary>Can I install unlicensed software or tools on my Government Managed Device (GMD)?</summary>
   Installing unlicensed software is strictly prohibited.  
   Use your organisation’s process to request legitimate software.  
-  Refer to [Terms and policies](../additional-resources/terms-and-policies.md) for details.
+  Refer to <a href="https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/terms-and-policies">Terms and policies</a> for details.
 </details>
 
 <details>
