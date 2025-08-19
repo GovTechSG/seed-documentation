@@ -12,12 +12,12 @@
   <summary>Can I install unlicensed software or tools on my Government Managed Device (GMD)?</summary>
   Installing unlicensed software is strictly prohibited.  
   Use your organisation’s process to request legitimate software.  
-  Refer to [Terms and policies](/additional-resources/terms-and-policies.md) for details.
+  Refer to [Terms and policies](/../additional-resources/terms-and-policies.md) for details.
 </details>
 
 <details>
   <summary>Why am I unable to access certain websites?</summary>
-  If you are experiencing access issues, use [Cloudflare Radar](https://radar.cloudflare.com/security-and-attacks) to investigate.  
+  If you are experiencing access issues, use <a href="https://radar.cloudflare.com/security-and-attacks"> Cloudflare Radar </a> to investigate.  
   Enter the domain you are trying to access and view the network/security report.
 </details>
 
@@ -29,7 +29,7 @@
 <details>
   <summary>What should I do if I lose my Government Managed Device (GMD)?</summary>
   1. Notify your manager and operations manager to approve data deletion.  
-  2. [Raise a service request](https://go.gov.sg/seed-techpass-support) to notify the SEED team.  
+  2. <a href="https://go.gov.sg/seed-techpass-support"> Raise a support request </a> to notify the SEED team.  
   3. Mention any sensitive data to prioritise remote wiping.  
   4. Attach manager approvals to the request.
 </details>
@@ -70,6 +70,26 @@
   Disable or uninstall any non-Microsoft antivirus software.
 </details>
 
+<details>
+  <summary>Why am I prompted to select the device certificate when accessing some websites?</summary>
+  Due to the device compliance check policy, during the Entra ID authentication, you will be prompted the select the device certificate which will be checked for the valid MDM certificate on your machine. 
+  Afterwards, you will be given access to your application if your device is compliant.
+</details>
+
+<details>
+  <summary>What password should you key in if you are prompted to select the certificate?</summary>
+  Select the device certificate when prompted and click OK.
+  
+  ![device cert](/images/device-cert1.png)
+  
+  Type in your local mac password and click on “Always Allow”.
+  
+  ![device cert](/images/device-cert2.png)
+  
+  You might be prompted to enter the password multiple times (1-3 times), make sure to click on “Always Allow”.
+  Note: Selecting of certificate is not required if the MacOS is joined to Entra (Registered with Platform SSO)
+</details>
+
 ## 🔁 Device records and inactivity
 
 <details>
@@ -80,7 +100,7 @@
 
 <details>
   <summary>How do I check if my device record has been deleted?</summary>
-  Log in to the [SEED Dashboard](https://dashboard.seed.tech.gov.sg/) to check your device records.
+  Log in to the <a href="https://dashboard.seed.tech.gov.sg/"> SEED Dashboard </a> to check your device records.
 </details>
 
 <details>
@@ -91,13 +111,13 @@
 <details>
   <summary>Why is my device not showing on the SEED Dashboard?</summary>
   Your TechPass account may not be linked to your SEED device due to an onboarding or account termination issue.  
-  Offboard and re-onboard your device, or [raise a service request](https://go.gov.sg/seed-techpass-support).
+  Offboard and re-onboard your device, or <a href="https://go.gov.sg/seed-techpass-support"> raise a support request </a>.
 </details>
 
 <details>
   <summary>Why did I receive an email indicating limited access to SEED-protected resources after previously onboarding successfully?</summary>
   SEED may have detected device configuration issues (e.g. unhealthy Microsoft Defender).  
-  Offboard the device if no longer needed, or [raise a service request](https://go.gov.sg/seed-techpass-support).
+  Offboard the device if no longer needed, or <a href="https://go.gov.sg/seed-techpass-support"> raise a support request </a>.
 </details>
 
 <details>
@@ -131,6 +151,7 @@
 <details>
   <summary>How do I reset my password using the macOS <b>Utilities</b> menu?</summary>
   Refer to the following image:  
+  
   ![reset_password](/images/reset-password-utiliy.png)
 </details>
 
@@ -140,7 +161,7 @@
   <summary>Why was my device blocked due to a malware alert in CrowdStrike?</summary>
   Your device will be blocked if you have malware alerts on CrowdStrike.  
   No action is required from you. The SEED team will review your ticke, and your device will be unblocked after the assessment is completed.  
-  Please [raise a support request(https://go.gov.sg/seed-techpass-support) if you are not unblocked automatically.
+  Please <a href="https://go.gov.sg/seed-techpass-support"> raise a support request </a> if you are not unblocked automatically.
 </details>
 
 <details>
@@ -148,10 +169,11 @@
   Right-click the drive → Click **Show more options** → Click **CrowdStrike Falcon malware scan** → Click **Scan**.  
   A pop-up window will appear at the lower-right corner.
   
-  [image](/images/cs1.png)
+  ![image](/images/cs1.png)
 
   You will see a pop up window on the right hand corner.
-  [image](/images/cs2.png)
+  
+  ![image](/images/cs2.png)
   
 </details>
 
@@ -159,11 +181,11 @@
   <summary>[Windows only] How do I check the results of a CrowdStrike malware scan?</summary>
   Go to your Desktop → Right-click and select **Show more options** → Click **CrowdStrike Falcon malware scan** → Click **See results of last scan**.  
 
-  [imaeg](/images/cs3.png)
+  ![image](/images/cs3.png)
   
   You should see the status as **Completed**.
 
-  [image](/images/cs4.png)
+  ![image](/images/cs4.png)
   
 </details>
 
