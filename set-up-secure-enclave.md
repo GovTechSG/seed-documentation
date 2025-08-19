@@ -41,7 +41,9 @@ Secure Enclave allows passwordless, phish-resistant sign-in on macOS using hardw
    If you do not see the registration prompt, check that the SSO profile is present in your Mac settings.
    ![Profile Settings](/images/enclave-8.png)
    ![Profile Settings](/images/enclave-9.png)
-   Alternatively, open **Company Portal**, select your profile icon, and choose **Register for SSO**.
+   Alternatively, open **Company Portal**, select your profile icon, and register for SSO by clicking **Add account to this device**.
+
+   ![Register for SSO](/images/enclave-11.png)
 
 ---
 
@@ -50,6 +52,8 @@ Secure Enclave allows passwordless, phish-resistant sign-in on macOS using hardw
 1. Navigate to **Settings** and select **Users & Groups**.  
 
 2. Select **Edit** next to **Network Account Server** and confirm that **Platform SSO** is listed as **Registered**.
+
+![Registered](/images/enclave-12.png)
 
 3. To verify the authentication method, select your username in the **Users & Groups** window, then select the **Information** icon. Confirm that the method listed is **Secure Enclave**, **Smart Card**, or **Password**.
 
