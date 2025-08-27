@@ -16,11 +16,11 @@ Supported operating system:
 
 | **Operating system** | **Version supported** |
 |---|---|
-| **macOS 15**        | 15.5 <br> **Note**: If you encounter issues accessing SGTS or GCC services after the update, please ensure that [FDA is enabled](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/post-onboarding-instructions/macos-latest?id=ensure-full-disk-access-fda-is-enabled-for-seed-components) and reboot your device. <br> Do **not** install unsupported versions of macOS unless explicitly communicated via email by the SEED team.|
-| **macOS 14**        | 14.7.6 |
-| **macOS 13**        | 13.7.6 |
-| **Windows 10**      | 1507 (LTSC only, build 10240, minimally revision 21073) <br> 1607 (LTSC only, build 14393, minimally revision 8246) <br> 1809 (LTSC only, build 17763, minimally revision 7558) <br> 21H2 (LTSC only, build 19044, minimally revision 6093) <br> 22H2 (build 19045, minimally revision 6093) |
-| **Windows 11**      | 22H2 (build 22621, minimally revision 5624) <br> 23H2 (build 22631, minimally revision 5624) <br> 24H2 (build 26100, minimally revision 4652) |
+| **macOS 15**        | 15.6 <br> **Note**: If you encounter issues accessing SGTS or GCC services after the update, please ensure that [FDA is enabled](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/post-onboarding-instructions/macos-latest?id=ensure-full-disk-access-fda-is-enabled-for-seed-components) and reboot your device. <br> Do **not** install unsupported versions of macOS unless explicitly communicated via email by the SEED team.|
+| **macOS 14**        | 14.7.7 |
+| **macOS 13**        | 13.7.7 |
+| **Windows 10**      | 1507 (LTSC only, build 10240, minimally revision 21100) <br> 1607 (LTSC only, build 14393, minimally revision 8330) <br> 1809 (LTSC only, build 17763, minimally revision 7678) <br> 21H2 (LTSC only, build 19044, minimally revision 6216) <br> 22H2 (build 19045, minimally revision 6216) |
+| **Windows 11**      | 22H2 (build 22621, minimally revision 5768) <br> 23H2 (build 22631, minimally revision 5768) <br> 24H2 (build 26100, minimally revision 4946) |
 
 
 > **Note**:
