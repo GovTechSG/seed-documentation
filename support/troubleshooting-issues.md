@@ -2,6 +2,33 @@
 
 This guide provides solutions to common problems for SEED. Follow the steps below to troubleshoot and resolve the problems you are experiencing.
 
+## Cloudflare connectivity issue: turns orange
+
+![cf](/images/orange-wrap.png)
+
+
+When having difficulty accessing SGTS or GCC services, Cloudflare WARP may display an **Orange** status.  
+
+### Suggested steps
+
+1. Launch **Cloudflare WARP**.  
+2. Click the **Gear** icon.  
+3. Navigate to **Preferences > Account**.  
+4. Log in to **GovTech Zero Trust** using the account name `gccgovsg`.  
+
+
+## Cloudflare connectivity issue – Limited connectivity: A certificate is missing
+
+![lc](/images/limited-connectivity.png)
+
+When having difficulty accessing SGTS or GCC services, Cloudflare WARP may show a **Missing certificate** error.  
+
+### Suggested steps
+
+1. Download the required certificate from the [Cloudflare certificate update guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/cloudflare-cert-update-guide).  
+2. Trust the certificate on your device.
+
+
 ## Unable to log in to MacBook – login loop
 
 This is a known issue affecting older versions of macOS, where users are unable to log in despite entering the correct password.
