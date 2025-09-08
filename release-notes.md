@@ -11,6 +11,28 @@ This section lists the most recent enhancements, new features and fixes that are
 | **Gamma Release** | **Device Based Blocking** | To enforce better protection to our development resources e.g., GCC and SGTS services and tools. On 19 July 2023, we have rolled out beta testing for more effective blocking of access when a GMD's health is at risk. We have passed the beta test and we have rolled out the gamma release. If you have queries on this feature, please get in touch with us through our SEED mailbox at: [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg).|
 -->
 
+## September 2025
+
+### 5 September 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **New feature** | **Intune standard apps deployment (Whole of Government)** | Deployment of standard applications to SEED devices (**WoG users**):<br>- Chrome<br>- Edge<br>- Telegram<br>- Slack |
+| **New feature** | **CrowdStrike deployment** | Deployed CrowdStrike to **GovTech users**, plus 2 **NDI Helpdesk Agents** and **NDI users**. No user impact during installation.<br><br>Users will be evaluated based on CrowdStrike risk score instead of Microsoft Defender. Microsoft Defender will remain installed during this trial period. |
+
+### 3 September 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **Update** | **Azure Portal Conditional Access Policy (CAP)** | Added device compliance checks (Report Only) for **non-macOS (all users)** before allowing access to Microsoft Admin Portals. |
+| **New feature** | **Intune standard apps deployment (TechPass)** | Deployment of standard applications to SEED devices (**TechPass users**):<br>- Chrome<br>- Edge<br>- Telegram<br>- Slack |
+
+### 2 September 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **Update** | **CrowdStrike API** | Removed **Automated Leads** from CrowdStrike device blocking criteria. |
+
 ## August 2025
 
 ### 28 August 2025
@@ -19,11 +41,32 @@ This section lists the most recent enhancements, new features and fixes that are
 | --- | --- | --- |
 | **Update** | **Tanium server maintenance** | Upgraded Tanium Server Platform to 7.6.4.2144.<br><br>SEED onboarding was affected from 18:00 hrs to 21:00 hrs. |
 
+### 27 August 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **Update** | **Azure Portal Conditional Access Policy (CAP)** | Added device compliance checks (Report Only) for all operating systems (**CEP users**) before allowing access to Microsoft Admin Portals. |
+| **New feature** | **macOS Platform SSO rollout (Vendors)** | macOS Platform SSO is now available for **Vendor SEED users** on macOS. This feature allows you to sign in to your Mac using enterprise credentials and automatically gain access to supported apps and services without repeatedly entering your username and password. |
+
+### 22 August 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **New feature** | **CrowdStrike deployment** | Deployed CrowdStrike to **CEP SEED users**. No user impact during installation.<br><br>Users will be evaluated based on CrowdStrike risk score instead of Microsoft Defender. Microsoft Defender will remain installed during this trial period. |
+
+
 ### 11 August 2025
 
 | <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
 | --- | --- | --- |
 | **Update** | **macOS Platform SSO rollout** | macOS Platform SSO is now available for **CEP SEED users** on macOS. This feature allows you to sign in to your Mac using your enterprise credentials and automatically gain access to supported apps and services without repeatedly entering your username and password, improving convenience and security.<br><br>**Rollout dates:**<br>- **CEP SEED users**: 11 August 2025<br>- **PO SEED users**: 18 August 2025<br>- **Vendor SEED users**: 25 August 2025 |
+
+### 4 August 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **Update** | **Azure Portal Conditional Access Policy (CAP)** | Added device compliance checks (Report Only) for **macOS (SEED Team)** before allowing access to Microsoft Admin Portals. |
+
 
 ## July 2025
 
