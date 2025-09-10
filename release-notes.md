@@ -13,11 +13,26 @@ This section lists the most recent enhancements, new features and fixes that are
 
 ## September 2025
 
+### 11 September 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **New feature** | **CrowdStrike deployment** | Deployed CrowdStrike to **SEED users (Remaining NDI Helpdesk Agents)**. No user impact during installation.<br><br>Users will be evaluated based on CrowdStrike risk score instead of Microsoft Defender. Microsoft Defender will still be installed during this trial period. |
+| **New feature** | **Pushing of standard apps from Intune** | Deployment of standard applications to **SEED devices (WOG)**:<br>- Chrome<br>- Edge<br>- Telegram<br>- Slack |
+
+### 10 September 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **New feature** | **macOS Platform SSO rollout** | macOS Platform SSO is now available for **SEED users (GovTech users)** on macOS. This feature allows you to sign in to your Mac using your enterprise credentials and automatically gain access to supported apps and services without repeatedly entering your username and password, improving convenience and security. |
+| **Update** | **Azure Portal Conditional Access Policy (CAP)** | Added device compliance checks for **non-macOS (all users)** before allowing access to Microsoft Admin Portals. |
+| **Update** | **Azure Portal Conditional Access Policy (CAP)** | Added device compliance checks (**Report Only**) for **macOS (Contractors)** before allowing access to Microsoft Admin Portals. |
+
+
 ### 5 September 2025
 
 | Type | Change | Description |
 | --- | --- | --- |
-| **New feature** | **Intune standard apps deployment (Whole of Government)** | Deployment of standard applications to SEED devices (**WoG users**):<br>- Chrome<br>- Edge<br>- Telegram<br>- Slack |
 | **New feature** | **CrowdStrike deployment** | Deployed CrowdStrike to **GovTech users**, plus 2 **NDI Helpdesk Agents** and **NDI users**. No user impact during installation.<br><br>Users will be evaluated based on CrowdStrike risk score instead of Microsoft Defender. Microsoft Defender will remain installed during this trial period. |
 
 ### 3 September 2025
