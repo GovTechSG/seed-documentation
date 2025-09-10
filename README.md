@@ -4,7 +4,7 @@ Welcome to the SEED documentation!
 
 Before you begin the process of onboarding your Internet Device to SEED, you need meet the necessary prerequisites. These prerequisites are vital for a successful onboarding experience. 
 
-![onboarding](../images/onboarding-image.png)
+![onboarding](/images/onboarding-image.png)
 
 > **Note**: Each user can onboard **only one device** to SEED.  
 
