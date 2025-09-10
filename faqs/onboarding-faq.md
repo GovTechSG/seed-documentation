@@ -117,9 +117,10 @@
 
 <details>
   <summary>Why is the Falcon sensor not pushed down to my device?</summary>
-  
+
   - Make sure you have the SEED License assigned to you in the [TechPass Portal](https://portal.techpass.gov.sg).
   - **macOS**: Go to the Company Portal, click the three dots, and select **Check status** to sync the device.
   - **Windows**: Go to **Access work or school**, click the **Info** button next to your TechPass account, and then click **Sync**.
   - Restart your computer.
+  
 </details>
