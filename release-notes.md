@@ -25,7 +25,6 @@ This section lists the most recent enhancements, new features and fixes that are
 | Type | Change | Description |
 | --- | --- | --- |
 | **New feature** | **macOS Platform SSO rollout** | macOS Platform SSO is now available for **SEED users (GovTech users)** on macOS. This feature allows you to sign in to your Mac using your enterprise credentials and automatically gain access to supported apps and services without repeatedly entering your username and password, improving convenience and security. |
-| **Update** | **Azure Portal Conditional Access Policy (CAP)** | Added device compliance checks for **non-macOS (all users)** before allowing access to Microsoft Admin Portals. |
 | **Update** | **Azure Portal Conditional Access Policy (CAP)** | Added device compliance checks (**Report Only**) for **macOS (Contractors)** before allowing access to Microsoft Admin Portals. |
 
 
