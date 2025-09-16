@@ -2,11 +2,41 @@
 
 This guide provides solutions to common problems for SEED. Follow the steps below to troubleshoot and resolve the problems you are experiencing.
 
-## Unable to log in to MacBook – login loop
+## Cloudflare connectivity issue: turns orange
 
-This issue commonly occurs on devices with outdated macOS versions. To resolve it, please upgrade your macOS to version 15.1.1 or later.
+![cf](/images/orange-wrap.png)
+
+
+When having difficulty accessing SGTS or GCC services, Cloudflare WARP may display an **Orange** status.  
 
 ### Suggested steps
+
+1. Launch **Cloudflare WARP**.  
+2. Click the **Gear** icon.  
+3. Navigate to **Preferences > Account**.  
+4. Log in to **GovTech Zero Trust** using the account name `gccgovsg`.  
+
+
+## Cloudflare connectivity issue – Limited connectivity: A certificate is missing
+
+![lc](/images/limited-connectivity.png)
+
+When having difficulty accessing SGTS or GCC services, Cloudflare WARP may show a **Missing certificate** error.  
+
+### Suggested steps
+
+1. Download the required certificate from the [Cloudflare certificate update guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/cloudflare-cert-update-guide).  
+2. Trust the certificate on your device.
+
+
+## Unable to log in to MacBook – login loop
+
+This is a known issue affecting older versions of macOS, where users are unable to log in despite entering the correct password.
+The problem typically occurs because some key presses are not registered properly at the login screen, resulting in an incorrect password input — even if the user typed it correctly.
+This issue is fixed from macOS **15.4 or later**.
+To resolve the issue, and aligning to our OS baselining, we recommend you to upgrade your macOS to version **15.4.1 or later**, to avoid encountering the login loop issue.
+
+### Suggested steps to log in and update
 
 1. **Log in and upgrade macOS**
    - Attempt to log in to the MacBook a few times using the correct password. Once logged in, upgrade your macOS.
@@ -47,6 +77,12 @@ Follow the steps below depending on your Mac model. If you are unsure whether yo
 ### Reinstall macOS if necessary
 
 If you are still unable to log in, reinstall macOS through recovery mode. Refer to [Apple’s guide on reinstalling macOS](https://support.apple.com/en-sg/102655).
+
+### Additional reference
+
+Apple has acknowledged this issue in their enterprise support article:  
+[https://support.apple.com/en-gb/121011](https://support.apple.com/en-gb/121011)
+
 
 
 ## Resolving *Cloudflare CF_DNS_Lookup_Failure* error on macOS 15
@@ -376,12 +412,12 @@ If your Cloudflare WARP is stuck in the connecting status, please follow these s
 
 3. Search for **Cloudflare WARP** and select **Uninstall**.
 
-After uninstalling, proceed to [download Cloudflare WARP](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/)
+After uninstalling, proceed to download Cloudflare WARP.
 
 For a smooth experience, download the following versions:
 
-- **Windows**: Version 2024.3.409.0
-- **macOS**: Version 2024.3.444.0
+- **Windows**: Version [2025.4.943.0](https://downloads.cloudflareclient.com/v1/download/windows/version/2025.4.943.0)
+- **macOS**: Version [2025.4.943.0](https://downloads.cloudflareclient.com/v1/download/macos/version/2025.4.943.0)
 
 Once downloaded, follow these steps:
 
@@ -461,7 +497,7 @@ Cloudflare has reported connectivity problems for users with macOS and Windows W
 3. Enter `Y`. When WARP is successfully uninstalled, the message ```Finished uninstallation!``` is displayed.
 
 4. Proceed to [download Cloudflare WARP](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/).
-   - **macOS**: Version 2024.3.444.0 
+  - **macOS**: Version 2025.4.943.0
 
 #### **Windows**
 
@@ -469,7 +505,7 @@ Cloudflare has reported connectivity problems for users with macOS and Windows W
 2. Go to **Settings** > **Apps** and search for **Cloudflare WARP**.
 3. Choose Cloudflare WARP and click **Uninstall**.
 4. Proceed to [download Cloudflare WARP](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/).
-   - **Windows**: Version 2024.3.409.0
+   - **Windows**: Version 2025.4.943.0
 
 <!-- tabs:end -->
 
@@ -497,5 +533,7 @@ Ensure to re-authenticate your Cloudflare WARP client with the following steps:
    - Click **Re-authenticate with Cloudflare zero trust**.
 
 3. Reboot your machine.
+
+
 
 
