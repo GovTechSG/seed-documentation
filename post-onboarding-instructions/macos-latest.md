@@ -45,7 +45,7 @@ After onboarding, ensure FDA is enabled for the following SEED components:
 1. Open **Finder** → **Applications** → **Falcon.app**.
 2. Ensure the **CrowdStrike Falcon Sensor** is **registered**, **operational**, and **cloud connected**.  
 
-   ![CrowdStrike Falcon Sensor status](macosimage-3.png)
+   ![CrowdStrike Falcon Sensor status](../images/macosimage-3.png)
 
 3. If any of the above statuses indicate an error:
    - Open the **Company Portal** application.
