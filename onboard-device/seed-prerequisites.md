@@ -2,6 +2,11 @@
 
 Before you begin the process of onboarding your Internet Device to SEED, you need meet the necessary prerequisites. These prerequisites are vital for a successful onboarding experience. 
 
+![onboarding](../images/onboarding-image.png)
+
+> **Note**: Each user can onboard **only one device** to SEED.  
+
+
 ## Supported browsers and operating systems
 
 Supported browsers:
@@ -57,6 +62,18 @@ Supported operating system:
 
    ![Windows OS Build](/images/checkos-win4.png)  
 </details>
+
+## SEED hardware minimum specifications  
+
+Hardware must meet the minimum requirements for the supported SEED operating systems and software.  
+
+For detailed OS hardware requirements, refer to:  
+- [macOS Sequoia (macOS 15)](https://support.apple.com/en-us/HT213939)  
+- [macOS Sonoma (macOS 14)](https://support.apple.com/en-us/HT213264)  
+- [macOS Ventura (macOS 13)](https://support.apple.com/en-us/HT213268)  
+- [Windows 10 minimum requirements](https://learn.microsoft.com/en-us/windows-hardware/design/minimum/minimum-hardware-requirements-overview)  
+- [Windows 11 minimum requirements](https://learn.microsoft.com/en-us/windows-hardware/design/minimum/minimum-hardware-requirements-overview)  
+
 
 ## Request SEED provisioning
 

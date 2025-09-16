@@ -88,8 +88,8 @@ At any time, users can manually sync by going to **Start** > **Settings** > **Ac
    - **Service is active**
    - **Cloud connected**  
 
-   ![CrowdStrike Falcon Sensor status](winimage-4.png)  
-   ![CrowdStrike Falcon Sensor details](winimage-5.png)
+   ![CrowdStrike Falcon Sensor status](../images/winimage-4.png)  
+   ![CrowdStrike Falcon Sensor details](../images/winimage-5.png)
 
 3. If any of the above statuses indicate an error:
    - Go to **Start** → **Settings** → **Accounts** → **Access work or school**.
