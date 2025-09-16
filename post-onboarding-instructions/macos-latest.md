@@ -35,10 +35,9 @@ After onboarding, ensure FDA is enabled for the following SEED components:
     - Microsoft Defender Endpoint Security Extension
     - Falcon agent (Users who signed up after 22 August 2025)
 
+  ![fda-enabled](../images/macosimage-2.png)
 
-    ![fda-enabled](../images/macosimage-2.png)
-
-    >**Note**: If a SEED component is missing, refer to [Onboarding FAQ](/faqs/onboarding-faq).
+  >**Note**: If a SEED component is missing, refer to [Onboarding FAQ](/faqs/onboarding-faq).
 
 ## Verify CrowdStrike is configured
 
