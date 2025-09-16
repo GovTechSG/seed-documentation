@@ -59,7 +59,8 @@ After onboarding your macOS Internet Device to SEED, you need to activate Cloudf
 
 1. Open **Cloudflare WARP** client from the menu bar.
 
-  ![cloudflare-warp-icon](../images/onboarding-for-macos/cloudflare-icon.png) 
+  ![cloudflare-warp-icon](../images/onboarding-for-macos/cloudflare-icon.png)
+  
   You will see the information page, followed by the privacy policy.
 
 2. Click **Next**, **Accept** to agree to Cloudflare’s privacy policy.
