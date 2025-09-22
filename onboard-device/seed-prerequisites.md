@@ -18,6 +18,10 @@ Supported browsers:
 
 Supported operating system:
 
+!> **Important**  
+Windows 10 will reach end of life on **14 October 2025**.  
+- Access to SGTS and GCC will be blocked from **15 October 2025**.  
+- Onboarding of Windows 10 devices will stop from **19 September 2025**.
 
 | **Operating system** | **Version supported** |
 |---|---|
