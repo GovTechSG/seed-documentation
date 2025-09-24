@@ -20,6 +20,8 @@ This section lists the most recent enhancements, new features and fixes that are
 | --- | --- | --- |
 | **Update** | **Tanium server maintenance** | Upgraded Tanium Server Platform to 7.6.4.2160 and TanOS to 1.8.4.0199.<br><br>SEED onboarding was affected from 18:00 hrs to 21:00 hrs. More information can be found here: [Maintenance release updates for 2024H2](https://help.tanium.com/bundle/2024H2_releasenotes/page/maintenance.html#2024h2_update_11_august_19_2025). |
 
+### 23 September 2025
+
 | Type | Change | Description |
 | --- | --- | --- |
 | **Update** | **macOS 26 deployment** | macOS 26 rollout to **CEP users**. |
