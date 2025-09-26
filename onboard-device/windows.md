@@ -1,1 +1,0 @@
-!> This documentation has moved to [Identify onboarding persona](identify-onboarding-persona).
