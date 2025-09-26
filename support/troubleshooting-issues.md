@@ -2,6 +2,49 @@
 
 This guide provides solutions to common problems for SEED. Follow the steps below to troubleshoot and resolve the problems you are experiencing.
 
+
+## Device access to GCC/SGTS is blocked
+
+![defender](/images/defender-fix.png)
+
+When accessing GCC or SGTS, users may see a dashboard message stating that **Microsoft Defender requires attention**. This issue prevents access to GCC and SGTS services.  
+
+### Suggested steps
+
+1. **Check SEED components full disk access (FDA) is enabled**  
+   - Refer to the [FDA guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/post-onboarding-instructions/macos-latest?id=ensure-full-disk-access-fda-is-enabled-for-seed-components).  
+
+2. **Verify Microsoft Defender configuration**  
+   - Ensure Defender is configured with the correct Organisation ID.  
+   - Refer to the [Defender configuration guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/post-onboarding-instructions/macos-latest?id=verify-microsoft-defender-is-configured).  
+
+3. **Confirm required extensions are turned on**  
+   - **Endpoint security extensions**  
+     - `Falcon.app` → Toggle On (http://falcon.app/)  
+     - `Microsoft Defender Endpoint Security Extension` → Toggle On  
+   - **Network extensions**  
+     - `Microsoft Defender Network Extensions` → Toggle On  
+
+4. **Check Defender health status**  
+   - Open Terminal and run:  
+     ```bash
+     mdatp health
+     ```  
+
+5. **Sync device posture**  
+   - Connect to a mobile hotspot.  
+   - Open **Company Portal** → Select **Device** → Click **… (three dots)** → Select **Check status**.  
+   - Open Terminal and run:  
+     ```bash
+     sudo launchctl kickstart -k -p system/com.tanium.taniumclient
+     ```  
+
+6. **Retry access**  
+   - Wait at least 15 minutes before trying again.  
+   - If access still fails, try using an **incognito window**.  
+   - If incognito works, clear the browser cache and retry.  
+
+
 ## Cloudflare connectivity issue: turns orange
 
 ![cf](/images/orange-wrap.png)
