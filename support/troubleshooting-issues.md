@@ -2,7 +2,6 @@
 
 This guide provides solutions to common problems for SEED. Follow the steps below to troubleshoot and resolve the problems you are experiencing.
 
-# Troubleshooting guide
 
 ## macOS device blocked in SEED dashboard (no remediation steps)
 
