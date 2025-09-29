@@ -5,7 +5,10 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
 
 ## macOS device blocked in SEED dashboard (no remediation steps)
 
+
 If your device is blocked in the SEED dashboard and no remediation steps are shown, follow the instructions below to restore access.
+
+![Launchpad showing Falcon app](/images/r0.png)
 
 
 ## Step 1 – Launch CrowdStrike app
@@ -64,10 +67,24 @@ Once enabled, the status will show **Full disk access granted**. Click **Continu
 ![Full disk access granted](/images/r11.png)
 
 
+
 ## Step 12 – Verify Falcon sensor
 Ensure that all indicators are green:
 - Sensor is registered  
-- Sensor is operat
+- Sensor is operational  
+- Sensor is cloud connected  
+
+![Falcon all green](/images/r12.png)
+
+## Step 13 – Sync to Tanium
+Open **Terminal** and run:
+
+```bash
+sudo launchctl kickstart -k -p system/com.tanium.taniumclient
+
+```
+![Falcon all green](/images/r13.png)
+
 
 
 ## Device access to GCC/SGTS is blocked
