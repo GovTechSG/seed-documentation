@@ -2,6 +2,74 @@
 
 This guide provides solutions to common problems for SEED. Follow the steps below to troubleshoot and resolve the problems you are experiencing.
 
+# Troubleshooting guide
+
+## macOS device blocked in SEED dashboard (no remediation steps)
+
+If your device is blocked in the SEED dashboard and no remediation steps are shown, follow the instructions below to restore access.
+
+
+## Step 1 – Launch CrowdStrike app
+Open **Falcon** from the Launchpad.  
+![Launchpad showing Falcon app](/images/r1.png)
+
+
+## Step 2 – Check Falcon sensor
+If the Falcon window shows red indicators, click **Configure settings**.  
+![CrowdStrike Falcon status – configure settings](/images/r2.png)
+
+
+## Step 3 – Set up Falcon sensor system extension
+Click **Setup** under *Network filter not loaded*.  
+![Setup network filter](/images/r3.png)
+
+
+## Step 4 – Allow network filter
+When prompted, click **Allow**.  
+![Allow network filter](/images/r4.png)
+
+
+## Step 5 – Confirm network filter loaded
+Once the filter is loaded, click **Continue**.  
+![Network filter loaded](/images/r5.png)
+
+
+## Step 6 – Set up system extension
+Click **Setup** under *Extension not loaded*.  
+![Setup extension](/images/r6.png)
+
+
+## Step 7 – Approve extension in system settings
+Click **Open system settings** when prompted.  
+![Open system settings](/images/r7.png)
+
+
+## Step 8 – Enable Falcon in endpoint security extensions
+In **System settings → Extensions**, enable the toggle for *Falcon sensor*. Enter your admin credentials if required.  
+![Enable Falcon endpoint security extension](/images/r8.png)
+
+
+## Step 9 – Confirm extension loaded
+Once enabled, the status will show **Extension loaded**. Click **Continue**.  
+![Extension loaded](/images/r9.png)
+
+
+## Step 10 – Grant full disk access
+Go to **System settings → Privacy & security → Full disk access**.  
+Enable the toggle for **Falcon sensor**.  
+![Grant full disk access](/images/r10.png)
+
+
+## Step 11 – Confirm full disk access
+Once enabled, the status will show **Full disk access granted**. Click **Continue**.  
+![Full disk access granted](/images/r11.png)
+
+
+## Step 12 – Verify Falcon sensor
+Ensure that all indicators are green:
+- Sensor is registered  
+- Sensor is operat
+
 
 ## Device access to GCC/SGTS is blocked
 
