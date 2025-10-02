@@ -11,7 +11,22 @@ This section lists the most recent enhancements, new features and fixes that are
 | **Gamma Release** | **Device Based Blocking** | To enforce better protection to our development resources e.g., GCC and SGTS services and tools. On 19 July 2023, we have rolled out beta testing for more effective blocking of access when a GMD's health is at risk. We have passed the beta test and we have rolled out the gamma release. If you have queries on this feature, please get in touch with us through our SEED mailbox at: [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg).|
 -->
 
+## October 2025
+
+### 3 October 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **New feature** | **CrowdStrike deployment** | Deployed CrowdStrike to all **SEED users**. No user impact during installation.<br><br>Users will be evaluated based on the CrowdStrike risk score instead of Microsoft Defender. Microsoft Defender will remain installed during this trial period. |
+
 ## September 2025
+
+### 30 September 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **Update** | **macOS 26 deployment** | Deployed macOS 26 to all users. |
+
 
 
 ### 25 September 2025
