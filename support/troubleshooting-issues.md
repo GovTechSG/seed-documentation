@@ -2,11 +2,167 @@
 
 This guide provides solutions to common problems for SEED. Follow the steps below to troubleshoot and resolve the problems you are experiencing.
 
-## Unable to log in to MacBook – login loop
 
-This issue commonly occurs on devices with outdated macOS versions. To resolve it, please upgrade your macOS to version 15.1.1 or later.
+## macOS device blocked in SEED dashboard (no remediation steps)
+
+
+If your device is blocked in the SEED dashboard and no remediation steps are shown, follow the instructions below to restore access.
+
+![Launchpad showing Falcon app](/images/r0.png)
+
+
+## Step 1 – Launch CrowdStrike app
+Open **Falcon** from the Launchpad.  
+![Launchpad showing Falcon app](/images/r1.png)
+
+
+## Step 2 – Check Falcon sensor
+If the Falcon window shows red indicators, click **Configure settings**.  
+![CrowdStrike Falcon status – configure settings](/images/r2.png)
+
+
+## Step 3 – Set up Falcon sensor system extension
+Click **Setup** under *Network filter not loaded*.  
+![Setup network filter](/images/r3.png)
+
+
+## Step 4 – Allow network filter
+When prompted, click **Allow**.  
+![Allow network filter](/images/r4.png)
+
+
+## Step 5 – Confirm network filter loaded
+Once the filter is loaded, click **Continue**.  
+![Network filter loaded](/images/r5.png)
+
+
+## Step 6 – Set up system extension
+Click **Setup** under *Extension not loaded*.  
+![Setup extension](/images/r6.png)
+
+
+## Step 7 – Approve extension in system settings
+Click **Open system settings** when prompted.  
+![Open system settings](/images/r7.png)
+
+
+## Step 8 – Enable Falcon in endpoint security extensions
+In **System settings → Extensions**, enable the toggle for *Falcon sensor*. Enter your admin credentials if required.  
+![Enable Falcon endpoint security extension](/images/r8.png)
+
+
+## Step 9 – Confirm extension loaded
+Once enabled, the status will show **Extension loaded**. Click **Continue**.  
+![Extension loaded](/images/r9.png)
+
+
+## Step 10 – Grant full disk access
+Go to **System settings → Privacy & security → Full disk access**.  
+Enable the toggle for **Falcon sensor**.  
+![Grant full disk access](/images/r10.png)
+
+
+## Step 11 – Confirm full disk access
+Once enabled, the status will show **Full disk access granted**. Click **Continue**.  
+![Full disk access granted](/images/r11.png)
+
+
+
+## Step 12 – Verify Falcon sensor
+Ensure that all indicators are green:
+- Sensor is registered  
+- Sensor is operational  
+- Sensor is cloud connected  
+
+![Falcon all green](/images/r12.png)
+
+## Step 13 – Sync to Tanium
+Open **Terminal** and run:
+
+```bash
+sudo launchctl kickstart -k -p system/com.tanium.taniumclient
+
+```
+
+
+
+## Device access to GCC/SGTS is blocked
+
+![defender](/images/defender-fix.png)
+
+When accessing GCC or SGTS, users may see a dashboard message stating that **Microsoft Defender requires attention**. This issue prevents access to GCC and SGTS services.  
 
 ### Suggested steps
+
+1. **Check SEED components full disk access (FDA) is enabled**  
+   - Refer to the [FDA guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/post-onboarding-instructions/macos-latest?id=ensure-full-disk-access-fda-is-enabled-for-seed-components).  
+
+2. **Verify Microsoft Defender configuration**  
+   - Ensure Defender is configured with the correct Organisation ID.  
+   - Refer to the [Defender configuration guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/post-onboarding-instructions/macos-latest?id=verify-microsoft-defender-is-configured).  
+
+3. **Confirm required extensions are turned on**  
+   - **Endpoint security extensions**  
+     - `Falcon.app` → Toggle On (http://falcon.app/)  
+     - `Microsoft Defender Endpoint Security Extension` → Toggle On  
+   - **Network extensions**  
+     - `Microsoft Defender Network Extensions` → Toggle On  
+
+4. **Check Defender health status**  
+   - Open Terminal and run:  
+     ```bash
+     mdatp health
+     ```  
+
+5. **Sync device posture**  
+   - Connect to a mobile hotspot.  
+   - Open **Company Portal** → Select **Device** → Click **… (three dots)** → Select **Check status**.  
+   - Open Terminal and run:  
+     ```bash
+     sudo launchctl kickstart -k -p system/com.tanium.taniumclient
+     ```  
+
+6. **Retry access**  
+   - Wait at least 15 minutes before trying again.  
+   - If access still fails, try using an **incognito window**.  
+   - If incognito works, clear the browser cache and retry.  
+
+
+## Cloudflare connectivity issue: turns orange
+
+![cf](/images/orange-wrap.png)
+
+
+When having difficulty accessing SGTS or GCC services, Cloudflare WARP may display an **Orange** status.  
+
+### Suggested steps
+
+1. Launch **Cloudflare WARP**.  
+2. Click the **Gear** icon.  
+3. Navigate to **Preferences > Account**.  
+4. Log in to **GovTech Zero Trust** using the account name `gccgovsg`.  
+
+
+## Cloudflare connectivity issue – Limited connectivity: A certificate is missing
+
+![lc](/images/limited-connectivity.png)
+
+When having difficulty accessing SGTS or GCC services, Cloudflare WARP may show a **Missing certificate** error.  
+
+### Suggested steps
+
+1. Download the required certificate from the [Cloudflare certificate update guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/cloudflare-cert-update-guide).  
+2. Trust the certificate on your device.
+
+
+## Unable to log in to MacBook – login loop
+
+This is a known issue affecting older versions of macOS, where users are unable to log in despite entering the correct password.
+The problem typically occurs because some key presses are not registered properly at the login screen, resulting in an incorrect password input — even if the user typed it correctly.
+This issue is fixed from macOS **15.4 or later**.
+To resolve the issue, and aligning to our OS baselining, we recommend you to upgrade your macOS to version **15.4.1 or later**, to avoid encountering the login loop issue.
+
+### Suggested steps to log in and update
 
 1. **Log in and upgrade macOS**
    - Attempt to log in to the MacBook a few times using the correct password. Once logged in, upgrade your macOS.
@@ -47,6 +203,12 @@ Follow the steps below depending on your Mac model. If you are unsure whether yo
 ### Reinstall macOS if necessary
 
 If you are still unable to log in, reinstall macOS through recovery mode. Refer to [Apple’s guide on reinstalling macOS](https://support.apple.com/en-sg/102655).
+
+### Additional reference
+
+Apple has acknowledged this issue in their enterprise support article:  
+[https://support.apple.com/en-gb/121011](https://support.apple.com/en-gb/121011)
+
 
 
 ## Resolving *Cloudflare CF_DNS_Lookup_Failure* error on macOS 15
@@ -376,12 +538,12 @@ If your Cloudflare WARP is stuck in the connecting status, please follow these s
 
 3. Search for **Cloudflare WARP** and select **Uninstall**.
 
-After uninstalling, proceed to [download Cloudflare WARP](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/)
+After uninstalling, proceed to download Cloudflare WARP.
 
 For a smooth experience, download the following versions:
 
-- **Windows**: Version 2024.3.409.0
-- **macOS**: Version 2024.3.444.0
+- **Windows**: Version [2025.4.943.0](https://downloads.cloudflareclient.com/v1/download/windows/version/2025.4.943.0)
+- **macOS**: Version [2025.4.943.0](https://downloads.cloudflareclient.com/v1/download/macos/version/2025.4.943.0)
 
 Once downloaded, follow these steps:
 
@@ -461,7 +623,7 @@ Cloudflare has reported connectivity problems for users with macOS and Windows W
 3. Enter `Y`. When WARP is successfully uninstalled, the message ```Finished uninstallation!``` is displayed.
 
 4. Proceed to [download Cloudflare WARP](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/).
-   - **macOS**: Version 2024.3.444.0 
+  - **macOS**: Version 2025.4.943.0
 
 #### **Windows**
 
@@ -469,7 +631,7 @@ Cloudflare has reported connectivity problems for users with macOS and Windows W
 2. Go to **Settings** > **Apps** and search for **Cloudflare WARP**.
 3. Choose Cloudflare WARP and click **Uninstall**.
 4. Proceed to [download Cloudflare WARP](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/).
-   - **Windows**: Version 2024.3.409.0
+   - **Windows**: Version 2025.4.943.0
 
 <!-- tabs:end -->
 
@@ -497,5 +659,7 @@ Ensure to re-authenticate your Cloudflare WARP client with the following steps:
    - Click **Re-authenticate with Cloudflare zero trust**.
 
 3. Reboot your machine.
+
+
 
 
