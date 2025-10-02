@@ -83,7 +83,6 @@ Open **Terminal** and run:
 sudo launchctl kickstart -k -p system/com.tanium.taniumclient
 
 ```
-![Falcon all green](/images/r13.png)
 
 
 
