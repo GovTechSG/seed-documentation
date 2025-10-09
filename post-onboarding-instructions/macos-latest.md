@@ -47,9 +47,8 @@ After onboarding, ensure FDA is enabled for the following SEED components:
    ![CrowdStrike Falcon Sensor status](../images/macosimage-3.png)
 
 3. If any of the above statuses indicate an error:
-   - Open the **Company Portal** application.
-   - Select the **three-dot menu** → **Check status** to sync the device.
-   - Restart your computer.
+   -  Click **Configure Settings** and follow the steps as prompted.
+
    
 ## Turn on Cloudflare WARP
 
