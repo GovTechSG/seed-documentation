@@ -13,6 +13,13 @@ This section lists the most recent enhancements, new features and fixes that are
 
 ## October 2025
 
+### 16 October 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **Update** | **Tanium Ubuntu Server OS upgrade** | Upgraded Ubuntu OS from version 20.04 to 24.04 on Tanium servers. |
+| **Update** | **Tanium Windows Server and Dashboard** | Updated Curl to version 8.16 on both the Tanium Windows Server and Dashboard. |
+
 ### 3 October 2025
 
 | Type | Change | Description |

@@ -19,10 +19,6 @@ Supported browsers:
 
 Supported operating system:
 
-!> **Important**  
-Windows 10 will reach end of life on **14 October 2025**.  
-Access to SGTS and GCC will be blocked from **15 October 2025**.  
-Onboarding of Windows 10 devices will stop from **19 September 2025**.
 
 | **Operating system** | **Version supported** |
 |---|---|
@@ -30,8 +26,7 @@ Onboarding of Windows 10 devices will stop from **19 September 2025**.
 | **macOS 15**        | 15.6.1 <br> **Note**: If you encounter issues accessing SGTS or GCC services after the update, please ensure that [FDA is enabled](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/post-onboarding-instructions/macos-latest?id=ensure-full-disk-access-fda-is-enabled-for-seed-components) and reboot your device. <br> Do **not** install unsupported versions of macOS unless explicitly communicated via email by the SEED team.|
 | **macOS 14**        | 14.7.8 |
 | **macOS 13**        | 13.7.8 |
-| **Windows 10** | 1507 (LTSC only, build 10240, minimally revision 21128) <br> 1607 (LTSC only, build 14393, minimally revision 8442) <br> 1809 (LTSC only, build 17763, minimally revision 7792) <br> 21H2 (LTSC only, build 19044, minimally revision 6332) <br> 22H2 (build 19045, minimally revision 6332) |
-| **Windows 11** | 22H2 (build 22621, minimally revision 5909) <br> 23H2 (build 22631, minimally revision 5909) <br> 24H2 (build 26100, minimally revision 6584) <br> 25H2 (build 26200, minimally revision 6584) |
+| **Windows 11** | 22H2 (build 22621, minimally revision 6060) <br> 23H2 (build 22631, minimally revision 6060) <br> 24H2 (build 26100, minimally revision 6899) <br> 25H2 (build 26200, minimally revision 6899) |
 
 
 > **Note**:
