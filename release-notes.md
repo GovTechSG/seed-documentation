@@ -13,6 +13,12 @@ This section lists the most recent enhancements, new features and fixes that are
 
 ## October 2025
 
+### 30 October 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **Update** | **Tanium server maintenance** | Upgraded Tanium Server Platform **TanOS** to version **1.8.4.0205**.<br><br>**Impact:** SEED onboarding was affected from 18:00 hrs to 21:00 hrs.<br><br>More information can be found [here](https://help.tanium.com/bundle/2024H2_releasenotes/page/maintenance.html#2024h2_update_11_august_19_2025). |
+
 ### 16 October 2025
 
 | Type | Change | Description |
