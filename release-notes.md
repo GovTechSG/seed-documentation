@@ -13,6 +13,13 @@ This section lists the most recent enhancements, new features and fixes that are
 
 ## October 2025
 
+### 31 October 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **Update** | **Tanium Client deployment** | Deployed **Tanium Client 7.6.4.2160** to all **SEED devices**.<br><br>**Impact:** Applies to all **SEED users**. |
+
+
 ### 30 October 2025
 
 | Type | Change | Description |
