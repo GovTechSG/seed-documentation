@@ -93,8 +93,8 @@ echo "$actual_id"
 
 | OrgID | Defender organisation | Offboarding package |
 | --- | --- | --- |
-| Public officers or SEED enrolled with `xxx.gov.sg` | WOG | [Download offboarding script](https://ekgxtc4rxln5a7bxhanhw4d4cm0mmzsf.lambda-url.ap-southeast-1.on.aws/local_wog_windows) |
-| Vendors or SEED enrolled with `techpass.gov.sg` | TechPass | [Download offboarding script](https://ekgxtc4rxln5a7bxhanhw4d4cm0mmzsf.lambda-url.ap-southeast-1.on.aws/local_tp_windows) |
+| Public officers or SEED enrolled with `xxx.gov.sg` | WOG | [Download offboarding script](https://ekgxtc4rxln5a7bxhanhw4d4cm0mmzsf.lambda-url.ap-southeast-1.on.aws/local_wog_mac) |
+| Vendors or SEED enrolled with `techpass.gov.sg` | TechPass | [Download offboarding script](https://ekgxtc4rxln5a7bxhanhw4d4cm0mmzsf.lambda-url.ap-southeast-1.on.aws/local_tp_mac) |
 | SEED enrolled with `hive.gov.sg` | Hive | Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package. |
 
 
