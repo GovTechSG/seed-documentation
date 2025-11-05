@@ -72,51 +72,32 @@ Write-Output $intune_id
 
 ## Phase A: Offboard device from SEED components
 
-1. Go to the **Start** menu and enter **Powershell**.
-2. Right-click on the search result for **PowerShell** and select **Run as Administrator**
 
-    ![open powershell](../images/offboarding-windows/run_powershell.png)
+1. Refer to the following table and identify your **Defender organisation** and download the offboarding package.
 
-3. On **Powershell**, run the following command.
-
-```
-$reg64 = [Microsoft.Win32.RegistryKey]::OpenBaseKey([Microsoft.Win32.RegistryHive]::LocalMachine, [Microsoft.Win32.RegistryView]::Registry64)
-$OrgID =  $reg64.OpenSubKey("SOFTWARE\MICROSOFT\Windows Advanced Threat Protection\Status").GetValue("OrgID")
-echo $OrgID
-```
+| OrgID | Defender organisation | Offboarding package |
+| --- | --- | --- |
+| Public officers or SEED enrolled with `xxx.gov.sg` | WOG | [Download offboarding script](https://ekgxtc4rxln5a7bxhanhw4d4cm0mmzsf.lambda-url.ap-southeast-1.on.aws/local_wog_windows) |
+| Vendors or SEED enrolled with `techpass.gov.sg` | TechPass | [Download offboarding script](https://ekgxtc4rxln5a7bxhanhw4d4cm0mmzsf.lambda-url.ap-southeast-1.on.aws/local_tp_windows) |
+| SEED enrolled with `hive.gov.sg` | Hive | Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package. |
 
 
-4. Take note of the value displayed for **OrgID**.
 
-    ![find-org-id](../images/offboarding-windows/org_id_win.png)
-
-5. Refer to the following table and identify your **Defender organisation** and download the offboarding package.
-
-  | OrgID | Defender organisation | Offboarding package |
-  | ------------- |:-------------:|:-------------:|
-  | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     | [Download offboarding script](https://ekgxtc4rxln5a7bxhanhw4d4cm0mmzsf.lambda-url.ap-southeast-1.on.aws/local_wog_windows) |
-  | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    | [Download offboarding script](https://ekgxtc4rxln5a7bxhanhw4d4cm0mmzsf.lambda-url.ap-southeast-1.on.aws/local_tp_windows)    |
-  | 6389e966-e334-461d-86ce-0fed12484620 | Hive | Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package. |
-
-?> **Important**
+> **Important**
 >
-> - If your **Defender organisation** is **Hive**, please disregard the remaining steps in this document. Instead, you should obtain the offboarding package from Hive support and unenroll your device from Defender. Refer to [Offboarding FAQ](/faqs/offboarding-faq.md) for guidance on unenrolling your device from Defender using the Hive offboarding package.
->   
-> - If your **Defender organisation** is either **WOG** or **TechPass**, you should use your TechPass account to download the offboarding package and proceed with the remaining steps.
->   
-> - If your **Defender organisation** is **none of the above**, please reach out to the IT support of the organization that provided you with the device for further assistance.
+> * If your **SEED device** is enrolled using `hive.gov.sg`, please disregard the remaining steps in this document. Instead, obtain the offboarding package from **Hive support** and unenrol your device. Refer to the [Offboarding FAQ](/faqs/offboarding-faq.md) for guidance on unenrolling your device from Defender using the Hive offboarding package.  
+> * If your **SEED device** is enrolled using a **non-hive email address**, use your **TechPass account** to download the offboarding package and proceed with the remaining steps.
 
 
-
-6. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files.
+2. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files.
 
     ![extract-files](../images/offboarding-windows/windows-extracted-files.png)
 
 > **Note**: The file names vary with the organisation.
 
-7. Right-click the unzipped folder to select **Show more options** > **Copy as path**. The folder path is now saved to your clipboard.
+3. Right-click the unzipped folder to select **Show more options** > **Copy as path**. The folder path is now saved to your clipboard.
 
-8. On **Powershell**, run the following command to go to the folder which has the extracted files:
+4. On **Powershell**, run the following command to go to the folder which has the extracted files:
 
     ```
     cd {Path from clipboard}
@@ -131,7 +112,7 @@ echo $OrgID
 
     ![directory](../images/offboarding-windows/windows_cd_downloads.png)
 
-10. To run the script, enter the following command:
+5. To run the script, enter the following command:
 
     ```
     powershell.exe -ExecutionPolicy Bypass .\local_windows_offboarding.ps1
