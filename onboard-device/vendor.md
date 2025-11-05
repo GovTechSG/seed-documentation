@@ -41,7 +41,7 @@ During the process, you may encounter prompts to restart your device and reset y
 <details>
   <summary style="font-size:18px">Verify the installation of the required profiles.</summary><br>
 
-3. Choose the appropriate method to register your Intune Device ID:
+1. Choose the appropriate method to register your Intune Device ID:
 
     a. Go to **Apple menu > System Settings > General > Device Management**.
 
