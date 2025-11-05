@@ -41,26 +41,22 @@ During the process, you may encounter prompts to restart your device and reset y
 <details>
   <summary style="font-size:18px">Verify the installation of the required profiles.</summary><br>
 
-1. Go to the **Apple menu** > **System Settings** > **Privacy and Security**.
-2. Select **Profiles** on the right pane. You should be able to see the following profiles.
+3. Choose the appropriate method to register your Intune Device ID:
 
- <ul style="list-style-type: disc; margin-left: -3px;">
-  <li>Credential Profile</span></li>
-  <li>Custom Preferences Profile - com.cloudflaare.warp</span></li>
-  <li>Custom Preferences Profile - com.microsoft.wdav</li>
-  <li>GCC2 ATP Full Disk Access</li>
-  <li>GCC2 ATP Kernel Extensions - Custom</li>
-  <li>GCC2 ATP Network Filter</li>
-  <li>GCC2 ATP Notifications</li>
-  <li>GCC2 ATP Onboarding</li>
-  <li>Intune MDM Agent SCEP Profile</li>
-  <li>Management Profile</li>
-  <li>Passcode Profile</li>
-  <li>Privacy Preferences Policy Profile</li>
-  <li>System Extension Profile</li>
-  </ul>
+    a. Go to **Apple menu > System Settings > General > Device Management**.
 
-  >**Note**: You may receive a desktop notification that your device has been renamed according to convention, and that a timed restart will occur in 5 minutes. This is completely expected, and you should save any existing work to prevent data loss. Alternatively, you can also opt to manually restart your device, after receiving the desktop notification, to speed up the process. As the naming convention is required for administrative purposes, please refrain from renaming your device thereafter.
+    b. You should be able to see the following profiles:
+
+    * Credential Profile  
+    * Custom Preferences Profile – com.cloudflare.warp  
+    * Custom Preferences Profile – com.google.Chrome  
+    * Falcon Profile  
+    * Intune MDM Agent SCEP Profile  
+    * Intune MDM Agent PPPC Profile  
+    * Management Profile  
+    * Passcode Profile  
+    * Privacy Preferences Policy Profile  
+    * com.apple.system-extension-policy Profile
 
 </details>
 
