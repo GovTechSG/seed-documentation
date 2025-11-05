@@ -236,9 +236,21 @@ Write-Output $intune_id
 
 3. Choose the appropriate method to register your Intune Device ID:
 
-    a. If you only have a **SE GSIB** device, [raise a service request](https://go.gov.sg/seed-techpass-support) to register your Intune Device ID and skip rest of the steps. Within two hours, you should receive the successfully onboarded email.
+    a. Go to **Apple menu > System Settings > General > Device Management**.
 
-    b. If you have a **non-SE GSIB/COMET** device, log in to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
+    b. You should be able to see the following profiles:
+
+    * Credential Profile  
+    * Custom Preferences Profile – com.cloudflare.warp  
+    * Custom Preferences Profile – com.google.Chrome  
+    * Falcon Profile  
+    * Intune MDM Agent SCEP Profile  
+    * Intune MDM Agent PPPC Profile  
+    * Management Profile  
+    * Passcode Profile  
+    * Privacy Preferences Policy Profile  
+    * com.apple.system-extension-policy Profile
+
 
 4. On the TechPass portal, at the top right, go to your user name and click **My Account**. Your **Profile** details are displayed. 
 5. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune Device ID.
