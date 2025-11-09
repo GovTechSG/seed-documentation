@@ -583,8 +583,11 @@ When using SGTS products with Cloudflare WARP, you might encounter an error mess
     - Are you using one of the supported browsers?
     - Is your Cloudflare WARP client connected and up to date?
     - Open Cloudflare WARP **Settings** and ensure "Gateway with WARP" is selected.
-    - For Windows users, check if Tanium is listed in the **Start** menu.
-    - For macOS users, look for Tanium in **Finder** > **Applications**.
+    - For Windows users, check under **Control Panel > All Control Panel Items > Programs and Features** to confirm that **Tanium Client** is installed.  
+    - For macOS users, run the following command in **Terminal** to verify that Tanium is installed and check its version:  
+     ```bash
+     sudo /Library/Tanium/TaniumClient/TaniumClient -v
+     ```  
     - Ensure your device's operating system is up to date.
     - Make sure Defender is updated and running.
     - Check if your TechPass account has the necessary permissions for GCC 2.0 CMP or a specific SGTS service.

@@ -39,25 +39,37 @@ During the process, you may encounter prompts to restart your device and reset y
 ### Step 2: Verify installation
 
 <details>
-  <summary style="font-size:18px">Verify the installation of the required profiles.</summary><br>
+  <summary style="font-size:18px">Verify the installation of the required profiles</summary><br>
 
 1. Choose the appropriate method to register your Intune Device ID:
 
-    a. Go to **Apple menu > System Settings > General > Device Management**.
+   a. Go to **Apple menu > System Settings > General > Device Management**.
 
-    b. You should be able to see the following profiles:
+   b. You should be able to see the following profiles:
 
-    * Credential Profile  
-    * Custom Preferences Profile – com.cloudflare.warp  
-    * Custom Preferences Profile – com.google.Chrome  
-    * Falcon Profile  
-    * Intune MDM Agent SCEP Profile  
-    * Intune MDM Agent PPPC Profile  
-    * Management Profile  
-    * Passcode Profile  
-    * Privacy Preferences Policy Profile  
-    * com.apple.system-extension-policy Profile
+   - Credential Profile  
+   - Custom Preferences Profile – com.cloudflare.warp  
+   - Custom Preferences Profile – com.google.Chrome  
+   - Falcon Profile  
+   - Intune MDM Agent SCEP Profile  
+   - Intune MDM Agent PPPC Profile  
+   - Management Profile  
+   - Passcode Profile  
+   - Privacy Preferences Policy Profile  
+   - com.apple.system-extension-policy Profile  
+</details>
 
+<details>
+  <summary style="font-size:18px">Verify CrowdStrike is configured</summary><br>
+
+1. Open **Finder** → **Applications** → **Falcon.app**.
+
+2. Ensure the **CrowdStrike Falcon Sensor** is **registered**, **operational**, and **cloud connected**.  
+
+   ![CrowdStrike Falcon Sensor status](../images/macosimage-3.png)
+
+3. If any of the above statuses indicate an error:  
+   - Click **Configure Settings** and follow the steps as prompted.
 </details>
 
 
@@ -116,16 +128,34 @@ Based on your Windows settings, you may be prompted to restart or reset your pas
 ### Step 3: Verify installation
 
 <details>
-  <summary style="font-size:18px">Verify the installation.</summary><br>
+  <summary style="font-size:18px">Verify the installation</summary><br>
 
-1. Go to the Internet device onboarded to SEED, open **Settings** > **Apps** > **Apps & features**.
-2. Ensure that **Cloudflare WARP** and **Tanium** are listed.
+1. Go to the Internet Device onboarded to SEED, open **Settings** > **Apps** > **Apps & features**.  
+2. Ensure that **Cloudflare WARP** and **Tanium** are listed.  
 
-   ![cloudflare](../images/onboarding-instructions-for-windows/cloudflare.png)
-
+   ![cloudflare](../images/onboarding-instructions-for-windows/cloudflare.png)  
    ![tanium](../images/onboarding-instructions-for-windows/tanium.png)
-  
-   You will receive a desktop notification that your device will be renamed according to our standard convention, followed by an automatic restart in 5 minutes. Please save your work to avoid data loss. You can also manually restart your device after the notification for a quicker update. Keep in mind that this naming convention is necessary for administrative purposes, so avoid renaming your device afterward.
+
+   You may receive a desktop notification that your device has been renamed according to convention, and that a timed restart will occur in 5 minutes. This is completely expected, and you should save any existing work to prevent data loss. Alternatively, you can also opt to manually restart your device, after receiving the desktop notification, to speed up the process. As the naming convention is required for administrative purposes, please refrain from renaming your device thereafter.
 
 </details>
 
+<details>
+  <summary style="font-size:18px">Verify CrowdStrike is configured</summary><br>
+
+1. In the **Taskbar**, click the **CrowdStrike** icon.  
+2. Confirm that the **CrowdStrike Falcon Sensor** is:  
+   - **Running**  
+   - **Service is active**  
+   - **Cloud connected**  
+
+   ![CrowdStrike Falcon Sensor status](../images/winimage-4.png)  
+   ![CrowdStrike Falcon Sensor details](../images/winimage-5.png)
+
+3. If any of the above statuses indicate an error:  
+   - Go to **Start** → **Settings** → **Accounts** → **Access work or school**.  
+   - Click the **Info** button next to your **TechPass** account.  
+   - Select **Sync**.  
+   - Restart your computer.
+
+</details>

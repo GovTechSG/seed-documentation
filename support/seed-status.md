@@ -19,6 +19,11 @@ No ongoing incident!
 
 ## Previous incidents
 
+| Date | 7 November 2025 |
+| --- | --- |
+| **Issue summary** | Some users are experiencing **network slowness** when connected to **Cloudflare WARP**.<br><br>**Impact:** Users may face delayed connectivity or reduced network performance when accessing SEED-managed resources.<br><br>**Current status:** The SEED team is working closely with **Cloudflare** to investigate and resolve the issue.<br><br>**For assistance:** please create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+
+
 | Date | 13 August 2025 |
 | ------------- |:-------------|
 | **Issue summary** | Users may encounter **Cloudflare connection** or **certificate errors** when using SEED.<br><br>**Impact**: Some users may be unable to connect or may see a security warning. <br><br>The issue has been fixed, and is now working as expected.<br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
