@@ -10,7 +10,6 @@ This article tells you how to configure the following common applications.
 
 - [Node.js and NPM](#nodejs-and-npm)
 - [Docker](#docker)
-- [AWS CLI](#aws-cli)
 - [Golang](#golang)
 
 > **Note**:
@@ -69,14 +68,15 @@ To pull Docker images from a Docker image repository with Cloudflare Warp turned
 1.	Locate the Docker engine configuration directory on your host machine. This is usually the `.docker` directory in your user home directory. Create the `.docker` directory if it does not exist.
 2.	Locate the certificate directory for your Docker image repository. This is located in the `certs.d` directory in the `.docker` directory. Create the directory for your Docker Image repository if it does not exist in the `certs.d` directory.
 
-For example, `mkdir -p ~/.docker/certs.d/registry-in.ship.gov.sg`.
+<!--For example, `mkdir -p ~/.docker/certs.d/registry-in.ship.gov.sg`.-->
 
 3. Copy the Cloudflare CA certificate from https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/cloudflare-cert-update-guide and save it in the Docker Image repository certificate directory as ca-certificates.crt.
-For example:
+<!--For example:
 
 ```
 curl -sSLj -o ~/.docker/certs.d/registry-in.ship.gov.sg/ca-certificates.crt https://seed-general-public-files.s3.ap-southeast-1.amazonaws.com/seed-cloudflare-root-certs/Cloudflare_CA.pem
 ```
+-->
 
 ### Connect operating system in your Docker container to Internet with Cloudflare Warp
 
@@ -101,7 +101,7 @@ RUN \
     update-ca-certificates
 ```
 
-## AWS CLI
+<!--## AWS CLI
 
 AWS CLI uses its own certificate store. It must be configured to trust the Cloudflare Certificate.
 
@@ -118,6 +118,7 @@ source "${HOME}/.zshrc"
 echo 'export AWS_CA_BUNDLE="${HOME}/.config/.cloudflare/Cloudflare_CA.pem"' | "tee -a ${HOME}/.bashrc"
 source "${HOME}/.bashrc"
 ```
+-->
 
 
 

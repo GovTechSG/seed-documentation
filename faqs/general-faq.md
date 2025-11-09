@@ -36,9 +36,7 @@
 
 <details>
   <summary>What happens when the security of a Government Managed Device (GMD) is compromised?</summary>
-  SEED will contact the user to disconnect the device.  
-  Once the owner and manager approve, SEED will initiate a remote wipe.  
-  > **Note**: The device must be powered on and connected to the internet for the wipe to succeed.
+  SEED will contact the user with the next steps. Affected user to cooperate with security analysts for investigation, containment and recovery.
 </details>
 
 <details>
@@ -160,7 +158,7 @@
 <details>
   <summary>Why was my device blocked due to a malware alert in CrowdStrike?</summary>
   Your device will be blocked if you have malware alerts on CrowdStrike.  
-  No action is required from you. The SEED team will review your ticke, and your device will be unblocked after the assessment is completed.  
+  No action is required from you. The SEED team will review your ticket, and your device will be unblocked after the assessment is completed.  
   Please <a href="https://go.gov.sg/seed-techpass-support"> raise a support request </a> if you are not unblocked automatically.
 </details>
 
