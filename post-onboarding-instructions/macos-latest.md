@@ -28,7 +28,7 @@ After onboarding, ensure FDA is enabled for the following SEED components:
 
     - Tanium Client
     - Microsoft Intune Agent
-    - Falcon agent (Users who signed up after 22 August 2025)
+    - Falcon agent 
 
   ![fda-enabled](../images/macosimage-2.png)
 

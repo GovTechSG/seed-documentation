@@ -133,11 +133,10 @@ echo "$actual_id"
 <details>
   <summary style="font-size:18px">Verify the installation of the required profiles</summary><br>
 
-1. Choose the appropriate method to register your Intune Device ID:
 
-   a. Go to **Apple menu > System Settings > General > Device Management**.
+   1. Go to **Apple menu > System Settings > General > Device Management**.
 
-   b. You should be able to see the following profiles:
+   2. You should be able to see the following profiles:
 
    - Credential Profile  
    - Custom Preferences Profile – com.cloudflare.warp  
@@ -241,27 +240,8 @@ foreach ($name in $enrollmentsKey.GetSubKeyNames()) {
 Write-Output $intune_id
 ```
 2. Take note of the Intune Device ID that is displayed on the Powershell window.
-
-3. Choose the appropriate method to register your Intune Device ID:
-
-    a. Go to **Apple menu > System Settings > General > Device Management**.
-
-    b. You should be able to see the following profiles:
-
-    * Credential Profile  
-    * Custom Preferences Profile – com.cloudflare.warp  
-    * Custom Preferences Profile – com.google.Chrome  
-    * Falcon Profile  
-    * Intune MDM Agent SCEP Profile  
-    * Intune MDM Agent PPPC Profile  
-    * Management Profile  
-    * Passcode Profile  
-    * Privacy Preferences Policy Profile  
-    * com.apple.system-extension-policy Profile
-
-
-4. On the TechPass portal, at the top right, go to your user name and click **My Account**. Your **Profile** details are displayed. 
-5. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune Device ID.
+3. On the TechPass portal, at the top right, go to your user name and click **My Account**. Your **Profile** details are displayed. 
+4. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune Device ID.
 
   ![enter-intune-device-id](../images/enter-intune-device-id.png)
 
@@ -280,17 +260,17 @@ Write-Output $intune_id
 
   ![windows-device-listed-tp-portal](../images/windows-device-listed-tp-portal.png)
 
-6. Ensure the device you are onboarding is connected to the Internet so that Intune is able to install the required software and configurations.
+5. Ensure the device you are onboarding is connected to the Internet so that Intune is able to install the required software and configurations.
 
-7. After 30-60 minutes, check your inbox (organisational email address) to see if you have received any email regarding your onboarding status.
+6. After 30-60 minutes, check your inbox (organisational email address) to see if you have received any email regarding your onboarding status.
 
-8. Choose the appropriate step:
+7. Choose the appropriate step:
 
    a. If you have received a successfully onboarded email, skip rest of the steps in this section and proceed to [Step 3: Verify installation](#step-3-verify-installation).
 
     b. If you have **not yet received** the **successfully onboarded email** or if you **have received** a **failed onboarding email**, complete the following step on [TechPass portal](https://portal.techpass.gov.sg/).
 
-9. Refer to the following table to know about the possible onboarding status and the action required by you.
+8. Refer to the following table to know about the possible onboarding status and the action required by you.
 
 | Status | Description | Action required |
 |---| ---| ---|
@@ -300,7 +280,7 @@ Write-Output $intune_id
 | **failed(*Reason for failure*)** | Your SEED onboarding failed due to the  error mentioned within the parentheses. | 1. On your non-SE /COMET device, go to the [TechPass portal](https://portal.techpass.gov.sg/).<br><br>3. At the top right, go to your user name and click **My Account**. Your profile details are displayed.<br><br>4. Go to the **SEED Devices** section. Action required to resolve this failure is generally mentioned in the parentheses.<br><br>5. Complete the suggested action. | 
 
 
-10. Check your inbox (organisational email address) to see if you have received the successfully onboarded email.
+9. Check your inbox (organisational email address) to see if you have received the successfully onboarded email.
 
 ?> If you do not receive this email after two hours, [raise a service request](https://go.gov.sg/seed-techpass-support).
 

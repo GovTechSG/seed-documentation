@@ -41,11 +41,10 @@ During the process, you may encounter prompts to restart your device and reset y
 <details>
   <summary style="font-size:18px">Verify the installation of the required profiles</summary><br>
 
-1. Choose the appropriate method to register your Intune Device ID:
 
-   a. Go to **Apple menu > System Settings > General > Device Management**.
+   1. Go to **Apple menu > System Settings > General > Device Management**.
 
-   b. You should be able to see the following profiles:
+   2. You should be able to see the following profiles:
 
    - Credential Profile  
    - Custom Preferences Profile – com.cloudflare.warp  
