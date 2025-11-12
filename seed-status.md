@@ -1,1 +1,0 @@
-!> This documentation has moved. Refer to [macOS 12 post onboarding guide](/post-onboarding-instructions/macos).
