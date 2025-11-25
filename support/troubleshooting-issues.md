@@ -542,8 +542,8 @@ After uninstalling, proceed to download Cloudflare WARP.
 
 For a smooth experience, download the following versions:
 
-- **Windows**: Version [2025.4.943.0](https://downloads.cloudflareclient.com/v1/download/windows/version/2025.4.943.0)
-- **macOS**: Version [2025.4.943.0](https://downloads.cloudflareclient.com/v1/download/macos/version/2025.4.943.0)
+- **Windows**: Version [2025.7.176.0](https://downloads.cloudflareclient.com/v1/download/windows/version/2025.7.176.0)
+- **macOS**: Version [2025.7.176.0](https://downloads.cloudflareclient.com/v1/download/macos/version/2025.7.176.0)
 
 Once downloaded, follow these steps:
 
@@ -626,7 +626,7 @@ Cloudflare has reported connectivity problems for users with macOS and Windows W
 3. Enter `Y`. When WARP is successfully uninstalled, the message ```Finished uninstallation!``` is displayed.
 
 4. Proceed to [download Cloudflare WARP](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/).
-  - **macOS**: Version 2025.4.943.0
+  - **macOS**: Version 2025.7.176.0
 
 #### **Windows**
 
@@ -634,7 +634,7 @@ Cloudflare has reported connectivity problems for users with macOS and Windows W
 2. Go to **Settings** > **Apps** and search for **Cloudflare WARP**.
 3. Choose Cloudflare WARP and click **Uninstall**.
 4. Proceed to [download Cloudflare WARP](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/).
-   - **Windows**: Version 2025.4.943.0
+   - **Windows**: Version 2025.7.176.0
 
 <!-- tabs:end -->
 

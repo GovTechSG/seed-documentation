@@ -11,17 +11,16 @@
   <summary>I did not receive the successfully onboarded email after onboarding to SEED. What should I do?</summary>
   Possible reasons:
 
-  - Microsoft Defender or any other antivirus solution previously installed on the device was not completely removed before onboarding to SEED.
+  - CrowdStrike or any other antivirus solution previously installed on the device was not completely removed before onboarding to SEED.
   - Tanium and Cloudflare were not installed while onboarding to SEED.
 
   Before raising a service request, confirm the following:
-  - Verify if Microsoft Defender is configured correctly on your device.
   - Check if Tanium and Cloudflare are installed. These applications should be automatically installed during device enrolment with SEED. If they are not installed, [raise a service request](https://go.gov.sg/seed-techpass-support).
 </details>
 
 <details>
   <summary>What should I do if my device is not automatically renamed after SEED onboarding?</summary>
-  This can happen if Defender or any other antivirus already installed on the device was not completely removed before onboarding to SEED. To confirm this, verify if Microsoft Defender is configured correctly on your device.
+  This can happen if CrowdStrike or any other antivirus already installed on the device was not completely removed before onboarding to SEED. To confirm this, verify if CrowdStrike is configured correctly on your device.
 </details>
 
 <details>
@@ -84,16 +83,12 @@
 </details>
 
 <details>
-  <summary>While enabling Full Disk Access (FDA), I cannot find <b>Microsoft Intune Agent</b> and <b>Microsoft Defender for Endpoint</b>. What should I do?</summary>
+  <summary>While enabling Full Disk Access (FDA), I cannot find <b>Microsoft Intune Agent</b> and <b>CrowdStrike</b>. What should I do?</summary>
   Add them manually:
   - **Microsoft Intune Agent**: `/Library/Intune/Microsoft Intune Agent.app`
-  - **Defender**: `/Applications/Microsoft Defender for Endpoint`
+  - *CrowdStrike**: `/Library/SystemExtensions/2CEE5234-AC4E-4D51-BB81-C2DBBA35C43B`
 </details>
 
-<details>
-  <summary>While enabling Full Disk Access (FDA), I cannot find <b>Microsoft Defender Endpoint Security Extension</b>. Can I proceed with onboarding?</summary>
-  Yes, continue with onboarding. It should appear within four hours. If not, [raise a service request](https://go.gov.sg/seed-techpass-support).
-</details>
 
 <details>
   <summary>When enabling FileVault or FDA, I am unable to unlock Security & Privacy preferences using my current password. What should I do?</summary>
