@@ -11,10 +11,6 @@ No scheduled maintenance
 
 ## Ongoing incidents
 
-| Date | 18 November 2025 |
-| --- | --- |
-| **Issue summary** | Some users may be experiencing **access issues** on their SEED devices.<br><br>**Impact:** Users may be unable to connect or may face intermittent access problems.<br><br>**Current status:** The SEED team is working with **Cloudflare** to investigate and implement a fix.<br><br>**For assistance:** please create an [incident support request](https://go.gov.sg/seed-techpass-support). |
-
 
 <!-- | Date | 09 July 2023 |
 | ------------- |:-------------|
@@ -23,6 +19,11 @@ No scheduled maintenance
 No ongoing incident!
 
 ## Previous incidents
+
+| Date | 18 November 2025 |
+| --- | --- |
+| **Issue summary** | Some users may be experiencing **access issues** on their SEED devices.<br><br>**Impact:** Users may be unable to connect or may face intermittent access problems.<br><br>**Current status:** The SEED team is working with **Cloudflare** to investigate and implement a fix.<br><br>**For assistance:** please create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+
 
 | Date | 7 November 2025 |
 | --- | --- |
