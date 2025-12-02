@@ -89,20 +89,7 @@ echo "$actual_id"
 
 ## Phase A: Offboard device from SEED components
 
-1. Refer to the following table and identify your **Defender organisation** and download the offboarding package.
-
-| OrgID | Defender organisation | Offboarding package |
-| --- | --- | --- |
-| Public officers or SEED enrolled with `xxx.gov.sg` | WOG | [Download offboarding script](https://ekgxtc4rxln5a7bxhanhw4d4cm0mmzsf.lambda-url.ap-southeast-1.on.aws/local_wog_mac) |
-| Vendors or SEED enrolled with `techpass.gov.sg` | TechPass | [Download offboarding script](https://ekgxtc4rxln5a7bxhanhw4d4cm0mmzsf.lambda-url.ap-southeast-1.on.aws/local_tp_mac) |
-| SEED enrolled with `hive.gov.sg` | Hive | Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package. |
-
-
-
-> **Important**
->
-> * If your **SEED device** is enrolled using `hive.gov.sg`, please disregard the remaining steps in this document. Instead, obtain the offboarding package from **Hive support** and unenrol your device. Refer to the [Offboarding FAQ](/faqs/offboarding-faq.md) for guidance on unenrolling your device from Defender using the Hive offboarding package.  
-> * If your **SEED device** is enrolled using a **non-hive email address**, use your **TechPass account** to download the offboarding package and proceed with the remaining steps.
+1. Download the [offboarding package](https://ekgxtc4rxln5a7bxhanhw4d4cm0mmzsf.lambda-url.ap-southeast-1.on.aws/mac).
 
 2. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files.
     ![extract-files](../images/macos-extracted-files-for-offboarding.png)
