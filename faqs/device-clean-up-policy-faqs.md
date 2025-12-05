@@ -1,1 +1,0 @@
-!> This documentation is obsolete. Refer to [Offboarding FAQ](/post-onboarding-instructions/offboarding-faq).

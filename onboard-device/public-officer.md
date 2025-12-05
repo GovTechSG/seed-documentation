@@ -74,7 +74,7 @@ echo "$actual_id"
 ```
 2. Record the Intune Device ID displayed in the Terminal window.
 
-3. For **non-SE GSIB devices**: Log in to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
+3. For **non-SE GSIB?/COMET devices**: Log in to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
 
    For **SE GSIB** devices: [raise a service request](https://go.gov.sg/seed-techpass-support) to register your Intune Device ID and skip the remaining steps. An email confirming successful onboarding will be sent to you within two hours.
 
@@ -115,10 +115,10 @@ echo "$actual_id"
 
 | Status | Description | Action required |
 |---| ---| ---|
-| **Triggered, waiting for software installation (step 1 of 2)**| Your SEED onboarding has been triggered on the device and is waiting for the software installation to be completed. | 1. On your non-SE GSIB device, go to the [TechPass portal](https://portal.techpass.gov.sg/).<br><br>2. At the top right, select your user name and click **My Account**. Your profile details are displayed.<br><br>3. Navigate to the **SEED Devices** section and click the refresh icon. If the software installation is successful, the status changes to **Software installed, waiting for backend onboarding (step 2 of 2)**.|
-| **Software installed, waiting for backend onboarding (step 2 of 2)**| Required software has been installed on the device and waiting for backend onboarding.  | 1. On your non-SE GSIB device,access the [TechPass portal](https://portal.techpass.gov.sg/).<br><br>2. At the top right, select your user name and click **My Account**. Your profile details are displayed.<br><br>3. Navigate to the **SEED Devices** section and click the refresh icon. If the backend onboarding is successful, the status will change to **Onboarded**. |
+| **Triggered, waiting for software installation (step 1 of 2)**| Your SEED onboarding has been triggered on the device and is waiting for the software installation to be completed. | 1. On your non-SE GSIB/COMET device, go to the [TechPass portal](https://portal.techpass.gov.sg/).<br><br>2. At the top right, select your user name and click **My Account**. Your profile details are displayed.<br><br>3. Navigate to the **SEED Devices** section and click the refresh icon. If the software installation is successful, the status changes to **Software installed, waiting for backend onboarding (step 2 of 2)**.|
+| **Software installed, waiting for backend onboarding (step 2 of 2)**| Required software has been installed on the device and waiting for backend onboarding.  | 1. On your non-SE GSIB/COMET device,access the [TechPass portal](https://portal.techpass.gov.sg/).<br><br>2. At the top right, select your user name and click **My Account**. Your profile details are displayed.<br><br>3. Navigate to the **SEED Devices** section and click the refresh icon. If the backend onboarding is successful, the status will change to **Onboarded**. |
 | **Onboarded** | Your SEED onboarding is successful. | Proceed to step 10 in this section.  |
-| **Failed** **(*Reason for failure*)** | Your SEED onboarding has failed due to the error displayed. | 1. On your non-SE GSIB device, access the [TechPass portal](https://portal.techpass.gov.sg/).<br><br>2. At the top right, select your user name and click **My Account**. Your profile details are displayed.<br><br>3. Navigate to the **SEED Devices** section. The action required to resolve this failure is mentioned in the parentheses.<br><br>4. Complete the suggested action. | 
+| **Failed** **(*Reason for failure*)** | Your SEED onboarding has failed due to the error displayed. | 1. On your non-SE GSIB/COMET device, access the [TechPass portal](https://portal.techpass.gov.sg/).<br><br>2. At the top right, select your user name and click **My Account**. Your profile details are displayed.<br><br>3. Navigate to the **SEED Devices** section. The action required to resolve this failure is mentioned in the parentheses.<br><br>4. Complete the suggested action. | 
 
 10. Check your inbox (organisational email address) to see if you have received the successfully onboarded email.
 
@@ -131,31 +131,38 @@ echo "$actual_id"
 ### Step 3: Verify installation
 
 <details>
-  <summary style="font-size:18px">Verify the  installation of the required profiles.</summary><br>
-
-1. Go to the **Apple menu** > **System Settings** > **Privacy and Security**.
-2. Select **Profiles** on the right pane. You should be able to see the following profiles.
-<ul style="list-style-type: disc; margin-left: -3px;">
-  <li>Credential Profile</li>
-  <li>Custom Preferences Profile - com.cloudflare.warp</li>
-  <li>Custom Preferences Profile - com.microsoft.wdav</li>
-  <li>GCC2 ATP Full Disk Access</li>
-  <li>GCC2 ATP Kernel Extensions - Custom</li>
-  <li>GCC2 ATP Network Filter</li>
-  <li>GCC2 ATP Notifications</li>
-  <li>GCC2 ATP Onboarding</li>
-  <li>Intune MDM Agent SCEP Profile</li>
-  <li>Management Profile</li>
-  <li>Passcode Profile</li>
-  <li>Privacy Preferences Policy Profile</li>
-  <li>System Extension Profile</li>
-  </ul>
-
-  ?> You will receive a desktop notification indicating that your device has been renamed according to convention, and a timed restart will occur in 5 minutes. This behavior is normal, and it is essential to save any ongoing work to avoid data loss. Alternatively, you can manually restart your device after receiving the desktop notification to expedite the process. Note that the device naming convention is required for administrative purposes, so refrain from renaming your device afterward.
+  <summary style="font-size:18px">Verify the installation of the required profiles</summary><br>
 
 
-  
-  </details>
+   1. Go to **Apple menu > System Settings > General > Device Management**.
+
+   2. You should be able to see the following profiles:
+
+   - Credential Profile  
+   - Custom Preferences Profile – com.cloudflare.warp  
+   - Custom Preferences Profile – com.google.Chrome  
+   - Falcon Profile  
+   - Intune MDM Agent SCEP Profile  
+   - Intune MDM Agent PPPC Profile  
+   - Management Profile  
+   - Passcode Profile  
+   - Privacy Preferences Policy Profile  
+   - com.apple.system-extension-policy Profile  
+</details>
+
+<details>
+  <summary style="font-size:18px">Verify CrowdStrike is configured</summary><br>
+
+1. Open **Finder** → **Applications** → **Falcon.app**.
+
+2. Ensure the **CrowdStrike Falcon Sensor** is **registered**, **operational**, and **cloud connected**.  
+
+   ![CrowdStrike Falcon Sensor status](../images/macosimage-3.png)
+
+3. If any of the above statuses indicate an error:  
+   - Click **Configure Settings** and follow the steps as prompted.
+</details>
+
 
  ## Windows
 
@@ -166,7 +173,24 @@ Based on your Windows settings, you may be prompted to restart or reset your pas
 <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/PAyKoRZ7WSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
 </div>
 
-### Step 1: Set up Microsoft Intune 
+### Step 1: Create your personal local administrator account
+
+<details>
+  <summary style="font-size:18px">Create your personal local administrator account.</summary><br>
+
+  > **Note**: Do not use the default administrator account for onboarding.
+
+
+1. Search for **Computer Management**.
+2. Navigate to **Local Users and Groups**, and click on **Users**.
+3. Click **New User**.
+4. Fill in **User Name**, **Password**, and **Confirm Password**. Ensure that **User must change password at next logon** is unchecked. Once done, click **Create**.
+5. Double-click on the user you created and add the user as a member of the **Administrators** group.
+
+   </details>
+
+
+### Step 2: Set up Microsoft Intune 
 
 <details>
   <summary style="font-size:18px"> Set up Microsoft Intune to get the required applications and device configurations.</summary><br>
@@ -192,7 +216,7 @@ Based on your Windows settings, you may be prompted to restart or reset your pas
 
 </details>
 
-### Step 2: Register Microsoft Intune Device ID
+### Step 3: Register Microsoft Intune Device ID
 
 
 <details>
@@ -216,15 +240,8 @@ foreach ($name in $enrollmentsKey.GetSubKeyNames()) {
 Write-Output $intune_id
 ```
 2. Take note of the Intune Device ID that is displayed on the Powershell window.
-
-3. Choose the appropriate method to register your Intune Device ID:
-
-    a. If you only have a **SE GSIB** device, [raise a service request](https://go.gov.sg/seed-techpass-support) to register your Intune Device ID and skip rest of the steps. Within two hours, you should receive the successfully onboarded email.
-
-    b. If you have a **non-SE GSIB** device, log in to the [TechPass portal](https://portal.techpass.gov.sg/secure/account/profile).
-
-4. On the TechPass portal, at the top right, go to your user name and click **My Account**. Your **Profile** details are displayed. 
-5. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune Device ID.
+3. On the TechPass portal, at the top right, go to your user name and click **My Account**. Your **Profile** details are displayed. 
+4. Click **Onboard device to SEED** and follow the on-screen instructions to submit this Intune Device ID.
 
   ![enter-intune-device-id](../images/enter-intune-device-id.png)
 
@@ -243,27 +260,27 @@ Write-Output $intune_id
 
   ![windows-device-listed-tp-portal](../images/windows-device-listed-tp-portal.png)
 
-6. Ensure the device you are onboarding is connected to the Internet so that Intune is able to install the required software and configurations.
+5. Ensure the device you are onboarding is connected to the Internet so that Intune is able to install the required software and configurations.
 
-7. After 30-60 minutes, check your inbox (organisational email address) to see if you have received any email regarding your onboarding status.
+6. After 30-60 minutes, check your inbox (organisational email address) to see if you have received any email regarding your onboarding status.
 
-8. Choose the appropriate step:
+7. Choose the appropriate step:
 
    a. If you have received a successfully onboarded email, skip rest of the steps in this section and proceed to [Step 3: Verify installation](#step-3-verify-installation).
 
     b. If you have **not yet received** the **successfully onboarded email** or if you **have received** a **failed onboarding email**, complete the following step on [TechPass portal](https://portal.techpass.gov.sg/).
 
-9. Refer to the following table to know about the possible onboarding status and the action required by you.
+8. Refer to the following table to know about the possible onboarding status and the action required by you.
 
 | Status | Description | Action required |
 |---| ---| ---|
-| **triggered, waiting for software installation (step 1 of 2)**| Your SEED onboarding has been triggered on the device and is waiting for the software installation to be completed. | 1. On your non-SE GSIB device, go to the [TechPass portal](https://portal.techpass.gov.sg/).<br><br>3. At the top right, go to your user name and click **My Account**. Your profile details are displayed.<br><br>4. Go to the **SEED Devices** section and click the refresh icon. If the software installation is successful, the status changes to **software installed, waiting for backend onboarding (step 2 of 2)**.|
-| **software installed, waiting for backend onboarding (step 2 of 2)**| Required software has been installed on the device and waiting for backend onboarding.  | 1. On your non-SE GSIB device, go to the [TechPass portal](https://portal.techpass.gov.sg/).<br><br>3. At the top right, go to your user name and click **My Account**. Your profile details are displayed.<br><br>4. Go to the **SEED Devices** section and click the refresh icon. If the backend onboarding is successful, the status changes to **onboarded**. |
+| **triggered, waiting for software installation (step 1 of 2)**| Your SEED onboarding has been triggered on the device and is waiting for the software installation to be completed. | 1. On your non-SE GSIB/COMET device, go to the [TechPass portal](https://portal.techpass.gov.sg/).<br><br>3. At the top right, go to your user name and click **My Account**. Your profile details are displayed.<br><br>4. Go to the **SEED Devices** section and click the refresh icon. If the software installation is successful, the status changes to **software installed, waiting for backend onboarding (step 2 of 2)**.|
+| **software installed, waiting for backend onboarding (step 2 of 2)**| Required software has been installed on the device and waiting for backend onboarding.  | 1. On your non-SE GSIB/COMT device, go to the [TechPass portal](https://portal.techpass.gov.sg/).<br><br>3. At the top right, go to your user name and click **My Account**. Your profile details are displayed.<br><br>4. Go to the **SEED Devices** section and click the refresh icon. If the backend onboarding is successful, the status changes to **onboarded**. |
 | **onboarded** | Your SEED onboarding is successful. | Go to step 10 in this section.  |
-| **failed(*Reason for failure*)** | Your SEED onboarding failed due to the  error mentioned within the parentheses. | 1. On your non-SE GSIB device, go to the [TechPass portal](https://portal.techpass.gov.sg/).<br><br>3. At the top right, go to your user name and click **My Account**. Your profile details are displayed.<br><br>4. Go to the **SEED Devices** section. Action required to resolve this failure is generally mentioned in the parentheses.<br><br>5. Complete the suggested action. | 
+| **failed(*Reason for failure*)** | Your SEED onboarding failed due to the  error mentioned within the parentheses. | 1. On your non-SE /COMET device, go to the [TechPass portal](https://portal.techpass.gov.sg/).<br><br>3. At the top right, go to your user name and click **My Account**. Your profile details are displayed.<br><br>4. Go to the **SEED Devices** section. Action required to resolve this failure is generally mentioned in the parentheses.<br><br>5. Complete the suggested action. | 
 
 
-10. Check your inbox (organisational email address) to see if you have received the successfully onboarded email.
+9. Check your inbox (organisational email address) to see if you have received the successfully onboarded email.
 
 ?> If you do not receive this email after two hours, [raise a service request](https://go.gov.sg/seed-techpass-support).
 
@@ -271,19 +288,38 @@ Write-Output $intune_id
 </details>
 
 
-### Step 3: Verify installation
+### Step 4: Verify installation
 
 <details>
-  <summary style="font-size:18px">Verify the installation.</summary><br>
+  <summary style="font-size:18px">Verify the installation</summary><br>
 
-1. Go to the Internet Device onboarded to SEED, open **Settings** > **Apps** > **Apps & features**. 
-2. Ensure that Cloudflare WARP and Tanium are listed.
+1. Go to the Internet Device onboarded to SEED, open **Settings** > **Apps** > **Apps & features**.  
+2. Ensure that **Cloudflare WARP** and **Tanium** are listed.  
 
-  ![cloudflare](../images/onboarding-instructions-for-windows/cloudflare.png)
+   ![cloudflare](../images/onboarding-instructions-for-windows/cloudflare.png)  
+   ![tanium](../images/onboarding-instructions-for-windows/tanium.png)
 
-  ![tanium](../images/onboarding-instructions-for-windows/tanium.png)
+   You may receive a desktop notification that your device has been renamed according to convention, and that a timed restart will occur in 5 minutes. This is completely expected, and you should save any existing work to prevent data loss. Alternatively, you can also opt to manually restart your device, after receiving the desktop notification, to speed up the process. As the naming convention is required for administrative purposes, please refrain from renaming your device thereafter.
 
-  You may receive a desktop notification that your device has been renamed according to convention, and that a timed restart will occur in 5 minutes. This is completely expected, and you should save any existing work to prevent data loss. Alternatively, you can also opt to manually restart your device, after receiving the desktop notification, to speed up the process. As the naming convention is required for administrative purposes, please refrain from renaming your device thereafter.
+</details>
+
+<details>
+  <summary style="font-size:18px">Verify CrowdStrike is configured</summary><br>
+
+1. In the **Taskbar**, click the **CrowdStrike** icon.  
+2. Confirm that the **CrowdStrike Falcon Sensor** is:  
+   - **Running**  
+   - **Service is active**  
+   - **Cloud connected**  
+
+   ![CrowdStrike Falcon Sensor status](../images/winimage-4.png)  
+   ![CrowdStrike Falcon Sensor details](../images/winimage-5.png)
+
+3. If any of the above statuses indicate an error:  
+   - Go to **Start** → **Settings** → **Accounts** → **Access work or school**.  
+   - Click the **Info** button next to your **TechPass** account.  
+   - Select **Sync**.  
+   - Restart your computer.
 
 </details>
 
