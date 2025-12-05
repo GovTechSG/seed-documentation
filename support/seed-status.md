@@ -16,7 +16,10 @@ No scheduled maintenance
 | ------------- |:-------------|
 | **Issue summary** | Cloudflare has identified increase level of 530 errors in Singapore on 09 July 2023, 10:54 SGT. <br><br>**Impact**: Users may experience service degradation on their GMDs and intermittent connectivity to SGTS services and GCC. More information available https://www.cloudflarestatus.com/ <br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support).|
 -->
-No ongoing incident!
+| Date | 5 December 2025 |
+| --- | --- |
+| **Issue summary** | Some users may be experiencing **access issues to SGTS/GCC services** due to a Cloudflare network problem.<br><br>**Impact:** Users may face intermittent connectivity issues or may be unable to access certain SGTS/GCC services.<br><br>**Current status:** The SEED team is actively working with **Cloudflare** to identify the root cause and implement a fix.<br><br>**What should I do?**<br>No action is required at this moment. If you continue to face disruptions, please create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+
 
 ## Previous incidents
 
