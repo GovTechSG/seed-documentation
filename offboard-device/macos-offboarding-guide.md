@@ -91,29 +91,23 @@ echo "$actual_id"
 
 1. Download the [offboarding package](https://ekgxtc4rxln5a7bxhanhw4d4cm0mmzsf.lambda-url.ap-southeast-1.on.aws/mac).
 
-2. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files.
+2. Go to the folder where you downloaded the ZIP file and extract the files. You should see the followingfile.
     ![extract-files](../images/macos-extracted-files-for-offboarding.png)
 
 > **Note**: The file names vary with the organisation.
 
-
-3. On your **Terminal**, run the following command:
-
-```
-sudo mdatp config tamper-protection enforcement-level --value audit
-```
-4. On your **Terminal**, go to the folder where you extracted the files. For example, if they are in the **Downloads** > **Offboarding_local_wog_mac** folder, go to that folder.
+3. On your **Terminal**, go to the folder where you extracted the files. For example, if they are in the **Downloads** > **Offboarding_local_wog_mac** folder, go to that folder.
 
     ![cd-extracted-folder](../images/macos-cd-downloads.png)
 
-5. Copy the below and run it on the same **Terminal**.
+4. Copy the below and run it on the same **Terminal**.
 
     ```
     sudo chmod +x local_mac_offboarding.sh
     ```
 
-6. When prompted for a **Password**, enter your device password.
-7. Copy and run the following command on your **Terminal**.
+5. When prompted for a **Password**, enter your device password.
+6. Copy and run the following command on your **Terminal**.
 
     ```
     sudo ./local_mac_offboarding.sh

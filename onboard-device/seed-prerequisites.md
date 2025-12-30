@@ -25,7 +25,7 @@ Supported operating system:
 | **macOS 26**        | 26.1 |
 | **macOS 15**        | 15.7.2 <br> **Note**: If you encounter issues accessing SGTS or GCC services after the update, please ensure that [FDA is enabled](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/post-onboarding-instructions/macos-latest?id=ensure-full-disk-access-fda-is-enabled-for-seed-components) and reboot your device. <br> Do **not** install unsupported versions of macOS unless explicitly communicated via email by the SEED team.|
 | **macOS 14**        | 14.8.2 |
-| **Windows 11** | 22H2 (build 22621, minimally revision 6060) <br> 23H2 (build 22631, minimally revision 6199) <br> 24H2 (build 26100, minimally revision 7171) <br> 25H2 (build 26200, minimally revision 7171) |
+| **Windows 11** | 22H2 (build 22621, minimally revision 6060) <br> 23H2 (build 22631, minimally revision 6345) <br> 24H2 (build 26100, minimally revision 7462) <br> 25H2 (build 26200, minimally revision 7462) |
 
 > **Note**:
 > Admin privilege is required to onboard to SEED.

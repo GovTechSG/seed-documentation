@@ -76,7 +76,7 @@ Write-Output $intune_id
 1. Download the [offboarding package](https://ekgxtc4rxln5a7bxhanhw4d4cm0mmzsf.lambda-url.ap-southeast-1.on.aws/windows).
 
 
-2. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files.
+2. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following file.
 
     ![extract-files](../images/offboarding-windows/windows-extracted-files.png)
 
