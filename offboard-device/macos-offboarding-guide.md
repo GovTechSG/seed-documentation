@@ -89,58 +89,25 @@ echo "$actual_id"
 
 ## Phase A: Offboard device from SEED components
 
-1. Go to **Terminal** and run `mdatp health`.
+1. Download the [offboarding package](https://ekgxtc4rxln5a7bxhanhw4d4cm0mmzsf.lambda-url.ap-southeast-1.on.aws/mac).
 
-<!--
-![open terminal](../images/macos-open-terminal.png)
-
-![find-org-id](../images/macos-find-org-id-1.png)-->
-
-2. Take note of the value displayed for **org_id**.
-
-    ![note-org-id](../images/macos-find-org-id-2.png)
-
-3. Refer to the following table and identify your **Defender organisation** and download the respective offboarding package.
-
-  | org_id  | Defender organisation | Offboarding package |
-  | ------------- |:-------------:|:-------------:|
-  | faa36a5e-2da6-4225-8e27-226177c801a0      | WOG     | [Download offboarding package](https://ekgxtc4rxln5a7bxhanhw4d4cm0mmzsf.lambda-url.ap-southeast-1.on.aws/local_wog_mac)    |
-  | 49237d71-42ac-425a-a803-881b92cc18ce  | TechPass    | [Download offboarding package](https://ekgxtc4rxln5a7bxhanhw4d4cm0mmzsf.lambda-url.ap-southeast-1.on.aws/local_tp_mac)     |
-  | 6389e966-e334-461d-86ce-0fed12484620 | Hive | Contact [Hive support](mailto:GDS_DEN@hive.gov.sg) to get the offboarding package. |
-
-
-> **Important**
->
-> - If your **Defender organisation** is **Hive**, please disregard the remaining steps in this document. Instead, you should obtain the offboarding package from Hive support and unenroll your device from Defender. Refer to [Offboarding FAQ](/faqs/offboarding-faq.md) for guidance on unenrolling your device from Defender using the Hive offboarding package.
->   
-> - If your **Defender organisation** is either **WOG** or **TechPass**, you should use your TechPass account to download the offboarding package and proceed with the remaining steps.
->   
-> - If your **Defender organisation** is **none of the above**, please reach out to the IT support of the organization that provided you with the device for further assistance.
-
-
-4. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following two files.
+2. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following file.
     ![extract-files](../images/macos-extracted-files-for-offboarding.png)
 
 > **Note**: The file names vary with the organisation.
 
-
-5. On your **Terminal**, run the following command:
-
-```
-sudo mdatp config tamper-protection enforcement-level --value audit
-```
-6. On your **Terminal**, go to the folder where you extracted the files. For example, if they are in the **Downloads** > **Offboarding_local_wog_mac** folder, go to that folder.
+3. On your **Terminal**, go to the folder where you extracted the files. For example, if they are in the **Downloads** > **Offboarding_local_wog_mac** folder, go to that folder.
 
     ![cd-extracted-folder](../images/macos-cd-downloads.png)
 
-7. Copy the below and run it on the same **Terminal**.
+4. Copy the below and run it on the same **Terminal**.
 
     ```
     sudo chmod +x local_mac_offboarding.sh
     ```
 
-8. When prompted for a **Password**, enter your device password.
-9. Copy and run the following command on your **Terminal**.
+5. When prompted for a **Password**, enter your device password.
+6. Copy and run the following command on your **Terminal**.
 
     ```
     sudo ./local_mac_offboarding.sh

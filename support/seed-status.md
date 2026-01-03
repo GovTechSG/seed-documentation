@@ -7,15 +7,9 @@ This page provides the following Information:
 
 ## Scheduled maintenance
 
-No ongoing maintenance!
-
-
+No scheduled maintenance
 
 ## Ongoing incidents
-
-| Date | 11 December 2024  |
-|---|---|
-| **Issue summary** | We are aware that some users have received unexpected notifications on their SEED devices. The team has investigated and fixed the issue. <br><br>**Impact**: Access to SGTS and GCC services is not affected. <br><br>**What should I do if I am still having an issue?**<br> Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
 
 
 <!-- | Date | 09 July 2023 |
@@ -23,7 +17,48 @@ No ongoing maintenance!
 | **Issue summary** | Cloudflare has identified increase level of 530 errors in Singapore on 09 July 2023, 10:54 SGT. <br><br>**Impact**: Users may experience service degradation on their GMDs and intermittent connectivity to SGTS services and GCC. More information available https://www.cloudflarestatus.com/ <br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support).|
 -->
 
+No ongoing incident!
+
+
+
 ## Previous incidents
+
+| Date | 5 December 2025 |
+| --- | --- |
+| **Issue summary** | The earlier Cloudflare network issue causing **intermittent access problems to SGTS/GCC services** has been **resolved**.<br><br>**Impact:** Normal service has resumed.<br><br>**Status:** Cloudflare has implemented a fix and connectivity has stabilised.<br><br>**Next steps:** If you continue to face any issues, please create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+
+
+| Date | 18 November 2025 |
+| --- | --- |
+| **Issue summary** | Some users may be experiencing **access issues** on their SEED devices.<br><br>**Impact:** Users may be unable to connect or may face intermittent access problems.<br><br>**Current status:** The SEED team is working with **Cloudflare** to investigate and implement a fix.<br><br>**For assistance:** please create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+
+
+| Date | 7 November 2025 |
+| --- | --- |
+| **Issue summary** | Some users are experiencing **network slowness** when connected to **Cloudflare WARP**.<br><br>**Impact:** Users may face delayed connectivity or reduced network performance when accessing SEED-managed resources.<br><br>**Current status:** The SEED team is working closely with **Cloudflare** to investigate and resolve the issue.<br><br>**For assistance:** please create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+
+
+| Date | 13 August 2025 |
+| ------------- |:-------------|
+| **Issue summary** | Users may encounter **Cloudflare connection** or **certificate errors** when using SEED.<br><br>**Impact**: Some users may be unable to connect or may see a security warning. <br><br>The issue has been fixed, and is now working as expected.<br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+
+| Date | 22 July 2025 |
+|------|--------------|
+| **Issue summary** | Public officers (WoG) are currently unable to onboard new SEED devices.<br><br>**Impact**: Existing SEED users and vendor device onboarding are **not affected**. <br><br>The issue has been fixed, and is now working as expected. <br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support).  |
+
+| Date | 4 June 2025 |
+|------|--------------|
+| **Issue summary** | The Intune issue affecting new user onboarding to SEED was **resolved at 6:57 PM SGT**. <br><br>**Impact**: Some new users may have experienced difficulties during the onboarding process earlier today. <br><br>The issue has been fixed, and onboarding is now working as expected. <br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+
+
+
+| Date | 21 March 2025 |
+|------|--------------|
+| **Issue summary** | We have identified access issues to SGTS and GCC services for some users at **9:06 AM SGT**. Our team is actively investigating the matter. <br><br>**Impact**: Users may experience difficulties accessing SGTS and GCC services. <br><br>We will provide updates as soon as we have more information. Thank you for your patience. <br><br>**For more assistance**: Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
+
+| Date | 11 December 2024  |
+|---|---|
+| **Issue summary** | We are aware that some users have received unexpected notifications on their SEED devices. The team has investigated and fixed the issue. <br><br>**Impact**: Access to SGTS and GCC services is not affected. <br><br>**What should I do if I am still having an issue?**<br> Create an [incident support request](https://go.gov.sg/seed-techpass-support). |
 
 | Date | 26 September 2024 |
 | ------------- |:-------------|

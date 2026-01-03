@@ -1,1 +1,0 @@
-!> This documentation has moved to [macOS offboarding guide](mac-os-offboarding-guide).
