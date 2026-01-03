@@ -91,7 +91,7 @@ echo "$actual_id"
 
 1. Download the [offboarding package](https://ekgxtc4rxln5a7bxhanhw4d4cm0mmzsf.lambda-url.ap-southeast-1.on.aws/mac).
 
-2. Go to the folder where you downloaded the ZIP file and extract the files. You should see the followingfile.
+2. Go to the folder where you downloaded the ZIP file and extract the files. You should see the following file.
     ![extract-files](../images/macos-extracted-files-for-offboarding.png)
 
 > **Note**: The file names vary with the organisation.
