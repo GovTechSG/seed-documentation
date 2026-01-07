@@ -209,10 +209,6 @@ At any time, users can sign in to Company Portal app, click the three dots and c
    - Click **Configure Settings** and follow the steps as prompted.
 </details>
 
-<!-- tabs:end -->
-
-
-<!-- tabs:start -->
 #### Windows
 
 
@@ -391,7 +387,6 @@ Once connected, you should see WARP Zero Trust in the connected state.
   ![cf-warp-connected](../images/cloud-flare-connected.png ':size=50%')
 
 6. Open Cloudflare WARP **Settings**, and ensure **Gateway with WARP** is selected. WARP is now active, safeguarding your Internet connection.
-
 
 
 At any time, users can sign in to Company Portal app, click the three dots and choose **Check status** to check for policy or profile updates. It may take a while to complete the synchronisation. When completed, the screen will show the timestamp of the last successful sync.
