@@ -9,8 +9,8 @@ Before proceeding with the SEED (Secure Engineering Environment for Developers) 
 - Your TechPass login ID must match your work email, typically associated with a WOG (Whole-of-Government) account. For example, john_doe@moe.gov.sg or john_doe_from.cognizant@tech.gov.sg.
 
 <!-- tabs:start -->
-#### macOS
 
+#### **macOS**
 During the process, you may encounter prompts to restart your device and reset your device's password. It is important to have your recovery keys ready in case you encounter any issues during the password reset or device login.
 
 
@@ -209,7 +209,7 @@ At any time, users can sign in to Company Portal app, click the three dots and c
    - Click **Configure Settings** and follow the steps as prompted.
 </details>
 
-#### Windows
+#### **Windows**
 
 
 Based on your Windows settings, you may be prompted to restart or reset your password while onboarding.
