@@ -8,8 +8,9 @@ Before proceeding with the onboarding process, vendors must meet the following p
 
 - Your TechPass login ID must end with **techpass.gov.sg**. For example, john_doe@techpass.gov.sg.
 
+<!-- tabs:start -->
 
-## macOS
+#### **macOS**
 
 During the process, you may encounter prompts to restart your device and reset your device's password. It is important to have your recovery keys ready in case you encounter any issues during the password reset or device login.
 
@@ -115,7 +116,7 @@ At any time, users can sign in to Company Portal app, click the three dots and c
 </details>
 
 
-## Windows
+#### **Windows**
 
 Based on your Windows settings, you may be prompted to restart or reset your password while onboarding.
 
@@ -246,3 +247,5 @@ At any time, users can sign in to Company Portal app, click the three dots and c
    - Restart your computer.
 
 </details>
+
+<!-- tabs:end -->
