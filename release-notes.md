@@ -11,6 +11,15 @@ This section lists the most recent enhancements, new features and fixes that are
 | **Gamma Release** | **Device Based Blocking** | To enforce better protection to our development resources e.g., GCC and SGTS services and tools. On 19 July 2023, we have rolled out beta testing for more effective blocking of access when a GMD's health is at risk. We have passed the beta test and we have rolled out the gamma release. If you have queries on this feature, please get in touch with us through our SEED mailbox at: [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg).|
 -->
 
+## January 2026
+
+### 29 January 2026
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **Update** | **Tanium server maintenance** | Upgraded **Tanium Server Platform (TanOS)** to version **1.8.4.0235**.<br><br>**Impact:** SEED onboarding was affected from **18:00 hrs to 21:00 hrs (SGT)**.<br><br>More information: <https://help.tanium.com/bundle/2024H2_releasenotes/page/maintenance.html> |
+
+
 ## December 2025
 
 ### 26 December 2025

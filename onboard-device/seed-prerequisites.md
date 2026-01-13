@@ -68,8 +68,6 @@ Hardware must meet the minimum requirements for the supported SEED operating sys
 For detailed OS hardware requirements, refer to:  
 - [macOS Sequoia (macOS 15)](https://support.apple.com/en-us/HT213939)  
 - [macOS Sonoma (macOS 14)](https://support.apple.com/en-us/HT213264)  
-- [macOS Ventura (macOS 13)](https://support.apple.com/en-us/HT213268)  
-- [Windows 10 minimum requirements](https://learn.microsoft.com/en-us/windows-hardware/design/minimum/minimum-hardware-requirements-overview)  
 - [Windows 11 minimum requirements](https://learn.microsoft.com/en-us/windows-hardware/design/minimum/minimum-hardware-requirements-overview)  
 
 
@@ -96,9 +94,10 @@ Once SEED provisioning is successfully completed, the following steps are as fol
   - If you signed up for SEED via the TechPass portal, you can log in to the TechPass portal to [request a new SEED onboarding invitation email](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/request-for-seed-provisioning).
 
 
-## Uninstall existing software
+## Uninstall existing software before onboarding
 
-Before proceeding with SEED onboarding, it is required to uninstall any relevant software solutions from your device:
+Before proceeding with SEED onboarding, it is required to uninstall any relevant software solutions from your device. Failure to do so may prevent successful onboarding and could cause significant delays. 
+
 
 - Any existing MDM (Mobile Device Management) software
 - Tanium client or any other unified endpoint management and security platform

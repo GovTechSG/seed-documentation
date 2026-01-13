@@ -7,6 +7,7 @@ This document provides a step-by-step guide to help vendors through the onboardi
 Before proceeding with the onboarding process, vendors must meet the following prerequisites to ensure a seamless experience:
 
 - Your TechPass login ID must end with **techpass.gov.sg**. For example, john_doe@techpass.gov.sg.
+- Remove existing [conflicting software and MDM (Company Account)](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/seed-prerequisites?id=uninstall-existing-software) from your device before you start to onboarding to SEED.
 
 <!-- tabs:start -->
 

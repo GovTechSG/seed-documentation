@@ -7,6 +7,7 @@ This document provides a step-by-step guide to help public officers through the 
 Before proceeding with the SEED (Secure Engineering Environment for Developers) onboarding process as a public officer, ensure you meet the following prerequisites:
 
 - Your TechPass login ID must match your work email, typically associated with a WOG (Whole-of-Government) account. For example, john_doe@moe.gov.sg or john_doe_from.cognizant@tech.gov.sg.
+- Remove all existing [conflicting software and MDM (Company Account)](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/seed-prerequisites?id=uninstall-existing-software) from your device before you start to onboarding to SEED.
 
 <!-- tabs:start -->
 
