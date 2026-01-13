@@ -43,6 +43,7 @@ Use the steps below if the SEED dashboard does not reflect your current device p
 ##### Sync device with Tanium
 1. Launch **Terminal**.
 2. Run the following command:
+
 ``` 
 sudo launchctl kickstart -k -p system/com.tanium.taniumclient
 
