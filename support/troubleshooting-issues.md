@@ -4,7 +4,7 @@ This guide provides solutions to common problems for SEED. Follow the steps belo
 
 ## Repair SSO
 
-Users may encounter the error **“The device is not registered”**.
+Users may encounter the error **The device is not registered**.
 
 ![device not registered error](/images/repair-sso1.png)
 
