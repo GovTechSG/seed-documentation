@@ -23,24 +23,24 @@ Use the steps below if the SEED dashboard does not reflect your current device p
 
 #### **Windows OS**
 
-##### Sync device with Intune
+**Sync device with Intune**
 1. Navigate to **Access work or school**.
 2. Select your TechPass account and click **Info**.
 3. Select **Sync**.
 
-##### Sync device with Tanium
+**Sync device with Tanium**
 1. Press **Windows + R** and open `services.msc`.
 2. Locate **Tanium Client**.
 3. Right-click the service and select **Restart**.
 
 #### **macOS**
 
-##### Sync device with Intune
+**Sync device with Intune**
 1. Launch **Company Portal**.
 2. Select **Device**.
 3. Select the three dots (**…**) and choose **Check status**.
 
-##### Sync device with Tanium
+**Sync device with Tanium**
 1. Launch **Terminal**.
 2. Run the following command:
 
