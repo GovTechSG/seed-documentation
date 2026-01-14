@@ -66,8 +66,9 @@ Supported operating system:
 Hardware must meet the minimum requirements for the supported SEED operating systems and software.  
 
 For detailed OS hardware requirements, refer to:  
-- [macOS Sequoia (macOS 15)](https://support.apple.com/en-us/HT213939)  
-- [macOS Sonoma (macOS 14)](https://support.apple.com/en-us/HT213264)  
+- [macOS Tahoe (macOS 26)](https://support.apple.com/en-sg/122867)
+- [macOS Sequoia (macOS 15)](https://support.apple.com/en-sg/120282)  
+- [macOS Sonoma (macOS 14)](https://support.apple.com/en-sg/105113)  
 - [Windows 11 minimum requirements](https://learn.microsoft.com/en-us/windows-hardware/design/minimum/minimum-hardware-requirements-overview)  
 
 

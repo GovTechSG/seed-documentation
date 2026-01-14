@@ -13,7 +13,7 @@ Users may encounter the error **The device is not registered**.
 1. Navigate to **System Settings** > **Users & Groups** > **Network Servers**.
 2. Select **Repair**.
 
-![Prepair network servers](/images/repair-sso1.png)
+![Prepair network servers](/images/repair-sso2.png)
 
 ## How to sync the latest device posture
 
@@ -271,11 +271,11 @@ When using SGTS products with Cloudflare WARP, you may encounter an error messag
 Follow these steps to diagnose the issue:
 
    **Verify the following:**
-   1. The Cloudflare WARP client is connected and enrolled in the `gccgovsg` organisation (refer to this guide).
-   2. The Tanium Client is installed and running on your device (refer to this guide).
-   3. Your operating system meets the prerequisites.
-   4. Check the SEED dashboard to confirm the reason access to certain resources is restricted, and perform any remediation steps if required.
-   5. Sync the latest device posture using this guide (*to be created by Huda in step 10 below*).
+   1. The Cloudflare WARP client is connected and enrolled in the `gccgovsg` organisation (refer to [this guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues?id=receiving-notifications-on-desktop-and-email-for-misconfigurations-on-seed-device&product=security%20suite%20for%20engineering%20endpoint%20devices%20(seed)).
+   2. The Tanium Client is installed and running on your device (refer to [this guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues?id=tanium-issues&product=security%20suite%20for%20engineering%20endpoint%20devices%20(seed)).
+   3. Your operating system meets the [prerequisites](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/seed-prerequisites).
+   4. Check the [SEED dashboard](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/seed-prerequisites) to confirm the reason access to certain resources is restricted, and perform any remediation steps if required.
+   5. Sync the latest device posture using [this guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues?id=how-to-sync-the-latest-device-posture&product=security%20suite%20for%20engineering%20endpoint%20devices%20(seed))
    6. Retry access:
       a. Wait at least 15 minutes before trying again.
       b. If access still fails, try using an incognito window.
@@ -385,7 +385,7 @@ If your device is unblocked after connecting via mobile hotspot, it is likely th
 
 **Ensure that Crowdstrike is running**
 
-1. Ensure that *Crowdstrike* is running and it is healthy via this [guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/vendor?id=step-3-verify-installation).
+1. Ensure that *Crowdstrike* is running and it is healthy via this [guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues?id=how-to-verify-if-crowdstrike-is-configured-correctly&product=security%20suite%20for%20engineering%20endpoint%20devices%20(seed)).
 2. If the services are not running, reboot your system and verify again, or try to start them manually by right-clicking and click *Start*.
 3. If your services are unable to start after multiple attempts, raise a [service request](http://go.gov.sg/seed-techpass-support)
 
@@ -447,7 +447,7 @@ If your device is unblocked after connecting via mobile hotspot, it is likely th
 
 #### Crowdstrike
 
-Ensure that *Crowdstrike* is running and it is healthy via this [guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues?id=macos-device-blocked-in-seed-dashboard-no-remediation-steps&product=security%20suite%20for%20engineering%20endpoint%20devices%20(seed).
+Ensure that *Crowdstrike* is running and it is healthy via this [guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues?id=how-to-verify-if-crowdstrike-is-configured-correctly&product=security%20suite%20for%20engineering%20endpoint%20devices%20(seed)).
 
 
 
