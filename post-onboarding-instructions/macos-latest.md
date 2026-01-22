@@ -44,7 +44,7 @@ There is a known issue on **macOS 26** where **Tanium** does not appear in the *
 1. Go to **System Settings** → **Privacy & Security** → **Full Disk Access**.
 2. Drag and drop **TaniumClient** into the Full Disk Access page.
 
-[fda-enabled](../images/fda-macos26.png)
+![fda-enabled](../images/fda-macos26.png)
 
 > **Note**: Due to a macOS bug, **Tanium will still not be visible** in the FDA list after being added.  
 > Full Disk Access is **successfully granted**, and Tanium will continue to function as expected.
