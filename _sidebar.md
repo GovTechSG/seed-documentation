@@ -14,8 +14,8 @@
   - [Windows post onboarding guide](/post-onboarding-instructions/windows.md)
 - macOS Platform SSO 
   - [Set up Secure Enclave](set-up-secure-enclave.md)
-- Admin by Request
-  - [Admin by Request (ABR)](admin-by-request.md)
+- Admin By Request
+  - [Admin By Request (ABR)](admin-by-request.md)
 - SEED+
   - [CyberArk dialogs and permissions (Users)](seed-plus/cyberark-dialog.md)
   - [Approval guide (PoC)](seed-plus/poc-approver-guide.md)
