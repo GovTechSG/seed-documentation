@@ -135,20 +135,15 @@ When approved:
 - Extend the session beyond the policy limit
 - Gain permanent administrator rights
 
-### Elevated admin session flow
-
-![Elevated admin session flow – step 1](images/abr-session-flow-1.png)
-![Elevated admin session flow – step 2](images/abr-session-flow-2.png)
-
 ### MFA flows
 
 #### MFA flow 1
 
-![MFA flow step 1](images/abr-mfa-flow-1.png)
+![MFA flow step 1](images/abr-session-flow-1.png)
 
 #### MFA flow 2
 
-![MFA flow step 2](images/abr-mfa-flow-2.png)
+![MFA flow step 2](images/abr-session-flow-2.png)
 
 ### Approval screens
 
