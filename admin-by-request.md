@@ -28,7 +28,7 @@ Before using Admin By Request, ensure the following requirements are met.
 
 Platform SSO must be configured on your device before Admin By Request can be installed automatically and function correctly.
 
-Refer to the Platform SSO setup guide.
+Refer to the [Platform SSO](set-up-secure-enclave.md) setup guide.
 
 ### Full Disk Access
 
@@ -63,7 +63,7 @@ Select **Admin By Request.app**.
    - **Operational Status**
    - **Cloud Connectivity**
 
-If an error is shown, follow the steps in **What if Admin By Request is showing error?**.
+If an error is shown, follow the steps in [What if Admin By Request is showing error?](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/admin-by-request?id=faq).
 
 ![Admin By Request status screen](images/abr-about-status.png)
 
