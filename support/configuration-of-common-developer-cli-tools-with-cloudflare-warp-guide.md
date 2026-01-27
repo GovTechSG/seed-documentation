@@ -6,7 +6,7 @@ The instructions ensure the Cloudflare CA certificate is trusted while keeping t
 
 > **Note**  
 > - Tools listed here are commonly used by software developers in Singapore Government agencies.  
-> - To configure other applications or tools, refer to the [Cloudflare documentation](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/install-cloudflare-cert).  
+> - To configure other applications or tools, refer to the [Cloudflare documentation](https://developers.cloudflare.com/cloudflare-one/team-and-resources/devices/user-side-certificates/automated-deployment/).  
 > - If you are experiencing issues while using any CLI tools and applications to access SGTS services, [create a support request](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/raise-service-request).  
 > - For issues that are not related to SGTS services, contact the [Cloudflare Community Support Forums](https://support.cloudflare.com/hc/en-us).
 
