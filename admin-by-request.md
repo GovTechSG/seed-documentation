@@ -47,13 +47,19 @@ Allow **Admin By Request ApS** under **Login Items & Extensions**.
 
 ### Endpoint Security Extensions
 
-Allow the extension under:
+Allow the security extension for Admin By Request:
 
-**Login Items & Extensions** → **Extensions** → **By Category** → **Endpoint Security Extensions**
+1. Go to **Login Items & Extensions**.
+2. Select **Extensions**.
+3. Select **By App**.
+4. Locate **Admin By Request**.
+5. Select the **ⓘ (info)** button.
+6. Turn on **Security Extension**, then select **Done**.
 
-Select **Admin By Request.app**.
+![Admin By Request listed under Extensions by app](images/abr-endpoint-security-by-app.png)
 
-![Endpoint Security Extensions for Admin By Request](images/abr-endpoint-security-extension.png)
+![Allow Security Extension for Admin By Request](images/abr-allow-security-extension.png)
+
 
 ### Ensure ABR is working correctly
 
