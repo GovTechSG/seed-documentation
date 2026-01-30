@@ -2,7 +2,12 @@
 
 Before you begin the process of onboarding your Internet Device to SEED, you need meet the necessary prerequisites. These prerequisites are vital for a successful onboarding experience. 
 
-## Supported browsers and OS
+![onboarding](../images/onboarding-image.png)
+
+> **Note**: Each user can onboard **only one device** to SEED.  
+
+
+## Supported browsers and operating systems
 
 Supported browsers:
 
@@ -11,13 +16,61 @@ Supported browsers:
  - Mozilla Firefox. If you are using Mozilla Firefox, you need to [configure Firefox to trust the root certificate store of your system](https://support.mozilla.org/en-US/kb/setting-certificate-authorities-firefox).
  - Safari
 
-Supported OS:
+Supported operating system:
 
-- macOS 13, 14 and 15
-- Windows 10 and 11 (Pro and Enterprise)
+
+
+| **Operating system** | **Version supported** |
+|---|---|
+| **macOS 26**        | 26.1 |
+| **macOS 15**        | 15.7.2 <br> **Note**: If you encounter issues accessing SGTS or GCC services after the update, please ensure that [FDA is enabled](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/post-onboarding-instructions/macos-latest?id=ensure-full-disk-access-fda-is-enabled-for-seed-components) and reboot your device. <br> Do **not** install unsupported versions of macOS unless explicitly communicated via email by the SEED team.|
+| **macOS 14**        | 14.8.2 |
+| **Windows 11** | 22H2 (build 22621, minimally revision 6060) <br> 23H2 (build 22631, minimally revision 6345) <br> 24H2 (build 26100, minimally revision 7462) <br> 25H2 (build 26200, minimally revision 7462) |
 
 > **Note**:
 > Admin privilege is required to onboard to SEED.
+
+## How to check your operating system version  
+
+<details>
+  <summary>macOS</summary>
+
+1. Open Spotlight using **Cmd + Space**  
+2. Search for **About this mac.app**  
+3. Look for the line that says **macOS** (as highlighted below). This will show your macOS version.
+
+   ![macOS](/images/checkos-mb.png)
+</details>
+
+<details>
+  <summary>Windows</summary>
+
+1. Click on the **Start** icon and select **Settings**  
+   ![Windows Start](/images/checkos-win.png)  
+2. Open **System Settings**  
+   ![Windows System Settings](/images/checkos-win2.png)  
+3. Select **System**  
+   ![Windows System Page](/images/checkos-win3.png)  
+4. Under **Windows Specifications**, look at:  
+   - **Edition** – Ensure it is **Windows 10/11** and either **Enterprise** or **Pro** edition  
+   - **OS Build** – Check the **build number** and **revision number**. The build number must be valid, and the revision number should be **greater than or equal** to the required version.  
+
+   **Example:**  
+   If the build number is **19045**, your revision number should be at least **5487**. If your build number is not listed in the table of valid builds, update your device or change to a supported version.  
+
+   ![Windows OS Build](/images/checkos-win4.png)  
+</details>
+
+## SEED hardware minimum specifications  
+
+Hardware must meet the minimum requirements for the supported SEED operating systems and software.  
+
+For detailed OS hardware requirements, refer to:  
+- [macOS Tahoe (macOS 26)](https://support.apple.com/en-sg/122867)
+- [macOS Sequoia (macOS 15)](https://support.apple.com/en-sg/120282)  
+- [macOS Sonoma (macOS 14)](https://support.apple.com/en-sg/105113)  
+- [Windows 11 minimum requirements](https://learn.microsoft.com/en-us/windows-hardware/design/minimum/minimum-hardware-requirements-overview)  
+
 
 ## Request SEED provisioning
 
@@ -42,9 +95,10 @@ Once SEED provisioning is successfully completed, the following steps are as fol
   - If you signed up for SEED via the TechPass portal, you can log in to the TechPass portal to [request a new SEED onboarding invitation email](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/request-for-seed-provisioning).
 
 
-## Uninstall existing software
+## Uninstall existing software before onboarding
 
-Before proceeding with SEED onboarding, it is required to uninstall any relevant software solutions from your device:
+Before proceeding with SEED onboarding, it is required to uninstall any relevant software solutions from your device. Failure to do so may prevent successful onboarding and could cause significant delays. 
+
 
 - Any existing MDM (Mobile Device Management) software
 - Tanium client or any other unified endpoint management and security platform

@@ -10,8 +10,15 @@
   - [Onboard as a public officer](/onboard-device/public-officer)
   - [Onboard as a vendor](onboard-device/vendor)
 - Post onboarding steps  
-  - [macOS 14 and 13 post onboarding guide](/post-onboarding-instructions/macos-latest.md)
+  - [macOS post onboarding guide](/post-onboarding-instructions/macos-latest.md)
   - [Windows post onboarding guide](/post-onboarding-instructions/windows.md)
+- macOS Platform SSO 
+  - [Set up Secure Enclave](set-up-secure-enclave.md)
+- Admin By Request
+  - [Admin By Request (ABR)](admin-by-request.md)
+- SEED+
+  - [CyberArk dialogs and permissions (Users)](seed-plus/cyberark-dialog.md)
+  - [Approval guide (PoC)](seed-plus/poc-approver-guide.md)
 - Monitor using SEED Dashboard
   - [SEED Dashboard overview](/seed-dashboard/seed-dashboard-overview.md)
   - [SEED Dashboard tour](/seed-dashboard/seed-dashboard-tour.md)
@@ -24,11 +31,16 @@
   - [Onboarding FAQ](/faqs/onboarding-faq.md)
   - [Offboarding FAQ](/faqs/offboarding-faq.md)
   - [GCC 1.0 connectivity FAQ](/faqs/gcc1-connectivity-faq.md)
+- Update schedule
+  - [Patching schedule (OS updates)](update-schedule/os-patching-schedule.md)
 - Support
-  - [Raise a service request](/support/raise-service-request.md)
-  - [Troubleshooting issues](/support/troubleshooting-issues.md)
+  - [Cloudflare Certificate Update FAQ](/support/cloudflare-cert-update-guide.md)
+  - [Configuration of Common Tools FAQ](/support/configuration-of-common-developer-cli-tools-with-cloudflare-warp-guide.md)
+  - [Security hardening list](/support/hardening-list.md)
   - [Generate diagnostic files](/support/generate-diagnostic-files)
+  - [Troubleshooting issues](/support/troubleshooting-issues.md)
   - [View SEED service status](/support/seed-status.md)
+  - [Raise a service request](/support/raise-service-request.md)
 - Additional resources 
   - [Best practices](/additional-resources/best-practices.md)
   - [Split tunnel allowlisting](additional-resources/split-tunnel-allowlist)

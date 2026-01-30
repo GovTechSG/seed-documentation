@@ -11,7 +11,374 @@ This section lists the most recent enhancements, new features and fixes that are
 | **Gamma Release** | **Device Based Blocking** | To enforce better protection to our development resources e.g., GCC and SGTS services and tools. On 19 July 2023, we have rolled out beta testing for more effective blocking of access when a GMD's health is at risk. We have passed the beta test and we have rolled out the gamma release. If you have queries on this feature, please get in touch with us through our SEED mailbox at: [enquiries_seed@tech.gov.sg](mailto:enquiries_seed@tech.gov.sg).|
 -->
 
+## January 2026
+
+### 29 January 2026
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **Update** | **Tanium server maintenance** | Upgraded **Tanium Server Platform (TanOS)** to version **1.8.4.0235**.<br><br>**Impact:** SEED onboarding was affected from **18:00 hrs to 21:00 hrs (SGT)**.<br><br>More information: <https://help.tanium.com/bundle/2024H2_releasenotes/page/maintenance.html> |
+
+
+## December 2025
+
+### 26 December 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **Update** | **Tanium server maintenance** | Upgraded **Tanium Server Platform (TanOS)** to version **1.8.4.0229**.<br><br>**Impact:** SEED onboarding was affected from **18:00 hrs to 21:00 hrs**.<br><br>More information: <https://help.tanium.com/bundle/2024H2_releasenotes/page/maintenance.html> |
+
+
+## October 2025
+
+### 31 October 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **Update** | **Tanium Client deployment** | Deployed **Tanium Client 7.6.4.2160** to all **SEED devices**.<br><br>**Impact:** Applies to all **SEED users**. |
+
+
+### 30 October 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **Update** | **Tanium server maintenance** | Upgraded Tanium Server Platform **TanOS** to version **1.8.4.0205**.<br><br>**Impact:** SEED onboarding was affected from 18:00 hrs to 21:00 hrs.<br><br>More information can be found [here](https://help.tanium.com/bundle/2024H2_releasenotes/page/maintenance.html#2024h2_update_11_august_19_2025). |
+
+### 16 October 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **Update** | **Tanium Ubuntu Server OS upgrade** | Upgraded Ubuntu OS from version 20.04 to 24.04 on Tanium servers. |
+| **Update** | **Tanium Windows Server and Dashboard** | Updated Curl to version 8.16 on both the Tanium Windows Server and Dashboard. |
+
+### 3 October 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **New feature** | **CrowdStrike deployment** | Deployed CrowdStrike to all **SEED users**. No user impact during installation.<br><br>Users will be evaluated based on the CrowdStrike risk score instead of Microsoft Defender. Microsoft Defender will remain installed during this trial period. |
+
+## September 2025
+
+### 30 September 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **Update** | **macOS 26 deployment** | Deployed macOS 26 to all users. |
+
+
+
+### 25 September 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **Update** | **Tanium server maintenance** | Upgraded Tanium Server Platform to 7.6.4.2160 and TanOS to 1.8.4.0199.<br><br>SEED onboarding was affected from 18:00 hrs to 21:00 hrs. More information can be found here: [Maintenance release updates for 2024H2](https://help.tanium.com/bundle/2024H2_releasenotes/page/maintenance.html#2024h2_update_11_august_19_2025). |
+
+### 23 September 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **Update** | **macOS 26 deployment** | macOS 26 rollout to **CEP users**. |
+
+### 19 September 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **New feature** | **CrowdStrike deployment** | Deployed CrowdStrike to **SEED users (Contractors)**.<br><br>No user impact during installation.<br><br>Microsoft Defender will still be installed during this trial period. |
+
+
+### 11 September 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **New feature** | **CrowdStrike deployment** | Deployed CrowdStrike to **SEED users (Remaining NDI Helpdesk Agents)**. No user impact during installation.<br><br>Users will be evaluated based on CrowdStrike risk score instead of Microsoft Defender. Microsoft Defender will still be installed during this trial period. |
+| **New feature** | **Pushing of standard apps from Intune** | Deployment of standard applications to **SEED devices (WOG)**:<br>- Chrome<br>- Edge<br>- Telegram<br>- Slack |
+
+### 10 September 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **New feature** | **macOS Platform SSO rollout** | macOS Platform SSO is now available for **SEED users (GovTech users)** on macOS. This feature allows you to sign in to your Mac using your enterprise credentials and automatically gain access to supported apps and services without repeatedly entering your username and password, improving convenience and security. |
+| **Update** | **Azure Portal Conditional Access Policy (CAP)** | Added device compliance checks (**Report Only**) for **macOS (Contractors)** before allowing access to Microsoft Admin Portals. |
+
+
+### 5 September 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **New feature** | **CrowdStrike deployment** | Deployed CrowdStrike to **GovTech users**, plus 2 **NDI Helpdesk Agents** and **NDI users**. No user impact during installation.<br><br>Users will be evaluated based on CrowdStrike risk score instead of Microsoft Defender. Microsoft Defender will remain installed during this trial period. |
+
+### 3 September 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **Update** | **Azure Portal Conditional Access Policy (CAP)** | Added device compliance checks (Report Only) for **non-macOS (all users)** before allowing access to Microsoft Admin Portals. |
+| **New feature** | **Intune standard apps deployment (TechPass)** | Deployment of standard applications to SEED devices (**TechPass users**):<br>- Chrome<br>- Edge<br>- Telegram<br>- Slack |
+
+### 2 September 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **Update** | **CrowdStrike API** | Removed **Automated Leads** from CrowdStrike device blocking criteria. |
+
+## August 2025
+
+### 28 August 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **Tanium server maintenance** | Upgraded Tanium Server Platform to 7.6.4.2144.<br><br>SEED onboarding was affected from 18:00 hrs to 21:00 hrs. |
+
+### 27 August 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **Update** | **Azure Portal Conditional Access Policy (CAP)** | Added device compliance checks (Report Only) for all operating systems (**CEP users**) before allowing access to Microsoft Admin Portals. |
+| **New feature** | **macOS Platform SSO rollout (Vendors)** | macOS Platform SSO is now available for **Vendor SEED users** on macOS. This feature allows you to sign in to your Mac using enterprise credentials and automatically gain access to supported apps and services without repeatedly entering your username and password. |
+
+### 22 August 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **New feature** | **CrowdStrike deployment** | Deployed CrowdStrike to **CEP SEED users**. No user impact during installation.<br><br>Users will be evaluated based on CrowdStrike risk score instead of Microsoft Defender. Microsoft Defender will remain installed during this trial period. |
+
+
+### 11 August 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **macOS Platform SSO rollout** | macOS Platform SSO is now available for **CEP SEED users** on macOS. This feature allows you to sign in to your Mac using your enterprise credentials and automatically gain access to supported apps and services without repeatedly entering your username and password, improving convenience and security.<br><br>**Rollout dates:**<br>- **CEP SEED users**: 11 August 2025<br>- **PO SEED users**: 18 August 2025<br>- **Vendor SEED users**: 25 August 2025 |
+
+### 4 August 2025
+
+| Type | Change | Description |
+| --- | --- | --- |
+| **Update** | **Azure Portal Conditional Access Policy (CAP)** | Added device compliance checks (Report Only) for **macOS (SEED Team)** before allowing access to Microsoft Admin Portals. |
+
+
+## July 2025
+
+### 31 July 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **Tanium server maintenance** | Upgraded Tanium TanOS to 1.8.4.0190.<br><br>SEED onboarding was affected from 18:00 hrs to 21:00 hrs. More information can be found [here](https://help.tanium.com/bundle/2024H2_releasenotes/page/maintenance.html#2024h2_update_8_june_18_2025). |
+
+### 17 July 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **New feature** | **CrowdStrike deployment** | Deployed CrowdStrike to CEP SEED users (public officers and vendors). No user impact during installation.<br><br>Users will be evaluated based on CrowdStrike risk score instead of Microsoft Defender. Microsoft Defender will still be installed during this trial period. |
+
+### 11 July 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **Cloudflare WARP client update** | Updated Cloudflare WARP client in WoG.<br>- macOS WARP Client version: 2025.4.943.0<br>Brief disconnection from SGTS may occur during installation. |
+
+---
+
+## June 2025
+
+### 26 June 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **Tanium server maintenance** | Upgraded Tanium Server Platform to 7.6.4.2132 and TanOS to 1.8.4.0188.<br><br>SEED onboarding was affected from 18:00 hrs to 21:00 hrs. More information can be found [here](https://help.tanium.com/bundle/2024H2_releasenotes/page/maintenance.html#2024h2_update_6_may_22_2025). |
+
+### 24 June 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **OS version enforcement** | Monthly updates will be pushed on a fixed schedule found [here](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/update-schedule/os-patching-schedule). Users who do not meet the minimum OS version [baseline](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/seed-prerequisites?id=how-to-check-your-operating-system-version) will start receiving update reminders before access is removed. |
+
+### 23 June 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **Cloudflare WARP client update** | Updated Cloudflare WARP client.<br><br>**TechPass:**<br>- WinOS WARP Client version: 2025.4.943.0<br>- macOS WARP Client version: 2025.4.943.0<br><br>**WoG:**<br>- WinOS WARP Client version: 2025.4.943.0<br>Brief disconnection from SGTS may occur during installation. |
+
+
+## May 2025
+
+### 23 May 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Fix** | **SEED configuration notification delay** | SEED configuration alerts will now only appear if the issue persists for more than 4 hours. This reduces unnecessary pop-ups for users. |
+
+### 14 May 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Fix** | **macOS baseline update** | Adjusted baseline configuration for macOS. No action is required unless otherwise notified. |
+
+### 5 May 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **Login service update** | TechPass rotated Cloudflare Access credentials. If you encounter login issues accessing SGTS or GCC 2.0, contact support. |
+
+
+## April 2025
+
+### 1 April 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **Cloudflare access policy update** | Brief downtime (5 minutes) may affect Windows users while applying access policy for non-production SEED applications. |
+
+
+## March 2025
+
+### 27 March 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **OS version enforcement for Windows** | Windows users who did not meet the minimum OS version baseline started receiving update reminders. Affected users were previously informed via advisory. |
+
+### 6 March 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **Microsoft Defender update** | The Microsoft Defender client was updated. Installation takes around 5 minutes. Users with the latest version were not affected. |
+
+## February 2025
+
+### 13 February 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **Cloudflare WARP client update** | Updated Cloudflare WARP client in TechPass and WOG. Brief disconnection from SGTS may occur during installation. |
+
+## January 2025
+
+### 16 January 2025
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **Apple certificate renewal** | Rotated Apple MDM push certificate for TechPass. Enables enrolment of new vendor MacBooks. No user action required unless issues arise. |
+
+
+## December 2024
+
+### 30 December 2024
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **Cloudflare certificate update** | New Cloudflare certificate pushed to SEED devices. If using developer CLI tools, refer to the guide to update trusted certificates. Certificate will activate on 13 January 2025. |
+
+### 20 December 2024
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **Firewall settings for macOS 15** | Updated firewall rules for macOS 15 to allow Cloudflare WARP. No impact to other firewall configurations. |
+
+### 18 December 2024
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Fix** | **Warning resolution fix** | Fixed issue where addressed warnings were not reflected on the SEED dashboard. |
+
+### 12 December 2024
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **Cloudflare WARP client update** | Cloudflare WARP client was updated. During installation, SGTS access may briefly disconnect. No action needed for devices already on the new version. |
+
+### 6 December 2024
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **Minimum OS version enforcement** | Devices not updated to the required OS version will receive warnings and be blocked after 7 days. Users should update to continue access. |
+
+
+## November 2024
+
+### 29 November 2024
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **M365 RBI access expansion** | CEP public officers and vendor users were granted access to M365 RBI. No downtime occurred. |
+
+
+### 26 November 2024
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **macOS policy enforcement** | Security updates for Apple macOS versions 13, 14, and 15 are enforced starting 27 November 2024. <br><br>**Action required:** <br>- Devices on macOS 15 or 15.1 must update to macOS 15.1.1 to avoid being blocked from accessing SGTS services starting 10 December 2024. <br><br>[Read security notes](https://support.apple.com/en-us/121753). For questions, contact **enquiries_seed@tech.gov.sg**. |
+
+### 1 November 2024
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **SEED support for macOS 15 Sequoia** | SEED is now officially supported on macOS 15 Sequoia. For issues, contact **enquiries_seed@tech.gov.sg**. |
+
+---
+
+## September 2024
+
+### 20 September 2024
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **New feature** | **Banner feature on SEED dashboard** | Introduced a new banner feature on the [SEED dashboard](https://dashboard.seed.tech.gov.sg/) to push critical messages to SEED users. For assistance, contact **enquiries_seed@tech.gov.sg**. |
+
+### 16 September 2024
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **SEED support status for macOS 15 Sequoia** | SEED has not been officially tested on macOS 15 Sequoia, and support cannot be provided for issues encountered. For assistance, contact **enquiries_seed@tech.gov.sg**. |
+
+---
+
 ## August 2024
+
+### 30 August 2024
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+| --- | --- | --- |
+| **Update** | **Delay in macOS 15 Sequoia support** | The previously announced support for macOS 15 Sequoia, originally scheduled to begin on 31 August 2024, has been delayed until further notice. For assistance, contact **enquiries_seed@tech.gov.sg**. |
+
+# August 2024
+
+## 30 August 2024
+
+| **Type** | **Change** | **Description** |
+|---|---|---|
+| **Update** | **Windows security updates** | Security updates were pushed through Windows Update Rings in Intune for vendors using Windows devices. <br><br>**Action required:** Save your work before restarting your device if prompted. <br><br>For questions, contact **enquiries_seed@tech.gov.sg**. |
+
+---
+
+## 29 August 2024
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+|---|---|---|
+| **Update** | **Cloudflare WARP client update** | Updated Cloudflare WARP client versions: <br>- Windows: 2024.6.473.0 <br>- macOS: 2024.6.474.0 <br><br>**Impact:** Users may experience a brief disconnection from SGTS resources during the installation process, lasting up to five minutes. No action is required if your device already has the updated version. <br><br>For assistance, contact **enquiries_seed@tech.gov.sg**. |
+
+---
+
+## 22 August 2024
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+|---|---|---|
+| **Update** | **macOS 12 onboarding blocked** | Devices running macOS 12 are now blocked from onboarding to SEED. <br><br>For assistance, contact **enquiries_seed@tech.gov.sg**. |
+
+---
+
+## 14 August 2024
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+|---|---|---|
+| **Bug fix** | **Email and desktop notifications** | Device naming will be standardised for notifications <br><br>For assistance, contact **enquiries_seed@tech.gov.sg**. |
+
+---
+
+## 7 August 2024
+
+| <div style="width:100px"><b>Type</b></div> | <div style="width:150px"><b>Change</b></div> | **Description** |
+|---|---|---|
+| **Update** | **SEED dashboard UI changes** | The SEED Dashboard has been updated with information on SEED Configuration issues. Explore the changes on [SEED Dashboard tour](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/seed-dashboard/seed-dashboard-tour) <br><br>For assistance, contact **enquiries_seed@tech.gov.sg**. |
+
 
 ### 5 August 2024
 

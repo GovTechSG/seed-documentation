@@ -1,145 +1,197 @@
 # General FAQ
 
-<details><summary>What data can I store on a Government Managed Device (GMD)?</summary>
+## 🖥 Device usage and compliance
 
-GMDs are intended to facilitate development work for accessing GCC 2.0 and SGTS securely. Do not store production or live data on GMDs.
-
-</details>
-
-<details><summary>Can I install unlicensed software or tools on my Government Managed Device (GMD)?</summary>
-
-Installing unlicensed software on your GMD is strictly prohibited. GMDs are government-managed, and this policy ensures security and compliance. Unauthorised software compromises security and violates regulations. 
-
-If you need a particular software for your development work, please follow your organisation's processes to obtain the legitimate version. Refer to [Terms of policies](/additional-resources/terms-and-policies.md)for details.
-
-</details>
-
-<details><summary>Why am I unable to access certain websites?</summary>
-
-If you are experiencing issues accessing websites, [Cloudflare Radar](https://radar.cloudflare.com/security-and-attacks) can identify the cause. Visit [Cloudflare Radar scan](https://radar.cloudflare.com/security-and-attacks), enter the domain you are having trouble with, and view the report. This tool provides insights into network issues or security settings that may be affecting website access.
-
-</details>
-
-<details><summary>Can I bring and use my Government Managed Device (GMD) overseas?</summary>
-
-Users should assess the risk and seek approval from their Reporting Officer (RO) before doing so.
-
-</details>
-
-<details><summary>I have lost my Government Managed Device (GMD). What should I do?</summary>
-
-1. Notify your manager and operations manager to approve data deletion on the lost device.
-2. [Raise a service request](https://go.gov.sg/seed-techpass-support) to notify the SEED team about the lost device.
-3. Mention any sensitive data in the request to prioritise remote wiping.
-4. Attach manager approvals for necessary actions to prevent data breaches.
-
-</details>
-
-<details><summary>What happens when the security of a Government Managed Device (GMD) is compromised?</summary>
-
-  When SEED detects a compromised device, it contacts the owner for disconnection. After obtaining owner and manager approvals, SEED performs a remote wipe.
-
-> **Note**: 
-> The device must be powered on and connected to the internet for remote wiping.
-
-</details>
-<details><summary>What happens when a remote wipe is performed on a Government Managed Device (GMD)?</summary>
-
-  Remote wipe erases all data on the device, performed only for theft, loss, or security compromise. For more information, refer to the [Terms and policies](/additional-resources/terms-and-policies).
-
-</details>
-<details><summary>Is remote wipe done only on devices that belong to public sector agencies?</summary>
-
-  No, remote wipe applies to any lost or compromised GMD to prevent data breaches. For more information, refer to the [Terms and policies](/additional-resources/terms-and-policies).
-
-</details>
-
-<details><summary>What should I do if my device has been inactive for 180 days?</summary>
-
-If your device is no longer required to access SEED, please offboard your device. For detailed steps on offboarding your Mac, click [here](/offboard-device/macos-offboarding-guide.md), and for Windows, click [here](/offboard-device/windows-offboarding-guide.md). If you still require access after being inactive for 180 days, please email enquiries_seed@tech.gov.sg for assistance.
-
-</details>
-
-<details><summary>What should I do if I want to check if my device record has been deleted?</summary>
-
-Log in to [SEED Dashboard](https://dashboard.seed.tech.gov.sg/) after 26 October 2023 to see whether your device record still exists. If your device record does not exist, or you are unable to log into SEED Dashboard, your device records have been cleaned up.
-
-</details>
-
-<details><summary>What should I do if my device record has been deleted even though it is still active?</summary>
-
-Please email enquiries_seed@tech.gov.sg for assistance.
-
-</details>
-
-<details><summary>Why am I prompted to turn on my system integrity protection on my macOS device?</summary>
-
-  This is a SEED policy requirement. System Integrity Protection enhances macOS security and is designed to help prevent potentially malicious software from modifying protected files and folders on your macOS. System Integrity Protection restricts the root user account and limits the actions that the root user can perform on protected parts of the macOS.
-
-
- </details>
-
-
-<details><summary>Why do I need to turn on File Vault encryption?</summary>
-
-  FileVault encryption is essential to ensure device security and compliance.
-
- </details>
-
-<details><summary>Why does my device slow down after onboarding to Microsoft Intune?</summary>
-
- SEED uses **Microsoft Defender for Endpoint** for security. Other antivirus software may impact performance. Disable or uninstall non-**Microsoft Defender for Endpoint** antivirus software.
-
- </details>
-
-<details><summary>Previously, I have successfully onboarded my Internet Device to SEED, but now I received an email indicating limited access to SEED-protected resources. Why, and what should I do? </summary>
-
-This suggests SEED detected device configuration issues. For example, an unhealthy Microsoft Defender. For resolution:
-
-- Offboard your device if access is no longer needed.
-
-- [Raise a service request](https://go.gov.sg/seed-techpass-support) to restore access to SEED-protected resources. Specify that your SEED access was revoked due to device misconfiguration, allowing us to process the request accordingly.
-
-</details>
-
-<details><summary>Why did I receive the successfully onboarded email again?</summary>
-
-Receiving this email again indicates that services ensuring SEED compliance may have had configuration issues, temporarily affecting SEED access.
-
-</details>
-
-<details><summary>Do I need to re-onboard my device to SEED after returning from a long leave?</summary>
-
-If you belong to the TechPass Entra ID and your GMD has not been logged into for 90 consecutive days, the GMD becomes inactive, and its' records are softly removed from the Intune portal.
-
-It is important to understand that when your device records are softly removed, it does not perform a device wipe or retirement. Instead, the device record is temporarily taken out of Intune.
-
-Consequently, SEED administrators will no longer have access to details such as the device's health status, and they will not be able to manage it from the SEED Dashboard.
-
-</details>
-
-<details><summary>Will I receive any notification of MDM certificate expiration?</summary>
-
-No, you will not receive any notification for this.
-
+<details>
+  <summary>What type of data can I store on a Government Managed Device (GMD)?</summary>
+  GMDs are intended to facilitate development work for accessing GCC 2.0 and SGTS securely.  
+  Do not store production or live data on GMDs.
 </details>
 
 <details>
-  <summary>Do I need to change my SEED onboarding password after a year, and what are the password requirements for it?</summary>
-
-  Yes, you are required to change your SEED onboarding password after a year. The password requirements for SEED onboarding are as follows:
-
-- It should contain at least 12 characters.
-- It should not be the same as the previous three passwords.
-- The same character cannot be used consecutively.
-- It cannot have three sequential characters.
-- It should contain at least one number and one alphabetic character.
+  <summary>Can I install unlicensed software or tools on my Government Managed Device (GMD)?</summary>
+  Installing unlicensed software is strictly prohibited.  
+  Use your organisation’s process to request legitimate software.  
+  Refer to <a href="https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/additional-resources/terms-and-policies">Terms and policies</a> for details.
 </details>
 
 <details>
-  <summary>How do I reset my password via the macOS <b>Utilities</b> menu?</summary>
-
-Refer to the following image below:
-![reset_password](/images/reset-password-utiliy.png)
+  <summary>Why am I unable to access certain websites?</summary>
+  If you are experiencing access issues, use <a href="https://radar.cloudflare.com/security-and-attacks"> Cloudflare Radar </a> to investigate.  
+  Enter the domain you are trying to access and view the network/security report.
 </details>
+
+<details>
+  <summary>Can I bring and use my Government Managed Device (GMD) overseas?</summary>
+  You should assess the risk and seek approval from your Reporting Officer (RO) before bringing your device overseas.
+</details>
+
+<details>
+  <summary>What should I do if I lose my Government Managed Device (GMD)?</summary>
+  1. Notify your manager and operations manager to approve data deletion.  
+  2. <a href="https://go.gov.sg/seed-techpass-support"> Raise a support request </a> to notify the SEED team.  
+  3. Mention any sensitive data to prioritise remote wiping.  
+  4. Attach manager approvals to the request.
+</details>
+
+<details>
+  <summary>What happens when the security of a Government Managed Device (GMD) is compromised?</summary>
+  SEED will contact the user with the next steps. Affected user to cooperate with security analysts for investigation, containment and recovery.
+</details>
+
+<details>
+  <summary>What happens when a remote wipe is performed on a Government Managed Device (GMD)?</summary>
+  Remote wipe erases all data on the device.  
+  It is only performed in cases of theft, loss, or a confirmed security compromise.
+</details>
+
+<details>
+  <summary>Is remote wipe applicable only to public sector agency devices?</summary>
+  No. Remote wipe can be performed on any lost or compromised GMD to prevent data breaches.
+</details>
+
+<details>
+  <summary>Why am I prompted to turn on System Integrity Protection (SIP) on my macOS device?</summary>
+  This is a SEED policy requirement.  
+  SIP enhances macOS security by preventing unauthorised modifications to protected system files and folders.
+</details>
+
+<details>
+  <summary>Why do I need to turn on FileVault encryption?</summary>
+  FileVault encryption protects your device and ensures compliance with SEED policies.
+</details>
+
+<details>
+  <summary>Why does my device slow down after onboarding to Microsoft Intune?</summary>
+  SEED uses Microsoft Defender for Endpoint.  
+  Other antivirus software may cause performance issues.  
+  Disable or uninstall any non-Microsoft antivirus software.
+</details>
+
+<details>
+  <summary>Why am I prompted to select the device certificate when accessing some websites?</summary>
+  Due to the device compliance check policy, during the Entra ID authentication, you will be prompted the select the device certificate which will be checked for the valid MDM certificate on your machine. 
+  Afterwards, you will be given access to your application if your device is compliant.
+</details>
+
+<details>
+  <summary>What password should you key in if you are prompted to select the certificate?</summary>
+  Select the device certificate when prompted and click OK.
+  
+  ![device cert](../images/device-cert1.png)
+  
+  Type in your local mac password and click on “Always Allow”.
+  
+  ![device cert](../images/device-cert2.png)
+  
+  You might be prompted to enter the password multiple times (1-3 times), make sure to click on “Always Allow”.
+  Note: Selecting of certificate is not required if the MacOS is joined to Entra (Registered with Platform SSO)
+</details>
+
+## 🔁 Device records and inactivity
+
+<details>
+  <summary>What should I do if my device has been inactive for 180 days?</summary>
+  If you no longer require the device for SEED access, please offboard it.  
+  If you still require access, email enquiries_seed@tech.gov.sg for assistance.
+</details>
+
+<details>
+  <summary>How do I check if my device record has been deleted?</summary>
+  Log in to the <a href="https://dashboard.seed.tech.gov.sg/"> SEED Dashboard </a> to check your device records.
+</details>
+
+<details>
+  <summary>What should I do if my device record has been deleted even though it is still active?</summary>
+  Email enquiries_seed@tech.gov.sg for assistance.
+</details>
+
+<details>
+  <summary>Why is my device not showing on the SEED Dashboard?</summary>
+  Your TechPass account may not be linked to your SEED device due to an onboarding or account termination issue.  
+  Offboard and re-onboard your device, or <a href="https://go.gov.sg/seed-techpass-support"> raise a support request </a>.
+</details>
+
+<details>
+  <summary>Why did I receive an email indicating limited access to SEED-protected resources after previously onboarding successfully?</summary>
+  SEED may have detected device configuration issues (e.g. unhealthy Microsoft Defender).  
+  Offboard the device if no longer needed, or <a href="https://go.gov.sg/seed-techpass-support"> raise a support request </a>.
+</details>
+
+<details>
+  <summary>Why did I receive the successfully onboarded email again?</summary>
+  This may happen if configuration services were temporarily misconfigured and restored.
+</details>
+
+<details>
+  <summary>Do I need to re-onboard my device after returning from a long leave?</summary>
+  If your GMD has not been logged into for 90 consecutive days, it may be marked inactive and removed from Intune.  
+  This does not wipe your device, but SEED will no longer be able to monitor or manage it.
+</details>
+
+<details>
+  <summary>Will I receive any notification if the MDM certificate is about to expire?</summary>
+  No, you will not receive any notification when your MDM certificate is expiring.
+</details>
+
+## 🔑 Passwords and reset
+
+<details>
+  <summary>Do I need to change my SEED onboarding password after one year?</summary>
+  Yes. The password requirements are:
+  - At least 12 characters
+  - Cannot reuse the previous 3 passwords
+  - Cannot contain the same character consecutively
+  - Cannot have three sequential characters
+  - Must contain at least one number and one alphabetic character
+</details>
+
+<details>
+  <summary>How do I reset my password using the macOS <b>Utilities</b> menu?</summary>
+  Refer to the following image:  
+  
+  ![reset_password](../images/reset-password-utiliy.png)
+</details>
+
+## 🛡️ CrowdStrike
+
+<details>
+  <summary>Why was my device blocked due to a malware alert in CrowdStrike?</summary>
+  Your device will be blocked if you have malware alerts on CrowdStrike.  
+  No action is required from you. The SEED team will review your ticket, and your device will be unblocked after the assessment is completed.  
+  Please <a href="https://go.gov.sg/seed-techpass-support"> raise a support request </a> if you are not unblocked automatically.
+</details>
+
+<details>
+  <summary>[Windows only] How do I perform a malware scan using CrowdStrike?</summary>
+  Right-click the drive → Click **Show more options** → Click **CrowdStrike Falcon malware scan** → Click **Scan**.  
+  A pop-up window will appear at the lower-right corner.
+  
+  ![image](../images/cs1.png)
+
+  You will see a pop up window on the right hand corner.
+  
+  ![image](../images/cs2.png)
+  
+</details>
+
+<details>
+  <summary>[Windows only] How do I check the results of a CrowdStrike malware scan?</summary>
+  Go to your Desktop → Right-click and select **Show more options** → Click **CrowdStrike Falcon malware scan** → Click **See results of last scan**.  
+
+  ![image](../images/cs3.png)
+  
+  You should see the status as **Completed**.
+
+  ![image](../images/cs4.png)
+  
+</details>
+
+<details>
+  <summary>[Mac only] Can I perform an on-demand CrowdStrike Falcon malware scan?</summary>
+  No. Falcon On-Demand Scan is not applicable for macOS.  
+  <a href="/assets/falcon-on-demand-mac.pdf" download>Download the Falcon On-Demand Scan guide for Mac (PDF)</a>
+for more information.
+</details>
+
 
