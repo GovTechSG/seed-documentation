@@ -58,7 +58,7 @@ Allow the security extension for Admin By Request:
 
 ![Admin By Request listed under Extensions by app](images/abr-endpoint-security-by-app.png)
 
-![Allow Security Extension for Admin By Request](images/abr-allow-security-extension.png)
+![Allow Security Extension for Admin By Request](images/ab2.png)
 
 
 ### Ensure ABR is working correctly
