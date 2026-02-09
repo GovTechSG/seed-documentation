@@ -115,9 +115,13 @@ echo "$actual_id"
 
     When you see the following success message on your **Terminal**, you will be automatically directed to the **SEED Offboarding: Device Record Removal** form to submit the Intune Device ID.
 
-    ![macos-success-message](../images/macos-success-message.png)
+    ![macos-success-message](../images/macos-success-message-new.png)
 
-    >**Note**: Ensure you complete the steps in Phase B immediately after Phase A. Failure to do so may result in your device update policy reinstalling the latest version of the removed SEED components.
+> **Note**
+>
+> 1. After submitting the form, go back to **Terminal** and follow the instructions accordingly.
+> 2. Ensure you complete the steps in **Phase B immediately after Phase A**. Failure to do so may result in your device update policy reinstalling the latest version of the removed SEED components.
+
 
 ## Phase B: Submit Intune Device ID to remove device record
 

@@ -108,9 +108,15 @@ Write-Output $intune_id
 
     When you see the following success message on your **Powershell**, you are automatically directed to the **SEED offboarding: Request to remove device record** form to submit the Intune Device ID.
 
-    ![macos-success-message](../images/offboarding-windows/windows_success_message.png)
+    ![macos-success-message](../images/winos-sucess-new.png)
 
->**Note**: Ensure you complete the steps in Phase B immediately after Phase A. If not, your device update policy may reinstall the latest version of the deleted SEED components.
+     ![macos-success-message](../images/winos-sucess-new-2.png)
+
+> **Note**
+>
+> 1. After submitting the form, go back to **Windows PowerShell** and follow the instructions accordingly.
+> 2. Ensure you complete the steps in **Phase B immediately after Phase A**. If not, your device update policy may reinstall the latest version of the deleted SEED components.
+
 
 ## Phase B: Submit Intune Device ID to remove device record
 
