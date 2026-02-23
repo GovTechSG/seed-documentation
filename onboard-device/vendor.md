@@ -7,9 +7,11 @@ This document provides a step-by-step guide to help vendors through the onboardi
 Before proceeding with the onboarding process, vendors must meet the following prerequisites to ensure a seamless experience:
 
 - Your TechPass login ID must end with **techpass.gov.sg**. For example, john_doe@techpass.gov.sg.
+- Remove existing [conflicting software and MDM (Company Account)](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/seed-prerequisites?id=uninstall-existing-software) from your device before you start to onboarding to SEED.
 
+<!-- tabs:start -->
 
-## macOS
+#### **macOS**
 
 During the process, you may encounter prompts to restart your device and reset your device's password. It is important to have your recovery keys ready in case you encounter any issues during the password reset or device login.
 
@@ -39,33 +41,83 @@ During the process, you may encounter prompts to restart your device and reset y
 ### Step 2: Verify installation
 
 <details>
-  <summary style="font-size:18px">Verify the installation of the required profiles.</summary><br>
+  <summary style="font-size:18px">Verify the installation of the required profiles</summary><br>
 
-1. Go to the **Apple menu** > **System Settings** > **Privacy and Security**.
-2. Select **Profiles** on the right pane. You should be able to see the following profiles.
 
- <ul style="list-style-type: disc; margin-left: -3px;">
-  <li>Credential Profile</span></li>
-  <li>Custom Preferences Profile - com.cloudflaare.warp</span></li>
-  <li>Custom Preferences Profile - com.microsoft.wdav</li>
-  <li>GCC2 ATP Full Disk Access</li>
-  <li>GCC2 ATP Kernel Extensions - Custom</li>
-  <li>GCC2 ATP Network Filter</li>
-  <li>GCC2 ATP Notifications</li>
-  <li>GCC2 ATP Onboarding</li>
-  <li>Intune MDM Agent SCEP Profile</li>
-  <li>Management Profile</li>
-  <li>Passcode Profile</li>
-  <li>Privacy Preferences Policy Profile</li>
-  <li>System Extension Profile</li>
-  </ul>
+   1. Go to **Apple menu > System Settings > General > Device Management**.
 
-  >**Note**: You may receive a desktop notification that your device has been renamed according to convention, and that a timed restart will occur in 5 minutes. This is completely expected, and you should save any existing work to prevent data loss. Alternatively, you can also opt to manually restart your device, after receiving the desktop notification, to speed up the process. As the naming convention is required for administrative purposes, please refrain from renaming your device thereafter.
+   2. You should be able to see the following profiles:
 
+   - Credential Profile  
+   - Custom Preferences Profile – com.cloudflare.warp  
+   - Custom Preferences Profile – com.google.Chrome  
+   - Falcon Profile  
+   - Intune MDM Agent SCEP Profile  
+   - Intune MDM Agent PPPC Profile  
+   - Management Profile  
+   - Passcode Profile  
+   - Privacy Preferences Policy Profile  
+   - com.apple.system-extension-policy Profile  
+</details>
+
+<details>
+  <summary style="font-size:18px">Turn on Cloudflare WARP</summary><br>
+
+After onboarding your macOS Internet Device to SEED, you need to activate Cloudflare WARP.
+
+**Activation steps**:
+
+1. Open **Cloudflare WARP** client from the menu bar.
+
+  ![cloudflare-warp-icon](../images/onboarding-for-macos/cloudflare-icon.png)
+  
+  You will see the information page, followed by the privacy policy.
+
+2. Click **Next**, **Accept** to agree to Cloudflare’s privacy policy.
+
+  ![accept-privacy-policy](../images/cloudflare-warp-macos/accept-privacy-policy.png)
+
+3. When prompted to sign in, select **Azure AD – TechPass Prod**.
+
+  ![gcc-cloudflare-access-signin](../images/cloudflare-warp-macos/gcc-cloudflare-access-signin.png ':size=50%')
+  
+  If you encounter an error stating that your user account is not found in the respective tenant, follow these instructions:
+
+  - Open a new browser tab
+  - Visit https://myaccount.microsoft.com
+  - Sign out of your current account
+  - Retry the action
+
+4. Sign in using your TechPass credentials.
+
+  ![techpass-sign-in](../images/cloudflare-warp-macos/techpass-sign-in.png ':size=50%')
+
+5. After successfully signing in, click **Open Cloudflare WARP app** to establish your WARP connection.
+
+Once connected, you should see WARP Zero Trust in the connected state.
+  
+  ![cf-warp-connected](../images/cloud-flare-connected.png ':size=50%')
+
+6. Open Cloudflare WARP **Settings**, and ensure **Gateway with WARP** is selected. WARP is now active, safeguarding your Internet connection.
+
+At any time, users can sign in to Company Portal app, click the three dots and choose **Check status** to check for policy or profile updates. It may take a while to complete the synchronisation. When completed, the screen will show the timestamp of the last successful sync.
+</details>
+
+<details>
+  <summary style="font-size:18px">Verify CrowdStrike is configured</summary><br>
+
+1. Open **Finder** → **Applications** → **Falcon.app**.
+
+2. Ensure the **CrowdStrike Falcon Sensor** is **registered**, **operational**, and **cloud connected**.  
+
+   ![CrowdStrike Falcon Sensor status](../images/macosimage-3.png)
+
+3. If any of the above statuses indicate an error:  
+   - Click **Configure Settings** and follow the steps as prompted.
 </details>
 
 
-## Windows
+#### **Windows**
 
 Based on your Windows settings, you may be prompted to restart or reset your password while onboarding.
 
@@ -73,51 +125,128 @@ Based on your Windows settings, you may be prompted to restart or reset your pas
 <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube.com/embed/PAyKoRZ7WSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="true"></iframe>
 </div>
 
-### Step 1: Set up Microsoft Intune
+### Step 1: Create your personal local administrator account
+
+
+<details>
+  <summary style="font-size:18px">Create your personal local administrator account.</summary><br>
+
+  > **Note**: Do not use the default administrator account for onboarding.
+
+
+1. Search for **Computer Management**.
+2. Navigate to **Local Users and Groups**, and click on **Users**.
+3. Click **New User**.
+4. Fill in **User Name**, **Password**, and **Confirm Password**. Ensure that **User must change password at next logon** is unchecked. Once done, click **Create**.
+5. Double-click on the user you created and add the user as a member of the **Administrators** group.
+
+</details>
+
+
+### Step 2: Set up Microsoft Intune
 
 <details>
   <summary style="font-size:18px">Set up Microsoft Intune to get the required applications and device configurations.</summary><br>
 
-1. Click **Start** icon on the taskbar.
+1. Click the **Start** icon on the taskbar.
+2. Go to **Settings** > **Accounts** > **Access work or school**, and click **Connect** to add your TechPass account.
 
-2. Go to **Settings** > **Accounts** > **Access work or school** and click **Connect** to add your TechPass account.
+   ![access-work-or-school](../images/onboarding-instructions-for-windows/access-work-or-school.png)
 
-  ![access-work-or-school](../images/onboarding-instructions-for-windows/access-work-or-school.png)
+3. Approve your TechPass login using the authenticator app used to set up TechPass MFA.
 
-3. Approve your TechPass login using the authenticator app that was used to set up TechPass MFA. 
+   ![techpass-sign-in](../images/onboarding-instructions-for-windows/techpass-sign-in.png)
 
-  ![techpass-sign-in](../images/onboarding-instructions-for-windows/techpass-sign-in.png)
+   Your account is added and listed as a connection. This account has **Info** and **Disconnect** options as shown below.
 
-  Your account is added and listed as a connection. This account has **Info** and **Disconnect** options as shown below. 
-
-  ![info-disconnect](../images/onboarding-instructions-for-windows/info-disconnect.png)
+   ![info-disconnect](../images/onboarding-instructions-for-windows/info-disconnect.png)
 
 4. Select the **Info** option and verify that a similar result to the following is displayed. You will see **TechPass** instead of **SG Govt M365**.
 
-  ![managed-by-tp](../images/onboarding-instructions-for-windows/managed-by-tp.png)
+   ![managed-by-tp](../images/onboarding-instructions-for-windows/managed-by-tp.png)
 
 </details>
 
 
 
-### Step 2: Verify installation
+### Step 3: Verify installation
 
 <details>
-  <summary style="font-size:18px">Verify the installation.</summary><br>
+  <summary style="font-size:18px">Verify the installation</summary><br>
 
-1. Go to the Internet Device onboarded to SEED, open **Settings** > **Apps** > **Apps & features**. 
-2. Ensure that Cloudflare WARP and Tanium are listed.
+1. Go to the Internet Device onboarded to SEED, open **Settings** > **Apps** > **Apps & features**.  
+2. Ensure that **Cloudflare WARP** and **Tanium** are listed.  
 
-  ![cloudflare](../images/onboarding-instructions-for-windows/cloudflare.png)
+   ![cloudflare](../images/onboarding-instructions-for-windows/cloudflare.png)  
+   ![tanium](../images/onboarding-instructions-for-windows/tanium.png)
 
-  ![tanium](../images/onboarding-instructions-for-windows/tanium.png)
-  
-  You will receive a desktop notification that your device will be renamed according to our standard convention, followed by an automatic restart in 5 minutes. Please save your work to avoid data loss. You can also manually restart your device after the notification for a quicker update. Keep in mind that this naming convention is necessary for administrative purposes, so avoid renaming your device afterward.
+   You may receive a desktop notification that your device has been renamed according to convention, and that a timed restart will occur in 5 minutes. This is completely expected, and you should save any existing work to prevent data loss. Alternatively, you can also opt to manually restart your device, after receiving the desktop notification, to speed up the process. As the naming convention is required for administrative purposes, please refrain from renaming your device thereafter.
 
 </details>
 
+<details>
+  <summary style="font-size:18px">Turn on Cloudflare WARP</summary><br>
+
+After onboarding your macOS Internet Device to SEED, you need to activate Cloudflare WARP.
+
+**Activation steps**:
+
+1. Open **Cloudflare WARP** client from the menu bar.
+
+  ![cloudflare-warp-icon](../images/onboarding-for-macos/cloudflare-icon.png)
+  
+  You will see the information page, followed by the privacy policy.
+
+2. Click **Next**, **Accept** to agree to Cloudflare’s privacy policy.
+
+  ![accept-privacy-policy](../images/cloudflare-warp-macos/accept-privacy-policy.png)
+
+3. When prompted to sign in, select **Azure AD – TechPass Prod**.
+
+  ![gcc-cloudflare-access-signin](../images/cloudflare-warp-macos/gcc-cloudflare-access-signin.png ':size=50%')
+  
+  If you encounter an error stating that your user account is not found in the respective tenant, follow these instructions:
+
+  - Open a new browser tab
+  - Visit https://myaccount.microsoft.com
+  - Sign out of your current account
+  - Retry the action
+
+4. Sign in using your TechPass credentials.
+
+  ![techpass-sign-in](../images/cloudflare-warp-macos/techpass-sign-in.png ':size=50%')
+
+5. After successfully signing in, click **Open Cloudflare WARP app** to establish your WARP connection.
+
+Once connected, you should see WARP Zero Trust in the connected state.
+  
+  ![cf-warp-connected](../images/cloud-flare-connected.png ':size=50%')
+
+6. Open Cloudflare WARP **Settings**, and ensure **Gateway with WARP** is selected. WARP is now active, safeguarding your Internet connection.
 
 
 
+At any time, users can sign in to Company Portal app, click the three dots and choose **Check status** to check for policy or profile updates. It may take a while to complete the synchronisation. When completed, the screen will show the timestamp of the last successful sync.
+</details>
 
+<details>
+  <summary style="font-size:18px">Verify CrowdStrike is configured</summary><br>
 
+1. In the **Taskbar**, click the **CrowdStrike** icon.  
+2. Confirm that the **CrowdStrike Falcon Sensor** is:  
+   - **Running**  
+   - **Service is active**  
+   - **Cloud connected**  
+
+   ![CrowdStrike Falcon Sensor status](../images/winimage-4.png)  
+   ![CrowdStrike Falcon Sensor details](../images/winimage-5.png)
+
+3. If any of the above statuses indicate an error:  
+   - Go to **Start** → **Settings** → **Accounts** → **Access work or school**.  
+   - Click the **Info** button next to your **TechPass** account.  
+   - Select **Sync**.  
+   - Restart your computer.
+
+</details>
+
+<!-- tabs:end -->

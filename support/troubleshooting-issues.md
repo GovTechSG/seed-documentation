@@ -2,11 +2,171 @@
 
 This guide provides solutions to common problems for SEED. Follow the steps below to troubleshoot and resolve the problems you are experiencing.
 
-## Unable to log in to MacBook – login loop
+## Repair SSO
 
-This issue commonly occurs on devices with outdated macOS versions. To resolve it, please upgrade your macOS to version 15.1.1 or later.
+Users may encounter the error **The device is not registered**.
+
+![device not registered error](/images/repair-sso1.png)
+
+### Solution
+
+1. Navigate to **System Settings** > **Users & Groups** > **Network Servers**.
+2. Select **Repair**.
+
+![Prepair network servers](/images/repair-sso2.png)
+
+## How to sync the latest device posture
+
+Use the steps below if the SEED dashboard does not reflect your current device posture, for example, when your operating system has been updated to the latest version but the update is not shown in the dashboard.
+
+<!-- tabs:start -->
+
+#### **Windows OS**
+
+**Sync device with Intune**
+1. Navigate to **Access work or school**.
+2. Select your TechPass account and click **Info**.
+3. Select **Sync**.
+
+**Sync device with Tanium**
+1. Press **Windows + R** and open `services.msc`.
+2. Locate **Tanium Client**.
+3. Right-click the service and select **Restart**.
+
+#### **macOS**
+
+**Sync device with Intune**
+1. Launch **Company Portal**.
+2. Select **Device**.
+3. Select the three dots (**…**) and choose **Check status**.
+
+**Sync device with Tanium**
+1. Launch **Terminal**.
+2. Run the following command:
+
+``` 
+sudo launchctl kickstart -k -p system/com.tanium.taniumclient
+
+```
+<!-- tabs:end -->
+
+## How to verify if Crowdstrike is configured correctly
+
+
+If your device is blocked in the SEED dashboard due to Crowdstrike Falcon, follow the instructions below to restore access.
+
+![Launchpad showing Falcon app](/images/r0.png)
+
+
+## Step 1 – Launch CrowdStrike app
+Open **Falcon** from the Launchpad.  
+![Launchpad showing Falcon app](/images/r1.png)
+
+
+## Step 2 – Check Falcon sensor
+If the Falcon window shows red indicators, click **Configure settings**.  
+![CrowdStrike Falcon status – configure settings](/images/r2.png)
+
+
+## Step 3 – Set up Falcon sensor system extension
+Click **Setup** under *Network filter not loaded*.  
+![Setup network filter](/images/r3.png)
+
+
+## Step 4 – Allow network filter
+When prompted, click **Allow**.  
+![Allow network filter](/images/r4.png)
+
+
+## Step 5 – Confirm network filter loaded
+Once the filter is loaded, click **Continue**.  
+![Network filter loaded](/images/r5.png)
+
+
+## Step 6 – Set up system extension
+Click **Setup** under *Extension not loaded*.  
+![Setup extension](/images/r6.png)
+
+
+## Step 7 – Approve extension in system settings
+Click **Open system settings** when prompted.  
+![Open system settings](/images/r7.png)
+
+
+## Step 8 – Enable Falcon in endpoint security extensions
+In **System settings → Extensions**, enable the toggle for *Falcon sensor*. Enter your admin credentials if required.  
+![Enable Falcon endpoint security extension](/images/r8.png)
+
+
+## Step 9 – Confirm extension loaded
+Once enabled, the status will show **Extension loaded**. Click **Continue**.  
+![Extension loaded](/images/r9.png)
+
+
+## Step 10 – Grant full disk access
+Go to **System settings → Privacy & security → Full disk access**.  
+Enable the toggle for **Falcon sensor**.  
+![Grant full disk access](/images/r10.png)
+
+
+## Step 11 – Confirm full disk access
+Once enabled, the status will show **Full disk access granted**. Click **Continue**.  
+![Full disk access granted](/images/r11.png)
+
+
+
+## Step 12 – Verify Falcon sensor
+Ensure that all indicators are green:
+- Sensor is registered  
+- Sensor is operational  
+- Sensor is cloud connected  
+
+![Falcon all green](/images/r12.png)
+
+## Step 13 – Sync to Tanium
+Open **Terminal** and run:
+
+```bash
+sudo launchctl kickstart -k -p system/com.tanium.taniumclient
+
+```
+
+
+## Cloudflare connectivity issue: turns orange
+
+![cf](/images/orange-wrap.png)
+
+
+When having difficulty accessing SGTS or GCC services, Cloudflare WARP may display an **Orange** status.  
 
 ### Suggested steps
+
+1. Launch **Cloudflare WARP**.  
+2. Click the **Gear** icon.  
+3. Navigate to **Preferences > Account**.  
+4. Log in to **GovTech Zero Trust** using the account name `gccgovsg`.  
+
+
+## Cloudflare connectivity issue – Limited connectivity: A certificate is missing
+
+![lc](/images/limited-connectivity.png)
+
+When having difficulty accessing SGTS or GCC services, Cloudflare WARP may show a **Missing certificate** error.  
+
+### Suggested steps
+
+1. Download the required certificate from the [Cloudflare certificate update guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/cloudflare-cert-update-guide).  
+2. Trust the certificate on your device.
+
+
+## Unable to log in to MacBook – login loop
+
+This is a known issue affecting older versions of macOS, where users are unable to log in despite entering the correct password.
+The problem typically occurs because some key presses are not registered properly at the login screen, resulting in an incorrect password input — even if the user typed it correctly.
+This issue is fixed from macOS **15.4 or later**.
+To resolve the issue, and aligning to our OS baselining, we recommend you to upgrade your macOS to version **15.4.1 or later**, to avoid encountering the login loop issue.
+
+### Suggested steps to log in and update
 
 1. **Log in and upgrade macOS**
    - Attempt to log in to the MacBook a few times using the correct password. Once logged in, upgrade your macOS.
@@ -47,6 +207,12 @@ Follow the steps below depending on your Mac model. If you are unsure whether yo
 ### Reinstall macOS if necessary
 
 If you are still unable to log in, reinstall macOS through recovery mode. Refer to [Apple’s guide on reinstalling macOS](https://support.apple.com/en-sg/102655).
+
+### Additional reference
+
+Apple has acknowledged this issue in their enterprise support article:  
+[https://support.apple.com/en-gb/121011](https://support.apple.com/en-gb/121011)
+
 
 
 ## Resolving *Cloudflare CF_DNS_Lookup_Failure* error on macOS 15
@@ -96,18 +262,25 @@ After completing these steps, the `CF_DNS_Lookup_Failure` error should no longer
 
 ## Troubleshooting access issues for SGTS Resources
 
-If you encounter the screen below:
+
+When using SGTS products with Cloudflare WARP, you may encounter an error message stating **“That account does not have access”**, as shown in the screen below.
 
 ![Error Screen](/images/cf-i1.png)
 
+
 Follow these steps to diagnose the issue:
 
-1. **Check the SEED Dashboard**: Start by investigating the reason why access to certain resources is restricted. Ensure the following:
-
-   - Your Cloudflare WARP client is connected and enrolled in the `gccgovsg` organisation.
-   - The Tanium Client is installed and running on your device.
-
-Once these conditions are met, you can access the SEED Dashboard on your GMD to further diagnose the issue with your device.
+   **Verify the following:**
+   1. The Cloudflare WARP client is connected and enrolled in the `gccgovsg` organisation (refer to [this guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues?id=receiving-notifications-on-desktop-and-email-for-misconfigurations-on-seed-device&product=security%20suite%20for%20engineering%20endpoint%20devices%20(seed)).
+   2. The Tanium Client is installed and running on your device (refer to [this guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues?id=tanium-issues&product=security%20suite%20for%20engineering%20endpoint%20devices%20(seed)).
+   3. Your operating system meets the [prerequisites](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/seed-prerequisites).
+   4. Check the [SEED dashboard](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/seed-prerequisites) to confirm the reason access to certain resources is restricted, and perform any remediation steps if required.
+   5. Sync the latest device posture using [this guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues?id=how-to-sync-the-latest-device-posture&product=security%20suite%20for%20engineering%20endpoint%20devices%20(seed))
+   6. Retry access:
+      a. Wait at least 15 minutes before trying again.
+      b. If access still fails, try using an incognito window.
+      c. If access works in incognito mode, clear your browser cache and retry.
+      4d. If the issue persists, log a ticket at <http://go.gov.sg/seed-techpass-support>.
 
 ### Possible reasons for blocking
 
@@ -141,7 +314,7 @@ Access to SGTS resources may be blocked for the following reasons:
 **Check for Tanium Client installation**
 
 1. Open *Terminal*.
-2. Eun the following command:
+2. Run the following command:
    ```sudo ls /Library/Tanium/TaniumClient```
 3. Enter your macOS password when prompted.
 4. If you see confirmation, as shown in the image below, Tanium Client is installed on your device.
@@ -155,7 +328,7 @@ Access to SGTS resources may be blocked for the following reasons:
 
 If your device remains blocked after checking all other settings, please try to connect using a mobile hotspot and wait for 15-20 minutes for the Tanium server to find your device.
 
-If your device is unblocked after connecting via mobile hotspot, it is likely that the firewall of the previous network you are connecting to is blocking the Tanium IPs. Whitelist the Tanium IPs to resolve this issue. The IP addresses can be found at this [link](https://docs.developer.tech.gov.sg/docs/tanium-ip/README) (accessible via TechPass login).
+If your device is unblocked after connecting via mobile hotspot, it is likely that the firewall of the previous network you are connecting to is blocking the Tanium IPs. Whitelist the Tanium IPs to resolve this issue. The IP addresses can be found at this [link](https://docs.developer.tech.gov.sg/docs/tanium-and-egress-ip/?product=security%20suite%20for%20engineering%20endpoint%20devices%20(seed)&id=firewall-blocking-tanium-access) (accessible via TechPass login).
 
 ## Receiving notifications on desktop and email for misconfigurations on SEED device
 
@@ -208,17 +381,13 @@ If your device is unblocked after connecting via mobile hotspot, it is likely th
    - [Public officer](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/public-officer)
    - [Vendor](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/onboard-device/vendor)
 
-#### Defender
+#### Crowdstrike
 
-**Ensure that the Defender service is running**
+**Ensure that Crowdstrike is running**
 
-1. Search for *Run* in the search bar and type *services.msc*.
-2. Ensure that *Microsoft Defender Antivirus Service* and *Microsoft Defender Core Service* are running.
-
-![defender run](/images/defender-run.png)
-
-3. If the services are not running, reboot your system and verify again, or try to start them manually by right-clicking and click *Start*.
-4. If your services are unable to start after multiple attempts, raise a [service request](http://go.gov.sg/seed-techpass-support)
+1. Ensure that *Crowdstrike* is running and it is healthy via this [guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues?id=how-to-verify-if-crowdstrike-is-configured-correctly&product=security%20suite%20for%20engineering%20endpoint%20devices%20(seed)).
+2. If the services are not running, reboot your system and verify again, or try to start them manually by right-clicking and click *Start*.
+3. If your services are unable to start after multiple attempts, raise a [service request](http://go.gov.sg/seed-techpass-support)
 
 **Ensure that real-time protection and cloud protection are turned on**
 
@@ -231,21 +400,6 @@ If your device is unblocked after connecting via mobile hotspot, it is likely th
 4. If they cannot be enabled, navigate to the previous page and click *Check for Updates* under *Virus & threat protection Updates*, and install the updates, if any.
 5. If it is still not enabled, raise a [service request](http://go.gov.sg/seed-techpass-support), and state *Disabled Real-Time protection and Cloud-delivered protection* in the description.
 
-**Ensure that Defender has a valid tenant**
-
-1. Go to the Start menu and enter Powershell.
-2. Right-click on the search result for PowerShell and select Run as Administrator
-3. On Powershell, run the following command:
-```
-$reg64 = [Microsoft.Win32.RegistryKey]::OpenBaseKey([Microsoft.Win32.RegistryHive]::LocalMachine, [Microsoft.Win32.RegistryView]::Registry64)
-$OrgID =  $reg64.OpenSubKey("SOFTWARE\MICROSOFT\Windows Advanced Threat Protection\Status").GetValue("OrgID")
-echo $OrgID
-```
-4. Take note of the value displayed for OrgID.
-5. Ensure that the value is one of the following:
-   - Public officers: faa36a5e-2da6-4225-8e27-226177c801a0
-   - Vendors: 49237d71-42ac-425a-a803-881b92cc18ce
-6. If the values are different, check with your IT administrator to identify which Defender tenant you are currently under and offboard from that tenant before attempting to re-onboard.
 
 ### **macOS**
 
@@ -291,65 +445,11 @@ echo $OrgID
 
 > **Note**: Perform a sync to check that the device is able to communicate with Intune.
 
-#### Defender
+#### Crowdstrike
 
-**Ensure that the Defender service is installed**
+Ensure that *Crowdstrike* is running and it is healthy via this [guide](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/troubleshooting-issues?id=how-to-verify-if-crowdstrike-is-configured-correctly&product=security%20suite%20for%20engineering%20endpoint%20devices%20(seed)).
 
-1. Access the *Application* folder.
 
-![mac-app](/images/mac-app.png)
-
-**Ensure that the Defender service is running and is healthy**
-
-1. Open *Terminal*.
-2. Run `ps aux | grep -i "Defender"`.
-3. Ensure you see the following output:
-
-![defender-terminal](/images/defender-terminal.png)
-
-**If the service is not running, refer to the following steps**:
-
-1. Open *Terminal*.
-2. Run the following command to start the services:
-   - `sudo launchctl kickstart -k system/com.microsoft.wdav`
-   - `sudo launchctl kickstart -k system/com.microsoft.wdav.enterprise`
-3. Run `ps aux | grep -i "Defender"` to verify if the services are running now.
-4. If the issue persists, raise a [service request](http://go.gov.sg/seed-techpass-support)
-
-**Ensure that Defender has real-time protection enabled**
-
-1. Open *Terminal*.
-2. Run `mdatp health --field real_time_protection_enabled`.
-3. Ensure that the value is *true*.
-
-**Ensure that Defender is cloud enabled**
-
-1. Open *Terminal*.
-2. Run `mdatp health --field cloud_enabled`.
-3. Ensure that the value is *true*.
-
-![mac-virus](/images/mac-virus.png)
-
-**Ensure that Defender has a valid tenant**
-
-1. Open *Terminal*.
-2. Run `mdatp health --field org_id`.
-3. Ensure that the value is one of the following:
-   - Public officers: faa36a5e-2da6-4225-8e27-226177c801a0
-   - Vendors: 49237d71-42ac-425a-a803-881b92cc18ce
-4. If the values are different, please check with your IT administrator to identify which Defender tenant you are currently under and offboard from that tenant before attempting to re-onboard.
-
-**Ensure that Defender definitions are updated**
-
-1. Open Microsoft Defender.
-2. Under *Virus & threat protection updates*, click *Check for updates*.
-
-![mac-check](/images/mac-check.png)
-
-3. Click *Help* > *Check for product updates*.
-4. Click *Update All*.
-
-![mac-virus](/images/mac-update-all.png)
 
 <!-- tabs:end -->
 
@@ -366,79 +466,10 @@ When using SGTS products with Cloudflare WARP turned off, you might encounter an
 
 If you are facing an issue with your Cloudflare WARP, please follow the solutions in this page. Alternatively, [raise a service request](https://go.gov.sg/seed-techpass-support) for assistance.
 
-## Cloudflare WARP is in *Connecting* status
-
-If your Cloudflare WARP is stuck in the connecting status, please follow these steps to resolve the issue:
-
-1. Click the **Start** icon in the taskbar.
-
-2. Navigate to **Settings** > **Apps**.
-
-3. Search for **Cloudflare WARP** and select **Uninstall**.
-
-After uninstalling, proceed to [download Cloudflare WARP](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/)
-
-For a smooth experience, download the following versions:
-
-- **Windows**: Version 2024.3.409.0
-- **macOS**: Version 2024.3.444.0
-
-Once downloaded, follow these steps:
-
-1. Click the **gear** icon > **Preferences** > **Account**.
-
-   ![gear](/images/disconnected-cf.png)
-
-2. Log in with Cloudflare for Teams.
-3. Enter **gccgovsg** in the organisation name field.
-4. 
-   ![gear](/images/gcc-org.png)
-   
-6. Test using incognito mode using Google Chrome or Microsoft Edge browser and test using your personal hotspot or home Wi-Fi.
-
-Ensure to re-authenticate your Cloudflare WARP client with the following steps:
-
-1. Clear your browsing history/cache on Chrome.
-
-2. Click the **Cloudflare WARP** icon.
-   
-   - Click the **gear** icon.
-   - Navigate to **Preferences** > **Account**.
-   - Click **Re-authenticate with Cloudflare zero trust**.
-
-3. Reboot your machine.
-
-
-## Experiencing the *Account does not have access* error
-
-When using SGTS products with Cloudflare WARP, you might encounter an error message saying, *That account does not have access*.
-
-### Solution
-
-1.  First, check the following:
-
-    - Have you received the *successfully onboarded* email from SEED?
-    - Are you using one of the supported browsers?
-    - Is your Cloudflare WARP client connected and up to date?
-    - Open Cloudflare WARP **Settings** and ensure "Gateway with WARP" is selected.
-    - For Windows users, check if Tanium is listed in the **Start** menu.
-    - For macOS users, look for Tanium in **Finder** > **Applications**.
-    - Ensure your device's operating system is up to date.
-    - Make sure Defender is updated and running.
-    - Check if your TechPass account has the necessary permissions for GCC 2.0 CMP or a specific SGTS service.
-
-> **Note**:
->- SEED does not support running other VPN clients alongside Cloudflare WARP.
->- It is recommended not to use WARP and a VPN simultaneously.
-
-2. If you are running a VPN client along with WARP, ensure that the VPN configuration doesn't route all traffic and DNS queries to the VPN server.
-
-3. If the issues persist, [generate a diagnostic report](https://docs.developer.tech.gov.sg/docs/security-suite-for-engineering-endpoint-devices/support/generate-diagnostic-files) and upload it to the [service request](https://go.gov.sg/seed-techpass-support).
-
 
 ## Connectivity issues for macOS and windows WARP users
 
-Cloudflare has reported connectivity problems for users with macOS and Windows WARP. Users may experience intermittent connectivity issues while trying to access websites.
+Users may experience intermittent connectivity issues while trying to access websites.
 
 
 ### Solutions
@@ -461,7 +492,7 @@ Cloudflare has reported connectivity problems for users with macOS and Windows W
 3. Enter `Y`. When WARP is successfully uninstalled, the message ```Finished uninstallation!``` is displayed.
 
 4. Proceed to [download Cloudflare WARP](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/).
-   - **macOS**: Version 2024.3.444.0 
+  - **macOS**: Version 2025.7.176.0
 
 #### **Windows**
 
@@ -469,7 +500,7 @@ Cloudflare has reported connectivity problems for users with macOS and Windows W
 2. Go to **Settings** > **Apps** and search for **Cloudflare WARP**.
 3. Choose Cloudflare WARP and click **Uninstall**.
 4. Proceed to [download Cloudflare WARP](https://developers.cloudflare.com/cloudflare-one/connections/connect-devices/warp/download-warp/).
-   - **Windows**: Version 2024.3.409.0
+   - **Windows**: Version 2025.7.176.0
 
 <!-- tabs:end -->
 
@@ -497,5 +528,7 @@ Ensure to re-authenticate your Cloudflare WARP client with the following steps:
    - Click **Re-authenticate with Cloudflare zero trust**.
 
 3. Reboot your machine.
+
+
 
 
